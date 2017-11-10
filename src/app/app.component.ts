@@ -9,6 +9,7 @@ import {FavoriteListPage} from '../pages/favorite-list/favorite-list';
 import {WelcomePage} from '../pages/welcome/welcome';
 import {AboutPage} from '../pages/about/about';
 import {GlobalvarsProvider} from '../providers/globalvars/globalvars';
+import { Events } from 'ionic-angular';
 
 
 export interface MenuItem {
@@ -32,12 +33,14 @@ export class MyApp {
 
     helpMenuItems: Array<MenuItem>;
 
-    constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen,public GlobalvarsProvider: GlobalvarsProvider) {
-
-        this.gid = this.GlobalvarsProvider.getgid();
+    constructor(public events: Events,public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen,public GlobalvarsProvider: GlobalvarsProvider) {
+         events.subscribe('user:created', (user, time) => {
+            // user and time are the same arguments passed in `events.publish(user, time)`
+            this.gid = this.GlobalvarsProvider.getgid();
+          });
         this.initializeApp();
         this.appMenuItems = [
-            {title: 'Product', component: PropertyListPage, icon: 'home'},
+            {title: this.gid, component: PropertyListPage, icon: 'home'},
             {title: 'Farmers', component: BrokerListPage, icon: 'people'},
             {title: 'Cart', component: FavoriteListPage, icon: 'star'},
             {title: 'My Orders', component: WelcomePage, icon: 'checkmark-circle'},

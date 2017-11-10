@@ -10,8 +10,7 @@ import {PropertyListPage} from '../property-list/property-list';
 import {Http } from '@angular/http';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
-import {  MenuController } from 'ionic-angular';
-import {GlobalvarsProvider} from '../../providers/globalvars/globalvars';
+import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
 
 @Component({
     selector: 'page-welcome',
@@ -22,7 +21,7 @@ export class WelcomePage {
     properties: Array<any>;
     sect: Array<any>;
 	 pushPage: any;
-	  constructor(public GlobalvarsProvider:GlobalvarsProvider,fb: FormBuilder,public platform: Platform,public navCtrl: NavController,private http: Http,private menu : MenuController){
+	  constructor(public GlobalvarsProvider:GlobalvarsProvider,fb: FormBuilder,public platform: Platform,public navCtrl: NavController,private http: Http){
 	    this.pushPage = TermsandagreementPage;
 	    this.form = fb.group({
         name: fb.group({
@@ -30,7 +29,6 @@ export class WelcomePage {
           pw: '',
         }),
       });
-
 	  }
 
 
@@ -65,8 +63,7 @@ export class WelcomePage {
              alert("incorrect username or password!");
            }else{
              this.GlobalvarsProvider.setgid(data["_body"]);
-             var id = data["_body"];
-             this.navCtrl.setRoot(PropertyListPage,id);
+             this.navCtrl.setRoot(PropertyListPage);
            }
          }, error => {
          alert("incorrect username or password!");

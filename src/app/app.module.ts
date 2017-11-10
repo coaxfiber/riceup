@@ -53,8 +53,8 @@ import { GlobalvarsProvider } from '../providers/globalvars/globalvars';
     StatusBar,
     SplashScreen,
     PropertyService,
-    BrokerService,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}, GlobalvarsProvider
+    BrokerService,GlobalvarsProvider,
+    {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
 export class AppModule {}
