@@ -1,0 +1,49 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>Property</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-card *ngIf="property.id">
+        <img src="http://localhost/riceup/assets/img/{{ property.id }}.jpg"/>
+        <ion-card-content>
+            <h2 class="card-title">{{property.name}}</h2>
+            <p>{{property.description}}</p>
+        </ion-card-content>
+        <ion-list>
+
+            <ion-item>
+                <ion-icon item-left name="leaf"></ion-icon>
+                <h3>Stocks</h3>
+                <ion-note item-right>{{property.stock}}</ion-note>
+            </ion-item>
+            <ion-item>
+                <ion-icon item-left name="pricetag"></ion-icon>
+                <h3>Asking Price</h3>
+                <ion-note item-right>{{property.price}}</ion-note>
+            </ion-item>
+            <button ion-item *ngFor="let broker of brokers" (click)="openBrokerDetail(broker)">
+                <ion-avatar item-left>
+                    <img src="http://localhost/riceup/assets/img/{{ broker.id }}.jpg"/>
+                </ion-avatar>
+                <h2>{{ broker.lname }}, {{ broker.fname }} {{ broker.mname }}</h2>
+                <p>{{ broker.team_group }}</p>
+            </button>
+        </ion-list>
+        <ion-item>
+                <ion-icon name="cart" item-left ></ion-icon>
+                <h3 item-left >Quantity:</h3>
+                <ion-input type="number" value="0" text-right item-right></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-icon item-left name="cash"></ion-icon>
+                <h3>Total Price:</h3>
+                <ion-note item-right>1000</ion-note>
+            </ion-item>
+
+        <button ion-button class="submit-btn" block >Add to Cart</button>
+
+
+    </ion-card>
+</ion-content>
