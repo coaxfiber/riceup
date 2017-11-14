@@ -10,21 +10,23 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { BrokerService } from '../../providers/broker-service-mock';
+import { Http } from '@angular/http';
 var BrokerDetailPage = /** @class */ (function () {
-    function BrokerDetailPage(navCtrl, navParams, service) {
-        var _this = this;
+    function BrokerDetailPage(http, navCtrl, navParams, service) {
+        this.http = http;
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.service = service;
         this.broker = this.navParams.data;
-        service.findById(this.broker.id).then(function (broker) { return _this.broker = broker; });
+        console.log('this');
+        console.log(this.broker);
     }
     BrokerDetailPage = __decorate([
         Component({
             selector: 'page-broker-detail',
             templateUrl: 'broker-detail.html'
         }),
-        __metadata("design:paramtypes", [NavController, NavParams, BrokerService])
+        __metadata("design:paramtypes", [Http, NavController, NavParams, BrokerService])
     ], BrokerDetailPage);
     return BrokerDetailPage;
 }());

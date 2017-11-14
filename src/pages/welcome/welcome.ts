@@ -12,6 +12,7 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
 
+import { Events } from 'ionic-angular';
 @Component({
     selector: 'page-welcome',
     templateUrl: 'welcome.html'
@@ -20,8 +21,9 @@ export class WelcomePage {
   form: FormGroup;data:any = {};
     properties: Array<any>;
     sect: Array<any>;
-	 pushPage: any;
-	  constructor(public GlobalvarsProvider:GlobalvarsProvider,fb: FormBuilder,public platform: Platform,public navCtrl: NavController,private http: Http){
+   pushPage: any;
+   farmer: any;
+	  constructor(public events: Events,public GlobalvarsProvider:GlobalvarsProvider,fb: FormBuilder,public platform: Platform,public navCtrl: NavController,private http: Http){
 	    this.pushPage = TermsandagreementPage;
 	    this.form = fb.group({
         name: fb.group({
@@ -31,7 +33,7 @@ export class WelcomePage {
       });
 	  }
 
-
+    
 
 	  calltologin()
     /*{
@@ -64,6 +66,7 @@ export class WelcomePage {
            }else{
              this.GlobalvarsProvider.setgid(data["_body"]);
              this.navCtrl.setRoot(PropertyListPage);
+             this.createUser(this.GlobalvarsProvider.getgid());
            }
          }, error => {
          alert("incorrect username or password!");
@@ -72,5 +75,10 @@ export class WelcomePage {
       else{
         alert("Please input username or password");
       }
+    }
+
+    createUser(user) {
+      console.log('User created!')
+      this.events.publish('user:created', user, this.GlobalvarsProvider.getgid());
     }
 }

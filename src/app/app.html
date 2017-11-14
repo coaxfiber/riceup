@@ -2,8 +2,14 @@
 
   <ion-content>
 
-    <img src="http://localhost/riceup/assets/img/{{gid}}.jpg" class="menu-logo"/>
-
+    <ion-card-content>
+            <img src="http://localhost/riceup/assets/img/{{gid}}.jpg"/>
+             <ion-item *ngFor="let men of farmer">
+                <h3>{{ men.lname }}, {{ men.fname }} {{ men.mname }}</h3>
+                <ion-note>{{ men.team_group }}</ion-note>
+            </ion-item>
+    </ion-card-content>
+   
     <ion-list>
       <ion-list-header>
         Shop

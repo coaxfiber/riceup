@@ -19,6 +19,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import {TermsandagreementPage} from '../pages/termsandagreement/termsandagreement';
+import {OrderListPage} from '../pages/order-list/order-list';
+import {CartPage} from '../pages/cart/cart';
 import { GlobalvarsProvider } from '../providers/globalvars/globalvars';
 
 @NgModule({
@@ -31,7 +33,7 @@ import { GlobalvarsProvider } from '../providers/globalvars/globalvars';
     FavoriteListPage,
     BrokerListPage,
     BrokerDetailPage,
-    TermsandagreementPage
+    TermsandagreementPage,OrderListPage,CartPage
   ],
   imports: [
     BrowserModule,
@@ -47,7 +49,7 @@ import { GlobalvarsProvider } from '../providers/globalvars/globalvars';
     PropertyDetailPage,
     FavoriteListPage,
     BrokerListPage,
-    BrokerDetailPage,TermsandagreementPage
+    BrokerDetailPage,TermsandagreementPage,OrderListPage,CartPage
   ],
   providers: [
     StatusBar,

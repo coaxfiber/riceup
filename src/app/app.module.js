@@ -21,6 +21,7 @@ import { BrokerService } from "../providers/broker-service-mock";
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { TermsandagreementPage } from '../pages/termsandagreement/termsandagreement';
+import { OrderListPage } from '../pages/order-list/order-list';
 import { GlobalvarsProvider } from '../providers/globalvars/globalvars';
 var AppModule = /** @class */ (function () {
     function AppModule() {
@@ -36,7 +37,7 @@ var AppModule = /** @class */ (function () {
                 FavoriteListPage,
                 BrokerListPage,
                 BrokerDetailPage,
-                TermsandagreementPage
+                TermsandagreementPage, OrderListPage
             ],
             imports: [
                 BrowserModule,
@@ -52,14 +53,14 @@ var AppModule = /** @class */ (function () {
                 PropertyDetailPage,
                 FavoriteListPage,
                 BrokerListPage,
-                BrokerDetailPage, TermsandagreementPage
+                BrokerDetailPage, TermsandagreementPage, OrderListPage
             ],
             providers: [
                 StatusBar,
                 SplashScreen,
                 PropertyService,
-                BrokerService,
-                { provide: ErrorHandler, useClass: IonicErrorHandler }, GlobalvarsProvider
+                BrokerService, GlobalvarsProvider,
+                { provide: ErrorHandler, useClass: IonicErrorHandler }
             ]
         })
     ], AppModule);

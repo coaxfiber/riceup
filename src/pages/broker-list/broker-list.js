@@ -23,9 +23,9 @@ var BrokerListPage = /** @class */ (function () {
         this.http.get('http://localhost/riceup/riceupapi.php?action=getall')
             .map(function (response) { return response.json(); })
             .subscribe(function (res) { return _this.brokers = res; });
-        service.findAll().then(function (data) { return _this.brokers = data; });
     }
     BrokerListPage.prototype.openBrokerDetail = function (broker) {
+        console.log(broker);
         this.navCtrl.push(BrokerDetailPage, broker);
     };
     BrokerListPage.prototype.showMap = function () {
@@ -46,7 +46,7 @@ var BrokerListPage = /** @class */ (function () {
         this.markersGroup = leaflet.layerGroup([]);
         this.brokers.forEach(function (property) {
             if (property.loclat, property.loclng) {
-                var marker = leaflet.marker([property.lat, property.long]).on('click', function (event) { return _this.openBrokerDetail(event.target.data); });
+                var marker = leaflet.marker([property.loclat, property.loclng]).on('click', function (event) { return _this.openBrokerDetail(event.target.data); });
                 marker.data = property;
                 _this.markersGroup.addLayer(marker);
             }

@@ -8,9 +8,11 @@ import {BrokerListPage} from '../pages/broker-list/broker-list';
 import {FavoriteListPage} from '../pages/favorite-list/favorite-list';
 import {WelcomePage} from '../pages/welcome/welcome';
 import {AboutPage} from '../pages/about/about';
+import {OrderListPage} from '../pages/order-list/order-list';
 import {GlobalvarsProvider} from '../providers/globalvars/globalvars';
 import { Events } from 'ionic-angular';
 
+import {Http } from '@angular/http';
 
 export interface MenuItem {
     title: string;
@@ -25,27 +27,35 @@ export class MyApp {
     @ViewChild(Nav) nav: Nav;
 
     gid: string;
+    id: string;
     rootPage: any = WelcomePage;
-
+    farmer :any;
     appMenuItems: Array<MenuItem>;
-
+    name:string=null;
+    group:string=null;
     accountMenuItems: Array<MenuItem>;
 
     helpMenuItems: Array<MenuItem>;
 
-    constructor(public events: Events,public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen,public GlobalvarsProvider: GlobalvarsProvider) {
-         events.subscribe('user:created', (user, time) => {
-            // user and time are the same arguments passed in `events.publish(user, time)`
-            this.gid = this.GlobalvarsProvider.getgid();
-          });
+    constructor(private http: Http,public events: Events,public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen,public GlobalvarsProvider: GlobalvarsProvider) {
+
         this.initializeApp();
-        this.appMenuItems = [
-            {title: this.gid, component: PropertyListPage, icon: 'home'},
+
+         events.subscribe('user:created', (user, time) => {
+            // user and time are the same arguments passed in `events.publish(user, time)`4
+             this.http.get('http://localhost/riceup/riceupapi.php?action=getafarmer&farmer='+this.GlobalvarsProvider.getgid())
+          .map(response => response.json())
+          .subscribe(res => this.farmer = res);
+            
+          this.gid=this.GlobalvarsProvider.getgid();
+            this.appMenuItems = [
+            {title: 'Products', component: PropertyListPage, icon: 'home'},
             {title: 'Farmers', component: BrokerListPage, icon: 'people'},
             {title: 'Cart', component: FavoriteListPage, icon: 'star'},
-            {title: 'My Orders', component: WelcomePage, icon: 'checkmark-circle'},
-        ];
-
+            {title: 'My Orders', component: OrderListPage, icon: 'checkmark-circle'},
+            ];
+          });
+        
         this.accountMenuItems = [
             {title: 'My Account', component: WelcomePage, icon: 'ios-contact'},
             {title: 'Logout', component: WelcomePage, icon: 'log-out'},

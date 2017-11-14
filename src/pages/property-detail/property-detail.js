@@ -11,9 +11,11 @@ import { Component } from '@angular/core';
 import { ActionSheetController, NavController, NavParams, ToastController } from 'ionic-angular';
 import { BrokerDetailPage } from '../broker-detail/broker-detail';
 import { PropertyService } from '../../providers/property-service-mock';
+import { Http } from '@angular/http';
 var PropertyDetailPage = /** @class */ (function () {
-    function PropertyDetailPage(actionSheetCtrl, navCtrl, navParams, propertyService, toastCtrl) {
+    function PropertyDetailPage(http, actionSheetCtrl, navCtrl, navParams, propertyService, toastCtrl) {
         var _this = this;
+        this.http = http;
         this.actionSheetCtrl = actionSheetCtrl;
         this.navCtrl = navCtrl;
         this.navParams = navParams;
@@ -21,8 +23,12 @@ var PropertyDetailPage = /** @class */ (function () {
         this.toastCtrl = toastCtrl;
         this.property = this.navParams.data;
         propertyService.findById(this.property.id).then(function (property) { return _this.property = property; });
+        this.http.get('http://localhost/riceup/riceupapi.php?action=getafarmer&farmer=' + this.property.ownerid)
+            .map(function (response) { return response.json(); })
+            .subscribe(function (res) { return _this.brokers = res; });
     }
     PropertyDetailPage.prototype.openBrokerDetail = function (broker) {
+        console.log(broker);
         this.navCtrl.push(BrokerDetailPage, broker);
     };
     PropertyDetailPage.prototype.favorite = function (property) {
@@ -67,7 +73,7 @@ var PropertyDetailPage = /** @class */ (function () {
             selector: 'page-property-detail',
             templateUrl: 'property-detail.html'
         }),
-        __metadata("design:paramtypes", [ActionSheetController, NavController, NavParams, PropertyService, ToastController])
+        __metadata("design:paramtypes", [Http, ActionSheetController, NavController, NavParams, PropertyService, ToastController])
     ], PropertyDetailPage);
     return PropertyDetailPage;
 }());

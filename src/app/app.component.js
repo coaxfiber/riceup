@@ -17,17 +17,34 @@ import { FavoriteListPage } from '../pages/favorite-list/favorite-list';
 import { WelcomePage } from '../pages/welcome/welcome';
 import { AboutPage } from '../pages/about/about';
 import { GlobalvarsProvider } from '../providers/globalvars/globalvars';
+import { Events } from 'ionic-angular';
+import { Http } from '@angular/http';
 var MyApp = /** @class */ (function () {
-    function MyApp(platform, statusBar, splashScreen, GlobalvarsProvider) {
+    function MyApp(http, events, platform, statusBar, splashScreen, GlobalvarsProvider) {
+        var _this = this;
+        this.http = http;
+        this.events = events;
         this.platform = platform;
         this.statusBar = statusBar;
         this.splashScreen = splashScreen;
         this.GlobalvarsProvider = GlobalvarsProvider;
         this.rootPage = WelcomePage;
-        this.gid = this.GlobalvarsProvider.getgid();
+        events.subscribe('user:created', function (user, time) {
+            // user and time are the same arguments passed in `events.publish(user, time)`
+            _this.http.get('http://localhost/riceup/riceupapi.php?action=getufarmer&ufarmer=' + _this.GlobalvarsProvider.getgid())
+                .map(function (response) { return response.json(); })
+                .subscribe(function (res) { return _this.farmer = res; });
+            _this.gid = _this.GlobalvarsProvider.getgid();
+            _this.appMenuItems = [
+                { title: 'Products', component: PropertyListPage, icon: 'home' },
+                { title: 'Farmers', component: BrokerListPage, icon: 'people' },
+                { title: 'Cart', component: FavoriteListPage, icon: 'star' },
+                { title: 'My Orders', component: WelcomePage, icon: 'checkmark-circle' },
+            ];
+        });
         this.initializeApp();
         this.appMenuItems = [
-            { title: 'Product', component: PropertyListPage, icon: 'home' },
+            { title: this.gid, component: PropertyListPage, icon: 'home' },
             { title: 'Farmers', component: BrokerListPage, icon: 'people' },
             { title: 'Cart', component: FavoriteListPage, icon: 'star' },
             { title: 'My Orders', component: WelcomePage, icon: 'checkmark-circle' },
@@ -64,7 +81,7 @@ var MyApp = /** @class */ (function () {
         Component({
             templateUrl: 'app.html'
         }),
-        __metadata("design:paramtypes", [Platform, StatusBar, SplashScreen, GlobalvarsProvider])
+        __metadata("design:paramtypes", [Http, Events, Platform, StatusBar, SplashScreen, GlobalvarsProvider])
     ], MyApp);
     return MyApp;
 }());
