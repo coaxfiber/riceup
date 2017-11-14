@@ -9,12 +9,10 @@ import {Http } from '@angular/http';
 })
 export class BrokerDetailPage {
 
-    broker: any;
+    farmer: any;
 
     constructor(private http: Http,public navCtrl: NavController, public navParams: NavParams, public service: BrokerService) {
-        this.broker = this.navParams.data;
-        console.log('this');
-        console.log(this.broker );
+        this.farmer = this.navParams.data;
     }
 
 }

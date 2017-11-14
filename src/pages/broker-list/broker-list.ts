@@ -11,29 +11,33 @@ import {Http } from '@angular/http';
 })
 export class BrokerListPage {
 
-    brokers: Array<any>;
+    farmers: Array<any>;
     viewMode: string = "list";
     map;
     markersGroup;
     constructor(public navCtrl: NavController, public service: BrokerService,private http: Http) {
-    	this.http.get('http://localhost/riceup/riceupapi.php?action=getall')
+    	this.http.get('http://127.0.0.1:8000/api/users/farmer')
           .map(response => response.json())
-          .subscribe(res => this.brokers = res);
+          .subscribe(res => this.farmers = res);
     }
 
-    openBrokerDetail(broker: any) {
-        console.log(broker);
-        this.navCtrl.push(BrokerDetailPage, broker);
+    openBrokerDetail(farmer: any) {
+        this.navCtrl.push(BrokerDetailPage, farmer);
     }
 
     showMap() {
-        setTimeout(() => {
+        if (this.map==null) {
+           setTimeout(() => {
             this.map = leaflet.map("map").setView([42.361132, -71.070876], 14);
             leaflet.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
                 attribution: 'Tiles &copy; Esri'
             }).addTo(this.map);
             this.showMarkers();
+
         })
+        }
+        this.map=null;
+        
     }
 
     showMarkers() {
@@ -41,9 +45,9 @@ export class BrokerListPage {
             this.map.removeLayer(this.markersGroup);
         }
         this.markersGroup = leaflet.layerGroup([]);
-        this.brokers.forEach(property => {
-            if (property.loclat, property.loclng) {
-                let marker: any = leaflet.marker([property.loclat, property.loclng]).on('click', event => this.openBrokerDetail(event.target.data));
+        this.farmers.forEach(property => {
+            if (property.address_lat, property.address_long) {
+                let marker: any = leaflet.marker([property.address_lat, property.address_long]).on('click', event => this.openBrokerDetail(event.target.data));
                 marker.data = property;
                 this.markersGroup.addLayer(marker);
             }

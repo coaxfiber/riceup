@@ -18,7 +18,7 @@ export class PropertyListPage {
     markersGroup;
     constructor(public GlobalvarsProvider:GlobalvarsProvider, public navParams: NavParams,private http: Http,private menu : MenuController,public navCtrl: NavController, public service: PropertyService, public config: Config) {
       
-        this.http.get('http://localhost/riceup/riceupapi.php?action=getproall')
+        this.http.get('http://127.0.0.1:8000/api/products')
           .map(response => response.json())
           .subscribe(res => this.properties = res);
         this.findAll();

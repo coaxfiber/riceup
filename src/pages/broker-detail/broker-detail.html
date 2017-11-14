@@ -9,32 +9,37 @@
     <ion-card>
 
         <ion-card-content>
-            <img src="http://localhost/riceup/assets/img/{{broker.id}}.jpg"/>
-            <h2>{{broker.lname}}, {{broker.fname}} {{broker.mname}}</h2>
-            <h3>{{broker.team_group}}</h3>
+            <img src="http://localhost/riceup/assets/img/{{farmer.id}}.jpg"/>
+            <h2>{{farmer.lastname}}, {{farmer.firstname}} {{farmer.middlename}}</h2>
+            <h3>{{farmer.business_name}}</h3>
         </ion-card-content>
 
         <ion-list>
             
-            <a href="tel:{{broker.mobile_number}}" ion-item>
+            <a href="tel:{{farmer.mobile_number}}" ion-item>
                 <ion-icon name="text" item-left></ion-icon>
                 <p>Call/Text</p>
-                <h2>{{broker.mobile_number}}</h2>
+                <h2>{{farmer.mobile_no}}</h2>
             </a>
-            <a href="mailto:{{broker.email_address}}" ion-item>
+            <a href="mailto:{{farmer.email_address}}" ion-item>
                 <ion-icon name="mail" item-left></ion-icon>
                 <p>Email</p>
-                <h2>{{broker.email_address}}</h2>
+                <h2>{{farmer.email}}</h2>
             </a>
             <a href="#" ion-item>
                 <ion-icon name="calendar" item-left></ion-icon>
-                <p>Business Started</p>
-                <h2>{{broker.business_date}}</h2>
+                <p>Years in Business</p>
+                <h2>{{farmer.years_in_business}}</h2>
+            </a>
+            <a href="#" ion-item>
+                <ion-icon name="calendar" item-left></ion-icon>
+                <p>Years in Farming</p>
+                <h2>{{farmer.years_in_farming}}</h2>
             </a>
             <a href="#" ion-item>
                 <ion-icon name="pin" item-left></ion-icon>
                 <p>Address</p>
-                <h2>{{broker.address}}</h2>
+                <h2>{{farmer.address}}</h2>
             </a>
         </ion-list>
 

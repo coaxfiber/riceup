@@ -2,8 +2,8 @@ import {Component} from '@angular/core';
 import {ActionSheetController, ActionSheet, NavController, NavParams, ToastController} from 'ionic-angular';
 import {BrokerDetailPage} from '../broker-detail/broker-detail';
 import {PropertyService} from '../../providers/property-service-mock';
-
 import {Http } from '@angular/http';
+
 @Component({
     selector: 'page-property-detail',
     templateUrl: 'property-detail.html'
@@ -11,17 +11,12 @@ import {Http } from '@angular/http';
 export class PropertyDetailPage {
 
     property: any;
-    brokers: Array<any>;
 
     constructor(private http: Http,public actionSheetCtrl: ActionSheetController, public navCtrl: NavController, public navParams: NavParams, public propertyService: PropertyService, public toastCtrl: ToastController) {
         this.property = this.navParams.data;
         propertyService.findById(this.property.id).then(
             property => this.property = property
         );
-
-        this.http.get('http://localhost/riceup/riceupapi.php?action=getafarmer&farmer='+this.property.ownerid)
-          .map(response => response.json())
-          .subscribe(res => this.brokers = res);
           
           
     }

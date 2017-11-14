@@ -8,27 +8,37 @@
     <ion-card *ngIf="property.id">
         <img src="http://localhost/riceup/assets/img/{{ property.id }}.jpg"/>
         <ion-card-content>
-            <h2 class="card-title">{{property.name}}</h2>
-            <p>{{property.description}}</p>
+            <h2 class="card-title">{{property.product_name}}</h2>
+            <p>{{property.product_desc}}</p>
         </ion-card-content>
         <ion-list>
 
             <ion-item>
                 <ion-icon item-left name="leaf"></ion-icon>
                 <h3>Stocks</h3>
-                <ion-note item-right>{{property.stock}}</ion-note>
+                <ion-note item-right>{{property.stocks_available}}</ion-note>
+            </ion-item>
+            <ion-item>
+                <ion-icon item-left name="leaf"></ion-icon>
+                <h3>Unit Type</h3>
+                <ion-note item-right>{{property.unit_type}}</ion-note>
             </ion-item>
             <ion-item>
                 <ion-icon item-left name="pricetag"></ion-icon>
-                <h3>Asking Price</h3>
-                <ion-note item-right>{{property.price}}</ion-note>
+                <h3>Price Per Unit</h3>
+                <ion-note item-right>{{property.price_per_unit}}</ion-note>
             </ion-item>
-            <button ion-item *ngFor="let broker of brokers" (click)="openBrokerDetail(broker)">
+            <ion-item>
+                <ion-icon item-left name="pricetag"></ion-icon>
+                <h3>Date of Harvest</h3>
+                <ion-note item-right>{{property.date_of_harvest}}</ion-note>
+            </ion-item>
+            <button ion-item (click)="openBrokerDetail(property.user)">
                 <ion-avatar item-left>
-                    <img src="http://localhost/riceup/assets/img/{{ broker.id }}.jpg"/>
+                    <img src="http://localhost/riceup/assets/img/{{ property.user.id}}.jpg"/>
                 </ion-avatar>
-                <h2>{{ broker.lname }}, {{ broker.fname }} {{ broker.mname }}</h2>
-                <p>{{ broker.team_group }}</p>
+                <h2>{{property.user.lastname }}, {{ property.user.firstname }} {{ property.user.middlename }}</h2>
+                <p>{{ property.user.business_name }}</p>
             </button>
         </ion-list>
         <ion-item>

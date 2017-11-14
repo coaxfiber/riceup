@@ -6,7 +6,7 @@ export class PropertyService {
 properties: any;
 
    constructor(private http: Http) {
-     this.http.get('http://localhost/riceup/riceupapi.php?action=getproall')
+     this.http.get('http://127.0.0.1:8000/api/products')
           .map(response => response.json())
           .subscribe(res => this.properties = res);
    }
@@ -24,7 +24,7 @@ properties: any;
   findByName(searchKey: string) {
     let key: string = searchKey.toUpperCase();
     return Promise.resolve(this.properties.filter((property: any) =>
-        (property.name +  ' ' + property.description ).toUpperCase().indexOf(key) > -1));
+        (property.product_name +  ' ' + property.product_desc ).toUpperCase().indexOf(key) > -1));
   }
 
   getFavorites() {
