@@ -26,7 +26,6 @@ export interface MenuItem {
 export class MyApp {
     @ViewChild(Nav) nav: Nav;
 
-    gid: string;
     id: string;
     rootPage: any = WelcomePage;
     farmer :any;
@@ -40,26 +39,40 @@ export class MyApp {
     constructor(private http: Http,public events: Events,public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen,public GlobalvarsProvider: GlobalvarsProvider) {
 
         this.initializeApp();
-
+        this.farmer =[
+                {
+                    id: 1,
+                    firstname: "Caroline Kingsley",
+                    lastname: "Senior Broker",
+                    middlename: "617-244-3672",
+                    business_name: "617-244-3672"
+                }
+            ];
          events.subscribe('user:created', (user, time) => {
             // user and time are the same arguments passed in `events.publish(user, time)`4
-             this.http.get('http://localhost/riceup/riceupapi.php?action=getafarmer&farmer='+this.GlobalvarsProvider.getgid())
-          .map(response => response.json())
-          .subscribe(res => this.farmer = res);
+           this.farmer = user;
+            if (user.is_farmer==1) {
+               this.accountMenuItems = [
+                {title: 'My Account', component: WelcomePage, icon: 'ios-contact'},
+                {title: 'My Product', component: OrderListPage, icon: 'archive'},
+                {title: 'Logout', component: WelcomePage, icon: 'log-out'},
+                ];
+            }else{
+              this.accountMenuItems = [
+                {title: 'My Account', component: WelcomePage, icon: 'ios-contact'},
+                {title: 'Logout', component: WelcomePage, icon: 'log-out'},
+                ];
+            }
             
-          this.gid=this.GlobalvarsProvider.getgid();
-            this.appMenuItems = [
-            {title: 'Products', component: PropertyListPage, icon: 'home'},
-            {title: 'Farmers', component: BrokerListPage, icon: 'people'},
-            {title: 'Cart', component: FavoriteListPage, icon: 'star'},
-            {title: 'My Orders', component: OrderListPage, icon: 'checkmark-circle'},
-            ];
           });
+        this.appMenuItems = [
+                {title: 'Products', component: PropertyListPage, icon: 'home'},
+                {title: 'Farmers', component: BrokerListPage, icon: 'people'},
+                {title: 'Cart', component: FavoriteListPage, icon: 'star'},
+                {title: 'My Orders', component: OrderListPage, icon: 'checkmark-circle'},
+                ];
+
         
-        this.accountMenuItems = [
-            {title: 'My Account', component: WelcomePage, icon: 'ios-contact'},
-            {title: 'Logout', component: WelcomePage, icon: 'log-out'},
-        ];
 
         this.helpMenuItems = [
             {title: 'Terms and Conditions', component: WelcomePage, icon: 'bookmark'},

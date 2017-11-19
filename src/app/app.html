@@ -2,18 +2,13 @@
 
   <ion-content>
 
-    <ion-card-content>
-            <img src="http://localhost/riceup/assets/img/{{gid}}.jpg"/>
-             <ion-item *ngFor="let men of farmer">
-                <h3>{{ men.lname }}, {{ men.fname }} {{ men.mname }}</h3>
-                <ion-note>{{ men.team_group }}</ion-note>
-            </ion-item>
-    </ion-card-content>
+        <ion-card-content class="mainfarmer">
+            <img src="http://localhost/riceup/assets/img/{{farmer.id}}.jpg"/>
+            <h2>{{farmer.lastname}}, {{farmer.firstname}} {{farmer.middlename}}</h2>
+            <h3>{{farmer.business_name}}</h3>
+        </ion-card-content>
    
     <ion-list>
-      <ion-list-header>
-        Shop
-      </ion-list-header>
       <button menuClose ion-item *ngFor="let menuItem of appMenuItems" (click)="openPage(menuItem)">
         <ion-icon item-left [name]="menuItem.icon"></ion-icon>
         {{menuItem.title}}

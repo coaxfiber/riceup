@@ -12,6 +12,7 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
 
+import { MenuController } from 'ionic-angular';
 import { Events } from 'ionic-angular';
 @Component({
     selector: 'page-welcome',
@@ -22,8 +23,8 @@ export class WelcomePage {
     properties: Array<any>;
     sect: Array<any>;
    pushPage: any;
-   farmer: any;
-	  constructor(public events: Events,public GlobalvarsProvider:GlobalvarsProvider,fb: FormBuilder,public platform: Platform,public navCtrl: NavController,private http: Http){
+   farmer: Array<any>;
+	  constructor(public menu: MenuController,public events: Events,public GlobalvarsProvider:GlobalvarsProvider,fb: FormBuilder,public platform: Platform,public navCtrl: NavController,private http: Http){
 	    this.pushPage = TermsandagreementPage;
 	    this.form = fb.group({
         name: fb.group({
@@ -31,6 +32,8 @@ export class WelcomePage {
           pw: '',
         }),
       });
+
+    this.menu.enable(false);
 	  }
 
     
@@ -56,19 +59,24 @@ export class WelcomePage {
       {
         if (this.form.value.name.uname!=''&&this.form.value.name.pw!='') {
           
-         var link = 'http://localhost/riceup/login.php?mode=1';
-         var myData = JSON.stringify({uname:this.form.value.name.uname,pw:this.form.value.name.pw});
-         
+         var link = 'http://127.0.0.1:8000/api/user/login?username='+ this.form.value.name.uname + "&password=" +this.form.value.name.pw;
+         var myData = JSON.stringify({usernamwkkkkkkke:this.form.value.name.uname,passwowrd:this.form.value.name.pw});
+        
+        
          this.http.post(link, myData)
+         .map(response => response.json())
          .subscribe(data => {
-           if(data["_body"]=='wrong password or username!'){
+           console.log(data);
+           if(data.message != undefined || data.message == 'Either username, password or both is invalid!' ){
              alert("incorrect username or password!");
            }else{
-             this.GlobalvarsProvider.setgid(data["_body"]);
+             this.GlobalvarsProvider.setgid(data[0]);
+             this.createUser(data[0]);
              this.navCtrl.setRoot(PropertyListPage);
-             this.createUser(this.GlobalvarsProvider.getgid());
            }
-         }, error => {
+         
+         }
+         , error => {
          alert("incorrect username or password!");
          });
        }// code...

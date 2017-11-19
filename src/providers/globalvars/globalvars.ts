@@ -11,13 +11,13 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class GlobalvarsProvider {
 
-  globalid: string;
+  globalid: any;
   constructor(public http: Http) {
   }
   getgid(){
         return this.globalid;
     }
-    setgid(gid)
+    setgid(gid: any)
     {
         this.globalid = gid;
     }
