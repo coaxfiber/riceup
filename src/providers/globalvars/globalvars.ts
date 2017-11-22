@@ -10,7 +10,7 @@ import 'rxjs/add/operator/map';
 */
 @Injectable()
 export class GlobalvarsProvider {
-
+  token:string;
   globalid: any;
   constructor(public http: Http) {
   }
@@ -20,5 +20,13 @@ export class GlobalvarsProvider {
     setgid(gid: any)
     {
         this.globalid = gid;
+    }
+
+    gettoken(){
+        return this.token;
+    }
+    settoken(token)
+    {
+        this.token = token;
     }
 }

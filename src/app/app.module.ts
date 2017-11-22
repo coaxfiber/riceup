@@ -1,3 +1,5 @@
+
+import { AuthService } from '../providers/auth-service/auth-service';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule } from '@angular/http';
 import { ErrorHandler, NgModule } from '@angular/core';
@@ -23,6 +25,7 @@ import {OrderListPage} from '../pages/order-list/order-list';
 import {CartPage} from '../pages/cart/cart';
 import { GlobalvarsProvider } from '../providers/globalvars/globalvars';
 
+import {SignupPage} from '../pages/signup/signup';
 @NgModule({
   declarations: [
     MyApp,
@@ -33,7 +36,7 @@ import { GlobalvarsProvider } from '../providers/globalvars/globalvars';
     FavoriteListPage,
     BrokerListPage,
     BrokerDetailPage,
-    TermsandagreementPage,OrderListPage,CartPage
+    TermsandagreementPage,OrderListPage,CartPage,SignupPage
   ],
   imports: [
     BrowserModule,
@@ -49,11 +52,11 @@ import { GlobalvarsProvider } from '../providers/globalvars/globalvars';
     PropertyDetailPage,
     FavoriteListPage,
     BrokerListPage,
-    BrokerDetailPage,TermsandagreementPage,OrderListPage,CartPage
+    BrokerDetailPage,TermsandagreementPage,OrderListPage,CartPage,SignupPage
   ],
   providers: [
     StatusBar,
-    SplashScreen,
+    SplashScreen,AuthService,
     PropertyService,
     BrokerService,GlobalvarsProvider,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
