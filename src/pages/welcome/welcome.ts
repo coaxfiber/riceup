@@ -8,7 +8,7 @@ import {Platform} from 'ionic-angular';
 import {PropertyListPage} from '../property-list/property-list';
 import {SignupPage} from '../signup/signup';
 
-import {Http, Headers, Response,RequestOptions} from '@angular/http';
+import {Http, Headers, RequestOptions} from '@angular/http';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
@@ -60,39 +60,64 @@ export class WelcomePage {
       }
   }*/
       {
-        
-        let urlSearchParams = new URLSearchParams();
-        urlSearchParams.append("grant_type",'password');
-        urlSearchParams.append("client_id",'2');
-        urlSearchParams.append("client_secret",'uzyd8xUn9UeaQaMB8hfghABzvAFJZE8Djc4JcJlu');
-        urlSearchParams.append("username",'windellevega');
-        urlSearchParams.append("password",'pass123');
-        urlSearchParams.append("scope",'');
-        let body = urlSearchParams.toString()
+         if (this.form.value.name.uname!=''&&this.form.value.name.pw!='') {
 
-        var header = new Headers();
-        header.append("Content-Type", "application/x-www-form-urlencoded");
-        header.append("Accept", "application/json");
-        let option = new RequestOptions({ headers: header });
-        return this.http.post('http://riceupfarmers.org/oauth/token', body, option)
+             this.GlobalvarsProvider.username=this.form.value.name.uname;
+             this.GlobalvarsProvider.password=this.form.value.name.pw;
+              
+              let urlSearchParams = new URLSearchParams();
+                urlSearchParams.append("grant_type",this.GlobalvarsProvider.grant_type);
+                urlSearchParams.append("client_id",this.GlobalvarsProvider.client_id);
+                urlSearchParams.append("client_secret",this.GlobalvarsProvider.client_secret);
+                urlSearchParams.append("username",this.GlobalvarsProvider.username);
+                urlSearchParams.append("password",this.GlobalvarsProvider.password);
+                urlSearchParams.append("scope",this.GlobalvarsProvider.scope);
+              let body = urlSearchParams.toString()
 
-         .map(response => response.json())
-            .subscribe(data => {
-           console.log(data);
-             this.GlobalvarsProvider.settoken(data.token_type+" "+data.access_token);
-             //this.createUser(data[0]);
-             this.navCtrl.setRoot(PropertyListPage);
-             console.log(data.expires_in);         
-         }
-         , error => {
-         alert(error);
-         });
-        }
+              var header = new Headers();
+              header.append("Content-Type", "application/x-www-form-urlencoded");
+              header.append("Accept", "application/json");
+              let option = new RequestOptions({ headers: header });
+              this.http.post('http://api.riceupfarmers.org/oauth/token', body, option)
+               .map(response => response.json())
+                  .subscribe(data => {
+                   this.GlobalvarsProvider.settoken(data.token_type+" "+data.access_token);
 
-    createUser(user) {
-      console.log('User created!')
-      this.events.publish('user:created', user, this.GlobalvarsProvider.getgid());
-    }
+
+                //wwew start
+                 var header = new Headers();
+                  header.append("Accept", "application/json");
+                  header.append("Content-Type", "application/x-www-form-urlencoded");
+                  header.append("Authorization",this.GlobalvarsProvider.gettoken());
+                        
+                let option = new RequestOptions({ headers: header });
+                              
+                     this.http.get('http://api.riceupfarmers.org/api/user', option)
+                     .map(response => response.json())
+                    .subscribe(data => {
+                      console.log('wewew');
+                      console.log(data);
+                     this.createUser(data);
+                   });
+                  //wew end
+                  
+                   this.navCtrl.setRoot(PropertyListPage);     
+               }
+               , error => {
+               alert("Incorrect username or password");
+               });
+              }
+              else{
+                 alert("Input username or password!");
+              }
+            }
+
+         
+
+        createUser(user) {
+            console.log('User created!')
+            this.events.publish('user:created', user, this.GlobalvarsProvider.getgid());
+          }
 }
 /*
         if (this.form.value.name.uname!=''&&this.form.value.name.pw!='') {

@@ -1,1 +1,1 @@
-export let SERVER_URL = "http://localhost/riceup/";
+export let SERVER_URL = "http://riceupfarmers.org/";
