@@ -1,0 +1,108 @@
+<!--
+  Generated template for the AddstayinnPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+      <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button> 
+    <ion-title>Add Product</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+ <form [formGroup]="form">
+  
+ <ion-toolbar color="primary">
+    <ion-buttons>
+      <button ion-button icon-left (click)="presentActionSheet()">
+        <ion-icon name="camera"></ion-icon>Select Image
+      </button>
+      <img src="{{pathForImage(lastImage)}}" style="width: 100%" [hidden]="lastImage === null">
+
+    </ion-buttons>
+  </ion-toolbar>
+
+      <div formGroupName="name">
+      <ion-item>
+      <ion-label  stacked>Name:</ion-label>
+      <ion-input  formControlName="pname" placeholder=""></ion-input>
+      </ion-item>
+      <ion-item>
+      <ion-label  stacked>Description:</ion-label>
+      <ion-textarea formControlName="desc" placeholder=""></ion-textarea>
+      </ion-item>
+      <ion-item>
+	    <ion-label   stacked>Unit</ion-label>
+	    <ion-select formControlName="unit" >
+	      <ion-option value="">-Select Unit-</ion-option>
+	      <ion-option value="pcs">pcs</ion-option>
+	      <ion-option value="kg">kg</ion-option>
+	      <ion-option value="ewan">ewan</ion-option>
+	      <ion-option value="boom">boom</ion-option>	
+	    </ion-select>
+	  </ion-item>
+      <ion-item>
+      <ion-label  stacked>Price:</ion-label>
+      <ion-input  formControlName="price" type="number"></ion-input>
+      </ion-item>
+      <ion-item>
+      <ion-label  stacked>Stocks:</ion-label>
+      <ion-input  formControlName="stocks" type="number"></ion-input>
+      </ion-item>
+      <ion-item>
+      <ion-label  stacked>harvest Date:</ion-label>
+      <ion-datetime displayFormat="YYYY-MM-DD" formControlName="harvest_date" ></ion-datetime>
+      </ion-item>
+      </div>
+
+  <ion-buttons>
+       <button ion-button block (click)="testform()">
+        <ion-icon name="ion-plus-circled"></ion-icon>Add Product
+      </button>
+      
+    </ion-buttons>
+    
+    </form>
+<!--<form (ngSubmit)="logForm()">
+      <ion-item>
+        <ion-label>Title</ion-label>
+        <ion-input type="text" [(ngModel)]="todo.title" formControlName="title"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Address</ion-label>
+        <ion-textarea [(ngModel)]="todo.address" formControlName="address"></ion-textarea>
+      </ion-item>
+      <ion-item>
+        <ion-label>Contact</ion-label>
+        <ion-input type="text" [(ngModel)]="todo.contact" formControlName="contact"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Price</ion-label>
+        <ion-input type="text" [(ngModel)]="todo.price" formControlName="price"></ion-input>
+      </ion-item>
+  <ion-item>
+        <ion-label>
+          Type
+        </ion-label>
+
+        <ion-select formControlName="option" [(ngModel)]="todo.type">
+          <ion-option value="1">Option 1</ion-option>
+          <ion-option value="2">Option 2</ion-option>
+          <ion-option value="3">Option 3</ion-option>
+          <ion-option value="4">Option 4</ion-option>
+        </ion-select>
+      </ion-item>
+        <button ion-button type="submit" block>Add Todo</button>
+    </form>
+    </div>-->
+    
+  
+</ion-content>

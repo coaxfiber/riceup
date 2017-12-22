@@ -11,7 +11,7 @@ import {AboutPage} from '../pages/about/about';
 import {OrderListPage} from '../pages/order-list/order-list';
 import {GlobalvarsProvider} from '../providers/globalvars/globalvars';
 import { Events } from 'ionic-angular';
-
+import {UserproductPage} from '../pages/userproduct/userproduct';
 import {Http } from '@angular/http';
 
 export interface MenuItem {
@@ -51,10 +51,11 @@ export class MyApp {
          events.subscribe('user:created', (user, time) => {
             // user and time are the same arguments passed in `events.publish(user, time)`4
            this.farmer = user;
+           this.GlobalvarsProvider.setloggeduser(user);
             if (user.is_farmer==1) {
                this.accountMenuItems = [
                 {title: 'My Account', component: WelcomePage, icon: 'ios-contact'},
-                {title: 'My Product', component: OrderListPage, icon: 'archive'},
+                {title: 'My Products', component: UserproductPage, icon: 'archive'},
                 {title: 'Logout', component: WelcomePage, icon: 'log-out'},
                 ];
             }else{

@@ -1,19 +1,26 @@
+<ion-header>
 
+    <ion-navbar>
+       
+        <ion-title>Registration</ion-title>
+    </ion-navbar>
+</ion-header>
 
 <ion-content padding class="appBackground">
   <ion-card>
-    <ion-card-header>
-      Registration
-    </ion-card-header>
     <ion-card-content>
       <ion-list>
         <ion-item>
-          <ion-label stacked>Name</ion-label>
-          <ion-input type="text" [(ngModel)]="userData.name"></ion-input>
+          <ion-label stacked>First Name</ion-label>
+          <ion-input type="text" [(ngModel)]="userData.firstname"></ion-input>
         </ion-item>
+        <ion-item>
+          <ion-label stacked>Last Name</ion-label>
+          <ion-input type="text" [(ngModel)]="userData.lastname"></ion-input>
+        </ion-item> 
 
         <ion-item>
-          <ion-label stacked>Email</ion-label>
+          <ion-label stacked>Address</ion-label>
           <ion-input type="text" [(ngModel)]="userData.email"></ion-input>
         </ion-item>
 
@@ -28,7 +35,6 @@
         </ion-item>
 
         <button ion-button full color="success" (click)="signup()">Sign up</button>
-        <a href="#" (click)="login()">Login Page</a>
       </ion-list>
     </ion-card-content>
   </ion-card>

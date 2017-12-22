@@ -25,7 +25,13 @@ import {OrderListPage} from '../pages/order-list/order-list';
 import {CartPage} from '../pages/cart/cart';
 import { GlobalvarsProvider } from '../providers/globalvars/globalvars';
 
+import { Camera } from '@ionic-native/camera';
+import { Transfer } from '@ionic-native/transfer';
+import { File } from '@ionic-native/file';
+import { FilePath } from '@ionic-native/file-path';
 import {SignupPage} from '../pages/signup/signup';
+import {AddproductPage} from '../pages/addproduct/addproduct';
+import {UserproductPage} from '../pages/userproduct/userproduct';
 @NgModule({
   declarations: [
     MyApp,
@@ -35,7 +41,7 @@ import {SignupPage} from '../pages/signup/signup';
     PropertyDetailPage,
     FavoriteListPage,
     BrokerListPage,
-    BrokerDetailPage,
+    BrokerDetailPage,AddproductPage,UserproductPage,
     TermsandagreementPage,OrderListPage,CartPage,SignupPage
   ],
   imports: [
@@ -51,10 +57,14 @@ import {SignupPage} from '../pages/signup/signup';
     PropertyListPage,
     PropertyDetailPage,
     FavoriteListPage,
-    BrokerListPage,
+    BrokerListPage,AddproductPage,UserproductPage,
     BrokerDetailPage,TermsandagreementPage,OrderListPage,CartPage,SignupPage
   ],
   providers: [
+    Transfer,
+    File,
+    Camera,
+    FilePath,
     StatusBar,
     SplashScreen,AuthService,
     PropertyService,

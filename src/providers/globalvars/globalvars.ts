@@ -13,7 +13,7 @@ import {Headers, RequestOptions} from '@angular/http';
 export class GlobalvarsProvider {
   token:string;
   globalid: any;
-
+  loggeduser:any;
         grant_type:string;
         client_id:string;
         client_secret:string;
@@ -30,6 +30,9 @@ export class GlobalvarsProvider {
   }
     getgid(){
         return this.globalid;
+    }
+    setloggeduser(user:any){
+        this.loggeduser = user;
     }
     setgid(gid: any)
     {

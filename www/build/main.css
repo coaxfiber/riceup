@@ -24428,6 +24428,15 @@ ion-footer {
   padding: 8px 16px !important;
 }
 
+.button-f {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 20px !important;
+  border-radius: 50%;
+  margin-right: 20px !important;
+}
+
 page-welcome {
   font-weight: 300;
 }
