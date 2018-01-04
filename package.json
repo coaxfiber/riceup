@@ -65,7 +65,7 @@
       "locator": "ios"
     }
   ],
-  "description": "dreamhouse sample app",
+  "description": "rice up app",
   "cordova": {
     "plugins": {
       "ionic-plugin-keyboard": {},
