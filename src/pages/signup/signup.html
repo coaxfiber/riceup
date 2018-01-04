@@ -2,40 +2,97 @@
 
     <ion-navbar>
        
-        <ion-title>Registration</ion-title>
+        <ion-title>Customer Registration</ion-title>
     </ion-navbar>
 </ion-header>
 
-<ion-content padding class="appBackground">
-  <ion-card>
-    <ion-card-content>
-      <ion-list>
-        <ion-item>
-          <ion-label stacked>First Name</ion-label>
-          <ion-input type="text" [(ngModel)]="userData.firstname"></ion-input>
-        </ion-item>
-        <ion-item>
-          <ion-label stacked>Last Name</ion-label>
-          <ion-input type="text" [(ngModel)]="userData.lastname"></ion-input>
-        </ion-item> 
+<ion-content>
 
-        <ion-item>
-          <ion-label stacked>Address</ion-label>
-          <ion-input type="text" [(ngModel)]="userData.email"></ion-input>
-        </ion-item>
+ <form [formGroup]="form">
 
-        <ion-item>
-          <ion-label stacked>Username</ion-label>
-          <ion-input type="text" [(ngModel)]="userData.username"></ion-input>
-        </ion-item>
+      <div formGroupName="name">
 
-        <ion-item>
-          <ion-label stacked>Password</ion-label>
-          <ion-input type="password" [(ngModel)]="userData.password"></ion-input>
-        </ion-item>
+      <ion-item>
+      <ion-label  stacked><b>Login Details<b></ion-label>
+      </ion-item>
+      <ion-item>
+      <ion-label  stacked>Username:</ion-label>
+      </ion-item>
+      <ion-item>
+      <ion-label  stacked>Password:</ion-label>
+      <ion-input  formControlName="password" placeholder="" type="password"></ion-input>
+      </ion-item>
+      <ion-item>
+      <ion-label   stacked>Confirm Password:</ion-label>
+      <ion-input  formControlName="cpassword" placeholder="" type="password"></ion-input>
+      </ion-select>
+    </ion-item>
+      <ion-item>
+      <ion-label  stacked><b>Feneral Information<b></ion-label>
+      </ion-item>
+      <ion-item>
+      <ion-label  stacked>First Name:</ion-label>
+      <ion-input  formControlName="firstname" type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+      <ion-label  stacked>Last Name:</ion-label>
+      <ion-input  formControlName="lastname" type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+      <ion-label  stacked>Mobile Number:</ion-label>
+      <ion-input  formControlName="mobilenumber" type="text" placeholder="09XXXXXXXXX"></ion-input>
+      </ion-item>
 
-        <button ion-button full color="success" (click)="signup()">Sign up</button>
-      </ion-list>
-    </ion-card-content>
-  </ion-card>
+      <ion-item>
+      <ion-label  stacked>Email Address:</ion-label>
+      <ion-input  formControlName="email" type="email"></ion-input>
+      </ion-item>
+      <ion-item>
+      <ion-label  stacked>Address:</ion-label>
+      <ion-input  formControlName="address" type="text"></ion-input>
+      </ion-item>
+      </div>
+
+  <ion-buttons>
+       <button ion-button block (click)="testform()">
+        <ion-icon name="ion-plus-circled"></ion-icon>Registration
+      </button>
+      
+    </ion-buttons>
+    
+    </form>
+<!--<form (ngSubmit)="logForm()">
+      <ion-item>
+        <ion-label>Title</ion-label>
+        <ion-input type="text" [(ngModel)]="todo.title" formControlName="title"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Address</ion-label>
+        <ion-textarea [(ngModel)]="todo.address" formControlName="address"></ion-textarea>
+      </ion-item>
+      <ion-item>
+        <ion-label>Contact</ion-label>
+        <ion-input type="text" [(ngModel)]="todo.contact" formControlName="contact"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Price</ion-label>
+        <ion-input type="text" [(ngModel)]="todo.price" formControlName="price"></ion-input>
+      </ion-item>
+  <ion-item>
+        <ion-label>
+          Type
+        </ion-label>
+
+        <ion-select formControlName="option" [(ngModel)]="todo.type">
+          <ion-option value="1">Option 1</ion-option>
+          <ion-option value="2">Option 2</ion-option>
+          <ion-option value="3">Option 3</ion-option>
+          <ion-option value="4">Option 4</ion-option>
+        </ion-select>
+      </ion-item>
+        <button ion-button type="submit" block>Add Todo</button>
+    </form>
+    </div>-->
+    
+  
 </ion-content>
