@@ -6,7 +6,7 @@
 
 <ion-content>
     <ion-card *ngIf="property.id">
-        <img src="http://localhost/riceup/assets/img/{{ property.id }}.jpg"/>
+         <img src="http://i-tugue.com/system/uploads/{{ property.photo_url }}.jpg"  onError="this.src='http://i-tugue.com/system/uploads/product.jpg';" />
         <ion-card-content>
             <h2 class="card-title">{{property.product_name}}</h2>
             <p>{{property.product_desc}}</p>
@@ -35,7 +35,7 @@
             </ion-item>
             <button ion-item (click)="openBrokerDetail(property.user)">
                 <ion-avatar item-left>
-                    <img src="http://localhost/riceup/assets/img/{{ property.user.id}}.jpg"/>
+                    <img src="http://i-tugue.com/system/uploads/s{{ property.photo_url }}.jpg"  onError="this.src='http://i-tugue.com/system/uploads/sproduct.jpg';" />
                 </ion-avatar>
                 <h2>{{property.user.lastname }}, {{ property.user.firstname }} {{ property.user.middlename }}</h2>
                 <p>{{ property.user.business_name }}</p>
@@ -44,15 +44,15 @@
         <ion-item>
                 <ion-icon name="cart" item-left ></ion-icon>
                 <h3 item-left >Quantity:</h3>
-                <ion-input type="number" value="0" text-right item-right></ion-input>
+                <ion-input type="number" value="0" text-right item-right min="0" max="{{property.stocks_available}}"  [(ngModel)]="quantity" value="1"></ion-input>
             </ion-item>
             <ion-item>
                 <ion-icon item-left name="cash"></ion-icon>
                 <h3>Total Price:</h3>
-                <ion-note item-right>1000</ion-note>
+                <ion-note item-right>P{{(quantity * property.stocks_available) | number:'1.2-2'}}</ion-note>
             </ion-item>
 
-        <button ion-button class="submit-btn" block >Add to Cart</button>
+        <button ion-button class="submit-btn" block  (click)="addtocart()">Add to Cart</button>
 
 
     </ion-card>

@@ -5,6 +5,7 @@ import {  MenuController } from 'ionic-angular';
 import {GlobalvarsProvider} from '../../providers/globalvars/globalvars';
 import {Headers, RequestOptions} from '@angular/http';
 import {AddproductPage} from '../addproduct/addproduct';
+import {PropertyDetailPage} from '../property-detail/property-detail';
 
 
 /**
@@ -33,7 +34,9 @@ export class UserproductPage {
               this.products = res;
           });
   }
-
+openPropertyDetail(property: any) {
+        this.navCtrl.push(PropertyDetailPage, property);
+    }
   ionViewDidLoad() {
     console.log('ionViewDidLoad UserproductPage');
   }

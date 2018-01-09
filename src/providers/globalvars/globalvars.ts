@@ -65,7 +65,6 @@ export class GlobalvarsProvider {
 
                .map(response => response.json())
                   .subscribe(data => {
-                 console.log(data);
                    this.settoken(data.token_type+" "+data.access_token);    
                }
                , error => {

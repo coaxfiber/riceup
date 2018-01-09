@@ -2,7 +2,7 @@ import {Component} from '@angular/core';
 
 import { FormBuilder, FormGroup } from '@angular/forms';
 
-import {Http, Headers} from '@angular/http';
+import {Http, Headers,RequestOptions} from '@angular/http';
 import { NavController, ActionSheetController, ToastController, Platform, LoadingController, Loading } from 'ionic-angular';
 import { File } from '@ionic-native/file';
 import { Transfer, TransferObject } from '@ionic-native/transfer';
@@ -143,9 +143,13 @@ public pathForImage(img) {
 }
 public uploadImage() {
   //wwew start
+
   if (this.form.value.name.pname!=""&&this.form.value.name.desc!=""&&this.form.value.name.unit!=""&&this.form.value.name.price!=""&&this.form.value.name.stocks!=""&&this.form.value.name.harvest_date!="") {
   // Destination URL
- var url = 'http://api.riceupfarmers.org/api/product/add?name='+this.form.value.name.pname+'&desc='+this.form.value.name.desc+'&unit='+this.form.value.name.unit+'&price='+this.form.value.name.price+'&stocks='+this.form.value.name.stocks+'&harvest_date='+this.form.value.name.harvest_date;
+ var timeInMs = Date.now();
+ alert(timeInMs);
+ var url = 'http://i-tugue.com/system/apiup.php?get='+this.form.value.name.pname+timeInMs;
+ //'http://api.riceupfarmers.org/api/product/add?name='+this.form.value.name.pname+'&desc='+this.form.value.name.desc+'&unit='+this.form.value.name.unit+'&price='+this.form.value.name.price+'&stocks='+this.form.value.name.stocks+'&harvest_date='+this.form.value.name.harvest_date;
   // File for Upload
   var targetPath = this.pathForImage(this.lastImage);
  
@@ -153,15 +157,11 @@ public uploadImage() {
   var filename = this.lastImage;
  
   var options = {
-    fileKey: "image",
+    fileKey: "file",
     fileName: filename,
     chunkedMode: false,
     mimeType: "multipart/form-data",
-  headers :{
-    'Accept': "application/json",
-    'Content-Type':"multipart/form-data",
-    'Authorization': this.GlobalvarsProvider.gettoken()
-  }
+    params : {'fileName': filename}
   };
  
   const fileTransfer: TransferObject = this.transfer.create();
@@ -175,6 +175,23 @@ public uploadImage() {
   fileTransfer.upload(targetPath, url, options).then(data => {
     this.loading.dismissAll();
     this.presentToast('product Added...');
+    //start
+             let urlSearchParams = new URLSearchParams();
+                urlSearchParams.append("grant_type",this.GlobalvarsProvider.grant_type);
+              let body = urlSearchParams.toString()
+               var header = new Headers();
+                  header.append("Accept", "application/json");
+                  header.append("Content-Type", "application/x-www-form-urlencoded");
+                  header.append("Authorization",this.GlobalvarsProvider.gettoken());
+                        
+                  let option = new RequestOptions({ headers: header });
+                              
+                     this.http.post('http://api.riceupfarmers.org/api/product/add?photo_url='+this.form.value.name.pname+timeInMs+'&name='+this.form.value.name.pname+'&desc='+this.form.value.name.desc+'&unit='+this.form.value.name.unit+'&price='+this.form.value.name.price+'&stocks='+this.form.value.name.stocks+'&harvest_date='+this.form.value.name.harvest_date, urlSearchParams,option)
+                     .map(response => response.json())
+                    .subscribe(data => {
+                      alert(data);
+                   });
+     //end
     this.form.reset();
 
   }, err => {

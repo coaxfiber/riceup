@@ -30,6 +30,7 @@ import { Transfer } from '@ionic-native/transfer';
 import { File } from '@ionic-native/file';
 import { FilePath } from '@ionic-native/file-path';
 import {SignupPage} from '../pages/signup/signup';
+import {OrderinfoPage} from '../pages/orderinfo/orderinfo';
 import {AddproductPage} from '../pages/addproduct/addproduct';
 import {UserproductPage} from '../pages/userproduct/userproduct';
 @NgModule({
@@ -41,7 +42,7 @@ import {UserproductPage} from '../pages/userproduct/userproduct';
     PropertyDetailPage,
     FavoriteListPage,
     BrokerListPage,
-    BrokerDetailPage,AddproductPage,UserproductPage,
+    BrokerDetailPage,AddproductPage,UserproductPage,OrderinfoPage,
     TermsandagreementPage,OrderListPage,CartPage,SignupPage
   ],
   imports: [
@@ -57,7 +58,7 @@ import {UserproductPage} from '../pages/userproduct/userproduct';
     PropertyListPage,
     PropertyDetailPage,
     FavoriteListPage,
-    BrokerListPage,AddproductPage,UserproductPage,
+    BrokerListPage,AddproductPage,UserproductPage,OrderinfoPage,
     BrokerDetailPage,TermsandagreementPage,OrderListPage,CartPage,SignupPage
   ],
   providers: [

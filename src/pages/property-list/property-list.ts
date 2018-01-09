@@ -29,7 +29,6 @@ export class PropertyListPage {
           .map(response => response.json())
           .subscribe(res => {
               this.properties = res;
-              console.log(res);
           });
           
         this.findAll();

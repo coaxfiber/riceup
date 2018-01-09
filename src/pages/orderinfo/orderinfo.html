@@ -1,0 +1,22 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>Order#: {{orderno}}</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+        <ion-list>
+        <ion-item-sliding *ngFor="let list of orderinfo">
+            <button ion-item>
+                <h3>{{list.farmer_product.product_name}}</h3>
+                <p>P{{list.farmer_product.price_per_unit}}</p>
+            <ion-note item-right>{{list.quantity}}</ion-note>
+            </button>
+            
+            <ion-item-options>
+                <button danger (click)="deleteItem(favorite)">Remove</button>
+            </ion-item-options>
+        </ion-item-sliding>
+        
+    </ion-list>
+</ion-content>

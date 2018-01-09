@@ -5,7 +5,7 @@ import {SplashScreen} from '@ionic-native/splash-screen';
 
 import {PropertyListPage} from '../pages/property-list/property-list';
 import {BrokerListPage} from '../pages/broker-list/broker-list';
-import {FavoriteListPage} from '../pages/favorite-list/favorite-list';
+import {CartPage} from '../pages/cart/cart';
 import {WelcomePage} from '../pages/welcome/welcome';
 import {AboutPage} from '../pages/about/about';
 import {OrderListPage} from '../pages/order-list/order-list';
@@ -42,8 +42,8 @@ export class MyApp {
         this.farmer =[
                 {
                     id: 1,
-                    firstname: "Caroline Kingsley",
-                    lastname: "Senior Broker",
+                    firstname: "Elton Bagne",
+                    lastname: "Gwapo",
                     middlename: "617-244-3672",
                     business_name: "617-244-3672"
                 }
@@ -69,7 +69,7 @@ export class MyApp {
         this.appMenuItems = [
                 {title: 'Products', component: PropertyListPage, icon: 'home'},
                 {title: 'Farmers', component: BrokerListPage, icon: 'people'},
-                {title: 'Cart', component: FavoriteListPage, icon: 'star'},
+                {title: 'Cart', component: CartPage, icon: 'md-cart'},
                 {title: 'My Orders', component: OrderListPage, icon: 'checkmark-circle'},
                 ];
 
