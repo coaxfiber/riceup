@@ -11,14 +11,19 @@ import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { TermsandagreementPage } from '../pages/termsandagreement/termsandagreement';
 import { PropertyListPage } from '../pages/property-list/property-list';
 import { BrokerListPage } from '../pages/broker-list/broker-list';
-import { FavoriteListPage } from '../pages/favorite-list/favorite-list';
+import { CartPage } from '../pages/cart/cart';
 import { WelcomePage } from '../pages/welcome/welcome';
 import { AboutPage } from '../pages/about/about';
+import { OrderListPage } from '../pages/order-list/order-list';
 import { GlobalvarsProvider } from '../providers/globalvars/globalvars';
 import { Events } from 'ionic-angular';
+import { UserproductPage } from '../pages/userproduct/userproduct';
 import { Http } from '@angular/http';
+import { AccountPage } from '../pages/account/account';
+import { PrivacyPolicyPage } from '../pages/privacy-policy/privacy-policy';
 var MyApp = /** @class */ (function () {
     function MyApp(http, events, platform, statusBar, splashScreen, GlobalvarsProvider) {
         var _this = this;
@@ -29,33 +34,45 @@ var MyApp = /** @class */ (function () {
         this.splashScreen = splashScreen;
         this.GlobalvarsProvider = GlobalvarsProvider;
         this.rootPage = WelcomePage;
-        events.subscribe('user:created', function (user, time) {
-            // user and time are the same arguments passed in `events.publish(user, time)`
-            _this.http.get('http://localhost/riceup/riceupapi.php?action=getufarmer&ufarmer=' + _this.GlobalvarsProvider.getgid())
-                .map(function (response) { return response.json(); })
-                .subscribe(function (res) { return _this.farmer = res; });
-            _this.gid = _this.GlobalvarsProvider.getgid();
-            _this.appMenuItems = [
-                { title: 'Products', component: PropertyListPage, icon: 'home' },
-                { title: 'Farmers', component: BrokerListPage, icon: 'people' },
-                { title: 'Cart', component: FavoriteListPage, icon: 'star' },
-                { title: 'My Orders', component: WelcomePage, icon: 'checkmark-circle' },
-            ];
-        });
+        this.name = null;
+        this.group = null;
         this.initializeApp();
-        this.appMenuItems = [
-            { title: this.gid, component: PropertyListPage, icon: 'home' },
-            { title: 'Farmers', component: BrokerListPage, icon: 'people' },
-            { title: 'Cart', component: FavoriteListPage, icon: 'star' },
-            { title: 'My Orders', component: WelcomePage, icon: 'checkmark-circle' },
+        this.farmer = [
+            {
+                id: 1,
+                firstname: "Elton Bagne",
+                lastname: "Gwapo",
+                middlename: "617-244-3672",
+                business_name: "617-244-3672"
+            }
         ];
-        this.accountMenuItems = [
-            { title: 'My Account', component: WelcomePage, icon: 'ios-contact' },
-            { title: 'Logout', component: WelcomePage, icon: 'log-out' },
+        events.subscribe('user:created', function (user, time) {
+            // user and time are the same arguments passed in `events.publish(user, time)`4
+            _this.farmer = user;
+            _this.GlobalvarsProvider.setloggeduser(user);
+            if (user.is_farmer == 1) {
+                _this.accountMenuItems = [
+                    { title: 'My Account', component: WelcomePage, icon: 'ios-contact' },
+                    { title: 'My Products', component: UserproductPage, icon: 'archive' },
+                    { title: 'Logout', component: WelcomePage, icon: 'log-out' },
+                ];
+            }
+            else {
+                _this.accountMenuItems = [
+                    { title: 'My Account', component: AccountPage, icon: 'ios-contact' },
+                    { title: 'Logout', component: WelcomePage, icon: 'log-out' },
+                ];
+            }
+        });
+        this.appMenuItems = [
+            { title: 'Products', component: PropertyListPage, icon: 'home' },
+            { title: 'Farmers', component: BrokerListPage, icon: 'people' },
+            { title: 'Cart', component: CartPage, icon: 'md-cart' },
+            { title: 'My Orders', component: OrderListPage, icon: 'checkmark-circle' },
         ];
         this.helpMenuItems = [
-            { title: 'Terms and Conditions', component: WelcomePage, icon: 'bookmark' },
-            { title: 'Privacy Policy', component: WelcomePage, icon: 'bookmark' },
+            { title: 'Terms and Conditions', component: TermsandagreementPage, icon: 'bookmark' },
+            { title: 'Privacy Policy', component: PrivacyPolicyPage, icon: 'ios-information-outline' },
             { title: 'About', component: AboutPage, icon: 'information-circle' },
         ];
     }
@@ -71,6 +88,7 @@ var MyApp = /** @class */ (function () {
     MyApp.prototype.openPage = function (page) {
         // Reset the content nav to have just this page
         // we wouldn't want the back button to show in this scenario
+        this.GlobalvarsProvider.setcredentials();
         this.nav.setRoot(page.component);
     };
     __decorate([

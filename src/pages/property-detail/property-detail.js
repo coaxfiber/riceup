@@ -12,68 +12,56 @@ import { ActionSheetController, NavController, NavParams, ToastController } from
 import { BrokerDetailPage } from '../broker-detail/broker-detail';
 import { PropertyService } from '../../providers/property-service-mock';
 import { Http } from '@angular/http';
+import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
+import { Headers, RequestOptions } from '@angular/http';
 var PropertyDetailPage = /** @class */ (function () {
-    function PropertyDetailPage(http, actionSheetCtrl, navCtrl, navParams, propertyService, toastCtrl) {
-        var _this = this;
+    function PropertyDetailPage(GlobalvarsProvider, http, actionSheetCtrl, navCtrl, navParams, propertyService, toastCtrl) {
+        this.GlobalvarsProvider = GlobalvarsProvider;
         this.http = http;
         this.actionSheetCtrl = actionSheetCtrl;
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.propertyService = propertyService;
         this.toastCtrl = toastCtrl;
+        this.quantity = "1";
         this.property = this.navParams.data;
-        propertyService.findById(this.property.id).then(function (property) { return _this.property = property; });
-        this.http.get('http://localhost/riceup/riceupapi.php?action=getafarmer&farmer=' + this.property.ownerid)
-            .map(function (response) { return response.json(); })
-            .subscribe(function (res) { return _this.brokers = res; });
     }
     PropertyDetailPage.prototype.openBrokerDetail = function (broker) {
         console.log(broker);
         this.navCtrl.push(BrokerDetailPage, broker);
     };
-    PropertyDetailPage.prototype.favorite = function (property) {
+    PropertyDetailPage.prototype.addtocart = function () {
         var _this = this;
-        this.propertyService.favorite(property)
-            .then(function (property) {
-            var toast = _this.toastCtrl.create({
-                message: 'Property added to your favorites',
-                cssClass: 'mytoast',
-                duration: 1000
+        if (this.quantity >= 0 && this.quantity <= this.property.stocks_available) {
+            var urlSearchParams = new URLSearchParams();
+            urlSearchParams.append("grant_type", this.GlobalvarsProvider.grant_type);
+            var body_1 = urlSearchParams.toString();
+            var header = new Headers();
+            header.append("Accept", "application/json");
+            header.append("Content-Type", "application/x-www-form-urlencoded");
+            header.append("Authorization", this.GlobalvarsProvider.gettoken());
+            var option_1 = new RequestOptions({ headers: header });
+            this.http.post('http://api.riceupfarmers.org/api/order/new', body_1, option_1)
+                .map(function (response) { return response.json(); })
+                .subscribe(function (res) {
+                _this.http.post('http://api.riceupfarmers.org/api/cart/add?qty=' + _this.quantity + '&productid=' + _this.property.id + '&orderid=' + res.order_number[0].id, body_1, option_1)
+                    .map(function (response) { return response.json(); })
+                    .subscribe(function (data) {
+                    _this.quantity = 1;
+                    alert("Product added to cart!");
+                });
             });
-            toast.present(toast);
-        });
-    };
-    PropertyDetailPage.prototype.share = function (property) {
-        var actionSheet = this.actionSheetCtrl.create({
-            title: 'Share via',
-            buttons: [
-                {
-                    text: 'Twitter',
-                    handler: function () { return console.log('share via twitter'); }
-                },
-                {
-                    text: 'Facebook',
-                    handler: function () { return console.log('share via facebook'); }
-                },
-                {
-                    text: 'Email',
-                    handler: function () { return console.log('share via email'); }
-                },
-                {
-                    text: 'Cancel',
-                    role: 'cancel',
-                    handler: function () { return console.log('cancel share'); }
-                }
-            ]
-        });
-        actionSheet.present();
+        }
+        else {
+            alert("Quantity must be greater than 0 and less than " + this.property.stocks_available);
+        }
     };
     PropertyDetailPage = __decorate([
         Component({
             selector: 'page-property-detail',
             templateUrl: 'property-detail.html'
         }),
-        __metadata("design:paramtypes", [Http, ActionSheetController, NavController, NavParams, PropertyService, ToastController])
+        __metadata("design:paramtypes", [GlobalvarsProvider, Http, ActionSheetController, NavController, NavParams, PropertyService, ToastController])
     ], PropertyDetailPage);
     return PropertyDetailPage;
 }());

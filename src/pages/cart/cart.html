@@ -18,17 +18,25 @@
                 <p>P{{list.farmer_product.price_per_unit}} x {{list.quantity}} </p>
             <ion-note item-right>P{{((list.farmer_product.price_per_unit | number:'1.2-2')*(list.quantity | number:'1.2-2')) | number:'1.2-2'}}</ion-note>
             </button>
-            
             <ion-item-options>
-                <button danger (click)="delcart(list.id)">Remove</button>
+                <button danger (click)="updatecart()" class="green"> Update </button>
+                <button danger (click)="delcart(list.id)" class="red">Remove</button>
             </ion-item-options>
         </ion-item-sliding>
         <ion-item-sliding>
             <button ion-item>
                 <h3></h3>
                 <p></p>
-            <ion-note item-right>P{{gtotal}}</ion-note>
+            <ion-note item-right>{{gtotal}}</ion-note>
             </button>
         </ion-item-sliding>
     </ion-list>
+
+        <button ion-button class="submit-btn" block  (click)="alertConfirm()">Checkout</button>
 </ion-content>
+
+<ion-footer padding>
+    <ion-segment>
+        <p><b>Note:</b> Options will appear when you swipe left on the product.</p>
+    </ion-segment>
+</ion-footer>

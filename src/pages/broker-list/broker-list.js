@@ -11,31 +11,59 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { BrokerService } from '../../providers/broker-service-mock';
 import { BrokerDetailPage } from '../broker-detail/broker-detail';
+import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
 import leaflet from 'leaflet';
 import { Http } from '@angular/http';
+import { Headers, RequestOptions } from '@angular/http';
+import 'rxjs/add/operator/map';
+import 'rxjs/add/operator/catch';
 var BrokerListPage = /** @class */ (function () {
-    function BrokerListPage(navCtrl, service, http) {
+    function BrokerListPage(GlobalvarsProvider, navCtrl, service, http) {
         var _this = this;
+        this.GlobalvarsProvider = GlobalvarsProvider;
         this.navCtrl = navCtrl;
         this.service = service;
         this.http = http;
         this.viewMode = "list";
-        this.http.get('http://localhost/riceup/riceupapi.php?action=getall')
+        this.GlobalvarsProvider.setcredentials();
+        var header = new Headers();
+        header.append("Accept", "application/json");
+        header.append("Authorization", this.GlobalvarsProvider.gettoken());
+        console.log(this.GlobalvarsProvider.gettoken());
+        var option = new RequestOptions({ headers: header });
+        this.http.get('http://api.riceupfarmers.org/api/users/farmer', option)
             .map(function (response) { return response.json(); })
-            .subscribe(function (res) { return _this.brokers = res; });
+            .subscribe(function (res) {
+            _this.farmers = res;
+            console.log(res);
+        });
     }
-    BrokerListPage.prototype.openBrokerDetail = function (broker) {
-        console.log(broker);
-        this.navCtrl.push(BrokerDetailPage, broker);
+    BrokerListPage.prototype.openBrokerDetail = function (farmer) {
+        this.navCtrl.push(BrokerDetailPage, farmer);
     };
     BrokerListPage.prototype.showMap = function () {
         var _this = this;
         setTimeout(function () {
-            _this.map = leaflet.map("map").setView([42.361132, -71.070876], 14);
-            leaflet.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
-                attribution: 'Tiles &copy; Esri'
+            _this.map = leaflet.map("map").setView([17.622021, 121.727625], 12);
+            leaflet.tileLayer('https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png', {
+                attribution: '&copy; techventures.ph'
             }).addTo(_this.map);
             _this.showMarkers();
+            _this.map.locate({ setView: false, maxZoom: 12 });
+            _this.map.on('locationfound', function (e) {
+                var radius = e.accuracy / 2;
+                var popup = leaflet.popup();
+                popup
+                    .setLatLng(e.latlng)
+                    .setContent("You are currently here!")
+                    .openOn(_this.map);
+                leaflet.circle(e.latlng, radius).addTo(_this.map);
+            });
+            function onLocationError(e) {
+                alert("Turn on your service location to see your current location!");
+                this.viewMode = "list";
+            }
+            _this.map.on('locationerror', onLocationError);
         });
     };
     BrokerListPage.prototype.showMarkers = function () {
@@ -44,9 +72,9 @@ var BrokerListPage = /** @class */ (function () {
             this.map.removeLayer(this.markersGroup);
         }
         this.markersGroup = leaflet.layerGroup([]);
-        this.brokers.forEach(function (property) {
-            if (property.loclat, property.loclng) {
-                var marker = leaflet.marker([property.loclat, property.loclng]).on('click', function (event) { return _this.openBrokerDetail(event.target.data); });
+        this.farmers.forEach(function (property) {
+            if (property.address_lat, property.address_long) {
+                var marker = leaflet.marker([property.address_lat, property.address_long]).on('click', function (event) { return _this.openBrokerDetail(event.target.data); });
                 marker.data = property;
                 _this.markersGroup.addLayer(marker);
             }
@@ -58,7 +86,7 @@ var BrokerListPage = /** @class */ (function () {
             selector: 'page-broker-list',
             templateUrl: 'broker-list.html'
         }),
-        __metadata("design:paramtypes", [NavController, BrokerService, Http])
+        __metadata("design:paramtypes", [GlobalvarsProvider, NavController, BrokerService, Http])
     ], BrokerListPage);
     return BrokerListPage;
 }());

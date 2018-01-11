@@ -9,7 +9,8 @@
     <ion-card>
 
         <ion-card-content>
-            <img src="http://localhost/riceup/assets/img/{{farmer.id}}.jpg"/>
+            
+         <img src="http://i-tugue.com/system/uploads/user/{{ farmer.id }}.jpg"  onError="this.src='http://i-tugue.com/system/uploads/user.jpg';" />
             <h2>{{farmer.lastname}}, {{farmer.firstname}} {{farmer.middlename}}</h2>
             <h3>{{farmer.business_name}}</h3>
         </ion-card-content>

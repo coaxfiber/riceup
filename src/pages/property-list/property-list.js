@@ -14,6 +14,7 @@ import { PropertyDetailPage } from '../property-detail/property-detail';
 import { Http } from '@angular/http';
 import { MenuController } from 'ionic-angular';
 import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
+import { Headers, RequestOptions } from '@angular/http';
 var PropertyListPage = /** @class */ (function () {
     function PropertyListPage(GlobalvarsProvider, navParams, http, menu, navCtrl, service, config) {
         var _this = this;
@@ -26,9 +27,15 @@ var PropertyListPage = /** @class */ (function () {
         this.config = config;
         this.searchKey = "";
         this.viewMode = "list";
-        this.http.get('http://localhost/riceup/riceupapi.php?action=getproall')
+        var header = new Headers();
+        header.append("Accept", "application/json");
+        header.append("Authorization", this.GlobalvarsProvider.gettoken());
+        var option = new RequestOptions({ headers: header });
+        this.http.get('http://api.riceupfarmers.org/api/products', option)
             .map(function (response) { return response.json(); })
-            .subscribe(function (res) { return _this.properties = res; });
+            .subscribe(function (res) {
+            _this.properties = res;
+        });
         this.findAll();
         this.menu.enable(true);
     }

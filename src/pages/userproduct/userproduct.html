@@ -15,10 +15,22 @@
         <ion-item-sliding *ngFor="let property of products">
             <button ion-item (click)="openPropertyDetail(property)">
                 <ion-thumbnail item-left>
-                    <img src="http://192.168.1.5/system/stayinn-backend/uploads/s{{ property.photo_url }}.jpg"  onError="this.src='http://192.168.1.5/system/stayinn-backend/uploads/sproduct.jpg';"/>
+                   <img src="http://i-tugue.com/system/uploads/s{{ property.photo_url }}.jpg" onError="this.src='http://i-tugue.com/system/uploads/sproduct.jpg';" />
                 </ion-thumbnail>
                 <h2>{{property.product_name}}</h2>
                 <p>{{property.product_desc }}</p>
+            </button>
+             <ion-item-options>
+                <button danger (click)="updatecart()" class="green"> Update </button>
+                <button danger (click)="delcart(list.id)" class="red">Remove</button>
+            </ion-item-options>
+        </ion-item-sliding>
+        <ion-item-sliding>
+            <button ion-item >
+                <ion-thumbnail item-left>
+                </ion-thumbnail>
+                <h2></h2>
+                <p></p>
             </button>
         </ion-item-sliding>
         
@@ -27,3 +39,10 @@
         <button ion-fab  [navPush]="pushPage" clase="button-f"><ion-icon name="md-add"></ion-icon></button>
      </ion-fab>
 </ion-content>
+
+
+<ion-footer padding>
+    <ion-segment>
+        <p><b>Note:</b> Options will appear when you swipe left on the product.</p>
+    </ion-segment>
+</ion-footer>

@@ -10,6 +10,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
+import { Headers, RequestOptions } from '@angular/http';
 /*
   Generated class for the GlobalvarsProvider provider.
 
@@ -19,18 +20,49 @@ import 'rxjs/add/operator/map';
 var GlobalvarsProvider = /** @class */ (function () {
     function GlobalvarsProvider(http) {
         this.http = http;
+        this.grant_type = 'password';
+        this.client_id = '2';
+        this.client_secret = 'uzyd8xUn9UeaQaMB8hfghABzvAFJZE8Djc4JcJlu';
+        this.username = null;
+        this.password = null;
+        this.scope = '';
     }
     GlobalvarsProvider.prototype.getgid = function () {
         return this.globalid;
     };
+    GlobalvarsProvider.prototype.setloggeduser = function (user) {
+        this.loggeduser = user;
+    };
     GlobalvarsProvider.prototype.setgid = function (gid) {
         this.globalid = gid;
     };
-    GlobalvarsProvider.prototype.setid = function (id) {
-        this.id = id;
+    GlobalvarsProvider.prototype.gettoken = function () {
+        return this.token;
     };
-    GlobalvarsProvider.prototype.getid = function () {
-        return this.id;
+    GlobalvarsProvider.prototype.settoken = function (token) {
+        this.token = token;
+    };
+    GlobalvarsProvider.prototype.setcredentials = function () {
+        var _this = this;
+        var urlSearchParams = new URLSearchParams();
+        urlSearchParams.append("grant_type", this.grant_type);
+        urlSearchParams.append("client_id", this.client_id);
+        urlSearchParams.append("client_secret", this.client_secret);
+        urlSearchParams.append("username", this.username);
+        urlSearchParams.append("password", this.password);
+        urlSearchParams.append("scope", this.scope);
+        var body = urlSearchParams.toString();
+        var header = new Headers();
+        header.append("Content-Type", "application/x-www-form-urlencoded");
+        header.append("Accept", "application/json");
+        var option = new RequestOptions({ headers: header });
+        return this.http.post('http://api.riceupfarmers.org/oauth/token', body, option)
+            .map(function (response) { return response.json(); })
+            .subscribe(function (data) {
+            _this.settoken(data.token_type + " " + data.access_token);
+        }, function (error) {
+            alert(error);
+        });
     };
     GlobalvarsProvider = __decorate([
         Injectable(),

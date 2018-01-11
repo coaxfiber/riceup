@@ -1,0 +1,44 @@
+<ion-header>
+
+    <ion-navbar>
+        
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>My Account</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="broker">
+
+    <ion-card>
+
+        <ion-card-content>
+            
+         <img src="http://i-tugue.com/system/uploads/user/{{ user.id }}.jpg"  onError="this.src='http://i-tugue.com/system/uploads/user.jpg';" />
+            <h2>{{user.lastname}}, {{user.firstname}} {{user.middlename}}</h2>
+            <h3>{{user.business_name}}</h3>
+        </ion-card-content>
+
+        <ion-list>
+            
+            <a href="tel:{{user.mobile_number}}" ion-item>
+                <ion-icon name="text" item-left></ion-icon>
+                <p>Call/Text</p>
+                <h2>{{user.mobile_no}}</h2>
+            </a>
+            <a href="mailto:{{user.email_address}}" ion-item>
+                <ion-icon name="mail" item-left></ion-icon>
+                <p>Email</p>
+                <h2>{{user.email}}</h2>
+            </a>
+            <a href="#" ion-item>
+                <ion-icon name="pin" item-left></ion-icon>
+                <p>Address</p>
+                <h2>{{user.address}}</h2>
+            </a>
+        </ion-list>
+
+    </ion-card>
+
+</ion-content>

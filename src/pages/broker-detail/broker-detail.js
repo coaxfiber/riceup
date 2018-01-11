@@ -17,9 +17,7 @@ var BrokerDetailPage = /** @class */ (function () {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.service = service;
-        this.broker = this.navParams.data;
-        console.log('this');
-        console.log(this.broker);
+        this.farmer = this.navParams.data;
     }
     BrokerDetailPage = __decorate([
         Component({

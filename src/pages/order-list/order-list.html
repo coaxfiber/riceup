@@ -15,7 +15,7 @@
 
 <ion-content class="property-list">
     <ion-list>
-        <ion-item-sliding *ngFor="let orderlist of order">
+        <ion-item-sliding *ngFor="let orderlist of orders">
             <button ion-item  (click)="callorderinfo(orderlist.id)">
                 <h2>Order#: {{orderlist.order_number}}</h2>
                 <p>{{orderlist.order_date}}</p>

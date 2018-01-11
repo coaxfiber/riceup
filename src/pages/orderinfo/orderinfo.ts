@@ -17,24 +17,31 @@ import {Headers,RequestOptions} from '@angular/http';
   templateUrl: 'orderinfo.html',
 })
 export class OrderinfoPage {
-	order: any;
+  order: any;
+  orders: any;
 	orderno: any;
-	orderinfo:any;
+  gtotal:any;
   constructor(public GlobalvarsProvider:GlobalvarsProvider,private http: Http,public actionSheetCtrl: ActionSheetController, public navCtrl: NavController, public navParams: NavParams, public propertyService: PropertyService, public toastCtrl: ToastController) {
-        this.order = this.navParams.data;       
-         
+        this.order = this.navParams.data;
                var header = new Headers();
                   header.append("Accept", "application/json");
                   header.append("Authorization",this.GlobalvarsProvider.gettoken());
-              
         let option = new RequestOptions({ headers: header });
         this.http.get('http://api.riceupfarmers.org/api/order/'+this.order,option)
 		          .map(response => response.json())
 		          .subscribe(rese => {
 		          	this.orderno=rese.order_number;
-		          	this.orderinfo = rese.product_order;
+		          	this.orders = rese.product_order;
+                this.gtotal=this.gettotal(this.orders);
+                this.gtotal = "P"+this.gtotal;
 		          });
  
 }
-
+  gettotal(gett:any){
+    var total = 0;
+    for(var i = 0; i < gett.length ; i++){
+        total += (gett[i].farmer_product.price_per_unit * gett[i].quantity);
+    }
+    return total;
+  }
 }

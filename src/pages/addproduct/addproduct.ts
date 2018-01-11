@@ -32,7 +32,7 @@ export class AddproductPage {
   lat:string = '';
   username:string = '';
   buttonDisabled = true;
-userData: any;
+  userData: any;
   constructor(public GlobalvarsProvider:GlobalvarsProvider,private http: Http,private alertCtrl: AlertController,fb: FormBuilder,public navCtrl: NavController, private camera: Camera, private transfer: Transfer, private file: File, private filePath: FilePath, public actionSheetCtrl: ActionSheetController, public toastCtrl: ToastController, public platform: Platform, public loadingCtrl: LoadingController) {
     this.form = fb.group({
       name: fb.group({
@@ -146,64 +146,76 @@ public uploadImage() {
 
   if (this.form.value.name.pname!=""&&this.form.value.name.desc!=""&&this.form.value.name.unit!=""&&this.form.value.name.price!=""&&this.form.value.name.stocks!=""&&this.form.value.name.harvest_date!="") {
   // Destination URL
- var timeInMs = Date.now();
- alert(timeInMs);
- var url = 'http://i-tugue.com/system/apiup.php?get='+this.form.value.name.pname+timeInMs;
- //'http://api.riceupfarmers.org/api/product/add?name='+this.form.value.name.pname+'&desc='+this.form.value.name.desc+'&unit='+this.form.value.name.unit+'&price='+this.form.value.name.price+'&stocks='+this.form.value.name.stocks+'&harvest_date='+this.form.value.name.harvest_date;
-  // File for Upload
-  var targetPath = this.pathForImage(this.lastImage);
- 
-  // File name only
-  var filename = this.lastImage;
- 
-  var options = {
-    fileKey: "file",
-    fileName: filename,
-    chunkedMode: false,
-    mimeType: "multipart/form-data",
-    params : {'fileName': filename}
-  };
- 
-  const fileTransfer: TransferObject = this.transfer.create();
- 
-  this.loading = this.loadingCtrl.create({
-    content: 'Adding your Product...',
-  });
-  this.loading.present();
- 
-  // Use the FileTransfer to upload the image
-  fileTransfer.upload(targetPath, url, options).then(data => {
-    this.loading.dismissAll();
-    this.presentToast('product Added...');
-    //start
-             let urlSearchParams = new URLSearchParams();
-                urlSearchParams.append("grant_type",this.GlobalvarsProvider.grant_type);
-              let body = urlSearchParams.toString()
-               var header = new Headers();
-                  header.append("Accept", "application/json");
-                  header.append("Content-Type", "application/x-www-form-urlencoded");
-                  header.append("Authorization",this.GlobalvarsProvider.gettoken());
-                        
-                  let option = new RequestOptions({ headers: header });
-                              
-                     this.http.post('http://api.riceupfarmers.org/api/product/add?photo_url='+this.form.value.name.pname+timeInMs+'&name='+this.form.value.name.pname+'&desc='+this.form.value.name.desc+'&unit='+this.form.value.name.unit+'&price='+this.form.value.name.price+'&stocks='+this.form.value.name.stocks+'&harvest_date='+this.form.value.name.harvest_date, urlSearchParams,option)
-                     .map(response => response.json())
-                    .subscribe(data => {
-                      alert(data);
-                   });
-     //end
-    this.form.reset();
+  if (this.lastImage==null) {
+     this.presentAlert("Image selection is required!");
+  }else{
+     var timeInMs = Date.now();
+     var url = 'http://i-tugue.com/system/apiup.php?get='+this.form.value.name.pname+timeInMs;
+     //'http://api.riceupfarmers.org/api/product/add?name='+this.form.value.name.pname+'&desc='+this.form.value.name.desc+'&unit='+this.form.value.name.unit+'&price='+this.form.value.name.price+'&stocks='+this.form.value.name.stocks+'&harvest_date='+this.form.value.name.harvest_date;
+      // File for Upload
+      var targetPath = this.pathForImage(this.lastImage);
+     
+      // File name only
+      var filename = this.lastImage;
+     
+      var options = {
+        fileKey: "file",
+        fileName: filename,
+        chunkedMode: false,
+        mimeType: "multipart/form-data",
+        params : {'fileName': filename}
+      };
+     
+      const fileTransfer: TransferObject = this.transfer.create();
+     
+      this.loading = this.loadingCtrl.create({
+        content: 'Adding your Product...',
+      });
+      this.loading.present();
+     
+      // Use the FileTransfer to upload the image
+      fileTransfer.upload(targetPath, url, options).then(data => {
+        this.loading.dismissAll();
+        this.presentToast('product Added...');
+        //start
+                 let urlSearchParams = new URLSearchParams();
+                    urlSearchParams.append("grant_type",this.GlobalvarsProvider.grant_type);
+                  let body = urlSearchParams.toString()
+                   var header = new Headers();
+                      header.append("Accept", "application/json");
+                      header.append("Content-Type", "application/x-www-form-urlencoded");
+                      header.append("Authorization",this.GlobalvarsProvider.gettoken());
+                            
+                      let option = new RequestOptions({ headers: header });
+                                  
+                         this.http.post('http://api.riceupfarmers.org/api/product/add?photo_url='+this.form.value.name.pname+timeInMs+'&name='+this.form.value.name.pname+'&desc='+this.form.value.name.desc+'&unit='+this.form.value.name.unit+'&price='+this.form.value.name.price+'&stocks='+this.form.value.name.stocks+'&harvest_date='+this.form.value.name.harvest_date, urlSearchParams,option)
+                         .map(response => response.json())
+                        .subscribe(data => {
+                          this.presentAlert(data);
+                       });
+         //end
+        this.form.reset();
 
-  }, err => {
-    this.loading.dismissAll()
-    this.presentToast('Error while uploading file.');
-  });
-  this.lastImage=null;
+      }, err => {
+        this.loading.dismissAll()
+        this.presentToast('Error while uploading file.');
+      });
+      this.lastImage=null;
+    }
   }
   else
   {
-    alert("Fill all the required Fields!");
+    this.presentAlert("Fill all the required Fields!");
   }
 }
+
+ presentAlert(val:any) {
+      let alert = this.alertCtrl.create({
+        title: 'Alert',
+        subTitle: val,
+        buttons: ['Dismiss']
+      });
+      alert.present();
+    }
 
 }

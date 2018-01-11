@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 import { TermsandagreementPage } from '../termsandagreement/termsandagreement';
 //https://www.youtube.com/watch?v=fE09dHu6sP0
-
+import { AlertController } from 'ionic-angular';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import {NavController} from 'ionic-angular';
 import {Platform} from 'ionic-angular';
@@ -12,9 +12,8 @@ import {Http, Headers, RequestOptions} from '@angular/http';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
-
 import { MenuController } from 'ionic-angular';
-import { Events } from 'ionic-angular';
+import { Events } from 'ionic-angular';import { Network } from '@ionic-native/network';
 @Component({
     selector: 'page-welcome',
     templateUrl: 'welcome.html'
@@ -26,8 +25,13 @@ export class WelcomePage {
    pushPage: any;
    login: any;
    farmer: Array<any>;
-	  constructor(public menu: MenuController,public events: Events,public GlobalvarsProvider:GlobalvarsProvider,fb: FormBuilder,public platform: Platform,public navCtrl: NavController,private http: Http){
-	    this.pushPage = TermsandagreementPage;
+	  constructor(private alertCtrl: AlertController,private network: Network,public menu: MenuController,public events: Events,public GlobalvarsProvider:GlobalvarsProvider,fb: FormBuilder,public platform: Platform,public navCtrl: NavController,private http: Http){
+	    let disconnectSubscription = this.network.onDisconnect().subscribe(() => {
+        alert('No internet Connection :-(');
+      });
+      // stop disconnect watch
+      disconnectSubscription.unsubscribe();
+      this.pushPage = TermsandagreementPage;
       this.login = SignupPage;
 	    this.form = fb.group({
         name: fb.group({
@@ -82,41 +86,43 @@ export class WelcomePage {
                .map(response => response.json())
                   .subscribe(data => {
                    this.GlobalvarsProvider.settoken(data.token_type+" "+data.access_token);
-
-
-                //wwew start
-                 var header = new Headers();
-                  header.append("Accept", "application/json");
-                  header.append("Content-Type", "application/x-www-form-urlencoded");
-                  header.append("Authorization",this.GlobalvarsProvider.gettoken());
-                        
-                let option = new RequestOptions({ headers: header });
+                      //wwew start
+                       var header = new Headers();
+                        header.append("Accept", "application/json");
+                        header.append("Content-Type", "application/x-www-form-urlencoded");
+                        header.append("Authorization",this.GlobalvarsProvider.gettoken());
                               
-                     this.http.get('http://api.riceupfarmers.org/api/user', option)
-                     .map(response => response.json())
-                    .subscribe(data => {
-                      console.log('wewew');
-                      console.log(data);
-                     this.createUser(data);
-                   });
-                  //wew end
-                  
+                      let option = new RequestOptions({ headers: header });
+                                    
+                           this.http.get('http://api.riceupfarmers.org/api/user', option)
+                           .map(response => response.json())
+                          .subscribe(data => {
+                           this.createUser(data);
+                         });
+                        //wew end
                    this.navCtrl.setRoot(PropertyListPage);     
                }
                , error => {
-               alert("Incorrect username or password");
+               this.presentAlert("Incorrect username or password");
                });
               }
               else{
-                 alert("Input username or password!");
+                this.presentAlert("Input username or password!");
               }
             }
 
          
 
         createUser(user) {
-            console.log('User created!')
             this.events.publish('user:created', user, this.GlobalvarsProvider.getgid());
+          }
+          presentAlert(val:any) {
+            let alert = this.alertCtrl.create({
+              title: 'Alert',
+              subTitle: val,
+              buttons: ['Dismiss']
+            });
+            alert.present();
           }
 }
 /*

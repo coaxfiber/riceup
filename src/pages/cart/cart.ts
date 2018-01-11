@@ -4,7 +4,7 @@ import {Http } from '@angular/http';
 import {  MenuController } from 'ionic-angular';
 import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
 import {Headers, RequestOptions} from '@angular/http';
-
+import { AlertController } from 'ionic-angular';
 /**
  * Generated class for the CartPage page.
  *
@@ -16,13 +16,13 @@ import {Headers, RequestOptions} from '@angular/http';
   templateUrl: 'cart.html',
 })
 export class CartPage {
-
-order:any;
-order_date:any;
-orders:any;
-gtotal:any;
-  constructor(public GlobalvarsProvider: GlobalvarsProvider,private menu : MenuController,private http: Http,public navCtrl: NavController, public navParams: NavParams) {
-  	
+      order:any;
+      order_date:any;
+      orders:any;
+      gtotal:any;
+      orderid:any;
+  constructor(private alertCtrl: AlertController,public GlobalvarsProvider: GlobalvarsProvider,private menu : MenuController,private http: Http,public navCtrl: NavController, public navParams: NavParams) {
+    
              let urlSearchParams = new URLSearchParams();
                 urlSearchParams.append("passforpost",this.GlobalvarsProvider.grant_type);
              let body = urlSearchParams.toString()
@@ -34,15 +34,23 @@ gtotal:any;
         this.http.post('http://api.riceupfarmers.org/api/order/new',urlSearchParams,option)
           .map(response => response.json())
           .subscribe(res => {
+            this.orderid = res.order_number[0].id;
               this.http.get('http://api.riceupfarmers.org/api/order/'+res.order_number[0].id,option)
-		          .map(response => response.json())
-		          .subscribe(rese => {
-		          	this.orders = rese.product_order;
-                this.gtotal=this.gettotal(this.orders);
-		          });
-          });
-
-        
+              .map(response => response.json())
+              .subscribe(rese => {
+                console.log(res);
+                if (rese.product_order!=undefined) {
+                  this.orders = rese.product_order;
+                  this.gtotal=this.gettotal(this.orders);
+                  this.gtotal = "P"+this.gtotal;
+                }else
+                {
+                  this.presentAlert("No items in cart!");  
+                }
+                
+              },err =>{
+              });   
+              });  
   }
 
   gettotal(gett:any){
@@ -54,18 +62,94 @@ gtotal:any;
   }
 
   delcart(ids: any){
-    let urlSearchParams = new URLSearchParams();
+    let alert = this.alertCtrl.create({
+        title: 'Confirm Remove',
+        message: 'are you sure you want to remove the item in the cart?',
+        buttons: [
+          {
+            text: 'Cancel',
+            role: 'cancel',
+            handler: () => {
+              let urlSearchParams = new URLSearchParams();
                 urlSearchParams.append("passforpost",this.GlobalvarsProvider.grant_type);
+             let body = urlSearchParams.toString()
+               var header = new Headers();
+                  header.append("Accept", "application/json");
+                  header.append("Authorization",this.GlobalvarsProvider.gettoken());
+                    
+              let option = new RequestOptions({ headers: header });
+              this.http.delete('http://api.riceupfarmers.org/api/cart/remove/'+ids,option)
+                .map(response => response.json())
+                .subscribe(res => {
+                  this.navCtrl.setRoot(this.navCtrl.getActive().component);
+                });
+                  }
+          },
+          {
+            text: 'Checkout',
+            handler: () => {
+              this.checkout();
+            }
+          }
+        ]
+      });
+      alert.present();
+    
+  }
+  alertConfirm() {
+    if (this.gtotal != undefined && this.gtotal != "P0" && this.gtotal != null) {
+      let alert = this.alertCtrl.create({
+        title: 'Confirm Checkout',
+        message: 'are you sure you want to checkout the items in the cart?',
+        buttons: [
+          {
+            text: 'Cancel',
+            role: 'cancel',
+            handler: () => {
+            }
+          },
+          {
+            text: 'Checkout',
+            handler: () => {
+              this.checkout();
+            }
+          }
+        ]
+      });
+      alert.present();
+    }else
+        {
+          this.presentAlert("No items in cart!");
+        }
+    }
+  checkout(){
+      // code...
+     let urlSearchParams = new URLSearchParams();
+                urlSearchParams.append("shipping_mode",'0');
+                urlSearchParams.append("order_status",'1');
+                urlSearchParams.append("remarks",'');
              let body = urlSearchParams.toString()
                var header = new Headers();
                   header.append("Accept", "application/json");
                   header.append("Authorization",this.GlobalvarsProvider.gettoken());
               
         let option = new RequestOptions({ headers: header });
-        this.http.delete('http://api.riceupfarmers.org/api/cart/remove/'+ids,option)
+        this.http.patch('http://api.riceupfarmers.org/api/order/checkout/'+this.orderid+'?shipping_mode=0&order_status=1&remarks=',body,option)
           .map(response => response.json())
           .subscribe(res => {
+            this.presentAlert(res.message);
             this.navCtrl.setRoot(this.navCtrl.getActive().component);
           });
-  }
+        
+
+    }
+
+    presentAlert(val:any) {
+      let alert = this.alertCtrl.create({
+        title: 'Alert',
+        subTitle: val,
+        buttons: ['Dismiss']
+      });
+      alert.present();
+    }
 }

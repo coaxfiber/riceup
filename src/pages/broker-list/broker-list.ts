@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {NavController} from 'ionic-angular';
+import {NavController,LoadingController, Loading } from 'ionic-angular';
 import {BrokerService} from '../../providers/broker-service-mock';
 import {BrokerDetailPage} from '../broker-detail/broker-detail';
 import {GlobalvarsProvider} from '../../providers/globalvars/globalvars';
@@ -8,6 +8,7 @@ import {Http } from '@angular/http';
 import {Headers, RequestOptions} from '@angular/http';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
+import { AlertController } from 'ionic-angular';
 
 @Component({
     selector: 'page-broker-list',
@@ -16,11 +17,16 @@ import 'rxjs/add/operator/catch';
 
 export class BrokerListPage {
 
+      loading: Loading;
     farmers: Array<any>;
     viewMode: string = "list";
     map;
     markersGroup;
-    constructor(public GlobalvarsProvider:GlobalvarsProvider,public navCtrl: NavController, public service: BrokerService,private http: Http) {
+    constructor(private alertCtrl: AlertController, public loadingCtrl: LoadingController,public GlobalvarsProvider:GlobalvarsProvider,public navCtrl: NavController, public service: BrokerService,private http: Http) {
+      this.loading = this.loadingCtrl.create({
+        content: 'Loading farmers...',
+      });
+      this.loading.present();
         this.GlobalvarsProvider.setcredentials();
              var header = new Headers();
                 header.append("Accept", "application/json");
@@ -32,7 +38,7 @@ export class BrokerListPage {
           .map(response => response.json())
           .subscribe(res => {
               this.farmers = res;
-              console.log(res);
+              this.loading.dismissAll();
           });
 
     }
@@ -66,7 +72,7 @@ export class BrokerListPage {
                    });
 
                     function onLocationError(e) {
-                         alert("Turn on your service location to see your current location!");
+                        this.presentAlert("Turn on your service location to see your current location!");
                          this.viewMode = "list";
                         }
                      this.map.on('locationerror', onLocationError);

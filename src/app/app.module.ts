@@ -33,6 +33,9 @@ import {SignupPage} from '../pages/signup/signup';
 import {OrderinfoPage} from '../pages/orderinfo/orderinfo';
 import {AddproductPage} from '../pages/addproduct/addproduct';
 import {UserproductPage} from '../pages/userproduct/userproduct';
+import {PrivacyPolicyPage} from '../pages/privacy-policy/privacy-policy';
+import {AccountPage} from '../pages/account/account';
+import { Network } from '@ionic-native/network';
 @NgModule({
   declarations: [
     MyApp,
@@ -42,8 +45,8 @@ import {UserproductPage} from '../pages/userproduct/userproduct';
     PropertyDetailPage,
     FavoriteListPage,
     BrokerListPage,
-    BrokerDetailPage,AddproductPage,UserproductPage,OrderinfoPage,
-    TermsandagreementPage,OrderListPage,CartPage,SignupPage
+    BrokerDetailPage,AddproductPage,UserproductPage,OrderinfoPage,PrivacyPolicyPage,
+    TermsandagreementPage,OrderListPage,CartPage,SignupPage,AccountPage
   ],
   imports: [
     BrowserModule,
@@ -58,8 +61,9 @@ import {UserproductPage} from '../pages/userproduct/userproduct';
     PropertyListPage,
     PropertyDetailPage,
     FavoriteListPage,
-    BrokerListPage,AddproductPage,UserproductPage,OrderinfoPage,
-    BrokerDetailPage,TermsandagreementPage,OrderListPage,CartPage,SignupPage
+
+    BrokerListPage,AddproductPage,UserproductPage,OrderinfoPage,PrivacyPolicyPage,
+    BrokerDetailPage,TermsandagreementPage,OrderListPage,CartPage,SignupPage,AccountPage
   ],
   providers: [
     Transfer,
@@ -69,7 +73,7 @@ import {UserproductPage} from '../pages/userproduct/userproduct';
     StatusBar,
     SplashScreen,AuthService,
     PropertyService,
-    BrokerService,GlobalvarsProvider,
+    BrokerService,GlobalvarsProvider, Network,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

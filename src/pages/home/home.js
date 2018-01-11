@@ -9,16 +9,30 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { AuthService } from '../../providers/auth-service/auth-service';
 var HomePage = /** @class */ (function () {
-    function HomePage(navCtrl) {
+    function HomePage(navCtrl, authService) {
         this.navCtrl = navCtrl;
+        this.authService = authService;
+        this.userPostData = { "user_id": "", "token": "" };
+        var data = JSON.parse(localStorage.getItem('userData'));
+        this.userDetails = data.userData;
+        this.userPostData.user_id = this.userDetails.user_id;
+        this.userPostData.token = this.userDetails.token;
     }
+    HomePage.prototype.backToWelcome = function () {
+    };
+    HomePage.prototype.logout = function () {
+        var _this = this;
+        localStorage.clear();
+        setTimeout(function () { return _this.backToWelcome(); }, 1000);
+    };
     HomePage = __decorate([
         Component({
             selector: 'page-home',
             templateUrl: 'home.html'
         }),
-        __metadata("design:paramtypes", [NavController])
+        __metadata("design:paramtypes", [NavController, AuthService])
     ], HomePage);
     return HomePage;
 }());

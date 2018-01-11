@@ -4,6 +4,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+import { AuthService } from '../providers/auth-service/auth-service';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule } from '@angular/http';
 import { ErrorHandler, NgModule } from '@angular/core';
@@ -22,7 +23,19 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { TermsandagreementPage } from '../pages/termsandagreement/termsandagreement';
 import { OrderListPage } from '../pages/order-list/order-list';
+import { CartPage } from '../pages/cart/cart';
 import { GlobalvarsProvider } from '../providers/globalvars/globalvars';
+import { Camera } from '@ionic-native/camera';
+import { Transfer } from '@ionic-native/transfer';
+import { File } from '@ionic-native/file';
+import { FilePath } from '@ionic-native/file-path';
+import { SignupPage } from '../pages/signup/signup';
+import { OrderinfoPage } from '../pages/orderinfo/orderinfo';
+import { AddproductPage } from '../pages/addproduct/addproduct';
+import { UserproductPage } from '../pages/userproduct/userproduct';
+import { PrivacyPolicyPage } from '../pages/privacy-policy/privacy-policy';
+import { AccountPage } from '../pages/account/account';
+import { Network } from '@ionic-native/network';
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
@@ -36,8 +49,8 @@ var AppModule = /** @class */ (function () {
                 PropertyDetailPage,
                 FavoriteListPage,
                 BrokerListPage,
-                BrokerDetailPage,
-                TermsandagreementPage, OrderListPage
+                BrokerDetailPage, AddproductPage, UserproductPage, OrderinfoPage, PrivacyPolicyPage,
+                TermsandagreementPage, OrderListPage, CartPage, SignupPage, AccountPage
             ],
             imports: [
                 BrowserModule,
@@ -52,14 +65,18 @@ var AppModule = /** @class */ (function () {
                 PropertyListPage,
                 PropertyDetailPage,
                 FavoriteListPage,
-                BrokerListPage,
-                BrokerDetailPage, TermsandagreementPage, OrderListPage
+                BrokerListPage, AddproductPage, UserproductPage, OrderinfoPage, PrivacyPolicyPage,
+                BrokerDetailPage, TermsandagreementPage, OrderListPage, CartPage, SignupPage, AccountPage
             ],
             providers: [
+                Transfer,
+                File,
+                Camera,
+                FilePath,
                 StatusBar,
-                SplashScreen,
+                SplashScreen, AuthService,
                 PropertyService,
-                BrokerService, GlobalvarsProvider,
+                BrokerService, GlobalvarsProvider, Network,
                 { provide: ErrorHandler, useClass: IonicErrorHandler }
             ]
         })

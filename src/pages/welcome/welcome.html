@@ -13,11 +13,11 @@
           <ion-list inset>
             
             <ion-item>
-              <ion-input type="text" placeholder="Email" name="email" formControlName="uname"></ion-input>
+              <ion-input type="text" placeholder="Username" name="email" formControlName="uname"></ion-input>
             </ion-item>
             
             <ion-item>
-              <ion-input type="password" placeholder="Password" name="password"          formControlName="pw"></ion-input>
+              <ion-input type="password" placeholder="Password" name="password" formControlName="pw"></ion-input>
             </ion-item>
             
           </ion-list>
@@ -27,7 +27,7 @@
       <ion-row>
         <ion-col class="signup-col">
           <button ion-button class="submit-btn" block (click)="calltologin()">Login</button>
-          <div text-center>By clicking the login button, you agree to the <a [navPush]="pushPage">terms and agreement</a></div>
+          <div text-center>By clicking the login button, you agree to <br>the <a [navPush]="pushPage">terms and agreement</a></div>
           <ion-list>
 
     </ion-list>

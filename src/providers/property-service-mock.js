@@ -9,15 +9,26 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
+import { GlobalvarsProvider } from '../providers/globalvars/globalvars';
+import { Headers, RequestOptions } from '@angular/http';
 var PropertyService = /** @class */ (function () {
-    function PropertyService(http) {
+    function PropertyService(GlobalvarsProvider, http) {
         var _this = this;
+        this.GlobalvarsProvider = GlobalvarsProvider;
         this.http = http;
         this.favoriteCounter = 0;
         this.favorites = [];
-        this.http.get('http://localhost/riceup/riceupapi.php?action=getproall')
+        this.GlobalvarsProvider.setcredentials();
+        var header = new Headers();
+        header.append("Accept", "application/json");
+        header.append("Authorization", this.GlobalvarsProvider.gettoken());
+        console.log(this.GlobalvarsProvider.gettoken());
+        var option = new RequestOptions({ headers: header });
+        this.http.get('http://api.riceupfarmers.org/api/products', option)
             .map(function (response) { return response.json(); })
-            .subscribe(function (res) { return _this.properties = res; });
+            .subscribe(function (res) {
+            _this.properties = res;
+        });
     }
     PropertyService.prototype.findAll = function () {
         return Promise.resolve(this.properties);
@@ -28,7 +39,7 @@ var PropertyService = /** @class */ (function () {
     PropertyService.prototype.findByName = function (searchKey) {
         var key = searchKey.toUpperCase();
         return Promise.resolve(this.properties.filter(function (property) {
-            return (property.name + ' ' + property.description).toUpperCase().indexOf(key) > -1;
+            return (property.product_name + ' ' + property.product_desc).toUpperCase().indexOf(key) > -1;
         }));
     };
     PropertyService.prototype.getFavorites = function () {
@@ -48,7 +59,7 @@ var PropertyService = /** @class */ (function () {
     };
     PropertyService = __decorate([
         Injectable(),
-        __metadata("design:paramtypes", [Http])
+        __metadata("design:paramtypes", [GlobalvarsProvider, Http])
     ], PropertyService);
     return PropertyService;
 }());

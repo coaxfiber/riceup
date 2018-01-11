@@ -6,17 +6,22 @@
 
 <ion-content>
         <ion-list>
-        <ion-item-sliding *ngFor="let list of orderinfo">
+        <ion-item-sliding *ngFor="let list of orders">
             <button ion-item>
+                <ion-avatar item-left>
+                    <img src="http://i-tugue.com/system/uploads/s{{ list.farmer_product.photo_url }}.jpg"  onError="this.src='http://i-tugue.com/system/uploads/sproduct.jpg';" />
+                </ion-avatar>
                 <h3>{{list.farmer_product.product_name}}</h3>
-                <p>P{{list.farmer_product.price_per_unit}}</p>
-            <ion-note item-right>{{list.quantity}}</ion-note>
+                <p>P{{list.farmer_product.price_per_unit}} x {{list.quantity}} </p>
+            <ion-note item-right>P{{((list.farmer_product.price_per_unit | number:'1.2-2')*(list.quantity | number:'1.2-2')) | number:'1.2-2'}}</ion-note>
             </button>
-            
-            <ion-item-options>
-                <button danger (click)="deleteItem(favorite)">Remove</button>
-            </ion-item-options>
         </ion-item-sliding>
-        
+        <ion-item-sliding>
+            <button ion-item>
+                <h3></h3>
+                <p></p>
+            <ion-note item-right>{{gtotal}}</ion-note>
+            </button>
+        </ion-item-sliding>
     </ion-list>
 </ion-content>

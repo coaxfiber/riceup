@@ -11,6 +11,9 @@ import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { Http } from '@angular/http';
 import { MenuController } from 'ionic-angular';
+import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
+import { Headers, RequestOptions } from '@angular/http';
+import { OrderinfoPage } from '../orderinfo/orderinfo';
 /**
  * Generated class for the OrderListPage page.
  *
@@ -18,23 +21,32 @@ import { MenuController } from 'ionic-angular';
  * on Ionic pages and navigation.
  */
 var OrderListPage = /** @class */ (function () {
-    function OrderListPage(menu, http, navCtrl, navParams) {
+    function OrderListPage(GlobalvarsProvider, menu, http, navCtrl, navParams) {
         var _this = this;
+        this.GlobalvarsProvider = GlobalvarsProvider;
         this.menu = menu;
         this.http = http;
         this.navCtrl = navCtrl;
         this.navParams = navParams;
-        this.http.get('http://localhost/riceup/riceupapi.php?action=getorderall')
+        var header = new Headers();
+        header.append("Accept", "application/json");
+        header.append("Authorization", this.GlobalvarsProvider.gettoken());
+        var option = new RequestOptions({ headers: header });
+        this.http.get('http://api.riceupfarmers.org/api/orders', option)
             .map(function (response) { return response.json(); })
-            .subscribe(function (res) { return _this.order = res; });
-        this.menu.enable(true);
+            .subscribe(function (res) {
+            _this.orders = res;
+        });
     }
+    OrderListPage.prototype.callorderinfo = function (val) {
+        this.navCtrl.push(OrderinfoPage, val);
+    };
     OrderListPage = __decorate([
         Component({
             selector: 'page-order-list',
             templateUrl: 'order-list.html',
         }),
-        __metadata("design:paramtypes", [MenuController, Http, NavController, NavParams])
+        __metadata("design:paramtypes", [GlobalvarsProvider, MenuController, Http, NavController, NavParams])
     ], OrderListPage);
     return OrderListPage;
 }());

@@ -24415,6 +24415,14 @@ ion-navbar.toolbar {
   color: white;
 }
 
+.red {
+  background-color: #ff847f;
+}
+
+.green {
+  background-color: #94ce52;
+}
+
 ion-note {
   color: #84BF41 !important;
   font-size: 1.4rem !important;
@@ -24433,6 +24441,14 @@ ion-fab {
   bottom: 0;
   margin-bottom: 20px !important;
   margin-right: 20px !important;
+}
+
+.red {
+  background-color: #ff847f;
+}
+
+.green {
+  background-color: #94ce52;
 }
 
 page-welcome {

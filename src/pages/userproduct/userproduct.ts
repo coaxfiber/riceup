@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {Config, NavController, NavParams} from 'ionic-angular';
+import {Config, NavController, NavParams,LoadingController, Loading} from 'ionic-angular';
 import {Http } from '@angular/http';
 import {  MenuController } from 'ionic-angular';
 import {GlobalvarsProvider} from '../../providers/globalvars/globalvars';
@@ -19,9 +19,14 @@ import {PropertyDetailPage} from '../property-detail/property-detail';
   templateUrl: 'userproduct.html',
 })
 export class UserproductPage {
+      loading: Loading;
  products:any;pushPage: any;
-  constructor(public GlobalvarsProvider:GlobalvarsProvider, public navParams: NavParams,private http: Http,private menu : MenuController,public navCtrl: NavController,  public config: Config) {
+  constructor( public loadingCtrl: LoadingController,public GlobalvarsProvider:GlobalvarsProvider, public navParams: NavParams,private http: Http,private menu : MenuController,public navCtrl: NavController,  public config: Config) {
   	this.pushPage=AddproductPage;
+    this.loading = this.loadingCtrl.create({
+        content: 'Loading Product...',
+      });
+      this.loading.present();
     this.GlobalvarsProvider.setcredentials();
              var header = new Headers();
                 header.append("Accept", "application/json");
@@ -32,13 +37,11 @@ export class UserproductPage {
           .map(response => response.json())
           .subscribe(res => {
               this.products = res;
+              this.loading.dismissAll();
           });
   }
 openPropertyDetail(property: any) {
         this.navCtrl.push(PropertyDetailPage, property);
     }
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad UserproductPage');
-  }
 
 }
