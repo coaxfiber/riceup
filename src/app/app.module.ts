@@ -35,6 +35,7 @@ import {AddproductPage} from '../pages/addproduct/addproduct';
 import {UserproductPage} from '../pages/userproduct/userproduct';
 import {PrivacyPolicyPage} from '../pages/privacy-policy/privacy-policy';
 import {AccountPage} from '../pages/account/account';
+import {CartupdatePage} from '../pages/cartupdate/cartupdate';
 import { Network } from '@ionic-native/network';
 @NgModule({
   declarations: [
@@ -45,7 +46,7 @@ import { Network } from '@ionic-native/network';
     PropertyDetailPage,
     FavoriteListPage,
     BrokerListPage,
-    BrokerDetailPage,AddproductPage,UserproductPage,OrderinfoPage,PrivacyPolicyPage,
+    BrokerDetailPage,AddproductPage,UserproductPage,OrderinfoPage,PrivacyPolicyPage,CartupdatePage,
     TermsandagreementPage,OrderListPage,CartPage,SignupPage,AccountPage
   ],
   imports: [
@@ -62,7 +63,7 @@ import { Network } from '@ionic-native/network';
     PropertyDetailPage,
     FavoriteListPage,
 
-    BrokerListPage,AddproductPage,UserproductPage,OrderinfoPage,PrivacyPolicyPage,
+    BrokerListPage,AddproductPage,UserproductPage,OrderinfoPage,PrivacyPolicyPage,CartupdatePage,
     BrokerDetailPage,TermsandagreementPage,OrderListPage,CartPage,SignupPage,AccountPage
   ],
   providers: [

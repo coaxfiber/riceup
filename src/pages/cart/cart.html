@@ -15,11 +15,11 @@
                     <img src="http://i-tugue.com/system/uploads/s{{ list.farmer_product.photo_url }}.jpg"  onError="this.src='http://i-tugue.com/system/uploads/sproduct.jpg';" />
                 </ion-avatar>
                 <h3>{{list.farmer_product.product_name}}</h3>
-                <p>P{{list.farmer_product.price_per_unit}} x {{list.quantity}} </p>
-            <ion-note item-right>P{{((list.farmer_product.price_per_unit | number:'1.2-2')*(list.quantity | number:'1.2-2')) | number:'1.2-2'}}</ion-note>
+                <p>P{{list.farmer_product.price_per_unit}} * {{list.quantity}} </p>
+            <ion-note item-right>P{{((list.farmer_product.price_per_unit)*(list.quantity)) | number:'1.2-2'}}</ion-note>
             </button>
             <ion-item-options>
-                <button danger (click)="updatecart()" class="green"> Update </button>
+                <button danger (click)="updatecart(list)" class="green"> Update </button>
                 <button danger (click)="delcart(list.id)" class="red">Remove</button>
             </ion-item-options>
         </ion-item-sliding>

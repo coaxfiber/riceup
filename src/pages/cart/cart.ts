@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams,LoadingController, Loading } from 'ionic-angular';
 import {Http } from '@angular/http';
 import {  MenuController } from 'ionic-angular';
 import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
 import {Headers, RequestOptions} from '@angular/http';
 import { AlertController } from 'ionic-angular';
+import {CartupdatePage} from '../cartupdate/cartupdate';
 /**
  * Generated class for the CartPage page.
  *
@@ -17,12 +18,16 @@ import { AlertController } from 'ionic-angular';
 })
 export class CartPage {
       order:any;
+   loading: Loading;
       order_date:any;
       orders:any;
       gtotal:any;
       orderid:any;
-  constructor(private alertCtrl: AlertController,public GlobalvarsProvider: GlobalvarsProvider,private menu : MenuController,private http: Http,public navCtrl: NavController, public navParams: NavParams) {
-    
+  constructor(public loadingCtrl: LoadingController,private alertCtrl: AlertController,public GlobalvarsProvider: GlobalvarsProvider,private menu : MenuController,private http: Http,public navCtrl: NavController, public navParams: NavParams) {
+        this.loading = this.loadingCtrl.create({
+              content: 'Loading Cart...',
+            });
+           this.loading.present();
              let urlSearchParams = new URLSearchParams();
                 urlSearchParams.append("passforpost",this.GlobalvarsProvider.grant_type);
              let body = urlSearchParams.toString()
@@ -43,16 +48,22 @@ export class CartPage {
                   this.orders = rese.product_order;
                   this.gtotal=this.gettotal(this.orders);
                   this.gtotal = "P"+this.gtotal;
+                  this.loading.dismissAll();
                 }else
                 {
-                  this.presentAlert("No items in cart!");  
+                  this.presentAlert("No items in cart!"); 
+                  this.loading.dismissAll();
                 }
                 
               },err =>{
+                  this.loading.dismissAll();
               });   
               });  
   }
 
+    updatecart(property: any) {
+        this.navCtrl.push(CartupdatePage, property);
+    }
   gettotal(gett:any){
     var total = 0;
     for(var i = 0; i < gett.length ; i++){
@@ -64,11 +75,17 @@ export class CartPage {
   delcart(ids: any){
     let alert = this.alertCtrl.create({
         title: 'Confirm Remove',
-        message: 'are you sure you want to remove the item in the cart?',
+        message: 'Are you sure you want to remove the item in the cart?',
         buttons: [
           {
             text: 'Cancel',
             role: 'cancel',
+            handler: () => {
+              
+                  }
+          },
+          {
+            text: 'Confirm',
             handler: () => {
               let urlSearchParams = new URLSearchParams();
                 urlSearchParams.append("passforpost",this.GlobalvarsProvider.grant_type);
@@ -83,12 +100,6 @@ export class CartPage {
                 .subscribe(res => {
                   this.navCtrl.setRoot(this.navCtrl.getActive().component);
                 });
-                  }
-          },
-          {
-            text: 'Checkout',
-            handler: () => {
-              this.checkout();
             }
           }
         ]
@@ -100,7 +111,7 @@ export class CartPage {
     if (this.gtotal != undefined && this.gtotal != "P0" && this.gtotal != null) {
       let alert = this.alertCtrl.create({
         title: 'Confirm Checkout',
-        message: 'are you sure you want to checkout the items in the cart?',
+        message: 'Are you sure you want to checkout the items in the cart?',
         buttons: [
           {
             text: 'Cancel',

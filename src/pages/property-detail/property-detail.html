@@ -14,12 +14,12 @@
         <ion-list>
 
             <ion-item>
-                <ion-icon item-left name="leaf"></ion-icon>
+                <ion-icon item-left name="ios-archive"></ion-icon>
                 <h3>Stocks</h3>
                 <ion-note item-right>{{property.stocks_available}}</ion-note>
             </ion-item>
             <ion-item>
-                <ion-icon item-left name="leaf"></ion-icon>
+                <ion-icon item-left name="ios-clipboard"></ion-icon>
                 <h3>Unit Type</h3>
                 <ion-note item-right>{{property.unit_type}}</ion-note>
             </ion-item>
@@ -29,7 +29,7 @@
                 <ion-note item-right>{{property.price_per_unit}}</ion-note>
             </ion-item>
             <ion-item>
-                <ion-icon item-left name="pricetag"></ion-icon>
+                <ion-icon item-left name="md-calendar"></ion-icon>
                 <h3>Date of Harvest</h3>
                 <ion-note item-right>{{property.date_of_harvest}}</ion-note>
             </ion-item>
@@ -49,7 +49,7 @@
             <ion-item>
                 <ion-icon item-left name="cash"></ion-icon>
                 <h3>Total Price:</h3>
-                <ion-note item-right>P{{(quantity * property.stocks_available) | number:'1.2-2'}}</ion-note>
+                <ion-note item-right>P{{ ((quantity) * (property.price_per_unit)) | number:'1.2-2'}}</ion-note>
             </ion-item>
 
         <button ion-button class="submit-btn" block  (click)="addtocart()">Add to Cart</button>
