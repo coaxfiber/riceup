@@ -23,7 +23,7 @@ export class OrderListPage {
       orders: Array<any>;
   constructor(public loadingCtrl: LoadingController,public GlobalvarsProvider: GlobalvarsProvider,private menu : MenuController,private http: Http,public navCtrl: NavController, public navParams: NavParams) {
   	   this.loading = this.loadingCtrl.create({
-        content: 'Loading farmers...',
+        content: 'Loading Orders...',
       });
       this.loading.present();
        var header = new Headers();
