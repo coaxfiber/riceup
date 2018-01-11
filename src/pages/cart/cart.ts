@@ -21,7 +21,7 @@ export class CartPage {
    loading: Loading;
       order_date:any;
       orders:any;
-      gtotal:any;
+      gtotal:any= 'No Items';
       orderid:any;
   constructor(public loadingCtrl: LoadingController,private alertCtrl: AlertController,public GlobalvarsProvider: GlobalvarsProvider,private menu : MenuController,private http: Http,public navCtrl: NavController, public navParams: NavParams) {
         this.loading = this.loadingCtrl.create({
@@ -47,7 +47,12 @@ export class CartPage {
                 if (rese.product_order!=undefined) {
                   this.orders = rese.product_order;
                   this.gtotal=this.gettotal(this.orders);
-                  this.gtotal = "P"+this.gtotal;
+                  if (this.gtotal!=0) {
+                    this.gtotal = "P"+this.gtotal;
+                  }else
+                  {
+                    this.gtotal = 'No Items';
+                  }
                   this.loading.dismissAll();
                 }else
                 {
@@ -108,7 +113,7 @@ export class CartPage {
     
   }
   alertConfirm() {
-    if (this.gtotal != undefined && this.gtotal != "P0" && this.gtotal != null) {
+    if (this.gtotal != undefined && this.gtotal != "P0" && this.gtotal != null && this.gtotal != 'No Items') {
       let alert = this.alertCtrl.create({
         title: 'Confirm Checkout',
         message: 'Are you sure you want to checkout the items in the cart?',
