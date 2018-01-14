@@ -1,5 +1,3 @@
-
-import {PropertyListPage} from '../property-list/property-list';
 import {WelcomePage} from '../welcome/welcome';
 import { AuthService } from '../../providers/auth-service/auth-service';
 import {Component} from '@angular/core';
@@ -44,17 +42,11 @@ export class SignupPage {
     if (this.form.value.name.username2!=""&&this.form.value.name.password2!=""&&this.form.value.name.cpassword!=""&&this.form.value.name.firstname!=""&&this.form.value.name.lastname!=""&&this.form.value.name.email!=""&&this.form.value.name.address!=""&&this.form.value.name.mobilenumber!="") {
        if (this.form.value.name.password2==this.form.value.name.cpassword) {
                    
-              this.http.get('http://api.riceupfarmers.org/api/user/register?username='+this.form.value.name.username2+"&password="+this.form.value.name.password2+"&firstname="+this.form.value.name.firstname+"&lastname="+this.form.value.name.lastname+"&address="+this.form.value.name.address+"&mobile_number="+this.form.value.name.mobilenumber+"&email="+this.form.value.name.email+"&is_farmer=0")
-                .map(response => response.json())
-                .subscribe(res => {
               let urlSearchParams = new URLSearchParams();
                 urlSearchParams.append("grant_type",this.GlobalvarsProvider.grant_type);
               let body = urlSearchParams.toString()
                var header = new Headers();
-                  header.append("Accept", "application/json");
                   header.append("Content-Type", "application/x-www-form-urlencoded");
-                  header.append("Authorization",this.GlobalvarsProvider.gettoken());
-                        
                   let option = new RequestOptions({ headers: header });
                                        
               this.http.post('http://api.riceupfarmers.org/api/user/register?username='+this.form.value.name.username2+"&password="+this.form.value.name.password2+"&firstname="+this.form.value.name.firstname+"&lastname="+this.form.value.name.lastname+"&address="+this.form.value.name.address+"&mobile_number="+this.form.value.name.mobilenumber+"&email="+this.form.value.name.email+"&is_farmer=0"+"&history=",body,option)
@@ -68,7 +60,6 @@ export class SignupPage {
                     this.presentAlert(res[0]);
                   }
                 });
-              })
            }
           else {
             this.presentAlert("confirm password does not match with the password!");

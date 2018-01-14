@@ -1,22 +1,20 @@
 import {Component} from '@angular/core';
 import {NavController, NavParams} from 'ionic-angular';
-import {FarmerLocationPage} from '../farmer-location/farmer-location';
 import {Http } from '@angular/http';
+/**
+ * Generated class for the ProuductDetailPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
 @Component({
-    selector: 'page-broker-detail',
-    templateUrl: 'broker-detail.html'
+  selector: 'page-prouduct-detail',
+  templateUrl: 'prouduct-detail.html',
 })
-export class BrokerDetailPage {
+export class ProuductDetailPage {
 
-    farmer: any;
-
+	 farmer: any;
     constructor(private http: Http,public navCtrl: NavController, public navParams: NavParams) {
         this.farmer = this.navParams.data;
     }
-
-    openloc(farmer:any)
-    {
-        this.navCtrl.push(FarmerLocationPage, farmer);
-    }
-
 }

@@ -10,7 +10,7 @@
 <ion-content>
         <ion-list>
         <ion-item-sliding *ngFor="let list of orders">
-            <button ion-item>
+            <button ion-item  (click)="updatecart(list)">
                 <ion-avatar item-left>
                     <img src="http://i-tugue.com/system/uploads/s{{ list.farmer_product.photo_url }}.jpg"  onError="this.src='http://i-tugue.com/system/uploads/sproduct.jpg';" />
                 </ion-avatar>

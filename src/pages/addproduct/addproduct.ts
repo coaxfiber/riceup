@@ -188,7 +188,7 @@ public uploadImage() {
                             
                       let option = new RequestOptions({ headers: header });
                                   
-                         this.http.post('http://api.riceupfarmers.org/api/product/add?photo_url='+this.form.value.name.pname+timeInMs+'&name='+this.form.value.name.pname+'&desc='+this.form.value.name.desc+'&unit='+this.form.value.name.unit+'&price='+this.form.value.name.price+'&stocks='+this.form.value.name.stocks+'&harvest_date='+this.form.value.name.harvest_date, urlSearchParams,option)
+                         this.http.post('http://api.riceupfarmers.org/api/product/add?photo_url='+this.form.value.name.pname+timeInMs+'&name='+this.form.value.name.pname+'&desc='+this.form.value.name.desc+'&unit='+this.form.value.name.unit+'&price='+this.form.value.name.price+'&stocks='+this.form.value.name.stocks+'&harvest_date='+this.form.value.name.harvest_date, body,option)
                          .map(response => response.json())
                         .subscribe(data => {
                           this.presentAlert(data);

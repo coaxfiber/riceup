@@ -36,7 +36,7 @@ export class CartPage {
                   header.append("Authorization",this.GlobalvarsProvider.gettoken());
               
         let option = new RequestOptions({ headers: header });
-        this.http.post('http://api.riceupfarmers.org/api/order/new',urlSearchParams,option)
+        this.http.post('http://api.riceupfarmers.org/api/order/new',body,option)
           .map(response => response.json())
           .subscribe(res => {
             this.orderid = res.order_number[0].id;
@@ -92,9 +92,6 @@ export class CartPage {
           {
             text: 'Confirm',
             handler: () => {
-              let urlSearchParams = new URLSearchParams();
-                urlSearchParams.append("passforpost",this.GlobalvarsProvider.grant_type);
-             let body = urlSearchParams.toString()
                var header = new Headers();
                   header.append("Accept", "application/json");
                   header.append("Authorization",this.GlobalvarsProvider.gettoken());

@@ -2,6 +2,7 @@ import {Component} from '@angular/core';
 import {NavController,LoadingController, Loading } from 'ionic-angular';
 import {BrokerService} from '../../providers/broker-service-mock';
 import {BrokerDetailPage} from '../broker-detail/broker-detail';
+import {ProuductDetailPage} from '../prouduct-detail/prouduct-detail';
 import {GlobalvarsProvider} from '../../providers/globalvars/globalvars';
 import leaflet from 'leaflet';
 import {Http } from '@angular/http';
@@ -31,7 +32,6 @@ export class BrokerListPage {
              var header = new Headers();
                 header.append("Accept", "application/json");
                 header.append("Authorization",this.GlobalvarsProvider.gettoken());
-              console.log(this.GlobalvarsProvider.gettoken());
               
         let option = new RequestOptions({ headers: header });
         this.http.get('http://api.riceupfarmers.org/api/users/farmer',option)
@@ -45,6 +45,8 @@ export class BrokerListPage {
 
     openBrokerDetail(farmer: any) {
         this.navCtrl.push(BrokerDetailPage, farmer);
+    }openBrokerDetail2(farmer: any) {
+        this.navCtrl.push(ProuductDetailPage, farmer);
     }
 
     showMap() {
@@ -72,7 +74,7 @@ export class BrokerListPage {
                    });
 
                     function onLocationError(e) {
-                        this.presentAlert("Turn on your service location to see your current location!");
+                        alert("Turn on your service location to see your current location!");
                          this.viewMode = "list";
                         }
                      this.map.on('locationerror', onLocationError);
@@ -89,11 +91,12 @@ export class BrokerListPage {
         this.markersGroup = leaflet.layerGroup([]);
         this.farmers.forEach(property => {
             if (property.address_lat, property.address_long) {
-                let marker: any = leaflet.marker([property.address_lat, property.address_long]).on('click', event => this.openBrokerDetail(event.target.data));
+                let marker: any = leaflet.marker([property.address_lat, property.address_long]).on('click', event => this.openBrokerDetail2(event.target.data));
                 marker.data = property;
                 this.markersGroup.addLayer(marker);
             }
         });
         this.map.addLayer(this.markersGroup);
     }
+
 }

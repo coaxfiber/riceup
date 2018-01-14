@@ -4,7 +4,7 @@ import { TermsandagreementPage } from '../termsandagreement/termsandagreement';
 import { AlertController } from 'ionic-angular';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import {NavController} from 'ionic-angular';
-import {Platform} from 'ionic-angular';
+import {Platform,LoadingController, Loading} from 'ionic-angular';
 import {PropertyListPage} from '../property-list/property-list';
 import {SignupPage} from '../signup/signup';
 
@@ -13,25 +13,21 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
 import { MenuController } from 'ionic-angular';
-import { Events } from 'ionic-angular';import { Network } from '@ionic-native/network';
+import { Events } from 'ionic-angular';
 @Component({
     selector: 'page-welcome',
     templateUrl: 'welcome.html'
 })
 export class WelcomePage {
+      loading: Loading;
   form: FormGroup;data:any = {};
     properties: Array<any>;
     sect: Array<any>;
    pushPage: any;
    login: any;
    farmer: Array<any>;
-	  constructor(private alertCtrl: AlertController,private network: Network,public menu: MenuController,public events: Events,public GlobalvarsProvider:GlobalvarsProvider,fb: FormBuilder,public platform: Platform,public navCtrl: NavController,private http: Http){
-	    let disconnectSubscription = this.network.onDisconnect().subscribe(() => {
-        alert('No internet Connection :-(');
-      });
-      // stop disconnect watch
-      disconnectSubscription.unsubscribe();
-      this.pushPage = TermsandagreementPage;
+	  constructor(public loadingCtrl: LoadingController,private alertCtrl: AlertController,public menu: MenuController,public events: Events,public GlobalvarsProvider:GlobalvarsProvider,fb: FormBuilder,public platform: Platform,public navCtrl: NavController,private http: Http){
+	    this.pushPage = TermsandagreementPage;
       this.login = SignupPage;
 	    this.form = fb.group({
         name: fb.group({
@@ -42,8 +38,6 @@ export class WelcomePage {
 
     this.menu.enable(false);
 	  }
-
-    
 
 	  calltologin()
     /*{
@@ -65,7 +59,10 @@ export class WelcomePage {
   }*/
       {
          if (this.form.value.name.uname!=''&&this.form.value.name.pw!='') {
-
+           this.loading = this.loadingCtrl.create({
+              content: 'Logging in...',
+            });
+            this.loading.present();
              this.GlobalvarsProvider.username=this.form.value.name.uname;
              this.GlobalvarsProvider.password=this.form.value.name.pw;
               
@@ -100,10 +97,12 @@ export class WelcomePage {
                            this.createUser(data);
                          });
                         //wew end
+                   this.loading.dismissAll();
                    this.navCtrl.setRoot(PropertyListPage);     
                }
                , error => {
                this.presentAlert("Incorrect username or password");
+               this.loading.dismissAll();
                });
               }
               else{
@@ -113,7 +112,7 @@ export class WelcomePage {
 
          
 
-        createUser(user) {
+          createUser(user) {
             this.events.publish('user:created', user, this.GlobalvarsProvider.getgid());
           }
           presentAlert(val:any) {

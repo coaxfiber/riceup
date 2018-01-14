@@ -6,7 +6,6 @@ import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
 import {Headers, RequestOptions} from '@angular/http';
 import {OrderinfoPage} from '../orderinfo/orderinfo';
 
-import { AlertController } from 'ionic-angular';
 /**
  * Generated class for the OrderListPage page.
  *

@@ -12,8 +12,6 @@ properties: any;
              var header = new Headers();
                 header.append("Accept", "application/json");
                 header.append("Authorization",this.GlobalvarsProvider.gettoken());
-              console.log(this.GlobalvarsProvider.gettoken());
-              
         let option = new RequestOptions({ headers: header });
         this.http.get('http://api.riceupfarmers.org/api/products',option)
           .map(response => response.json())

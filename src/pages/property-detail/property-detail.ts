@@ -21,7 +21,6 @@ export class PropertyDetailPage {
     }
 
     openBrokerDetail(broker: any) {
-        console.log(broker);
         this.navCtrl.push(BrokerDetailPage, broker);
     }
     addtocart(){

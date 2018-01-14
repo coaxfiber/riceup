@@ -36,6 +36,8 @@ import {UserproductPage} from '../pages/userproduct/userproduct';
 import {PrivacyPolicyPage} from '../pages/privacy-policy/privacy-policy';
 import {AccountPage} from '../pages/account/account';
 import {CartupdatePage} from '../pages/cartupdate/cartupdate';
+import {FarmerLocationPage} from '../pages/farmer-location/farmer-location';
+import {ProuductDetailPage} from '../pages/prouduct-detail/prouduct-detail';
 import { Network } from '@ionic-native/network';
 @NgModule({
   declarations: [
@@ -45,9 +47,9 @@ import { Network } from '@ionic-native/network';
     PropertyListPage,
     PropertyDetailPage,
     FavoriteListPage,
-    BrokerListPage,
+    BrokerListPage,ProuductDetailPage,
     BrokerDetailPage,AddproductPage,UserproductPage,OrderinfoPage,PrivacyPolicyPage,CartupdatePage,
-    TermsandagreementPage,OrderListPage,CartPage,SignupPage,AccountPage
+    TermsandagreementPage,OrderListPage,CartPage,SignupPage,AccountPage,FarmerLocationPage
   ],
   imports: [
     BrowserModule,
@@ -61,10 +63,10 @@ import { Network } from '@ionic-native/network';
     AboutPage,
     PropertyListPage,
     PropertyDetailPage,
-    FavoriteListPage,
+    FavoriteListPage,ProuductDetailPage,
 
     BrokerListPage,AddproductPage,UserproductPage,OrderinfoPage,PrivacyPolicyPage,CartupdatePage,
-    BrokerDetailPage,TermsandagreementPage,OrderListPage,CartPage,SignupPage,AccountPage
+    BrokerDetailPage,TermsandagreementPage,OrderListPage,CartPage,SignupPage,AccountPage,FarmerLocationPage
   ],
   providers: [
     Transfer,
