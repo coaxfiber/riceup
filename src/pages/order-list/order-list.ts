@@ -5,6 +5,7 @@ import {  MenuController } from 'ionic-angular';
 import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
 import {Headers, RequestOptions} from '@angular/http';
 import {OrderinfoPage} from '../orderinfo/orderinfo';
+import { AlertController } from 'ionic-angular';
 
 /**
  * Generated class for the OrderListPage page.
@@ -19,8 +20,8 @@ import {OrderinfoPage} from '../orderinfo/orderinfo';
 export class OrderListPage {
 
       loading: Loading;
-      orders: Array<any>;
-  constructor(public loadingCtrl: LoadingController,public GlobalvarsProvider: GlobalvarsProvider,private menu : MenuController,private http: Http,public navCtrl: NavController, public navParams: NavParams) {
+      orders: any;
+  constructor(private alertCtrl: AlertController,public loadingCtrl: LoadingController,public GlobalvarsProvider: GlobalvarsProvider,private menu : MenuController,private http: Http,public navCtrl: NavController, public navParams: NavParams) {
   	   this.loading = this.loadingCtrl.create({
         content: 'Loading Orders...',
       });
@@ -33,11 +34,26 @@ export class OrderListPage {
         this.http.get('http://api.riceupfarmers.org/api/orders',option)
           .map(response => response.json())
           .subscribe(res => {
-              this.orders = res;
+            console.log(res);
+            if (res.message==undefined) {
+               this.orders = res;
+            }else
+            {
+              this.presentAlert(res.message);
+            }
+             
               this.loading.dismissAll();
-          });
+          },err =>{ this.presentAlert("No Internet Connection!"); 
+                      });
   }
-  
+   presentAlert(val:any) {
+      let alert = this.alertCtrl.create({
+        title: 'Alert',
+        subTitle: val,
+        buttons: ['Dismiss']
+      });
+      alert.present();
+    }
   
     callorderinfo(val: any) {
         this.navCtrl.push(OrderinfoPage, val);
