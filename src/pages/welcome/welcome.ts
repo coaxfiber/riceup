@@ -95,6 +95,9 @@ export class WelcomePage {
                            .map(response => response.json())
                           .subscribe(data => {
                            this.createUser(data);
+                         }, error => {
+                         this.presentAlert("Slow internet Connection!");
+                         this.loading.dismissAll();
                          });
                         //wew end
                    this.loading.dismissAll();

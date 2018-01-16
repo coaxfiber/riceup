@@ -38,9 +38,18 @@ var OrderinfoPage = /** @class */ (function () {
             .map(function (response) { return response.json(); })
             .subscribe(function (rese) {
             _this.orderno = rese.order_number;
-            _this.orderinfo = rese.product_order;
+            _this.orders = rese.product_order;
+            _this.gtotal = _this.gettotal(_this.orders);
+            _this.gtotal = "P" + _this.gtotal;
         });
     }
+    OrderinfoPage.prototype.gettotal = function (gett) {
+        var total = 0;
+        for (var i = 0; i < gett.length; i++) {
+            total += (gett[i].farmer_product.price_per_unit * gett[i].quantity);
+        }
+        return total;
+    };
     OrderinfoPage = __decorate([
         Component({
             selector: 'page-orderinfo',

@@ -9,22 +9,24 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import { BrokerService } from '../../providers/broker-service-mock';
+import { FarmerLocationPage } from '../farmer-location/farmer-location';
 import { Http } from '@angular/http';
 var BrokerDetailPage = /** @class */ (function () {
-    function BrokerDetailPage(http, navCtrl, navParams, service) {
+    function BrokerDetailPage(http, navCtrl, navParams) {
         this.http = http;
         this.navCtrl = navCtrl;
         this.navParams = navParams;
-        this.service = service;
         this.farmer = this.navParams.data;
     }
+    BrokerDetailPage.prototype.openloc = function (farmer) {
+        this.navCtrl.push(FarmerLocationPage, farmer);
+    };
     BrokerDetailPage = __decorate([
         Component({
             selector: 'page-broker-detail',
             templateUrl: 'broker-detail.html'
         }),
-        __metadata("design:paramtypes", [Http, NavController, NavParams, BrokerService])
+        __metadata("design:paramtypes", [Http, NavController, NavParams])
     ], BrokerDetailPage);
     return BrokerDetailPage;
 }());

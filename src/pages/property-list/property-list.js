@@ -8,16 +8,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 import { Component } from '@angular/core';
-import { Config, NavController, NavParams } from 'ionic-angular';
+import { Config, NavController, NavParams, LoadingController } from 'ionic-angular';
 import { PropertyService } from '../../providers/property-service-mock';
 import { PropertyDetailPage } from '../property-detail/property-detail';
 import { Http } from '@angular/http';
 import { MenuController } from 'ionic-angular';
 import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
 import { Headers, RequestOptions } from '@angular/http';
+import { AlertController } from 'ionic-angular';
 var PropertyListPage = /** @class */ (function () {
-    function PropertyListPage(GlobalvarsProvider, navParams, http, menu, navCtrl, service, config) {
+    function PropertyListPage(alertCtrl, loadingCtrl, GlobalvarsProvider, navParams, http, menu, navCtrl, service, config) {
         var _this = this;
+        this.alertCtrl = alertCtrl;
+        this.loadingCtrl = loadingCtrl;
         this.GlobalvarsProvider = GlobalvarsProvider;
         this.navParams = navParams;
         this.http = http;
@@ -27,6 +30,10 @@ var PropertyListPage = /** @class */ (function () {
         this.config = config;
         this.searchKey = "";
         this.viewMode = "list";
+        this.loading = this.loadingCtrl.create({
+            content: 'Loading Product...',
+        });
+        this.loading.present();
         var header = new Headers();
         header.append("Accept", "application/json");
         header.append("Authorization", this.GlobalvarsProvider.gettoken());
@@ -35,10 +42,22 @@ var PropertyListPage = /** @class */ (function () {
             .map(function (response) { return response.json(); })
             .subscribe(function (res) {
             _this.properties = res;
+            _this.loading.dismissAll();
+        }, function (error) {
+            _this.presentAlert("Slow internet Connection!");
+            _this.loading.dismissAll();
         });
         this.findAll();
         this.menu.enable(true);
     }
+    PropertyListPage.prototype.presentAlert = function (val) {
+        var alert = this.alertCtrl.create({
+            title: 'Alert',
+            subTitle: val,
+            buttons: ['Dismiss']
+        });
+        alert.present();
+    };
     PropertyListPage.prototype.openPropertyDetail = function (property) {
         this.navCtrl.push(PropertyDetailPage, property);
     };
@@ -64,7 +83,7 @@ var PropertyListPage = /** @class */ (function () {
             selector: 'page-property-list',
             templateUrl: 'property-list.html'
         }),
-        __metadata("design:paramtypes", [GlobalvarsProvider, NavParams, Http, MenuController, NavController, PropertyService, Config])
+        __metadata("design:paramtypes", [AlertController, LoadingController, GlobalvarsProvider, NavParams, Http, MenuController, NavController, PropertyService, Config])
     ], PropertyListPage);
     return PropertyListPage;
 }());

@@ -1,0 +1,59 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>Update Product</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-card *ngIf="property.id">
+         <img src="http://i-tugue.com/system/uploads/{{ property.photo_url }}.jpg?{{timee}}"  onError="this.src='http://i-tugue.com/system/uploads/product.jpg';"  (click)="changepic(property.photo_url)"/>
+        <p>Tap the image to update picture.</p>
+        <ion-list>
+                <ion-item>
+                  <ion-icon item-left name="md-bookmarks"></ion-icon>
+                  <ion-label  stacked>Product Name</ion-label>
+                  <ion-input [(ngModel)]="product_name" type="text"></ion-input>
+                  </ion-item>
+                    
+                  <ion-item>
+                  <ion-icon item-left name="md-list"></ion-icon>
+                  <ion-label  stacked>Description</ion-label>
+                  <ion-textarea [(ngModel)]="product_desc" ></ion-textarea>
+                  </ion-item>
+
+			      <ion-item>
+                  <ion-icon item-left name="ios-archive"></ion-icon>
+                  <ion-label  stacked>Stocks</ion-label>
+                  <ion-input [(ngModel)]="stocks_available" type="text"></ion-input>
+                  </ion-item>
+
+                  <ion-item>
+                  <ion-icon item-left name="ios-clipboard"></ion-icon>
+                  <ion-label  stacked>Unit Type</ion-label>
+                  <ion-select [(ngModel)]="unit_type">
+                      <ion-option value="pcs">pcs</ion-option>
+                      <ion-option value="kg">kg</ion-option>
+                      <ion-option value="ewan">ewan</ion-option>
+                      <ion-option value="boom">boom</ion-option>    
+                    </ion-select>
+                  </ion-item>
+
+                  <ion-item>
+                  <ion-icon item-left name="pricetag"></ion-icon>
+                  <ion-label  stacked>Price Per Unit</ion-label>
+                  <ion-input [(ngModel)]="price_per_unit"  type="text"></ion-input>
+                  </ion-item>
+
+                  <ion-item>
+                   <ion-icon item-left name="md-calendar"></ion-icon>
+                  <ion-label  stacked>Date of Harvest</ion-label>
+                  <ion-input [(ngModel)]="date_of_harvest" type="date"></ion-input>
+                  </ion-item>
+            
+        </ion-list>
+
+        <button ion-button class="submit-btn" block  (click)="update()">Update Product</button>
+
+
+    </ion-card>
+</ion-content>

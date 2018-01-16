@@ -11,7 +11,6 @@ import {PropertyListPage} from '../pages/property-list/property-list';
 import {PropertyDetailPage} from '../pages/property-detail/property-detail';
 import {BrokerListPage} from '../pages/broker-list/broker-list';
 import {BrokerDetailPage} from '../pages/broker-detail/broker-detail';
-import {FavoriteListPage} from '../pages/favorite-list/favorite-list';
 import {AboutPage} from '../pages/about/about';
 
 import {PropertyService} from "../providers/property-service-mock";
@@ -38,6 +37,9 @@ import {AccountPage} from '../pages/account/account';
 import {CartupdatePage} from '../pages/cartupdate/cartupdate';
 import {FarmerLocationPage} from '../pages/farmer-location/farmer-location';
 import {ProuductDetailPage} from '../pages/prouduct-detail/prouduct-detail';
+import {UpdateproductPage} from '../pages/updateproduct/updateproduct';
+import {ChangepicPage} from '../pages/changepic/changepic';
+import {ProfpicPage} from '../pages/profpic/profpic';
 import { Network } from '@ionic-native/network';
 @NgModule({
   declarations: [
@@ -46,10 +48,9 @@ import { Network } from '@ionic-native/network';
     AboutPage,
     PropertyListPage,
     PropertyDetailPage,
-    FavoriteListPage,
-    BrokerListPage,ProuductDetailPage,
+    BrokerListPage,ProuductDetailPage,ChangepicPage,ProfpicPage,
     BrokerDetailPage,AddproductPage,UserproductPage,OrderinfoPage,PrivacyPolicyPage,CartupdatePage,
-    TermsandagreementPage,OrderListPage,CartPage,SignupPage,AccountPage,FarmerLocationPage
+    TermsandagreementPage,OrderListPage,CartPage,SignupPage,AccountPage,FarmerLocationPage,UpdateproductPage
   ],
   imports: [
     BrowserModule,
@@ -62,9 +63,7 @@ import { Network } from '@ionic-native/network';
     WelcomePage,
     AboutPage,
     PropertyListPage,
-    PropertyDetailPage,
-    FavoriteListPage,ProuductDetailPage,
-
+    PropertyDetailPage,ChangepicPage,ProuductDetailPage,UpdateproductPage,ProfpicPage,
     BrokerListPage,AddproductPage,UserproductPage,OrderinfoPage,PrivacyPolicyPage,CartupdatePage,
     BrokerDetailPage,TermsandagreementPage,OrderListPage,CartPage,SignupPage,AccountPage,FarmerLocationPage
   ],

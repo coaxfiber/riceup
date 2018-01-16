@@ -9,28 +9,28 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
+import { Http } from '@angular/http';
 /**
- * Generated class for the AccountPage page.
+ * Generated class for the ProuductDetailPage page.
  *
  * See http://ionicframework.com/docs/components/#navigation for more info
  * on Ionic pages and navigation.
  */
-var AccountPage = /** @class */ (function () {
-    function AccountPage(navCtrl, navParams, GlobalvarsProvider) {
+var ProuductDetailPage = /** @class */ (function () {
+    function ProuductDetailPage(http, navCtrl, navParams) {
+        this.http = http;
         this.navCtrl = navCtrl;
         this.navParams = navParams;
-        this.GlobalvarsProvider = GlobalvarsProvider;
-        this.user = this.GlobalvarsProvider.loggeduser;
+        this.farmer = this.navParams.data;
     }
-    AccountPage = __decorate([
+    ProuductDetailPage = __decorate([
         Component({
-            selector: 'page-account',
-            templateUrl: 'account.html',
+            selector: 'page-prouduct-detail',
+            templateUrl: 'prouduct-detail.html',
         }),
-        __metadata("design:paramtypes", [NavController, NavParams, GlobalvarsProvider])
-    ], AccountPage);
-    return AccountPage;
+        __metadata("design:paramtypes", [Http, NavController, NavParams])
+    ], ProuductDetailPage);
+    return ProuductDetailPage;
 }());
-export { AccountPage };
-//# sourceMappingURL=account.js.map
+export { ProuductDetailPage };
+//# sourceMappingURL=prouduct-detail.js.map

@@ -10,13 +10,20 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 import { Component } from '@angular/core';
 import { ActionSheetController, NavController, NavParams, ToastController, LoadingController } from 'ionic-angular';
 import { BrokerDetailPage } from '../broker-detail/broker-detail';
+import { CartPage } from '../cart/cart';
 import { PropertyService } from '../../providers/property-service-mock';
 import { Http } from '@angular/http';
 import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
 import { Headers, RequestOptions } from '@angular/http';
 import { AlertController } from 'ionic-angular';
-var PropertyDetailPage = /** @class */ (function () {
-    function PropertyDetailPage(loadingCtrl, alertCtrl, GlobalvarsProvider, http, actionSheetCtrl, navCtrl, navParams, propertyService, toastCtrl) {
+/**
+ * Generated class for the CartupdatePage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var CartupdatePage = /** @class */ (function () {
+    function CartupdatePage(loadingCtrl, alertCtrl, GlobalvarsProvider, http, actionSheetCtrl, navCtrl, navParams, propertyService, toastCtrl) {
         this.loadingCtrl = loadingCtrl;
         this.alertCtrl = alertCtrl;
         this.GlobalvarsProvider = GlobalvarsProvider;
@@ -26,51 +33,42 @@ var PropertyDetailPage = /** @class */ (function () {
         this.navParams = navParams;
         this.propertyService = propertyService;
         this.toastCtrl = toastCtrl;
-        this.quantity = "1";
-        this.property = this.navParams.data;
+        this.property = this.navParams.data.farmer_product;
+        this.proid = this.navParams.data.id;
+        this.quantity = this.navParams.data.quantity;
     }
-    PropertyDetailPage.prototype.openBrokerDetail = function (broker) {
+    CartupdatePage.prototype.openBrokerDetail = function (broker) {
+        console.log(broker);
         this.navCtrl.push(BrokerDetailPage, broker);
     };
-    PropertyDetailPage.prototype.addtocart = function () {
+    CartupdatePage.prototype.updatecart = function () {
         var _this = this;
         if (this.quantity >= 0 && this.quantity <= this.property.stocks_available) {
             this.loading = this.loadingCtrl.create({
-                content: 'Adding to Cart...',
+                content: 'Updating Order...',
             });
             this.loading.present();
             var urlSearchParams = new URLSearchParams();
             urlSearchParams.append("grant_type", this.GlobalvarsProvider.grant_type);
-            var body_1 = urlSearchParams.toString();
+            var body = urlSearchParams.toString();
             var header = new Headers();
             header.append("Accept", "application/json");
             header.append("Content-Type", "application/x-www-form-urlencoded");
             header.append("Authorization", this.GlobalvarsProvider.gettoken());
-            var option_1 = new RequestOptions({ headers: header });
-            this.http.post('http://api.riceupfarmers.org/api/order/new', body_1, option_1)
+            var option = new RequestOptions({ headers: header });
+            this.http.patch('http://api.riceupfarmers.org/api/cart/update/' + this.proid + '?qty=' + this.quantity, body, option)
                 .map(function (response) { return response.json(); })
-                .subscribe(function (res) {
-                var g = res.order_number[0].id;
-                _this.http.post('http://api.riceupfarmers.org/api/cart/add?qty=' + _this.quantity + '&productid=' + _this.property.id + '&orderid=' + g, body_1, option_1)
-                    .map(function (response) { return response.json(); })
-                    .subscribe(function (data) {
-                    _this.quantity = 1;
-                    _this.loading.dismissAll();
-                    _this.presentAlert("Product added to cart!");
-                }, function (err) {
-                    _this.loading.dismissAll();
-                    _this.presentAlert("No Internet Connection!");
-                });
-            }, function (err) {
+                .subscribe(function (data) {
+                _this.quantity = 1;
                 _this.loading.dismissAll();
-                _this.presentAlert("No Internet Connection!");
+                _this.presentConfirm();
             });
         }
         else {
             this.presentAlert("Quantity must be greater than 0 and less than " + this.property.stocks_available);
         }
     };
-    PropertyDetailPage.prototype.presentAlert = function (val) {
+    CartupdatePage.prototype.presentAlert = function (val) {
         var alert = this.alertCtrl.create({
             title: 'Alert',
             subTitle: val,
@@ -78,14 +76,30 @@ var PropertyDetailPage = /** @class */ (function () {
         });
         alert.present();
     };
-    PropertyDetailPage = __decorate([
+    CartupdatePage.prototype.presentConfirm = function () {
+        var _this = this;
+        var alert = this.alertCtrl.create({
+            title: '',
+            message: 'Order Updated!',
+            buttons: [
+                {
+                    text: 'Confirm',
+                    handler: function () {
+                        _this.navCtrl.setRoot(CartPage);
+                    }
+                }
+            ]
+        });
+        alert.present();
+    };
+    CartupdatePage = __decorate([
         Component({
-            selector: 'page-property-detail',
-            templateUrl: 'property-detail.html'
+            selector: 'page-cartupdate',
+            templateUrl: 'cartupdate.html',
         }),
         __metadata("design:paramtypes", [LoadingController, AlertController, GlobalvarsProvider, Http, ActionSheetController, NavController, NavParams, PropertyService, ToastController])
-    ], PropertyDetailPage);
-    return PropertyDetailPage;
+    ], CartupdatePage);
+    return CartupdatePage;
 }());
-export { PropertyDetailPage };
-//# sourceMappingURL=property-detail.js.map
+export { CartupdatePage };
+//# sourceMappingURL=cartupdate.js.map

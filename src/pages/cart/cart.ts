@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams,LoadingController, Loading } from 'ionic-angular';
 import {Http } from '@angular/http';
 import {  MenuController } from 'ionic-angular';
 import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
@@ -18,10 +18,19 @@ import {CartupdatePage} from '../cartupdate/cartupdate';
 })
 export class CartPage {
   orders:any;
+      loading: Loading;
   gtotal :any = 'No Items';
   orderid:any = undefined;
-  constructor(private alertCtrl: AlertController,public GlobalvarsProvider: GlobalvarsProvider,private menu : MenuController,private http: Http,public navCtrl: NavController, public navParams: NavParams) {
-             let urlSearchParams = new URLSearchParams();
+  constructor(public loadingCtrl: LoadingController,private alertCtrl: AlertController,public GlobalvarsProvider: GlobalvarsProvider,private menu : MenuController,private http: Http,public navCtrl: NavController, public navParams: NavParams) {
+             this.loading = this.loadingCtrl.create({
+              content: 'Loading Cart...',
+            });
+            this.loading.present();
+           
+
+  }
+  ionViewDidLoad() {
+    let urlSearchParams = new URLSearchParams();
                 urlSearchParams.append("passforpost",'any');
              let body = urlSearchParams.toString()
                var header = new Headers();
@@ -31,32 +40,28 @@ export class CartPage {
         this.http.post('http://api.riceupfarmers.org/api/order/new',body,option)
           .map(response => response.json())
           .subscribe(res => {
-                  if (res.order_number[0].id!=undefined) {
-                    this.orderid = res.order_number[0].id;
-                     this.http.get('http://api.riceupfarmers.org/api/order/'+res.order_number[0].id,option)
+                  this.loading.dismissAll();
+                  var g =res.order_number[0].id;
+                  this.orderid = g;
+                     this.http.get('http://api.riceupfarmers.org/api/order/'+g,option)
                       .map(response => response.json())
                       .subscribe(rese => {
-                        if (rese.product_order!=undefined) {
                           this.orders = rese.product_order;
+                        if (this.orders!=undefined) {
                           this.gtotal=this.gettotal(this.orders);
-                          if (this.gtotal!=0) {
+                          if (this.gtotal!=0)
                             this.gtotal = "P"+this.gtotal;
-                          }else
-                          {
+                          else
                             this.gtotal = 'No Items';
-                          }
                         }else
-                        {
-                          this.presentAlert("No items in cart!"); 
-                        }
+                          this.presentAlert("No items in cart!");
                         
-                      },err =>{ this.presentAlert("No Internet Connection!"); 
+                      },err =>{ 
+                      this.loading.dismissAll();this.presentAlert("No Internet Connection!"); 
                       });  
-                  }
-              
-              },err =>{ this.presentAlert("No Internet Connection!"); 
+              },err =>{ 
+                     this.loading.dismissAll(); this.presentAlert("No Internet Connection!"); 
               }); 
-
   }
  updatecart(property: any) {
         this.navCtrl.push(CartupdatePage, property);

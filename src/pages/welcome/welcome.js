@@ -10,9 +10,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 import { Component } from '@angular/core';
 import { TermsandagreementPage } from '../termsandagreement/termsandagreement';
 //https://www.youtube.com/watch?v=fE09dHu6sP0
+import { AlertController } from 'ionic-angular';
 import { FormBuilder } from '@angular/forms';
 import { NavController } from 'ionic-angular';
-import { Platform } from 'ionic-angular';
+import { Platform, LoadingController } from 'ionic-angular';
 import { PropertyListPage } from '../property-list/property-list';
 import { SignupPage } from '../signup/signup';
 import { Http, Headers, RequestOptions } from '@angular/http';
@@ -21,10 +22,10 @@ import 'rxjs/add/operator/catch';
 import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
 import { MenuController } from 'ionic-angular';
 import { Events } from 'ionic-angular';
-import { Network } from '@ionic-native/network';
 var WelcomePage = /** @class */ (function () {
-    function WelcomePage(network, menu, events, GlobalvarsProvider, fb, platform, navCtrl, http) {
-        this.network = network;
+    function WelcomePage(loadingCtrl, alertCtrl, menu, events, GlobalvarsProvider, fb, platform, navCtrl, http) {
+        this.loadingCtrl = loadingCtrl;
+        this.alertCtrl = alertCtrl;
         this.menu = menu;
         this.events = events;
         this.GlobalvarsProvider = GlobalvarsProvider;
@@ -32,11 +33,6 @@ var WelcomePage = /** @class */ (function () {
         this.navCtrl = navCtrl;
         this.http = http;
         this.data = {};
-        var disconnectSubscription = this.network.onDisconnect().subscribe(function () {
-            alert('No internet Connection :-(');
-        });
-        // stop disconnect watch
-        disconnectSubscription.unsubscribe();
         this.pushPage = TermsandagreementPage;
         this.login = SignupPage;
         this.form = fb.group({
@@ -50,6 +46,10 @@ var WelcomePage = /** @class */ (function () {
     WelcomePage.prototype.calltologin = function () {
         var _this = this;
         if (this.form.value.name.uname != '' && this.form.value.name.pw != '') {
+            this.loading = this.loadingCtrl.create({
+                content: 'Logging in...',
+            });
+            this.loading.present();
             this.GlobalvarsProvider.username = this.form.value.name.uname;
             this.GlobalvarsProvider.password = this.form.value.name.pw;
             var urlSearchParams = new URLSearchParams();
@@ -78,26 +78,39 @@ var WelcomePage = /** @class */ (function () {
                     .map(function (response) { return response.json(); })
                     .subscribe(function (data) {
                     _this.createUser(data);
+                }, function (error) {
+                    _this.presentAlert("Slow internet Connection!");
+                    _this.loading.dismissAll();
                 });
                 //wew end
+                _this.loading.dismissAll();
                 _this.navCtrl.setRoot(PropertyListPage);
             }, function (error) {
-                alert("Incorrect username or password");
+                _this.presentAlert("Incorrect username or password");
+                _this.loading.dismissAll();
             });
         }
         else {
-            alert("Input username or password!");
+            this.presentAlert("Input username or password!");
         }
     };
     WelcomePage.prototype.createUser = function (user) {
         this.events.publish('user:created', user, this.GlobalvarsProvider.getgid());
+    };
+    WelcomePage.prototype.presentAlert = function (val) {
+        var alert = this.alertCtrl.create({
+            title: 'Alert',
+            subTitle: val,
+            buttons: ['Dismiss']
+        });
+        alert.present();
     };
     WelcomePage = __decorate([
         Component({
             selector: 'page-welcome',
             templateUrl: 'welcome.html'
         }),
-        __metadata("design:paramtypes", [Network, MenuController, Events, GlobalvarsProvider, FormBuilder, Platform, NavController, Http])
+        __metadata("design:paramtypes", [LoadingController, AlertController, MenuController, Events, GlobalvarsProvider, FormBuilder, Platform, NavController, Http])
     ], WelcomePage);
     return WelcomePage;
 }());

@@ -8,12 +8,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams, LoadingController } from 'ionic-angular';
 import { Http } from '@angular/http';
 import { MenuController } from 'ionic-angular';
 import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
 import { Headers, RequestOptions } from '@angular/http';
 import { OrderinfoPage } from '../orderinfo/orderinfo';
+import { AlertController } from 'ionic-angular';
 /**
  * Generated class for the OrderListPage page.
  *
@@ -21,13 +22,19 @@ import { OrderinfoPage } from '../orderinfo/orderinfo';
  * on Ionic pages and navigation.
  */
 var OrderListPage = /** @class */ (function () {
-    function OrderListPage(GlobalvarsProvider, menu, http, navCtrl, navParams) {
+    function OrderListPage(alertCtrl, loadingCtrl, GlobalvarsProvider, menu, http, navCtrl, navParams) {
         var _this = this;
+        this.alertCtrl = alertCtrl;
+        this.loadingCtrl = loadingCtrl;
         this.GlobalvarsProvider = GlobalvarsProvider;
         this.menu = menu;
         this.http = http;
         this.navCtrl = navCtrl;
         this.navParams = navParams;
+        this.loading = this.loadingCtrl.create({
+            content: 'Loading Orders...',
+        });
+        this.loading.present();
         var header = new Headers();
         header.append("Accept", "application/json");
         header.append("Authorization", this.GlobalvarsProvider.gettoken());
@@ -35,9 +42,26 @@ var OrderListPage = /** @class */ (function () {
         this.http.get('http://api.riceupfarmers.org/api/orders', option)
             .map(function (response) { return response.json(); })
             .subscribe(function (res) {
-            _this.orders = res;
+            console.log(res);
+            if (res.message == undefined) {
+                _this.orders = res;
+            }
+            else {
+                _this.presentAlert(res.message);
+            }
+            _this.loading.dismissAll();
+        }, function (err) {
+            _this.presentAlert("No Internet Connection!");
         });
     }
+    OrderListPage.prototype.presentAlert = function (val) {
+        var alert = this.alertCtrl.create({
+            title: 'Alert',
+            subTitle: val,
+            buttons: ['Dismiss']
+        });
+        alert.present();
+    };
     OrderListPage.prototype.callorderinfo = function (val) {
         this.navCtrl.push(OrderinfoPage, val);
     };
@@ -46,7 +70,7 @@ var OrderListPage = /** @class */ (function () {
             selector: 'page-order-list',
             templateUrl: 'order-list.html',
         }),
-        __metadata("design:paramtypes", [GlobalvarsProvider, MenuController, Http, NavController, NavParams])
+        __metadata("design:paramtypes", [AlertController, LoadingController, GlobalvarsProvider, MenuController, Http, NavController, NavParams])
     ], OrderListPage);
     return OrderListPage;
 }());

@@ -6,6 +6,7 @@ import {Http } from '@angular/http';
 import {  MenuController } from 'ionic-angular';
 import {GlobalvarsProvider} from '../../providers/globalvars/globalvars';
 import {Headers, RequestOptions} from '@angular/http';
+import { AlertController } from 'ionic-angular';
 @Component({
     selector: 'page-property-list',
     templateUrl: 'property-list.html'
@@ -17,12 +18,12 @@ export class PropertyListPage {
     searchKey: string = "";
     viewMode: string = "list";
     map;
-    markersGroup;
-    constructor( public loadingCtrl: LoadingController,public GlobalvarsProvider:GlobalvarsProvider, public navParams: NavParams,private http: Http,private menu : MenuController,public navCtrl: NavController, public service: PropertyService, public config: Config) {
+    markersGroup;timee:any;
+    constructor(private alertCtrl: AlertController,public loadingCtrl: LoadingController,public GlobalvarsProvider:GlobalvarsProvider, public navParams: NavParams,private http: Http,private menu : MenuController,public navCtrl: NavController, public service: PropertyService, public config: Config) {
        this.loading = this.loadingCtrl.create({
         content: 'Loading Product...',
       });
-      this.loading.present();
+      this.loading.present();this.timee = Date.now();
              var header = new Headers();
                 header.append("Accept", "application/json");
                 header.append("Authorization",this.GlobalvarsProvider.gettoken());
@@ -33,12 +34,22 @@ export class PropertyListPage {
           .subscribe(res => {
               this.properties = res;
               this.loading.dismissAll();
-          });
+          }, error => {
+                         this.presentAlert("Slow internet Connection!");
+                         this.loading.dismissAll();
+                         });
           
         this.findAll();
         this.menu.enable(true);       
     }
-    
+     presentAlert(val:any) {
+            let alert = this.alertCtrl.create({
+              title: 'Alert',
+              subTitle: val,
+              buttons: ['Dismiss']
+            });
+            alert.present();
+          }
     openPropertyDetail(property: any) {
         this.navCtrl.push(PropertyDetailPage, property);
     }

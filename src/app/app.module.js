@@ -35,6 +35,9 @@ import { AddproductPage } from '../pages/addproduct/addproduct';
 import { UserproductPage } from '../pages/userproduct/userproduct';
 import { PrivacyPolicyPage } from '../pages/privacy-policy/privacy-policy';
 import { AccountPage } from '../pages/account/account';
+import { CartupdatePage } from '../pages/cartupdate/cartupdate';
+import { FarmerLocationPage } from '../pages/farmer-location/farmer-location';
+import { ProuductDetailPage } from '../pages/prouduct-detail/prouduct-detail';
 import { Network } from '@ionic-native/network';
 var AppModule = /** @class */ (function () {
     function AppModule() {
@@ -48,9 +51,9 @@ var AppModule = /** @class */ (function () {
                 PropertyListPage,
                 PropertyDetailPage,
                 FavoriteListPage,
-                BrokerListPage,
-                BrokerDetailPage, AddproductPage, UserproductPage, OrderinfoPage, PrivacyPolicyPage,
-                TermsandagreementPage, OrderListPage, CartPage, SignupPage, AccountPage
+                BrokerListPage, ProuductDetailPage,
+                BrokerDetailPage, AddproductPage, UserproductPage, OrderinfoPage, PrivacyPolicyPage, CartupdatePage,
+                TermsandagreementPage, OrderListPage, CartPage, SignupPage, AccountPage, FarmerLocationPage
             ],
             imports: [
                 BrowserModule,
@@ -64,9 +67,9 @@ var AppModule = /** @class */ (function () {
                 AboutPage,
                 PropertyListPage,
                 PropertyDetailPage,
-                FavoriteListPage,
-                BrokerListPage, AddproductPage, UserproductPage, OrderinfoPage, PrivacyPolicyPage,
-                BrokerDetailPage, TermsandagreementPage, OrderListPage, CartPage, SignupPage, AccountPage
+                FavoriteListPage, ProuductDetailPage,
+                BrokerListPage, AddproductPage, UserproductPage, OrderinfoPage, PrivacyPolicyPage, CartupdatePage,
+                BrokerDetailPage, TermsandagreementPage, OrderListPage, CartPage, SignupPage, AccountPage, FarmerLocationPage
             ],
             providers: [
                 Transfer,

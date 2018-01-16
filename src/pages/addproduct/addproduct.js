@@ -145,55 +145,67 @@ var AddproductPage = /** @class */ (function () {
         var _this = this;
         if (this.form.value.name.pname != "" && this.form.value.name.desc != "" && this.form.value.name.unit != "" && this.form.value.name.price != "" && this.form.value.name.stocks != "" && this.form.value.name.harvest_date != "") {
             // Destination URL
-            var timeInMs = Date.now();
-            alert(timeInMs);
-            var url = 'http://i-tugue.com/system/apiup.php?get=' + this.form.value.name.pname + timeInMs;
-            //'http://api.riceupfarmers.org/api/product/add?name='+this.form.value.name.pname+'&desc='+this.form.value.name.desc+'&unit='+this.form.value.name.unit+'&price='+this.form.value.name.price+'&stocks='+this.form.value.name.stocks+'&harvest_date='+this.form.value.name.harvest_date;
-            // File for Upload
-            var targetPath = this.pathForImage(this.lastImage);
-            // File name only
-            var filename = this.lastImage;
-            var options = {
-                fileKey: "file",
-                fileName: filename,
-                chunkedMode: false,
-                mimeType: "multipart/form-data",
-                params: { 'fileName': filename }
-            };
-            var fileTransfer = this.transfer.create();
-            this.loading = this.loadingCtrl.create({
-                content: 'Adding your Product...',
-            });
-            this.loading.present();
-            // Use the FileTransfer to upload the image
-            fileTransfer.upload(targetPath, url, options).then(function (data) {
-                _this.loading.dismissAll();
-                _this.presentToast('product Added...');
-                //start
-                var urlSearchParams = new URLSearchParams();
-                urlSearchParams.append("grant_type", _this.GlobalvarsProvider.grant_type);
-                var body = urlSearchParams.toString();
-                var header = new Headers();
-                header.append("Accept", "application/json");
-                header.append("Content-Type", "application/x-www-form-urlencoded");
-                header.append("Authorization", _this.GlobalvarsProvider.gettoken());
-                var option = new RequestOptions({ headers: header });
-                _this.http.post('http://api.riceupfarmers.org/api/product/add?photo_url=' + _this.form.value.name.pname + timeInMs + '&name=' + _this.form.value.name.pname + '&desc=' + _this.form.value.name.desc + '&unit=' + _this.form.value.name.unit + '&price=' + _this.form.value.name.price + '&stocks=' + _this.form.value.name.stocks + '&harvest_date=' + _this.form.value.name.harvest_date, urlSearchParams, option)
-                    .map(function (response) { return response.json(); })
-                    .subscribe(function (data) {
-                    alert(data);
+            if (this.lastImage == null) {
+                this.presentAlert("Image selection is required!");
+            }
+            else {
+                var timeInMs = Date.now();
+                var url = 'http://i-tugue.com/system/apiup.php?get=' + this.form.value.name.pname + timeInMs;
+                //'http://api.riceupfarmers.org/api/product/add?name='+this.form.value.name.pname+'&desc='+this.form.value.name.desc+'&unit='+this.form.value.name.unit+'&price='+this.form.value.name.price+'&stocks='+this.form.value.name.stocks+'&harvest_date='+this.form.value.name.harvest_date;
+                // File for Upload
+                var targetPath = this.pathForImage(this.lastImage);
+                // File name only
+                var filename = this.lastImage;
+                var options = {
+                    fileKey: "file",
+                    fileName: filename,
+                    chunkedMode: false,
+                    mimeType: "multipart/form-data",
+                    params: { 'fileName': filename }
+                };
+                var fileTransfer = this.transfer.create();
+                this.loading = this.loadingCtrl.create({
+                    content: 'Adding your Product...',
                 });
-                //end
-                _this.form.reset();
-            }, function (err) {
-                _this.loading.dismissAll();
-                _this.presentToast('Error while uploading file.');
-            });
-            this.lastImage = null;
+                this.loading.present();
+                // Use the FileTransfer to upload the image
+                fileTransfer.upload(targetPath, url, options).then(function (data) {
+                    _this.loading.dismissAll();
+                    _this.presentToast('product Added...');
+                    //start
+                    var urlSearchParams = new URLSearchParams();
+                    urlSearchParams.append("grant_type", _this.GlobalvarsProvider.grant_type);
+                    var body = urlSearchParams.toString();
+                    var header = new Headers();
+                    header.append("Accept", "application/json");
+                    header.append("Content-Type", "application/x-www-form-urlencoded");
+                    header.append("Authorization", _this.GlobalvarsProvider.gettoken());
+                    var option = new RequestOptions({ headers: header });
+                    _this.http.post('http://api.riceupfarmers.org/api/product/add?photo_url=' + _this.form.value.name.pname + timeInMs + '&name=' + _this.form.value.name.pname + '&desc=' + _this.form.value.name.desc + '&unit=' + _this.form.value.name.unit + '&price=' + _this.form.value.name.price + '&stocks=' + _this.form.value.name.stocks + '&harvest_date=' + _this.form.value.name.harvest_date, body, option)
+                        .map(function (response) { return response.json(); })
+                        .subscribe(function (data) {
+                        _this.presentAlert(data);
+                    });
+                    //end
+                    _this.form.reset();
+                }, function (err) {
+                    _this.loading.dismissAll();
+                    _this.presentToast('Error while uploading file.');
+                });
+                this.lastImage = null;
+            }
         }
         else {
-            alert("Fill all the required Fields!");
+            this.presentAlert("Fill all the required Fields!");
         }
+    };
+    AddproductPage.prototype.presentAlert = function (val) {
+        var alert = this.alertCtrl.create({
+            title: 'Alert',
+            subTitle: val,
+            buttons: ['Dismiss']
+        });
+        alert.present();
     };
     AddproductPage = __decorate([
         Component({

@@ -16,7 +16,7 @@
         <ion-item-sliding *ngFor="let property of properties">
             <button ion-item (click)="openPropertyDetail(property)">
                 <ion-thumbnail item-left>
-                    <img src="http://i-tugue.com/system/uploads/s{{ property.photo_url }}.jpg" onError="this.src='http://i-tugue.com/system/uploads/sproduct.jpg';" />
+                    <img src="http://i-tugue.com/system/uploads/s{{ property.photo_url }}.jpg?{{timee}}" onError="this.src='http://i-tugue.com/system/uploads/sproduct.jpg';" />
                 </ion-thumbnail>
                 <h2>{{property.product_name}}</h2>
                 <p>{{property.product_desc }}</p>

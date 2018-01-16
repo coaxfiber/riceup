@@ -14,7 +14,8 @@ import {Http } from '@angular/http';
 export class ProuductDetailPage {
 
 	 farmer: any;
+	 timee: any;
     constructor(private http: Http,public navCtrl: NavController, public navParams: NavParams) {
-        this.farmer = this.navParams.data;
+        this.farmer = this.navParams.data;this.timee = Date.now();
     }
 }

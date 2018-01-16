@@ -34,7 +34,6 @@ export class OrderListPage {
         this.http.get('http://api.riceupfarmers.org/api/orders',option)
           .map(response => response.json())
           .subscribe(res => {
-            console.log(res);
             if (res.message==undefined) {
                this.orders = res;
             }else

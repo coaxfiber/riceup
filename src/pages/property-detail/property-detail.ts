@@ -38,19 +38,23 @@ export class PropertyDetailPage {
                   header.append("Authorization",this.GlobalvarsProvider.gettoken());
                         
                   let option = new RequestOptions({ headers: header });
-        this.http.post('http://api.riceupfarmers.org/api/order/new',body ,option)
-          .map(response => response.json())
-          .subscribe(res => {
-
-                this.http.post('http://api.riceupfarmers.org/api/cart/add?qty='+this.quantity+'&productid='+this.property.id+'&orderid='+res.order_number[0].id,body,option)
+            this.http.post('http://api.riceupfarmers.org/api/order/new',body ,option)
+              .map(response => response.json())
+              .subscribe(res => {
+                var g = res.order_number[0].id;
+                this.http.post('http://api.riceupfarmers.org/api/cart/add?qty='+this.quantity+'&productid='+this.property.id+'&orderid='+g,body,option)
                      .map(response => response.json())
                     .subscribe(data => {
 
                       this.quantity = 1;
                       this.loading.dismissAll();
                       this.presentAlert("Product added to cart!");
-                   });
-          });
+                   },err =>{ 
+                      this.loading.dismissAll();this.presentAlert("No Internet Connection!"); 
+                  }); 
+          },err =>{ 
+                      this.loading.dismissAll();this.presentAlert("No Internet Connection!"); 
+              });
                   
         }else
         {

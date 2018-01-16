@@ -8,7 +8,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 import { Component } from '@angular/core';
-import { Config, NavController, NavParams } from 'ionic-angular';
+import { Config, NavController, NavParams, LoadingController } from 'ionic-angular';
 import { Http } from '@angular/http';
 import { MenuController } from 'ionic-angular';
 import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
@@ -22,8 +22,9 @@ import { PropertyDetailPage } from '../property-detail/property-detail';
  * on Ionic pages and navigation.
  */
 var UserproductPage = /** @class */ (function () {
-    function UserproductPage(GlobalvarsProvider, navParams, http, menu, navCtrl, config) {
+    function UserproductPage(loadingCtrl, GlobalvarsProvider, navParams, http, menu, navCtrl, config) {
         var _this = this;
+        this.loadingCtrl = loadingCtrl;
         this.GlobalvarsProvider = GlobalvarsProvider;
         this.navParams = navParams;
         this.http = http;
@@ -31,6 +32,10 @@ var UserproductPage = /** @class */ (function () {
         this.navCtrl = navCtrl;
         this.config = config;
         this.pushPage = AddproductPage;
+        this.loading = this.loadingCtrl.create({
+            content: 'Loading Product...',
+        });
+        this.loading.present();
         this.GlobalvarsProvider.setcredentials();
         var header = new Headers();
         header.append("Accept", "application/json");
@@ -40,6 +45,7 @@ var UserproductPage = /** @class */ (function () {
             .map(function (response) { return response.json(); })
             .subscribe(function (res) {
             _this.products = res;
+            _this.loading.dismissAll();
         });
     }
     UserproductPage.prototype.openPropertyDetail = function (property) {
@@ -50,7 +56,7 @@ var UserproductPage = /** @class */ (function () {
             selector: 'page-userproduct',
             templateUrl: 'userproduct.html',
         }),
-        __metadata("design:paramtypes", [GlobalvarsProvider, NavParams, Http, MenuController, NavController, Config])
+        __metadata("design:paramtypes", [LoadingController, GlobalvarsProvider, NavParams, Http, MenuController, NavController, Config])
     ], UserproductPage);
     return UserproductPage;
 }());

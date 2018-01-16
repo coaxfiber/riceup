@@ -22,7 +22,6 @@ var PropertyService = /** @class */ (function () {
         var header = new Headers();
         header.append("Accept", "application/json");
         header.append("Authorization", this.GlobalvarsProvider.gettoken());
-        console.log(this.GlobalvarsProvider.gettoken());
         var option = new RequestOptions({ headers: header });
         this.http.get('http://api.riceupfarmers.org/api/products', option)
             .map(function (response) { return response.json(); })

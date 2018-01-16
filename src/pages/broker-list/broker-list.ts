@@ -39,10 +39,20 @@ export class BrokerListPage {
           .subscribe(res => {
               this.farmers = res;
               this.loading.dismissAll();
-          });
+          }, error => {
+                         this.presentAlert("Slow internet Connection!");
+                         this.loading.dismissAll();
+                         });
 
     }
-
+     presentAlert(val:any) {
+            let alert = this.alertCtrl.create({
+              title: 'Alert',
+              subTitle: val,
+              buttons: ['Dismiss']
+            });
+            alert.present();
+          }
     openBrokerDetail(farmer: any) {
         this.navCtrl.push(BrokerDetailPage, farmer);
     }openBrokerDetail2(farmer: any) {

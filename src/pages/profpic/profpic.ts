@@ -1,58 +1,34 @@
 import {Component} from '@angular/core';
 
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { FormBuilder } from '@angular/forms';
 
-import {Http, Headers,RequestOptions} from '@angular/http';
-import { NavController, ActionSheetController, ToastController, Platform, LoadingController, Loading } from 'ionic-angular';
+import {Http} from '@angular/http';
+import { NavController, ActionSheetController, ToastController, Platform, LoadingController, Loading, NavParams } from 'ionic-angular';
 import { File } from '@ionic-native/file';
 import { Transfer, TransferObject } from '@ionic-native/transfer';
 import { FilePath } from '@ionic-native/file-path';
 import { Camera } from '@ionic-native/camera';
 import { AlertController } from 'ionic-angular';
 import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
-import {UserproductPage} from '../userproduct/userproduct';
+import {AccountPage} from '../account/account';
 declare var cordova: any;
-
 /**
- * Generated class for the AddproductPage page.
+ * Generated class for the ProfpicPage page.
  *
  * See http://ionicframework.com/docs/components/#navigation for more info
  * on Ionic pages and navigation.
  */
 @Component({
-  selector: 'page-addproduct',
-  templateUrl: 'addproduct.html',
+  selector: 'page-profpic',
+  templateUrl: 'profpic.html',
 })
-export class AddproductPage {
-
-  form: FormGroup;
-  map2;
-  lastImage: string = null;
+export class ProfpicPage {
+url:any;
   loading: Loading;
-  long:string = '';
-  lat:string = '';
-  username:string = '';
-  buttonDisabled = true;
-  userData: any;
-  constructor(public GlobalvarsProvider:GlobalvarsProvider,private http: Http,private alertCtrl: AlertController,fb: FormBuilder,public navCtrl: NavController, private camera: Camera, private transfer: Transfer, private file: File, private filePath: FilePath, public actionSheetCtrl: ActionSheetController, public toastCtrl: ToastController, public platform: Platform, public loadingCtrl: LoadingController) {
-    this.form = fb.group({
-      name: fb.group({
-        pname: '',
-        desc: '',
-        unit: '',
-        price: '',
-         stocks: '',
-         harvest_date: '',
-      }),
-    });
-
+  lastImage: string = null;
+  constructor(public navParams: NavParams,public GlobalvarsProvider:GlobalvarsProvider,private http: Http,private alertCtrl: AlertController,fb: FormBuilder,public navCtrl: NavController, private camera: Camera, private transfer: Transfer, private file: File, private filePath: FilePath, public actionSheetCtrl: ActionSheetController, public toastCtrl: ToastController, public platform: Platform, public loadingCtrl: LoadingController) {
+  	this.url = this.navParams.data; 
   }
-		testform()
-		{
-		  
-		    this.uploadImage();
-
-		}
 
 
  public presentActionSheet() {
@@ -142,20 +118,23 @@ public pathForImage(img) {
     return cordova.file.dataDirectory + img;
   }
 }
-public uploadImage() {
+ presentAlert(val:any) {
+      let alert = this.alertCtrl.create({
+        title: 'Alert',
+        subTitle: val,
+        buttons: ['Dismiss']
+      });
+      alert.present();
+    }
+public testform() {
   //wwew start
-
-  if (this.form.value.name.pname!=""&&this.form.value.name.desc!=""&&this.form.value.name.unit!=""&&this.form.value.name.price!=""&&this.form.value.name.stocks!=""&&this.form.value.name.harvest_date!="") {
-  // Destination URL
   if (this.lastImage==null) {
      this.presentAlert("Image selection is required!");
   }else{
-     var timeInMs = Date.now();
-     var url = 'http://i-tugue.com/system/apiup.php?get='+this.form.value.name.pname+timeInMs;
+     var url = 'http://i-tugue.com/system/uploadpro.php?get='+this.url;
      //'http://api.riceupfarmers.org/api/product/add?name='+this.form.value.name.pname+'&desc='+this.form.value.name.desc+'&unit='+this.form.value.name.unit+'&price='+this.form.value.name.price+'&stocks='+this.form.value.name.stocks+'&harvest_date='+this.form.value.name.harvest_date;
       // File for Upload
       var targetPath = this.pathForImage(this.lastImage);
-     
       // File name only
       var filename = this.lastImage;
      
@@ -166,38 +145,17 @@ public uploadImage() {
         mimeType: "multipart/form-data",
         params : {'fileName': filename}
       };
-     
       const fileTransfer: TransferObject = this.transfer.create();
-     
       this.loading = this.loadingCtrl.create({
-        content: 'Adding your Product...',
+        content: 'Uploading Image...',
       });
       this.loading.present();
      
       // Use the FileTransfer to upload the image
       fileTransfer.upload(targetPath, url, options).then(data => {
         this.loading.dismissAll();
-        this.presentToast('product Added...');
-        //start
-                 let urlSearchParams = new URLSearchParams();
-                    urlSearchParams.append("grant_type",this.GlobalvarsProvider.grant_type);
-                  let body = urlSearchParams.toString()
-                   var header = new Headers();
-                      header.append("Accept", "application/json");
-                      header.append("Content-Type", "application/x-www-form-urlencoded");
-                      header.append("Authorization",this.GlobalvarsProvider.gettoken());
-                            
-                      let option = new RequestOptions({ headers: header });
-                                  
-                         this.http.post('http://api.riceupfarmers.org/api/product/add?photo_url='+this.form.value.name.pname+timeInMs+'&name='+this.form.value.name.pname+'&desc='+this.form.value.name.desc+'&unit='+this.form.value.name.unit+'&price='+this.form.value.name.price+'&stocks='+this.form.value.name.stocks+'&harvest_date='+this.form.value.name.harvest_date, body,option)
-                         .map(response => response.json())
-                        .subscribe(data => {
-                          this.presentAlert(data.message);
-                          this.navCtrl.setRoot(UserproductPage);
-                       });
-         //end
-        this.form.reset();
-
+        this.presentToast('Image Uploaded...');
+          this.navCtrl.setRoot(AccountPage);
       }, err => {
         this.loading.dismissAll()
         this.presentToast('Error while uploading file.');
@@ -205,19 +163,5 @@ public uploadImage() {
       this.lastImage=null;
     }
   }
-  else
-  {
-    this.presentAlert("Fill all the required Fields!");
-  }
-}
-
- presentAlert(val:any) {
-      let alert = this.alertCtrl.create({
-        title: 'Alert',
-        subTitle: val,
-        buttons: ['Dismiss']
-      });
-      alert.present();
-    }
-
+ 
 }

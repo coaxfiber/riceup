@@ -24,9 +24,14 @@ import { UserproductPage } from '../pages/userproduct/userproduct';
 import { Http } from '@angular/http';
 import { AccountPage } from '../pages/account/account';
 import { PrivacyPolicyPage } from '../pages/privacy-policy/privacy-policy';
+import { AlertController, ToastController } from 'ionic-angular';
+import { Network } from '@ionic-native/network';
 var MyApp = /** @class */ (function () {
-    function MyApp(http, events, platform, statusBar, splashScreen, GlobalvarsProvider) {
+    function MyApp(network, toast, alertCtrl, http, events, platform, statusBar, splashScreen, GlobalvarsProvider) {
         var _this = this;
+        this.network = network;
+        this.toast = toast;
+        this.alertCtrl = alertCtrl;
         this.http = http;
         this.events = events;
         this.platform = platform;
@@ -52,15 +57,13 @@ var MyApp = /** @class */ (function () {
             _this.GlobalvarsProvider.setloggeduser(user);
             if (user.is_farmer == 1) {
                 _this.accountMenuItems = [
-                    { title: 'My Account', component: WelcomePage, icon: 'ios-contact' },
+                    { title: 'My Account', component: AccountPage, icon: 'ios-contact' },
                     { title: 'My Products', component: UserproductPage, icon: 'archive' },
-                    { title: 'Logout', component: WelcomePage, icon: 'log-out' },
                 ];
             }
             else {
                 _this.accountMenuItems = [
                     { title: 'My Account', component: AccountPage, icon: 'ios-contact' },
-                    { title: 'Logout', component: WelcomePage, icon: 'log-out' },
                 ];
             }
         });
@@ -76,6 +79,24 @@ var MyApp = /** @class */ (function () {
             { title: 'About', component: AboutPage, icon: 'information-circle' },
         ];
     }
+    MyApp.prototype.displayNetworkUpdate = function (connectionState) {
+        var networkType = this.network.type;
+        this.toast.create({
+            message: "You are now " + connectionState + " via " + networkType,
+            duration: 3000
+        }).present();
+    };
+    MyApp.prototype.ionViewDidEnter = function () {
+        var _this = this;
+        this.network.onConnect().subscribe(function (data) {
+            console.log(data);
+            _this.displayNetworkUpdate(data.type);
+        }, function (error) { return console.error(error); });
+        this.network.onDisconnect().subscribe(function (data) {
+            console.log(data);
+            _this.displayNetworkUpdate(data.type);
+        }, function (error) { return console.error(error); });
+    };
     MyApp.prototype.initializeApp = function () {
         var _this = this;
         this.platform.ready().then(function () {
@@ -91,6 +112,28 @@ var MyApp = /** @class */ (function () {
         this.GlobalvarsProvider.setcredentials();
         this.nav.setRoot(page.component);
     };
+    MyApp.prototype.alertConfirm = function () {
+        var _this = this;
+        var alert = this.alertCtrl.create({
+            title: 'Confirm Logout',
+            message: 'are you sure you want to Logout?',
+            buttons: [
+                {
+                    text: 'Cancel',
+                    role: 'cancel',
+                    handler: function () {
+                    }
+                },
+                {
+                    text: 'Yes',
+                    handler: function () {
+                        _this.nav.setRoot(WelcomePage);
+                    }
+                }
+            ]
+        });
+        alert.present();
+    };
     __decorate([
         ViewChild(Nav),
         __metadata("design:type", Nav)
@@ -99,7 +142,7 @@ var MyApp = /** @class */ (function () {
         Component({
             templateUrl: 'app.html'
         }),
-        __metadata("design:paramtypes", [Http, Events, Platform, StatusBar, SplashScreen, GlobalvarsProvider])
+        __metadata("design:paramtypes", [Network, ToastController, AlertController, Http, Events, Platform, StatusBar, SplashScreen, GlobalvarsProvider])
     ], MyApp);
     return MyApp;
 }());
