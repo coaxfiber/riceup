@@ -42,7 +42,6 @@ var OrderListPage = /** @class */ (function () {
         this.http.get('http://api.riceupfarmers.org/api/orders', option)
             .map(function (response) { return response.json(); })
             .subscribe(function (res) {
-            console.log(res);
             if (res.message == undefined) {
                 _this.orders = res;
             }

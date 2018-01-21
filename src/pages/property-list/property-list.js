@@ -34,6 +34,7 @@ var PropertyListPage = /** @class */ (function () {
             content: 'Loading Product...',
         });
         this.loading.present();
+        this.timee = Date.now();
         var header = new Headers();
         header.append("Accept", "application/json");
         header.append("Authorization", this.GlobalvarsProvider.gettoken());
@@ -41,8 +42,14 @@ var PropertyListPage = /** @class */ (function () {
         this.http.get('http://api.riceupfarmers.org/api/products', option)
             .map(function (response) { return response.json(); })
             .subscribe(function (res) {
-            _this.properties = res;
             _this.loading.dismissAll();
+            console.log(res);
+            if (res.message == undefined) {
+                _this.properties = res;
+            }
+            else {
+                _this.presentAlert(res.message);
+            }
         }, function (error) {
             _this.presentAlert("Slow internet Connection!");
             _this.loading.dismissAll();

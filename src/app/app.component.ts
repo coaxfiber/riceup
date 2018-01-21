@@ -39,10 +39,12 @@ export class MyApp {
     group:string=null;
     accountMenuItems: Array<MenuItem>;
 
+    timee=Math.random();
     helpMenuItems: Array<MenuItem>;
 
     constructor(private network: Network,private toast: ToastController,private alertCtrl: AlertController,private http: Http,public events: Events,public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen,public GlobalvarsProvider: GlobalvarsProvider) {
 
+        this.timee=Math.random();
         this.initializeApp();
         this.farmer =[
                 {

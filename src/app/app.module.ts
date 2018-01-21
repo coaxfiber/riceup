@@ -40,6 +40,8 @@ import {ProuductDetailPage} from '../pages/prouduct-detail/prouduct-detail';
 import {UpdateproductPage} from '../pages/updateproduct/updateproduct';
 import {ChangepicPage} from '../pages/changepic/changepic';
 import {ProfpicPage} from '../pages/profpic/profpic';
+import {ChangepassPage} from '../pages/changepass/changepass';
+import {UpdateaccountPage} from '../pages/updateaccount/updateaccount';
 import { Network } from '@ionic-native/network';
 @NgModule({
   declarations: [
@@ -47,7 +49,7 @@ import { Network } from '@ionic-native/network';
     WelcomePage,
     AboutPage,
     PropertyListPage,
-    PropertyDetailPage,
+    PropertyDetailPage,ChangepassPage,UpdateaccountPage,
     BrokerListPage,ProuductDetailPage,ChangepicPage,ProfpicPage,
     BrokerDetailPage,AddproductPage,UserproductPage,OrderinfoPage,PrivacyPolicyPage,CartupdatePage,
     TermsandagreementPage,OrderListPage,CartPage,SignupPage,AccountPage,FarmerLocationPage,UpdateproductPage
@@ -62,7 +64,7 @@ import { Network } from '@ionic-native/network';
     MyApp,
     WelcomePage,
     AboutPage,
-    PropertyListPage,
+    PropertyListPage,ChangepassPage,UpdateaccountPage,
     PropertyDetailPage,ChangepicPage,ProuductDetailPage,UpdateproductPage,ProfpicPage,
     BrokerListPage,AddproductPage,UserproductPage,OrderinfoPage,PrivacyPolicyPage,CartupdatePage,
     BrokerDetailPage,TermsandagreementPage,OrderListPage,CartPage,SignupPage,AccountPage,FarmerLocationPage

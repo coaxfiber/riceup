@@ -16,6 +16,7 @@ export class PropertyDetailPage {
       loading: Loading;
     property: any;
     quantity:any = "1";
+    timee=Math.random();
     constructor(public loadingCtrl: LoadingController,private alertCtrl: AlertController,public GlobalvarsProvider:GlobalvarsProvider,private http: Http,public actionSheetCtrl: ActionSheetController, public navCtrl: NavController, public navParams: NavParams, public propertyService: PropertyService, public toastCtrl: ToastController) {
         this.property = this.navParams.data;      
     }

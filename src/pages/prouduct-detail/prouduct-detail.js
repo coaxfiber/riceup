@@ -22,6 +22,7 @@ var ProuductDetailPage = /** @class */ (function () {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.farmer = this.navParams.data;
+        this.timee = Date.now();
     }
     ProuductDetailPage = __decorate([
         Component({

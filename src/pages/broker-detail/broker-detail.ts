@@ -10,8 +10,10 @@ export class BrokerDetailPage {
 
     farmer: any;
 
+    timee=Math.random();
     constructor(private http: Http,public navCtrl: NavController, public navParams: NavParams) {
-        this.farmer = this.navParams.data;
+       
+    this.timee=Math.random(); this.farmer = this.navParams.data;
     }
 
     openloc(farmer:any)

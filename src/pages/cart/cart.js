@@ -23,7 +23,6 @@ import { CartupdatePage } from '../cartupdate/cartupdate';
  */
 var CartPage = /** @class */ (function () {
     function CartPage(loadingCtrl, alertCtrl, GlobalvarsProvider, menu, http, navCtrl, navParams) {
-        var _this = this;
         this.loadingCtrl = loadingCtrl;
         this.alertCtrl = alertCtrl;
         this.GlobalvarsProvider = GlobalvarsProvider;
@@ -34,9 +33,12 @@ var CartPage = /** @class */ (function () {
         this.gtotal = 'No Items';
         this.orderid = undefined;
         this.loading = this.loadingCtrl.create({
-            content: 'Adding to Cart...',
+            content: 'Loading Cart...',
         });
         this.loading.present();
+    }
+    CartPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
         var urlSearchParams = new URLSearchParams();
         urlSearchParams.append("passforpost", 'any');
         var body = urlSearchParams.toString();
@@ -47,36 +49,36 @@ var CartPage = /** @class */ (function () {
         this.http.post('http://api.riceupfarmers.org/api/order/new', body, option)
             .map(function (response) { return response.json(); })
             .subscribe(function (res) {
-            if (res.order_number[0].id != undefined) {
-                _this.orderid = res.order_number[0].id;
+            _this.loading.dismissAll();
+            if (res.order_number[0] == undefined) {
+                // code...
+            }
+            else {
+                var g = res.order_number[0].id;
+                _this.orderid = g;
                 _this.http.get('http://api.riceupfarmers.org/api/order/' + g, option)
                     .map(function (response) { return response.json(); })
                     .subscribe(function (rese) {
-                    if (rese.product_order != undefined) {
-                        _this.orders = rese.product_order;
+                    _this.orders = rese.product_order;
+                    if (_this.orders != undefined) {
                         _this.gtotal = _this.gettotal(_this.orders);
-                        if (_this.gtotal != 0) {
+                        if (_this.gtotal != 0)
                             _this.gtotal = "P" + _this.gtotal;
-                        }
-                        else {
+                        else
                             _this.gtotal = 'No Items';
-                        }
                     }
-                    else {
+                    else
                         _this.presentAlert("No items in cart!");
-                    }
-                    _this.loading.dismissAll();
                 }, function (err) {
                     _this.loading.dismissAll();
                     _this.presentAlert("No Internet Connection!");
                 });
             }
-            _this.loading.dismissAll();
         }, function (err) {
             _this.loading.dismissAll();
             _this.presentAlert("No Internet Connection!");
         });
-    }
+    };
     CartPage.prototype.updatecart = function (property) {
         this.navCtrl.push(CartupdatePage, property);
     };

@@ -39,7 +39,12 @@ export class UserproductPage {
         this.http.get('http://api.riceupfarmers.org/api/products/'+this.GlobalvarsProvider.loggeduser.id,option)
           .map(response => response.json())
           .subscribe(res => {
-              this.products = res;
+             if (res.message==undefined) {
+               this.products = res;
+            }else
+            {
+              this.presentAlert(res.message);
+            }
               this.loading.dismissAll();
           });
   }

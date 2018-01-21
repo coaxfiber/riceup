@@ -17,6 +17,7 @@ import { FilePath } from '@ionic-native/file-path';
 import { Camera } from '@ionic-native/camera';
 import { AlertController } from 'ionic-angular';
 import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
+import { UserproductPage } from '../userproduct/userproduct';
 /**
  * Generated class for the AddproductPage page.
  *
@@ -184,7 +185,8 @@ var AddproductPage = /** @class */ (function () {
                     _this.http.post('http://api.riceupfarmers.org/api/product/add?photo_url=' + _this.form.value.name.pname + timeInMs + '&name=' + _this.form.value.name.pname + '&desc=' + _this.form.value.name.desc + '&unit=' + _this.form.value.name.unit + '&price=' + _this.form.value.name.price + '&stocks=' + _this.form.value.name.stocks + '&harvest_date=' + _this.form.value.name.harvest_date, body, option)
                         .map(function (response) { return response.json(); })
                         .subscribe(function (data) {
-                        _this.presentAlert(data);
+                        _this.presentAlert(data.message);
+                        _this.navCtrl.setRoot(UserproductPage);
                     });
                     //end
                     _this.form.reset();

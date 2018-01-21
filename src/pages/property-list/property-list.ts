@@ -32,8 +32,14 @@ export class PropertyListPage {
         this.http.get('http://api.riceupfarmers.org/api/products',option)
           .map(response => response.json())
           .subscribe(res => {
-              this.properties = res;
               this.loading.dismissAll();
+              console.log(res);
+            if (res.message==undefined) {
+               this.properties = res;
+            }else
+            {
+              this.presentAlert(res.message);
+            }
           }, error => {
                          this.presentAlert("Slow internet Connection!");
                          this.loading.dismissAll();

@@ -1,0 +1,92 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>Update Account</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-card *ngIf="viewMode2==='list'">
+        <ion-list>
+                <ion-item>
+                  <ion-label  stacked>Username: (Cannot be edited)</ion-label>
+                  <ion-input [(ngModel)]="user.username" disabled="true"></ion-input>
+                  
+                  </ion-item>
+                    
+                  <ion-item>
+                  <ion-label  stacked>First Name:</ion-label>
+                  <ion-input [(ngModel)]="user.firstname" ></ion-input>
+                  </ion-item>
+
+			           <ion-item>
+                  <ion-label  stacked>Middle Name:</ion-label>
+                  <ion-input [(ngModel)]="user.middlename" ></ion-input>
+                  </ion-item>
+
+			           <ion-item>
+                  <ion-label  stacked>Last Name:</ion-label>
+                  <ion-input [(ngModel)]="user.lastname" ></ion-input>
+                  </ion-item>
+
+			            <ion-item>
+                  <ion-label  stacked>Address:</ion-label>
+                  <ion-input [(ngModel)]="user.address" ></ion-input>
+                  </ion-item>
+
+			           <ion-item>
+                  <ion-label  stacked>Mobile Number:</ion-label>
+                  <ion-input [(ngModel)]="user.mobile_no" ></ion-input>
+                  </ion-item>
+
+			             <ion-item>
+                  <ion-label  stacked>Email:</ion-label>
+                  <ion-input [(ngModel)]="user.email" ></ion-input>
+                  </ion-item>
+
+        </ion-list>
+
+        <button ion-button class="submit-btn" block  (click)="update()">Update General Info</button>
+    </ion-card>
+    <div  *ngIf="viewMode2==='map'">
+           <ion-list>
+            <ion-item>
+              <ion-label>Activate/Deactivate being a farmer</ion-label>
+              <ion-toggle [(ngModel)]="test" (ionChange)="g();"></ion-toggle>
+            </ion-item>
+          </ion-list>
+            <div *ngIf="isfarmer===0" style="margin-top: 20px;margin-left: 10px;">
+                        Your farmer Info is not available.
+            </div>
+
+            <div  *ngIf="isfarmer===1">
+                <div style="width:100%;height:300px;" id="map2"></div>
+
+           <ion-item>
+                  <ion-label  stacked>Business Name:</ion-label>
+                <ion-input [(ngModel)]="user.business_name" ></ion-input>
+                  </ion-item>
+            <ion-item>
+                  <ion-label  stacked>Years in Business:</ion-label>
+                <ion-input [(ngModel)]="user.years_in_business" ></ion-input>
+                  </ion-item>
+            <ion-item>
+                  <ion-label  stacked>Years in Farming:</ion-label>
+                <ion-input [(ngModel)]="user.years_in_farming" ></ion-input>
+                  </ion-item>
+
+            </div>
+
+            <button ion-button class="submit-btn" block  (click)="update()">Update Farmer Info</button>
+    </div>
+</ion-content>
+
+<ion-footer padding>
+    <ion-segment [(ngModel)]="viewMode2">
+        <ion-segment-button value="list">
+            General Info
+        </ion-segment-button>
+        <ion-segment-button value="map">
+            Farmer Info
+        </ion-segment-button>
+    </ion-segment>
+</ion-footer>

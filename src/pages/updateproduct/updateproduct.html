@@ -6,8 +6,8 @@
 
 <ion-content>
     <ion-card *ngIf="property.id">
-         <img src="http://i-tugue.com/system/uploads/{{ property.photo_url }}.jpg?{{timee}}"  onError="this.src='http://i-tugue.com/system/uploads/product.jpg';"  (click)="changepic(property.photo_url)"/>
-        <p>Tap the image to update picture.</p>
+         <img src="http://i-tugue.com/system/uploads/{{ property.photo_url }}.jpg?{{timee}}"  alt="loading..."   onError="this.src='http://i-tugue.com/system/uploads/product.jpg';"  (click)="changepic(property.photo_url)"/>
+        <p> Tap the image to update picture.</p>
         <ion-list>
                 <ion-item>
                   <ion-icon item-left name="md-bookmarks"></ion-icon>

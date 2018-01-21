@@ -34,7 +34,7 @@ var SignupPage = /** @class */ (function () {
                 username2: '',
                 password2: '',
                 cpassword: '',
-                firstname: '',
+                firstname: '', middlename: '',
                 lastname: '',
                 email: '',
                 mobilenumber: '',
@@ -56,7 +56,7 @@ var SignupPage = /** @class */ (function () {
                 var header = new Headers();
                 header.append("Content-Type", "application/x-www-form-urlencoded");
                 var option = new RequestOptions({ headers: header });
-                this.http.post('http://api.riceupfarmers.org/api/user/register?username=' + this.form.value.name.username2 + "&password=" + this.form.value.name.password2 + "&firstname=" + this.form.value.name.firstname + "&lastname=" + this.form.value.name.lastname + "&address=" + this.form.value.name.address + "&mobile_number=" + this.form.value.name.mobilenumber + "&email=" + this.form.value.name.email + "&is_farmer=0" + "&history=", body, option)
+                this.http.post('http://api.riceupfarmers.org/api/user/register?username=' + this.form.value.name.username2 + "&password=" + this.form.value.name.password2 + "&middlename=" + this.form.value.name.middlename + "&firstname=" + this.form.value.name.firstname + "&lastname=" + this.form.value.name.lastname + "&address=" + this.form.value.name.address + "&mobile_no=" + this.form.value.name.mobilenumber + "&email=" + this.form.value.name.email + "&is_farmer=0" + "&history=", body, option)
                     .map(function (response) { return response.json(); })
                     .subscribe(function (res) {
                     _this.loading.dismissAll();

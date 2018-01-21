@@ -27,7 +27,8 @@ url:any;
   loading: Loading;
   lastImage: string = null;
   constructor(public navParams: NavParams,public GlobalvarsProvider:GlobalvarsProvider,private http: Http,private alertCtrl: AlertController,fb: FormBuilder,public navCtrl: NavController, private camera: Camera, private transfer: Transfer, private file: File, private filePath: FilePath, public actionSheetCtrl: ActionSheetController, public toastCtrl: ToastController, public platform: Platform, public loadingCtrl: LoadingController) {
-  	this.url = this.navParams.data; 
+  	this.url = this.GlobalvarsProvider.loggeduser.id; 
+    console.log(this.url);
   }
 
 

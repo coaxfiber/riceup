@@ -41,7 +41,11 @@ export class CartPage {
           .map(response => response.json())
           .subscribe(res => {
                   this.loading.dismissAll();
-                  var g =res.order_number[0].id;
+                  if (res.order_number[0]==undefined) {
+                    // code...
+                  }else
+                  {
+                    var g =res.order_number[0].id;
                   this.orderid = g;
                      this.http.get('http://api.riceupfarmers.org/api/order/'+g,option)
                       .map(response => response.json())
@@ -58,7 +62,10 @@ export class CartPage {
                         
                       },err =>{ 
                       this.loading.dismissAll();this.presentAlert("No Internet Connection!"); 
-                      });  
+                      }); 
+                    
+                  }
+                   
               },err =>{ 
                      this.loading.dismissAll(); this.presentAlert("No Internet Connection!"); 
               }); 
