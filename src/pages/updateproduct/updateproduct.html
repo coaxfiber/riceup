@@ -24,7 +24,7 @@
 			      <ion-item>
                   <ion-icon item-left name="ios-archive"></ion-icon>
                   <ion-label  stacked>Stocks</ion-label>
-                  <ion-input [(ngModel)]="stocks_available" type="text"></ion-input>
+                  <ion-input [(ngModel)]="stocks_available" type="number"></ion-input>
                   </ion-item>
 
                   <ion-item>
@@ -41,13 +41,13 @@
                   <ion-item>
                   <ion-icon item-left name="pricetag"></ion-icon>
                   <ion-label  stacked>Price Per Unit</ion-label>
-                  <ion-input [(ngModel)]="price_per_unit"  type="text"></ion-input>
+                  <ion-input [(ngModel)]="price_per_unit"  type="number"></ion-input>
                   </ion-item>
 
                   <ion-item>
                    <ion-icon item-left name="md-calendar"></ion-icon>
                   <ion-label  stacked>Date of Harvest</ion-label>
-                  <ion-input [(ngModel)]="date_of_harvest" type="date"></ion-input>
+                  <ion-datetime displayFormat="YYYY-MM-DD" [(ngModel)]="date_of_harvest" max="{{datenow | date: 'yyyy-MM-dd'}}"></ion-datetime>
                   </ion-item>
             
         </ion-list>

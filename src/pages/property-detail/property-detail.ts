@@ -15,7 +15,7 @@ export class PropertyDetailPage {
 
       loading: Loading;
     property: any;
-    quantity:any = "1";
+    quantity:any = 1;
     timee=Math.random();
     constructor(public loadingCtrl: LoadingController,private alertCtrl: AlertController,public GlobalvarsProvider:GlobalvarsProvider,private http: Http,public actionSheetCtrl: ActionSheetController, public navCtrl: NavController, public navParams: NavParams, public propertyService: PropertyService, public toastCtrl: ToastController) {
         this.property = this.navParams.data;      
@@ -46,7 +46,7 @@ export class PropertyDetailPage {
                 this.http.post('http://api.riceupfarmers.org/api/cart/add?qty='+this.quantity+'&productid='+this.property.id+'&orderid='+g,body,option)
                      .map(response => response.json())
                     .subscribe(data => {
-
+                      console.log(data);
                       this.quantity = 1;
                       this.loading.dismissAll();
                       this.presentAlert("Product added to cart!");
@@ -59,7 +59,7 @@ export class PropertyDetailPage {
                   
         }else
         {
-            this.presentAlert("Quantity must be greater than 0 and less than "+this.property.stocks_available);
+            this.presentAlert("Quantity must be greater than 0 and less than or equal to "+this.property.stocks_available);
         }
     }
     presentAlert(val:any) {
@@ -70,4 +70,14 @@ export class PropertyDetailPage {
       });
       alert.present();
     }
+
+    addq(){
+      this.quantity +=1;
+    }
+    subq(){
+      if (this.quantity > 0) {
+        this.quantity -=1;
+      }
+    }
+
 }

@@ -10,16 +10,24 @@
 <ion-content>
         <ion-list>
         <ion-item-sliding *ngFor="let list of orders">
-            <button ion-item  (click)="updatecart(list)">
-                <ion-avatar item-left>
-                    <img src="http://i-tugue.com/system/uploads/s{{ list.farmer_product.photo_url }}.jpg"  onError="this.src='http://i-tugue.com/system/uploads/sproduct.jpg';" />
-                </ion-avatar>
+            <div ion-item>
+                    <img src="http://i-tugue.com/system/uploads/s{{ list.farmer_product.photo_url }}.jpg"  onError="this.src='http://i-tugue.com/system/uploads/sproduct.jpg';" style="width: 30px" style="float: left;margin-right: 5px;" />
                 <h3>{{list.farmer_product.product_name}}</h3>
-                <p>P{{list.farmer_product.price_per_unit}} * {{list.quantity}} </p>
-            <ion-note item-right>P{{((list.farmer_product.price_per_unit)*(list.quantity)) | number:'1.2-2'}}</ion-note>
-            </button>
+                <p>P{{list.farmer_product.price_per_unit}} </p>
+                
+                <div style="text-align: right;">
+                <button ion-button style="width: 40px; height: 40px" (click)="subq(list.id,list.quantity,list.farmer_product.stocks_available)">
+                <ion-icon name="md-remove"></ion-icon></button>
+
+                {{list.quantity}}
+
+                <button ion-button style="width: 40px; height: 40px" (click)="addq(list.id,list.quantity,list.farmer_product.stocks_available)">
+                <ion-icon name="md-add"></ion-icon></button>
+                </div>
+
+            </div>
             <ion-item-options>
-                <button danger (click)="updatecart(list)" class="green"> Update </button>
+                <button danger (click)="updatecart(list)" class="green">View</button>
                 <button danger (click)="delcart(list.id)" class="red">Remove</button>
             </ion-item-options>
         </ion-item-sliding>
@@ -32,7 +40,7 @@
         </ion-item-sliding>
     </ion-list>
 
-        <button ion-button class="submit-btn" block  (click)="checkthisout()">Checkout</button>
+        <button ion-button class="submit-btn" block  (click)="codorship()">Checkout</button>
 </ion-content>
 
 <ion-footer padding>

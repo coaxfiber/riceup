@@ -21,6 +21,7 @@ export class CartPage {
       loading: Loading;
   gtotal :any = 'No Items';
   orderid:any = undefined;
+  ord;
   constructor(public loadingCtrl: LoadingController,private alertCtrl: AlertController,public GlobalvarsProvider: GlobalvarsProvider,private menu : MenuController,private http: Http,public navCtrl: NavController, public navParams: NavParams) {
              this.loading = this.loadingCtrl.create({
               content: 'Loading Cart...',
@@ -29,6 +30,70 @@ export class CartPage {
            
 
   }
+   addq(pid,q,sa){
+      q +=1;
+      if (q>0&&q<=sa) {
+        this.loading = this.loadingCtrl.create({
+              content: 'Updating quantity...',
+            });
+            this.loading.present();
+             let urlSearchParams = new URLSearchParams();
+                urlSearchParams.append("grant_type",this.GlobalvarsProvider.grant_type);
+              let body = urlSearchParams.toString()
+               var header = new Headers();
+                  header.append("Accept", "application/json");
+                  header.append("Content-Type", "application/x-www-form-urlencoded");
+                  header.append("Authorization",this.GlobalvarsProvider.gettoken());
+                        
+                  let option = new RequestOptions({ headers: header });
+        
+                this.http.patch('http://api.riceupfarmers.org/api/cart/update/'+pid+'?qty='+q,body,option)
+                     .map(response => response.json())
+                    .subscribe(data => {
+                      this.loading.dismissAll();
+                     this.navCtrl.setRoot(CartPage);
+                   },Error=>{
+                      this.loading.dismissAll();
+                      this.presentAlert("No Internet Connection!");
+                   });
+                  
+        }else
+        {
+            this.presentAlert("Quantity must be greater than 0 and less than or equal to "+sa);
+        }
+    }
+    subq(pid,q,sa){
+      q -=1;
+      if (q>0&&q<=sa) {
+        this.loading = this.loadingCtrl.create({
+              content: 'Updating quantity...',
+            });
+            this.loading.present();
+             let urlSearchParams = new URLSearchParams();
+                urlSearchParams.append("grant_type",this.GlobalvarsProvider.grant_type);
+              let body = urlSearchParams.toString()
+               var header = new Headers();
+                  header.append("Accept", "application/json");
+                  header.append("Content-Type", "application/x-www-form-urlencoded");
+                  header.append("Authorization",this.GlobalvarsProvider.gettoken());
+                        
+                  let option = new RequestOptions({ headers: header });
+        
+                this.http.patch('http://api.riceupfarmers.org/api/cart/update/'+pid+'?qty='+q,body,option)
+                     .map(response => response.json())
+                    .subscribe(data => {
+                      this.loading.dismissAll();
+                     this.navCtrl.setRoot(CartPage);
+                   },Error=>{
+                      this.loading.dismissAll();
+                      this.presentAlert("No Internet Connection!");
+                   });
+                  
+        }else
+        {
+            this.presentAlert("Quantity must be greater than 0 and less than or equal to "+sa);
+        }
+    }
   ionViewDidLoad() {
     let urlSearchParams = new URLSearchParams();
                 urlSearchParams.append("passforpost",'any');
@@ -40,9 +105,9 @@ export class CartPage {
         this.http.post('http://api.riceupfarmers.org/api/order/new',body,option)
           .map(response => response.json())
           .subscribe(res => {
-                  this.loading.dismissAll();
                   if (res.order_number[0]==undefined) {
-                    // code...
+                        this.loading.dismissAll();
+            this.navCtrl.setRoot(this.navCtrl.getActive().component);
                   }else
                   {
                     var g =res.order_number[0].id;
@@ -52,6 +117,7 @@ export class CartPage {
                       .subscribe(rese => {
                           this.orders = rese.product_order;
                         if (this.orders!=undefined) {
+                          this.ord = rese.id;
                           this.gtotal=this.gettotal(this.orders);
                           if (this.gtotal!=0)
                             this.gtotal = "P"+this.gtotal;
@@ -60,6 +126,7 @@ export class CartPage {
                         }else
                           this.presentAlert("No items in cart!");
                         
+                        this.loading.dismissAll();
                       },err =>{ 
                       this.loading.dismissAll();this.presentAlert("No Internet Connection!"); 
                       }); 
@@ -163,6 +230,38 @@ checkthisout() {
      this.presentAlert("No items in cart!"); 
   }
       
+    }
+
+    codorship(){
+          let prompt = this.alertCtrl.create({
+        title: 'Select',
+        message: 'Type of acquiring the product',
+        inputs : [
+        {
+            type:'radio',
+            label:'Pick up',
+            value:'pick'
+        },
+        {
+            type:'radio',
+            label:'Shipping',
+            value:'ship'
+        }],
+        buttons : [
+        {
+            text: "Cancel",
+            handler: data => {
+            }
+        },
+        {
+            text: "Ok",
+            handler: data => {
+              if (data=='pick') {
+                alert('fuck');
+              }
+            }
+        }]});
+        prompt.present();
     }
 
     alertConfirm2(var2:any) {

@@ -25,6 +25,8 @@ export class UpdateproductPage {
 	unit_type:any;
 	price_per_unit:any;
 	date_of_harvest:any;timee:any;
+
+  datenow = Date.now();
   constructor(private alertCtrl: AlertController,public loadingCtrl: LoadingController,public GlobalvarsProvider:GlobalvarsProvider,private http: Http,public navCtrl: NavController, public navParams: NavParams) {
   	
      this.timee = Date.now();this.property = this.navParams.data;  

@@ -44,7 +44,16 @@
         <ion-item>
                 <ion-icon name="cart" item-left ></ion-icon>
                 <h3 item-left >Quantity:</h3>
-                <ion-input type="number" value="0" text-right item-right min="0" max="{{property.stocks_available}}"  [(ngModel)]="quantity" value="1"></ion-input>
+                
+                <div item-right>
+                <button ion-button style="width: 40px; height: 40px" (click)="subq()">
+                <ion-icon name="md-remove"></ion-icon></button>
+
+                    <input text-center style="text-align:center;width: 60px; height: 45px;border:none" class="text-center" type="number"  [(ngModel)]="quantity"  min="0"  max="{{property.stocks_available}}">
+                    
+                <button ion-button  style="width: 40px; height: 40px" (click)="addq()">
+                <ion-icon name="md-add"></ion-icon></button>
+                </div>
             </ion-item>
             <ion-item>
                 <ion-icon item-left name="cash"></ion-icon>
