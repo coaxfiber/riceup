@@ -36,6 +36,7 @@ export class OrderListPage {
           .subscribe(res => {
             if (res.message==undefined) {
                this.orders = res;
+               console.log( this.orders);
             }else
             {
               this.presentAlert(res.message);
@@ -43,6 +44,7 @@ export class OrderListPage {
              
               this.loading.dismissAll();
           },err =>{ this.presentAlert("No Internet Connection!"); 
+              this.loading.dismissAll();
                       });
   }
    presentAlert(val:any) {

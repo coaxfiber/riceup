@@ -77,12 +77,12 @@ export class WelcomePage {
 
               var header = new Headers();
               header.append("Content-Type", "application/x-www-form-urlencoded");
-              header.append("Accept", "application/json");
               let option = new RequestOptions({ headers: header });
               this.http.post('http://api.riceupfarmers.org/oauth/token', body, option)
                .map(response => response.json())
                   .subscribe(data => {
-                   this.GlobalvarsProvider.settoken(data.token_type+" "+data.access_token);
+                    if (data.token_type!=undefined) {
+                      this.GlobalvarsProvider.settoken(data.token_type+" "+data.access_token);
                       //wwew start
                        var header = new Headers();
                         header.append("Accept", "application/json");
@@ -98,13 +98,18 @@ export class WelcomePage {
                          }, error => {
                          this.presentAlert("Slow internet Connection!");
                          this.loading.dismissAll();
-                         });
-                        //wew end
-                   this.loading.dismissAll();
-                   this.navCtrl.setRoot(PropertyListPage);     
+                             });
+                            //wew end
+                       this.loading.dismissAll();
+                       this.navCtrl.setRoot(PropertyListPage);   
+                    }
+                    else
+                    this.presentAlert("Invalid Username or password");
+                    
                }
                , error => {
-               this.presentAlert("Incorrect username or password");
+                 console.log(error);
+               this.presentAlert("Failed to login. Make sure you have valid user credentials or you are connected to the internet.");
                this.loading.dismissAll();
                });
               }

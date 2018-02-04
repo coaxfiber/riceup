@@ -1,0 +1,37 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Pick Up Summary</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+        <ion-list>
+        <ion-item-sliding *ngFor="let list of orders">
+            <div ion-item>
+                    <img src="http://i-tugue.com/system/uploads/s{{ list.farmer_product.photo_url }}.jpg"  onError="this.src='http://i-tugue.com/system/uploads/sproduct.jpg';" style="width: 20px" style="float: left;margin-right: 5px;" />
+                <h3>{{list.farmer_product.product_name}}</h3>
+                <p>Price: P{{list.farmer_product.price_per_unit}} </p>
+                <p>Quantity: {{list.quantity}} </p>
+                
+                <div style="text-align: right;">
+
+                P{{list.quantity * list.farmer_product.price_per_unit}}
+
+                </div>
+
+            </div>
+        </ion-item-sliding>
+        <ion-item-sliding>
+            <button ion-item>
+                <h3></h3>
+                <p></p>
+            <ion-note item-right>Total: P{{gtotal}}</ion-note>
+            </button>
+        </ion-item-sliding>
+    </ion-list>
+
+        <button ion-button class="submit-btn" block (click)="checkthisout()" >Checkout</button>
+</ion-content>

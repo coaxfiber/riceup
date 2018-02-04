@@ -58,13 +58,15 @@ export class CartupdatePage {
                         
                   let option = new RequestOptions({ headers: header });
                   
-        console.log('http://api.riceupfarmers.org/api/cart/update/'+this.proid+'?qty='+this.quantity);
                 this.http.patch('http://api.riceupfarmers.org/api/cart/update/'+this.proid+'?qty='+this.quantity,body,option)
                      .map(response => response.json())
                     .subscribe(data => {
                       this.quantity = 1;
                       this.loading.dismissAll();
                       this.presentConfirm();
+                   },Error=>{
+                     this.presentAlert("No Internet Connection!");
+                      this.loading.dismissAll();
                    });
                   
         }else

@@ -1,0 +1,50 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>Product Order</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-card *ngIf="property.id">
+         <img src="http://i-tugue.com/system/uploads/{{ property.photo_url }}.jpg"  onError="this.src='http://i-tugue.com/system/uploads/product.jpg';" />
+        <ion-card-content>
+            <h2 class="card-title">{{property.product_name}}</h2>
+            <p>{{property.product_desc}}</p>
+        </ion-card-content>
+        <ion-list>
+            <ion-item>
+                <ion-icon item-left name="ios-clipboard"></ion-icon>
+                <h3>Unit Type</h3>
+                <ion-note item-right>{{property.unit_type}}</ion-note>
+            </ion-item>
+            <ion-item>
+                <ion-icon item-left name="pricetag"></ion-icon>
+                <h3>Price Per Unit</h3>
+                <ion-note item-right>{{property.price_per_unit}}</ion-note>
+            </ion-item>
+            <ion-item>
+                <ion-icon item-left name="md-calendar"></ion-icon>
+                <h3>Date of Harvest</h3>
+                <ion-note item-right>{{property.date_of_harvest}}</ion-note>
+            </ion-item>
+            <button ion-item (click)="openBrokerDetail(property.user)">
+                <ion-avatar item-left>
+                    <img src="http://i-tugue.com/system/uploads/s{{ property.photo_url }}.jpg"  onError="this.src='http://i-tugue.com/system/uploads/sproduct.jpg';" />
+                </ion-avatar>
+                <h2>{{property.user.lastname }}, {{ property.user.firstname }} {{ property.user.middlename }}</h2>
+                <p>{{ property.user.business_name }}</p>
+            </button>
+        </ion-list>
+        <ion-item>
+                <ion-icon name="cart" item-left ></ion-icon>
+                <h3 item-left >Quantity:</h3>
+                
+                <ion-note item-right>{{quantity}}</ion-note>
+            </ion-item>
+            <ion-item>
+                <ion-icon item-left name="cash"></ion-icon>
+                <h3>Total Price:</h3>
+                <ion-note item-right>P{{ ((quantity) * (property.price_per_unit)) | number:'1.2-2'}}</ion-note>
+            </ion-item>
+    </ion-card>
+</ion-content>

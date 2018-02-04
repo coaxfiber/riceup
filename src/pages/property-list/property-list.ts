@@ -33,7 +33,6 @@ export class PropertyListPage {
           .map(response => response.json())
           .subscribe(res => {
               this.loading.dismissAll();
-              console.log(res);
             if (res.message==undefined) {
                this.properties = res;
             }else

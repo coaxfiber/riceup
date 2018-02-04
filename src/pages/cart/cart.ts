@@ -6,6 +6,8 @@ import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
 import {Headers, RequestOptions} from '@angular/http';
 import { AlertController } from 'ionic-angular';
 import {CartupdatePage} from '../cartupdate/cartupdate';
+import {ShippingPage} from '../shipping/shipping';
+import {PickupPage} from '../pickup/pickup';
 /**
  * Generated class for the CartPage page.
  *
@@ -22,6 +24,7 @@ export class CartPage {
   gtotal :any = 'No Items';
   orderid:any = undefined;
   ord;
+  rese:any;
   constructor(public loadingCtrl: LoadingController,private alertCtrl: AlertController,public GlobalvarsProvider: GlobalvarsProvider,private menu : MenuController,private http: Http,public navCtrl: NavController, public navParams: NavParams) {
              this.loading = this.loadingCtrl.create({
               content: 'Loading Cart...',
@@ -115,8 +118,10 @@ export class CartPage {
                      this.http.get('http://api.riceupfarmers.org/api/order/'+g,option)
                       .map(response => response.json())
                       .subscribe(rese => {
+
                           this.orders = rese.product_order;
                         if (this.orders!=undefined) {
+                          this.rese = rese;
                           this.ord = rese.id;
                           this.gtotal=this.gettotal(this.orders);
                           if (this.gtotal!=0)
@@ -233,6 +238,7 @@ checkthisout() {
     }
 
     codorship(){
+      if (this.gtotal != 'No Items') {
           let prompt = this.alertCtrl.create({
         title: 'Select',
         message: 'Type of acquiring the product',
@@ -257,12 +263,19 @@ checkthisout() {
             text: "Ok",
             handler: data => {
               if (data=='pick') {
-                alert('fuck');
+                this.navCtrl.push(PickupPage, this.rese);
+              }if (data=='ship') {
+                this.navCtrl.push(ShippingPage, this.rese);
               }
             }
         }]});
         prompt.present();
-    }
+      }else
+        {
+             this.presentAlert("Cart is Empty"); 
+        }
+      
+      }
 
     alertConfirm2(var2:any) {
       let alert = this.alertCtrl.create({

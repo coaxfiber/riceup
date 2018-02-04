@@ -42,15 +42,20 @@ import {ChangepicPage} from '../pages/changepic/changepic';
 import {ProfpicPage} from '../pages/profpic/profpic';
 import {ChangepassPage} from '../pages/changepass/changepass';
 import {UpdateaccountPage} from '../pages/updateaccount/updateaccount';
+import {PickupPage} from '../pages/pickup/pickup';
+import {ProductonlyPage} from '../pages/productonly/productonly';
+import {ShippingPage} from '../pages/shipping/shipping';
+import {TransacPage} from '../pages/transac/transac';
+import {DispatchPage} from '../pages/dispatch/dispatch';
 import { Network } from '@ionic-native/network';
 @NgModule({
   declarations: [
     MyApp,
     WelcomePage,
     AboutPage,
-    PropertyListPage,
-    PropertyDetailPage,ChangepassPage,UpdateaccountPage,
-    BrokerListPage,ProuductDetailPage,ChangepicPage,ProfpicPage,
+    PropertyListPage,DispatchPage,
+    PropertyDetailPage,ChangepassPage,UpdateaccountPage,PickupPage,ShippingPage,TransacPage,
+    BrokerListPage,ProuductDetailPage,ChangepicPage,ProfpicPage,ProductonlyPage,
     BrokerDetailPage,AddproductPage,UserproductPage,OrderinfoPage,PrivacyPolicyPage,CartupdatePage,
     TermsandagreementPage,OrderListPage,CartPage,SignupPage,AccountPage,FarmerLocationPage,UpdateproductPage
   ],
@@ -63,9 +68,9 @@ import { Network } from '@ionic-native/network';
   entryComponents: [
     MyApp,
     WelcomePage,
-    AboutPage,
-    PropertyListPage,ChangepassPage,UpdateaccountPage,
-    PropertyDetailPage,ChangepicPage,ProuductDetailPage,UpdateproductPage,ProfpicPage,
+    AboutPage,DispatchPage,
+    PropertyListPage,ChangepassPage,UpdateaccountPage,PickupPage,ProductonlyPage,ShippingPage,
+    PropertyDetailPage,ChangepicPage,ProuductDetailPage,UpdateproductPage,ProfpicPage,TransacPage,
     BrokerListPage,AddproductPage,UserproductPage,OrderinfoPage,PrivacyPolicyPage,CartupdatePage,
     BrokerDetailPage,TermsandagreementPage,OrderListPage,CartPage,SignupPage,AccountPage,FarmerLocationPage
   ],
