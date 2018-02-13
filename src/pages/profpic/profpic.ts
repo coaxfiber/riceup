@@ -12,6 +12,7 @@ import { AlertController } from 'ionic-angular';
 import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
 import {AccountPage} from '../account/account';
 declare var cordova: any;
+import { Events } from 'ionic-angular';
 /**
  * Generated class for the ProfpicPage page.
  *
@@ -26,7 +27,7 @@ export class ProfpicPage {
 url:any;
   loading: Loading;
   lastImage: string = null;
-  constructor(public navParams: NavParams,public GlobalvarsProvider:GlobalvarsProvider,private http: Http,private alertCtrl: AlertController,fb: FormBuilder,public navCtrl: NavController, private camera: Camera, private transfer: Transfer, private file: File, private filePath: FilePath, public actionSheetCtrl: ActionSheetController, public toastCtrl: ToastController, public platform: Platform, public loadingCtrl: LoadingController) {
+  constructor(public events: Events,public navParams: NavParams,public GlobalvarsProvider:GlobalvarsProvider,private http: Http,private alertCtrl: AlertController,fb: FormBuilder,public navCtrl: NavController, private camera: Camera, private transfer: Transfer, private file: File, private filePath: FilePath, public actionSheetCtrl: ActionSheetController, public toastCtrl: ToastController, public platform: Platform, public loadingCtrl: LoadingController) {
   	this.url = this.GlobalvarsProvider.loggeduser.id; 
     console.log(this.url);
   }
@@ -56,7 +57,10 @@ url:any;
     });
     actionSheet.present();
   }
-
+editpic(user) {
+  user='none';
+            this.events.publish('user:pic',user);
+          }
 public takePicture(sourceType) {
   // Create options for the Camera Dialog
   var options = {
@@ -156,6 +160,7 @@ public testform() {
       fileTransfer.upload(targetPath, url, options).then(data => {
         this.loading.dismissAll();
         this.presentToast('Image Uploaded...');
+        this.editpic('none');
           this.navCtrl.setRoot(AccountPage);
       }, err => {
         this.loading.dismissAll()

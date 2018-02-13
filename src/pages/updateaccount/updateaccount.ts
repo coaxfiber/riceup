@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+  import { Component } from '@angular/core';
 import { NavController, NavParams,LoadingController, Loading  } from 'ionic-angular';
 import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
 import { AlertController } from 'ionic-angular';
@@ -100,6 +100,7 @@ export class UpdateaccountPage {
                       header.append("Content-Type", "application/x-www-form-urlencoded");
                       header.append("Authorization",this.GlobalvarsProvider.gettoken());
                       this.user.is_farmer = this.isfarmer;
+          console.log(this.isfarmer);
                       let option = new RequestOptions({ headers: header });
                          this.http.patch('http://api.riceupfarmers.org/api/user/update?firstname='+this.user.firstname+'&middlename='+this.user.middlename+'&lastname='+this.user.lastname+'&address='+this.user.address+'&address_lat='+this.user.address_lat+'&address_long='+this.user.address_long+'&bus_name='+this.user.business_name+'&mobile_no='+this.user.mobile_no+'&email='+this.user.email+'&years_bus='+this.user.years_in_business+'&is_farmer='+this.isfarmer+'&history='+this.user.history+'&years_farm='+this.user.years_in_farming, body,option)
                          .map(response => response.json())
@@ -107,6 +108,7 @@ export class UpdateaccountPage {
                     			this.loading.dismissAll();
                           this.GlobalvarsProvider.loggeduser=this.user;
                           this.presentConfirm(data.message);
+          console.log(data);
                        }, error => {
                        		this.presentAlert("No Internet Connection!");
                   			this.loading.dismissAll();
@@ -124,7 +126,6 @@ export class UpdateaccountPage {
         	}else{
         		this.isfarmer=0;
         	}
-        	console.log(this.isfarmer);
         }
 
 		 presentAlert(val:any) {

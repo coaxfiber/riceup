@@ -59,7 +59,6 @@ export class MyApp {
             }
           }, 0)
         });
-        this.timee=Math.random();
         this.initializeApp();
         this.farmer =[
                 {
@@ -85,8 +84,12 @@ export class MyApp {
                 {title: 'My Account', component: AccountPage, icon: 'ios-contact'},
                 ];
             }
-            
           });
+         events.subscribe('user:pic',(user, time) => {
+           
+          this.timee=Math.random();
+         });
+
         this.appMenuItems = [
                 {title: 'Products', component: PropertyListPage, icon: 'home'},
                 {title: 'Farmers', component: BrokerListPage, icon: 'people'},

@@ -58,8 +58,12 @@ export class PropertyDetailPage {
               });
                   
         }else
-        {
+        {  if (this.property.stocks_available==0) {
+            
+            this.presentAlert("Product out of stock!");
+          }else{
             this.presentAlert("Quantity must be greater than 0 and less than or equal to "+this.property.stocks_available);
+          }
         }
     }
     presentAlert(val:any) {
