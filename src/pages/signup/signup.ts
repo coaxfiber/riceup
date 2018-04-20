@@ -42,7 +42,7 @@ export class SignupPage {
     if (this.form.value.name.username2!=""&&this.form.value.name.password2!=""&&this.form.value.name.cpassword!=""&&this.form.value.name.firstname!=""&&this.form.value.name.lastname!=""&&this.form.value.name.email!=""&&this.form.value.name.address!=""&&this.form.value.name.mobilenumber!="") {
        if (this.form.value.name.password2==this.form.value.name.cpassword) {
             this.loading = this.loadingCtrl.create({
-              content: 'Loading farmers...',
+              content: 'Signing Up...',
             });
             this.loading.present();       
               let urlSearchParams = new URLSearchParams();

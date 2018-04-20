@@ -85,6 +85,21 @@ export class MyApp {
                 ];
             }
           });
+         events.subscribe('isfarm:created', (user, time) => {
+            // user and time are the same arguments passed in `events.publish(user, time)`4
+           this.GlobalvarsProvider.setloggeduser2(user);
+            if (user==1) {
+               this.accountMenuItems = [
+                {title: 'My Account', component: AccountPage, icon: 'ios-contact'},
+                {title: 'My Products', component: UserproductPage, icon: 'archive'},
+                {title: 'Transactions', component: TransacPage, icon: 'md-done-all'},
+                ];
+            }else{
+              this.accountMenuItems = [
+                {title: 'My Account', component: AccountPage, icon: 'ios-contact'},
+                ];
+            }
+          });
          events.subscribe('user:pic',(user, time) => {
            
           this.timee=Math.random();

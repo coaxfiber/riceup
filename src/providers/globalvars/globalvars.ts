@@ -34,6 +34,11 @@ export class GlobalvarsProvider {
     setloggeduser(user:any){
         this.loggeduser = user;
     }
+
+    setloggeduser2(user:any){
+        this.loggeduser.is_farmer = user;
+    }
+    
     setgid(gid: any)
     {
         this.globalid = gid;

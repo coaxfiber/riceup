@@ -66,7 +66,6 @@ export class UpdateproductPage {
             this.presentAlert("All Fields are required!");
         }
   }
-
   presentAlert(val:any) {
       let alert = this.alertCtrl.create({
         title: 'Alert',

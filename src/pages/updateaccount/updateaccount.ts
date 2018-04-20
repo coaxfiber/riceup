@@ -6,6 +6,7 @@ import leaflet from 'leaflet';
 import {AccountPage} from '../account/account';
 import {Http } from '@angular/http';
 import {Headers, RequestOptions} from '@angular/http';
+import { Events } from 'ionic-angular';
 /**
  * Generated class for the UpdateaccountPage page.
  *
@@ -26,7 +27,7 @@ export class UpdateaccountPage {
     test:any;
     map;
     markersGroup;
-   constructor(private http: Http,public loadingCtrl: LoadingController,private alertCtrl: AlertController,public navCtrl: NavController, public navParams: NavParams,public GlobalvarsProvider:GlobalvarsProvider,) {
+   constructor(public events: Events,private http: Http,public loadingCtrl: LoadingController,private alertCtrl: AlertController,public navCtrl: NavController, public navParams: NavParams,public GlobalvarsProvider:GlobalvarsProvider,) {
   	this.user = this.GlobalvarsProvider.loggeduser;
     this.isfarmer = this.user.is_farmer;
     this.test = this.user.is_farmer;
@@ -84,6 +85,9 @@ export class UpdateaccountPage {
                      })
             }
         }
+createUser(user) {
+            this.events.publish('isfarm:created', user, this.GlobalvarsProvider.getgid());
+          }
 
         update(){
         	if (this.user.firstname!=''&&this.user.lastname!=''&&this.user.address!=''&&this.user.mobile_no!=''&&this.user.email!='') {
@@ -109,6 +113,8 @@ export class UpdateaccountPage {
                           this.GlobalvarsProvider.loggeduser=this.user;
                           this.presentConfirm(data.message);
           console.log(data);
+
+              this.createUser(this.isfarmer);
                        }, error => {
                        		this.presentAlert("No Internet Connection!");
                   			this.loading.dismissAll();

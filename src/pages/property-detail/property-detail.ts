@@ -47,9 +47,11 @@ export class PropertyDetailPage {
                      .map(response => response.json())
                     .subscribe(data => {
                       console.log(data);
-                      this.quantity = 1;
+                      if (data.message=="Product successfully added to cart.") {
+                        this.quantity = 1;
+                      }
+                      this.presentAlert(data.message);
                       this.loading.dismissAll();
-                      this.presentAlert("Product added to cart!");
                    },err =>{ 
                       this.loading.dismissAll();this.presentAlert("No Internet Connection!"); 
                   }); 
