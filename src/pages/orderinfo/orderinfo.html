@@ -11,7 +11,7 @@
         <ion-list>
         <ion-item-sliding *ngFor="let list of orders">
             <button ion-item (click)="prod(list)">
-                    <img src="http://i-tugue.com/system/uploads/s{{ list.farmer_product.photo_url }}.jpg"  onError="this.src='http://i-tugue.com/system/uploads/sproduct.jpg';"  style="width: 20px" style="float: left;margin-right: 5px;"  />
+                    <img src="http://riceupfarmers.org/wp-content/system/uploads/s{{ list.farmer_product.photo_url }}.jpg"  onError="this.src='http://riceupfarmers.org/wp-content/system/sproduct.jpg';"  style="width: 20px" style="float: left;margin-right: 5px;"  />
                 
                 <h3>{{list.farmer_product.product_name}}</h3>
                 <p>Price: P{{list.farmer_product.price_per_unit}}</p> 

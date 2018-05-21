@@ -6,7 +6,7 @@
 
 <ion-content>
     <ion-card *ngIf="property.id">
-         <img src="http://i-tugue.com/system/uploads/{{ property.photo_url }}.jpg?{{timee}}"  alt="loading..."   onError="this.src='http://i-tugue.com/system/uploads/product.jpg';"  (click)="changepic(property.photo_url)"/>
+         <img src="http://riceupfarmers.org/wp-content/system/uploads/{{ property.photo_url }}.jpg?{{timee}}"  alt="loading..."   onError="this.src='http://riceupfarmers.org/wp-content/system/product.jpg';"  (click)="changepic(property.photo_url)"/>
         <p> Tap the image to update picture.</p>
         <ion-list>
                 <ion-item>
@@ -31,10 +31,12 @@
                   <ion-icon item-left name="ios-clipboard"></ion-icon>
                   <ion-label  stacked>Unit Type</ion-label>
                   <ion-select [(ngModel)]="unit_type">
-                      <ion-option value="pcs">pcs</ion-option>
-                      <ion-option value="kg">kg</ion-option>
-                      <ion-option value="ewan">ewan</ion-option>
-                      <ion-option value="boom">boom</ion-option>    
+                    <ion-option value="pcs">pcs</ion-option>
+                    <ion-option value="kg">kg</ion-option>
+                    <ion-option value="750g">750g</ion-option>
+                    <ion-option value="250g">250g</ion-option>  
+                    <ion-option value="500g">500g</ion-option>
+                    <ion-option value="tail">tail</ion-option>   
                     </ion-select>
                   </ion-item>
 

@@ -14,7 +14,7 @@
 
         <button ion-item *ngFor="let farmer of farmers" (click)="openBrokerDetail(farmer)">
             <ion-avatar item-left>
-                <img src="http://i-tugue.com/system/uploads/s{{ farmer.id }}.jpg" alt="loading..."    onError="this.src='http://i-tugue.com/system/uploads/suser.jpg';" />
+                <img src="http://riceupfarmers.org/wp-content/system/uploads/s{{ farmer.id }}.jpg" alt="loading..."    onError="this.src='http://riceupfarmers.org/wp-content/system/suser.jpg';" />
             </ion-avatar>
             <h2>{{farmer.lastname}}, {{farmer.firstname}} {{farmer.middlename}}</h2>
             <p>{{farmer.email}}</p>
