@@ -8,6 +8,12 @@ import { AlertController } from 'ionic-angular';
 import {CartupdatePage} from '../cartupdate/cartupdate';
 import {ShippingPage} from '../shipping/shipping';
 import {PickupPage} from '../pickup/pickup';
+
+import {Platform} from 'ionic-angular';
+import {StatusBar} from '@ionic-native/status-bar';
+import {SplashScreen} from '@ionic-native/splash-screen';
+
+import { ToastController } from 'ionic-angular';
 /**
  * Generated class for the CartPage page.
  *
@@ -19,19 +25,45 @@ import {PickupPage} from '../pickup/pickup';
   templateUrl: 'cart.html',
 })
 export class CartPage {
+      public counter=0;
   orders:any;
       loading: Loading;
   gtotal :any = 'No Items';
   orderid:any = undefined;
   ord;
   rese:any;
-  constructor(public loadingCtrl: LoadingController,private alertCtrl: AlertController,public GlobalvarsProvider: GlobalvarsProvider,private menu : MenuController,private http: Http,public navCtrl: NavController, public navParams: NavParams) {
-             this.loading = this.loadingCtrl.create({
+  constructor(public platform: Platform,public statusBar: StatusBar, public splashScreen: SplashScreen,private toast: ToastController,public loadingCtrl: LoadingController,private alertCtrl: AlertController,public GlobalvarsProvider: GlobalvarsProvider,private menu : MenuController,private http: Http,public navCtrl: NavController, public navParams: NavParams) {
+           
+           platform.ready().then(() => {
+          statusBar.styleDefault();
+          splashScreen.hide();
+     
+          platform.registerBackButtonAction(() => {
+            if (this.counter == 0) {
+              this.counter++;
+              this.presentToast();
+              setTimeout(() => { this.counter = 0 }, 3000)
+            } else {
+              // console.log("exitapp");
+              platform.exitApp();
+            }
+          }, 0)
+        });
+          this.loading = this.loadingCtrl.create({
               content: 'Loading Cart...',
             });
             this.loading.present();
            
 
+  }
+
+ presentToast() {
+    let toast = this.toast.create({
+      message: "Press again to exit",
+      duration: 3000,
+      position: "bottom"
+    });
+    toast.present();
   }
    addq(pid,q,sa){
       q +=1;

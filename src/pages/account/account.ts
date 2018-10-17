@@ -6,6 +6,13 @@ import {ChangepassPage} from '../changepass/changepass';
 import {UpdateaccountPage} from '../updateaccount/updateaccount';
 import { AlertController } from 'ionic-angular';
 import leaflet from 'leaflet';
+
+
+import {Platform} from 'ionic-angular';
+import {StatusBar} from '@ionic-native/status-bar';
+import {SplashScreen} from '@ionic-native/splash-screen';
+
+import { ToastController } from 'ionic-angular';
 /**
  * Generated class for the AccountPage page.
  *
@@ -17,6 +24,7 @@ import leaflet from 'leaflet';
   templateUrl: 'account.html',
 })
 export class AccountPage {
+    public counter=0;
 	user: any;
 	option: any = '';
     viewMode: string = "map";
@@ -25,8 +33,23 @@ export class AccountPage {
     map;
     markersGroup;
     timee=Math.random();
-  constructor(private alertCtrl: AlertController,public navCtrl: NavController, public navParams: NavParams,public GlobalvarsProvider:GlobalvarsProvider,) {
-  	this.user = this.GlobalvarsProvider.loggeduser;
+  constructor(private alertCtrl: AlertController,public navCtrl: NavController, public navParams: NavParams,public GlobalvarsProvider:GlobalvarsProvider,public platform: Platform,public statusBar: StatusBar, public splashScreen: SplashScreen,private toast: ToastController) {
+  	platform.ready().then(() => {
+          statusBar.styleDefault();
+          splashScreen.hide();
+     
+          platform.registerBackButtonAction(() => {
+            if (this.counter == 0) {
+              this.counter++;
+              this.presentToast();
+              setTimeout(() => { this.counter = 0 }, 3000)
+            } else {
+              // console.log("exitapp");
+              platform.exitApp();
+            }
+          }, 0)
+        });
+    this.user = this.GlobalvarsProvider.loggeduser;
     this.timee=Math.random();
     this.isfarmer = this.user.is_farmer;
     console.log(this.user);
@@ -41,6 +64,14 @@ export class AccountPage {
     }
   } 
 
+ presentToast() {
+    let toast = this.toast.create({
+      message: "Press again to exit",
+      duration: 3000,
+      position: "bottom"
+    });
+    toast.present();
+  }
   showMarkers() {
         if (this.markersGroup) {
             this.map.removeLayer(this.markersGroup);

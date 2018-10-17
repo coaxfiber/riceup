@@ -11,19 +11,41 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 import { AlertController } from 'ionic-angular';
 
+import {Platform} from 'ionic-angular';
+import {StatusBar} from '@ionic-native/status-bar';
+import {SplashScreen} from '@ionic-native/splash-screen';
+
+import { ToastController } from 'ionic-angular';
+
+
 @Component({
     selector: 'page-broker-list',
     templateUrl: 'broker-list.html'
 })
 
 export class BrokerListPage {
-
+  public counter=0;
       loading: Loading;
     farmers: Array<any>;
     viewMode: string = "list";
     map;
     markersGroup;
-    constructor(private alertCtrl: AlertController, public loadingCtrl: LoadingController,public GlobalvarsProvider:GlobalvarsProvider,public navCtrl: NavController, public service: BrokerService,private http: Http) {
+    constructor(public platform: Platform,public statusBar: StatusBar, public splashScreen: SplashScreen,private toast: ToastController,private alertCtrl: AlertController, public loadingCtrl: LoadingController,public GlobalvarsProvider:GlobalvarsProvider,public navCtrl: NavController, public service: BrokerService,private http: Http) {
+      platform.ready().then(() => {
+          statusBar.styleDefault();
+          splashScreen.hide();
+     
+          platform.registerBackButtonAction(() => {
+            if (this.counter == 0) {
+              this.counter++;
+              this.presentToast();
+              setTimeout(() => { this.counter = 0 }, 3000)
+            } else {
+              // console.log("exitapp");
+              platform.exitApp();
+            }
+          }, 0)
+        });
       this.loading = this.loadingCtrl.create({
         content: 'Loading farmers...',
       });
@@ -45,6 +67,15 @@ export class BrokerListPage {
                          });
 
     }
+    
+ presentToast() {
+    let toast = this.toast.create({
+      message: "Press again to exit",
+      duration: 3000,
+      position: "bottom"
+    });
+    toast.present();
+  }
      presentAlert(val:any) {
             let alert = this.alertCtrl.create({
               title: 'Alert',

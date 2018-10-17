@@ -6,6 +6,11 @@ import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
 import {Headers, RequestOptions} from '@angular/http';
 import {OrderinfoPage} from '../orderinfo/orderinfo';
 import { AlertController } from 'ionic-angular';
+import {Platform} from 'ionic-angular';
+import {StatusBar} from '@ionic-native/status-bar';
+import {SplashScreen} from '@ionic-native/splash-screen';
+
+import { ToastController } from 'ionic-angular';
 
 /**
  * Generated class for the OrderListPage page.
@@ -18,11 +23,26 @@ import { AlertController } from 'ionic-angular';
   templateUrl: 'order-list.html',
 })
 export class OrderListPage {
-
+    public counter=0;
       loading: Loading;
       orders: any;
-  constructor(private alertCtrl: AlertController,public loadingCtrl: LoadingController,public GlobalvarsProvider: GlobalvarsProvider,private menu : MenuController,private http: Http,public navCtrl: NavController, public navParams: NavParams) {
-  	   this.loading = this.loadingCtrl.create({
+  constructor(public platform: Platform,public statusBar: StatusBar, public splashScreen: SplashScreen,private toast: ToastController,private alertCtrl: AlertController,public loadingCtrl: LoadingController,public GlobalvarsProvider: GlobalvarsProvider,private menu : MenuController,private http: Http,public navCtrl: NavController, public navParams: NavParams) {
+  	   platform.ready().then(() => {
+          statusBar.styleDefault();
+          splashScreen.hide();
+     
+          platform.registerBackButtonAction(() => {
+            if (this.counter == 0) {
+              this.counter++;
+              this.presentToast();
+              setTimeout(() => { this.counter = 0 }, 3000)
+            } else {
+              // console.log("exitapp");
+              platform.exitApp();
+            }
+          }, 0)
+        });
+       this.loading = this.loadingCtrl.create({
         content: 'Loading Orders...',
       });
       this.loading.present();
@@ -46,6 +66,14 @@ export class OrderListPage {
           },err =>{ this.presentAlert("No Internet Connection!"); 
               this.loading.dismissAll();
                       });
+  }
+   presentToast() {
+    let toast = this.toast.create({
+      message: "Press again to exit",
+      duration: 3000,
+      position: "bottom"
+    });
+    toast.present();
   }
    presentAlert(val:any) {
       let alert = this.alertCtrl.create({

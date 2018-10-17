@@ -8,6 +8,11 @@ import {AddproductPage} from '../addproduct/addproduct';
 import {UpdateproductPage} from '../updateproduct/updateproduct';
 import { AlertController } from 'ionic-angular';
 
+import {Platform} from 'ionic-angular';
+import {StatusBar} from '@ionic-native/status-bar';
+import {SplashScreen} from '@ionic-native/splash-screen';
+
+import { ToastController } from 'ionic-angular';
 /**
  * Generated class for the UserproductPage page.
  *
@@ -19,11 +24,25 @@ import { AlertController } from 'ionic-angular';
   templateUrl: 'userproduct.html',
 })
 export class UserproductPage {
-      loading: Loading;
+       public counter=0; loading: Loading;
  products:any;pushPage: any;
  timee:any;
-  constructor(private alertCtrl: AlertController, public loadingCtrl: LoadingController,public GlobalvarsProvider:GlobalvarsProvider, public navParams: NavParams,private http: Http,private menu : MenuController,public navCtrl: NavController,  public config: Config) {
-  	 
+  constructor(public platform: Platform,public statusBar: StatusBar, public splashScreen: SplashScreen,private toast: ToastController,private alertCtrl: AlertController, public loadingCtrl: LoadingController,public GlobalvarsProvider:GlobalvarsProvider, public navParams: NavParams,private http: Http,private menu : MenuController,public navCtrl: NavController,  public config: Config) {
+  	 platform.ready().then(() => {
+          statusBar.styleDefault();
+          splashScreen.hide();
+     
+          platform.registerBackButtonAction(() => {
+            if (this.counter == 0) {
+              this.counter++;
+              this.presentToast();
+              setTimeout(() => { this.counter = 0 }, 3000)
+            } else {
+              // console.log("exitapp");
+              platform.exitApp();
+            }
+          }, 0)
+        });
      this.timee = Date.now();
     this.pushPage=AddproductPage;
     this.loading = this.loadingCtrl.create({
@@ -47,6 +66,15 @@ export class UserproductPage {
             }
               this.loading.dismissAll();
           });
+  }
+  
+ presentToast() {
+    let toast = this.toast.create({
+      message: "Press again to exit",
+      duration: 3000,
+      position: "bottom"
+    });
+    toast.present();
   }
 openPropertyDetail(property: any) {
         this.navCtrl.push(UpdateproductPage, property);

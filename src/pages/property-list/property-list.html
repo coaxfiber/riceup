@@ -11,9 +11,9 @@
 
 <ion-content class="property-list">
 
-    <ion-list>
+    <ion-list *ngIf="'2018-11-03' < today">
 
-        <ion-item-sliding *ngFor="let property of properties">
+        <ion-item-sliding *ngFor="let property of properties" >
             <button ion-item (click)="openPropertyDetail(property)">
                 <ion-thumbnail item-left>
                     <img src="http://riceupfarmers.org/wp-content/system/uploads/s{{ property.photo_url }}.jpg?{{timee}}" alt="loading..."   onError="this.src='http://riceupfarmers.org/wp-content/system/sproduct.jpg';" />
@@ -22,7 +22,14 @@
                 <p>{{property.product_desc }}</p>
             </button>
         </ion-item-sliding>
-
     </ion-list>
 
+        <p style="padding:10px" *ngIf="'2018-11-03' > today">
+            <b>ANNOUNCEMENT:</b><br>
+            <br>Our affordable, Regular Milled Rice Products are available for purchase on November 3, 2018, Saturday! We will first cater Pampanga customers, then Manila in the coming weeks.
+Para sa magsasakang Pilipino!<br>
+Maraming Salamat po Sa suporta!<br><br>
+
+- From RiceUp Farmers Management team
+        </p>
 </ion-content>

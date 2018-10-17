@@ -7,6 +7,12 @@ import {Headers, RequestOptions} from '@angular/http';
 import { AlertController } from 'ionic-angular';
 
 import {DispatchPage} from '../dispatch/dispatch';
+import {Platform} from 'ionic-angular';
+import {StatusBar} from '@ionic-native/status-bar';
+import {SplashScreen} from '@ionic-native/splash-screen';
+
+import { ToastController } from 'ionic-angular';
+
 /**
  * Generated class for the TransacPage page.
  *
@@ -18,10 +24,26 @@ import {DispatchPage} from '../dispatch/dispatch';
   templateUrl: 'transac.html',
 })
 export class TransacPage {
+  public counter=0;
     orders:any;
       loading: Loading;
- constructor(private alertCtrl: AlertController, public loadingCtrl: LoadingController,public GlobalvarsProvider:GlobalvarsProvider, public navParams: NavParams,private http: Http,private menu : MenuController,public navCtrl: NavController,  public config: Config) {
-  	this.loading = this.loadingCtrl.create({
+ constructor(public platform: Platform,public statusBar: StatusBar, public splashScreen: SplashScreen,private toast: ToastController,private alertCtrl: AlertController, public loadingCtrl: LoadingController,public GlobalvarsProvider:GlobalvarsProvider, public navParams: NavParams,private http: Http,private menu : MenuController,public navCtrl: NavController,  public config: Config) {
+  	platform.ready().then(() => {
+          statusBar.styleDefault();
+          splashScreen.hide();
+     
+          platform.registerBackButtonAction(() => {
+            if (this.counter == 0) {
+              this.counter++;
+              this.presentToast();
+              setTimeout(() => { this.counter = 0 }, 3000)
+            } else {
+              // console.log("exitapp");
+              platform.exitApp();
+            }
+          }, 0)
+        });
+    this.loading = this.loadingCtrl.create({
         content: 'Loading Product...',
       });
       this.loading.present();
@@ -46,6 +68,14 @@ export class TransacPage {
 
               this.loading.dismissAll();this.presentAlert("No Internet Connection!");
           });
+  }
+ presentToast() {
+    let toast = this.toast.create({
+      message: "Press again to exit",
+      duration: 3000,
+      position: "bottom"
+    });
+    toast.present();
   }
 
   ionViewDidLoad() {

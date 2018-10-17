@@ -44,21 +44,7 @@ export class MyApp {
     helpMenuItems: Array<MenuItem>;
 
     constructor(private network: Network,private toast: ToastController,private alertCtrl: AlertController,private http: Http,public events: Events,public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen,public GlobalvarsProvider: GlobalvarsProvider) {
-        platform.ready().then(() => {
-          statusBar.styleDefault();
-          splashScreen.hide();
-     
-          platform.registerBackButtonAction(() => {
-            if (this.counter == 0) {
-              this.counter++;
-              this.presentToast();
-              setTimeout(() => { this.counter = 0 }, 3000)
-            } else {
-              // console.log("exitapp");
-              platform.exitApp();
-            }
-          }, 0)
-        });
+        
         this.initializeApp();
         this.farmer =[
                 {

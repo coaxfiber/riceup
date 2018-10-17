@@ -14,11 +14,15 @@ import 'rxjs/add/operator/catch';
 import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
 import { MenuController } from 'ionic-angular';
 import { Events } from 'ionic-angular';
+import {StatusBar} from '@ionic-native/status-bar';
+import {SplashScreen} from '@ionic-native/splash-screen';
+
+import { ToastController } from 'ionic-angular';
 @Component({
     selector: 'page-welcome',
     templateUrl: 'welcome.html'
 })
-export class WelcomePage {
+export class WelcomePage {    public counter=0;
       loading: Loading;
   form: FormGroup;data:any = {};
     properties: Array<any>;
@@ -26,8 +30,25 @@ export class WelcomePage {
    pushPage: any;
    login: any;
    farmer: Array<any>;
-	  constructor(public loadingCtrl: LoadingController,private alertCtrl: AlertController,public menu: MenuController,public events: Events,public GlobalvarsProvider:GlobalvarsProvider,fb: FormBuilder,public platform: Platform,public navCtrl: NavController,private http: Http){
-	    this.pushPage = TermsandagreementPage;
+	  constructor(public statusBar: StatusBar, public splashScreen: SplashScreen,private toast: ToastController,public loadingCtrl: LoadingController,private alertCtrl: AlertController,public menu: MenuController,public events: Events,public GlobalvarsProvider:GlobalvarsProvider,fb: FormBuilder,public platform: Platform,public navCtrl: NavController,private http: Http){
+	    
+platform.ready().then(() => {
+          statusBar.styleDefault();
+          splashScreen.hide();
+     
+          platform.registerBackButtonAction(() => {
+            if (this.counter == 0) {
+              this.counter++;
+              this.presentToast();
+              setTimeout(() => { this.counter = 0 }, 3000)
+            } else {
+              // console.log("exitapp");
+              platform.exitApp();
+            }
+          }, 0)
+        });
+
+this.pushPage = TermsandagreementPage;
       this.login = SignupPage;
 	    this.form = fb.group({
         name: fb.group({
@@ -38,7 +59,14 @@ export class WelcomePage {
 
     this.menu.enable(false);
 	  }
-
+ presentToast() {
+    let toast = this.toast.create({
+      message: "Press again to exit",
+      duration: 3000,
+      position: "bottom"
+    });
+    toast.present();
+  }
 	  calltologin()
     /*{
     	//alert('ShowHomePage');
