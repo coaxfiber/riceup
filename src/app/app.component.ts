@@ -19,6 +19,7 @@ import {TransacPage} from '../pages/transac/transac';
 import {PrivacyPolicyPage} from '../pages/privacy-policy/privacy-policy';
 import { AlertController  , ToastController } from 'ionic-angular';
 import { Network } from '@ionic-native/network';
+import { BackgroundMode } from '@ionic-native/background-mode';
 
 export interface MenuItem {
     title: string;
@@ -43,8 +44,8 @@ export class MyApp {
     timee=Math.random();
     helpMenuItems: Array<MenuItem>;
 
-    constructor(private network: Network,private toast: ToastController,private alertCtrl: AlertController,private http: Http,public events: Events,public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen,public GlobalvarsProvider: GlobalvarsProvider) {
-        
+    constructor(private backgroundMode: BackgroundMode, private network: Network,private toast: ToastController,private alertCtrl: AlertController,private http: Http,public events: Events,public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen,public GlobalvarsProvider: GlobalvarsProvider) {
+        this.backgroundMode.enable();
         this.initializeApp();
         this.farmer =[
                 {

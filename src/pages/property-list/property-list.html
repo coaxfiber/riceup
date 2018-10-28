@@ -10,8 +10,8 @@
 </ion-header>
 
 <ion-content class="property-list">
-
-    <ion-list *ngIf="'2018-11-03' < today">
+<!--*ngIf="'2018-11-03' < today"-->
+    <ion-list >
 
         <ion-item-sliding *ngFor="let property of properties" >
             <button ion-item (click)="openPropertyDetail(property)">

@@ -48,6 +48,8 @@ import {ShippingPage} from '../pages/shipping/shipping';
 import {TransacPage} from '../pages/transac/transac';
 import {DispatchPage} from '../pages/dispatch/dispatch';
 import { Network } from '@ionic-native/network';
+
+import { BackgroundMode } from '@ionic-native/background-mode';
 @NgModule({
   declarations: [
     MyApp,
@@ -82,7 +84,7 @@ import { Network } from '@ionic-native/network';
     StatusBar,
     SplashScreen,AuthService,
     PropertyService,
-    BrokerService,GlobalvarsProvider, Network,
+    BrokerService,GlobalvarsProvider, Network,BackgroundMode,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
