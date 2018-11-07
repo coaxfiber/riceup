@@ -19,16 +19,40 @@ import { Headers, RequestOptions } from '@angular/http';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 import { AlertController } from 'ionic-angular';
+import { Platform } from 'ionic-angular';
+import { StatusBar } from '@ionic-native/status-bar';
+import { SplashScreen } from '@ionic-native/splash-screen';
+import { ToastController } from 'ionic-angular';
 var BrokerListPage = /** @class */ (function () {
-    function BrokerListPage(alertCtrl, loadingCtrl, GlobalvarsProvider, navCtrl, service, http) {
+    function BrokerListPage(platform, statusBar, splashScreen, toast, alertCtrl, loadingCtrl, GlobalvarsProvider, navCtrl, service, http) {
         var _this = this;
+        this.platform = platform;
+        this.statusBar = statusBar;
+        this.splashScreen = splashScreen;
+        this.toast = toast;
         this.alertCtrl = alertCtrl;
         this.loadingCtrl = loadingCtrl;
         this.GlobalvarsProvider = GlobalvarsProvider;
         this.navCtrl = navCtrl;
         this.service = service;
         this.http = http;
+        this.counter = 0;
         this.viewMode = "list";
+        platform.ready().then(function () {
+            statusBar.styleDefault();
+            splashScreen.hide();
+            platform.registerBackButtonAction(function () {
+                if (_this.counter == 0) {
+                    _this.counter++;
+                    _this.presentToast();
+                    setTimeout(function () { _this.counter = 0; }, 3000);
+                }
+                else {
+                    // console.log("exitapp");
+                    platform.exitApp();
+                }
+            }, 0);
+        });
         this.loading = this.loadingCtrl.create({
             content: 'Loading farmers...',
         });
@@ -48,6 +72,14 @@ var BrokerListPage = /** @class */ (function () {
             _this.loading.dismissAll();
         });
     }
+    BrokerListPage.prototype.presentToast = function () {
+        var toast = this.toast.create({
+            message: "Press again to exit",
+            duration: 3000,
+            position: "bottom"
+        });
+        toast.present();
+    };
     BrokerListPage.prototype.presentAlert = function (val) {
         var alert = this.alertCtrl.create({
             title: 'Alert',
@@ -107,7 +139,7 @@ var BrokerListPage = /** @class */ (function () {
             selector: 'page-broker-list',
             templateUrl: 'broker-list.html'
         }),
-        __metadata("design:paramtypes", [AlertController, LoadingController, GlobalvarsProvider, NavController, BrokerService, Http])
+        __metadata("design:paramtypes", [Platform, StatusBar, SplashScreen, ToastController, AlertController, LoadingController, GlobalvarsProvider, NavController, BrokerService, Http])
     ], BrokerListPage);
     return BrokerListPage;
 }());

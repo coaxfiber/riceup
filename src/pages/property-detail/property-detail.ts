@@ -25,47 +25,53 @@ export class PropertyDetailPage {
         this.navCtrl.push(BrokerDetailPage, broker);
     }
     addtocart(){
-        if (this.quantity>=0&&this.quantity<=this.property.stocks_available) {
-          this.loading = this.loadingCtrl.create({
-              content: 'Adding to Cart...',
-            });
-            this.loading.present();
-             let urlSearchParams = new URLSearchParams();
-                urlSearchParams.append("grant_type",this.GlobalvarsProvider.grant_type);
-              let body = urlSearchParams.toString()
-               var header = new Headers();
-                  header.append("Accept", "application/json");
-                  header.append("Content-Type", "application/x-www-form-urlencoded");
-                  header.append("Authorization",this.GlobalvarsProvider.gettoken());
-                        
-                  let option = new RequestOptions({ headers: header });
-            this.http.post('http://api.riceupfarmers.org/api/order/new',body ,option)
-              .map(response => response.json())
-              .subscribe(res => {
-                var g = res.order_number[0].id;
-                this.http.post('http://api.riceupfarmers.org/api/cart/add?qty='+this.quantity+'&productid='+this.property.id+'&orderid='+g,body,option)
-                     .map(response => response.json())
-                    .subscribe(data => {
-                      console.log(data);
-                      if (data.message=="Product successfully added to cart.") {
-                        this.quantity = 1;
-                      }
-                      this.presentAlert(data.message);
-                      this.loading.dismissAll();
-                   },err =>{ 
-                      this.loading.dismissAll();this.presentAlert("No Internet Connection!"); 
-                  }); 
-          },err =>{ 
-                      this.loading.dismissAll();this.presentAlert("No Internet Connection!"); 
-              });
-                  
-        }else
-        {  if (this.property.stocks_available==0) {
-            
-            this.presentAlert("Product out of stock!");
-          }else{
-            this.presentAlert("Quantity must be greater than 0 and less than or equal to "+this.property.stocks_available);
-          }
+
+      if (this.GlobalvarsProvider.username == 'guest') {
+        this.presentAlert("Add to cart function is disabled for the guest account");
+      }else{
+
+            if (this.quantity>=0&&this.quantity<=this.property.stocks_available) {
+              this.loading = this.loadingCtrl.create({
+                  content: 'Adding to Cart...',
+                });
+                this.loading.present();
+                 let urlSearchParams = new URLSearchParams();
+                    urlSearchParams.append("grant_type",this.GlobalvarsProvider.grant_type);
+                  let body = urlSearchParams.toString()
+                   var header = new Headers();
+                      header.append("Accept", "application/json");
+                      header.append("Content-Type", "application/x-www-form-urlencoded");
+                      header.append("Authorization",this.GlobalvarsProvider.gettoken());
+                            
+                      let option = new RequestOptions({ headers: header });
+                this.http.post('http://api.riceupfarmers.org/api/order/new',body ,option)
+                  .map(response => response.json())
+                  .subscribe(res => {
+                    var g = res.order_number[0].id;
+                    this.http.post('http://api.riceupfarmers.org/api/cart/add?qty='+this.quantity+'&productid='+this.property.id+'&orderid='+g,body,option)
+                         .map(response => response.json())
+                        .subscribe(data => {
+                          console.log(data);
+                          if (data.message=="Product successfully added to cart.") {
+                            this.quantity = 1;
+                          }
+                          this.presentAlert(data.message);
+                          this.loading.dismissAll();
+                       },err =>{ 
+                          this.loading.dismissAll();this.presentAlert("No Internet Connection!"); 
+                      }); 
+              },err =>{ 
+                          this.loading.dismissAll();this.presentAlert("No Internet Connection!"); 
+                  });
+                      
+            }else
+            {  if (this.property.stocks_available==0) {
+                
+                this.presentAlert("Product out of stock!");
+              }else{
+                this.presentAlert("Quantity must be greater than 0 and less than or equal to "+this.property.stocks_available);
+              }
+            }
         }
     }
     presentAlert(val:any) {

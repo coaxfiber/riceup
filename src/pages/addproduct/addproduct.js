@@ -43,6 +43,7 @@ var AddproductPage = /** @class */ (function () {
         this.lat = '';
         this.username = '';
         this.buttonDisabled = true;
+        this.datenow = Date.now();
         this.form = fb.group({
             name: fb.group({
                 pname: '',
@@ -151,7 +152,7 @@ var AddproductPage = /** @class */ (function () {
             }
             else {
                 var timeInMs = Date.now();
-                var url = 'http://i-tugue.com/system/apiup.php?get=' + this.form.value.name.pname + timeInMs;
+                var url = 'http://riceupfarmers.org/wp-content/system/apiup.php?get=' + this.form.value.name.pname + timeInMs;
                 //'http://api.riceupfarmers.org/api/product/add?name='+this.form.value.name.pname+'&desc='+this.form.value.name.desc+'&unit='+this.form.value.name.unit+'&price='+this.form.value.name.price+'&stocks='+this.form.value.name.stocks+'&harvest_date='+this.form.value.name.harvest_date;
                 // File for Upload
                 var targetPath = this.pathForImage(this.lastImage);

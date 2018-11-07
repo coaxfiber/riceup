@@ -13,7 +13,7 @@
           <ion-list inset>
             
             <ion-item>
-              <ion-input type="text" placeholder="Username" name="email" formControlName="uname"></ion-input>
+              <ion-input type="text" placeholder="Username" name="uname" formControlName="uname"></ion-input>
             </ion-item>
             
             <ion-item>
@@ -32,6 +32,7 @@
 
     </ion-list>
           <button ion-button class="register-btn" block clear [navPush]="login">Sign Up Here</button>
+          <button ion-button class="register-btn" block clear (click)="guestlogin()">Log In As Guest</button>
         </ion-col>
       </ion-row>
       

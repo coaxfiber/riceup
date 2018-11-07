@@ -37,6 +37,7 @@ export class FarmerLocationPage {
 		                      leaflet.tileLayer('https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png', {
 		                                 attribution: '&copy; techventures.ph'
 		                             }).addTo(this.map);
+		                             this.showMarkers();
 		                     this.map.locate({setView: false, maxZoom: 10});
 		                        this.map.on('locationfound', e => {
 		                        var radius = e.accuracy / 2;
@@ -49,7 +50,6 @@ export class FarmerLocationPage {
 		                    leaflet.circle(e.latlng, radius).addTo(this.map);
 
 		                     
-		                             this.showMarkers();
 		                   });
 
 		                    function onLocationError(e) {

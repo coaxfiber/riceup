@@ -12,7 +12,7 @@ export class BrokerDetailPage {
 
     timee=Math.random();
     constructor(private http: Http,public navCtrl: NavController, public navParams: NavParams) {
-       
+    
     this.timee=Math.random(); this.farmer = this.navParams.data;
     }
 

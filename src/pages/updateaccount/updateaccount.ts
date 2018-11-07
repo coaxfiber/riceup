@@ -20,7 +20,8 @@ import { Events } from 'ionic-angular';
 export class UpdateaccountPage {
       loading: Loading;
     user: any;
-	option: any;
+    tempuser: any;
+	  option: any;
     viewMode: string = "map";
     viewMode2: string = "list";
     isfarmer:any;
@@ -28,9 +29,11 @@ export class UpdateaccountPage {
     map;
     markersGroup;
    constructor(public events: Events,private http: Http,public loadingCtrl: LoadingController,private alertCtrl: AlertController,public navCtrl: NavController, public navParams: NavParams,public GlobalvarsProvider:GlobalvarsProvider,) {
-  	this.user = this.GlobalvarsProvider.loggeduser;
+  	
+    this.user = this.GlobalvarsProvider.loggeduser;
     this.isfarmer = this.user.is_farmer;
     this.test = this.user.is_farmer;
+    this.tempuser = this.user;
   }
   showMarkers() {
       if (this.user.address_lat!=null) {
@@ -85,14 +88,14 @@ export class UpdateaccountPage {
                      })
             }
         }
-createUser(user) {
+        
+        createUser(user) {
             this.events.publish('isfarm:created', user, this.GlobalvarsProvider.getgid());
           }
 
-        update(){
-        	if (this.user.firstname!=''&&this.user.lastname!=''&&this.user.address!=''&&this.user.mobile_no!=''&&this.user.email!='') {
-        		
-        	 this.loading = this.loadingCtrl.create({
+        update2(){
+        	if (this.user.firstname!='' && this.user.lastname!='' && this.user.address!='' && this.user.mobile_no!='' && this.user.email!='') {
+        		this.loading = this.loadingCtrl.create({
               content: 'Updating Account Info...',
             });
             this.loading.present();
@@ -104,27 +107,26 @@ createUser(user) {
                       header.append("Content-Type", "application/x-www-form-urlencoded");
                       header.append("Authorization",this.GlobalvarsProvider.gettoken());
                       this.user.is_farmer = this.isfarmer;
-          console.log(this.isfarmer);
                       let option = new RequestOptions({ headers: header });
+                         
                          this.http.patch('http://api.riceupfarmers.org/api/user/update?firstname='+this.user.firstname+'&middlename='+this.user.middlename+'&lastname='+this.user.lastname+'&address='+this.user.address+'&address_lat='+this.user.address_lat+'&address_long='+this.user.address_long+'&bus_name='+this.user.business_name+'&mobile_no='+this.user.mobile_no+'&email='+this.user.email+'&years_bus='+this.user.years_in_business+'&is_farmer='+this.isfarmer+'&history='+this.user.history+'&years_farm='+this.user.years_in_farming, body,option)
                          .map(response => response.json())
                         .subscribe(data => {
                     			this.loading.dismissAll();
                           this.GlobalvarsProvider.loggeduser=this.user;
                           this.presentConfirm(data.message);
-          console.log(data);
-
-              this.createUser(this.isfarmer);
+                          this.createUser(this.isfarmer);
                        }, error => {
                        		this.presentAlert("No Internet Connection!");
                   			this.loading.dismissAll();
                        });
         	}else
-        	{
-
-               this.presentConfirm("Please Fill the Required Fields!");
+        	{    this.user = this.tempuser;
+                console.log(this.tempuser);
+               this.presentAlert("Please Fill the Required Fields!");
         	}
         }
+
         g(){
         	if (this.test==true) {
         		this.isfarmer=1;

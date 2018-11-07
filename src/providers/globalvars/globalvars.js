@@ -33,6 +33,9 @@ var GlobalvarsProvider = /** @class */ (function () {
     GlobalvarsProvider.prototype.setloggeduser = function (user) {
         this.loggeduser = user;
     };
+    GlobalvarsProvider.prototype.setloggeduser2 = function (user) {
+        this.loggeduser.is_farmer = user;
+    };
     GlobalvarsProvider.prototype.setgid = function (gid) {
         this.globalid = gid;
     };

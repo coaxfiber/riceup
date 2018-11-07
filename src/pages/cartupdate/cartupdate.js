@@ -33,17 +33,25 @@ var CartupdatePage = /** @class */ (function () {
         this.navParams = navParams;
         this.propertyService = propertyService;
         this.toastCtrl = toastCtrl;
+        this.quantity = 1;
         this.property = this.navParams.data.farmer_product;
         this.proid = this.navParams.data.id;
         this.quantity = this.navParams.data.quantity;
     }
+    CartupdatePage.prototype.addq = function () {
+        this.quantity += 1;
+    };
+    CartupdatePage.prototype.subq = function () {
+        if (this.quantity > 0) {
+            this.quantity -= 1;
+        }
+    };
     CartupdatePage.prototype.openBrokerDetail = function (broker) {
-        console.log(broker);
         this.navCtrl.push(BrokerDetailPage, broker);
     };
     CartupdatePage.prototype.updatecart = function () {
         var _this = this;
-        if (this.quantity >= 0 && this.quantity <= this.property.stocks_available) {
+        if (this.quantity > 0 && this.quantity <= this.property.stocks_available) {
             this.loading = this.loadingCtrl.create({
                 content: 'Updating Order...',
             });
@@ -62,10 +70,13 @@ var CartupdatePage = /** @class */ (function () {
                 _this.quantity = 1;
                 _this.loading.dismissAll();
                 _this.presentConfirm();
+            }, function (Error) {
+                _this.presentAlert("No Internet Connection!");
+                _this.loading.dismissAll();
             });
         }
         else {
-            this.presentAlert("Quantity must be greater than 0 and less than " + this.property.stocks_available);
+            this.presentAlert("Quantity must be greater than 0 and less than or equal to " + this.property.stocks_available);
         }
     };
     CartupdatePage.prototype.presentAlert = function (val) {

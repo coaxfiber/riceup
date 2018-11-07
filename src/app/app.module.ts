@@ -48,8 +48,8 @@ import {ShippingPage} from '../pages/shipping/shipping';
 import {TransacPage} from '../pages/transac/transac';
 import {DispatchPage} from '../pages/dispatch/dispatch';
 import { Network } from '@ionic-native/network';
-
 import { BackgroundMode } from '@ionic-native/background-mode';
+import { IonicStorageModule } from '@ionic/storage';
 @NgModule({
   declarations: [
     MyApp,
@@ -65,6 +65,7 @@ import { BackgroundMode } from '@ionic-native/background-mode';
     BrowserModule,
     HttpModule,
     IonicModule.forRoot(MyApp),
+    IonicStorageModule.forRoot()
   ],
   bootstrap: [IonicApp],
   entryComponents: [

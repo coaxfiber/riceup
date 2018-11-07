@@ -15,6 +15,12 @@ import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
 import { Headers, RequestOptions } from '@angular/http';
 import { AlertController } from 'ionic-angular';
 import { CartupdatePage } from '../cartupdate/cartupdate';
+import { ShippingPage } from '../shipping/shipping';
+import { PickupPage } from '../pickup/pickup';
+import { Platform } from 'ionic-angular';
+import { StatusBar } from '@ionic-native/status-bar';
+import { SplashScreen } from '@ionic-native/splash-screen';
+import { ToastController } from 'ionic-angular';
 /**
  * Generated class for the CartPage page.
  *
@@ -22,7 +28,12 @@ import { CartupdatePage } from '../cartupdate/cartupdate';
  * on Ionic pages and navigation.
  */
 var CartPage = /** @class */ (function () {
-    function CartPage(loadingCtrl, alertCtrl, GlobalvarsProvider, menu, http, navCtrl, navParams) {
+    function CartPage(platform, statusBar, splashScreen, toast, loadingCtrl, alertCtrl, GlobalvarsProvider, menu, http, navCtrl, navParams) {
+        var _this = this;
+        this.platform = platform;
+        this.statusBar = statusBar;
+        this.splashScreen = splashScreen;
+        this.toast = toast;
         this.loadingCtrl = loadingCtrl;
         this.alertCtrl = alertCtrl;
         this.GlobalvarsProvider = GlobalvarsProvider;
@@ -30,13 +41,98 @@ var CartPage = /** @class */ (function () {
         this.http = http;
         this.navCtrl = navCtrl;
         this.navParams = navParams;
+        this.counter = 0;
         this.gtotal = 'No Items';
         this.orderid = undefined;
+        platform.ready().then(function () {
+            statusBar.styleDefault();
+            splashScreen.hide();
+            platform.registerBackButtonAction(function () {
+                if (_this.counter == 0) {
+                    _this.counter++;
+                    _this.presentToast();
+                    setTimeout(function () { _this.counter = 0; }, 3000);
+                }
+                else {
+                    // console.log("exitapp");
+                    platform.exitApp();
+                }
+            }, 0);
+        });
         this.loading = this.loadingCtrl.create({
             content: 'Loading Cart...',
         });
         this.loading.present();
     }
+    CartPage_1 = CartPage;
+    CartPage.prototype.presentToast = function () {
+        var toast = this.toast.create({
+            message: "Press again to exit",
+            duration: 3000,
+            position: "bottom"
+        });
+        toast.present();
+    };
+    CartPage.prototype.addq = function (pid, q, sa) {
+        var _this = this;
+        q += 1;
+        if (q > 0 && q <= sa) {
+            this.loading = this.loadingCtrl.create({
+                content: 'Updating quantity...',
+            });
+            this.loading.present();
+            var urlSearchParams = new URLSearchParams();
+            urlSearchParams.append("grant_type", this.GlobalvarsProvider.grant_type);
+            var body = urlSearchParams.toString();
+            var header = new Headers();
+            header.append("Accept", "application/json");
+            header.append("Content-Type", "application/x-www-form-urlencoded");
+            header.append("Authorization", this.GlobalvarsProvider.gettoken());
+            var option = new RequestOptions({ headers: header });
+            this.http.patch('http://api.riceupfarmers.org/api/cart/update/' + pid + '?qty=' + q, body, option)
+                .map(function (response) { return response.json(); })
+                .subscribe(function (data) {
+                _this.loading.dismissAll();
+                _this.navCtrl.setRoot(CartPage_1);
+            }, function (Error) {
+                _this.loading.dismissAll();
+                _this.presentAlert("No Internet Connection!");
+            });
+        }
+        else {
+            this.presentAlert("Quantity must be greater than 0 and less than or equal to " + sa);
+        }
+    };
+    CartPage.prototype.subq = function (pid, q, sa) {
+        var _this = this;
+        q -= 1;
+        if (q > 0 && q <= sa) {
+            this.loading = this.loadingCtrl.create({
+                content: 'Updating quantity...',
+            });
+            this.loading.present();
+            var urlSearchParams = new URLSearchParams();
+            urlSearchParams.append("grant_type", this.GlobalvarsProvider.grant_type);
+            var body = urlSearchParams.toString();
+            var header = new Headers();
+            header.append("Accept", "application/json");
+            header.append("Content-Type", "application/x-www-form-urlencoded");
+            header.append("Authorization", this.GlobalvarsProvider.gettoken());
+            var option = new RequestOptions({ headers: header });
+            this.http.patch('http://api.riceupfarmers.org/api/cart/update/' + pid + '?qty=' + q, body, option)
+                .map(function (response) { return response.json(); })
+                .subscribe(function (data) {
+                _this.loading.dismissAll();
+                _this.navCtrl.setRoot(CartPage_1);
+            }, function (Error) {
+                _this.loading.dismissAll();
+                _this.presentAlert("No Internet Connection!");
+            });
+        }
+        else {
+            this.presentAlert("Quantity must be greater than 0 and less than or equal to " + sa);
+        }
+    };
     CartPage.prototype.ionViewDidLoad = function () {
         var _this = this;
         var urlSearchParams = new URLSearchParams();
@@ -49,9 +145,9 @@ var CartPage = /** @class */ (function () {
         this.http.post('http://api.riceupfarmers.org/api/order/new', body, option)
             .map(function (response) { return response.json(); })
             .subscribe(function (res) {
-            _this.loading.dismissAll();
             if (res.order_number[0] == undefined) {
-                // code...
+                _this.loading.dismissAll();
+                _this.navCtrl.setRoot(_this.navCtrl.getActive().component);
             }
             else {
                 var g = res.order_number[0].id;
@@ -61,6 +157,8 @@ var CartPage = /** @class */ (function () {
                     .subscribe(function (rese) {
                     _this.orders = rese.product_order;
                     if (_this.orders != undefined) {
+                        _this.rese = rese;
+                        _this.ord = rese.id;
                         _this.gtotal = _this.gettotal(_this.orders);
                         if (_this.gtotal != 0)
                             _this.gtotal = "P" + _this.gtotal;
@@ -69,6 +167,7 @@ var CartPage = /** @class */ (function () {
                     }
                     else
                         _this.presentAlert("No items in cart!");
+                    _this.loading.dismissAll();
                 }, function (err) {
                     _this.loading.dismissAll();
                     _this.presentAlert("No Internet Connection!");
@@ -168,6 +267,49 @@ var CartPage = /** @class */ (function () {
             this.presentAlert("No items in cart!");
         }
     };
+    CartPage.prototype.codorship = function () {
+        var _this = this;
+        if (this.gtotal != 'No Items') {
+            var prompt_1 = this.alertCtrl.create({
+                title: 'Select',
+                message: 'Type of acquiring the product',
+                inputs: [
+                    {
+                        type: 'radio',
+                        label: 'Pick up',
+                        value: 'pick'
+                    },
+                    {
+                        type: 'radio',
+                        label: 'Shipping',
+                        value: 'ship'
+                    }
+                ],
+                buttons: [
+                    {
+                        text: "Cancel",
+                        handler: function (data) {
+                        }
+                    },
+                    {
+                        text: "Ok",
+                        handler: function (data) {
+                            if (data == 'pick') {
+                                _this.navCtrl.push(PickupPage, _this.rese);
+                            }
+                            if (data == 'ship') {
+                                _this.navCtrl.push(ShippingPage, _this.rese);
+                            }
+                        }
+                    }
+                ]
+            });
+            prompt_1.present();
+        }
+        else {
+            this.presentAlert("Cart is Empty");
+        }
+    };
     CartPage.prototype.alertConfirm2 = function (var2) {
         var _this = this;
         var alert = this.alertCtrl.create({
@@ -184,12 +326,13 @@ var CartPage = /** @class */ (function () {
         });
         alert.present();
     };
-    CartPage = __decorate([
+    var CartPage_1;
+    CartPage = CartPage_1 = __decorate([
         Component({
             selector: 'page-cart',
             templateUrl: 'cart.html',
         }),
-        __metadata("design:paramtypes", [LoadingController, AlertController, GlobalvarsProvider, MenuController, Http, NavController, NavParams])
+        __metadata("design:paramtypes", [Platform, StatusBar, SplashScreen, ToastController, LoadingController, AlertController, GlobalvarsProvider, MenuController, Http, NavController, NavParams])
     ], CartPage);
     return CartPage;
 }());

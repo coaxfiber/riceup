@@ -16,9 +16,17 @@ import { MenuController } from 'ionic-angular';
 import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
 import { Headers, RequestOptions } from '@angular/http';
 import { AlertController } from 'ionic-angular';
+import { Platform } from 'ionic-angular';
+import { StatusBar } from '@ionic-native/status-bar';
+import { SplashScreen } from '@ionic-native/splash-screen';
+import { ToastController } from 'ionic-angular';
 var PropertyListPage = /** @class */ (function () {
-    function PropertyListPage(alertCtrl, loadingCtrl, GlobalvarsProvider, navParams, http, menu, navCtrl, service, config) {
+    function PropertyListPage(platform, statusBar, splashScreen, toast, alertCtrl, loadingCtrl, GlobalvarsProvider, navParams, http, menu, navCtrl, service, config) {
         var _this = this;
+        this.platform = platform;
+        this.statusBar = statusBar;
+        this.splashScreen = splashScreen;
+        this.toast = toast;
         this.alertCtrl = alertCtrl;
         this.loadingCtrl = loadingCtrl;
         this.GlobalvarsProvider = GlobalvarsProvider;
@@ -28,8 +36,11 @@ var PropertyListPage = /** @class */ (function () {
         this.navCtrl = navCtrl;
         this.service = service;
         this.config = config;
+        this.now = new Date;
+        this.counter = 0;
         this.searchKey = "";
         this.viewMode = "list";
+        this.today = this.now.toISOString();
         this.loading = this.loadingCtrl.create({
             content: 'Loading Product...',
         });
@@ -43,12 +54,13 @@ var PropertyListPage = /** @class */ (function () {
             .map(function (response) { return response.json(); })
             .subscribe(function (res) {
             _this.loading.dismissAll();
-            console.log(res);
-            if (res.message == undefined) {
-                _this.properties = res;
-            }
-            else {
-                _this.presentAlert(res.message);
+            if ('2018-11-03' < _this.today) {
+                if (res.message == undefined) {
+                    _this.properties = res;
+                }
+                else {
+                    _this.presentAlert(res.message);
+                }
             }
         }, function (error) {
             _this.presentAlert("Slow internet Connection!");
@@ -56,7 +68,30 @@ var PropertyListPage = /** @class */ (function () {
         });
         this.findAll();
         this.menu.enable(true);
+        platform.ready().then(function () {
+            statusBar.styleDefault();
+            splashScreen.hide();
+            platform.registerBackButtonAction(function () {
+                if (_this.counter == 0) {
+                    _this.counter++;
+                    _this.presentToast();
+                    setTimeout(function () { _this.counter = 0; }, 3000);
+                }
+                else {
+                    // console.log("exitapp");
+                    platform.exitApp();
+                }
+            }, 0);
+        });
     }
+    PropertyListPage.prototype.presentToast = function () {
+        var toast = this.toast.create({
+            message: "Press again to exit",
+            duration: 3000,
+            position: "bottom"
+        });
+        toast.present();
+    };
     PropertyListPage.prototype.presentAlert = function (val) {
         var alert = this.alertCtrl.create({
             title: 'Alert',
@@ -90,7 +125,7 @@ var PropertyListPage = /** @class */ (function () {
             selector: 'page-property-list',
             templateUrl: 'property-list.html'
         }),
-        __metadata("design:paramtypes", [AlertController, LoadingController, GlobalvarsProvider, NavParams, Http, MenuController, NavController, PropertyService, Config])
+        __metadata("design:paramtypes", [Platform, StatusBar, SplashScreen, ToastController, AlertController, LoadingController, GlobalvarsProvider, NavParams, Http, MenuController, NavController, PropertyService, Config])
     ], PropertyListPage);
     return PropertyListPage;
 }());

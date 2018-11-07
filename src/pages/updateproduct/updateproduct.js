@@ -29,6 +29,7 @@ var UpdateproductPage = /** @class */ (function () {
         this.http = http;
         this.navCtrl = navCtrl;
         this.navParams = navParams;
+        this.datenow = Date.now();
         this.timee = Date.now();
         this.property = this.navParams.data;
         this.stocks_available = this.property.stocks_available;

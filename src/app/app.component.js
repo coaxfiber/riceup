@@ -23,12 +23,17 @@ import { Events } from 'ionic-angular';
 import { UserproductPage } from '../pages/userproduct/userproduct';
 import { Http } from '@angular/http';
 import { AccountPage } from '../pages/account/account';
+import { TransacPage } from '../pages/transac/transac';
 import { PrivacyPolicyPage } from '../pages/privacy-policy/privacy-policy';
 import { AlertController, ToastController } from 'ionic-angular';
 import { Network } from '@ionic-native/network';
+import { BackgroundMode } from '@ionic-native/background-mode';
+import { Storage } from '@ionic/storage';
 var MyApp = /** @class */ (function () {
-    function MyApp(network, toast, alertCtrl, http, events, platform, statusBar, splashScreen, GlobalvarsProvider) {
+    function MyApp(storage, backgroundMode, network, toast, alertCtrl, http, events, platform, statusBar, splashScreen, GlobalvarsProvider) {
         var _this = this;
+        this.storage = storage;
+        this.backgroundMode = backgroundMode;
         this.network = network;
         this.toast = toast;
         this.alertCtrl = alertCtrl;
@@ -38,9 +43,12 @@ var MyApp = /** @class */ (function () {
         this.statusBar = statusBar;
         this.splashScreen = splashScreen;
         this.GlobalvarsProvider = GlobalvarsProvider;
+        this.counter = 0;
         this.rootPage = WelcomePage;
         this.name = null;
         this.group = null;
+        this.timee = Math.random();
+        this.backgroundMode.enable();
         this.initializeApp();
         this.farmer = [
             {
@@ -59,6 +67,7 @@ var MyApp = /** @class */ (function () {
                 _this.accountMenuItems = [
                     { title: 'My Account', component: AccountPage, icon: 'ios-contact' },
                     { title: 'My Products', component: UserproductPage, icon: 'archive' },
+                    { title: 'Transactions', component: TransacPage, icon: 'md-done-all' },
                 ];
             }
             else {
@@ -66,6 +75,25 @@ var MyApp = /** @class */ (function () {
                     { title: 'My Account', component: AccountPage, icon: 'ios-contact' },
                 ];
             }
+        });
+        events.subscribe('isfarm:created', function (user, time) {
+            // user and time are the same arguments passed in `events.publish(user, time)`4
+            _this.GlobalvarsProvider.setloggeduser2(user);
+            if (user == 1) {
+                _this.accountMenuItems = [
+                    { title: 'My Account', component: AccountPage, icon: 'ios-contact' },
+                    { title: 'My Products', component: UserproductPage, icon: 'archive' },
+                    { title: 'Transactions', component: TransacPage, icon: 'md-done-all' },
+                ];
+            }
+            else {
+                _this.accountMenuItems = [
+                    { title: 'My Account', component: AccountPage, icon: 'ios-contact' },
+                ];
+            }
+        });
+        events.subscribe('user:pic', function (user, time) {
+            _this.timee = Math.random();
         });
         this.appMenuItems = [
             { title: 'Products', component: PropertyListPage, icon: 'home' },
@@ -79,6 +107,14 @@ var MyApp = /** @class */ (function () {
             { title: 'About', component: AboutPage, icon: 'information-circle' },
         ];
     }
+    MyApp.prototype.presentToast = function () {
+        var toast = this.toast.create({
+            message: "Press again to exit",
+            duration: 3000,
+            position: "middle"
+        });
+        toast.present();
+    };
     MyApp.prototype.displayNetworkUpdate = function (connectionState) {
         var networkType = this.network.type;
         this.toast.create({
@@ -128,6 +164,7 @@ var MyApp = /** @class */ (function () {
                     text: 'Yes',
                     handler: function () {
                         _this.nav.setRoot(WelcomePage);
+                        _this.storage.clear();
                     }
                 }
             ]
@@ -142,7 +179,7 @@ var MyApp = /** @class */ (function () {
         Component({
             templateUrl: 'app.html'
         }),
-        __metadata("design:paramtypes", [Network, ToastController, AlertController, Http, Events, Platform, StatusBar, SplashScreen, GlobalvarsProvider])
+        __metadata("design:paramtypes", [Storage, BackgroundMode, Network, ToastController, AlertController, Http, Events, Platform, StatusBar, SplashScreen, GlobalvarsProvider])
     ], MyApp);
     return MyApp;
 }());

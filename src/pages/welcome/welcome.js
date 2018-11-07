@@ -22,8 +22,17 @@ import 'rxjs/add/operator/catch';
 import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
 import { MenuController } from 'ionic-angular';
 import { Events } from 'ionic-angular';
+import { StatusBar } from '@ionic-native/status-bar';
+import { SplashScreen } from '@ionic-native/splash-screen';
+import { ToastController } from 'ionic-angular';
+import { Storage } from '@ionic/storage';
 var WelcomePage = /** @class */ (function () {
-    function WelcomePage(loadingCtrl, alertCtrl, menu, events, GlobalvarsProvider, fb, platform, navCtrl, http) {
+    function WelcomePage(storage, statusBar, splashScreen, toast, loadingCtrl, alertCtrl, menu, events, GlobalvarsProvider, fb, platform, navCtrl, http) {
+        var _this = this;
+        this.storage = storage;
+        this.statusBar = statusBar;
+        this.splashScreen = splashScreen;
+        this.toast = toast;
         this.loadingCtrl = loadingCtrl;
         this.alertCtrl = alertCtrl;
         this.menu = menu;
@@ -32,7 +41,32 @@ var WelcomePage = /** @class */ (function () {
         this.platform = platform;
         this.navCtrl = navCtrl;
         this.http = http;
+        this.counter = 0;
         this.data = {};
+        storage.get('username').then(function (val) {
+            _this.form.value.name.uname = val;
+            storage.get('password').then(function (val2) {
+                _this.form.value.name.pw = val2;
+                if (val2 != null && val2 != undefined && val2 != '') {
+                    _this.calltologin();
+                }
+            });
+        });
+        platform.ready().then(function () {
+            statusBar.styleDefault();
+            splashScreen.hide();
+            platform.registerBackButtonAction(function () {
+                if (_this.counter == 0) {
+                    _this.counter++;
+                    _this.presentToast();
+                    setTimeout(function () { _this.counter = 0; }, 3000);
+                }
+                else {
+                    // console.log("exitapp");
+                    platform.exitApp();
+                }
+            }, 0);
+        });
         this.pushPage = TermsandagreementPage;
         this.login = SignupPage;
         this.form = fb.group({
@@ -43,6 +77,14 @@ var WelcomePage = /** @class */ (function () {
         });
         this.menu.enable(false);
     }
+    WelcomePage.prototype.presentToast = function () {
+        var toast = this.toast.create({
+            message: "Press again to exit",
+            duration: 3000,
+            position: "bottom"
+        });
+        toast.present();
+    };
     WelcomePage.prototype.calltologin = function () {
         var _this = this;
         if (this.form.value.name.uname != '' && this.form.value.name.pw != '') {
@@ -62,31 +104,37 @@ var WelcomePage = /** @class */ (function () {
             var body = urlSearchParams.toString();
             var header = new Headers();
             header.append("Content-Type", "application/x-www-form-urlencoded");
-            header.append("Accept", "application/json");
             var option = new RequestOptions({ headers: header });
             this.http.post('http://api.riceupfarmers.org/oauth/token', body, option)
                 .map(function (response) { return response.json(); })
                 .subscribe(function (data) {
-                _this.GlobalvarsProvider.settoken(data.token_type + " " + data.access_token);
-                //wwew start
-                var header = new Headers();
-                header.append("Accept", "application/json");
-                header.append("Content-Type", "application/x-www-form-urlencoded");
-                header.append("Authorization", _this.GlobalvarsProvider.gettoken());
-                var option = new RequestOptions({ headers: header });
-                _this.http.get('http://api.riceupfarmers.org/api/user', option)
-                    .map(function (response) { return response.json(); })
-                    .subscribe(function (data) {
-                    _this.createUser(data);
-                }, function (error) {
-                    _this.presentAlert("Slow internet Connection!");
+                if (data.token_type != undefined) {
+                    _this.GlobalvarsProvider.settoken(data.token_type + " " + data.access_token);
+                    //wwew start
+                    var header = new Headers();
+                    header.append("Accept", "application/json");
+                    header.append("Content-Type", "application/x-www-form-urlencoded");
+                    header.append("Authorization", _this.GlobalvarsProvider.gettoken());
+                    var option_1 = new RequestOptions({ headers: header });
+                    _this.http.get('http://api.riceupfarmers.org/api/user', option_1)
+                        .map(function (response) { return response.json(); })
+                        .subscribe(function (data) {
+                        _this.createUser(data);
+                    }, function (error) {
+                        _this.presentAlert("Slow internet Connection!");
+                        _this.loading.dismissAll();
+                    });
+                    //wew end
                     _this.loading.dismissAll();
-                });
-                //wew end
-                _this.loading.dismissAll();
-                _this.navCtrl.setRoot(PropertyListPage);
+                    _this.storage.set('username', _this.form.value.name.uname);
+                    _this.storage.set('password', _this.form.value.name.pw);
+                    _this.navCtrl.setRoot(PropertyListPage);
+                }
+                else
+                    _this.presentAlert("Invalid Username or password");
             }, function (error) {
-                _this.presentAlert("Incorrect username or password");
+                console.log(error);
+                _this.presentAlert("Failed to login. Make sure you have valid user credentials or you are connected to the internet.");
                 _this.loading.dismissAll();
             });
         }
@@ -110,7 +158,7 @@ var WelcomePage = /** @class */ (function () {
             selector: 'page-welcome',
             templateUrl: 'welcome.html'
         }),
-        __metadata("design:paramtypes", [LoadingController, AlertController, MenuController, Events, GlobalvarsProvider, FormBuilder, Platform, NavController, Http])
+        __metadata("design:paramtypes", [Storage, StatusBar, SplashScreen, ToastController, LoadingController, AlertController, MenuController, Events, GlobalvarsProvider, FormBuilder, Platform, NavController, Http])
     ], WelcomePage);
     return WelcomePage;
 }());

@@ -18,6 +18,7 @@ import { Camera } from '@ionic-native/camera';
 import { AlertController } from 'ionic-angular';
 import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
 import { AccountPage } from '../account/account';
+import { Events } from 'ionic-angular';
 /**
  * Generated class for the ProfpicPage page.
  *
@@ -25,7 +26,8 @@ import { AccountPage } from '../account/account';
  * on Ionic pages and navigation.
  */
 var ProfpicPage = /** @class */ (function () {
-    function ProfpicPage(navParams, GlobalvarsProvider, http, alertCtrl, fb, navCtrl, camera, transfer, file, filePath, actionSheetCtrl, toastCtrl, platform, loadingCtrl) {
+    function ProfpicPage(events, navParams, GlobalvarsProvider, http, alertCtrl, fb, navCtrl, camera, transfer, file, filePath, actionSheetCtrl, toastCtrl, platform, loadingCtrl) {
+        this.events = events;
         this.navParams = navParams;
         this.GlobalvarsProvider = GlobalvarsProvider;
         this.http = http;
@@ -40,7 +42,7 @@ var ProfpicPage = /** @class */ (function () {
         this.platform = platform;
         this.loadingCtrl = loadingCtrl;
         this.lastImage = null;
-        this.url = this.navParams.data;
+        this.url = this.GlobalvarsProvider.loggeduser.id;
         console.log(this.url);
     }
     ProfpicPage.prototype.presentActionSheet = function () {
@@ -67,6 +69,10 @@ var ProfpicPage = /** @class */ (function () {
             ]
         });
         actionSheet.present();
+    };
+    ProfpicPage.prototype.editpic = function (user) {
+        user = 'none';
+        this.events.publish('user:pic', user);
     };
     ProfpicPage.prototype.takePicture = function (sourceType) {
         var _this = this;
@@ -142,7 +148,7 @@ var ProfpicPage = /** @class */ (function () {
             this.presentAlert("Image selection is required!");
         }
         else {
-            var url = 'http://i-tugue.com/system/uploadpro.php?get=' + this.url;
+            var url = 'http://riceupfarmers.org/wp-content/system/uploadpro.php?get=' + this.url;
             //'http://api.riceupfarmers.org/api/product/add?name='+this.form.value.name.pname+'&desc='+this.form.value.name.desc+'&unit='+this.form.value.name.unit+'&price='+this.form.value.name.price+'&stocks='+this.form.value.name.stocks+'&harvest_date='+this.form.value.name.harvest_date;
             // File for Upload
             var targetPath = this.pathForImage(this.lastImage);
@@ -164,6 +170,7 @@ var ProfpicPage = /** @class */ (function () {
             fileTransfer.upload(targetPath, url, options).then(function (data) {
                 _this.loading.dismissAll();
                 _this.presentToast('Image Uploaded...');
+                _this.editpic('none');
                 _this.navCtrl.setRoot(AccountPage);
             }, function (err) {
                 _this.loading.dismissAll();
@@ -177,7 +184,7 @@ var ProfpicPage = /** @class */ (function () {
             selector: 'page-profpic',
             templateUrl: 'profpic.html',
         }),
-        __metadata("design:paramtypes", [NavParams, GlobalvarsProvider, Http, AlertController, FormBuilder, NavController, Camera, Transfer, File, FilePath, ActionSheetController, ToastController, Platform, LoadingController])
+        __metadata("design:paramtypes", [Events, NavParams, GlobalvarsProvider, Http, AlertController, FormBuilder, NavController, Camera, Transfer, File, FilePath, ActionSheetController, ToastController, Platform, LoadingController])
     ], ProfpicPage);
     return ProfpicPage;
 }());

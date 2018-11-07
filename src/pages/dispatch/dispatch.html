@@ -19,7 +19,7 @@
         <ion-item-sliding>
             <button ion-item>
                 <ion-thumbnail item-left>
-                    <img src="http://i-tugue.com/system/uploads/s{{ dis.farmer_product.photo_url }}.jpg?{{timee}}" alt="loading..."   onError="this.src='http://i-tugue.com/system/uploads/sproduct.jpg';" />
+                    <img src="http://riceupfarmers.org/wp-content/system/uploads/s{{ dis.farmer_product.photo_url }}.jpg?{{timee}}" alt="loading..."   onError="this.src='http://riceupfarmers.org/wp-content/system/product.jpg';" />
                 </ion-thumbnail>
                 <h2>{{dis.farmer_product.product_name}}</h2>
                 <p text-wrap>{{dis.farmer_product.product_desc}}</p>
@@ -52,13 +52,14 @@
     	<ion-item-sliding>
             <button ion-item>
                 <ion-thumbnail item-left>
-                    <img src="http://i-tugue.com/system/uploads/s{{ dis.order.user.id }}.jpg?{{timee}}" alt="loading..."   onError="this.src='http://i-tugue.com/system/uploads/suser.jpg';" />
+                    <img src="http://riceupfarmers.org/wp-content/system/uploads/{{ dis.order.user.id }}.jpg?{{timee}}" alt="loading..."  onError="this.src='http://riceupfarmers.org/wp-content/system/user.jpg';"  />
                 </ion-thumbnail>
                 <h2 text-wrap>Ordered By: <b>{{dis.order.user.firstname}} {{dis.order.user.middlename}} {{dis.order.user.lastname}}</b></h2>
     			<p text-wrap>From: <b>{{dis.order.user.address}}</b></p>
             </button>
         </ion-item-sliding>
-    			<p>&nbsp;&nbsp;Order #: {{dis.order.order_number}}</p>
+                <p>&nbsp;&nbsp;Contact #: {{dis.order.user.mobile_no}}</p>
+                <p>&nbsp;&nbsp;Order #: {{dis.order.order_number}}</p>
                 <p>&nbsp;&nbsp;Price: P{{dis.farmer_product.price_per_unit}} </p>
                 <p>&nbsp;&nbsp;Quantity: {{dis.quantity}} </p>
                 <p>&nbsp;&nbsp;Stocks available: {{dis.farmer_product.stocks_available}} </p>

@@ -42,7 +42,14 @@ import { ChangepicPage } from '../pages/changepic/changepic';
 import { ProfpicPage } from '../pages/profpic/profpic';
 import { ChangepassPage } from '../pages/changepass/changepass';
 import { UpdateaccountPage } from '../pages/updateaccount/updateaccount';
+import { PickupPage } from '../pages/pickup/pickup';
+import { ProductonlyPage } from '../pages/productonly/productonly';
+import { ShippingPage } from '../pages/shipping/shipping';
+import { TransacPage } from '../pages/transac/transac';
+import { DispatchPage } from '../pages/dispatch/dispatch';
 import { Network } from '@ionic-native/network';
+import { BackgroundMode } from '@ionic-native/background-mode';
+import { IonicStorageModule } from '@ionic/storage';
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
@@ -52,9 +59,9 @@ var AppModule = /** @class */ (function () {
                 MyApp,
                 WelcomePage,
                 AboutPage,
-                PropertyListPage,
-                PropertyDetailPage, ChangepassPage, UpdateaccountPage,
-                BrokerListPage, ProuductDetailPage, ChangepicPage, ProfpicPage,
+                PropertyListPage, DispatchPage,
+                PropertyDetailPage, ChangepassPage, UpdateaccountPage, PickupPage, ShippingPage, TransacPage,
+                BrokerListPage, ProuductDetailPage, ChangepicPage, ProfpicPage, ProductonlyPage,
                 BrokerDetailPage, AddproductPage, UserproductPage, OrderinfoPage, PrivacyPolicyPage, CartupdatePage,
                 TermsandagreementPage, OrderListPage, CartPage, SignupPage, AccountPage, FarmerLocationPage, UpdateproductPage
             ],
@@ -62,14 +69,15 @@ var AppModule = /** @class */ (function () {
                 BrowserModule,
                 HttpModule,
                 IonicModule.forRoot(MyApp),
+                IonicStorageModule.forRoot()
             ],
             bootstrap: [IonicApp],
             entryComponents: [
                 MyApp,
                 WelcomePage,
-                AboutPage,
-                PropertyListPage, ChangepassPage, UpdateaccountPage,
-                PropertyDetailPage, ChangepicPage, ProuductDetailPage, UpdateproductPage, ProfpicPage,
+                AboutPage, DispatchPage,
+                PropertyListPage, ChangepassPage, UpdateaccountPage, PickupPage, ProductonlyPage, ShippingPage,
+                PropertyDetailPage, ChangepicPage, ProuductDetailPage, UpdateproductPage, ProfpicPage, TransacPage,
                 BrokerListPage, AddproductPage, UserproductPage, OrderinfoPage, PrivacyPolicyPage, CartupdatePage,
                 BrokerDetailPage, TermsandagreementPage, OrderListPage, CartPage, SignupPage, AccountPage, FarmerLocationPage
             ],
@@ -81,7 +89,7 @@ var AppModule = /** @class */ (function () {
                 StatusBar,
                 SplashScreen, AuthService,
                 PropertyService,
-                BrokerService, GlobalvarsProvider, Network,
+                BrokerService, GlobalvarsProvider, Network, BackgroundMode,
                 { provide: ErrorHandler, useClass: IonicErrorHandler }
             ]
         })

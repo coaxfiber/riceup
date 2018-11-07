@@ -15,6 +15,7 @@ import leaflet from 'leaflet';
 import { AccountPage } from '../account/account';
 import { Http } from '@angular/http';
 import { Headers, RequestOptions } from '@angular/http';
+import { Events } from 'ionic-angular';
 /**
  * Generated class for the UpdateaccountPage page.
  *
@@ -22,7 +23,8 @@ import { Headers, RequestOptions } from '@angular/http';
  * on Ionic pages and navigation.
  */
 var UpdateaccountPage = /** @class */ (function () {
-    function UpdateaccountPage(http, loadingCtrl, alertCtrl, navCtrl, navParams, GlobalvarsProvider) {
+    function UpdateaccountPage(events, http, loadingCtrl, alertCtrl, navCtrl, navParams, GlobalvarsProvider) {
+        this.events = events;
         this.http = http;
         this.loadingCtrl = loadingCtrl;
         this.alertCtrl = alertCtrl;
@@ -34,6 +36,7 @@ var UpdateaccountPage = /** @class */ (function () {
         this.user = this.GlobalvarsProvider.loggeduser;
         this.isfarmer = this.user.is_farmer;
         this.test = this.user.is_farmer;
+        this.tempuser = this.user;
     }
     UpdateaccountPage.prototype.showMarkers = function () {
         if (this.user.address_lat != null) {
@@ -86,7 +89,10 @@ var UpdateaccountPage = /** @class */ (function () {
             });
         }
     };
-    UpdateaccountPage.prototype.update = function () {
+    UpdateaccountPage.prototype.createUser = function (user) {
+        this.events.publish('isfarm:created', user, this.GlobalvarsProvider.getgid());
+    };
+    UpdateaccountPage.prototype.update2 = function () {
         var _this = this;
         if (this.user.firstname != '' && this.user.lastname != '' && this.user.address != '' && this.user.mobile_no != '' && this.user.email != '') {
             this.loading = this.loadingCtrl.create({
@@ -108,13 +114,16 @@ var UpdateaccountPage = /** @class */ (function () {
                 _this.loading.dismissAll();
                 _this.GlobalvarsProvider.loggeduser = _this.user;
                 _this.presentConfirm(data.message);
+                _this.createUser(_this.isfarmer);
             }, function (error) {
                 _this.presentAlert("No Internet Connection!");
                 _this.loading.dismissAll();
             });
         }
         else {
-            this.presentConfirm("Please Fill the Required Fields!");
+            this.user = this.tempuser;
+            console.log(this.tempuser);
+            this.presentAlert("Please Fill the Required Fields!");
         }
     };
     UpdateaccountPage.prototype.g = function () {
@@ -125,7 +134,6 @@ var UpdateaccountPage = /** @class */ (function () {
         else {
             this.isfarmer = 0;
         }
-        console.log(this.isfarmer);
     };
     UpdateaccountPage.prototype.presentAlert = function (val) {
         var alert = this.alertCtrl.create({
@@ -156,7 +164,7 @@ var UpdateaccountPage = /** @class */ (function () {
             selector: 'page-updateaccount',
             templateUrl: 'updateaccount.html',
         }),
-        __metadata("design:paramtypes", [Http, LoadingController, AlertController, NavController, NavParams, GlobalvarsProvider])
+        __metadata("design:paramtypes", [Events, Http, LoadingController, AlertController, NavController, NavParams, GlobalvarsProvider])
     ], UpdateaccountPage);
     return UpdateaccountPage;
 }());

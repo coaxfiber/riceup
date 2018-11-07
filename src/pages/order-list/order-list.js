@@ -15,6 +15,10 @@ import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
 import { Headers, RequestOptions } from '@angular/http';
 import { OrderinfoPage } from '../orderinfo/orderinfo';
 import { AlertController } from 'ionic-angular';
+import { Platform } from 'ionic-angular';
+import { StatusBar } from '@ionic-native/status-bar';
+import { SplashScreen } from '@ionic-native/splash-screen';
+import { ToastController } from 'ionic-angular';
 /**
  * Generated class for the OrderListPage page.
  *
@@ -22,8 +26,12 @@ import { AlertController } from 'ionic-angular';
  * on Ionic pages and navigation.
  */
 var OrderListPage = /** @class */ (function () {
-    function OrderListPage(alertCtrl, loadingCtrl, GlobalvarsProvider, menu, http, navCtrl, navParams) {
+    function OrderListPage(platform, statusBar, splashScreen, toast, alertCtrl, loadingCtrl, GlobalvarsProvider, menu, http, navCtrl, navParams) {
         var _this = this;
+        this.platform = platform;
+        this.statusBar = statusBar;
+        this.splashScreen = splashScreen;
+        this.toast = toast;
         this.alertCtrl = alertCtrl;
         this.loadingCtrl = loadingCtrl;
         this.GlobalvarsProvider = GlobalvarsProvider;
@@ -31,6 +39,22 @@ var OrderListPage = /** @class */ (function () {
         this.http = http;
         this.navCtrl = navCtrl;
         this.navParams = navParams;
+        this.counter = 0;
+        platform.ready().then(function () {
+            statusBar.styleDefault();
+            splashScreen.hide();
+            platform.registerBackButtonAction(function () {
+                if (_this.counter == 0) {
+                    _this.counter++;
+                    _this.presentToast();
+                    setTimeout(function () { _this.counter = 0; }, 3000);
+                }
+                else {
+                    // console.log("exitapp");
+                    platform.exitApp();
+                }
+            }, 0);
+        });
         this.loading = this.loadingCtrl.create({
             content: 'Loading Orders...',
         });
@@ -44,6 +68,7 @@ var OrderListPage = /** @class */ (function () {
             .subscribe(function (res) {
             if (res.message == undefined) {
                 _this.orders = res;
+                console.log(_this.orders);
             }
             else {
                 _this.presentAlert(res.message);
@@ -51,8 +76,17 @@ var OrderListPage = /** @class */ (function () {
             _this.loading.dismissAll();
         }, function (err) {
             _this.presentAlert("No Internet Connection!");
+            _this.loading.dismissAll();
         });
     }
+    OrderListPage.prototype.presentToast = function () {
+        var toast = this.toast.create({
+            message: "Press again to exit",
+            duration: 3000,
+            position: "bottom"
+        });
+        toast.present();
+    };
     OrderListPage.prototype.presentAlert = function (val) {
         var alert = this.alertCtrl.create({
             title: 'Alert',
@@ -69,7 +103,7 @@ var OrderListPage = /** @class */ (function () {
             selector: 'page-order-list',
             templateUrl: 'order-list.html',
         }),
-        __metadata("design:paramtypes", [AlertController, LoadingController, GlobalvarsProvider, MenuController, Http, NavController, NavParams])
+        __metadata("design:paramtypes", [Platform, StatusBar, SplashScreen, ToastController, AlertController, LoadingController, GlobalvarsProvider, MenuController, Http, NavController, NavParams])
     ], OrderListPage);
     return OrderListPage;
 }());

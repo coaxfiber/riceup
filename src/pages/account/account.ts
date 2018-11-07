@@ -55,14 +55,28 @@ export class AccountPage {
     console.log(this.user);
   }
  onSelectChange(selectedValue: any,id:any) {
-    if (selectedValue == 'a1') {
-        this.navCtrl.push(UpdateaccountPage);
-    }if (selectedValue == 'a2') {
-        this.navCtrl.push(ProfpicPage);
-    }if (selectedValue == 'a3') {
-        this.navCtrl.push(ChangepassPage);
-    }
+
+      if (this.GlobalvarsProvider.username == 'guest') {
+        this.presentAlert("Account Setting function is disabled for the guest account");
+      }else{
+        if (selectedValue == 'a1') {
+            this.navCtrl.push(UpdateaccountPage);
+        }if (selectedValue == 'a2') {
+            this.navCtrl.push(ProfpicPage);
+        }if (selectedValue == 'a3') {
+            this.navCtrl.push(ChangepassPage);
+        }
+      }
   } 
+
+    presentAlert(val:any) {
+      let alert = this.alertCtrl.create({
+        title: 'Alert',
+        subTitle: val,
+        buttons: ['Dismiss']
+      });
+      alert.present();
+    }
 
  presentToast() {
     let toast = this.toast.create({

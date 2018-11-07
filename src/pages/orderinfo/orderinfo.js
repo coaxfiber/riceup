@@ -8,11 +8,12 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 import { Component } from '@angular/core';
-import { ActionSheetController, NavController, NavParams, ToastController } from 'ionic-angular';
+import { ActionSheetController, NavController, NavParams, ToastController, LoadingController } from 'ionic-angular';
 import { PropertyService } from '../../providers/property-service-mock';
 import { Http } from '@angular/http';
 import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
 import { Headers, RequestOptions } from '@angular/http';
+import { ProductonlyPage } from '../productonly/productonly';
 /**
  * Generated class for the OrderinfoPage page.
  *
@@ -20,8 +21,9 @@ import { Headers, RequestOptions } from '@angular/http';
  * on Ionic pages and navigation.
  */
 var OrderinfoPage = /** @class */ (function () {
-    function OrderinfoPage(GlobalvarsProvider, http, actionSheetCtrl, navCtrl, navParams, propertyService, toastCtrl) {
+    function OrderinfoPage(loadingCtrl, GlobalvarsProvider, http, actionSheetCtrl, navCtrl, navParams, propertyService, toastCtrl) {
         var _this = this;
+        this.loadingCtrl = loadingCtrl;
         this.GlobalvarsProvider = GlobalvarsProvider;
         this.http = http;
         this.actionSheetCtrl = actionSheetCtrl;
@@ -29,6 +31,11 @@ var OrderinfoPage = /** @class */ (function () {
         this.navParams = navParams;
         this.propertyService = propertyService;
         this.toastCtrl = toastCtrl;
+        this.loading = this.loadingCtrl.create({
+            content: 'Loading Orders...',
+        });
+        this.loading.present();
+        this.address = this.GlobalvarsProvider.loggeduser.address;
         this.order = this.navParams.data;
         var header = new Headers();
         header.append("Accept", "application/json");
@@ -38,9 +45,13 @@ var OrderinfoPage = /** @class */ (function () {
             .map(function (response) { return response.json(); })
             .subscribe(function (rese) {
             _this.orderno = rese.order_number;
+            _this.s = rese.mode_of_shipping;
             _this.orders = rese.product_order;
             _this.gtotal = _this.gettotal(_this.orders);
             _this.gtotal = "P" + _this.gtotal;
+            _this.loading.dismissAll();
+        }, function (error) {
+            _this.loading.dismissAll();
         });
     }
     OrderinfoPage.prototype.gettotal = function (gett) {
@@ -50,12 +61,15 @@ var OrderinfoPage = /** @class */ (function () {
         }
         return total;
     };
+    OrderinfoPage.prototype.prod = function (property) {
+        this.navCtrl.push(ProductonlyPage, property);
+    };
     OrderinfoPage = __decorate([
         Component({
             selector: 'page-orderinfo',
             templateUrl: 'orderinfo.html',
         }),
-        __metadata("design:paramtypes", [GlobalvarsProvider, Http, ActionSheetController, NavController, NavParams, PropertyService, ToastController])
+        __metadata("design:paramtypes", [LoadingController, GlobalvarsProvider, Http, ActionSheetController, NavController, NavParams, PropertyService, ToastController])
     ], OrderinfoPage);
     return OrderinfoPage;
 }());

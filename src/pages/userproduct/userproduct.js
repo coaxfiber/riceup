@@ -16,6 +16,10 @@ import { Headers, RequestOptions } from '@angular/http';
 import { AddproductPage } from '../addproduct/addproduct';
 import { UpdateproductPage } from '../updateproduct/updateproduct';
 import { AlertController } from 'ionic-angular';
+import { Platform } from 'ionic-angular';
+import { StatusBar } from '@ionic-native/status-bar';
+import { SplashScreen } from '@ionic-native/splash-screen';
+import { ToastController } from 'ionic-angular';
 /**
  * Generated class for the UserproductPage page.
  *
@@ -23,8 +27,12 @@ import { AlertController } from 'ionic-angular';
  * on Ionic pages and navigation.
  */
 var UserproductPage = /** @class */ (function () {
-    function UserproductPage(alertCtrl, loadingCtrl, GlobalvarsProvider, navParams, http, menu, navCtrl, config) {
+    function UserproductPage(platform, statusBar, splashScreen, toast, alertCtrl, loadingCtrl, GlobalvarsProvider, navParams, http, menu, navCtrl, config) {
         var _this = this;
+        this.platform = platform;
+        this.statusBar = statusBar;
+        this.splashScreen = splashScreen;
+        this.toast = toast;
         this.alertCtrl = alertCtrl;
         this.loadingCtrl = loadingCtrl;
         this.GlobalvarsProvider = GlobalvarsProvider;
@@ -33,6 +41,22 @@ var UserproductPage = /** @class */ (function () {
         this.menu = menu;
         this.navCtrl = navCtrl;
         this.config = config;
+        this.counter = 0;
+        platform.ready().then(function () {
+            statusBar.styleDefault();
+            splashScreen.hide();
+            platform.registerBackButtonAction(function () {
+                if (_this.counter == 0) {
+                    _this.counter++;
+                    _this.presentToast();
+                    setTimeout(function () { _this.counter = 0; }, 3000);
+                }
+                else {
+                    // console.log("exitapp");
+                    platform.exitApp();
+                }
+            }, 0);
+        });
         this.timee = Date.now();
         this.pushPage = AddproductPage;
         this.loading = this.loadingCtrl.create({
@@ -56,6 +80,14 @@ var UserproductPage = /** @class */ (function () {
             _this.loading.dismissAll();
         });
     }
+    UserproductPage.prototype.presentToast = function () {
+        var toast = this.toast.create({
+            message: "Press again to exit",
+            duration: 3000,
+            position: "bottom"
+        });
+        toast.present();
+    };
     UserproductPage.prototype.openPropertyDetail = function (property) {
         this.navCtrl.push(UpdateproductPage, property);
     };
@@ -103,7 +135,7 @@ var UserproductPage = /** @class */ (function () {
             selector: 'page-userproduct',
             templateUrl: 'userproduct.html',
         }),
-        __metadata("design:paramtypes", [AlertController, LoadingController, GlobalvarsProvider, NavParams, Http, MenuController, NavController, Config])
+        __metadata("design:paramtypes", [Platform, StatusBar, SplashScreen, ToastController, AlertController, LoadingController, GlobalvarsProvider, NavParams, Http, MenuController, NavController, Config])
     ], UserproductPage);
     return UserproductPage;
 }());

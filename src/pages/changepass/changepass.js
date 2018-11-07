@@ -15,6 +15,7 @@ import { Http } from '@angular/http';
 import { FormBuilder } from '@angular/forms';
 import { AlertController } from 'ionic-angular';
 import { AccountPage } from '../account/account';
+import { Storage } from '@ionic/storage';
 /**
  * Generated class for the ChangepassPage page.
  *
@@ -22,13 +23,15 @@ import { AccountPage } from '../account/account';
  * on Ionic pages and navigation.
  */
 var ChangepassPage = /** @class */ (function () {
-    function ChangepassPage(loadingCtrl, alertCtrl, navCtrl, fb, navParams, http, GlobalvarsProvider) {
+    function ChangepassPage(storage, loadingCtrl, alertCtrl, navCtrl, fb, navParams, http, GlobalvarsProvider) {
+        this.storage = storage;
         this.loadingCtrl = loadingCtrl;
         this.alertCtrl = alertCtrl;
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.http = http;
         this.GlobalvarsProvider = GlobalvarsProvider;
+        this.temp = '';
         this.form = fb.group({
             name: fb.group({
                 oldpw: '',
@@ -62,6 +65,7 @@ var ChangepassPage = /** @class */ (function () {
                 .map(function (response) { return response.json(); })
                 .subscribe(function (res) {
                 _this.form.reset();
+                _this.temp = _this.form.value.name.rnewpw;
                 _this.form.value.name.rnewpw = '';
                 _this.form.value.name.newpw = '';
                 _this.form.value.name.oldpw = '';
@@ -81,6 +85,7 @@ var ChangepassPage = /** @class */ (function () {
                     handler: function () {
                         if (var2 == "Password changed successfully!") {
                             _this.navCtrl.setRoot(AccountPage);
+                            _this.storage.set('password', _this.temp);
                         }
                         _this.form.reset();
                         _this.form.value.name.rnewpw = '';
@@ -97,7 +102,7 @@ var ChangepassPage = /** @class */ (function () {
             selector: 'page-changepass',
             templateUrl: 'changepass.html',
         }),
-        __metadata("design:paramtypes", [LoadingController, AlertController, NavController, FormBuilder, NavParams, Http, GlobalvarsProvider])
+        __metadata("design:paramtypes", [Storage, LoadingController, AlertController, NavController, FormBuilder, NavParams, Http, GlobalvarsProvider])
     ], ChangepassPage);
     return ChangepassPage;
 }());

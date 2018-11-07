@@ -18,6 +18,7 @@ import {StatusBar} from '@ionic-native/status-bar';
 import {SplashScreen} from '@ionic-native/splash-screen';
 
 import { ToastController } from 'ionic-angular';
+import { Storage } from '@ionic/storage';
 @Component({
     selector: 'page-welcome',
     templateUrl: 'welcome.html'
@@ -30,8 +31,16 @@ export class WelcomePage {    public counter=0;
    pushPage: any;
    login: any;
    farmer: Array<any>;
-	  constructor(public statusBar: StatusBar, public splashScreen: SplashScreen,private toast: ToastController,public loadingCtrl: LoadingController,private alertCtrl: AlertController,public menu: MenuController,public events: Events,public GlobalvarsProvider:GlobalvarsProvider,fb: FormBuilder,public platform: Platform,public navCtrl: NavController,private http: Http){
-	    
+	  constructor(private storage: Storage,public statusBar: StatusBar, public splashScreen: SplashScreen,private toast: ToastController,public loadingCtrl: LoadingController,private alertCtrl: AlertController,public menu: MenuController,public events: Events,public GlobalvarsProvider:GlobalvarsProvider,fb: FormBuilder,public platform: Platform,public navCtrl: NavController,private http: Http){
+	    storage.get('username').then((val) => {
+          this.form.value.name.uname = val;
+        storage.get('password').then((val2) => {
+          this.form.value.name.pw = val2;
+          if (val2!=null && val2!=undefined && val2!='') {
+            this.calltologin();
+          }
+        });
+      });
 platform.ready().then(() => {
           statusBar.styleDefault();
           splashScreen.hide();
@@ -69,7 +78,7 @@ this.pushPage = TermsandagreementPage;
   }
 	  calltologin()
     /*{
-    	//alert('ShowHomePage');
+      //alert('ShowHomePage');
       
       this.http.get('http://localhost/riceup/riceupapi.php?action=log&uname='+this.form.value.name.uname+'&pw='+this.form.value.name.pw)
           .map(response => response.json())
@@ -129,6 +138,8 @@ this.pushPage = TermsandagreementPage;
                              });
                             //wew end
                        this.loading.dismissAll();
+                       this.storage.set('username', this.form.value.name.uname);
+                       this.storage.set('password', this.form.value.name.pw);
                        this.navCtrl.setRoot(PropertyListPage);   
                     }
                     else
@@ -146,7 +157,88 @@ this.pushPage = TermsandagreementPage;
               }
             }
 
-         
+         guestlogin()
+    /*{
+      //alert('ShowHomePage');
+      
+      this.http.get('http://localhost/riceup/riceupapi.php?action=log&uname='+this.form.value.name.uname+'&pw='+this.form.value.name.pw)
+          .map(response => response.json())
+          .subscribe(res => this.properties = res);
+     this.action();
+  }
+  action()
+  {
+    if (this.properties[0]["id"]!="nodata") {
+      this.navCtrl.setRoot(PropertyListPage);
+      }
+      else{
+        alert("incorrect username or password!");
+      }
+  }*/
+      {
+        this.form.value.name.uname = 'guest';
+        this.form.value.name.pw = 'guest123';
+         if (this.form.value.name.uname!=''&&this.form.value.name.pw!='') {
+           this.loading = this.loadingCtrl.create({
+              content: 'Logging in...',
+            });
+            this.loading.present();
+             this.GlobalvarsProvider.username=this.form.value.name.uname;
+             this.GlobalvarsProvider.password=this.form.value.name.pw;
+              
+              let urlSearchParams = new URLSearchParams();
+                urlSearchParams.append("grant_type",this.GlobalvarsProvider.grant_type);
+                urlSearchParams.append("client_id",this.GlobalvarsProvider.client_id);
+                urlSearchParams.append("client_secret",this.GlobalvarsProvider.client_secret);
+                urlSearchParams.append("username",this.GlobalvarsProvider.username);
+                urlSearchParams.append("password",this.GlobalvarsProvider.password);
+                urlSearchParams.append("scope",this.GlobalvarsProvider.scope);
+              let body = urlSearchParams.toString()
+
+              var header = new Headers();
+              header.append("Content-Type", "application/x-www-form-urlencoded");
+              let option = new RequestOptions({ headers: header });
+              this.http.post('http://api.riceupfarmers.org/oauth/token', body, option)
+               .map(response => response.json())
+                  .subscribe(data => {
+                    if (data.token_type!=undefined) {
+                      this.GlobalvarsProvider.settoken(data.token_type+" "+data.access_token);
+                      //wwew start
+                       var header = new Headers();
+                        header.append("Accept", "application/json");
+                        header.append("Content-Type", "application/x-www-form-urlencoded");
+                        header.append("Authorization",this.GlobalvarsProvider.gettoken());
+                              
+                      let option = new RequestOptions({ headers: header });
+                                    
+                           this.http.get('http://api.riceupfarmers.org/api/user', option)
+                           .map(response => response.json())
+                          .subscribe(data => {
+                           this.createUser(data);
+                         }, error => {
+                         this.presentAlert("Slow internet Connection!");
+                         this.loading.dismissAll();
+                             });
+                            //wew end
+                       this.loading.dismissAll();
+                       this.storage.set('username', this.form.value.name.uname);
+                       this.storage.set('password', this.form.value.name.pw);
+                       this.navCtrl.setRoot(PropertyListPage);   
+                    }
+                    else
+                    this.presentAlert("Invalid Username or password");
+                    
+               }
+               , error => {
+                 console.log(error);
+               this.presentAlert("Failed to login. Make sure you have valid user credentials or you are connected to the internet.");
+               this.loading.dismissAll();
+               });
+              }
+              else{
+                this.presentAlert("Input username or password!");
+              }
+            }
 
           createUser(user) {
             this.events.publish('user:created', user, this.GlobalvarsProvider.getgid());

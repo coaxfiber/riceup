@@ -7,6 +7,7 @@ import {Http} from '@angular/http';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { AlertController } from 'ionic-angular';
 import {AccountPage} from '../account/account';
+import { Storage } from '@ionic/storage';
 /**
  * Generated class for the ChangepassPage page.
  *
@@ -18,10 +19,11 @@ import {AccountPage} from '../account/account';
   templateUrl: 'changepass.html',
 })
 export class ChangepassPage {
+  temp='';
  	loading: Loading;
 	cpass:any;
 	form: FormGroup;
-  constructor(public loadingCtrl: LoadingController,private alertCtrl: AlertController,public navCtrl: NavController,fb: FormBuilder, public navParams: NavParams,private http: Http,public GlobalvarsProvider:GlobalvarsProvider) {
+  constructor(private storage: Storage,public loadingCtrl: LoadingController,private alertCtrl: AlertController,public navCtrl: NavController,fb: FormBuilder, public navParams: NavParams,private http: Http,public GlobalvarsProvider:GlobalvarsProvider) {
   	this.form = fb.group({
         name: fb.group({
           oldpw: '',
@@ -54,10 +56,11 @@ export class ChangepassPage {
                   let option = new RequestOptions({ headers: header });
   		this.http.patch('http://api.riceupfarmers.org/api/user/changepass?oldpassword='+this.form.value.name.oldpw+'&newpassword='+this.form.value.name.newpw,body,option)
               .map(response => response.json())
-              .subscribe(res => {	              
+              .subscribe(res => {	            
 	              	this.form.reset();
+                  this.temp = this.form.value.name.rnewpw;
 	              	this.form.value.name.rnewpw='';this.form.value.name.newpw='';this.form.value.name.oldpw='';
-                    this.loading.dismissAll();
+                  this.loading.dismissAll();
 	              	this.alertConfirm2(res.message);
               }); 
   	}
@@ -72,6 +75,7 @@ export class ChangepassPage {
             handler: () => {
             	if (var2 == "Password changed successfully!") {
             	   	this.navCtrl.setRoot(AccountPage);
+                  this.storage.set('password', this.temp);  
             	}
 	              	this.form.reset();
 	              	this.form.value.name.rnewpw='';this.form.value.name.newpw='';this.form.value.name.oldpw='';
