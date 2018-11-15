@@ -66,7 +66,7 @@ export class GlobalvarsProvider {
               header.append("Content-Type", "application/x-www-form-urlencoded");
               header.append("Accept", "application/json");
               let option = new RequestOptions({ headers: header });
-              return this.http.post('http://api.riceupfarmers.org/oauth/token', body, option)
+              this.http.post('http://api.riceupfarmers.org/oauth/token', body, option)
 
                .map(response => response.json())
                   .subscribe(data => {
