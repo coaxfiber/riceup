@@ -164,13 +164,14 @@ export class CartPage {
                           this.presentAlert("No items in cart!");
                         
                         this.loading.dismissAll();
-                      },err =>{ 
+                      },error =>{ 
+                        console.log(error);
                       this.loading.dismissAll();this.presentAlert("No Internet Connection!"); 
                       }); 
                     
                   }
                    
-              },err =>{ 
+              },error =>{ 
                      this.loading.dismissAll(); this.presentAlert("No Internet Connection!"); 
               }); 
   }

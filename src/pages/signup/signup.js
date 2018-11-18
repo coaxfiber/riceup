@@ -69,7 +69,7 @@ var SignupPage = /** @class */ (function () {
                     }
                 }, function (error) {
                     _this.loading.dismissAll();
-                    _this.presentAlert("Slow internet Connection!");
+                    _this.presentAlert("Something went wrong!");
                 });
             }
             else {

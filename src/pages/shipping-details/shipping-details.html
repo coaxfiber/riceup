@@ -1,0 +1,45 @@
+<ion-header>
+
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Shipping Details</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="property-list">
+
+    <ion-list>
+
+        <ion-item-sliding *ngFor="let address of shipd">
+            <button ion-item (click)="select(address.id,address.shipping_address,address.mobile_no)">
+                <h2>Address: {{address.shipping_address}}</h2>
+                <p>Mobile no: {{address.mobile_no}}</p>
+            </button>
+             <ion-item-options>
+                <button danger (click)="openPropertyDetail(address)" class="green"> Update </button>
+                <button danger (click)="delship(address.id)" class="red">Remove</button>
+            </ion-item-options>
+        </ion-item-sliding>
+        <ion-item-sliding>
+            <button ion-item >
+                <ion-thumbnail item-left>
+                </ion-thumbnail>
+                <h2></h2>
+                <p></p>
+            </button>
+        </ion-item-sliding>
+        
+    </ion-list>
+     <ion-fab>
+        <button ion-fab  [navPush]="pushPage" clase="button-f"><ion-icon name="md-add"></ion-icon></button>
+     </ion-fab>
+</ion-content>
+
+
+<ion-footer padding>
+    <ion-segment>
+        <p><b>Note:</b> Options will appear when you swipe left on the product.</p>
+    </ion-segment>
+</ion-footer>

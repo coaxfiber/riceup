@@ -168,7 +168,8 @@ var CartPage = /** @class */ (function () {
                     else
                         _this.presentAlert("No items in cart!");
                     _this.loading.dismissAll();
-                }, function (err) {
+                }, function (error) {
+                    console.log(error);
                     _this.loading.dismissAll();
                     _this.presentAlert("No Internet Connection!");
                 });

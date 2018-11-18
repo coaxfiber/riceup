@@ -116,6 +116,7 @@ var UpdateaccountPage = /** @class */ (function () {
                 _this.presentConfirm(data.message);
                 _this.createUser(_this.isfarmer);
             }, function (error) {
+                console.log(error);
                 _this.presentAlert("No Internet Connection!");
                 _this.loading.dismissAll();
             });

@@ -62,15 +62,28 @@ var AccountPage = /** @class */ (function () {
         console.log(this.user);
     }
     AccountPage.prototype.onSelectChange = function (selectedValue, id) {
-        if (selectedValue == 'a1') {
-            this.navCtrl.push(UpdateaccountPage);
+        if (this.GlobalvarsProvider.username == 'guest') {
+            this.presentAlert("Account Setting function is disabled for the guest account");
         }
-        if (selectedValue == 'a2') {
-            this.navCtrl.push(ProfpicPage);
+        else {
+            if (selectedValue == 'a1') {
+                this.navCtrl.push(UpdateaccountPage);
+            }
+            if (selectedValue == 'a2') {
+                this.navCtrl.push(ProfpicPage);
+            }
+            if (selectedValue == 'a3') {
+                this.navCtrl.push(ChangepassPage);
+            }
         }
-        if (selectedValue == 'a3') {
-            this.navCtrl.push(ChangepassPage);
-        }
+    };
+    AccountPage.prototype.presentAlert = function (val) {
+        var alert = this.alertCtrl.create({
+            title: 'Alert',
+            subTitle: val,
+            buttons: ['Dismiss']
+        });
+        alert.present();
     };
     AccountPage.prototype.presentToast = function () {
         var toast = this.toast.create({

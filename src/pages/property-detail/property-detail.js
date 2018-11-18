@@ -35,47 +35,52 @@ var PropertyDetailPage = /** @class */ (function () {
     };
     PropertyDetailPage.prototype.addtocart = function () {
         var _this = this;
-        if (this.quantity >= 0 && this.quantity <= this.property.stocks_available) {
-            this.loading = this.loadingCtrl.create({
-                content: 'Adding to Cart...',
-            });
-            this.loading.present();
-            var urlSearchParams = new URLSearchParams();
-            urlSearchParams.append("grant_type", this.GlobalvarsProvider.grant_type);
-            var body_1 = urlSearchParams.toString();
-            var header = new Headers();
-            header.append("Accept", "application/json");
-            header.append("Content-Type", "application/x-www-form-urlencoded");
-            header.append("Authorization", this.GlobalvarsProvider.gettoken());
-            var option_1 = new RequestOptions({ headers: header });
-            this.http.post('http://api.riceupfarmers.org/api/order/new', body_1, option_1)
-                .map(function (response) { return response.json(); })
-                .subscribe(function (res) {
-                var g = res.order_number[0].id;
-                _this.http.post('http://api.riceupfarmers.org/api/cart/add?qty=' + _this.quantity + '&productid=' + _this.property.id + '&orderid=' + g, body_1, option_1)
+        if (this.GlobalvarsProvider.username == 'guest') {
+            this.presentAlert("Add to cart function is disabled for the guest account");
+        }
+        else {
+            if (this.quantity >= 0 && this.quantity <= this.property.stocks_available) {
+                this.loading = this.loadingCtrl.create({
+                    content: 'Adding to Cart...',
+                });
+                this.loading.present();
+                var urlSearchParams = new URLSearchParams();
+                urlSearchParams.append("grant_type", this.GlobalvarsProvider.grant_type);
+                var body_1 = urlSearchParams.toString();
+                var header = new Headers();
+                header.append("Accept", "application/json");
+                header.append("Content-Type", "application/x-www-form-urlencoded");
+                header.append("Authorization", this.GlobalvarsProvider.gettoken());
+                var option_1 = new RequestOptions({ headers: header });
+                this.http.post('http://api.riceupfarmers.org/api/order/new', body_1, option_1)
                     .map(function (response) { return response.json(); })
-                    .subscribe(function (data) {
-                    console.log(data);
-                    if (data.message == "Product successfully added to cart.") {
-                        _this.quantity = 1;
-                    }
-                    _this.presentAlert(data.message);
-                    _this.loading.dismissAll();
+                    .subscribe(function (res) {
+                    var g = res.order_number[0].id;
+                    _this.http.post('http://api.riceupfarmers.org/api/cart/add?qty=' + _this.quantity + '&productid=' + _this.property.id + '&orderid=' + g, body_1, option_1)
+                        .map(function (response) { return response.json(); })
+                        .subscribe(function (data) {
+                        console.log(data);
+                        if (data.message == "Product successfully added to cart.") {
+                            _this.quantity = 1;
+                        }
+                        _this.presentAlert(data.message);
+                        _this.loading.dismissAll();
+                    }, function (err) {
+                        _this.loading.dismissAll();
+                        _this.presentAlert("No Internet Connection!");
+                    });
                 }, function (err) {
                     _this.loading.dismissAll();
                     _this.presentAlert("No Internet Connection!");
                 });
-            }, function (err) {
-                _this.loading.dismissAll();
-                _this.presentAlert("No Internet Connection!");
-            });
-        }
-        else {
-            if (this.property.stocks_available == 0) {
-                this.presentAlert("Product out of stock!");
             }
             else {
-                this.presentAlert("Quantity must be greater than 0 and less than or equal to " + this.property.stocks_available);
+                if (this.property.stocks_available == 0) {
+                    this.presentAlert("Product out of stock!");
+                }
+                else {
+                    this.presentAlert("Quantity must be greater than 0 and less than or equal to " + this.property.stocks_available);
+                }
             }
         }
     };

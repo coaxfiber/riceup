@@ -23,6 +23,7 @@ import { AlertController } from 'ionic-angular';
  */
 var ShippingPage = /** @class */ (function () {
     function ShippingPage(loadingCtrl, alertCtrl, GlobalvarsProvider, http, actionSheetCtrl, navCtrl, navParams, propertyService, toastCtrl) {
+        var _this = this;
         this.loadingCtrl = loadingCtrl;
         this.alertCtrl = alertCtrl;
         this.GlobalvarsProvider = GlobalvarsProvider;
@@ -32,11 +33,29 @@ var ShippingPage = /** @class */ (function () {
         this.navParams = navParams;
         this.propertyService = propertyService;
         this.toastCtrl = toastCtrl;
+        this.addresid = null;
         this.cart = this.navParams.data;
         this.orders = this.cart.product_order;
         this.gtotal = this.gettotal(this.orders);
         this.orderid = this.cart.id;
         this.address = this.GlobalvarsProvider.loggeduser.address;
+        var urlSearchParams = new URLSearchParams();
+        urlSearchParams.append("passforpost", 'any');
+        var body = urlSearchParams.toString();
+        var header = new Headers();
+        header.append("Accept", "application/json");
+        header.append("Authorization", this.GlobalvarsProvider.gettoken());
+        var option = new RequestOptions({ headers: header });
+        this.http.get('http://api.riceupfarmers.org/api/shippingdetails/', option)
+            .map(function (response) { return response.json(); })
+            .subscribe(function (res) {
+            console.log(res);
+            // this.alertConfirm2(res.message);
+            _this.alertConfirm2(res.message);
+        }, function (Error) {
+            console.log(Error);
+            _this.presentAlert("No Internet Connection!");
+        });
     }
     ShippingPage.prototype.ionViewDidLoad = function () {
     };
@@ -49,39 +68,42 @@ var ShippingPage = /** @class */ (function () {
     };
     ShippingPage.prototype.checkthisout = function () {
         var _this = this;
-        var alert = this.alertCtrl.create({
-            title: 'Confirm Checkout',
-            message: "Are you sure you want to checkout the items in the cart?",
-            buttons: [
-                {
-                    text: 'Cancel',
-                    role: 'cancel',
-                    handler: function () {
+        if (this.addresid != null) {
+            // code...
+            var alert_1 = this.alertCtrl.create({
+                title: 'Confirm Checkout',
+                message: "Are you sure you want to checkout the items in the cart?",
+                buttons: [
+                    {
+                        text: 'Cancel',
+                        role: 'cancel',
+                        handler: function () {
+                        }
+                    },
+                    {
+                        text: 'Confirm',
+                        handler: function () {
+                            var urlSearchParams = new URLSearchParams();
+                            urlSearchParams.append("passforpost", 'any');
+                            var body = urlSearchParams.toString();
+                            var header = new Headers();
+                            header.append("Accept", "application/json");
+                            header.append("Authorization", _this.GlobalvarsProvider.gettoken());
+                            var option = new RequestOptions({ headers: header });
+                            _this.http.patch('http://api.riceupfarmers.org/api/order/checkout/' + _this.orderid + '?shipping_mode=1&order_status=1&remarks=', body, option)
+                                .map(function (response) { return response.json(); })
+                                .subscribe(function (res) {
+                                // this.alertConfirm2(res.message);
+                                _this.alertConfirm2(res.message);
+                            }, function (Error) {
+                                _this.presentAlert("No Internet Connection!");
+                            });
+                        }
                     }
-                },
-                {
-                    text: 'Confirm',
-                    handler: function () {
-                        var urlSearchParams = new URLSearchParams();
-                        urlSearchParams.append("passforpost", 'any');
-                        var body = urlSearchParams.toString();
-                        var header = new Headers();
-                        header.append("Accept", "application/json");
-                        header.append("Authorization", _this.GlobalvarsProvider.gettoken());
-                        var option = new RequestOptions({ headers: header });
-                        _this.http.patch('http://api.riceupfarmers.org/api/order/checkout/' + _this.orderid + '?shipping_mode=1&order_status=1&remarks=', body, option)
-                            .map(function (response) { return response.json(); })
-                            .subscribe(function (res) {
-                            // this.alertConfirm2(res.message);
-                            _this.alertConfirm2(res.message);
-                        }, function (Error) {
-                            _this.presentAlert("No Internet Connection!");
-                        });
-                    }
-                }
-            ]
-        });
-        alert.present();
+                ]
+            });
+            alert_1.present();
+        }
     };
     ShippingPage.prototype.alertConfirm2 = function (var2) {
         var _this = this;

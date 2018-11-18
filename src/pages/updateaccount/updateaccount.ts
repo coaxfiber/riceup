@@ -7,6 +7,8 @@ import {AccountPage} from '../account/account';
 import {Http } from '@angular/http';
 import {Headers, RequestOptions} from '@angular/http';
 import { Events } from 'ionic-angular';
+
+import {ShippingDetailsPage} from '../shipping-details/shipping-details';
 /**
  * Generated class for the UpdateaccountPage page.
  *
@@ -34,7 +36,14 @@ export class UpdateaccountPage {
     this.isfarmer = this.user.is_farmer;
     this.test = this.user.is_farmer;
     this.tempuser = this.user;
+    this.user.address = this.GlobalvarsProvider.activeaddressaddress;
+    this.user.mobile_no = this.GlobalvarsProvider.activeaddressmobile;
   }
+shipdetails(){
+        this.navCtrl.push(ShippingDetailsPage, {
+        id: 'ss',address:'ss',mobile:'ss'
+        });
+}
   showMarkers() {
       if (this.user.address_lat!=null) {
        if (this.markersGroup) {
@@ -113,10 +122,12 @@ export class UpdateaccountPage {
                          .map(response => response.json())
                         .subscribe(data => {
                     			this.loading.dismissAll();
+                          this.updateaddress();
                           this.GlobalvarsProvider.loggeduser=this.user;
                           this.presentConfirm(data.message);
                           this.createUser(this.isfarmer);
                        }, error => {
+                         console.log(error);
                        		this.presentAlert("No Internet Connection!");
                   			this.loading.dismissAll();
                        });
@@ -126,7 +137,31 @@ export class UpdateaccountPage {
                this.presentAlert("Please Fill the Required Fields!");
         	}
         }
+         updateaddress(){
+    let urlSearchParams = new URLSearchParams();
+                  urlSearchParams.append("passforpost",'any');
+               let body = urlSearchParams.toString()
+                 var header = new Headers();
+                    header.append("Accept", "application/json");
+                    header.append("Authorization",this.GlobalvarsProvider.gettoken());
+                let option = new RequestOptions({ headers: header });
+               
+                        this.http.patch('http://api.riceupfarmers.org/api/shippingdetail/'+this.GlobalvarsProvider.activeaddressid,{'address':this.GlobalvarsProvider.activeaddressaddress,
+                          'address_lat':this.GlobalvarsProvider.activeaddressaddress,
+                          'address_long':this.GlobalvarsProvider.activeaddressaddress,
+                          'mobile_no':this.GlobalvarsProvider.activeaddressmobile},option)
+                          .map(response => response.json())
+                          .subscribe(res => {
+                             this.presentAlert(res.message); 
+                            this.pop();
+                           // this.alertConfirm2(res.message);
 
+                          },Error => {
+                            console.log(Error);
+                             this.presentAlert("No Internet Connection!"); 
+                          });
+
+  }
         g(){
         	if (this.test==true) {
         		this.isfarmer=1;

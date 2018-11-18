@@ -9,7 +9,10 @@
 
 <ion-content>
 		<ion-card>
-			<p style="padding: 10px">&nbsp;Ship to: {{address}}</p>
+            <p style="padding: 10px">&nbsp;Ship to: {{address}}</p>
+            <p style="padding: 10px">&nbsp;Mobile No: {{mobile}}</p>
+            
+          <button ion-button class="submit-btn" block (click)="shipdetails()">Manage Shipping Details</button>
 		</ion-card>
         <ion-list>
         <ion-item-sliding *ngFor="let list of orders">

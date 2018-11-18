@@ -85,7 +85,7 @@ public takePicture(sourceType) {
       var correctPath = imagePath.substr(0, imagePath.lastIndexOf('/') + 1);
       this.copyFileToLocalDir(correctPath, currentName, this.createFileName());
     }
-  }, (err) => {
+  }, (error) => {
     this.presentToast('Error while selecting image.');
   });
 }

@@ -53,7 +53,7 @@ export class TransacPage {
                 header.append("Authorization",this.GlobalvarsProvider.gettoken());
               
         let option = new RequestOptions({ headers: header });
-        this.http.get('http://api.riceupfarmers.org/api/fordispatch',option)
+        this.http.get('http://api.riceupfarmers.org/api/productsperfarmer/0',option)
           .map(response => response.json())
           .subscribe(res => {
              if (res.message==undefined) {

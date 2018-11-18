@@ -45,6 +45,9 @@ import {UpdateaccountPage} from '../pages/updateaccount/updateaccount';
 import {PickupPage} from '../pages/pickup/pickup';
 import {ProductonlyPage} from '../pages/productonly/productonly';
 import {ShippingPage} from '../pages/shipping/shipping';
+import {ShippingDetailsPage} from '../pages/shipping-details/shipping-details';
+import {ShippingDetailsUpdatePage} from '../pages/shipping-details-update/shipping-details-update';
+import {ShippingDetailsAddPage} from '../pages/shipping-details-add/shipping-details-add';
 import {TransacPage} from '../pages/transac/transac';
 import {DispatchPage} from '../pages/dispatch/dispatch';
 import { Network } from '@ionic-native/network';
@@ -59,7 +62,8 @@ import { IonicStorageModule } from '@ionic/storage';
     PropertyDetailPage,ChangepassPage,UpdateaccountPage,PickupPage,ShippingPage,TransacPage,
     BrokerListPage,ProuductDetailPage,ChangepicPage,ProfpicPage,ProductonlyPage,
     BrokerDetailPage,AddproductPage,UserproductPage,OrderinfoPage,PrivacyPolicyPage,CartupdatePage,
-    TermsandagreementPage,OrderListPage,CartPage,SignupPage,AccountPage,FarmerLocationPage,UpdateproductPage
+    TermsandagreementPage,OrderListPage,CartPage,SignupPage,AccountPage,FarmerLocationPage,UpdateproductPage,
+    ShippingDetailsPage,ShippingDetailsUpdatePage,ShippingDetailsAddPage
   ],
   imports: [
     BrowserModule,
@@ -75,7 +79,8 @@ import { IonicStorageModule } from '@ionic/storage';
     PropertyListPage,ChangepassPage,UpdateaccountPage,PickupPage,ProductonlyPage,ShippingPage,
     PropertyDetailPage,ChangepicPage,ProuductDetailPage,UpdateproductPage,ProfpicPage,TransacPage,
     BrokerListPage,AddproductPage,UserproductPage,OrderinfoPage,PrivacyPolicyPage,CartupdatePage,
-    BrokerDetailPage,TermsandagreementPage,OrderListPage,CartPage,SignupPage,AccountPage,FarmerLocationPage
+    BrokerDetailPage,TermsandagreementPage,OrderListPage,CartPage,SignupPage,AccountPage,FarmerLocationPage,
+    ShippingDetailsPage,ShippingDetailsUpdatePage,ShippingDetailsAddPage
   ],
   providers: [
     Transfer,

@@ -63,7 +63,7 @@ export class OrderListPage {
             }
              
               this.loading.dismissAll();
-          },err =>{ this.presentAlert("No Internet Connection!"); 
+          },error =>{ this.presentAlert("No Internet Connection!"); 
               this.loading.dismissAll();
                       });
   }

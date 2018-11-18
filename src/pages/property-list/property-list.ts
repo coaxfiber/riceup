@@ -3,7 +3,7 @@ import {Config, NavController, NavParams,LoadingController, Loading } from 'ioni
 import {PropertyService} from '../../providers/property-service-mock';
 import {PropertyDetailPage} from '../property-detail/property-detail';
 import {Http } from '@angular/http';
-import {  MenuController } from 'ionic-angular';
+import {MenuController } from 'ionic-angular';
 import {GlobalvarsProvider} from '../../providers/globalvars/globalvars';
 import {Headers, RequestOptions} from '@angular/http';
 import { AlertController } from 'ionic-angular';

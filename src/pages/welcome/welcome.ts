@@ -140,6 +140,25 @@ this.pushPage = TermsandagreementPage;
                        this.loading.dismissAll();
                        this.storage.set('username', this.form.value.name.uname);
                        this.storage.set('password', this.form.value.name.pw);
+                          let urlSearchParams = new URLSearchParams();
+                          urlSearchParams.append("passforpost",'any');
+                               let body = urlSearchParams.toString()
+                                 var header = new Headers();
+                                    header.append("Accept", "application/json");
+                                    header.append("Authorization",this.GlobalvarsProvider.gettoken());
+                                let option2 = new RequestOptions({ headers: header });
+                               
+                                        this.http.get('http://api.riceupfarmers.org/api/shippingdetails/',option2)
+                                          .map(response => response.json())
+                                          .subscribe(res => {
+                                             this.GlobalvarsProvider.activeaddressid = res[0].id;
+                                             this.GlobalvarsProvider.activeaddressaddress = res[0].shipping_address;
+                                             this.GlobalvarsProvider.activeaddressmobile = res[0].mobile_no;
+
+                                          },Error => {
+                                            console.log(Error);
+                                             this.presentAlert("No Internet Connection!"); 
+                                          });
                        this.navCtrl.setRoot(PropertyListPage);   
                     }
                     else

@@ -142,6 +142,65 @@ var WelcomePage = /** @class */ (function () {
             this.presentAlert("Input username or password!");
         }
     };
+    WelcomePage.prototype.guestlogin = function () {
+        var _this = this;
+        this.form.value.name.uname = 'guest';
+        this.form.value.name.pw = 'guest123';
+        if (this.form.value.name.uname != '' && this.form.value.name.pw != '') {
+            this.loading = this.loadingCtrl.create({
+                content: 'Logging in...',
+            });
+            this.loading.present();
+            this.GlobalvarsProvider.username = this.form.value.name.uname;
+            this.GlobalvarsProvider.password = this.form.value.name.pw;
+            var urlSearchParams = new URLSearchParams();
+            urlSearchParams.append("grant_type", this.GlobalvarsProvider.grant_type);
+            urlSearchParams.append("client_id", this.GlobalvarsProvider.client_id);
+            urlSearchParams.append("client_secret", this.GlobalvarsProvider.client_secret);
+            urlSearchParams.append("username", this.GlobalvarsProvider.username);
+            urlSearchParams.append("password", this.GlobalvarsProvider.password);
+            urlSearchParams.append("scope", this.GlobalvarsProvider.scope);
+            var body = urlSearchParams.toString();
+            var header = new Headers();
+            header.append("Content-Type", "application/x-www-form-urlencoded");
+            var option = new RequestOptions({ headers: header });
+            this.http.post('http://api.riceupfarmers.org/oauth/token', body, option)
+                .map(function (response) { return response.json(); })
+                .subscribe(function (data) {
+                if (data.token_type != undefined) {
+                    _this.GlobalvarsProvider.settoken(data.token_type + " " + data.access_token);
+                    //wwew start
+                    var header = new Headers();
+                    header.append("Accept", "application/json");
+                    header.append("Content-Type", "application/x-www-form-urlencoded");
+                    header.append("Authorization", _this.GlobalvarsProvider.gettoken());
+                    var option_2 = new RequestOptions({ headers: header });
+                    _this.http.get('http://api.riceupfarmers.org/api/user', option_2)
+                        .map(function (response) { return response.json(); })
+                        .subscribe(function (data) {
+                        _this.createUser(data);
+                    }, function (error) {
+                        _this.presentAlert("Slow internet Connection!");
+                        _this.loading.dismissAll();
+                    });
+                    //wew end
+                    _this.loading.dismissAll();
+                    _this.storage.set('username', _this.form.value.name.uname);
+                    _this.storage.set('password', _this.form.value.name.pw);
+                    _this.navCtrl.setRoot(PropertyListPage);
+                }
+                else
+                    _this.presentAlert("Invalid Username or password");
+            }, function (error) {
+                console.log(error);
+                _this.presentAlert("Failed to login. Make sure you have valid user credentials or you are connected to the internet.");
+                _this.loading.dismissAll();
+            });
+        }
+        else {
+            this.presentAlert("Input username or password!");
+        }
+    };
     WelcomePage.prototype.createUser = function (user) {
         this.events.publish('user:created', user, this.GlobalvarsProvider.getgid());
     };

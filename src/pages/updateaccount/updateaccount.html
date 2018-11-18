@@ -31,13 +31,16 @@
 			            <ion-item>
                   <ion-label  stacked>Address:</ion-label>
                   <ion-input [(ngModel)]="user.address" ></ion-input>
-                  </ion-item>
+                  </ion-item>               
 
 			           <ion-item>
                   <ion-label  stacked>Mobile Number:</ion-label>
                   <ion-input [(ngModel)]="user.mobile_no" ></ion-input>
                   </ion-item>
 
+                  <ion-item>
+                    <button ion-button class="submit-btn" block (click)="shipdetails()" style="height: 50px">Manage Shipping Details</button>
+                  </ion-item>  
 			             <ion-item>
                   <ion-label  stacked>Email:</ion-label>
                   <ion-input [(ngModel)]="user.email" ></ion-input>

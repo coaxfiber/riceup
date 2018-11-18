@@ -83,7 +83,7 @@ openPropertyDetail(property: any) {
     delprod(ids: any){
     let alert = this.alertCtrl.create({
         title: 'Confirm Remove',
-        message: 'Are you sure you want to remove the your Product?',
+        message: 'Are you sure you want to remove your Product?',
         buttons: [
           {
             text: 'Cancel',

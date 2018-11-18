@@ -66,7 +66,7 @@ export class SignupPage {
 
                 }, error => {
                          this.loading.dismissAll();
-                         this.presentAlert("Slow internet Connection!");
+                         this.presentAlert("Something went wrong!");
                          });
            }
           else {

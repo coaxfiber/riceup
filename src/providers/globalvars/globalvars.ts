@@ -12,6 +12,9 @@ import {Headers, RequestOptions} from '@angular/http';
 @Injectable()
 export class GlobalvarsProvider {
   token:string;
+  activeaddressid: string;
+  activeaddressaddress: string;
+  activeaddressmobile: string;
   globalid: any;
   loggeduser:any;
         grant_type:string;
@@ -27,6 +30,7 @@ export class GlobalvarsProvider {
         this.username=null;
         this.password=null;
         this.scope='';
+
   }
     getgid(){
         return this.globalid;

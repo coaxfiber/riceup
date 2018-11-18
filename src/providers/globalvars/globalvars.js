@@ -59,7 +59,7 @@ var GlobalvarsProvider = /** @class */ (function () {
         header.append("Content-Type", "application/x-www-form-urlencoded");
         header.append("Accept", "application/json");
         var option = new RequestOptions({ headers: header });
-        return this.http.post('http://api.riceupfarmers.org/oauth/token', body, option)
+        this.http.post('http://api.riceupfarmers.org/oauth/token', body, option)
             .map(function (response) { return response.json(); })
             .subscribe(function (data) {
             _this.settoken(data.token_type + " " + data.access_token);
