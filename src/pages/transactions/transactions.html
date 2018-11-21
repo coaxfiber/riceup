@@ -1,0 +1,120 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Transactions</ion-title>
+    </ion-navbar>
+
+    <ion-segment [(ngModel)]="viewMode">
+        <ion-segment-button value="Pending">Pending
+        </ion-segment-button>
+        <ion-segment-button value="Packed">Packed
+        </ion-segment-button>
+        <ion-segment-button value="Delivered">Delivered
+        </ion-segment-button>
+    </ion-segment>
+</ion-header>
+
+<ion-content>
+	<ion-list *ngIf="viewMode==='Pending'">
+		<ion-item-sliding *ngFor="let list of orders">
+            <div ion-item *ngIf="list.current_status.product_status===0">
+                    <img src="http://riceupfarmers.org/wp-content/system/uploads/s{{ list.farmer_product.photo_url }}.jpg"  onError="this.src='http://riceupfarmers.org/wp-content/system/sproduct.jpg';" style="width: 20px" style="float: left;margin-right: 5px;" />
+                <h3>{{list.farmer_product.product_name}}</h3>
+                <p>Price: P{{list.farmer_product.price_per_unit}} </p>
+                <p>Quantity: {{list.quantity}} </p>
+                <p>Stocks available: {{list.farmer_product.stocks_available}} </p>
+                <p  *ngIf="list.order.mode_of_shipping===0;">For Shipping</p>
+                <p  *ngIf="list.order.mode_of_shipping===1;">For Pick up</p>
+                
+                <div style="text-align: right;">
+
+                Total: P{{list.quantity * list.farmer_product.price_per_unit}}
+
+                </div>
+
+            </div>
+
+             <ion-item-options>
+                <button danger (click)="open(list)" class="green"> View Product </button>
+                <button danger (click)="dispatch(list.id)" class="blue"> Dispatch</button>
+            </ion-item-options>
+        </ion-item-sliding>
+        <!-- <ion-item-sliding>
+            <button ion-item>
+                <h3></h3>
+                <p></p>
+            <ion-note item-right>Total: P{{gtotal}}</ion-note>
+            </button>
+        </ion-item-sliding> -->
+    </ion-list>
+
+    <ion-list *ngIf="viewMode==='Packed'">
+		<ion-item-sliding *ngFor="let list of orders1">
+            <div ion-item *ngIf="list.current_status.product_status===1">
+                    <img src="http://riceupfarmers.org/wp-content/system/uploads/s{{ list.farmer_product.photo_url }}.jpg"  onError="this.src='http://riceupfarmers.org/wp-content/system/sproduct.jpg';" style="width: 20px" style="float: left;margin-right: 5px;" />
+                <h3>{{list.farmer_product.product_name}}</h3>
+                <p>Price: P{{list.farmer_product.price_per_unit}} </p>
+                <p>Quantity: {{list.quantity}} </p>
+                <p>Stocks available: {{list.farmer_product.stocks_available}} </p>
+                <p  *ngIf="list.order.mode_of_shipping===0;">For Shipping</p>
+                <p  *ngIf="list.order.mode_of_shipping===1;">For Pick up</p>
+                
+                <div style="text-align: right;">
+
+                Total: P{{list.quantity * list.farmer_product.price_per_unit}}
+
+                </div>
+
+            </div>
+
+             <ion-item-options>
+                <button danger (click)="open(list)" class="green"> View Product </button>
+                <button danger (click)="dispatch(list.id)" class="blue"> Dispatch</button>
+            </ion-item-options>
+        </ion-item-sliding>
+        <!-- <ion-item-sliding>
+            <button ion-item>
+                <h3></h3>
+                <p></p>
+            <ion-note item-right>Total: P{{gtotal}}</ion-note>
+            </button>
+        </ion-item-sliding> -->
+    </ion-list>
+
+    <ion-list *ngIf="viewMode==='Delivered'">
+		<ion-item-sliding *ngFor="let list of orders2">
+            <div ion-item *ngIf="list.current_status.product_status===2">
+                    <img src="http://riceupfarmers.org/wp-content/system/uploads/s{{ list.farmer_product.photo_url }}.jpg"  onError="this.src='http://riceupfarmers.org/wp-content/system/sproduct.jpg';" style="width: 20px" style="float: left;margin-right: 5px;" />
+                <h3>{{list.farmer_product.product_name}}</h3>
+                <p>Price: P{{list.farmer_product.price_per_unit}} </p>
+                <p>Quantity: {{list.quantity}} </p>
+                <p>Stocks available: {{list.farmer_product.stocks_available}} </p>
+                <p  *ngIf="list.order.mode_of_shipping===0;">For Shipping</p>
+                <p  *ngIf="list.order.mode_of_shipping===1;">For Pick up</p>
+                
+                <div style="text-align: right;">
+
+                Total: P{{list.quantity * list.farmer_product.price_per_unit}}
+
+                </div>
+
+            </div>
+
+             <ion-item-options>
+                <button danger (click)="open(list)" class="green"> View Product </button>
+                <button danger (click)="dispatch(list.id)" class="blue"> Dispatch</button>
+            </ion-item-options>
+        </ion-item-sliding>
+        <!-- <ion-item-sliding>
+            <button ion-item>
+                <h3></h3>
+                <p></p>
+            <ion-note item-right>Total: P{{gtotal}}</ion-note>
+            </button>
+        </ion-item-sliding> -->
+    </ion-list>
+
+
+</ion-content>

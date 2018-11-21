@@ -41,7 +41,8 @@ export class ChangepassPage {
   	{
   		this.alertConfirm2("New Password and ConfirmPassword does not Match!");
   	}else
-  	{	 this.loading = this.loadingCtrl.create({
+  	{	 
+      this.loading = this.loadingCtrl.create({
               content: 'Changing password...',
             });
             this.loading.present();
@@ -56,10 +57,10 @@ export class ChangepassPage {
                   let option = new RequestOptions({ headers: header });
   		this.http.patch('http://api.riceupfarmers.org/api/user/changepass?oldpassword='+this.form.value.name.oldpw+'&newpassword='+this.form.value.name.newpw,body,option)
               .map(response => response.json())
-              .subscribe(res => {	            
-	              	this.form.reset();
+              .subscribe(res => {   
                   this.temp = this.form.value.name.rnewpw;
 	              	this.form.value.name.rnewpw='';this.form.value.name.newpw='';this.form.value.name.oldpw='';
+                  this.form.reset();
                   this.loading.dismissAll();
 	              	this.alertConfirm2(res.message);
               }); 

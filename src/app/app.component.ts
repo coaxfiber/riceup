@@ -15,12 +15,12 @@ import { Events } from 'ionic-angular';
 import {UserproductPage} from '../pages/userproduct/userproduct';
 import {Http } from '@angular/http';
 import {AccountPage} from '../pages/account/account';
-import {TransacPage} from '../pages/transac/transac';
 import {PrivacyPolicyPage} from '../pages/privacy-policy/privacy-policy';
 import { AlertController  , ToastController } from 'ionic-angular';
 import { Network } from '@ionic-native/network';
 import { BackgroundMode } from '@ionic-native/background-mode';
 import { Storage } from '@ionic/storage';
+import {TransactionsPage} from '../pages/transactions/transactions';
 export interface MenuItem {
     title: string;
     component: any;
@@ -64,7 +64,7 @@ export class MyApp {
                this.accountMenuItems = [
                 {title: 'My Account', component: AccountPage, icon: 'ios-contact'},
                 {title: 'My Products', component: UserproductPage, icon: 'archive'},
-                {title: 'Transactions', component: TransacPage, icon: 'md-done-all'},
+                {title: 'Transactions', component: TransactionsPage, icon: 'md-done-all'},
                 ];
             }else{
               this.accountMenuItems = [
@@ -79,7 +79,7 @@ export class MyApp {
                this.accountMenuItems = [
                 {title: 'My Account', component: AccountPage, icon: 'ios-contact'},
                 {title: 'My Products', component: UserproductPage, icon: 'archive'},
-                {title: 'Transactions', component: TransacPage, icon: 'md-done-all'},
+                {title: 'Transactions', component: TransactionsPage, icon: 'md-done-all'},
                 ];
             }else{
               this.accountMenuItems = [

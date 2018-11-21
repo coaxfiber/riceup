@@ -3,14 +3,14 @@
         <button ion-button menuToggle>
             <ion-icon name="menu"></ion-icon>
         </button>
-        <ion-title>Transactions</ion-title>
+        <ion-title>Pending Transactions</ion-title>
     </ion-navbar>
 </ion-header>
 
 <ion-content>
         <ion-list>
         <ion-item-sliding *ngFor="let list of orders">
-            <div ion-item>
+            <div ion-item >
                     <img src="http://riceupfarmers.org/wp-content/system/uploads/s{{ list.farmer_product.photo_url }}.jpg"  onError="this.src='http://riceupfarmers.org/wp-content/system/sproduct.jpg';" style="width: 20px" style="float: left;margin-right: 5px;" />
                 <h3>{{list.farmer_product.product_name}}</h3>
                 <p>Price: P{{list.farmer_product.price_per_unit}} </p>

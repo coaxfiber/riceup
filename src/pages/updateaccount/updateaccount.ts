@@ -36,8 +36,8 @@ export class UpdateaccountPage {
     this.isfarmer = this.user.is_farmer;
     this.test = this.user.is_farmer;
     this.tempuser = this.user;
-    this.user.address = this.GlobalvarsProvider.activeaddressaddress;
-    this.user.mobile_no = this.GlobalvarsProvider.activeaddressmobile;
+    this.user.address = this.GlobalvarsProvider.activeaddressaddress2;
+    this.user.mobile_no = this.GlobalvarsProvider.activeaddressmobile2;
   }
 shipdetails(){
         this.navCtrl.push(ShippingDetailsPage, {
@@ -146,14 +146,15 @@ shipdetails(){
                     header.append("Authorization",this.GlobalvarsProvider.gettoken());
                 let option = new RequestOptions({ headers: header });
                
-                        this.http.patch('http://api.riceupfarmers.org/api/shippingdetail/'+this.GlobalvarsProvider.activeaddressid,{'address':this.GlobalvarsProvider.activeaddressaddress,
-                          'address_lat':this.GlobalvarsProvider.activeaddressaddress,
-                          'address_long':this.GlobalvarsProvider.activeaddressaddress,
-                          'mobile_no':this.GlobalvarsProvider.activeaddressmobile},option)
+                        this.http.patch('http://api.riceupfarmers.org/api/shippingdetail/'+this.GlobalvarsProvider.activeaddressid2,{
+                          'address':this.user.address,
+                          'address_lat':this.user.address_lat,
+                          'address_long':this.user.address_long,
+                          'mobile_no':this.user.mobile_no},option)
                           .map(response => response.json())
                           .subscribe(res => {
-                             this.presentAlert(res.message); 
-                            this.pop();
+                          this.GlobalvarsProvider.activeaddressaddress2 = this.user.address;
+                          this.GlobalvarsProvider.activeaddressmobile2 = this.user.mobile_no;
                            // this.alertConfirm2(res.message);
 
                           },Error => {

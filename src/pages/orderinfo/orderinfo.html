@@ -17,10 +17,15 @@
                 <h3>{{list.farmer_product.product_name}}</h3>
                 <p>Price: P{{list.farmer_product.price_per_unit}}</p> 
                 <p>Quantity: {{list.quantity}} </p> 
-                <p  *ngIf="list.status===0;">Status: Pending </p> 
-                <p *ngIf="list.status===1;">Status: Completed </p> 
+                <p *ngIf="list.current_status.product_status===0;">Status: Pending </p> 
+                <p *ngIf="list.current_status.product_status===1;">Status: Packed </p> 
+                <p *ngIf="list.current_status.product_status===2;">Status: Delivered  </p> 
+                <p *ngIf="list.current_status.product_status===3;">Status: Received  </p> 
             <ion-note item-right>P{{(list.farmer_product.price_per_unit)*(list.quantity) | number:'1.2-2'}}</ion-note>
             </button>
+             <ion-item-options>
+                <button danger (click)="cancelprod(list.id)" class="red">Cancel</button>
+            </ion-item-options>
 
         </ion-item-sliding>
         <ion-item-sliding>
@@ -33,3 +38,11 @@
         </ion-item-sliding>
     </ion-list>
 </ion-content>
+
+
+
+<ion-footer padding>
+    <ion-segment>
+        <p><b>Note:</b> Options will appear when you swipe left on the product.(for pending products only)</p>
+    </ion-segment>
+</ion-footer>

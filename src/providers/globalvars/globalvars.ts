@@ -15,6 +15,9 @@ export class GlobalvarsProvider {
   activeaddressid: string;
   activeaddressaddress: string;
   activeaddressmobile: string;
+  activeaddressid2: string;
+  activeaddressaddress2: string;
+  activeaddressmobile2: string;
   globalid: any;
   loggeduser:any;
         grant_type:string;

@@ -16,14 +16,14 @@
 <ion-content class="property-list">
     <ion-list>
         <ion-item-sliding *ngFor="let orderlist of orders">
-            <button ion-item  (click)="callorderinfo(orderlist.id)" class="red"  *ngIf="orderlist.order_status===0;">
+            <button ion-item  (click)="callorderinfo(orderlist.id)" class="red"  *ngIf="orderlist.order_status===3;">
                 <h2>Order#: {{orderlist.order_number}}</h2>
                 <p>{{orderlist.order_date}} - Cancelled</p>
             </button>
-
-            <button ion-item  (click)="callorderinfo(orderlist.id)" class="green" *ngIf="orderlist.order_status===2;">
+            
+            <button ion-item  (click)="callorderinfo(orderlist.id)" class="green" *ngIf="orderlist.order_status===4;">
                 <h2>Order#: {{orderlist.order_number}}</h2>
-                <p>{{orderlist.order_date}} - Completed</p>
+                <p>{{orderlist.order_date}} - Received </p>
             </button>
 
 

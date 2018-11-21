@@ -154,6 +154,9 @@ this.pushPage = TermsandagreementPage;
                                              this.GlobalvarsProvider.activeaddressid = res[0].id;
                                              this.GlobalvarsProvider.activeaddressaddress = res[0].shipping_address;
                                              this.GlobalvarsProvider.activeaddressmobile = res[0].mobile_no;
+                                             this.GlobalvarsProvider.activeaddressid2 = res[0].id;
+                                             this.GlobalvarsProvider.activeaddressaddress2 = res[0].shipping_address;
+                                             this.GlobalvarsProvider.activeaddressmobile2 = res[0].mobile_no;
 
                                           },Error => {
                                             console.log(Error);
