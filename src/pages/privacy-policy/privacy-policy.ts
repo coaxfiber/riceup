@@ -20,7 +20,9 @@ import { ToastController } from 'ionic-angular';
 export class PrivacyPolicyPage {
 
     public counter=0;
-  constructor(public platform: Platform,public statusBar: StatusBar, public splashScreen: SplashScreen,private toast: ToastController,public navCtrl: NavController, public navParams: NavParams) {platform.ready().then(() => {
+  constructor(public platform: Platform,public statusBar: StatusBar, public splashScreen: SplashScreen,private toast: ToastController,public navCtrl: NavController, public navParams: NavParams) {
+
+        platform.ready().then(() => {
           statusBar.styleDefault();
           splashScreen.hide();
      

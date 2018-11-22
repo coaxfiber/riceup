@@ -21,6 +21,7 @@ import { Network } from '@ionic-native/network';
 import { BackgroundMode } from '@ionic-native/background-mode';
 import { Storage } from '@ionic/storage';
 import {TransactionsPage} from '../pages/transactions/transactions';
+
 export interface MenuItem {
     title: string;
     component: any;
@@ -45,6 +46,7 @@ export class MyApp {
     helpMenuItems: Array<MenuItem>;
 
     constructor(private storage: Storage,private backgroundMode: BackgroundMode,private network: Network,private toast: ToastController,private alertCtrl: AlertController,private http: Http,public events: Events,public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen,public GlobalvarsProvider: GlobalvarsProvider) {
+        
         this.backgroundMode.enable();
         this.initializeApp();
         this.farmer =[
@@ -151,6 +153,7 @@ export class MyApp {
         // Reset the content nav to have just this page
         // we wouldn't want the back button to show in this scenario
         this.GlobalvarsProvider.setcredentials();
+        console.log(page.title);
         this.nav.setRoot(page.component);
     }
     alertConfirm() {

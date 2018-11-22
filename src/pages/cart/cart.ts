@@ -153,6 +153,7 @@ export class CartPage {
 
                           this.orders = rese.product_order;
                         if (this.orders!=undefined) {
+                          console.log(rese);
                           this.rese = rese;
                           this.ord = rese.id;
                           this.gtotal=this.gettotal(this.orders);

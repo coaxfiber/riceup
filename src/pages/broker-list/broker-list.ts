@@ -59,6 +59,7 @@ export class BrokerListPage {
         this.http.get('http://api.riceupfarmers.org/api/users/farmer',option)
           .map(response => response.json())
           .subscribe(res => {
+            console.log(res);
               this.farmers = res;
               this.loading.dismissAll();
           }, error => {

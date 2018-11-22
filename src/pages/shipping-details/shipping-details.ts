@@ -34,21 +34,24 @@ export class ShippingDetailsPage {
 	pushPage: any;
   cart:any;
   constructor(public platform: Platform,public statusBar: StatusBar, public splashScreen: SplashScreen,private toast: ToastController,private alertCtrl: AlertController, public loadingCtrl: LoadingController,public GlobalvarsProvider:GlobalvarsProvider, public navParams: NavParams,private http: Http,private menu : MenuController,public navCtrl: NavController,  public config: Config) {
-  	 
-     this.pushPage = ShippingDetailsAddPage;
+        this.pushPage = ShippingDetailsAddPage;
+        this.GlobalvarsProvider.activeaddressid = this.navParams.get("id");
+        this.GlobalvarsProvider.activeaddressaddress = this.navParams.get("address");
+        this.GlobalvarsProvider.activeaddressmobile = this.navParams.get("mobile");
   }
-select(id,address,mobile) {
+
+  select(id,address,mobile) {
         this.GlobalvarsProvider.activeaddressid = id;
         this.GlobalvarsProvider.activeaddressaddress = address;
         this.GlobalvarsProvider.activeaddressmobile = mobile;
         this.navCtrl.pop();
     }
     
-openPropertyDetail(property: any) {
+  openPropertyDetail(property: any) {
         this.navCtrl.push(ShippingDetailsUpdatePage, property);
     }
-    public ionViewWillEnter () {
-      ;
+  
+  ionViewWillEnter () {
      this.loading = this.loadingCtrl.create({
         content: 'Loading Product...',
       });
@@ -116,9 +119,6 @@ openPropertyDetail(property: any) {
     
   }
   ionViewDidLoad() {
-    this.GlobalvarsProvider.activeaddressid = this.navParams.get("id");
-        this.GlobalvarsProvider.activeaddressaddress = this.navParams.get("address");
-        this.GlobalvarsProvider.activeaddressmobile = this.navParams.get("mobile");
   }
 
 }

@@ -42,7 +42,8 @@ today: string ;
         this.http.get('http://api.riceupfarmers.org/api/products',option)
           .map(response => response.json())
           .subscribe(res => {
-
+              
+            console.log(res);
               this.loading.dismissAll();
             if ('2018-11-03' < this.today) {
                 if (res.message==undefined) {

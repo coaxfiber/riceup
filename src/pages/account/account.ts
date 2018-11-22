@@ -50,6 +50,9 @@ export class AccountPage {
           }, 0)
         });
     this.user = this.GlobalvarsProvider.loggeduser;
+    
+    this.user.address = this.GlobalvarsProvider.activeaddressaddress2;
+    this.user.mobile_no = this.GlobalvarsProvider.activeaddressmobile2;
     this.timee=Math.random();
     this.isfarmer = this.user.is_farmer;
     console.log(this.user);

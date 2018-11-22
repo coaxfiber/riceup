@@ -18,6 +18,7 @@ export class ProductonlyPage {
     quantity:any=1;
     constructor(private http: Http,public actionSheetCtrl: ActionSheetController, public navCtrl: NavController, public navParams: NavParams) {
         this.property = this.navParams.data.farmer_product;
+        console.log(this.property)
         this.proid = this.navParams.data.id;
         this.quantity = this.navParams.data.quantity;
 	}

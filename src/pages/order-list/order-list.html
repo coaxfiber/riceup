@@ -26,6 +26,11 @@
                 <h2>Order#: {{orderlist.order_number}}</h2>
                 <p>{{orderlist.order_date}} - Pending</p>
             </button>
+
+            <button ion-item  (click)="callorderinfo(orderlist.id)" *ngIf="orderlist.order_status===3;">
+                <h2>Order#: {{orderlist.order_number}}</h2>
+                <p>{{orderlist.order_date}} - Cancelled</p>
+            </button>
         </ion-item-sliding>
     </ion-list>
 </ion-content>

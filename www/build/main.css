@@ -24809,6 +24809,11 @@ ion-navbar.toolbar {
   color: white;
 }
 
+img {
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
 .about-header {
   background-color: #434954;
   padding: 16px;

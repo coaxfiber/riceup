@@ -11,3 +11,5 @@ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore riceup.keystore
 
 
 ./zipalign -v 4 riceup.apk riceupapp.apk
+
+ionic generate page shipping-details
