@@ -52,8 +52,8 @@ loadorders(){
                 this.orders = rese.product_order;
                 this.gtotal=this.gettotal(this.orders);
                 this.gtotal = "P"+this.gtotal;
-                this.loading.dismissAll();
                 if (this.s==1) {
+
                  var header = new Headers();
                             header.append("Accept", "application/json");
                             header.append("Authorization",this.GlobalvarsProvider.gettoken());
@@ -62,7 +62,6 @@ loadorders(){
                         .map(response => response.json())
                         .subscribe(rese => {
                          console.log(rese);
-
                           this.address=rese[0].shipping_address;
                           this.mobile=rese[0].mobile_no;
                           this.loading.dismissAll();
