@@ -132,4 +132,36 @@ presentAlert(val:any) {
                       this.loading.dismissAll();
                    });
     }
+     pack(id){
+      this.loading = this.loadingCtrl.create({
+              content: 'Changing status...',
+            });
+            this.loading.present();
+             let urlSearchParams = new URLSearchParams();
+                urlSearchParams.append("grant_type",this.GlobalvarsProvider.grant_type);
+              let body = urlSearchParams.toString()
+               var header = new Headers();
+                  header.append("Accept", "application/json");
+                  header.append("Content-Type", "application/x-www-form-urlencoded");
+                  header.append("Authorization",this.GlobalvarsProvider.gettoken());
+                        
+                  let option = new RequestOptions({ headers: header });
+                  
+                this.http.patch('http://api.riceupfarmers.org/api/product/pack/'+id,body,option)
+                     .map(response => response.json())
+                    .subscribe(data => {
+                      if (data.message!=undefined) {
+                       this.presentAlert(data.message);
+                      }else
+                      {
+                       this.presentAlert("Something went wrong!");
+
+                      }
+                      this.loading.dismissAll();
+                      this.navCtrl.setRoot(this.navCtrl.getActive().component);
+                   },Error=>{
+                     this.presentAlert("No Internet Connection!");
+                      this.loading.dismissAll();
+                   });
+    }
 }

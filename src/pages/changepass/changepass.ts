@@ -42,11 +42,11 @@ export class ChangepassPage {
   		this.alertConfirm2("New Password and ConfirmPassword does not Match!");
   	}else
   	{	 
-      this.loading = this.loadingCtrl.create({
+this.loading = this.loadingCtrl.create({
               content: 'Changing password...',
             });
             this.loading.present();
-  		let urlSearchParams = new URLSearchParams();
+      let urlSearchParams = new URLSearchParams();
                 urlSearchParams.append("grant_type",this.GlobalvarsProvider.grant_type);
               let body = urlSearchParams.toString()
                var header = new Headers();
@@ -55,15 +55,16 @@ export class ChangepassPage {
                   header.append("Authorization",this.GlobalvarsProvider.gettoken());
                         
                   let option = new RequestOptions({ headers: header });
-  		this.http.patch('http://api.riceupfarmers.org/api/user/changepass?oldpassword='+this.form.value.name.oldpw+'&newpassword='+this.form.value.name.newpw,body,option)
+      this.http.patch('http://api.riceupfarmers.org/api/user/changepass?oldpassword='+this.form.value.name.oldpw+'&newpassword='+this.form.value.name.newpw,body,option)
               .map(response => response.json())
               .subscribe(res => {   
                   this.temp = this.form.value.name.rnewpw;
-	              	this.form.value.name.rnewpw='';this.form.value.name.newpw='';this.form.value.name.oldpw='';
+                  this.form.value.name.rnewpw='';this.form.value.name.newpw='';this.form.value.name.oldpw='';
                   this.form.reset();
                   this.loading.dismissAll();
-	              	this.alertConfirm2(res.message);
+                  this.alertConfirm2(res.message);
               }); 
+      
   	}
   }
 	alertConfirm2(var2:any) {
@@ -74,7 +75,8 @@ export class ChangepassPage {
           {
             text: 'Dismiss',
             handler: () => {
-            	if (var2 == "Password changed successfully!") {
+            	if (var2 == "Your password was updated successfully.") {
+                  this.GlobalvarsProvider.password = this.temp
             	   	this.navCtrl.setRoot(AccountPage);
                   this.storage.set('password', this.temp);  
             	}

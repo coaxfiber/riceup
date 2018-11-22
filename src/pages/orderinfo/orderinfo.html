@@ -19,8 +19,9 @@
                 <p>Quantity: {{list.quantity}} </p> 
                 <p *ngIf="list.current_status.product_status===0;">Status: Pending </p> 
                 <p *ngIf="list.current_status.product_status===1;">Status: Packed </p> 
-                <p *ngIf="list.current_status.product_status===2;">Status: Delivered  </p> 
-                <p *ngIf="list.current_status.product_status===3;">Status: Received  </p> 
+                <p *ngIf="list.current_status.product_status===2;">Status: Delivered  </p>
+                <p *ngIf="list.current_status.product_status===3;">Status: Cancelled  </p> 
+                <p *ngIf="list.current_status.product_status===4;">Status: Received  </p> 
             <ion-note item-right>P{{(list.farmer_product.price_per_unit)*(list.quantity) | number:'1.2-2'}}</ion-note>
             </button>
              <ion-item-options>

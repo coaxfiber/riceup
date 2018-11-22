@@ -25,8 +25,8 @@
                 <p>Price: P{{list.farmer_product.price_per_unit}} </p>
                 <p>Quantity: {{list.quantity}} </p>
                 <p>Stocks available: {{list.farmer_product.stocks_available}} </p>
-                <p  *ngIf="list.order.mode_of_shipping===0;">For Shipping</p>
-                <p  *ngIf="list.order.mode_of_shipping===1;">For Pick up</p>
+                <p  *ngIf="list.order.mode_of_shipping===1;">For Shipping</p>
+                <p  *ngIf="list.order.mode_of_shipping===0;">For Pick up</p>
                 
                 <div style="text-align: right;">
 
@@ -38,7 +38,7 @@
 
              <ion-item-options>
                 <button danger (click)="open(list)" class="green"> View Product </button>
-                <button danger (click)="dispatch(list.id)" class="blue"> Dispatch</button>
+                <button danger (click)="pack(list.id)" class="blue"> Pack</button>
             </ion-item-options>
         </ion-item-sliding>
         <!-- <ion-item-sliding>
@@ -104,7 +104,6 @@
 
              <ion-item-options>
                 <button danger (click)="open(list)" class="green"> View Product </button>
-                <button danger (click)="dispatch(list.id)" class="blue"> Dispatch</button>
             </ion-item-options>
         </ion-item-sliding>
         <!-- <ion-item-sliding>

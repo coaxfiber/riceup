@@ -26,25 +26,30 @@ export class OrderinfoPage {
   sdid:any;
   s:any;address:any=null;mobile:any=null;
   constructor(private alertCtrl: AlertController,public loadingCtrl: LoadingController,public GlobalvarsProvider:GlobalvarsProvider,private http: Http,public actionSheetCtrl: ActionSheetController, public navCtrl: NavController, public navParams: NavParams, public propertyService: PropertyService, public toastCtrl: ToastController) {
-        this.loading = this.loadingCtrl.create({
+        
+        this.order = this.navParams.data;
+        this.loadorders()
+
+}
+loadorders(){
+  this.loading = this.loadingCtrl.create({
         content: 'Loading Orders...',
       });
       this.loading.present();
 
-        this.order = this.navParams.data;
 
                var header = new Headers();
                   header.append("Accept", "application/json");
                   header.append("Authorization",this.GlobalvarsProvider.gettoken());
         let option = new RequestOptions({ headers: header });
         this.http.get('http://api.riceupfarmers.org/api/order/'+this.order,option)
-		          .map(response => response.json())
-		          .subscribe(rese => {
+              .map(response => response.json())
+              .subscribe(rese => {
                 console.log(rese)
                 this.orderno=rese.order_number;
                 this.sdid = rese.sd_id;
                 this.s=rese.mode_of_shipping;
-		          	this.orders = rese.product_order;
+                this.orders = rese.product_order;
                 this.gtotal=this.gettotal(this.orders);
                 this.gtotal = "P"+this.gtotal;
                 this.loading.dismissAll();
@@ -67,11 +72,10 @@ export class OrderinfoPage {
                   // code...
                 }
 
-		          },error=>{
+              },error=>{
                 this.loading.dismissAll();
               });
  
-
 }
   gettotal(gett:any){
     var total = 0;
@@ -99,17 +103,36 @@ export class OrderinfoPage {
           {
             text: 'Confirm',
             handler: () => {
+               this.loading = this.loadingCtrl.create({
+              content: 'Canceling...',
+            });
+            this.loading.present();
+             let urlSearchParams = new URLSearchParams();
+                urlSearchParams.append("grant_type",this.GlobalvarsProvider.grant_type);
+              let body = urlSearchParams.toString()
                var header = new Headers();
                   header.append("Accept", "application/json");
+                  header.append("Content-Type", "application/x-www-form-urlencoded");
                   header.append("Authorization",this.GlobalvarsProvider.gettoken());
-                    
-              let option = new RequestOptions({ headers: header });
-              this.http.patch('http://api.riceupfarmers.org/api/product/cancel/'+ids,option)
-                .map(response => response.json())
-                .subscribe(res => {
-                  this.presentAlert('Product Cancelled!');
-                  this.navCtrl.setRoot(this.navCtrl.getActive().component);
-                });
+                        
+                  let option = new RequestOptions({ headers: header });
+                  
+                this.http.patch('http://api.riceupfarmers.org/api/product/cancel/'+ids,body,option)
+                     .map(response => response.json())
+                    .subscribe(data => {
+                      if (data.message!=undefined) {
+                       this.presentAlert(data.message);
+                       this.loadorders()
+                      }else
+                      {
+                       this.presentAlert("Something went wrong!");
+
+                      }
+                      this.loading.dismissAll();
+                   },Error=>{
+                     this.presentAlert("No Internet Connection!");
+                      this.loading.dismissAll();
+                   });
             }
           }
         ]

@@ -7,7 +7,7 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Dispatch Product</ion-title>
+    <ion-title>Ordered Product</ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -55,16 +55,18 @@
                     <img src="http://riceupfarmers.org/wp-content/system/uploads/{{ dis.order.user.id }}.jpg?{{timee}}" alt="loading..."  onError="this.src='http://riceupfarmers.org/wp-content/system/user.jpg';"  />
                 </ion-thumbnail>
                 <h2 text-wrap>Ordered By: <b>{{dis.order.user.firstname}} {{dis.order.user.middlename}} {{dis.order.user.lastname}}</b></h2>
-    			<p text-wrap>From: <b>{{dis.order.user.address}}</b></p>
             </button>
         </ion-item-sliding>
-                <p>&nbsp;&nbsp;Contact #: {{dis.order.user.mobile_no}}</p>
                 <p>&nbsp;&nbsp;Order #: {{dis.order.order_number}}</p>
                 <p>&nbsp;&nbsp;Price: P{{dis.farmer_product.price_per_unit}} </p>
                 <p>&nbsp;&nbsp;Quantity: {{dis.quantity}} </p>
                 <p>&nbsp;&nbsp;Stocks available: {{dis.farmer_product.stocks_available}} </p>
     	<h3 *ngIf="dis.order.mode_of_shipping===0;" >&nbsp;&nbsp;<b>For Pick up</b></h3>
         <h3 *ngIf="dis.order.mode_of_shipping===1;">&nbsp;&nbsp;<b>For Shipping</b></h3>
+            <div *ngIf="dis.order.mode_of_shipping===1;">
+                <p>&nbsp;&nbsp;Address: {{shipadd}}</p>
+                <p>&nbsp;&nbsp;Contact #: {{contact}}</p>
+            </div>
         <div style="text-align: right;">
 
                 Total: P{{dis.quantity * dis.farmer_product.price_per_unit}}&nbsp;&nbsp;
@@ -72,5 +74,6 @@
                 </div><br>
     </ion-card>
 
-        <button ion-button class="submit-btn" block  (click)="dispatch(dis.id)">Dispatch</button>
+        <button ion-button class="submit-btn" block  (click)="pack(dis.id)"  *ngIf="dis.current_status.product_status===0">Pack</button>
+        <button ion-button class="submit-btn" block  (click)="dispatch(dis.id)"  *ngIf="dis.current_status.product_status===1">Dispatch</button>
 </ion-content>

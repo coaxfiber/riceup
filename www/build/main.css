@@ -24926,6 +24926,18 @@ ion-footer {
   background-color: #c4fbff;
 }
 
+.red {
+  background-color: #ffadb4;
+}
+
+.green {
+  background-color: #b3efb5;
+}
+
+.blue {
+  background-color: #c4fbff;
+}
+
 ion-fab {
   right: 0;
   bottom: 0;
