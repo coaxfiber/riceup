@@ -14,6 +14,7 @@ export class BrokerDetailPage {
     constructor(private http: Http,public navCtrl: NavController, public navParams: NavParams) {
     
     this.timee=Math.random(); this.farmer = this.navParams.data;
+    console.log(this.farmer);
     }
 
     openloc(farmer:any)

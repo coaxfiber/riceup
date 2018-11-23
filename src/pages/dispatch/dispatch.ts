@@ -25,7 +25,7 @@ export class DispatchPage {
   	 this.dis = this.navParams.data;
      this.shipadd = 'forpickup';
      this.contact = 'forpickup';
-     console.log( this.dis.order.shipping_detail.shipping_address);
+     console.log(this.dis);
      if (this.dis.order.mode_of_shipping==1) {
        this.shipadd= this.dis.order.shipping_detail.shipping_address
        this.contact= this.dis.order.shipping_detail.mobile_no

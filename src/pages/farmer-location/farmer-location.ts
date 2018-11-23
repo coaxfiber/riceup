@@ -19,6 +19,7 @@ export class FarmerLocationPage {
     markersGroup; viewMode: string = "map";
   constructor(private alertCtrl: AlertController,public navCtrl: NavController, public navParams: NavParams) {
   	this.farmer = this.navParams.data;
+  	console.log(this.farmer)
   	this.showMap();
   }
    showMarkers() {

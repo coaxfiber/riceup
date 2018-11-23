@@ -20,7 +20,7 @@
             <a href="tel:{{farmer.mobile_no}}" ion-item>
                 <ion-icon name="text" item-left></ion-icon>
                 <p>Call/Text</p>
-                <h2>{{farmer.mobile_no}}</h2>
+                <h2>{{farmer.first_shipping_detail.mobile_no}}</h2>
             </a>
             <a href="mailto:{{farmer.email}}" ion-item>
                 <ion-icon name="mail" item-left></ion-icon>
@@ -40,10 +40,10 @@
             <a href="#" ion-item>
                 <ion-icon name="pin" item-left></ion-icon>
                 <p>Address</p>
-                <h2 style="white-space: normal;">{{farmer.address}}</h2>
+                <h2 style="white-space: normal;">{{farmer.first_shipping_detail.shipping_address}}</h2>
             </a>
 
-                <button ion-button block (click)="openloc(farmer)">View Location</button>
+                <button ion-button block (click)="openloc(farmer.first_shipping_detail)">View Location</button>
         </ion-list>
 
     </ion-card>

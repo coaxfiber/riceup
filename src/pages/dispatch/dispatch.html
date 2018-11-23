@@ -64,8 +64,8 @@
     	<h3 *ngIf="dis.order.mode_of_shipping===0;" >&nbsp;&nbsp;<b>For Pick up</b></h3>
         <h3 *ngIf="dis.order.mode_of_shipping===1;">&nbsp;&nbsp;<b>For Shipping</b></h3>
             <div *ngIf="dis.order.mode_of_shipping===1;">
-                <p>&nbsp;&nbsp;Address: {{shipadd}}</p>
-                <p>&nbsp;&nbsp;Contact #: {{contact}}</p>
+                <p>&nbsp;&nbsp;Address: {{dis.order.shipping_detail.shipping_address}}</p>
+                <p>&nbsp;&nbsp;Contact #: {{dis.order.shipping_detail.mobile_no}}</p>
             </div>
         <div style="text-align: right;">
 

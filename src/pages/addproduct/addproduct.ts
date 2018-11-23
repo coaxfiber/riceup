@@ -203,6 +203,7 @@ public uploadImage() {
         this.loading.dismissAll()
         this.presentToast('Error while uploading file.');
       });
+      
       this.lastImage=null;
     }
   }

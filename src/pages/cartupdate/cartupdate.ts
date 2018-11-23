@@ -25,6 +25,7 @@ export class CartupdatePage {
     quantity:any=1;
     constructor(public loadingCtrl: LoadingController,private alertCtrl: AlertController,public GlobalvarsProvider:GlobalvarsProvider,private http: Http,public actionSheetCtrl: ActionSheetController, public navCtrl: NavController, public navParams: NavParams, public propertyService: PropertyService, public toastCtrl: ToastController) {
         this.property = this.navParams.data.farmer_product;
+        console.log(this.property)
         this.proid = this.navParams.data.id;
         this.quantity = this.navParams.data.quantity;
     }
