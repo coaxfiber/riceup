@@ -45,7 +45,7 @@ export class ShippingPage {
                     header.append("Authorization",this.GlobalvarsProvider.gettoken());
                 let option = new RequestOptions({ headers: header });
                
-                        this.http.get('http://api.riceupfarmers.org/api/shippingdetails/',option)
+                        this.http.get('http://api.riceupfarmers.com/api/shippingdetails/',option)
                           .map(response => response.json())
                           .subscribe(res => {
                             if (res.message!=undefined) {
@@ -111,7 +111,7 @@ gettotal(gett:any){
                     header.append("Authorization",this.GlobalvarsProvider.gettoken());
                 let option = new RequestOptions({ headers: header });
                
-                        this.http.patch('http://api.riceupfarmers.org/api/order/checkout/'+this.orderid+'?shipping_mode=1&order_status=1&remarks=&sd_id='+this.addresid,body,option)
+                        this.http.patch('http://api.riceupfarmers.com/api/order/checkout/'+this.orderid+'?shipping_mode=1&order_status=1&remarks=&sd_id='+this.addresid,body,option)
                           .map(response => response.json())
                           .subscribe(res => {
                            // this.alertConfirm2(res.message);

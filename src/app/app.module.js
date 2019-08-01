@@ -45,11 +45,17 @@ import { UpdateaccountPage } from '../pages/updateaccount/updateaccount';
 import { PickupPage } from '../pages/pickup/pickup';
 import { ProductonlyPage } from '../pages/productonly/productonly';
 import { ShippingPage } from '../pages/shipping/shipping';
+import { ShippingDetailsPage } from '../pages/shipping-details/shipping-details';
+import { ShippingDetailsUpdatePage } from '../pages/shipping-details-update/shipping-details-update';
+import { ShippingDetailsAddPage } from '../pages/shipping-details-add/shipping-details-add';
+import { TransactPackedPage } from '../pages/transact-packed/transact-packed';
 import { TransacPage } from '../pages/transac/transac';
+import { TransactionsPage } from '../pages/transactions/transactions';
 import { DispatchPage } from '../pages/dispatch/dispatch';
 import { Network } from '@ionic-native/network';
 import { BackgroundMode } from '@ionic-native/background-mode';
 import { IonicStorageModule } from '@ionic/storage';
+import { SplashPage } from '../pages/splash/splash';
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
@@ -63,7 +69,8 @@ var AppModule = /** @class */ (function () {
                 PropertyDetailPage, ChangepassPage, UpdateaccountPage, PickupPage, ShippingPage, TransacPage,
                 BrokerListPage, ProuductDetailPage, ChangepicPage, ProfpicPage, ProductonlyPage,
                 BrokerDetailPage, AddproductPage, UserproductPage, OrderinfoPage, PrivacyPolicyPage, CartupdatePage,
-                TermsandagreementPage, OrderListPage, CartPage, SignupPage, AccountPage, FarmerLocationPage, UpdateproductPage
+                TermsandagreementPage, OrderListPage, CartPage, SignupPage, AccountPage, FarmerLocationPage, UpdateproductPage,
+                ShippingDetailsPage, ShippingDetailsUpdatePage, ShippingDetailsAddPage, TransactPackedPage, TransactionsPage, SplashPage
             ],
             imports: [
                 BrowserModule,
@@ -79,7 +86,8 @@ var AppModule = /** @class */ (function () {
                 PropertyListPage, ChangepassPage, UpdateaccountPage, PickupPage, ProductonlyPage, ShippingPage,
                 PropertyDetailPage, ChangepicPage, ProuductDetailPage, UpdateproductPage, ProfpicPage, TransacPage,
                 BrokerListPage, AddproductPage, UserproductPage, OrderinfoPage, PrivacyPolicyPage, CartupdatePage,
-                BrokerDetailPage, TermsandagreementPage, OrderListPage, CartPage, SignupPage, AccountPage, FarmerLocationPage
+                BrokerDetailPage, TermsandagreementPage, OrderListPage, CartPage, SignupPage, AccountPage, FarmerLocationPage,
+                ShippingDetailsPage, ShippingDetailsUpdatePage, ShippingDetailsAddPage, TransactPackedPage, TransactionsPage, SplashPage
             ],
             providers: [
                 Transfer,

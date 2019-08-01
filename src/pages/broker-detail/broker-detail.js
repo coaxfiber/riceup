@@ -19,6 +19,7 @@ var BrokerDetailPage = /** @class */ (function () {
         this.timee = Math.random();
         this.timee = Math.random();
         this.farmer = this.navParams.data;
+        console.log(this.farmer);
     }
     BrokerDetailPage.prototype.openloc = function (farmer) {
         this.navCtrl.push(FarmerLocationPage, farmer);

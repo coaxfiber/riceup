@@ -50,7 +50,7 @@ export class DispatchPage {
                         
                   let option = new RequestOptions({ headers: header });
                   
-                this.http.patch('http://api.riceupfarmers.org/api/product/dispatch/'+id,body,option)
+                this.http.patch('http://api.riceupfarmers.com/api/product/dispatch/'+id,body,option)
                      .map(response => response.json())
                     .subscribe(data => {
                       if (data.message!=undefined) {
@@ -81,7 +81,7 @@ export class DispatchPage {
                         
                   let option = new RequestOptions({ headers: header });
                   
-                this.http.patch('http://api.riceupfarmers.org/api/product/dispatch/'+id,body,option)
+                this.http.patch('http://api.riceupfarmers.com/api/product/dispatch/'+id,body,option)
                      .map(response => response.json())
                     .subscribe(data => {
                       if (data.message!=undefined) {

@@ -15,6 +15,8 @@ import { Http } from '@angular/http';
 import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
 import { Headers, RequestOptions } from '@angular/http';
 import { AlertController } from 'ionic-angular';
+import { Platform } from 'ionic-angular';
+import { ShippingDetailsPage } from '../shipping-details/shipping-details';
 /**
  * Generated class for the ShippingPage page.
  *
@@ -22,8 +24,9 @@ import { AlertController } from 'ionic-angular';
  * on Ionic pages and navigation.
  */
 var ShippingPage = /** @class */ (function () {
-    function ShippingPage(loadingCtrl, alertCtrl, GlobalvarsProvider, http, actionSheetCtrl, navCtrl, navParams, propertyService, toastCtrl) {
+    function ShippingPage(platform, loadingCtrl, alertCtrl, GlobalvarsProvider, http, actionSheetCtrl, navCtrl, navParams, propertyService, toastCtrl) {
         var _this = this;
+        this.platform = platform;
         this.loadingCtrl = loadingCtrl;
         this.alertCtrl = alertCtrl;
         this.GlobalvarsProvider = GlobalvarsProvider;
@@ -34,11 +37,23 @@ var ShippingPage = /** @class */ (function () {
         this.propertyService = propertyService;
         this.toastCtrl = toastCtrl;
         this.addresid = null;
+        this.message = null;
+        this.myCallbackFunction = function (_params) {
+            return new Promise(function (resolve, reject) {
+                _this.address = _this.GlobalvarsProvider.activeaddressaddress;
+                _this.addresid = _this.GlobalvarsProvider.activeaddressid;
+                _this.mobile = _this.GlobalvarsProvider.activeaddressmobile;
+                resolve();
+            });
+        };
+        this.address = this.GlobalvarsProvider.activeaddressaddress;
+        this.addresid = this.GlobalvarsProvider.activeaddressid;
+        this.mobile = this.GlobalvarsProvider.activeaddressmobile;
         this.cart = this.navParams.data;
         this.orders = this.cart.product_order;
         this.gtotal = this.gettotal(this.orders);
         this.orderid = this.cart.id;
-        this.address = this.GlobalvarsProvider.loggeduser.address;
+        console.log(this.addresid);
         var urlSearchParams = new URLSearchParams();
         urlSearchParams.append("passforpost", 'any');
         var body = urlSearchParams.toString();
@@ -49,14 +64,24 @@ var ShippingPage = /** @class */ (function () {
         this.http.get('http://api.riceupfarmers.org/api/shippingdetails/', option)
             .map(function (response) { return response.json(); })
             .subscribe(function (res) {
-            console.log(res);
-            // this.alertConfirm2(res.message);
-            _this.alertConfirm2(res.message);
+            if (res.message != undefined) {
+                _this.presentAlert(res.message);
+            }
         }, function (Error) {
             console.log(Error);
             _this.presentAlert("No Internet Connection!");
         });
     }
+    ShippingPage.prototype.ionViewWillEnter = function () {
+        this.address = this.GlobalvarsProvider.activeaddressaddress;
+        this.addresid = this.GlobalvarsProvider.activeaddressid;
+        this.mobile = this.GlobalvarsProvider.activeaddressmobile;
+    };
+    ShippingPage.prototype.shipdetails = function () {
+        this.navCtrl.push(ShippingDetailsPage, {
+            id: this.addresid, address: this.address, mobile: this.mobile
+        });
+    };
     ShippingPage.prototype.ionViewDidLoad = function () {
     };
     ShippingPage.prototype.gettotal = function (gett) {
@@ -90,7 +115,7 @@ var ShippingPage = /** @class */ (function () {
                             header.append("Accept", "application/json");
                             header.append("Authorization", _this.GlobalvarsProvider.gettoken());
                             var option = new RequestOptions({ headers: header });
-                            _this.http.patch('http://api.riceupfarmers.org/api/order/checkout/' + _this.orderid + '?shipping_mode=1&order_status=1&remarks=', body, option)
+                            _this.http.patch('http://api.riceupfarmers.org/api/order/checkout/' + _this.orderid + '?shipping_mode=1&order_status=1&remarks=&sd_id=' + _this.addresid, body, option)
                                 .map(function (response) { return response.json(); })
                                 .subscribe(function (res) {
                                 // this.alertConfirm2(res.message);
@@ -104,6 +129,8 @@ var ShippingPage = /** @class */ (function () {
             });
             alert_1.present();
         }
+        else
+            this.presentAlert(this.message);
     };
     ShippingPage.prototype.alertConfirm2 = function (var2) {
         var _this = this;
@@ -134,7 +161,7 @@ var ShippingPage = /** @class */ (function () {
             selector: 'page-shipping',
             templateUrl: 'shipping.html',
         }),
-        __metadata("design:paramtypes", [LoadingController, AlertController, GlobalvarsProvider, Http, ActionSheetController, NavController, NavParams, PropertyService, ToastController])
+        __metadata("design:paramtypes", [Platform, LoadingController, AlertController, GlobalvarsProvider, Http, ActionSheetController, NavController, NavParams, PropertyService, ToastController])
     ], ShippingPage);
     return ShippingPage;
 }());

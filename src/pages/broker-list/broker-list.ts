@@ -56,7 +56,7 @@ export class BrokerListPage {
                 header.append("Authorization",this.GlobalvarsProvider.gettoken());
               
         let option = new RequestOptions({ headers: header });
-        this.http.get('http://api.riceupfarmers.org/api/users/farmer',option)
+        this.http.get('http://api.riceupfarmers.com/api/users/farmer',option)
           .map(response => response.json())
           .subscribe(res => {
             console.log(res);

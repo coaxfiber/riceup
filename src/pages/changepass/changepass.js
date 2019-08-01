@@ -61,14 +61,14 @@ var ChangepassPage = /** @class */ (function () {
             header.append("Content-Type", "application/x-www-form-urlencoded");
             header.append("Authorization", this.GlobalvarsProvider.gettoken());
             var option = new RequestOptions({ headers: header });
-            this.http.patch('http://api.riceupfarmers.org/api/user/changepass?oldpassword=' + this.form.value.name.oldpw + '&newpassword=' + this.form.value.name.newpw, body, option)
+            this.http.patch('http://api.riceupfarmers.com/api/user/changepass?oldpassword=' + this.form.value.name.oldpw + '&newpassword=' + this.form.value.name.newpw, body, option)
                 .map(function (response) { return response.json(); })
                 .subscribe(function (res) {
-                _this.form.reset();
                 _this.temp = _this.form.value.name.rnewpw;
                 _this.form.value.name.rnewpw = '';
                 _this.form.value.name.newpw = '';
                 _this.form.value.name.oldpw = '';
+                _this.form.reset();
                 _this.loading.dismissAll();
                 _this.alertConfirm2(res.message);
             });
@@ -83,7 +83,8 @@ var ChangepassPage = /** @class */ (function () {
                 {
                     text: 'Dismiss',
                     handler: function () {
-                        if (var2 == "Password changed successfully!") {
+                        if (var2 == "Your password was updated successfully.") {
+                            _this.GlobalvarsProvider.password = _this.temp;
                             _this.navCtrl.setRoot(AccountPage);
                             _this.storage.set('password', _this.temp);
                         }

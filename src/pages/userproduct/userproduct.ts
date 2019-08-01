@@ -55,7 +55,7 @@ export class UserproductPage {
                 header.append("Authorization",this.GlobalvarsProvider.gettoken());
               
         let option = new RequestOptions({ headers: header });
-        this.http.get('http://api.riceupfarmers.org/api/products/'+this.GlobalvarsProvider.loggeduser.id,option)
+        this.http.get('http://api.riceupfarmers.com/api/products/'+this.GlobalvarsProvider.loggeduser.id,option)
           .map(response => response.json())
           .subscribe(res => {
              if (res.message==undefined) {
@@ -100,7 +100,7 @@ openPropertyDetail(property: any) {
                   header.append("Authorization",this.GlobalvarsProvider.gettoken());
                     
               let option = new RequestOptions({ headers: header });
-              this.http.delete('http://api.riceupfarmers.org/api/product/remove/'+ids,option)
+              this.http.delete('http://api.riceupfarmers.com/api/product/remove/'+ids,option)
                 .map(response => response.json())
                 .subscribe(res => {
                   this.presentAlert('Product Deleted!');

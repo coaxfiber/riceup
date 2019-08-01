@@ -25,6 +25,7 @@ var ProductonlyPage = /** @class */ (function () {
         this.navParams = navParams;
         this.quantity = 1;
         this.property = this.navParams.data.farmer_product;
+        console.log(this.property);
         this.proid = this.navParams.data.id;
         this.quantity = this.navParams.data.quantity;
     }

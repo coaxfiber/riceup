@@ -24,6 +24,7 @@ var FarmerLocationPage = /** @class */ (function () {
         this.navParams = navParams;
         this.viewMode = "map";
         this.farmer = this.navParams.data;
+        console.log(this.farmer);
         this.showMap();
     }
     FarmerLocationPage.prototype.showMarkers = function () {

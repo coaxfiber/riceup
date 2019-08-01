@@ -28,14 +28,14 @@
                   <ion-input [(ngModel)]="user.lastname" ></ion-input>
                   </ion-item>
 
-			            <ion-item>
+			            <ion-item *ngIf="user.address!=undefined" (click)='warn()'>
                   <ion-label  stacked>Address:</ion-label>
-                  <ion-input [(ngModel)]="user.address" ></ion-input>
+                  <ion-input [(ngModel)]="user.address" readonly></ion-input>
                   </ion-item>               
 
-			           <ion-item>
+                  <ion-item *ngIf="user.address!=undefined" (click)='warn()'>
                   <ion-label  stacked>Mobile Number:</ion-label>
-                  <ion-input [(ngModel)]="user.mobile_no" ></ion-input>
+                  <ion-input [(ngModel)]="user.mobile_no"  readonly></ion-input>
                   </ion-item>
 
                   <ion-item>

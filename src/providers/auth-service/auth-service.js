@@ -10,7 +10,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 import { Injectable } from '@angular/core';
 import { Http, Headers } from '@angular/http';
 import 'rxjs/add/operator/map';
-var apiUrl = 'http://riceupfarmers.org/api/';
+var apiUrl = 'http://riceupfarmers.com/api/';
 var AuthService = /** @class */ (function () {
     function AuthService(http) {
         this.http = http;

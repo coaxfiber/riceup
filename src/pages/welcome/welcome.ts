@@ -7,6 +7,7 @@ import {NavController} from 'ionic-angular';
 import {Platform,LoadingController, Loading} from 'ionic-angular';
 import {PropertyListPage} from '../property-list/property-list';
 import {SignupPage} from '../signup/signup';
+import {ForgotPasswordPage} from '../forgot-password/forgot-password';
 
 import {Http, Headers, RequestOptions} from '@angular/http';
 import 'rxjs/add/operator/map';
@@ -19,6 +20,8 @@ import {SplashScreen} from '@ionic-native/splash-screen';
 
 import { ToastController } from 'ionic-angular';
 import { Storage } from '@ionic/storage';
+
+
 @Component({
     selector: 'page-welcome',
     templateUrl: 'welcome.html'
@@ -31,16 +34,9 @@ export class WelcomePage {    public counter=0;
    pushPage: any;
    login: any;
    farmer: Array<any>;
+   forgotpassword
 	  constructor(private storage: Storage,public statusBar: StatusBar, public splashScreen: SplashScreen,private toast: ToastController,public loadingCtrl: LoadingController,private alertCtrl: AlertController,public menu: MenuController,public events: Events,public GlobalvarsProvider:GlobalvarsProvider,fb: FormBuilder,public platform: Platform,public navCtrl: NavController,private http: Http){
-	    storage.get('username').then((val) => {
-          this.form.value.name.uname = val;
-        storage.get('password').then((val2) => {
-          this.form.value.name.pw = val2;
-          if (val2!=null && val2!=undefined && val2!='') {
-            this.calltologin();
-          }
-        });
-      });
+ 
 platform.ready().then(() => {
           statusBar.styleDefault();
           splashScreen.hide();
@@ -56,7 +52,7 @@ platform.ready().then(() => {
             }
           }, 0)
         });
-
+this.forgotpassword = ForgotPasswordPage;
 this.pushPage = TermsandagreementPage;
       this.login = SignupPage;
 	    this.form = fb.group({
@@ -66,7 +62,6 @@ this.pushPage = TermsandagreementPage;
         }),
       });
 
-    this.menu.enable(false);
 	  }
  presentToast() {
     let toast = this.toast.create({
@@ -115,7 +110,7 @@ this.pushPage = TermsandagreementPage;
               var header = new Headers();
               header.append("Content-Type", "application/x-www-form-urlencoded");
               let option = new RequestOptions({ headers: header });
-              this.http.post('http://api.riceupfarmers.org/oauth/token', body, option)
+              this.http.post('http://api.riceupfarmers.com/oauth/token', body, option)
                .map(response => response.json())
                   .subscribe(data => {
                     if (data.token_type!=undefined) {
@@ -128,7 +123,7 @@ this.pushPage = TermsandagreementPage;
                               
                       let option = new RequestOptions({ headers: header });
                                     
-                           this.http.get('http://api.riceupfarmers.org/api/user', option)
+                           this.http.get('http://api.riceupfarmers.com/api/user', option)
                            .map(response => response.json())
                           .subscribe(data => {
                            this.createUser(data);
@@ -148,20 +143,27 @@ this.pushPage = TermsandagreementPage;
                                     header.append("Authorization",this.GlobalvarsProvider.gettoken());
                                 let option2 = new RequestOptions({ headers: header });
                                
-                                        this.http.get('http://api.riceupfarmers.org/api/shippingdetails/',option2)
-                                          .map(response => response.json())
-                                          .subscribe(res => {
-                                             this.GlobalvarsProvider.activeaddressid = res[0].id;
-                                             this.GlobalvarsProvider.activeaddressaddress = res[0].shipping_address;
-                                             this.GlobalvarsProvider.activeaddressmobile = res[0].mobile_no;
-                                             this.GlobalvarsProvider.activeaddressid2 = res[0].id;
-                                             this.GlobalvarsProvider.activeaddressaddress2 = res[0].shipping_address;
-                                             this.GlobalvarsProvider.activeaddressmobile2 = res[0].mobile_no;
+                                        
 
-                                          },Error => {
-                                            console.log(Error);
-                                             this.presentAlert("No Internet Connection!"); 
-                                          });
+                                               this.storage.get('shipaddress').then((val2) => {
+                                                    if (val2!=null && val2!=undefined && val2!='') {
+                                                           this.GlobalvarsProvider.activeaddressaddress = val2;
+                                                           this.storage.get('shipmobile').then((value) => {
+                                                             this.GlobalvarsProvider.activeaddressmobile = value;
+                                                              });
+                                                         }else
+                                                         {
+                                                           this.http.get('http://api.riceupfarmers.com/api/shippingdetails/',option2)
+                                                           .map(response => response.json())
+                                                           .subscribe(res => {
+                                                               this.GlobalvarsProvider.activeaddressaddress = res[0].shipping_address;
+                                                               this.GlobalvarsProvider.activeaddressmobile = res[0].mobile_no;
+                                                              },Error => {
+                                                                console.log(Error);
+                                                                 this.presentAlert("No Internet Connection!"); 
+                                                              });
+                                                         }
+                                                  });
                        this.navCtrl.setRoot(PropertyListPage);   
                     }
                     else
@@ -220,7 +222,7 @@ this.pushPage = TermsandagreementPage;
               var header = new Headers();
               header.append("Content-Type", "application/x-www-form-urlencoded");
               let option = new RequestOptions({ headers: header });
-              this.http.post('http://api.riceupfarmers.org/oauth/token', body, option)
+              this.http.post('http://api.riceupfarmers.com/oauth/token', body, option)
                .map(response => response.json())
                   .subscribe(data => {
                     if (data.token_type!=undefined) {
@@ -233,7 +235,7 @@ this.pushPage = TermsandagreementPage;
                               
                       let option = new RequestOptions({ headers: header });
                                     
-                           this.http.get('http://api.riceupfarmers.org/api/user', option)
+                           this.http.get('http://api.riceupfarmers.com/api/user', option)
                            .map(response => response.json())
                           .subscribe(data => {
                            this.createUser(data);
@@ -277,7 +279,7 @@ this.pushPage = TermsandagreementPage;
 /*
         if (this.form.value.name.uname!=''&&this.form.value.name.pw!='') {
           
-         var link = 'http://riceupfarmers.org/oauth/token';
+         var link = 'http://riceupfarmers.com/oauth/token';
          var myData = JSON.stringify({grant_type:'password',client_id:'2',client_secret:'uzyd8xUn9UeaQaMB8hfghABzvAFJZE8Djc4JcJlu',usernamei:this.form.value.name.uname,passwowrd:this.form.value.name.pw,username:'windellevega',password:'pass123',scope:''});
       
         let headers = new Headers(

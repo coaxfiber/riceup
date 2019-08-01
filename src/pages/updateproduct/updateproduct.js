@@ -54,7 +54,7 @@ var UpdateproductPage = /** @class */ (function () {
             header.append("Content-Type", "application/x-www-form-urlencoded");
             header.append("Authorization", this.GlobalvarsProvider.gettoken());
             var option = new RequestOptions({ headers: header });
-            this.http.patch('http://api.riceupfarmers.org/api/product/update/' + this.property.id + '?name=' + this.product_name + '&desc=' + this.product_desc + '&photo_url=' + this.property.photo_url + '&unit=' + this.unit_type + '&price=' + this.price_per_unit + '&stocks=' + this.stocks_available + '&harvest_date=' + this.date_of_harvest, body, option)
+            this.http.patch('http://api.riceupfarmers.org/api/product/update/' + this.property.id + '?name=' + this.product_name + '&photo_url=' + this.property.photo_url + '&unit=' + this.unit_type + '&price=' + this.price_per_unit + '&stocks=' + this.stocks_available + '&harvest_date=' + this.date_of_harvest + '&desc=' + encodeURIComponent(this.product_desc), { desc: this.product_desc }, option)
                 .map(function (response) { return response.json(); })
                 .subscribe(function (data) {
                 _this.loading.dismissAll();

@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
 
+import { Storage } from '@ionic/storage';
 import {Headers, RequestOptions} from '@angular/http';
 /*
   Generated class for the GlobalvarsProvider provider.
@@ -26,7 +27,7 @@ export class GlobalvarsProvider {
         username:string;
         password:string;
         scope:string;
-  constructor(public http: Http) {
+  constructor(public http: Http,private storage: Storage,) {
         this.grant_type='password';
         this.client_id='2';
         this.client_secret='uzyd8xUn9UeaQaMB8hfghABzvAFJZE8Djc4JcJlu';
@@ -73,7 +74,7 @@ export class GlobalvarsProvider {
               header.append("Content-Type", "application/x-www-form-urlencoded");
               header.append("Accept", "application/json");
               let option = new RequestOptions({ headers: header });
-              this.http.post('http://api.riceupfarmers.org/oauth/token', body, option)
+              this.http.post('http://api.riceupfarmers.com/oauth/token', body, option)
 
                .map(response => response.json())
                   .subscribe(data => {

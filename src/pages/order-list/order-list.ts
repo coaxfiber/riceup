@@ -51,7 +51,7 @@ export class OrderListPage {
                   header.append("Authorization",this.GlobalvarsProvider.gettoken());
               
         let option = new RequestOptions({ headers: header });
-        this.http.get('http://api.riceupfarmers.org/api/orders',option)
+        this.http.get('http://api.riceupfarmers.com/api/orders',option)
           .map(response => response.json())
           .subscribe(res => {
             if (res.message==undefined) {

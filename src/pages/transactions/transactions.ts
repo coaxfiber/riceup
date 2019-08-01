@@ -57,7 +57,7 @@ public counter=0;
                 header.append("Authorization",this.GlobalvarsProvider.gettoken());
               
         let option = new RequestOptions({ headers: header });
-        this.http.get('http://api.riceupfarmers.org/api/ordersperfarmer/',option)
+        this.http.get('http://api.riceupfarmers.com/api/ordersperfarmer/',option)
           .map(response => response.json())
           .subscribe(res => {
              if (res.message==undefined) {
@@ -116,7 +116,7 @@ presentAlert(val:any) {
                         
                   let option = new RequestOptions({ headers: header });
                   
-                this.http.patch('http://api.riceupfarmers.org/api/product/dispatch/'+id,body,option)
+                this.http.patch('http://api.riceupfarmers.com/api/product/dispatch/'+id,body,option)
                      .map(response => response.json())
                     .subscribe(data => {
                       if (data.message!=undefined) {
@@ -148,7 +148,7 @@ presentAlert(val:any) {
                         
                   let option = new RequestOptions({ headers: header });
                   
-                this.http.patch('http://api.riceupfarmers.org/api/product/pack/'+id,body,option)
+                this.http.patch('http://api.riceupfarmers.com/api/product/pack/'+id,body,option)
                      .map(response => response.json())
                     .subscribe(data => {
                       if (data.message!=undefined) {

@@ -59,7 +59,7 @@ export class CartupdatePage {
                         
                   let option = new RequestOptions({ headers: header });
                   
-                this.http.patch('http://api.riceupfarmers.org/api/cart/update/'+this.proid+'?qty='+this.quantity,body,option)
+                this.http.patch('http://api.riceupfarmers.com/api/cart/update/'+this.proid+'?qty='+this.quantity,body,option)
                      .map(response => response.json())
                     .subscribe(data => {
                       this.quantity = 1;

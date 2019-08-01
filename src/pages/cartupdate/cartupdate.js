@@ -35,6 +35,7 @@ var CartupdatePage = /** @class */ (function () {
         this.toastCtrl = toastCtrl;
         this.quantity = 1;
         this.property = this.navParams.data.farmer_product;
+        console.log(this.property);
         this.proid = this.navParams.data.id;
         this.quantity = this.navParams.data.quantity;
     }
@@ -64,7 +65,7 @@ var CartupdatePage = /** @class */ (function () {
             header.append("Content-Type", "application/x-www-form-urlencoded");
             header.append("Authorization", this.GlobalvarsProvider.gettoken());
             var option = new RequestOptions({ headers: header });
-            this.http.patch('http://api.riceupfarmers.org/api/cart/update/' + this.proid + '?qty=' + this.quantity, body, option)
+            this.http.patch('http://api.riceupfarmers.com/api/cart/update/' + this.proid + '?qty=' + this.quantity, body, option)
                 .map(function (response) { return response.json(); })
                 .subscribe(function (data) {
                 _this.quantity = 1;

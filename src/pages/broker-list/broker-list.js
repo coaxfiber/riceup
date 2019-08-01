@@ -62,9 +62,10 @@ var BrokerListPage = /** @class */ (function () {
         header.append("Accept", "application/json");
         header.append("Authorization", this.GlobalvarsProvider.gettoken());
         var option = new RequestOptions({ headers: header });
-        this.http.get('http://api.riceupfarmers.org/api/users/farmer', option)
+        this.http.get('http://api.riceupfarmers.com/api/users/farmer', option)
             .map(function (response) { return response.json(); })
             .subscribe(function (res) {
+            console.log(res);
             _this.farmers = res;
             _this.loading.dismissAll();
         }, function (error) {

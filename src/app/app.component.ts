@@ -21,6 +21,7 @@ import { Network } from '@ionic-native/network';
 import { BackgroundMode } from '@ionic-native/background-mode';
 import { Storage } from '@ionic/storage';
 import {TransactionsPage} from '../pages/transactions/transactions';
+import {SplashPage} from '../pages/splash/splash';
 
 export interface MenuItem {
     title: string;
@@ -35,7 +36,7 @@ export class MyApp {
     @ViewChild(Nav) nav: Nav;
     public counter=0;
     id: string;
-    rootPage: any = WelcomePage;
+    rootPage: any = SplashPage;
     farmer :any;
     appMenuItems: Array<MenuItem>;
     name:string=null;
@@ -156,6 +157,9 @@ export class MyApp {
         console.log(page.title);
         this.nav.setRoot(page.component);
     }
+    login() {
+        this.nav.push(WelcomePage);
+    }
     alertConfirm() {
       let alert = this.alertCtrl.create({
         title: 'Confirm Logout',
@@ -170,8 +174,11 @@ export class MyApp {
           {
             text: 'Yes',
             handler: () => {
-                this.nav.setRoot(WelcomePage);
-                this.storage.clear();
+                       this.storage.set('username', null);
+                       this.storage.set('password', null);
+                       this.storage.set('shipaddress', null);
+                       this.storage.set('shipmobile', null);
+                this.nav.setRoot(SplashPage);
             }
           }
         ]

@@ -55,7 +55,7 @@ this.loading = this.loadingCtrl.create({
                   header.append("Authorization",this.GlobalvarsProvider.gettoken());
                         
                   let option = new RequestOptions({ headers: header });
-      this.http.patch('http://api.riceupfarmers.org/api/user/changepass?oldpassword='+this.form.value.name.oldpw+'&newpassword='+this.form.value.name.newpw,body,option)
+      this.http.patch('http://api.riceupfarmers.com/api/user/changepass?oldpassword='+this.form.value.name.oldpw+'&newpassword='+this.form.value.name.newpw,body,option)
               .map(response => response.json())
               .subscribe(res => {   
                   this.temp = this.form.value.name.rnewpw;

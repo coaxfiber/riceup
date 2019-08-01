@@ -89,7 +89,7 @@ var CartPage = /** @class */ (function () {
             header.append("Content-Type", "application/x-www-form-urlencoded");
             header.append("Authorization", this.GlobalvarsProvider.gettoken());
             var option = new RequestOptions({ headers: header });
-            this.http.patch('http://api.riceupfarmers.org/api/cart/update/' + pid + '?qty=' + q, body, option)
+            this.http.patch('http://api.riceupfarmers.com/api/cart/update/' + pid + '?qty=' + q, body, option)
                 .map(function (response) { return response.json(); })
                 .subscribe(function (data) {
                 _this.loading.dismissAll();
@@ -119,7 +119,7 @@ var CartPage = /** @class */ (function () {
             header.append("Content-Type", "application/x-www-form-urlencoded");
             header.append("Authorization", this.GlobalvarsProvider.gettoken());
             var option = new RequestOptions({ headers: header });
-            this.http.patch('http://api.riceupfarmers.org/api/cart/update/' + pid + '?qty=' + q, body, option)
+            this.http.patch('http://api.riceupfarmers.com/api/cart/update/' + pid + '?qty=' + q, body, option)
                 .map(function (response) { return response.json(); })
                 .subscribe(function (data) {
                 _this.loading.dismissAll();
@@ -142,7 +142,7 @@ var CartPage = /** @class */ (function () {
         header.append("Accept", "application/json");
         header.append("Authorization", this.GlobalvarsProvider.gettoken());
         var option = new RequestOptions({ headers: header });
-        this.http.post('http://api.riceupfarmers.org/api/order/new', body, option)
+        this.http.post('http://api.riceupfarmers.com/api/order/new', body, option)
             .map(function (response) { return response.json(); })
             .subscribe(function (res) {
             if (res.order_number[0] == undefined) {
@@ -152,11 +152,12 @@ var CartPage = /** @class */ (function () {
             else {
                 var g = res.order_number[0].id;
                 _this.orderid = g;
-                _this.http.get('http://api.riceupfarmers.org/api/order/' + g, option)
+                _this.http.get('http://api.riceupfarmers.com/api/order/' + g, option)
                     .map(function (response) { return response.json(); })
                     .subscribe(function (rese) {
                     _this.orders = rese.product_order;
                     if (_this.orders != undefined) {
+                        console.log(rese);
                         _this.rese = rese;
                         _this.ord = rese.id;
                         _this.gtotal = _this.gettotal(_this.orders);
@@ -174,7 +175,7 @@ var CartPage = /** @class */ (function () {
                     _this.presentAlert("No Internet Connection!");
                 });
             }
-        }, function (err) {
+        }, function (error) {
             _this.loading.dismissAll();
             _this.presentAlert("No Internet Connection!");
         });
@@ -216,7 +217,7 @@ var CartPage = /** @class */ (function () {
                         header.append("Accept", "application/json");
                         header.append("Authorization", _this.GlobalvarsProvider.gettoken());
                         var option = new RequestOptions({ headers: header });
-                        _this.http.delete('http://api.riceupfarmers.org/api/cart/remove/' + ids, option)
+                        _this.http.delete('http://api.riceupfarmers.com/api/cart/remove/' + ids, option)
                             .map(function (response) { return response.json(); })
                             .subscribe(function (res) {
                             _this.navCtrl.setRoot(_this.navCtrl.getActive().component);
@@ -250,7 +251,7 @@ var CartPage = /** @class */ (function () {
                             header.append("Accept", "application/json");
                             header.append("Authorization", _this.GlobalvarsProvider.gettoken());
                             var option = new RequestOptions({ headers: header });
-                            _this.http.patch('http://api.riceupfarmers.org/api/order/checkout/' + _this.orderid + '?shipping_mode=0&order_status=1&remarks=', body, option)
+                            _this.http.patch('http://api.riceupfarmers.com/api/order/checkout/' + _this.orderid + '?shipping_mode=0&order_status=1&remarks=', body, option)
                                 .map(function (response) { return response.json(); })
                                 .subscribe(function (res) {
                                 // this.alertConfirm2(res.message);
@@ -282,7 +283,7 @@ var CartPage = /** @class */ (function () {
                     },
                     {
                         type: 'radio',
-                        label: 'Shipping',
+                        label: 'Delivery',
                         value: 'ship'
                     }
                 ],

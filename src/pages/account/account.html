@@ -10,12 +10,12 @@
 </ion-header>
 
 <ion-content class="broker">
-    <ion-fab top right edge>
+    <ion-fab right edge style="top:0">
     <button ion-fab mini  style="background-color: #f4f4f4;color:#212121;"><ion-icon name="md-settings" >
     </ion-icon>
                     
     </button>
-                    <ion-select  [(ngModel)]="option"  (ionChange)="onSelectChange($event)" style="width: 0 !important">
+                    <ion-select  [(ngModel)]="option" (ionChange)="onSelectChange($event)" style="width: 0 !important">
                       <ion-option value="a1">Update Account</ion-option>
                       <ion-option value="a2">Change Picture</ion-option>
                       <ion-option value="a3">Change Password</ion-option>   

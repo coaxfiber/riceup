@@ -43,15 +43,6 @@ var WelcomePage = /** @class */ (function () {
         this.http = http;
         this.counter = 0;
         this.data = {};
-        storage.get('username').then(function (val) {
-            _this.form.value.name.uname = val;
-            storage.get('password').then(function (val2) {
-                _this.form.value.name.pw = val2;
-                if (val2 != null && val2 != undefined && val2 != '') {
-                    _this.calltologin();
-                }
-            });
-        });
         platform.ready().then(function () {
             statusBar.styleDefault();
             splashScreen.hide();
@@ -75,7 +66,6 @@ var WelcomePage = /** @class */ (function () {
                 pw: '',
             }),
         });
-        this.menu.enable(false);
     }
     WelcomePage.prototype.presentToast = function () {
         var toast = this.toast.create({
@@ -105,7 +95,7 @@ var WelcomePage = /** @class */ (function () {
             var header = new Headers();
             header.append("Content-Type", "application/x-www-form-urlencoded");
             var option = new RequestOptions({ headers: header });
-            this.http.post('http://api.riceupfarmers.org/oauth/token', body, option)
+            this.http.post('http://api.riceupfarmers.com/oauth/token', body, option)
                 .map(function (response) { return response.json(); })
                 .subscribe(function (data) {
                 if (data.token_type != undefined) {
@@ -116,7 +106,7 @@ var WelcomePage = /** @class */ (function () {
                     header.append("Content-Type", "application/x-www-form-urlencoded");
                     header.append("Authorization", _this.GlobalvarsProvider.gettoken());
                     var option_1 = new RequestOptions({ headers: header });
-                    _this.http.get('http://api.riceupfarmers.org/api/user', option_1)
+                    _this.http.get('http://api.riceupfarmers.com/api/user', option_1)
                         .map(function (response) { return response.json(); })
                         .subscribe(function (data) {
                         _this.createUser(data);
@@ -128,6 +118,32 @@ var WelcomePage = /** @class */ (function () {
                     _this.loading.dismissAll();
                     _this.storage.set('username', _this.form.value.name.uname);
                     _this.storage.set('password', _this.form.value.name.pw);
+                    var urlSearchParams_1 = new URLSearchParams();
+                    urlSearchParams_1.append("passforpost", 'any');
+                    var body_1 = urlSearchParams_1.toString();
+                    var header = new Headers();
+                    header.append("Accept", "application/json");
+                    header.append("Authorization", _this.GlobalvarsProvider.gettoken());
+                    var option2_1 = new RequestOptions({ headers: header });
+                    _this.storage.get('shipaddress').then(function (val2) {
+                        if (val2 != null && val2 != undefined && val2 != '') {
+                            _this.GlobalvarsProvider.activeaddressaddress = val2;
+                            _this.storage.get('shipmobile').then(function (value) {
+                                _this.GlobalvarsProvider.activeaddressmobile = value;
+                            });
+                        }
+                        else {
+                            _this.http.get('http://api.riceupfarmers.com/api/shippingdetails/', option2_1)
+                                .map(function (response) { return response.json(); })
+                                .subscribe(function (res) {
+                                _this.GlobalvarsProvider.activeaddressaddress = res[0].shipping_address;
+                                _this.GlobalvarsProvider.activeaddressmobile = res[0].mobile_no;
+                            }, function (Error) {
+                                console.log(Error);
+                                _this.presentAlert("No Internet Connection!");
+                            });
+                        }
+                    });
                     _this.navCtrl.setRoot(PropertyListPage);
                 }
                 else
@@ -164,7 +180,7 @@ var WelcomePage = /** @class */ (function () {
             var header = new Headers();
             header.append("Content-Type", "application/x-www-form-urlencoded");
             var option = new RequestOptions({ headers: header });
-            this.http.post('http://api.riceupfarmers.org/oauth/token', body, option)
+            this.http.post('http://api.riceupfarmers.com/oauth/token', body, option)
                 .map(function (response) { return response.json(); })
                 .subscribe(function (data) {
                 if (data.token_type != undefined) {
@@ -175,7 +191,7 @@ var WelcomePage = /** @class */ (function () {
                     header.append("Content-Type", "application/x-www-form-urlencoded");
                     header.append("Authorization", _this.GlobalvarsProvider.gettoken());
                     var option_2 = new RequestOptions({ headers: header });
-                    _this.http.get('http://api.riceupfarmers.org/api/user', option_2)
+                    _this.http.get('http://api.riceupfarmers.com/api/user', option_2)
                         .map(function (response) { return response.json(); })
                         .subscribe(function (data) {
                         _this.createUser(data);
@@ -225,7 +241,7 @@ export { WelcomePage };
 /*
         if (this.form.value.name.uname!=''&&this.form.value.name.pw!='') {
           
-         var link = 'http://riceupfarmers.org/oauth/token';
+         var link = 'http://riceupfarmers.com/oauth/token';
          var myData = JSON.stringify({grant_type:'password',client_id:'2',client_secret:'uzyd8xUn9UeaQaMB8hfghABzvAFJZE8Djc4JcJlu',usernamei:this.form.value.name.uname,passwowrd:this.form.value.name.pw,username:'windellevega',password:'pass123',scope:''});
       
         let headers = new Headers(

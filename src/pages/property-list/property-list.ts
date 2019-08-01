@@ -39,7 +39,7 @@ today: string ;
                 header.append("Authorization",this.GlobalvarsProvider.gettoken());
               
         let option = new RequestOptions({ headers: header });
-        this.http.get('http://api.riceupfarmers.org/api/products',option)
+        this.http.get('http://api.riceupfarmers.com/api/products',option)
           .map(response => response.json())
           .subscribe(res => {
               
@@ -113,7 +113,22 @@ today: string ;
             .catch(error => alert(error));
     }
 
-    
+    cheapest(){
+       this.properties = this.properties.sort((a, b) => (a.price_per_unit > b.price_per_unit) ? 1 : -1)
+    }
+    newest(){
+       this.properties = this.properties.sort((a, b) => (a.created_at < b.created_at) ? 1 : -1)
+      }
+    dynamicSort(property) {
+    var sortOrder = 1;
+    if(property[0] === "-") {
+        sortOrder = -1;
+        property = property.substr(1);
+    }
+    return function (a,b) {
+        var result = (a[property] < b[property]) ? -1 : (a[property] > b[property]) ? 1 : 0;
+        return result * sortOrder;
+    }
 
-
+}
 }

@@ -29,6 +29,7 @@ var PropertyDetailPage = /** @class */ (function () {
         this.quantity = 1;
         this.timee = Math.random();
         this.property = this.navParams.data;
+        console.log(this.property);
     }
     PropertyDetailPage.prototype.openBrokerDetail = function (broker) {
         this.navCtrl.push(BrokerDetailPage, broker);
@@ -36,7 +37,7 @@ var PropertyDetailPage = /** @class */ (function () {
     PropertyDetailPage.prototype.addtocart = function () {
         var _this = this;
         if (this.GlobalvarsProvider.username == 'guest') {
-            this.presentAlert("Add to cart function is disabled for the guest account");
+            this.presentAlert("Please Login!");
         }
         else {
             if (this.quantity >= 0 && this.quantity <= this.property.stocks_available) {
@@ -65,11 +66,11 @@ var PropertyDetailPage = /** @class */ (function () {
                         }
                         _this.presentAlert(data.message);
                         _this.loading.dismissAll();
-                    }, function (err) {
+                    }, function (error) {
                         _this.loading.dismissAll();
                         _this.presentAlert("No Internet Connection!");
                     });
-                }, function (err) {
+                }, function (error) {
                     _this.loading.dismissAll();
                     _this.presentAlert("No Internet Connection!");
                 });

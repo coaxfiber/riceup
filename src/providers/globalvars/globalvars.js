@@ -10,6 +10,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
+import { Storage } from '@ionic/storage';
 import { Headers, RequestOptions } from '@angular/http';
 /*
   Generated class for the GlobalvarsProvider provider.
@@ -18,8 +19,9 @@ import { Headers, RequestOptions } from '@angular/http';
   for more info on providers and Angular 2 DI.
 */
 var GlobalvarsProvider = /** @class */ (function () {
-    function GlobalvarsProvider(http) {
+    function GlobalvarsProvider(http, storage) {
         this.http = http;
+        this.storage = storage;
         this.grant_type = 'password';
         this.client_id = '2';
         this.client_secret = 'uzyd8xUn9UeaQaMB8hfghABzvAFJZE8Djc4JcJlu';
@@ -59,7 +61,7 @@ var GlobalvarsProvider = /** @class */ (function () {
         header.append("Content-Type", "application/x-www-form-urlencoded");
         header.append("Accept", "application/json");
         var option = new RequestOptions({ headers: header });
-        this.http.post('http://api.riceupfarmers.org/oauth/token', body, option)
+        this.http.post('http://api.riceupfarmers.com/oauth/token', body, option)
             .map(function (response) { return response.json(); })
             .subscribe(function (data) {
             _this.settoken(data.token_type + " " + data.access_token);
@@ -69,7 +71,7 @@ var GlobalvarsProvider = /** @class */ (function () {
     };
     GlobalvarsProvider = __decorate([
         Injectable(),
-        __metadata("design:paramtypes", [Http])
+        __metadata("design:paramtypes", [Http, Storage])
     ], GlobalvarsProvider);
     return GlobalvarsProvider;
 }());

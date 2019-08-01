@@ -52,7 +52,7 @@ export class SignupPage {
                   header.append("Content-Type", "application/x-www-form-urlencoded");
                   let option = new RequestOptions({ headers: header });
                                        
-              this.http.post('http://api.riceupfarmers.org/api/user/register?username='+this.form.value.name.username2+"&password="+this.form.value.name.password2+"&middlename="+this.form.value.name.middlename+"&firstname="+this.form.value.name.firstname+"&lastname="+this.form.value.name.lastname+"&address="+this.form.value.name.address+"&mobile_no="+this.form.value.name.mobilenumber+"&email="+this.form.value.name.email+"&is_farmer=0"+"&history=",body,option)
+              this.http.post('http://api.riceupfarmers.com/api/user/register?username='+this.form.value.name.username2+"&password="+this.form.value.name.password2+"&middlename="+this.form.value.name.middlename+"&firstname="+this.form.value.name.firstname+"&lastname="+this.form.value.name.lastname+"&address="+this.form.value.name.address+"&mobile_no="+this.form.value.name.mobilenumber+"&email="+this.form.value.name.email+"&is_farmer=0"+"&history=",body,option)
                 .map(response => response.json())
                 .subscribe(res => {
                    this.loading.dismissAll();

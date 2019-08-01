@@ -2,10 +2,13 @@
 
   <ion-content>
 
-        <ion-card-content class="mainfarmer">            
+        <ion-card-content class="mainfarmer"  *ngIf="farmer.username!='guest'">            
          <img src="http://riceupfarmers.org/wp-content/system/uploads/{{ farmer.id }}.jpg?{{timee}}"  onError="this.src='http://riceupfarmers.org/wp-content/system/user.jpg';" />
             <h2>{{farmer.lastname}}, {{farmer.firstname}} {{farmer.middlename}}</h2>
             <h3>{{farmer.business_name}}</h3>
+        </ion-card-content>
+        <ion-card-content class="mainfarmer"  *ngIf="farmer.username=='guest'">            
+         <img src="assets/img/logo.png"  />
         </ion-card-content>
    
     <ion-list>
@@ -29,13 +32,19 @@
       <ion-list-header>
         Account
       </ion-list-header>
+      <div *ngIf="farmer.username!='guest'">
       <button menuClose ion-item *ngFor="let menuItem of accountMenuItems" (click)="openPage(menuItem)">
         <ion-icon item-left [name]="menuItem.icon"></ion-icon>
         {{menuItem.title}}
       </button>
-      <button menuClose ion-item (click)="alertConfirm()">
+      </div>
+      <button menuClose ion-item (click)="alertConfirm()" *ngIf="farmer.username!='guest'">
         <ion-icon item-left  name="log-out"></ion-icon>
         Logout
+      </button>
+      <button menuClose ion-item (click)="login()" *ngIf="farmer.username==='guest'">
+        <ion-icon item-left  name="log-in"></ion-icon>
+        Login
       </button>
     </ion-list>
 

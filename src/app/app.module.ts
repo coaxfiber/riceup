@@ -55,6 +55,8 @@ import {DispatchPage} from '../pages/dispatch/dispatch';
 import { Network } from '@ionic-native/network';
 import { BackgroundMode } from '@ionic-native/background-mode';
 import { IonicStorageModule } from '@ionic/storage';
+import {SplashPage} from '../pages/splash/splash';
+import {ForgotPasswordPage} from '../pages/forgot-password/forgot-password';
 @NgModule({
   declarations: [
     MyApp,
@@ -65,7 +67,8 @@ import { IonicStorageModule } from '@ionic/storage';
     BrokerListPage,ProuductDetailPage,ChangepicPage,ProfpicPage,ProductonlyPage,
     BrokerDetailPage,AddproductPage,UserproductPage,OrderinfoPage,PrivacyPolicyPage,CartupdatePage,
     TermsandagreementPage,OrderListPage,CartPage,SignupPage,AccountPage,FarmerLocationPage,UpdateproductPage,
-    ShippingDetailsPage,ShippingDetailsUpdatePage,ShippingDetailsAddPage,TransactPackedPage,TransactionsPage
+    ShippingDetailsPage,ShippingDetailsUpdatePage,ShippingDetailsAddPage,TransactPackedPage,TransactionsPage,SplashPage,
+    ForgotPasswordPage
   ],
   imports: [
     BrowserModule,
@@ -82,7 +85,8 @@ import { IonicStorageModule } from '@ionic/storage';
     PropertyDetailPage,ChangepicPage,ProuductDetailPage,UpdateproductPage,ProfpicPage,TransacPage,
     BrokerListPage,AddproductPage,UserproductPage,OrderinfoPage,PrivacyPolicyPage,CartupdatePage,
     BrokerDetailPage,TermsandagreementPage,OrderListPage,CartPage,SignupPage,AccountPage,FarmerLocationPage,
-    ShippingDetailsPage,ShippingDetailsUpdatePage,ShippingDetailsAddPage,TransactPackedPage,TransactionsPage
+    ShippingDetailsPage,ShippingDetailsUpdatePage,ShippingDetailsAddPage,TransactPackedPage,TransactionsPage,SplashPage,
+    ForgotPasswordPage
   ],
   providers: [
     Transfer,

@@ -33,11 +33,12 @@ export class UpdateaccountPage {
    constructor(public events: Events,private http: Http,public loadingCtrl: LoadingController,private alertCtrl: AlertController,public navCtrl: NavController, public navParams: NavParams,public GlobalvarsProvider:GlobalvarsProvider,) {
   	
     this.user = this.GlobalvarsProvider.loggeduser;
+    console.log(this.user)
     this.isfarmer = this.user.is_farmer;
     this.test = this.user.is_farmer;
     this.tempuser = this.user;
-    this.user.address = this.GlobalvarsProvider.activeaddressaddress2;
-    this.user.mobile_no = this.GlobalvarsProvider.activeaddressmobile2;
+    this.user.address = this.GlobalvarsProvider.activeaddressaddress;
+    this.user.mobile_no = this.GlobalvarsProvider.activeaddressmobile;
   }
 shipdetails(){
         this.navCtrl.push(ShippingDetailsPage, {
@@ -56,7 +57,10 @@ shipdetails(){
       }
         
     }
-    
+    ionViewDidEnter(){
+    this.user.address = this.GlobalvarsProvider.activeaddressaddress;
+    this.user.mobile_no = this.GlobalvarsProvider.activeaddressmobile;
+    }
     showMap() {
       if (this.isfarmer==1) {
                     setTimeout(() => {
@@ -91,6 +95,7 @@ shipdetails(){
 					              .setContent("<b>Selected Location</b><br>Coordinates: <br>lat: " + e.latlng.lat.toString() +"<br>lng: "+ e.latlng.lng.toString())
 					              .openOn(this.map); 
 					                this.user.address_long =  e.latlng.lng;
+                          console.log(e.latlng.lng)
 					                this.user.address_lat =  e.latlng.lat;
 					                //console.log(this.form.value.name.title);
 					           });
@@ -104,6 +109,8 @@ shipdetails(){
 
         update2(){
         	if (this.user.firstname!='' && this.user.lastname!='' && this.user.address!='' && this.user.mobile_no!='' && this.user.email!='') {
+            if (this.user.address == '') {
+            }else{
         		this.loading = this.loadingCtrl.create({
               content: 'Updating Account Info...',
             });
@@ -117,20 +124,42 @@ shipdetails(){
                       header.append("Authorization",this.GlobalvarsProvider.gettoken());
                       this.user.is_farmer = this.isfarmer;
                       let option = new RequestOptions({ headers: header });
-                         
-                         this.http.patch('http://api.riceupfarmers.org/api/user/update?firstname='+this.user.firstname+'&middlename='+this.user.middlename+'&lastname='+this.user.lastname+'&address='+this.user.address+'&address_lat='+this.user.address_lat+'&address_long='+this.user.address_long+'&bus_name='+this.user.business_name+'&mobile_no='+this.user.mobile_no+'&email='+this.user.email+'&years_bus='+this.user.years_in_business+'&is_farmer='+this.isfarmer+'&history='+this.user.history+'&years_farm='+this.user.years_in_farming, body,option)
+                       
+                       if (this.user.address_lat==null) {
+                         this.user.address_long=0;
+                         this.user.address_lat=0;
+                         this.user.years_in_business=0;
+                         this.user.years_in_farming=0;
+                         this.user.business_name = ""
+                       }
+                       if (this.user.address_long==null) {
+                         // code...
+                       }
+
+                         this.http.patch('http://api.riceupfarmers.com/api/user/update?firstname='+
+                           this.user.firstname+'&middlename='+this.user.middlename+'&lastname='+this.user.lastname+
+                           '&address='+this.user.address+'&address_lat='+this.user.address_lat+
+                           '&address_long='+this.user.address_long+
+                           '&bus_name='+this.user.business_name+
+                           '&mobile_no='+this.user.mobile_no+'&email='+this.user.email+'&years_bus='+
+                           this.user.years_in_business+'&is_farmer='+this.isfarmer+'&history='+this.user.history+
+                           '&years_farm='+this.user.years_in_farming, body,option)
                          .map(response => response.json())
                         .subscribe(data => {
                     			this.loading.dismissAll();
-                          this.updateaddress();
                           this.GlobalvarsProvider.loggeduser=this.user;
                           this.presentConfirm(data.message);
                           this.createUser(this.isfarmer);
+                          if (this.GlobalvarsProvider.activeaddressid2!=undefined) {
+                            this.updateaddress();
+                          }
+                          console.log(data)
                        }, error => {
                          console.log(error);
                        		this.presentAlert("No Internet Connection!");
                   			this.loading.dismissAll();
                        });
+              }
         	}else
         	{    this.user = this.tempuser;
                 console.log(this.tempuser);
@@ -146,7 +175,7 @@ shipdetails(){
                     header.append("Authorization",this.GlobalvarsProvider.gettoken());
                 let option = new RequestOptions({ headers: header });
                
-                        this.http.patch('http://api.riceupfarmers.org/api/shippingdetail/'+this.GlobalvarsProvider.activeaddressid2,{
+                        this.http.patch('http://api.riceupfarmers.com/api/shippingdetail/'+this.GlobalvarsProvider.activeaddressid2,{
                           'address':this.user.address,
                           'address_lat':this.user.address_lat,
                           'address_long':this.user.address_long,
@@ -195,5 +224,9 @@ shipdetails(){
 			  });
 			  alert.present();
 			}
+
+      warn(){
+        this.presentAlert("tap the manage shipping button to manange shipping details.");
+      }
 
 }

@@ -13,7 +13,7 @@ properties: any;
                 header.append("Accept", "application/json");
                 header.append("Authorization",this.GlobalvarsProvider.gettoken());
         let option = new RequestOptions({ headers: header });
-        this.http.get('http://api.riceupfarmers.org/api/products',option)
+        this.http.get('http://api.riceupfarmers.com/api/products',option)
           .map(response => response.json())
           .subscribe(res => {
               this.properties = res;

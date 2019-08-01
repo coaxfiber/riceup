@@ -82,7 +82,7 @@ export class CartPage {
                         
                   let option = new RequestOptions({ headers: header });
         
-                this.http.patch('http://api.riceupfarmers.org/api/cart/update/'+pid+'?qty='+q,body,option)
+                this.http.patch('http://api.riceupfarmers.com/api/cart/update/'+pid+'?qty='+q,body,option)
                      .map(response => response.json())
                     .subscribe(data => {
                       this.loading.dismissAll();
@@ -114,7 +114,7 @@ export class CartPage {
                         
                   let option = new RequestOptions({ headers: header });
         
-                this.http.patch('http://api.riceupfarmers.org/api/cart/update/'+pid+'?qty='+q,body,option)
+                this.http.patch('http://api.riceupfarmers.com/api/cart/update/'+pid+'?qty='+q,body,option)
                      .map(response => response.json())
                     .subscribe(data => {
                       this.loading.dismissAll();
@@ -137,7 +137,7 @@ export class CartPage {
                   header.append("Accept", "application/json");
                   header.append("Authorization",this.GlobalvarsProvider.gettoken());
              let option = new RequestOptions({ headers: header });
-        this.http.post('http://api.riceupfarmers.org/api/order/new',body,option)
+        this.http.post('http://api.riceupfarmers.com/api/order/new',body,option)
           .map(response => response.json())
           .subscribe(res => {
                   if (res.order_number[0]==undefined) {
@@ -147,7 +147,7 @@ export class CartPage {
                   {
                     var g =res.order_number[0].id;
                   this.orderid = g;
-                     this.http.get('http://api.riceupfarmers.org/api/order/'+g,option)
+                     this.http.get('http://api.riceupfarmers.com/api/order/'+g,option)
                       .map(response => response.json())
                       .subscribe(rese => {
 
@@ -215,7 +215,7 @@ export class CartPage {
                   header.append("Authorization",this.GlobalvarsProvider.gettoken());
                     
               let option = new RequestOptions({ headers: header });
-              this.http.delete('http://api.riceupfarmers.org/api/cart/remove/'+ids,option)
+              this.http.delete('http://api.riceupfarmers.com/api/cart/remove/'+ids,option)
                 .map(response => response.json())
                 .subscribe(res => {
                   this.navCtrl.setRoot(this.navCtrl.getActive().component);
@@ -251,7 +251,7 @@ checkthisout() {
                     header.append("Authorization",this.GlobalvarsProvider.gettoken());
                 let option = new RequestOptions({ headers: header });
                
-                        this.http.patch('http://api.riceupfarmers.org/api/order/checkout/'+this.orderid+'?shipping_mode=0&order_status=1&remarks=',body,option)
+                        this.http.patch('http://api.riceupfarmers.com/api/order/checkout/'+this.orderid+'?shipping_mode=0&order_status=1&remarks=',body,option)
                           .map(response => response.json())
                           .subscribe(res => {
                            // this.alertConfirm2(res.message);
@@ -284,7 +284,7 @@ checkthisout() {
         },
         {
             type:'radio',
-            label:'Shipping',
+            label:'Delivery',
             value:'ship'
         }],
         buttons : [

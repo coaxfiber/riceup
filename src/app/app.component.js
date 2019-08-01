@@ -23,12 +23,13 @@ import { Events } from 'ionic-angular';
 import { UserproductPage } from '../pages/userproduct/userproduct';
 import { Http } from '@angular/http';
 import { AccountPage } from '../pages/account/account';
-import { TransacPage } from '../pages/transac/transac';
 import { PrivacyPolicyPage } from '../pages/privacy-policy/privacy-policy';
 import { AlertController, ToastController } from 'ionic-angular';
 import { Network } from '@ionic-native/network';
 import { BackgroundMode } from '@ionic-native/background-mode';
 import { Storage } from '@ionic/storage';
+import { TransactionsPage } from '../pages/transactions/transactions';
+import { SplashPage } from '../pages/splash/splash';
 var MyApp = /** @class */ (function () {
     function MyApp(storage, backgroundMode, network, toast, alertCtrl, http, events, platform, statusBar, splashScreen, GlobalvarsProvider) {
         var _this = this;
@@ -44,7 +45,7 @@ var MyApp = /** @class */ (function () {
         this.splashScreen = splashScreen;
         this.GlobalvarsProvider = GlobalvarsProvider;
         this.counter = 0;
-        this.rootPage = WelcomePage;
+        this.rootPage = SplashPage;
         this.name = null;
         this.group = null;
         this.timee = Math.random();
@@ -67,7 +68,7 @@ var MyApp = /** @class */ (function () {
                 _this.accountMenuItems = [
                     { title: 'My Account', component: AccountPage, icon: 'ios-contact' },
                     { title: 'My Products', component: UserproductPage, icon: 'archive' },
-                    { title: 'Transactions', component: TransacPage, icon: 'md-done-all' },
+                    { title: 'Transactions', component: TransactionsPage, icon: 'md-done-all' },
                 ];
             }
             else {
@@ -83,7 +84,7 @@ var MyApp = /** @class */ (function () {
                 _this.accountMenuItems = [
                     { title: 'My Account', component: AccountPage, icon: 'ios-contact' },
                     { title: 'My Products', component: UserproductPage, icon: 'archive' },
-                    { title: 'Transactions', component: TransacPage, icon: 'md-done-all' },
+                    { title: 'Transactions', component: TransactionsPage, icon: 'md-done-all' },
                 ];
             }
             else {
@@ -146,7 +147,11 @@ var MyApp = /** @class */ (function () {
         // Reset the content nav to have just this page
         // we wouldn't want the back button to show in this scenario
         this.GlobalvarsProvider.setcredentials();
+        console.log(page.title);
         this.nav.setRoot(page.component);
+    };
+    MyApp.prototype.login = function () {
+        this.nav.push(WelcomePage);
     };
     MyApp.prototype.alertConfirm = function () {
         var _this = this;
@@ -163,8 +168,11 @@ var MyApp = /** @class */ (function () {
                 {
                     text: 'Yes',
                     handler: function () {
-                        _this.nav.setRoot(WelcomePage);
-                        _this.storage.clear();
+                        _this.storage.set('username', null);
+                        _this.storage.set('password', null);
+                        _this.storage.set('shipaddress', null);
+                        _this.storage.set('shipmobile', null);
+                        _this.nav.setRoot(SplashPage);
                     }
                 }
             ]

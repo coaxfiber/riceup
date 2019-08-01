@@ -152,8 +152,8 @@ public uploadImage() {
      this.presentAlert("Image selection is required!");
   }else{
      var timeInMs = Date.now();
-     var url = 'http://riceupfarmers.org/wp-content/system/apiup.php?get='+this.form.value.name.pname+timeInMs;
-     //'http://api.riceupfarmers.org/api/product/add?name='+this.form.value.name.pname+'&desc='+this.form.value.name.desc+'&unit='+this.form.value.name.unit+'&price='+this.form.value.name.price+'&stocks='+this.form.value.name.stocks+'&harvest_date='+this.form.value.name.harvest_date;
+     var url = 'http://riceupfarmers.com/wp-content/system/apiup.php?get='+this.form.value.name.pname+timeInMs;
+     //'http://api.riceupfarmers.com/api/product/add?name='+this.form.value.name.pname+'&desc='+this.form.value.name.desc+'&unit='+this.form.value.name.unit+'&price='+this.form.value.name.price+'&stocks='+this.form.value.name.stocks+'&harvest_date='+this.form.value.name.harvest_date;
       // File for Upload
       var targetPath = this.pathForImage(this.lastImage);
      
@@ -180,8 +180,9 @@ public uploadImage() {
         this.loading.dismissAll();
         this.presentToast('product Added...');
         //start
-                 let urlSearchParams = new URLSearchParams();
+                let urlSearchParams = new URLSearchParams();
                     urlSearchParams.append("grant_type",this.GlobalvarsProvider.grant_type);
+                    urlSearchParams.append("desc",this.form.value.name.desc);
                   let body = urlSearchParams.toString()
                    var header = new Headers();
                       header.append("Accept", "application/json");
@@ -190,7 +191,7 @@ public uploadImage() {
                             
                       let option = new RequestOptions({ headers: header });
                                   
-                         this.http.post('http://api.riceupfarmers.org/api/product/add?photo_url='+this.form.value.name.pname+timeInMs+'&name='+this.form.value.name.pname+'&desc='+this.form.value.name.desc+'&unit='+this.form.value.name.unit+'&price='+this.form.value.name.price+'&stocks='+this.form.value.name.stocks+'&harvest_date='+this.form.value.name.harvest_date, body,option)
+                         this.http.post('http://api.riceupfarmers.com/api/product/add?photo_url='+this.form.value.name.pname+timeInMs+'&desc='+encodeURIComponent(this.form.value.name.desc)+'&name='+this.form.value.name.pname+'&unit='+this.form.value.name.unit+'&price='+this.form.value.name.price+'&stocks='+this.form.value.name.stocks+'&harvest_date='+this.form.value.name.harvest_date, {desc:this.form.value.name.desc},option)
                          .map(response => response.json())
                         .subscribe(data => {
                           this.presentAlert(data.message);

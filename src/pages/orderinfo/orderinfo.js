@@ -14,6 +14,7 @@ import { Http } from '@angular/http';
 import { GlobalvarsProvider } from '../../providers/globalvars/globalvars';
 import { Headers, RequestOptions } from '@angular/http';
 import { ProductonlyPage } from '../productonly/productonly';
+import { AlertController } from 'ionic-angular';
 /**
  * Generated class for the OrderinfoPage page.
  *
@@ -21,8 +22,8 @@ import { ProductonlyPage } from '../productonly/productonly';
  * on Ionic pages and navigation.
  */
 var OrderinfoPage = /** @class */ (function () {
-    function OrderinfoPage(loadingCtrl, GlobalvarsProvider, http, actionSheetCtrl, navCtrl, navParams, propertyService, toastCtrl) {
-        var _this = this;
+    function OrderinfoPage(alertCtrl, loadingCtrl, GlobalvarsProvider, http, actionSheetCtrl, navCtrl, navParams, propertyService, toastCtrl) {
+        this.alertCtrl = alertCtrl;
         this.loadingCtrl = loadingCtrl;
         this.GlobalvarsProvider = GlobalvarsProvider;
         this.http = http;
@@ -31,12 +32,18 @@ var OrderinfoPage = /** @class */ (function () {
         this.navParams = navParams;
         this.propertyService = propertyService;
         this.toastCtrl = toastCtrl;
+        this.orders = null;
+        this.address = null;
+        this.mobile = null;
+        this.order = this.navParams.data;
+        this.loadorders();
+    }
+    OrderinfoPage.prototype.loadorders = function () {
+        var _this = this;
         this.loading = this.loadingCtrl.create({
             content: 'Loading Orders...',
         });
         this.loading.present();
-        this.address = this.GlobalvarsProvider.loggeduser.address;
-        this.order = this.navParams.data;
         var header = new Headers();
         header.append("Accept", "application/json");
         header.append("Authorization", this.GlobalvarsProvider.gettoken());
@@ -44,16 +51,34 @@ var OrderinfoPage = /** @class */ (function () {
         this.http.get('http://api.riceupfarmers.org/api/order/' + this.order, option)
             .map(function (response) { return response.json(); })
             .subscribe(function (rese) {
+            console.log(rese);
             _this.orderno = rese.order_number;
+            _this.sdid = rese.sd_id;
             _this.s = rese.mode_of_shipping;
             _this.orders = rese.product_order;
             _this.gtotal = _this.gettotal(_this.orders);
             _this.gtotal = "P" + _this.gtotal;
-            _this.loading.dismissAll();
+            if (_this.s == 1) {
+                var header = new Headers();
+                header.append("Accept", "application/json");
+                header.append("Authorization", _this.GlobalvarsProvider.gettoken());
+                var option2 = new RequestOptions({ headers: header });
+                _this.http.get('http://api.riceupfarmers.org/api/shippingdetail/' + _this.sdid, option2)
+                    .map(function (response) { return response.json(); })
+                    .subscribe(function (rese) {
+                    console.log(rese);
+                    _this.address = rese[0].shipping_address;
+                    _this.mobile = rese[0].mobile_no;
+                    _this.loading.dismissAll();
+                }, function (error) {
+                    _this.loading.dismissAll();
+                });
+                // code...
+            }
         }, function (error) {
             _this.loading.dismissAll();
         });
-    }
+    };
     OrderinfoPage.prototype.gettotal = function (gett) {
         var total = 0;
         for (var i = 0; i < gett.length; i++) {
@@ -64,12 +89,68 @@ var OrderinfoPage = /** @class */ (function () {
     OrderinfoPage.prototype.prod = function (property) {
         this.navCtrl.push(ProductonlyPage, property);
     };
+    OrderinfoPage.prototype.cancelprod = function (ids) {
+        var _this = this;
+        var alert = this.alertCtrl.create({
+            title: 'Confirm Remove',
+            message: 'Are you sure you want to cancel this ordered product?',
+            buttons: [
+                {
+                    text: 'Cancel',
+                    role: 'cancel',
+                    handler: function () {
+                    }
+                },
+                {
+                    text: 'Confirm',
+                    handler: function () {
+                        _this.loading = _this.loadingCtrl.create({
+                            content: 'Canceling...',
+                        });
+                        _this.loading.present();
+                        var urlSearchParams = new URLSearchParams();
+                        urlSearchParams.append("grant_type", _this.GlobalvarsProvider.grant_type);
+                        var body = urlSearchParams.toString();
+                        var header = new Headers();
+                        header.append("Accept", "application/json");
+                        header.append("Content-Type", "application/x-www-form-urlencoded");
+                        header.append("Authorization", _this.GlobalvarsProvider.gettoken());
+                        var option = new RequestOptions({ headers: header });
+                        _this.http.patch('http://api.riceupfarmers.org/api/product/cancel/' + ids, body, option)
+                            .map(function (response) { return response.json(); })
+                            .subscribe(function (data) {
+                            if (data.message != undefined) {
+                                _this.presentAlert(data.message);
+                                _this.loadorders();
+                            }
+                            else {
+                                _this.presentAlert("Something went wrong!");
+                            }
+                            _this.loading.dismissAll();
+                        }, function (Error) {
+                            _this.presentAlert("No Internet Connection!");
+                            _this.loading.dismissAll();
+                        });
+                    }
+                }
+            ]
+        });
+        alert.present();
+    };
+    OrderinfoPage.prototype.presentAlert = function (val) {
+        var alert = this.alertCtrl.create({
+            title: 'Alert',
+            subTitle: val,
+            buttons: ['Dismiss']
+        });
+        alert.present();
+    };
     OrderinfoPage = __decorate([
         Component({
             selector: 'page-orderinfo',
             templateUrl: 'orderinfo.html',
         }),
-        __metadata("design:paramtypes", [LoadingController, GlobalvarsProvider, Http, ActionSheetController, NavController, NavParams, PropertyService, ToastController])
+        __metadata("design:paramtypes", [AlertController, LoadingController, GlobalvarsProvider, Http, ActionSheetController, NavController, NavParams, PropertyService, ToastController])
     ], OrderinfoPage);
     return OrderinfoPage;
 }());

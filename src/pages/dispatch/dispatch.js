@@ -9,7 +9,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import { TransacPage } from '../transac/transac';
+import { TransactionsPage } from '../transactions/transactions';
 import { Headers, RequestOptions } from '@angular/http';
 import { LoadingController } from 'ionic-angular';
 import { Http } from '@angular/http';
@@ -31,6 +31,13 @@ var DispatchPage = /** @class */ (function () {
         this.navParams = navParams;
         this.timee = Math.random();
         this.dis = this.navParams.data;
+        this.shipadd = 'forpickup';
+        this.contact = 'forpickup';
+        console.log(this.dis);
+        if (this.dis.order.mode_of_shipping == 1) {
+            this.shipadd = this.dis.order.shipping_detail.shipping_address;
+            this.contact = this.dis.order.shipping_detail.mobile_no;
+        }
     }
     DispatchPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad DispatchPage');
@@ -59,7 +66,37 @@ var DispatchPage = /** @class */ (function () {
                 _this.presentAlert("Something went wrong!");
             }
             _this.loading.dismissAll();
-            _this.navCtrl.setRoot(TransacPage);
+            _this.navCtrl.setRoot(TransactionsPage);
+        }, function (Error) {
+            _this.presentAlert("No Internet Connection!");
+            _this.loading.dismissAll();
+        });
+    };
+    DispatchPage.prototype.pack = function (id) {
+        var _this = this;
+        this.loading = this.loadingCtrl.create({
+            content: 'Changing Status...',
+        });
+        this.loading.present();
+        var urlSearchParams = new URLSearchParams();
+        urlSearchParams.append("grant_type", this.GlobalvarsProvider.grant_type);
+        var body = urlSearchParams.toString();
+        var header = new Headers();
+        header.append("Accept", "application/json");
+        header.append("Content-Type", "application/x-www-form-urlencoded");
+        header.append("Authorization", this.GlobalvarsProvider.gettoken());
+        var option = new RequestOptions({ headers: header });
+        this.http.patch('http://api.riceupfarmers.org/api/product/dispatch/' + id, body, option)
+            .map(function (response) { return response.json(); })
+            .subscribe(function (data) {
+            if (data.message != undefined) {
+                _this.presentAlert(data.message);
+            }
+            else {
+                _this.presentAlert("Something went wrong!");
+            }
+            _this.loading.dismissAll();
+            _this.navCtrl.setRoot(TransactionsPage);
         }, function (Error) {
             _this.presentAlert("No Internet Connection!");
             _this.loading.dismissAll();

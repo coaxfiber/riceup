@@ -65,12 +65,12 @@ var TransacPage = /** @class */ (function () {
         header.append("Accept", "application/json");
         header.append("Authorization", this.GlobalvarsProvider.gettoken());
         var option = new RequestOptions({ headers: header });
-        this.http.get('http://api.riceupfarmers.org/api/fordispatch', option)
+        this.http.get('http://api.riceupfarmers.org/api/ordersperfarmer/', option)
             .map(function (response) { return response.json(); })
             .subscribe(function (res) {
             if (res.message == undefined) {
-                console.log(res);
                 _this.orders = res;
+                console.log(res);
             }
             else {
                 _this.presentAlert(res.message);
@@ -90,7 +90,6 @@ var TransacPage = /** @class */ (function () {
         toast.present();
     };
     TransacPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad TransacPage');
     };
     TransacPage.prototype.presentAlert = function (val) {
         var alert = this.alertCtrl.create({

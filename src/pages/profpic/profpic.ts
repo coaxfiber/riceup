@@ -136,7 +136,7 @@ public testform() {
   if (this.lastImage==null) {
      this.presentAlert("Image selection is required!");
   }else{
-     var url = 'http://riceupfarmers.org/wp-content/system/uploadpro.php?get='+this.url;
+     var url = 'https://riceupfarmers.com/wp-content/system/uploadpro.php?get='+this.url;
      //'http://api.riceupfarmers.org/api/product/add?name='+this.form.value.name.pname+'&desc='+this.form.value.name.desc+'&unit='+this.form.value.name.unit+'&price='+this.form.value.name.price+'&stocks='+this.form.value.name.stocks+'&harvest_date='+this.form.value.name.harvest_date;
       // File for Upload
       var targetPath = this.pathForImage(this.lastImage);

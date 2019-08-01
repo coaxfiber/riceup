@@ -95,7 +95,7 @@ var UserproductPage = /** @class */ (function () {
         var _this = this;
         var alert = this.alertCtrl.create({
             title: 'Confirm Remove',
-            message: 'Are you sure you want to remove the your Product?',
+            message: 'Are you sure you want to remove your Product?',
             buttons: [
                 {
                     text: 'Cancel',

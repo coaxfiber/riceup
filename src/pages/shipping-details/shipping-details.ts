@@ -18,6 +18,7 @@ import { ToastController } from 'ionic-angular';
 import {ShippingDetailsAddPage} from '../shipping-details-add/shipping-details-add';
 
 import {ShippingDetailsUpdatePage} from '../shipping-details-update/shipping-details-update';
+import { Storage } from '@ionic/storage';
 /**
  * Generated class for the ShippingDetailsPage page.
  *
@@ -33,18 +34,17 @@ export class ShippingDetailsPage {
 	shipd:any;
 	pushPage: any;
   cart:any;
-  constructor(public platform: Platform,public statusBar: StatusBar, public splashScreen: SplashScreen,private toast: ToastController,private alertCtrl: AlertController, public loadingCtrl: LoadingController,public GlobalvarsProvider:GlobalvarsProvider, public navParams: NavParams,private http: Http,private menu : MenuController,public navCtrl: NavController,  public config: Config) {
+  constructor(private storage: Storage,public platform: Platform,public statusBar: StatusBar, public splashScreen: SplashScreen,private toast: ToastController,private alertCtrl: AlertController, public loadingCtrl: LoadingController,public GlobalvarsProvider:GlobalvarsProvider, public navParams: NavParams,private http: Http,private menu : MenuController,public navCtrl: NavController,  public config: Config) {
         this.pushPage = ShippingDetailsAddPage;
-        this.GlobalvarsProvider.activeaddressid = this.navParams.get("id");
-        this.GlobalvarsProvider.activeaddressaddress = this.navParams.get("address");
-        this.GlobalvarsProvider.activeaddressmobile = this.navParams.get("mobile");
   }
 
   select(id,address,mobile) {
-        this.GlobalvarsProvider.activeaddressid = id;
+        this.storage.set('shipaddress', address);
+        this.storage.set('shipmobile', mobile);
         this.GlobalvarsProvider.activeaddressaddress = address;
         this.GlobalvarsProvider.activeaddressmobile = mobile;
         this.navCtrl.pop();
+
     }
     
   openPropertyDetail(property: any) {
@@ -64,7 +64,7 @@ export class ShippingDetailsPage {
                     header.append("Authorization",this.GlobalvarsProvider.gettoken());
                 let option = new RequestOptions({ headers: header });
                
-                        this.http.get('http://api.riceupfarmers.org/api/shippingdetails/',option)
+                        this.http.get('http://api.riceupfarmers.com/api/shippingdetails/',option)
                           .map(response => response.json())
                           .subscribe(res => {
                             console.log(res);
@@ -105,10 +105,10 @@ export class ShippingDetailsPage {
                   header.append("Authorization",this.GlobalvarsProvider.gettoken());
                     
               let option = new RequestOptions({ headers: header });
-              this.http.delete('http://api.riceupfarmers.org/api/shippingdetail/'+ids,option)
+              this.http.delete('http://api.riceupfarmers.com/api/shippingdetail/'+ids,option)
                 .map(response => response.json())
                 .subscribe(res => {
-                  this.presentAlert('Product Deleted!');
+                  this.presentAlert('Deleted!');
                   this.navCtrl.setRoot(this.navCtrl.getActive().component);
                 });
             }

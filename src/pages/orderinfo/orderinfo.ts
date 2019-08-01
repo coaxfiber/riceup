@@ -42,7 +42,7 @@ loadorders(){
                   header.append("Accept", "application/json");
                   header.append("Authorization",this.GlobalvarsProvider.gettoken());
         let option = new RequestOptions({ headers: header });
-        this.http.get('http://api.riceupfarmers.org/api/order/'+this.order,option)
+        this.http.get('http://api.riceupfarmers.com/api/order/'+this.order,option)
               .map(response => response.json())
               .subscribe(rese => {
                 console.log(rese)
@@ -58,7 +58,7 @@ loadorders(){
                             header.append("Accept", "application/json");
                             header.append("Authorization",this.GlobalvarsProvider.gettoken());
                   let option2 = new RequestOptions({ headers: header });
-                  this.http.get('http://api.riceupfarmers.org/api/shippingdetail/'+this.sdid,option2)
+                  this.http.get('http://api.riceupfarmers.com/api/shippingdetail/'+this.sdid,option2)
                         .map(response => response.json())
                         .subscribe(rese => {
                          console.log(rese);
@@ -116,7 +116,7 @@ loadorders(){
                         
                   let option = new RequestOptions({ headers: header });
                   
-                this.http.patch('http://api.riceupfarmers.org/api/product/cancel/'+ids,body,option)
+                this.http.patch('http://api.riceupfarmers.com/api/product/cancel/'+ids,body,option)
                      .map(response => response.json())
                     .subscribe(data => {
                       if (data.message!=undefined) {

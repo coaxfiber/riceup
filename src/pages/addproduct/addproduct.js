@@ -108,7 +108,7 @@ var AddproductPage = /** @class */ (function () {
                 var correctPath = imagePath.substr(0, imagePath.lastIndexOf('/') + 1);
                 _this.copyFileToLocalDir(correctPath, currentName, _this.createFileName());
             }
-        }, function (err) {
+        }, function (error) {
             _this.presentToast('Error while selecting image.');
         });
     };
@@ -152,8 +152,8 @@ var AddproductPage = /** @class */ (function () {
             }
             else {
                 var timeInMs = Date.now();
-                var url = 'http://riceupfarmers.org/wp-content/system/apiup.php?get=' + this.form.value.name.pname + timeInMs;
-                //'http://api.riceupfarmers.org/api/product/add?name='+this.form.value.name.pname+'&desc='+this.form.value.name.desc+'&unit='+this.form.value.name.unit+'&price='+this.form.value.name.price+'&stocks='+this.form.value.name.stocks+'&harvest_date='+this.form.value.name.harvest_date;
+                var url = 'http://riceupfarmers.com/wp-content/system/apiup.php?get=' + this.form.value.name.pname + timeInMs;
+                //'http://api.riceupfarmers.com/api/product/add?name='+this.form.value.name.pname+'&desc='+this.form.value.name.desc+'&unit='+this.form.value.name.unit+'&price='+this.form.value.name.price+'&stocks='+this.form.value.name.stocks+'&harvest_date='+this.form.value.name.harvest_date;
                 // File for Upload
                 var targetPath = this.pathForImage(this.lastImage);
                 // File name only
@@ -177,13 +177,14 @@ var AddproductPage = /** @class */ (function () {
                     //start
                     var urlSearchParams = new URLSearchParams();
                     urlSearchParams.append("grant_type", _this.GlobalvarsProvider.grant_type);
+                    urlSearchParams.append("desc", _this.form.value.name.desc);
                     var body = urlSearchParams.toString();
                     var header = new Headers();
                     header.append("Accept", "application/json");
                     header.append("Content-Type", "application/x-www-form-urlencoded");
                     header.append("Authorization", _this.GlobalvarsProvider.gettoken());
                     var option = new RequestOptions({ headers: header });
-                    _this.http.post('http://api.riceupfarmers.org/api/product/add?photo_url=' + _this.form.value.name.pname + timeInMs + '&name=' + _this.form.value.name.pname + '&desc=' + _this.form.value.name.desc + '&unit=' + _this.form.value.name.unit + '&price=' + _this.form.value.name.price + '&stocks=' + _this.form.value.name.stocks + '&harvest_date=' + _this.form.value.name.harvest_date, body, option)
+                    _this.http.post('http://api.riceupfarmers.com/api/product/add?photo_url=' + _this.form.value.name.pname + timeInMs + '&desc=' + encodeURIComponent(_this.form.value.name.desc) + '&name=' + _this.form.value.name.pname + '&unit=' + _this.form.value.name.unit + '&price=' + _this.form.value.name.price + '&stocks=' + _this.form.value.name.stocks + '&harvest_date=' + _this.form.value.name.harvest_date, { desc: _this.form.value.name.desc }, option)
                         .map(function (response) { return response.json(); })
                         .subscribe(function (data) {
                         _this.presentAlert(data.message);
@@ -191,7 +192,7 @@ var AddproductPage = /** @class */ (function () {
                     });
                     //end
                     _this.form.reset();
-                }, function (err) {
+                }, function (error) {
                     _this.loading.dismissAll();
                     _this.presentToast('Error while uploading file.');
                 });

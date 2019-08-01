@@ -50,7 +50,7 @@ export class ShippingDetailsAddPage {
                     header.append("Authorization",this.GlobalvarsProvider.gettoken());
                 let option = new RequestOptions({ headers: header });
                
-                        this.http.post('http://api.riceupfarmers.org/api/shippingdetail',{'address':this.address,'mobile_no':this.mobile_no},option)
+                        this.http.post('http://api.riceupfarmers.com/api/shippingdetail',{'address':this.address,'mobile_no':this.mobile_no},option)
                           .map(response => response.json())
                           .subscribe(res => {
                              this.presentAlert(res.message); 

@@ -38,7 +38,7 @@ export class ShippingDetailsUpdatePage {
                     header.append("Authorization",this.GlobalvarsProvider.gettoken());
                 let option = new RequestOptions({ headers: header });
                
-                        this.http.patch('http://api.riceupfarmers.org/api/shippingdetail/'+this.address.id,{'address':this.address.shipping_address,'mobile_no':this.address.mobile_no},option)
+                        this.http.patch('http://api.riceupfarmers.com/api/shippingdetail/'+this.address.id,{'address':this.address.shipping_address,'mobile_no':this.address.mobile_no},option)
                           .map(response => response.json())
                           .subscribe(res => {
                              this.presentAlert(res.message); 

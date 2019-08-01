@@ -62,7 +62,7 @@ export class PickupPage {
                     header.append("Authorization",this.GlobalvarsProvider.gettoken());
                 let option = new RequestOptions({ headers: header });
                
-                        this.http.patch('http://api.riceupfarmers.org/api/order/checkout/'+this.orderid+'?shipping_mode=0&order_status=1&remarks=',body,option)
+                        this.http.patch('http://api.riceupfarmers.com/api/order/checkout/'+this.orderid+'?shipping_mode=0&order_status=1&remarks=',body,option)
                           .map(response => response.json())
                           .subscribe(res => {
                            // this.alertConfirm2(res.message);

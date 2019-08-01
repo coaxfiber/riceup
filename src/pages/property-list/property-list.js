@@ -53,6 +53,7 @@ var PropertyListPage = /** @class */ (function () {
         this.http.get('http://api.riceupfarmers.org/api/products', option)
             .map(function (response) { return response.json(); })
             .subscribe(function (res) {
+            console.log(res);
             _this.loading.dismissAll();
             if ('2018-11-03' < _this.today) {
                 if (res.message == undefined) {
@@ -119,6 +120,23 @@ var PropertyListPage = /** @class */ (function () {
         this.service.findAll()
             .then(function (data) { return _this.properties = data; })
             .catch(function (error) { return alert(error); });
+    };
+    PropertyListPage.prototype.cheapest = function () {
+        this.properties = this.properties.sort(function (a, b) { return (a.price_per_unit > b.price_per_unit) ? 1 : -1; });
+    };
+    PropertyListPage.prototype.newest = function () {
+        this.properties = this.properties.sort(function (a, b) { return (a.created_at < b.created_at) ? 1 : -1; });
+    };
+    PropertyListPage.prototype.dynamicSort = function (property) {
+        var sortOrder = 1;
+        if (property[0] === "-") {
+            sortOrder = -1;
+            property = property.substr(1);
+        }
+        return function (a, b) {
+            var result = (a[property] < b[property]) ? -1 : (a[property] > b[property]) ? 1 : 0;
+            return result * sortOrder;
+        };
     };
     PropertyListPage = __decorate([
         Component({

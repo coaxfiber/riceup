@@ -28,7 +28,7 @@ export class PropertyDetailPage {
     addtocart(){
 
       if (this.GlobalvarsProvider.username == 'guest') {
-        this.presentAlert("Add to cart function is disabled for the guest account");
+        this.presentAlert("Please Login!");
       }else{
 
             if (this.quantity>=0&&this.quantity<=this.property.stocks_available) {
@@ -45,11 +45,11 @@ export class PropertyDetailPage {
                       header.append("Authorization",this.GlobalvarsProvider.gettoken());
                             
                       let option = new RequestOptions({ headers: header });
-                this.http.post('http://api.riceupfarmers.org/api/order/new',body ,option)
+                this.http.post('http://api.riceupfarmers.com/api/order/new',body ,option)
                   .map(response => response.json())
                   .subscribe(res => {
                     var g = res.order_number[0].id;
-                    this.http.post('http://api.riceupfarmers.org/api/cart/add?qty='+this.quantity+'&productid='+this.property.id+'&orderid='+g,body,option)
+                    this.http.post('http://api.riceupfarmers.com/api/cart/add?qty='+this.quantity+'&productid='+this.property.id+'&orderid='+g,body,option)
                          .map(response => response.json())
                         .subscribe(data => {
                           console.log(data);

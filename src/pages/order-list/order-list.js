@@ -74,7 +74,7 @@ var OrderListPage = /** @class */ (function () {
                 _this.presentAlert(res.message);
             }
             _this.loading.dismissAll();
-        }, function (err) {
+        }, function (error) {
             _this.presentAlert("No Internet Connection!");
             _this.loading.dismissAll();
         });

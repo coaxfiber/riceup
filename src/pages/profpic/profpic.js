@@ -99,7 +99,7 @@ var ProfpicPage = /** @class */ (function () {
                 var correctPath = imagePath.substr(0, imagePath.lastIndexOf('/') + 1);
                 _this.copyFileToLocalDir(correctPath, currentName, _this.createFileName());
             }
-        }, function (err) {
+        }, function (error) {
             _this.presentToast('Error while selecting image.');
         });
     };
