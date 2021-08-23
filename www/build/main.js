@@ -1,1 +1,5520 @@
-webpackJsonp([0],{212:function(l,n){function u(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}u.keys=function(){return[]},u.resolve=u,l.exports=u,u.id=212},220:function(l,n){function u(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}u.keys=function(){return[]},u.resolve=u,l.exports=u,u.id=220},253:function(l,n,u){"use strict";function t(l){return zl._23(0,[(l()(),zl.Z(0,null,null,10,"button",[["class","item item-block"],["ion-item",""],["menuClose",""]],null,[[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==zl._13(l,6).close()&&t}if("click"===n){t=!1!==e.openPage(l.context.$implicit)&&t}return t},vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,4,{contentLabel:0}),zl._19(301989888,5,{_buttons:1}),zl._19(301989888,6,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),zl.Y(8192,null,0,jt.a,[Qn.a],{menuClose:[0,"menuClose"]},null),(l()(),zl._21(2,["\n        "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[6,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n        ","\n      "]))],function(l,n){l(n,6,0,"");l(n,9,0,n.context.$implicit.icon)},function(l,n){l(n,8,0,zl._13(n,9)._hidden);l(n,10,0,n.context.$implicit.title)})}function e(l){return zl._23(0,[(l()(),zl.Z(0,null,null,10,"button",[["class","item item-block"],["ion-item",""],["menuClose",""]],null,[[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==zl._13(l,6).close()&&t}if("click"===n){t=!1!==e.openPage(l.context.$implicit)&&t}return t},vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,10,{contentLabel:0}),zl._19(301989888,11,{_buttons:1}),zl._19(301989888,12,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),zl.Y(8192,null,0,jt.a,[Qn.a],{menuClose:[0,"menuClose"]},null),(l()(),zl._21(2,["\n        "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[12,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n        ","\n      "]))],function(l,n){l(n,6,0,"");l(n,9,0,n.context.$implicit.icon)},function(l,n){l(n,8,0,zl._13(n,9)._hidden);l(n,10,0,n.context.$implicit.title)})}function a(l){return zl._23(0,[(l()(),zl.Z(0,null,null,10,"button",[["class","item item-block"],["ion-item",""],["menuClose",""]],null,[[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==zl._13(l,6).close()&&t}if("click"===n){t=!1!==e.openPage(l.context.$implicit)&&t}return t},vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,16,{contentLabel:0}),zl._19(301989888,17,{_buttons:1}),zl._19(301989888,18,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),zl.Y(8192,null,0,jt.a,[Qn.a],{menuClose:[0,"menuClose"]},null),(l()(),zl._21(2,["\n        "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[18,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n        ","\n      "]))],function(l,n){l(n,6,0,"");l(n,9,0,n.context.$implicit.icon)},function(l,n){l(n,8,0,zl._13(n,9)._hidden);l(n,10,0,n.context.$implicit.title)})}function i(l){return zl._23(0,[zl._19(201326592,1,{nav:0}),(l()(),zl.Z(0,null,null,70,"ion-menu",[["role","navigation"]],null,null,null,Pt.b,Pt.a)),zl.Y(122880,null,2,wt.a,[Qn.a,zl.j,Ct.a,Bt.a,zl.B,tt.a,zl.v,nu.l,Kn.a,lu.a],{content:[0,"content"]},null),zl._19(167772160,2,{menuContent:0}),zl._19(167772160,3,{menuNav:0}),zl._18(3072,null,At.a,null,[wt.a]),(l()(),zl._21(0,["\n\n  "])),(l()(),zl.Z(0,null,0,63,"ion-content",[],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,[[2,4]],0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n\n        "])),(l()(),zl.Z(0,null,1,10,"ion-card-content",[["class","mainfarmer"]],null,null,null,null,null)),zl.Y(8192,null,0,Ot.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["            \n         "])),(l()(),zl.Z(0,null,null,0,"img",[["onError","this.src='http://riceupfarmers.org/wp-content/system/user.jpg';"]],[[8,"src",4]],null,null,null,null)),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,1,"h2",[],null,null,null,null,null)),(l()(),zl._21(null,["",", "," ",""])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(null,["\n        "])),(l()(),zl._21(1,["\n   \n    "])),(l()(),zl.Z(0,null,1,5,"ion-list",[],null,null,null,null,null)),zl.Y(8192,null,0,Et.a,[Ct.a,zl.j,zl.B,Bt.a,nu.l,Kn.a],null,null),(l()(),zl._21(null,["\n      "])),(l()(),zl.V(8388608,null,null,1,null,t)),zl.Y(401408,null,0,Jn.i,[zl.J,zl.G,zl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),zl._21(null,["\n    "])),(l()(),zl._21(1,["\n\n    "])),(l()(),zl.Z(0,null,1,13,"ion-list",[],null,null,null,null,null)),zl.Y(8192,null,0,Et.a,[Ct.a,zl.j,zl.B,Bt.a,nu.l,Kn.a],null,null),(l()(),zl._21(null,["\n      "])),(l()(),zl.Z(0,null,null,6,"ion-list-header",[["class","item"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,7,{contentLabel:0}),zl._19(301989888,8,{_buttons:1}),zl._19(301989888,9,{_icons:1}),zl.Y(8192,null,0,Lt.a,[Ct.a,zl.B,zl.j,[8,null]],null,null),(l()(),zl._21(2,["\n        Help\n      "])),(l()(),zl._21(null,["\n      "])),(l()(),zl.V(8388608,null,null,1,null,e)),zl.Y(401408,null,0,Jn.i,[zl.J,zl.G,zl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),zl._21(null,["\n    "])),(l()(),zl._21(1,["\n\n    "])),(l()(),zl.Z(0,null,1,25,"ion-list",[],null,null,null,null,null)),zl.Y(8192,null,0,Et.a,[Ct.a,zl.j,zl.B,Bt.a,nu.l,Kn.a],null,null),(l()(),zl._21(null,["\n      "])),(l()(),zl.Z(0,null,null,6,"ion-list-header",[["class","item"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,13,{contentLabel:0}),zl._19(301989888,14,{_buttons:1}),zl._19(301989888,15,{_icons:1}),zl.Y(8192,null,0,Lt.a,[Ct.a,zl.B,zl.j,[8,null]],null,null),(l()(),zl._21(2,["\n        Account\n      "])),(l()(),zl._21(null,["\n      "])),(l()(),zl.V(8388608,null,null,1,null,a)),zl.Y(401408,null,0,Jn.i,[zl.J,zl.G,zl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),zl._21(null,["\n      "])),(l()(),zl.Z(0,null,null,10,"button",[["class","item item-block"],["ion-item",""],["menuClose",""]],null,[[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==zl._13(l,64).close()&&t}if("click"===n){t=!1!==e.alertConfirm()&&t}return t},vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,19,{contentLabel:0}),zl._19(301989888,20,{_buttons:1}),zl._19(301989888,21,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),zl.Y(8192,null,0,jt.a,[Qn.a],{menuClose:[0,"menuClose"]},null),(l()(),zl._21(2,["\n        "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","log-out"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[21,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n        Logout\n      "])),(l()(),zl._21(null,["\n    "])),(l()(),zl._21(1,["\n\n  "])),(l()(),zl._21(0,["\n\n"])),(l()(),zl._21(null,["\n\n"])),(l()(),zl._21(null,["\n"])),(l()(),zl.Z(0,null,null,2,"ion-nav",[["swipeBackEnabled","false"]],null,null,null,xt.b,xt.a)),zl.Y(2187264,[[1,4],["content",4]],0,Rt.a,[[2,It.a],[2,Mt.a],lu.a,Ct.a,Bt.a,tt.a,zl.j,zl.v,zl.B,zl.i,nu.l,ct.a,[2,Dt.a],Kn.a],{root:[0,"root"],swipeBackEnabled:[1,"swipeBackEnabled"]},null),zl._18(3072,null,At.a,null,[Rt.a]),(l()(),zl._21(null,["\n"]))],function(l,n){var u=n.component;l(n,2,0,zl._13(n,75));l(n,26,0,u.appMenuItems);l(n,41,0,u.helpMenuItems);l(n,56,0,u.accountMenuItems);l(n,64,0,"");l(n,67,0,"log-out");l(n,75,0,u.rootPage,"false")},function(l,n){var u=n.component;l(n,7,0,zl._13(n,8).statusbarPadding);l(n,13,0,zl._3(2,"http://riceupfarmers.org/wp-content/system/uploads/",u.farmer.id,".jpg?",u.timee,""));l(n,16,0,u.farmer.lastname,u.farmer.firstname,u.farmer.middlename);l(n,19,0,u.farmer.business_name);l(n,66,0,zl._13(n,67)._hidden)})}function o(l){return zl._23(0,[(l()(),zl._21(null,["\n\n"])),(l()(),zl.Z(0,null,null,98,"ion-content",[["class","login-content"],["padding",""]],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n     "])),(l()(),zl.Z(0,null,1,4,"div",[["text-center",""]],null,null,null,null,null)),(l()(),zl._21(null,["\n     "])),(l()(),zl.Z(0,null,null,1,"ion-img",[["height","180"],["src","assets/img/logo.png"],["width","180"]],null,null,null,Ft.b,Ft.a)),zl.Y(614400,null,0,Vt.a,[zl.j,zl.B,Bt.a,zl.v,[2,St.a],Kn.a],{src:[0,"src"],width:[1,"width"],height:[2,"height"]},null),(l()(),zl._21(null,["  \n     "])),(l()(),zl._21(1,["\n  "])),(l()(),zl.Z(0,null,1,88,"div",[["class","login-box"]],null,null,null,null,null)),(l()(),zl._21(null,["\n     "])),(l()(),zl.Z(0,null,null,85,"form",[["novalidate",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"submit"],[null,"reset"]],function(l,n,u){var t=!0;if("submit"===n){t=!1!==zl._13(l,14).onSubmit(u)&&t}if("reset"===n){t=!1!==zl._13(l,14).onReset()&&t}return t},null,null)),zl.Y(8192,null,0,Cn.q,[],null,null),zl.Y(270336,null,0,Cn.f,[[8,null],[8,null]],{form:[0,"form"]},null),zl._18(1024,null,Cn.b,null,[Cn.f]),zl.Y(8192,null,0,Cn.l,[Cn.b],null,null),(l()(),zl._21(null,["\n\n      "])),(l()(),zl.Z(0,null,null,44,"div",[["formGroupName","name"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,null,null)),zl.Y(106496,null,0,Cn.g,[[3,Cn.b],[8,null],[8,null]],{name:[0,"name"]},null),zl._18(1024,null,Cn.b,null,[Cn.g]),zl.Y(8192,null,0,Cn.l,[Cn.b],null,null),(l()(),zl._21(null,["\n      "])),(l()(),zl.Z(0,null,null,38,"ion-row",[["class","row"]],null,null,null,null,null)),zl.Y(8192,null,0,Ht.a,[],null,null),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,34,"ion-col",[["class","col"]],null,null,null,null,null)),zl.Y(8192,null,0,$t.a,[],null,null),(l()(),zl._21(null,["\n          "])),(l()(),zl.Z(0,null,null,30,"ion-list",[["inset",""]],null,null,null,null,null)),zl.Y(8192,null,0,Et.a,[Ct.a,zl.j,zl.B,Bt.a,nu.l,Kn.a],null,null),(l()(),zl._21(null,["\n            \n            "])),(l()(),zl.Z(0,null,null,12,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,1,{contentLabel:0}),zl._19(301989888,2,{_buttons:1}),zl._19(301989888,3,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n              "])),(l()(),zl.Z(0,null,3,4,"ion-input",[["formControlName","uname"],["name","uname"],["placeholder","Username"],["type","text"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,qt.b,qt.a)),zl.Y(335872,null,0,Cn.e,[[3,Cn.b],[8,null],[8,null],[8,null]],{name:[0,"name"]},null),zl._18(1024,null,Cn.j,null,[Cn.e]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],{placeholder:[0,"placeholder"],type:[1,"type"]},null),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n            \n            "])),(l()(),zl.Z(0,null,null,12,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,4,{contentLabel:0}),zl._19(301989888,5,{_buttons:1}),zl._19(301989888,6,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n              "])),(l()(),zl.Z(0,null,3,4,"ion-input",[["formControlName","pw"],["name","password"],["placeholder","Password"],["type","password"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,qt.b,qt.a)),zl.Y(335872,null,0,Cn.e,[[3,Cn.b],[8,null],[8,null],[8,null]],{name:[0,"name"]},null),zl._18(1024,null,Cn.j,null,[Cn.e]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],{placeholder:[0,"placeholder"],type:[1,"type"]},null),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n            \n          "])),(l()(),zl._21(null,["\n        "])),(l()(),zl._21(null,["\n      "])),(l()(),zl._21(null,["\n      "])),(l()(),zl._21(null,["\n      "])),(l()(),zl.Z(0,null,null,32,"ion-row",[["class","row"]],null,null,null,null,null)),zl.Y(8192,null,0,Ht.a,[],null,null),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,28,"ion-col",[["class","signup-col col"]],null,null,null,null,null)),zl.Y(8192,null,0,$t.a,[],null,null),(l()(),zl._21(null,["\n          "])),(l()(),zl.Z(0,null,null,2,"button",[["block",""],["class","submit-btn"],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.calltologin()&&t}return t},zt.b,zt.a)),zl.Y(548864,null,0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],{block:[0,"block"]},null),(l()(),zl._21(0,["Login"])),(l()(),zl._21(null,["\n          "])),(l()(),zl.Z(0,null,null,7,"div",[["text-center",""]],null,null,null,null,null)),(l()(),zl._21(null,["By clicking the login button, you agree to "])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,["the "])),(l()(),zl.Z(0,null,null,3,"a",[],[[1,"href",4]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==zl._13(l,79).onClick()&&t}return t},null,null)),zl.Y(8192,null,0,Xt.a,[[2,Mt.a]],{navPush:[0,"navPush"]},null),zl.Y(532480,null,0,Kt.a,[Xt.a,[2,Dt.a]],null,null),(l()(),zl._21(null,["terms and agreement"])),(l()(),zl._21(null,["\n          "])),(l()(),zl.Z(0,null,null,2,"ion-list",[],null,null,null,null,null)),zl.Y(8192,null,0,Et.a,[Ct.a,zl.j,zl.B,Bt.a,nu.l,Kn.a],null,null),(l()(),zl._21(null,["\n\n    "])),(l()(),zl._21(null,["\n          "])),(l()(),zl.Z(0,null,null,3,"button",[["block",""],["class","register-btn"],["clear",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==zl._13(l,89).onClick()&&t}return t},zt.b,zt.a)),zl.Y(548864,null,0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],{clear:[0,"clear"],block:[1,"block"]},null),zl.Y(8192,null,0,Xt.a,[[2,Mt.a]],{navPush:[0,"navPush"]},null),(l()(),zl._21(0,["Sign Up Here"])),(l()(),zl._21(null,["\n          "])),(l()(),zl.Z(0,null,null,2,"button",[["block",""],["class","register-btn"],["clear",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.guestlogin()&&t}return t},zt.b,zt.a)),zl.Y(548864,null,0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],{clear:[0,"clear"],block:[1,"block"]},null),(l()(),zl._21(0,["Log In As Guest"])),(l()(),zl._21(null,["\n        "])),(l()(),zl._21(null,["\n      "])),(l()(),zl._21(null,["\n      \n    "])),(l()(),zl._21(null,["\n  "])),(l()(),zl._21(1,["\n"]))],function(l,n){var u=n.component;l(n,7,0,"assets/img/logo.png","180","180");l(n,14,0,u.form);l(n,19,0,"name");l(n,40,0,"uname");l(n,43,0,"Username","text");l(n,54,0,"pw");l(n,57,0,"Password","password");l(n,71,0,"");l(n,79,0,u.pushPage);l(n,88,0,"","");l(n,89,0,u.login);l(n,93,0,"","")},function(l,n){l(n,1,0,zl._13(n,2).statusbarPadding);l(n,12,0,zl._13(n,16).ngClassUntouched,zl._13(n,16).ngClassTouched,zl._13(n,16).ngClassPristine,zl._13(n,16).ngClassDirty,zl._13(n,16).ngClassValid,zl._13(n,16).ngClassInvalid,zl._13(n,16).ngClassPending);l(n,18,0,zl._13(n,21).ngClassUntouched,zl._13(n,21).ngClassTouched,zl._13(n,21).ngClassPristine,zl._13(n,21).ngClassDirty,zl._13(n,21).ngClassValid,zl._13(n,21).ngClassInvalid,zl._13(n,21).ngClassPending);l(n,39,0,zl._13(n,42).ngClassUntouched,zl._13(n,42).ngClassTouched,zl._13(n,42).ngClassPristine,zl._13(n,42).ngClassDirty,zl._13(n,42).ngClassValid,zl._13(n,42).ngClassInvalid,zl._13(n,42).ngClassPending);l(n,53,0,zl._13(n,56).ngClassUntouched,zl._13(n,56).ngClassTouched,zl._13(n,56).ngClassPristine,zl._13(n,56).ngClassDirty,zl._13(n,56).ngClassValid,zl._13(n,56).ngClassInvalid,zl._13(n,56).ngClassPending);l(n,78,0,zl._13(n,80)._href)})}function r(l){return zl._23(0,[(l()(),zl.Z(0,null,null,20,"ion-header",[],null,null,null,null,null)),zl.Y(8192,null,0,ne.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n    "])),(l()(),zl.Z(0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ue.b,ue.a)),zl.Y(24576,null,0,te.a,[lu.a,[2,It.a],[2,Mt.a],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==zl._13(l,8).toggle()&&t}return t},zt.b,zt.a)),zl.Y(548864,[[1,4]],0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],null,null),zl.Y(532480,null,0,ee.a,[Qn.a,[2,It.a],[2,Jt.a],[2,te.a]],{menuToggle:[0,"menuToggle"]},null),zl.Y(8192,null,1,ae.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),zl._19(301989888,1,{_buttons:1}),(l()(),zl._21(0,["\n            "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(0,["\n        "])),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,3,2,"ion-title",[],null,null,null,oe.b,oe.a)),zl.Y(24576,null,0,re.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),(l()(),zl._21(0,["About"])),(l()(),zl._21(3,["\n    "])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(null,["\n\n"])),(l()(),zl.Z(0,null,null,22,"ion-content",[],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n\n    "])),(l()(),zl.Z(0,null,1,3,"div",[["class","about-header"]],null,null,null,null,null)),(l()(),zl._21(null,["\n        \n     "])),(l()(),zl.Z(0,null,null,0,"img",[["src","assets/img/logo.png"]],null,null,null,null,null)),(l()(),zl._21(null,["\n    "])),(l()(),zl._21(1,["\n\n    "])),(l()(),zl.Z(0,null,1,13,"div",[["class","about-info"],["padding",""]],null,null,null,null,null)),(l()(),zl._21(null,["\n\n        "])),(l()(),zl.Z(0,null,null,1,"h4",[],null,null,null,null,null)),(l()(),zl._21(null,["Rice Up Application"])),(l()(),zl._21(null,["\n\n        "])),(l()(),zl.Z(0,null,null,7,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["\n           "])),(l()(),zl.Z(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),zl._21(null,["Mission"])),(l()(),zl._21(null,["\nRiceUp was created in our desire to uplift the lives of our dear farmers through opening channels of learning opportunities and to create a fair competition in the agricultural enterprise among farmers, both rich and poor. "])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,["\n\nWe are harnessing technology to sustain and broaden the market and demand of local agricultural products. In line with that, we are also aiming to lessen the influence and intervention of abusive middlemen and intermediaries in the market. Through trainings and on-the-spot workshops or demo farms, farmers will learn how to successfully develop themselves and the sector which give them their livelihood.\n        "])),(l()(),zl._21(null,["\n\n    "])),(l()(),zl._21(1,["\n\n"])),(l()(),zl._21(null,["\n"]))],function(l,n){l(n,8,0,"");l(n,13,0,"menu")},function(l,n){l(n,3,0,zl._13(n,4)._hidden,zl._13(n,4)._sbPadding);l(n,6,0,zl._13(n,8).isHidden);l(n,12,0,zl._13(n,13)._hidden);l(n,22,0,zl._13(n,23).statusbarPadding)})}function s(l){return zl._23(0,[(l()(),zl.Z(0,null,null,3,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["  "])),(l()(),zl.Z(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),zl._21(null,["For Pick up"]))],null,null)}function c(l){return zl._23(0,[(l()(),zl.Z(0,null,null,3,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["  "])),(l()(),zl.Z(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),zl._21(null,["For Shipping"]))],null,null)}function _(l){return zl._23(0,[(l()(),zl.Z(0,null,null,7,"div",[],null,null,null,null,null)),(l()(),zl._21(null,["\n                "])),(l()(),zl.Z(0,null,null,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["  Address: ",""])),(l()(),zl._21(null,["\n                "])),(l()(),zl.Z(0,null,null,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["  Contact #: ",""])),(l()(),zl._21(null,["\n            "]))],null,function(l,n){var u=n.component;l(n,3,0,u.dis.order.shipping_detail.shipping_address);l(n,6,0,u.dis.order.shipping_detail.mobile_no)})}function p(l){return zl._23(0,[(l()(),zl.Z(0,null,null,2,"button",[["block",""],["class","submit-btn"],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==e.pack(e.dis.id)&&t}return t},zt.b,zt.a)),zl.Y(548864,null,0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],{block:[0,"block"]},null),(l()(),zl._21(0,["Pack"]))],function(l,n){l(n,1,0,"")},null)}function d(l){return zl._23(0,[(l()(),zl.Z(0,null,null,2,"button",[["block",""],["class","submit-btn"],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==e.dispatch(e.dis.id)&&t}return t},zt.b,zt.a)),zl.Y(548864,null,0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],{block:[0,"block"]},null),(l()(),zl._21(0,["Dispatch"]))],function(l,n){l(n,1,0,"")},null)}function h(l){return zl._23(0,[(l()(),zl._21(null,["\n"])),(l()(),zl.Z(0,null,null,10,"ion-header",[],null,null,null,null,null)),zl.Y(8192,null,0,ne.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n\n  "])),(l()(),zl.Z(0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ue.b,ue.a)),zl.Y(24576,null,0,te.a,[lu.a,[2,It.a],[2,Mt.a],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(3,["\n    "])),(l()(),zl.Z(0,null,3,2,"ion-title",[],null,null,null,oe.b,oe.a)),zl.Y(24576,null,0,re.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),(l()(),zl._21(0,["Ordered Product"])),(l()(),zl._21(3,["\n  "])),(l()(),zl._21(null,["\n\n"])),(l()(),zl._21(null,["\n\n"])),(l()(),zl.Z(0,null,null,164,"ion-content",[],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n\n"])),(l()(),zl.Z(0,null,1,100,"ion-list",[],null,null,null,null,null)),zl.Y(8192,null,0,Et.a,[Ct.a,zl.j,zl.B,Bt.a,nu.l,Kn.a],null,null),(l()(),zl._21(null,["\n\n        "])),(l()(),zl.Z(0,null,null,24,"ion-item-sliding",[],null,null,null,_e.b,_e.a)),zl.Y(24576,null,2,pe.c,[[2,Et.a],Bt.a,Kn.a,zl.B,zl.j,zl.v],null,null),zl._19(167772160,1,{item:0}),zl._19(301989888,2,{_itemOptions:1}),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,0,18,"button",[["class","item item-block"],["ion-item",""]],null,null,null,vt.b,vt.a)),zl.Y(548864,[[1,4]],3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,3,{contentLabel:0}),zl._19(301989888,4,{_buttons:1}),zl._19(301989888,5,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,4,"ion-thumbnail",[["item-left",""]],null,null,null,null,null)),zl.Y(8192,null,0,de.a,[],null,null),(l()(),zl._21(null,["\n                    "])),(l()(),zl.Z(0,null,null,0,"img",[["alt","loading..."],["onError","this.src='http://riceupfarmers.org/wp-content/system/product.jpg';"]],[[8,"src",4]],null,null,null,null)),(l()(),zl._21(null,["\n                "])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[["text-wrap",""]],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n        "])),(l()(),zl._21(null,["\n\n            "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,6,{contentLabel:0}),zl._19(301989888,7,{_buttons:1}),zl._19(301989888,8,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","ios-archive"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[8,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["Stocks"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,4,2,"ion-note",[["item-right",""]],null,null,null,null,null)),zl.Y(8192,null,0,he.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,9,{contentLabel:0}),zl._19(301989888,10,{_buttons:1}),zl._19(301989888,11,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","ios-clipboard"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[11,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["Unit Type"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,4,2,"ion-note",[["item-right",""]],null,null,null,null,null)),zl.Y(8192,null,0,he.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,12,{contentLabel:0}),zl._19(301989888,13,{_buttons:1}),zl._19(301989888,14,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","pricetag"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[14,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["Price Per Unit"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,4,2,"ion-note",[["item-right",""]],null,null,null,null,null)),zl.Y(8192,null,0,he.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,15,{contentLabel:0}),zl._19(301989888,16,{_buttons:1}),zl._19(301989888,17,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","md-calendar"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[17,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["Date of Harvest"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,4,2,"ion-note",[["item-right",""]],null,null,null,null,null)),zl.Y(8192,null,0,he.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n\n    "])),(l()(),zl._21(1,["\n    "])),(l()(),zl.Z(0,null,1,52,"ion-card",[],null,null,null,null,null)),zl.Y(8192,null,0,me.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["\n    \t"])),(l()(),zl.Z(0,null,null,23,"ion-item-sliding",[],null,null,null,_e.b,_e.a)),zl.Y(24576,null,2,pe.c,[[2,Et.a],Bt.a,Kn.a,zl.B,zl.j,zl.v],null,null),zl._19(167772160,18,{item:0}),zl._19(301989888,19,{_itemOptions:1}),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,0,17,"button",[["class","item item-block"],["ion-item",""]],null,null,null,vt.b,vt.a)),zl.Y(548864,[[18,4]],3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,20,{contentLabel:0}),zl._19(301989888,21,{_buttons:1}),zl._19(301989888,22,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,4,"ion-thumbnail",[["item-left",""]],null,null,null,null,null)),zl.Y(8192,null,0,de.a,[],null,null),(l()(),zl._21(null,["\n                    "])),(l()(),zl.Z(0,null,null,0,"img",[["alt","loading..."],["onError","this.src='http://riceupfarmers.org/wp-content/system/user.jpg';"]],[[8,"src",4]],null,null,null,null)),(l()(),zl._21(null,["\n                "])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,3,"h2",[["text-wrap",""]],null,null,null,null,null)),(l()(),zl._21(null,["Ordered By: "])),(l()(),zl.Z(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),zl._21(null,[""," "," ",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n        "])),(l()(),zl._21(null,["\n                "])),(l()(),zl.Z(0,null,null,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["  Order #: ",""])),(l()(),zl._21(null,["\n                "])),(l()(),zl.Z(0,null,null,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["  Price: P"," "])),(l()(),zl._21(null,["\n                "])),(l()(),zl.Z(0,null,null,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["  Quantity: "," "])),(l()(),zl._21(null,["\n                "])),(l()(),zl.Z(0,null,null,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["  Stocks available: "," "])),(l()(),zl._21(null,["\n    \t"])),(l()(),zl.V(8388608,null,null,1,null,s)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(null,["\n        "])),(l()(),zl.V(8388608,null,null,1,null,c)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(null,["\n            "])),(l()(),zl.V(8388608,null,null,1,null,_)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,1,"div",[["style","text-align: right;"]],null,null,null,null,null)),(l()(),zl._21(null,["\n\n                Total: P","  \n\n                "])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,["\n    "])),(l()(),zl._21(1,["\n\n        "])),(l()(),zl.V(8388608,null,1,1,null,p)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(1,["\n        "])),(l()(),zl.V(8388608,null,1,1,null,d)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(1,["\n"]))],function(l,n){var u=n.component;l(n,53,0,"ios-archive");l(n,71,0,"ios-clipboard");l(n,89,0,"pricetag");l(n,107,0,"md-calendar");l(n,159,0,0===u.dis.order.mode_of_shipping);l(n,162,0,1===u.dis.order.mode_of_shipping);l(n,165,0,1===u.dis.order.mode_of_shipping);l(n,173,0,0===u.dis.current_status.product_status);l(n,176,0,1===u.dis.current_status.product_status)},function(l,n){var u=n.component;l(n,4,0,zl._13(n,5)._hidden,zl._13(n,5)._sbPadding);l(n,13,0,zl._13(n,14).statusbarPadding);l(n,34,0,zl._3(2,"http://riceupfarmers.org/wp-content/system/uploads/s",u.dis.farmer_product.photo_url,".jpg?",u.timee,""));l(n,38,0,u.dis.farmer_product.product_name);l(n,41,0,u.dis.farmer_product.product_desc);l(n,52,0,zl._13(n,53)._hidden);l(n,60,0,u.dis.farmer_product.stocks_available);l(n,70,0,zl._13(n,71)._hidden);l(n,78,0,u.dis.farmer_product.unit_type);l(n,88,0,zl._13(n,89)._hidden);l(n,96,0,u.dis.farmer_product.price_per_unit);l(n,106,0,zl._13(n,107)._hidden);l(n,114,0,u.dis.farmer_product.date_of_harvest);l(n,136,0,zl._3(2,"http://riceupfarmers.org/wp-content/system/uploads/",u.dis.order.user.id,".jpg?",u.timee,""));l(n,142,0,u.dis.order.user.firstname,u.dis.order.user.middlename,u.dis.order.user.lastname);l(n,147,0,u.dis.order.order_number);l(n,150,0,u.dis.farmer_product.price_per_unit);l(n,153,0,u.dis.quantity);l(n,156,0,u.dis.farmer_product.stocks_available);l(n,168,0,u.dis.quantity*u.dis.farmer_product.price_per_unit)})}function m(l){return zl._23(0,[(l()(),zl.Z(0,null,null,24,"ion-item-sliding",[],null,null,null,_e.b,_e.a)),zl.Y(24576,null,2,pe.c,[[2,Et.a],Bt.a,Kn.a,zl.B,zl.j,zl.v],null,null),zl._19(167772160,2,{item:0}),zl._19(301989888,3,{_itemOptions:1}),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,0,18,"button",[["class","item item-block"],["ion-item",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.openPropertyDetail(l.context.$implicit)&&t}return t},vt.b,vt.a)),zl.Y(548864,[[2,4]],3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,4,{contentLabel:0}),zl._19(301989888,5,{_buttons:1}),zl._19(301989888,6,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,4,"ion-thumbnail",[["item-left",""]],null,null,null,null,null)),zl.Y(8192,null,0,de.a,[],null,null),(l()(),zl._21(null,["\n                    "])),(l()(),zl.Z(0,null,null,0,"img",[["alt","loading..."],["onError","this.src='http://riceupfarmers.org/wp-content/system/sproduct.jpg';"]],[[8,"src",4]],null,null,null,null)),(l()(),zl._21(null,["\n                "])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n        "]))],null,function(l,n){l(n,15,0,zl._3(2,"http://riceupfarmers.org/wp-content/system/uploads/s",n.context.$implicit.photo_url,".jpg?",n.component.timee,""));l(n,19,0,n.context.$implicit.product_name);l(n,22,0,n.context.$implicit.product_desc)})}function g(l){return zl._23(0,[(l()(),zl.Z(0,null,null,22,"ion-header",[],null,null,null,null,null)),zl.Y(8192,null,0,ne.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n\n    "])),(l()(),zl.Z(0,null,null,18,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ue.b,ue.a)),zl.Y(24576,null,0,te.a,[lu.a,[2,It.a],[2,Mt.a],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==zl._13(l,8).toggle()&&t}return t},zt.b,zt.a)),zl.Y(548864,[[1,4]],0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],null,null),zl.Y(532480,null,0,ee.a,[Qn.a,[2,It.a],[2,Jt.a],[2,te.a]],{menuToggle:[0,"menuToggle"]},null),zl.Y(8192,null,1,ae.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),zl._19(301989888,1,{_buttons:1}),(l()(),zl._21(0,["\n            "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(0,["\n        "])),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,3,4,"ion-searchbar",[],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null],[2,"searchbar-animated",null],[2,"searchbar-has-value",null],[2,"searchbar-active",null],[2,"searchbar-show-cancel",null],[2,"searchbar-left-aligned",null],[2,"searchbar-has-focus",null]],[[null,"ngModelChange"],[null,"ionInput"],[null,"ionCancel"]],function(l,n,u){var t=!0,e=l.component;if("ngModelChange"===n){t=!1!==(e.searchKey=u)&&t}if("ionInput"===n){t=!1!==e.onInput(u)&&t}if("ionCancel"===n){t=!1!==e.onCancel(u)&&t}return t},ve.b,ve.a)),zl.Y(335872,null,0,Cn.m,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),zl._18(1024,null,Cn.j,null,[Cn.m]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(581632,null,0,ye.a,[Ct.a,Bt.a,zl.j,zl.B,[2,Cn.j]],null,{ionInput:"ionInput",ionCancel:"ionCancel"}),(l()(),zl._21(3,["\n    "])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(null,["\n\n"])),(l()(),zl.Z(0,null,null,9,"ion-content",[["class","property-list"]],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n\n    "])),(l()(),zl.Z(0,null,1,5,"ion-list",[],null,null,null,null,null)),zl.Y(8192,null,0,Et.a,[Ct.a,zl.j,zl.B,Bt.a,nu.l,Kn.a],null,null),(l()(),zl._21(null,["\n\n        "])),(l()(),zl.V(8388608,null,null,1,null,m)),zl.Y(401408,null,0,Jn.i,[zl.J,zl.G,zl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),zl._21(null,["\n    "])),(l()(),zl._21(1,["\n"])),(l()(),zl._21(null,["\n"]))],function(l,n){var u=n.component;l(n,8,0,"");l(n,13,0,"menu");l(n,17,0,u.searchKey),l(n,20,0);l(n,31,0,u.properties)},function(l,n){l(n,3,0,zl._13(n,4)._hidden,zl._13(n,4)._sbPadding);l(n,6,0,zl._13(n,8).isHidden);l(n,12,0,zl._13(n,13)._hidden);l(n,16,1,[zl._13(n,19).ngClassUntouched,zl._13(n,19).ngClassTouched,zl._13(n,19).ngClassPristine,zl._13(n,19).ngClassDirty,zl._13(n,19).ngClassValid,zl._13(n,19).ngClassInvalid,zl._13(n,19).ngClassPending,zl._13(n,20)._animated,zl._13(n,20)._value,zl._13(n,20)._isActive,zl._13(n,20)._showCancelButton,zl._13(n,20)._shouldAlignLeft,zl._13(n,20)._sbHasFocus]);l(n,24,0,zl._13(n,25).statusbarPadding)})}function f(l){return zl._23(0,[(l()(),zl._21(null,["\n"])),(l()(),zl.Z(0,null,null,10,"ion-header",[],null,null,null,null,null)),zl.Y(8192,null,0,ne.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n    "])),(l()(),zl.Z(0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ue.b,ue.a)),zl.Y(24576,null,0,te.a,[lu.a,[2,It.a],[2,Mt.a],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,3,2,"ion-title",[],null,null,null,oe.b,oe.a)),zl.Y(24576,null,0,re.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),(l()(),zl._21(0,["Change Password"])),(l()(),zl._21(3,["\n    "])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(null,["\n\n\n"])),(l()(),zl.Z(0,null,null,80,"ion-content",[["padding",""]],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n\n   "])),(l()(),zl.Z(0,null,1,76,"form",[["novalidate",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"submit"],[null,"reset"]],function(l,n,u){var t=!0;if("submit"===n){t=!1!==zl._13(l,18).onSubmit(u)&&t}if("reset"===n){t=!1!==zl._13(l,18).onReset()&&t}return t},null,null)),zl.Y(8192,null,0,Cn.q,[],null,null),zl.Y(270336,null,0,Cn.f,[[8,null],[8,null]],{form:[0,"form"]},null),zl._18(1024,null,Cn.b,null,[Cn.f]),zl.Y(8192,null,0,Cn.l,[Cn.b],null,null),(l()(),zl._21(null,["\n    \n  "])),(l()(),zl.Z(0,null,null,62,"div",[["formGroupName","name"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,null,null)),zl.Y(106496,null,0,Cn.g,[[3,Cn.b],[8,null],[8,null]],{name:[0,"name"]},null),zl._18(1024,null,Cn.b,null,[Cn.g]),zl.Y(8192,null,0,Cn.l,[Cn.b],null,null),(l()(),zl._21(null,["\n      "])),(l()(),zl.Z(0,null,null,56,"ion-list",[],null,null,null,null,null)),zl.Y(8192,null,0,Et.a,[Ct.a,zl.j,zl.B,Bt.a,nu.l,Kn.a],null,null),(l()(),zl._21(null,["\n\n        "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,1,{contentLabel:0}),zl._19(301989888,2,{_buttons:1}),zl._19(301989888,3,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n          "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),zl.Y(8192,[[1,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Old Password"])),(l()(),zl._21(2,["\n          "])),(l()(),zl.Z(0,null,3,4,"ion-input",[["formControlName","oldpw"],["type","password"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,qt.b,qt.a)),zl.Y(335872,null,0,Cn.e,[[3,Cn.b],[8,null],[8,null],[8,null]],{name:[0,"name"]},null),zl._18(1024,null,Cn.j,null,[Cn.e]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],{type:[0,"type"]},null),(l()(),zl._21(2,["\n        "])),(l()(),zl._21(null,["\n\n\n\n        "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,4,{contentLabel:0}),zl._19(301989888,5,{_buttons:1}),zl._19(301989888,6,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n          "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),zl.Y(8192,[[4,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),zl._21(null,["New Password"])),(l()(),zl._21(2,["\n          "])),(l()(),zl.Z(0,null,3,4,"ion-input",[["formControlName","newpw"],["type","password"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,qt.b,qt.a)),zl.Y(335872,null,0,Cn.e,[[3,Cn.b],[8,null],[8,null],[8,null]],{name:[0,"name"]},null),zl._18(1024,null,Cn.j,null,[Cn.e]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],{type:[0,"type"]},null),(l()(),zl._21(2,["\n        "])),(l()(),zl._21(null,["\n\n        "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,7,{contentLabel:0}),zl._19(301989888,8,{_buttons:1}),zl._19(301989888,9,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n          "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),zl.Y(8192,[[7,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Confirm New Password"])),(l()(),zl._21(2,["\n          "])),(l()(),zl.Z(0,null,3,4,"ion-input",[["formControlName","rnewpw"],["type","password"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,qt.b,qt.a)),zl.Y(335872,null,0,Cn.e,[[3,Cn.b],[8,null],[8,null],[8,null]],{name:[0,"name"]},null),zl._18(1024,null,Cn.j,null,[Cn.e]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],{type:[0,"type"]},null),(l()(),zl._21(2,["\n        "])),(l()(),zl._21(null,["\n\n      "])),(l()(),zl._21(null,["\n    "])),(l()(),zl._21(null,["\n      "])),(l()(),zl.Z(0,null,null,5,"div",[["padding",""]],null,null,null,null,null)),(l()(),zl._21(null,["\n          "])),(l()(),zl.Z(0,null,null,2,"button",[["block",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.calltoChange()&&t}return t},zt.b,zt.a)),zl.Y(548864,null,0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],{block:[0,"block"]},null),(l()(),zl._21(0,["Change"])),(l()(),zl._21(null,["\n      "])),(l()(),zl._21(null,["\n  "])),(l()(),zl._21(1,["\n"])),(l()(),zl._21(null,["\n"]))],function(l,n){l(n,18,0,n.component.form);l(n,23,0,"name");l(n,42,0,"oldpw");l(n,45,0,"password");l(n,60,0,"newpw");l(n,63,0,"password");l(n,78,0,"rnewpw");l(n,81,0,"password");l(n,89,0,"")},function(l,n){l(n,4,0,zl._13(n,5)._hidden,zl._13(n,5)._sbPadding);l(n,13,0,zl._13(n,14).statusbarPadding);l(n,16,0,zl._13(n,20).ngClassUntouched,zl._13(n,20).ngClassTouched,zl._13(n,20).ngClassPristine,zl._13(n,20).ngClassDirty,zl._13(n,20).ngClassValid,zl._13(n,20).ngClassInvalid,zl._13(n,20).ngClassPending);l(n,22,0,zl._13(n,25).ngClassUntouched,zl._13(n,25).ngClassTouched,zl._13(n,25).ngClassPristine,zl._13(n,25).ngClassDirty,zl._13(n,25).ngClassValid,zl._13(n,25).ngClassInvalid,zl._13(n,25).ngClassPending);l(n,41,0,zl._13(n,44).ngClassUntouched,zl._13(n,44).ngClassTouched,zl._13(n,44).ngClassPristine,zl._13(n,44).ngClassDirty,zl._13(n,44).ngClassValid,zl._13(n,44).ngClassInvalid,zl._13(n,44).ngClassPending);l(n,59,0,zl._13(n,62).ngClassUntouched,zl._13(n,62).ngClassTouched,zl._13(n,62).ngClassPristine,zl._13(n,62).ngClassDirty,zl._13(n,62).ngClassValid,zl._13(n,62).ngClassInvalid,zl._13(n,62).ngClassPending);l(n,77,0,zl._13(n,80).ngClassUntouched,zl._13(n,80).ngClassTouched,zl._13(n,80).ngClassPristine,zl._13(n,80).ngClassDirty,zl._13(n,80).ngClassValid,zl._13(n,80).ngClassInvalid,zl._13(n,80).ngClassPending)})}function b(l){return zl._23(0,[(l()(),zl.Z(0,null,null,148,"ion-card",[],null,null,null,null,null)),zl.Y(8192,null,0,me.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,140,"ion-list",[],null,null,null,null,null)),zl.Y(8192,null,0,Et.a,[Ct.a,zl.j,zl.B,Bt.a,nu.l,Kn.a],null,null),(l()(),zl._21(null,["\n                "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,1,{contentLabel:0}),zl._19(301989888,2,{_buttons:1}),zl._19(301989888,3,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[1,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Username: (Cannot be edited)"])),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,3,4,"ion-input",[["disabled","true"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var t=!0;if("ngModelChange"===n){t=!1!==(l.component.user.username=u)&&t}return t},qt.b,qt.a)),zl.Y(335872,null,0,Cn.m,[[8,null],[8,null],[8,null],[8,null]],{isDisabled:[0,"isDisabled"],model:[1,"model"]},{update:"ngModelChange"}),zl._18(1024,null,Cn.j,null,[Cn.m]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],{disabled:[0,"disabled"]},null),(l()(),zl._21(2,["\n                  \n                  "])),(l()(),zl._21(null,["\n                    \n                  "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,4,{contentLabel:0}),zl._19(301989888,5,{_buttons:1}),zl._19(301989888,6,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[4,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["First Name:"])),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,3,4,"ion-input",[],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var t=!0;if("ngModelChange"===n){t=!1!==(l.component.user.firstname=u)&&t}return t},qt.b,qt.a)),zl.Y(335872,null,0,Cn.m,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),zl._18(1024,null,Cn.j,null,[Cn.m]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl._21(null,["\n\n\t\t\t           "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,7,{contentLabel:0}),zl._19(301989888,8,{_buttons:1}),zl._19(301989888,9,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[7,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Middle Name:"])),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,3,4,"ion-input",[],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var t=!0;if("ngModelChange"===n){t=!1!==(l.component.user.middlename=u)&&t}return t},qt.b,qt.a)),zl.Y(335872,null,0,Cn.m,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),zl._18(1024,null,Cn.j,null,[Cn.m]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl._21(null,["\n\n\t\t\t           "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,10,{contentLabel:0}),zl._19(301989888,11,{_buttons:1}),zl._19(301989888,12,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[10,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Last Name:"])),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,3,4,"ion-input",[],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var t=!0;if("ngModelChange"===n){t=!1!==(l.component.user.lastname=u)&&t}return t},qt.b,qt.a)),zl.Y(335872,null,0,Cn.m,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),zl._18(1024,null,Cn.j,null,[Cn.m]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl._21(null,["\n\n\t\t\t            "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,13,{contentLabel:0}),zl._19(301989888,14,{_buttons:1}),zl._19(301989888,15,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[13,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Address:"])),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,3,4,"ion-input",[],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var t=!0;if("ngModelChange"===n){t=!1!==(l.component.user.address=u)&&t}return t},qt.b,qt.a)),zl.Y(335872,null,0,Cn.m,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),zl._18(1024,null,Cn.j,null,[Cn.m]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl._21(null,["               \n\n\t\t\t           "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,16,{contentLabel:0}),zl._19(301989888,17,{_buttons:1}),zl._19(301989888,18,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[16,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Mobile Number:"])),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,3,4,"ion-input",[],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var t=!0;if("ngModelChange"===n){t=!1!==(l.component.user.mobile_no=u)&&t}return t},qt.b,qt.a)),zl.Y(335872,null,0,Cn.m,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),zl._18(1024,null,Cn.j,null,[Cn.m]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl._21(null,["\n\n                  "])),(l()(),zl.Z(0,null,null,10,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,19,{contentLabel:0}),zl._19(301989888,20,{_buttons:1}),zl._19(301989888,21,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                    "])),(l()(),zl.Z(0,null,2,2,"button",[["block",""],["class","submit-btn"],["ion-button",""],["style","height: 50px"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.shipdetails()&&t}return t},zt.b,zt.a)),zl.Y(548864,[[20,4]],0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],{block:[0,"block"]},null),(l()(),zl._21(0,["Manage Shipping Details"])),(l()(),zl._21(2,["\n                  "])),(l()(),zl._21(null,["  \n\t\t\t             "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,22,{contentLabel:0}),zl._19(301989888,23,{_buttons:1}),zl._19(301989888,24,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[22,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Email:"])),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,3,4,"ion-input",[],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var t=!0;if("ngModelChange"===n){t=!1!==(l.component.user.email=u)&&t}return t},qt.b,qt.a)),zl.Y(335872,null,0,Cn.m,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),zl._18(1024,null,Cn.j,null,[Cn.m]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl._21(null,["\n\n        "])),(l()(),zl._21(null,["\n\n        "])),(l()(),zl.Z(0,null,null,2,"button",[["block",""],["class","submit-btn"],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.update2()&&t}return t},zt.b,zt.a)),zl.Y(548864,null,0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],{block:[0,"block"]},null),(l()(),zl._21(0,["Update General Info"])),(l()(),zl._21(null,["\n    "]))],function(l,n){var u=n.component;l(n,18,0,"true",u.user.username);l(n,21,0,"true");l(n,36,0,u.user.firstname),l(n,39,0);l(n,54,0,u.user.middlename),l(n,57,0);l(n,72,0,u.user.lastname),l(n,75,0);l(n,90,0,u.user.address),l(n,93,0);l(n,108,0,u.user.mobile_no),l(n,111,0);l(n,122,0,"");l(n,138,0,u.user.email),l(n,141,0);l(n,146,0,"")},function(l,n){l(n,17,0,zl._13(n,20).ngClassUntouched,zl._13(n,20).ngClassTouched,zl._13(n,20).ngClassPristine,zl._13(n,20).ngClassDirty,zl._13(n,20).ngClassValid,zl._13(n,20).ngClassInvalid,zl._13(n,20).ngClassPending);l(n,35,0,zl._13(n,38).ngClassUntouched,zl._13(n,38).ngClassTouched,zl._13(n,38).ngClassPristine,zl._13(n,38).ngClassDirty,zl._13(n,38).ngClassValid,zl._13(n,38).ngClassInvalid,zl._13(n,38).ngClassPending);l(n,53,0,zl._13(n,56).ngClassUntouched,zl._13(n,56).ngClassTouched,zl._13(n,56).ngClassPristine,zl._13(n,56).ngClassDirty,zl._13(n,56).ngClassValid,zl._13(n,56).ngClassInvalid,zl._13(n,56).ngClassPending);l(n,71,0,zl._13(n,74).ngClassUntouched,zl._13(n,74).ngClassTouched,zl._13(n,74).ngClassPristine,zl._13(n,74).ngClassDirty,zl._13(n,74).ngClassValid,zl._13(n,74).ngClassInvalid,zl._13(n,74).ngClassPending);l(n,89,0,zl._13(n,92).ngClassUntouched,zl._13(n,92).ngClassTouched,zl._13(n,92).ngClassPristine,zl._13(n,92).ngClassDirty,zl._13(n,92).ngClassValid,zl._13(n,92).ngClassInvalid,zl._13(n,92).ngClassPending);l(n,107,0,zl._13(n,110).ngClassUntouched,zl._13(n,110).ngClassTouched,zl._13(n,110).ngClassPristine,zl._13(n,110).ngClassDirty,zl._13(n,110).ngClassValid,zl._13(n,110).ngClassInvalid,zl._13(n,110).ngClassPending);l(n,137,0,zl._13(n,140).ngClassUntouched,zl._13(n,140).ngClassTouched,zl._13(n,140).ngClassPristine,zl._13(n,140).ngClassDirty,zl._13(n,140).ngClassValid,zl._13(n,140).ngClassInvalid,zl._13(n,140).ngClassPending)})}function v(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"div",[["style","margin-top: 20px;margin-left: 10px;"]],null,null,null,null,null)),(l()(),zl._21(null,["\n                        Your farmer Info is not available.\n            "]))],null,null)}function y(l){return zl._23(0,[(l()(),zl.Z(0,null,null,57,"div",[],null,null,null,null,null)),(l()(),zl._21(null,["\n                "])),(l()(),zl.Z(0,null,null,0,"div",[["id","map2"],["style","width:100%;height:300px;"]],null,null,null,null,null)),(l()(),zl._21(null,["\n\n           "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,28,{contentLabel:0}),zl._19(301989888,29,{_buttons:1}),zl._19(301989888,30,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[28,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Business Name:"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,3,4,"ion-input",[],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var t=!0;if("ngModelChange"===n){t=!1!==(l.component.user.business_name=u)&&t}return t},qt.b,qt.a)),zl.Y(335872,null,0,Cn.m,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),zl._18(1024,null,Cn.j,null,[Cn.m]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,31,{contentLabel:0}),zl._19(301989888,32,{_buttons:1}),zl._19(301989888,33,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[31,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Years in Business:"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,3,4,"ion-input",[],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var t=!0;if("ngModelChange"===n){t=!1!==(l.component.user.years_in_business=u)&&t}return t},qt.b,qt.a)),zl.Y(335872,null,0,Cn.m,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),zl._18(1024,null,Cn.j,null,[Cn.m]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,34,{contentLabel:0}),zl._19(301989888,35,{_buttons:1}),zl._19(301989888,36,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[34,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Years in Farming:"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,3,4,"ion-input",[],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var t=!0;if("ngModelChange"===n){t=!1!==(l.component.user.years_in_farming=u)&&t}return t},qt.b,qt.a)),zl.Y(335872,null,0,Cn.m,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),zl._18(1024,null,Cn.j,null,[Cn.m]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl._21(null,["\n\n            "]))],function(l,n){var u=n.component;l(n,16,0,u.user.business_name),l(n,19,0);l(n,34,0,u.user.years_in_business),l(n,37,0);l(n,52,0,u.user.years_in_farming),l(n,55,0)},function(l,n){l(n,15,0,zl._13(n,18).ngClassUntouched,zl._13(n,18).ngClassTouched,zl._13(n,18).ngClassPristine,zl._13(n,18).ngClassDirty,zl._13(n,18).ngClassValid,zl._13(n,18).ngClassInvalid,zl._13(n,18).ngClassPending);l(n,33,0,zl._13(n,36).ngClassUntouched,zl._13(n,36).ngClassTouched,zl._13(n,36).ngClassPristine,zl._13(n,36).ngClassDirty,zl._13(n,36).ngClassValid,zl._13(n,36).ngClassInvalid,zl._13(n,36).ngClassPending);l(n,51,0,zl._13(n,54).ngClassUntouched,zl._13(n,54).ngClassTouched,zl._13(n,54).ngClassPristine,zl._13(n,54).ngClassDirty,zl._13(n,54).ngClassValid,zl._13(n,54).ngClassInvalid,zl._13(n,54).ngClassPending)})}function C(l){return zl._23(0,[(l()(),zl.Z(0,null,null,34,"div",[],null,null,null,null,null)),(l()(),zl._21(null,["\n           "])),(l()(),zl.Z(0,null,null,21,"ion-list",[],null,null,null,null,null)),zl.Y(8192,null,0,Et.a,[Ct.a,zl.j,zl.B,Bt.a,nu.l,Kn.a],null,null),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,17,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,25,{contentLabel:0}),zl._19(301989888,26,{_buttons:1}),zl._19(301989888,27,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n              "])),(l()(),zl.Z(0,null,1,2,"ion-label",[],null,null,null,null,null)),zl.Y(8192,[[25,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Activate/Deactivate being a farmer"])),(l()(),zl._21(2,["\n              "])),(l()(),zl.Z(0,null,4,5,"ion-toggle",[],[[2,"toggle-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"ionChange"],[null,"keyup"]],function(l,n,u){var t=!0,e=l.component;if("keyup"===n){t=!1!==zl._13(l,17)._keyup(u)&&t}if("ngModelChange"===n){t=!1!==(e.test=u)&&t}if("ionChange"===n){t=!1!==e.g()&&t}return t},Pe.b,Pe.a)),zl.Y(614400,null,0,we.a,[nt.a,Ct.a,Bt.a,zl.j,zl.B,ut.a,[2,yt.a],nu.l,Kn.a,zl.g],null,{ionChange:"ionChange"}),zl._18(512,null,Cn.i,function(l){return[l]},[we.a]),zl.Y(335872,null,0,Cn.m,[[8,null],[8,null],[8,null],[2,Cn.i]],{model:[0,"model"]},{update:"ngModelChange"}),zl._18(1024,null,Cn.j,null,[Cn.m]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n          "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.V(8388608,null,null,1,null,v)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(null,["\n\n            "])),(l()(),zl.V(8388608,null,null,1,null,y)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(null,["\n\n            "])),(l()(),zl.Z(0,null,null,2,"button",[["block",""],["class","submit-btn"],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.update2()&&t}return t},zt.b,zt.a)),zl.Y(548864,null,0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],{block:[0,"block"]},null),(l()(),zl._21(0,["Update Farmer Info"])),(l()(),zl._21(null,["\n    "]))],function(l,n){var u=n.component;l(n,19,0,u.test);l(n,26,0,0===u.isfarmer);l(n,29,0,1===u.isfarmer);l(n,32,0,"")},function(l,n){l(n,16,0,zl._13(n,17)._disabled,zl._13(n,21).ngClassUntouched,zl._13(n,21).ngClassTouched,zl._13(n,21).ngClassPristine,zl._13(n,21).ngClassDirty,zl._13(n,21).ngClassValid,zl._13(n,21).ngClassInvalid,zl._13(n,21).ngClassPending)})}function Z(l){return zl._23(0,[(l()(),zl.Z(0,null,null,10,"ion-header",[],null,null,null,null,null)),zl.Y(8192,null,0,ne.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n    "])),(l()(),zl.Z(0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ue.b,ue.a)),zl.Y(24576,null,0,te.a,[lu.a,[2,It.a],[2,Mt.a],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,3,2,"ion-title",[],null,null,null,oe.b,oe.a)),zl.Y(24576,null,0,re.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),(l()(),zl._21(0,["Update Account"])),(l()(),zl._21(3,["\n    "])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(null,["\n\n"])),(l()(),zl.Z(0,null,null,8,"ion-content",[],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n    "])),(l()(),zl.V(8388608,null,1,1,null,b)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(1,["\n    "])),(l()(),zl.V(8388608,null,1,1,null,C)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(1,["\n"])),(l()(),zl._21(null,["\n\n"])),(l()(),zl.Z(0,null,null,18,"ion-footer",[["padding",""]],null,null,null,null,null)),zl.Y(8192,null,0,Be.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n    "])),(l()(),zl.Z(0,null,null,14,"ion-segment",[],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var t=!0;if("ngModelChange"===n){t=!1!==(l.component.viewMode2=u)&&t}return t},null,null)),zl.Y(335872,null,0,Cn.m,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),zl._18(1024,null,Cn.j,null,[Cn.m]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(2105344,null,1,Ae.a,[Ct.a,zl.j,zl.B,[2,Cn.j]],null,null),zl._19(301989888,37,{_buttons:1}),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","list"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==zl._13(l,33).onClick()&&t}return t},Te.b,Te.a)),zl.Y(57344,[[37,4]],0,Se.a,[zl.B,zl.j],{value:[0,"value"]},null),(l()(),zl._21(0,["\n            General Info\n        "])),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","map"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==zl._13(l,37).onClick()&&t}return t},Te.b,Te.a)),zl.Y(57344,[[37,4]],0,Se.a,[zl.B,zl.j],{value:[0,"value"]},null),(l()(),zl._21(0,["\n            Farmer Info\n        "])),(l()(),zl._21(null,["\n    "])),(l()(),zl._21(null,["\n"]))],function(l,n){var u=n.component;l(n,16,0,"list"===u.viewMode2);l(n,19,0,"map"===u.viewMode2);l(n,26,0,u.viewMode2);l(n,33,0,"list");l(n,37,0,"map")},function(l,n){l(n,3,0,zl._13(n,4)._hidden,zl._13(n,4)._sbPadding);l(n,12,0,zl._13(n,13).statusbarPadding);l(n,25,0,zl._13(n,28).ngClassUntouched,zl._13(n,28).ngClassTouched,zl._13(n,28).ngClassPristine,zl._13(n,28).ngClassDirty,zl._13(n,28).ngClassValid,zl._13(n,28).ngClassInvalid,zl._13(n,28).ngClassPending)})}function Y(l){return zl._23(0,[(l()(),zl.Z(0,null,null,26,"ion-item-sliding",[],null,null,null,_e.b,_e.a)),zl.Y(24576,null,2,pe.c,[[2,Et.a],Bt.a,Kn.a,zl.B,zl.j,zl.v],null,null),zl._19(167772160,2,{item:0}),zl._19(301989888,3,{_itemOptions:1}),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,0,20,"div",[["class","item item-block"],["ion-item",""]],null,null,null,vt.b,vt.a)),zl.Y(548864,[[2,4]],3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,4,{contentLabel:0}),zl._19(301989888,5,{_buttons:1}),zl._19(301989888,6,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                    "])),(l()(),zl.Z(0,null,2,0,"img",[["onError","this.src='http://riceupfarmers.org/wp-content/system/sproduct.jpg';"],["style","float: left;margin-right: 5px;"]],[[8,"src",4]],null,null,null,null)),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Price: P"," "])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Quantity: "," "])),(l()(),zl._21(2,["\n                \n                "])),(l()(),zl.Z(0,null,2,1,"div",[["style","text-align: right;"]],null,null,null,null,null)),(l()(),zl._21(null,["\n\n                P","\n\n                "])),(l()(),zl._21(2,["\n\n            "])),(l()(),zl._21(null,["\n        "]))],null,function(l,n){l(n,12,0,zl._3(1,"http://riceupfarmers.org/wp-content/system/uploads/s",n.context.$implicit.farmer_product.photo_url,".jpg"));l(n,15,0,n.context.$implicit.farmer_product.product_name);l(n,18,0,n.context.$implicit.farmer_product.price_per_unit);l(n,21,0,n.context.$implicit.quantity);l(n,24,0,n.context.$implicit.quantity*n.context.$implicit.farmer_product.price_per_unit)})}function j(l){return zl._23(0,[(l()(),zl.Z(0,null,null,20,"ion-header",[],null,null,null,null,null)),zl.Y(8192,null,0,ne.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n    "])),(l()(),zl.Z(0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ue.b,ue.a)),zl.Y(24576,null,0,te.a,[lu.a,[2,It.a],[2,Mt.a],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==zl._13(l,8).toggle()&&t}return t},zt.b,zt.a)),zl.Y(548864,[[1,4]],0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],null,null),zl.Y(532480,null,0,ee.a,[Qn.a,[2,It.a],[2,Jt.a],[2,te.a]],{menuToggle:[0,"menuToggle"]},null),zl.Y(8192,null,1,ae.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),zl._19(301989888,1,{_buttons:1}),(l()(),zl._21(0,["\n            "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(0,["\n        "])),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,3,2,"ion-title",[],null,null,null,oe.b,oe.a)),zl.Y(24576,null,0,re.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),(l()(),zl._21(0,["Pick Up Summary"])),(l()(),zl._21(3,["\n    "])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(null,["\n\n"])),(l()(),zl.Z(0,null,null,35,"ion-content",[],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n        "])),(l()(),zl.Z(0,null,1,27,"ion-list",[],null,null,null,null,null)),zl.Y(8192,null,0,Et.a,[Ct.a,zl.j,zl.B,Bt.a,nu.l,Kn.a],null,null),(l()(),zl._21(null,["\n        "])),(l()(),zl.V(8388608,null,null,1,null,Y)),zl.Y(401408,null,0,Jn.i,[zl.J,zl.G,zl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,20,"ion-item-sliding",[],null,null,null,_e.b,_e.a)),zl.Y(24576,null,2,pe.c,[[2,Et.a],Bt.a,Kn.a,zl.B,zl.j,zl.v],null,null),zl._19(167772160,7,{item:0}),zl._19(301989888,8,{_itemOptions:1}),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,0,14,"button",[["class","item item-block"],["ion-item",""]],null,null,null,vt.b,vt.a)),zl.Y(548864,[[7,4]],3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,9,{contentLabel:0}),zl._19(301989888,10,{_buttons:1}),zl._19(301989888,11,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,0,"h3",[],null,null,null,null,null)),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,0,"p",[],null,null,null,null,null)),(l()(),zl._21(2,["\n            "])),(l()(),zl.Z(0,null,4,2,"ion-note",[["item-right",""]],null,null,null,null,null)),zl.Y(8192,null,0,he.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["Total: P",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n        "])),(l()(),zl._21(null,["\n    "])),(l()(),zl._21(1,["\n\n        "])),(l()(),zl.Z(0,null,1,2,"button",[["block",""],["class","submit-btn"],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.checkthisout()&&t}return t},zt.b,zt.a)),zl.Y(548864,null,0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],{block:[0,"block"]},null),(l()(),zl._21(0,["Checkout"])),(l()(),zl._21(1,["\n"]))],function(l,n){var u=n.component;l(n,8,0,"");l(n,13,0,"menu");l(n,29,0,u.orders);l(n,55,0,"")},function(l,n){var u=n.component;l(n,3,0,zl._13(n,4)._hidden,zl._13(n,4)._sbPadding);l(n,6,0,zl._13(n,8).isHidden);l(n,12,0,zl._13(n,13)._hidden);l(n,22,0,zl._13(n,23).statusbarPadding);l(n,49,0,u.gtotal)})}function k(l){return zl._23(0,[(l()(),zl.Z(0,null,null,129,"ion-card",[],null,null,null,null,null)),zl.Y(8192,null,0,me.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["\n         "])),(l()(),zl.Z(0,null,null,0,"img",[["onError","this.src='http://riceupfarmers.org/wp-content/system/product.jpg';"]],[[8,"src",4]],null,null,null,null)),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,8,"ion-card-content",[],null,null,null,null,null)),zl.Y(8192,null,0,Ot.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,1,"h2",[["class","card-title"]],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(null,["\n        "])),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,76,"ion-list",[],null,null,null,null,null)),zl.Y(8192,null,0,Et.a,[Ct.a,zl.j,zl.B,Bt.a,nu.l,Kn.a],null,null),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,1,{contentLabel:0}),zl._19(301989888,2,{_buttons:1}),zl._19(301989888,3,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","ios-clipboard"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[3,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["Unit Type"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,4,2,"ion-note",[["item-right",""]],null,null,null,null,null)),zl.Y(8192,null,0,he.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,4,{contentLabel:0}),zl._19(301989888,5,{_buttons:1}),zl._19(301989888,6,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","pricetag"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[6,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["Price Per Unit"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,4,2,"ion-note",[["item-right",""]],null,null,null,null,null)),zl.Y(8192,null,0,he.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,7,{contentLabel:0}),zl._19(301989888,8,{_buttons:1}),zl._19(301989888,9,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","md-calendar"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[9,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["Date of Harvest"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,4,2,"ion-note",[["item-right",""]],null,null,null,null,null)),zl.Y(8192,null,0,he.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,18,"button",[["class","item item-block"],["ion-item",""]],null,[[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==e.openBrokerDetail(e.property.user)&&t}return t},vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,10,{contentLabel:0}),zl._19(301989888,11,{_buttons:1}),zl._19(301989888,12,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,4,"ion-avatar",[["item-left",""]],null,null,null,null,null)),zl.Y(8192,null,0,Le.a,[],null,null),(l()(),zl._21(null,["\n                    "])),(l()(),zl.Z(0,null,null,0,"img",[["onError","this.src='http://riceupfarmers.org/wp-content/system/sproduct.jpg';"]],[[8,"src",4]],null,null,null,null)),(l()(),zl._21(null,["\n                "])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),zl._21(null,["",", "," ",""])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n        "])),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,13,{contentLabel:0}),zl._19(301989888,14,{_buttons:1}),zl._19(301989888,15,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","cart"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[15,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"h3",[["item-left",""]],null,null,null,null,null)),(l()(),zl._21(null,["Quantity:"])),(l()(),zl._21(2,["\n                \n                "])),(l()(),zl.Z(0,null,4,2,"ion-note",[["item-right",""]],null,null,null,null,null)),zl.Y(8192,null,0,he.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,17,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,16,{contentLabel:0}),zl._19(301989888,17,{_buttons:1}),zl._19(301989888,18,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","cash"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[18,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["Total Price:"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,4,3,"ion-note",[["item-right",""]],null,null,null,null,null)),zl.Y(8192,null,0,he.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["P",""])),zl._17(2),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n    "]))],function(l,n){l(n,26,0,"ios-clipboard");l(n,44,0,"pricetag");l(n,62,0,"md-calendar");l(n,101,0,"cart");l(n,119,0,"cash")},function(l,n){var u=n.component;l(n,3,0,zl._3(1,"http://riceupfarmers.org/wp-content/system/uploads/",u.property.photo_url,".jpg"));l(n,9,0,u.property.product_name);l(n,12,0,u.property.product_desc);l(n,25,0,zl._13(n,26)._hidden);l(n,33,0,u.property.unit_type);l(n,43,0,zl._13(n,44)._hidden);l(n,51,0,u.property.price_per_unit);l(n,61,0,zl._13(n,62)._hidden);l(n,69,0,u.property.date_of_harvest);l(n,82,0,zl._3(1,"http://riceupfarmers.org/wp-content/system/uploads/s",u.property.photo_url,".jpg"));l(n,86,0,u.property.user.lastname,u.property.user.firstname,u.property.user.middlename);l(n,89,0,u.property.user.business_name);l(n,100,0,zl._13(n,101)._hidden);l(n,108,0,u.quantity);l(n,118,0,zl._13(n,119)._hidden);l(n,126,0,zl._22(n,126,0,l(n,127,0,zl._13(n.parent,0),u.quantity*u.property.price_per_unit,"1.2-2")))})}function P(l){return zl._23(0,[zl._15(0,Jn.d,[zl.r]),(l()(),zl.Z(0,null,null,10,"ion-header",[],null,null,null,null,null)),zl.Y(8192,null,0,ne.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n    "])),(l()(),zl.Z(0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ue.b,ue.a)),zl.Y(24576,null,0,te.a,[lu.a,[2,It.a],[2,Mt.a],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,3,2,"ion-title",[],null,null,null,oe.b,oe.a)),zl.Y(24576,null,0,re.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),(l()(),zl._21(0,["Product Order"])),(l()(),zl._21(3,["\n    "])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(null,["\n\n"])),(l()(),zl.Z(0,null,null,5,"ion-content",[],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n    "])),(l()(),zl.V(8388608,null,1,1,null,k)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(1,["\n"])),(l()(),zl._21(null,["\n"]))],function(l,n){l(n,17,0,n.component.property.id)},function(l,n){l(n,4,0,zl._13(n,5)._hidden,zl._13(n,5)._sbPadding);l(n,13,0,zl._13(n,14).statusbarPadding)})}function w(l){return zl._23(0,[(l()(),zl.Z(0,null,null,26,"ion-item-sliding",[],null,null,null,_e.b,_e.a)),zl.Y(24576,null,2,pe.c,[[2,Et.a],Bt.a,Kn.a,zl.B,zl.j,zl.v],null,null),zl._19(167772160,2,{item:0}),zl._19(301989888,3,{_itemOptions:1}),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,0,20,"div",[["class","item item-block"],["ion-item",""]],null,null,null,vt.b,vt.a)),zl.Y(548864,[[2,4]],3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,4,{contentLabel:0}),zl._19(301989888,5,{_buttons:1}),zl._19(301989888,6,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                    "])),(l()(),zl.Z(0,null,2,0,"img",[["onError","this.src='http://riceupfarmers.org/wp-content/system/sproduct.jpg';"],["style","float: left;margin-right: 5px;"]],[[8,"src",4]],null,null,null,null)),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Price: P"," "])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Quantity: "," "])),(l()(),zl._21(2,["\n                \n                "])),(l()(),zl.Z(0,null,2,1,"div",[["style","text-align: right;"]],null,null,null,null,null)),(l()(),zl._21(null,["\n\n                P","\n\n                "])),(l()(),zl._21(2,["\n\n            "])),(l()(),zl._21(null,["\n        "]))],null,function(l,n){l(n,12,0,zl._3(1,"http://riceupfarmers.org/wp-content/system/uploads/s",n.context.$implicit.farmer_product.photo_url,".jpg"));l(n,15,0,n.context.$implicit.farmer_product.product_name);l(n,18,0,n.context.$implicit.farmer_product.price_per_unit);l(n,21,0,n.context.$implicit.quantity);l(n,24,0,n.context.$implicit.quantity*n.context.$implicit.farmer_product.price_per_unit)})}function B(l){return zl._23(0,[(l()(),zl.Z(0,null,null,20,"ion-header",[],null,null,null,null,null)),zl.Y(8192,null,0,ne.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n    "])),(l()(),zl.Z(0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ue.b,ue.a)),zl.Y(24576,null,0,te.a,[lu.a,[2,It.a],[2,Mt.a],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==zl._13(l,8).toggle()&&t}return t},zt.b,zt.a)),zl.Y(548864,[[1,4]],0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],null,null),zl.Y(532480,null,0,ee.a,[Qn.a,[2,It.a],[2,Jt.a],[2,te.a]],{menuToggle:[0,"menuToggle"]},null),zl.Y(8192,null,1,ae.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),zl._19(301989888,1,{_buttons:1}),(l()(),zl._21(0,["\n            "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(0,["\n        "])),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,3,2,"ion-title",[],null,null,null,oe.b,oe.a)),zl.Y(24576,null,0,re.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),(l()(),zl._21(0,["Shipping Summary"])),(l()(),zl._21(3,["\n    "])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(null,["\n\n"])),(l()(),zl.Z(0,null,null,49,"ion-content",[],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n\t\t"])),(l()(),zl.Z(0,null,1,12,"ion-card",[],null,null,null,null,null)),zl.Y(8192,null,0,me.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,1,"p",[["style","padding: 10px"]],null,null,null,null,null)),(l()(),zl._21(null,[" Ship to: ",""])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,1,"p",[["style","padding: 10px"]],null,null,null,null,null)),(l()(),zl._21(null,[" Mobile No: ",""])),(l()(),zl._21(null,["\n            \n          "])),(l()(),zl.Z(0,null,null,2,"button",[["block",""],["class","submit-btn"],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.shipdetails()&&t}return t},zt.b,zt.a)),zl.Y(548864,null,0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],{block:[0,"block"]},null),(l()(),zl._21(0,["Manage Shipping Details"])),(l()(),zl._21(null,["\n\t\t"])),(l()(),zl._21(1,["\n        "])),(l()(),zl.Z(0,null,1,27,"ion-list",[],null,null,null,null,null)),zl.Y(8192,null,0,Et.a,[Ct.a,zl.j,zl.B,Bt.a,nu.l,Kn.a],null,null),(l()(),zl._21(null,["\n        "])),(l()(),zl.V(8388608,null,null,1,null,w)),zl.Y(401408,null,0,Jn.i,[zl.J,zl.G,zl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,20,"ion-item-sliding",[],null,null,null,_e.b,_e.a)),zl.Y(24576,null,2,pe.c,[[2,Et.a],Bt.a,Kn.a,zl.B,zl.j,zl.v],null,null),zl._19(167772160,7,{item:0}),zl._19(301989888,8,{_itemOptions:1}),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,0,14,"button",[["class","item item-block"],["ion-item",""]],null,null,null,vt.b,vt.a)),zl.Y(548864,[[7,4]],3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,9,{contentLabel:0}),zl._19(301989888,10,{_buttons:1}),zl._19(301989888,11,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,0,"h3",[],null,null,null,null,null)),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,0,"p",[],null,null,null,null,null)),(l()(),zl._21(2,["\n            "])),(l()(),zl.Z(0,null,4,2,"ion-note",[["item-right",""]],null,null,null,null,null)),zl.Y(8192,null,0,he.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["Total: P",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n        "])),(l()(),zl._21(null,["\n    "])),(l()(),zl._21(1,["\n\n        "])),(l()(),zl.Z(0,null,1,2,"button",[["block",""],["class","submit-btn"],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.checkthisout()&&t}return t},zt.b,zt.a)),zl.Y(548864,null,0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],{block:[0,"block"]},null),(l()(),zl._21(0,["Checkout"])),(l()(),zl._21(1,["\n"]))],function(l,n){var u=n.component;l(n,8,0,"");l(n,13,0,"menu");l(n,35,0,"");l(n,43,0,u.orders);l(n,69,0,"")},function(l,n){var u=n.component;l(n,3,0,zl._13(n,4)._hidden,zl._13(n,4)._sbPadding);l(n,6,0,zl._13(n,8).isHidden);l(n,12,0,zl._13(n,13)._hidden);l(n,22,0,zl._13(n,23).statusbarPadding);l(n,29,0,u.address);l(n,32,0,u.mobile);l(n,63,0,u.gtotal)})}function A(l){return zl._23(0,[(l()(),zl.Z(0,null,null,188,"ion-card",[],null,null,null,null,null)),zl.Y(8192,null,0,me.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["\n         "])),(l()(),zl.Z(0,null,null,0,"img",[["alt","loading..."],["onError","this.src='http://riceupfarmers.org/wp-content/system/product.jpg';"]],[[8,"src",4]],null,null,null,null)),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,8,"ion-card-content",[],null,null,null,null,null)),zl.Y(8192,null,0,Ot.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,1,"h2",[["class","card-title"]],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,1,"p",[["style","white-space: pre-line"]],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(null,["\n        "])),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,112,"ion-list",[],null,null,null,null,null)),zl.Y(8192,null,0,Et.a,[Ct.a,zl.j,zl.B,Bt.a,nu.l,Kn.a],null,null),(l()(),zl._21(null,["\n\n            "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,1,{contentLabel:0}),zl._19(301989888,2,{_buttons:1}),zl._19(301989888,3,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","ios-archive"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[3,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["Stocks"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,4,2,"ion-note",[["item-right",""]],null,null,null,null,null)),zl.Y(8192,null,0,he.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n\n            "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,4,{contentLabel:0}),zl._19(301989888,5,{_buttons:1}),zl._19(301989888,6,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","ios-archive"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[6,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["Reserved"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,4,2,"ion-note",[["item-right",""]],null,null,null,null,null)),zl.Y(8192,null,0,he.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,7,{contentLabel:0}),zl._19(301989888,8,{_buttons:1}),zl._19(301989888,9,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","ios-clipboard"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[9,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["Unit Type"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,4,2,"ion-note",[["item-right",""]],null,null,null,null,null)),zl.Y(8192,null,0,he.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,10,{contentLabel:0}),zl._19(301989888,11,{_buttons:1}),zl._19(301989888,12,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","pricetag"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[12,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["Price Per Unit"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,4,2,"ion-note",[["item-right",""]],null,null,null,null,null)),zl.Y(8192,null,0,he.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,13,{contentLabel:0}),zl._19(301989888,14,{_buttons:1}),zl._19(301989888,15,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","md-calendar"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[15,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["Date of Harvest"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,4,2,"ion-note",[["item-right",""]],null,null,null,null,null)),zl.Y(8192,null,0,he.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,18,"button",[["class","item item-block"],["ion-item",""]],null,[[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==e.openBrokerDetail(e.property.user)&&t}return t},vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,16,{contentLabel:0}),zl._19(301989888,17,{_buttons:1}),zl._19(301989888,18,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,4,"ion-avatar",[["item-left",""]],null,null,null,null,null)),zl.Y(8192,null,0,Le.a,[],null,null),(l()(),zl._21(null,["\n                    "])),(l()(),zl.Z(0,null,null,0,"img",[["alt","loading..."],["onError","this.src='http://riceupfarmers.org/wp-content/system/suser.jpg';"]],[[8,"src",4]],null,null,null,null)),(l()(),zl._21(null,["\n                "])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),zl._21(null,["",", "," ",""])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n        "])),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,35,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,19,{contentLabel:0}),zl._19(301989888,20,{_buttons:1}),zl._19(301989888,21,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","cart"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[21,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"h3",[["item-left",""]],null,null,null,null,null)),(l()(),zl._21(null,["Quantity:"])),(l()(),zl._21(2,["\n                \n                "])),(l()(),zl.Z(0,null,4,21,"div",[["item-right",""]],null,null,null,null,null)),(l()(),zl._21(null,["\n                "])),(l()(),zl.Z(0,null,null,4,"button",[["ion-button",""],["style","width: 40px; height: 40px"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.subq()&&t}return t},zt.b,zt.a)),zl.Y(548864,[[20,4]],0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(0,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","md-remove"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(null,["\n\n                    "])),(l()(),zl.Z(0,null,null,6,"input",[["class","text-center"],["min","0"],["style","text-align:center;width: 60px; height: 45px;border:none"],["text-center",""],["type","number"]],[[8,"max",0],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"input"],[null,"blur"],[null,"compositionstart"],[null,"compositionend"],[null,"change"]],function(l,n,u){var t=!0,e=l.component;if("input"===n){t=!1!==zl._13(l,151)._handleInput(u.target.value)&&t}if("blur"===n){t=!1!==zl._13(l,151).onTouched()&&t}if("compositionstart"===n){t=!1!==zl._13(l,151)._compositionStart()&&t}if("compositionend"===n){t=!1!==zl._13(l,151)._compositionEnd(u.target.value)&&t}if("change"===n){t=!1!==zl._13(l,152).onChange(u.target.value)&&t}if("input"===n){t=!1!==zl._13(l,152).onChange(u.target.value)&&t}if("blur"===n){t=!1!==zl._13(l,152).onTouched()&&t}if("ngModelChange"===n){t=!1!==(e.quantity=u)&&t}return t},null,null)),zl.Y(8192,null,0,Cn.c,[zl.B,zl.j,[2,Cn.a]],null,null),zl.Y(8192,null,0,Cn.p,[zl.B,zl.j],null,null),zl._18(512,null,Cn.i,function(l,n){return[l,n]},[Cn.c,Cn.p]),zl.Y(335872,null,0,Cn.m,[[8,null],[8,null],[8,null],[2,Cn.i]],{model:[0,"model"]},{update:"ngModelChange"}),zl._18(1024,null,Cn.j,null,[Cn.m]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),(l()(),zl._21(null,["\n                    \n                "])),(l()(),zl.Z(0,null,null,4,"button",[["ion-button",""],["style","width: 40px; height: 40px"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.addq()&&t}return t},zt.b,zt.a)),zl.Y(548864,[[20,4]],0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(0,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","md-add"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(null,["\n                "])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,17,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,22,{contentLabel:0}),zl._19(301989888,23,{_buttons:1}),zl._19(301989888,24,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","cash"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[24,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["Total Price:"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,4,3,"ion-note",[["item-right",""]],null,null,null,null,null)),zl.Y(8192,null,0,he.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["P",""])),zl._17(2),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n\n        "])),(l()(),zl.Z(0,null,null,2,"button",[["block",""],["class","submit-btn"],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.addtocart()&&t}return t},zt.b,zt.a)),zl.Y(548864,null,0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],{block:[0,"block"]},null),(l()(),zl._21(0,["Add to Cart"])),(l()(),zl._21(null,["\n\n\n    "]))],function(l,n){var u=n.component;l(n,26,0,"ios-archive");l(n,44,0,"ios-archive");l(n,62,0,"ios-clipboard");l(n,80,0,"pricetag");l(n,98,0,"md-calendar");l(n,137,0,"cart");l(n,148,0,"md-remove");l(n,154,0,u.quantity);l(n,162,0,"md-add");l(n,174,0,"cash");l(n,186,0,"")},function(l,n){var u=n.component;l(n,3,0,zl._3(2,"http://riceupfarmers.org/wp-content/system/uploads/",u.property.photo_url,".jpg?",u.timee,""));l(n,9,0,u.property.product_name);l(n,12,0,u.property.product_desc);l(n,25,0,zl._13(n,26)._hidden);l(n,33,0,u.property.stocks_available);l(n,43,0,zl._13(n,44)._hidden);l(n,51,0,u.property.reserved);l(n,61,0,zl._13(n,62)._hidden);l(n,69,0,u.property.unit_type);l(n,79,0,zl._13(n,80)._hidden);l(n,87,0,u.property.price_per_unit);l(n,97,0,zl._13(n,98)._hidden);l(n,105,0,u.property.date_of_harvest);l(n,118,0,zl._3(2,"http://riceupfarmers.org/wp-content/system/uploads/s",u.property.user.id,".jpg?",u.timee,""));l(n,122,0,u.property.user.lastname,u.property.user.firstname,u.property.user.middlename);l(n,125,0,u.property.user.business_name);l(n,136,0,zl._13(n,137)._hidden);l(n,147,0,zl._13(n,148)._hidden);l(n,150,0,zl._3(1,"",u.property.stocks_available,""),zl._13(n,156).ngClassUntouched,zl._13(n,156).ngClassTouched,zl._13(n,156).ngClassPristine,zl._13(n,156).ngClassDirty,zl._13(n,156).ngClassValid,zl._13(n,156).ngClassInvalid,zl._13(n,156).ngClassPending);l(n,161,0,zl._13(n,162)._hidden);l(n,173,0,zl._13(n,174)._hidden);l(n,181,0,zl._22(n,181,0,l(n,182,0,zl._13(n.parent,0),u.quantity*u.property.price_per_unit,"1.2-2")))})}function T(l){return zl._23(0,[zl._15(0,Jn.d,[zl.r]),(l()(),zl.Z(0,null,null,10,"ion-header",[],null,null,null,null,null)),zl.Y(8192,null,0,ne.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n    "])),(l()(),zl.Z(0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ue.b,ue.a)),zl.Y(24576,null,0,te.a,[lu.a,[2,It.a],[2,Mt.a],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,3,2,"ion-title",[],null,null,null,oe.b,oe.a)),zl.Y(24576,null,0,re.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),(l()(),zl._21(0,["Product"])),(l()(),zl._21(3,["\n    "])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(null,["\n\n"])),(l()(),zl.Z(0,null,null,5,"ion-content",[],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n    "])),(l()(),zl.V(8388608,null,1,1,null,A)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(1,["\n"])),(l()(),zl._21(null,["\n"]))],function(l,n){l(n,17,0,n.component.property.id)},function(l,n){l(n,4,0,zl._13(n,5)._hidden,zl._13(n,5)._sbPadding);l(n,13,0,zl._13(n,14).statusbarPadding)})}function S(l){return zl._23(0,[(l()(),zl._21(null,["\n"])),(l()(),zl.Z(0,null,null,10,"ion-header",[],null,null,null,null,null)),zl.Y(8192,null,0,ne.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n\n  "])),(l()(),zl.Z(0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ue.b,ue.a)),zl.Y(24576,null,0,te.a,[lu.a,[2,It.a],[2,Mt.a],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(3,["\n    "])),(l()(),zl.Z(0,null,3,2,"ion-title",[],null,null,null,oe.b,oe.a)),zl.Y(24576,null,0,re.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),(l()(),zl._21(0,["Change Product Picture"])),(l()(),zl._21(3,["\n  "])),(l()(),zl._21(null,["\n\n"])),(l()(),zl._21(null,["\n\n\n"])),(l()(),zl.Z(0,null,null,32,"ion-content",[["padding",""]],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n\t"])),(l()(),zl.Z(0,null,1,16,"ion-card",[],null,null,null,null,null)),zl.Y(8192,null,0,me.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["\n\t"])),(l()(),zl.Z(0,null,null,12,"ion-buttons",[],null,null,null,null,null)),zl.Y(8192,null,1,ae.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),zl._19(301989888,1,{_buttons:1}),(l()(),zl._21(null,["\n      "])),(l()(),zl.Z(0,null,null,5,"button",[["icon-left",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.presentActionSheet()&&t}return t},zt.b,zt.a)),zl.Y(548864,[[1,4]],0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(0,["\n        "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","camera"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(0,["Select Image\n      "])),(l()(),zl._21(null,["\n      "])),(l()(),zl.Z(0,null,null,0,"img",[["style","width: 100%"]],[[8,"src",4],[8,"hidden",0]],null,null,null,null)),(l()(),zl._21(null,["\n\n    "])),(l()(),zl._21(null,["\n\t"])),(l()(),zl._21(1,["\n  "])),(l()(),zl.Z(0,null,1,10,"ion-buttons",[],null,null,null,null,null)),zl.Y(8192,null,1,ae.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),zl._19(301989888,2,{_buttons:1}),(l()(),zl._21(null,["\n       "])),(l()(),zl.Z(0,null,null,5,"button",[["block",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.testform()&&t}return t},zt.b,zt.a)),zl.Y(548864,[[2,4]],0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],{block:[0,"block"]},null),(l()(),zl._21(0,["\n        "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","ion-plus-circled"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(0,["Change Product Picture\n      "])),(l()(),zl._21(null,["\n      \n    "])),(l()(),zl._21(1,["\n"])),(l()(),zl._21(null,["\n"]))],function(l,n){l(n,27,0,"camera");l(n,39,0,"");l(n,42,0,"ion-plus-circled")},function(l,n){var u=n.component;l(n,4,0,zl._13(n,5)._hidden,zl._13(n,5)._sbPadding);l(n,13,0,zl._13(n,14).statusbarPadding);l(n,26,0,zl._13(n,27)._hidden);l(n,30,0,zl._3(1,"",u.pathForImage(u.lastImage),""),null===u.lastImage);l(n,41,0,zl._13(n,42)._hidden)})}function I(l){return zl._23(0,[(l()(),zl.Z(0,null,null,10,"ion-header",[],null,null,null,null,null)),zl.Y(8192,null,0,ne.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n    "])),(l()(),zl.Z(0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ue.b,ue.a)),zl.Y(24576,null,0,te.a,[lu.a,[2,It.a],[2,Mt.a],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,3,2,"ion-title",[],null,null,null,oe.b,oe.a)),zl.Y(24576,null,0,re.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),(l()(),zl._21(0,["Farmer"])),(l()(),zl._21(3,["\n    "])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(null,["\n\n"])),(l()(),zl.Z(0,null,null,107,"ion-content",[["class","broker"]],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n\n    "])),(l()(),zl.Z(0,null,1,103,"ion-card",[],null,null,null,null,null)),zl.Y(8192,null,0,me.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["\n\n        "])),(l()(),zl.Z(0,null,null,10,"ion-card-content",[],null,null,null,null,null)),zl.Y(8192,null,0,Ot.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["\n            \n         "])),(l()(),zl.Z(0,null,null,0,"img",[["onError","this.src='http://riceupfarmers.org/wp-content/system/user.jpg';"]],[[8,"src",4]],null,null,null,null)),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,1,"h2",[],null,null,null,null,null)),(l()(),zl._21(null,["",", "," ",""])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(null,["\n        "])),(l()(),zl._21(null,["\n\n        "])),(l()(),zl.Z(0,null,null,87,"ion-list",[],null,null,null,null,null)),zl.Y(8192,null,0,Et.a,[Ct.a,zl.j,zl.B,Bt.a,nu.l,Kn.a],null,null),(l()(),zl._21(null,["\n            \n            "])),(l()(),zl.Z(0,null,null,15,"a",[["class","item item-block"],["ion-item",""]],[[8,"href",4]],null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,1,{contentLabel:0}),zl._19(301989888,2,{_buttons:1}),zl._19(301989888,3,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","text"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[3,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Call/Text"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,15,"a",[["class","item item-block"],["ion-item",""]],[[8,"href",4]],null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,4,{contentLabel:0}),zl._19(301989888,5,{_buttons:1}),zl._19(301989888,6,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","mail"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[6,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Email"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,15,"a",[["class","item item-block"],["href","#"],["ion-item",""]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,7,{contentLabel:0}),zl._19(301989888,8,{_buttons:1}),zl._19(301989888,9,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","calendar"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[9,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Years in Business"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,15,"a",[["class","item item-block"],["href","#"],["ion-item",""]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,10,{contentLabel:0}),zl._19(301989888,11,{_buttons:1}),zl._19(301989888,12,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","calendar"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[12,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Years in Farming"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,15,"a",[["class","item item-block"],["href","#"],["ion-item",""]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,13,{contentLabel:0}),zl._19(301989888,14,{_buttons:1}),zl._19(301989888,15,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","pin"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[15,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Address"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n        "])),(l()(),zl._21(null,["\n\n    "])),(l()(),zl._21(1,["\n\n"])),(l()(),zl._21(null,["\n"]))],function(l,n){l(n,41,0,"text");l(n,58,0,"mail");l(n,75,0,"calendar");l(n,92,0,"calendar");l(n,109,0,"pin")},function(l,n){var u=n.component;l(n,3,0,zl._13(n,4)._hidden,zl._13(n,4)._sbPadding);l(n,12,0,zl._13(n,13).statusbarPadding);l(n,21,0,zl._3(2,"http://riceupfarmers.org/wp-content/system/uploads/",u.farmer.id,".jpg?",u.timee,""));l(n,24,0,u.farmer.lastname,u.farmer.firstname,u.farmer.middlename);l(n,27,0,u.farmer.business_name);l(n,33,0,zl._3(1,"tel:",u.farmer.mobile_number,""));l(n,40,0,zl._13(n,41)._hidden);l(n,47,0,u.farmer.mobile_no);l(n,50,0,zl._3(1,"mailto:",u.farmer.email_address,""));l(n,57,0,zl._13(n,58)._hidden);l(n,64,0,u.farmer.email);l(n,74,0,zl._13(n,75)._hidden);l(n,81,0,u.farmer.years_in_business);l(n,91,0,zl._13(n,92)._hidden);l(n,98,0,u.farmer.years_in_farming);l(n,108,0,zl._13(n,109)._hidden);l(n,115,0,u.farmer.address)})}function M(l){return zl._23(0,[(l()(),zl.Z(0,null,null,178,"ion-card",[],null,null,null,null,null)),zl.Y(8192,null,0,me.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["\n         "])),(l()(),zl.Z(0,null,null,0,"img",[["alt","loading..."],["onError","this.src='http://riceupfarmers.org/wp-content/system/product.jpg';"]],[[8,"src",4]],[[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==e.changepic(e.property.photo_url)&&t}return t},null,null)),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,[" Tap the image to update picture."])),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,165,"ion-list",[],null,null,null,null,null)),zl.Y(8192,null,0,Et.a,[Ct.a,zl.j,zl.B,Bt.a,nu.l,Kn.a],null,null),(l()(),zl._21(null,["\n                "])),(l()(),zl.Z(0,null,null,19,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,1,{contentLabel:0}),zl._19(301989888,2,{_buttons:1}),zl._19(301989888,3,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","md-bookmarks"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[3,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[1,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Product Name"])),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,3,4,"ion-input",[["type","text"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var t=!0;if("ngModelChange"===n){t=!1!==(l.component.product_name=u)&&t}return t},qt.b,qt.a)),zl.Y(335872,null,0,Cn.m,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),zl._18(1024,null,Cn.j,null,[Cn.m]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],{type:[0,"type"]},null),(l()(),zl._21(2,["\n                  "])),(l()(),zl._21(null,["\n                    \n                  "])),(l()(),zl.Z(0,null,null,19,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,4,{contentLabel:0}),zl._19(301989888,5,{_buttons:1}),zl._19(301989888,6,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","md-list"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[6,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[4,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Description"])),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,3,4,"ion-textarea",[],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var t=!0;if("ngModelChange"===n){t=!1!==(l.component.product_desc=u)&&t}return t},qt.b,qt.a)),zl.Y(335872,null,0,Cn.m,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),zl._18(1024,null,Cn.j,null,[Cn.m]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl._21(null,["\n\n\t\t\t      "])),(l()(),zl.Z(0,null,null,19,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,7,{contentLabel:0}),zl._19(301989888,8,{_buttons:1}),zl._19(301989888,9,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","ios-archive"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[9,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[7,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Stocks"])),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,3,4,"ion-input",[["type","number"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var t=!0;if("ngModelChange"===n){t=!1!==(l.component.stocks_available=u)&&t}return t},qt.b,qt.a)),zl.Y(335872,null,0,Cn.m,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),zl._18(1024,null,Cn.j,null,[Cn.m]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],{type:[0,"type"]},null),(l()(),zl._21(2,["\n                  "])),(l()(),zl._21(null,["\n\n                  "])),(l()(),zl.Z(0,null,null,54,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,10,{contentLabel:0}),zl._19(301989888,11,{_buttons:1}),zl._19(301989888,12,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","ios-clipboard"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[12,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[10,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Unit Type"])),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,3,39,"ion-select",[],[[2,"select-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"click"],[null,"keyup.space"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==zl._13(l,89)._click(u)&&t}if("keyup.space"===n){t=!1!==zl._13(l,89)._keyup()&&t}if("ngModelChange"===n){t=!1!==(e.unit_type=u)&&t}return t},qe.b,qe.a)),zl.Y(614400,null,1,We.a,[lu.a,nt.a,Ct.a,zl.j,zl.B,[2,yt.a],[2,Mt.a]],null,null),zl._19(301989888,13,{options:1}),zl._18(512,null,Cn.i,function(l){return[l]},[We.a]),zl.Y(335872,null,0,Cn.m,[[8,null],[8,null],[8,null],[2,Cn.i]],{model:[0,"model"]},{update:"ngModelChange"}),zl._18(1024,null,Cn.j,null,[Cn.m]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),(l()(),zl._21(null,["\n                    "])),(l()(),zl.Z(0,null,null,2,"ion-option",[["value","pcs"]],null,null,null,null,null)),zl.Y(8192,[[13,4]],0,ze.a,[zl.j],{value:[0,"value"]},null),(l()(),zl._21(null,["pcs"])),(l()(),zl._21(null,["\n                    "])),(l()(),zl.Z(0,null,null,2,"ion-option",[["value","kg"]],null,null,null,null,null)),zl.Y(8192,[[13,4]],0,ze.a,[zl.j],{value:[0,"value"]},null),(l()(),zl._21(null,["kg"])),(l()(),zl._21(null,["\n                    "])),(l()(),zl.Z(0,null,null,2,"ion-option",[["value","25 kg/sack"]],null,null,null,null,null)),zl.Y(8192,[[13,4]],0,ze.a,[zl.j],{value:[0,"value"]},null),(l()(),zl._21(null,["25 kg/sack"])),(l()(),zl._21(null,["\n                    "])),(l()(),zl.Z(0,null,null,2,"ion-option",[["value","50 kg/sack"]],null,null,null,null,null)),zl.Y(8192,[[13,4]],0,ze.a,[zl.j],{value:[0,"value"]},null),(l()(),zl._21(null,["50 kg/sack"])),(l()(),zl._21(null,["\n                    "])),(l()(),zl.Z(0,null,null,2,"ion-option",[["value","750g"]],null,null,null,null,null)),zl.Y(8192,[[13,4]],0,ze.a,[zl.j],{value:[0,"value"]},null),(l()(),zl._21(null,["750g"])),(l()(),zl._21(null,["\n                    "])),(l()(),zl.Z(0,null,null,2,"ion-option",[["value","250g"]],null,null,null,null,null)),zl.Y(8192,[[13,4]],0,ze.a,[zl.j],{value:[0,"value"]},null),(l()(),zl._21(null,["250g"])),(l()(),zl._21(null,["  \n                    "])),(l()(),zl.Z(0,null,null,2,"ion-option",[["value","500g"]],null,null,null,null,null)),zl.Y(8192,[[13,4]],0,ze.a,[zl.j],{value:[0,"value"]},null),(l()(),zl._21(null,["500g"])),(l()(),zl._21(null,["\n                    "])),(l()(),zl.Z(0,null,null,2,"ion-option",[["value","tail"]],null,null,null,null,null)),zl.Y(8192,[[13,4]],0,ze.a,[zl.j],{value:[0,"value"]},null),(l()(),zl._21(null,["tail"])),(l()(),zl._21(null,["   \n                    "])),(l()(),zl._21(2,["\n                  "])),(l()(),zl._21(null,["\n\n                  "])),(l()(),zl.Z(0,null,null,19,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,14,{contentLabel:0}),zl._19(301989888,15,{_buttons:1}),zl._19(301989888,16,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","pricetag"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[16,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[14,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Price Per Unit"])),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,3,4,"ion-input",[["type","number"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var t=!0;if("ngModelChange"===n){t=!1!==(l.component.price_per_unit=u)&&t}return t},qt.b,qt.a)),zl.Y(335872,null,0,Cn.m,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),zl._18(1024,null,Cn.j,null,[Cn.m]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],{type:[0,"type"]},null),(l()(),zl._21(2,["\n                  "])),(l()(),zl._21(null,["\n\n                  "])),(l()(),zl.Z(0,null,null,21,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,17,{contentLabel:0}),zl._19(301989888,18,{_buttons:1}),zl._19(301989888,19,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                   "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","md-calendar"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[19,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[17,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Date of Harvest"])),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,3,6,"ion-datetime",[["displayFormat","YYYY-MM-DD"]],[[2,"datetime-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"click"],[null,"keyup.space"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==zl._13(l,166)._click(u)&&t}if("keyup.space"===n){t=!1!==zl._13(l,166)._keyup()&&t}if("ngModelChange"===n){t=!1!==(e.date_of_harvest=u)&&t}return t},Je.b,Je.a)),zl.Y(614400,null,0,Xe.a,[nt.a,Ct.a,zl.j,zl.B,[2,yt.a],[2,it.a]],{max:[0,"max"],displayFormat:[1,"displayFormat"]},null),zl._17(2),zl._18(512,null,Cn.i,function(l){return[l]},[Xe.a]),zl.Y(335872,null,0,Cn.m,[[8,null],[8,null],[8,null],[2,Cn.i]],{model:[0,"model"]},{update:"ngModelChange"}),zl._18(1024,null,Cn.j,null,[Cn.m]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl._21(null,["\n            \n        "])),(l()(),zl._21(null,["\n\n        "])),(l()(),zl.Z(0,null,null,2,"button",[["block",""],["class","submit-btn"],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.update()&&t}return t},zt.b,zt.a)),zl.Y(548864,null,0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],{block:[0,"block"]},null),(l()(),zl._21(0,["Update Product"])),(l()(),zl._21(null,["\n\n\n    "]))],function(l,n){var u=n.component;l(n,19,0,"md-bookmarks");l(n,26,0,u.product_name);l(n,29,0,"text");l(n,40,0,"md-list");l(n,47,0,u.product_desc),l(n,50,0);l(n,61,0,"ios-archive");l(n,68,0,u.stocks_available);l(n,71,0,"number");l(n,82,0,"ios-clipboard");l(n,92,0,u.unit_type);l(n,97,0,"pcs");l(n,101,0,"kg");l(n,105,0,"25 kg/sack");l(n,109,0,"50 kg/sack");l(n,113,0,"750g");l(n,117,0,"250g");l(n,121,0,"500g");l(n,125,0,"tail");l(n,138,0,"pricetag");l(n,145,0,u.price_per_unit);l(n,148,0,"number");l(n,159,0,"md-calendar");l(n,166,0,zl._3(1,"",zl._22(n,166,0,l(n,167,0,zl._13(n.parent,0),u.datenow,"yyyy-MM-dd")),""),"YYYY-MM-DD");l(n,169,0,u.date_of_harvest);l(n,176,0,"")},function(l,n){var u=n.component;l(n,3,0,zl._3(2,"http://riceupfarmers.org/wp-content/system/uploads/",u.property.photo_url,".jpg?",u.timee,""));l(n,18,0,zl._13(n,19)._hidden);l(n,25,0,zl._13(n,28).ngClassUntouched,zl._13(n,28).ngClassTouched,zl._13(n,28).ngClassPristine,zl._13(n,28).ngClassDirty,zl._13(n,28).ngClassValid,zl._13(n,28).ngClassInvalid,zl._13(n,28).ngClassPending);l(n,39,0,zl._13(n,40)._hidden);l(n,46,0,zl._13(n,49).ngClassUntouched,zl._13(n,49).ngClassTouched,zl._13(n,49).ngClassPristine,zl._13(n,49).ngClassDirty,zl._13(n,49).ngClassValid,zl._13(n,49).ngClassInvalid,zl._13(n,49).ngClassPending);l(n,60,0,zl._13(n,61)._hidden);l(n,67,0,zl._13(n,70).ngClassUntouched,zl._13(n,70).ngClassTouched,zl._13(n,70).ngClassPristine,zl._13(n,70).ngClassDirty,zl._13(n,70).ngClassValid,zl._13(n,70).ngClassInvalid,zl._13(n,70).ngClassPending);l(n,81,0,zl._13(n,82)._hidden);l(n,88,0,zl._13(n,89)._disabled,zl._13(n,94).ngClassUntouched,zl._13(n,94).ngClassTouched,zl._13(n,94).ngClassPristine,zl._13(n,94).ngClassDirty,zl._13(n,94).ngClassValid,zl._13(n,94).ngClassInvalid,zl._13(n,94).ngClassPending);l(n,137,0,zl._13(n,138)._hidden);l(n,144,0,zl._13(n,147).ngClassUntouched,zl._13(n,147).ngClassTouched,zl._13(n,147).ngClassPristine,zl._13(n,147).ngClassDirty,zl._13(n,147).ngClassValid,zl._13(n,147).ngClassInvalid,zl._13(n,147).ngClassPending);l(n,158,0,zl._13(n,159)._hidden);l(n,165,0,zl._13(n,166)._disabled,zl._13(n,171).ngClassUntouched,zl._13(n,171).ngClassTouched,zl._13(n,171).ngClassPristine,zl._13(n,171).ngClassDirty,zl._13(n,171).ngClassValid,zl._13(n,171).ngClassInvalid,zl._13(n,171).ngClassPending)})}function O(l){return zl._23(0,[zl._15(0,Jn.c,[zl.r]),(l()(),zl.Z(0,null,null,10,"ion-header",[],null,null,null,null,null)),zl.Y(8192,null,0,ne.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n    "])),(l()(),zl.Z(0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ue.b,ue.a)),zl.Y(24576,null,0,te.a,[lu.a,[2,It.a],[2,Mt.a],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,3,2,"ion-title",[],null,null,null,oe.b,oe.a)),zl.Y(24576,null,0,re.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),(l()(),zl._21(0,["Update Product"])),(l()(),zl._21(3,["\n    "])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(null,["\n\n"])),(l()(),zl.Z(0,null,null,5,"ion-content",[],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n    "])),(l()(),zl.V(8388608,null,1,1,null,M)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(1,["\n"])),(l()(),zl._21(null,["\n"]))],function(l,n){l(n,17,0,n.component.property.id)},function(l,n){l(n,4,0,zl._13(n,5)._hidden,zl._13(n,5)._sbPadding);l(n,13,0,zl._13(n,14).statusbarPadding)})}function E(l){return zl._23(0,[(l()(),zl._21(null,["\n"])),(l()(),zl.Z(0,null,null,10,"ion-header",[],null,null,null,null,null)),zl.Y(8192,null,0,ne.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n\n  "])),(l()(),zl.Z(0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ue.b,ue.a)),zl.Y(24576,null,0,te.a,[lu.a,[2,It.a],[2,Mt.a],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(3,["\n    "])),(l()(),zl.Z(0,null,3,2,"ion-title",[],null,null,null,oe.b,oe.a)),zl.Y(24576,null,0,re.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),(l()(),zl._21(0,["Change Profile Picture"])),(l()(),zl._21(3,["\n  "])),(l()(),zl._21(null,["\n\n"])),(l()(),zl._21(null,["\n\n\n"])),(l()(),zl.Z(0,null,null,32,"ion-content",[["padding",""]],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n\t"])),(l()(),zl.Z(0,null,1,16,"ion-card",[],null,null,null,null,null)),zl.Y(8192,null,0,me.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["\n\t"])),(l()(),zl.Z(0,null,null,12,"ion-buttons",[],null,null,null,null,null)),zl.Y(8192,null,1,ae.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),zl._19(301989888,1,{_buttons:1}),(l()(),zl._21(null,["\n      "])),(l()(),zl.Z(0,null,null,5,"button",[["icon-left",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.presentActionSheet()&&t}return t},zt.b,zt.a)),zl.Y(548864,[[1,4]],0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(0,["\n        "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","camera"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(0,["Select Image\n      "])),(l()(),zl._21(null,["\n      "])),(l()(),zl.Z(0,null,null,0,"img",[["style","width: 100%"]],[[8,"src",4],[8,"hidden",0]],null,null,null,null)),(l()(),zl._21(null,["\n\n    "])),(l()(),zl._21(null,["\n\t"])),(l()(),zl._21(1,["\n  "])),(l()(),zl.Z(0,null,1,10,"ion-buttons",[],null,null,null,null,null)),zl.Y(8192,null,1,ae.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),zl._19(301989888,2,{_buttons:1}),(l()(),zl._21(null,["\n       "])),(l()(),zl.Z(0,null,null,5,"button",[["block",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.testform()&&t}return t},zt.b,zt.a)),zl.Y(548864,[[2,4]],0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],{block:[0,"block"]},null),(l()(),zl._21(0,["\n        "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","ion-plus-circled"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(0,["Change Profile Picture\n      "])),(l()(),zl._21(null,["\n      \n    "])),(l()(),zl._21(1,["\n"])),(l()(),zl._21(null,["\n"]))],function(l,n){l(n,27,0,"camera");l(n,39,0,"");l(n,42,0,"ion-plus-circled")},function(l,n){var u=n.component;l(n,4,0,zl._13(n,5)._hidden,zl._13(n,5)._sbPadding);l(n,13,0,zl._13(n,14).statusbarPadding);l(n,26,0,zl._13(n,27)._hidden);l(n,30,0,zl._3(1,"",u.pathForImage(u.lastImage),""),null===u.lastImage);l(n,41,0,zl._13(n,42)._hidden)})}function L(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["For Shipping"]))],null,null)}function x(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["For Pick up"]))],null,null)}function R(l){return zl._23(0,[(l()(),zl.Z(0,null,null,45,"ion-item-sliding",[],null,null,null,_e.b,_e.a)),zl.Y(24576,null,2,pe.c,[[2,Et.a],Bt.a,Kn.a,zl.B,zl.j,zl.v],null,null),zl._19(167772160,2,{item:0}),zl._19(301989888,3,{_itemOptions:1}),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,0,29,"div",[["class","item item-block"],["ion-item",""]],null,null,null,vt.b,vt.a)),zl.Y(548864,[[2,4]],3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,4,{contentLabel:0}),zl._19(301989888,5,{_buttons:1}),zl._19(301989888,6,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                    "])),(l()(),zl.Z(0,null,2,0,"img",[["onError","this.src='http://riceupfarmers.org/wp-content/system/sproduct.jpg';"],["style","float: left;margin-right: 5px;"]],[[8,"src",4]],null,null,null,null)),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Price: P"," "])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Quantity: "," "])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Stocks available: "," "])),(l()(),zl._21(2,["\n                "])),(l()(),zl.V(8388608,null,2,1,null,L)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.V(8388608,null,2,1,null,x)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(2,["\n                \n                "])),(l()(),zl.Z(0,null,2,1,"div",[["style","text-align: right;"]],null,null,null,null,null)),(l()(),zl._21(null,["\n\n                Total: P","\n\n                "])),(l()(),zl._21(2,["\n\n            "])),(l()(),zl._21(null,["\n\n             "])),(l()(),zl.Z(0,null,1,8,"ion-item-options",[],null,null,null,null,null)),zl.Y(8192,[[3,4]],0,ua.a,[zl.j,zl.B],null,null),(l()(),zl._21(null,["\n                "])),(l()(),zl.Z(0,null,null,1,"button",[["class","green"],["danger",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.open(l.context.$implicit)&&t}return t},null,null)),(l()(),zl._21(null,[" View Product "])),(l()(),zl._21(null,["\n                "])),(l()(),zl.Z(0,null,null,1,"button",[["class","blue"],["danger",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.dispatch(l.context.$implicit.id)&&t}return t},null,null)),(l()(),zl._21(null,[" Dispatch"])),(l()(),zl._21(null,["\n            "])),(l()(),zl._21(null,["\n        "]))],function(l,n){l(n,27,0,0===n.context.$implicit.order.mode_of_shipping);l(n,30,0,1===n.context.$implicit.order.mode_of_shipping)},function(l,n){l(n,12,0,zl._3(1,"http://riceupfarmers.org/wp-content/system/uploads/s",n.context.$implicit.farmer_product.photo_url,".jpg"));l(n,15,0,n.context.$implicit.farmer_product.product_name);l(n,18,0,n.context.$implicit.farmer_product.price_per_unit);l(n,21,0,n.context.$implicit.quantity);l(n,24,0,n.context.$implicit.farmer_product.stocks_available);l(n,33,0,n.context.$implicit.quantity*n.context.$implicit.farmer_product.price_per_unit)})}function D(l){return zl._23(0,[(l()(),zl.Z(0,null,null,20,"ion-header",[],null,null,null,null,null)),zl.Y(8192,null,0,ne.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n    "])),(l()(),zl.Z(0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ue.b,ue.a)),zl.Y(24576,null,0,te.a,[lu.a,[2,It.a],[2,Mt.a],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==zl._13(l,8).toggle()&&t}return t},zt.b,zt.a)),zl.Y(548864,[[1,4]],0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],null,null),zl.Y(532480,null,0,ee.a,[Qn.a,[2,It.a],[2,Jt.a],[2,te.a]],{menuToggle:[0,"menuToggle"]},null),zl.Y(8192,null,1,ae.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),zl._19(301989888,1,{_buttons:1}),(l()(),zl._21(0,["\n            "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(0,["\n        "])),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,3,2,"ion-title",[],null,null,null,oe.b,oe.a)),zl.Y(24576,null,0,re.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),(l()(),zl._21(0,["Pending Transactions"])),(l()(),zl._21(3,["\n    "])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(null,["\n\n"])),(l()(),zl.Z(0,null,null,10,"ion-content",[],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n        "])),(l()(),zl.Z(0,null,1,6,"ion-list",[],null,null,null,null,null)),zl.Y(8192,null,0,Et.a,[Ct.a,zl.j,zl.B,Bt.a,nu.l,Kn.a],null,null),(l()(),zl._21(null,["\n        "])),(l()(),zl.V(8388608,null,null,1,null,R)),zl.Y(401408,null,0,Jn.i,[zl.J,zl.G,zl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),zl._21(null,["\n        "])),(l()(),zl._21(null,["\n    "])),(l()(),zl._21(1,["\n"]))],function(l,n){var u=n.component;l(n,8,0,"");l(n,13,0,"menu");l(n,29,0,u.orders)},function(l,n){l(n,3,0,zl._13(n,4)._hidden,zl._13(n,4)._sbPadding);l(n,6,0,zl._13(n,8).isHidden);l(n,12,0,zl._13(n,13)._hidden);l(n,22,0,zl._13(n,23).statusbarPadding)})}function G(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"span",[],null,null,null,null,null)),(l()(),zl._21(null,["",""]))],null,function(l,n){l(n,1,0,n.parent.context.$implicit.middlename)})}function N(l){return zl._23(0,[(l()(),zl.Z(0,null,null,20,"button",[["class","item item-block"],["ion-item",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.openBrokerDetail(l.context.$implicit)&&t}return t},vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,2,{contentLabel:0}),zl._19(301989888,3,{_buttons:1}),zl._19(301989888,4,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n            "])),(l()(),zl.Z(0,null,0,4,"ion-avatar",[["item-left",""]],null,null,null,null,null)),zl.Y(8192,null,0,Le.a,[],null,null),(l()(),zl._21(null,["\n                "])),(l()(),zl.Z(0,null,null,0,"img",[["alt","loading..."],["onError","this.src='http://riceupfarmers.org/wp-content/system/suser.jpg';"]],[[8,"src",4]],null,null,null,null)),(l()(),zl._21(null,["\n            "])),(l()(),zl._21(2,["\n            "])),(l()(),zl.Z(0,null,2,3,"h2",[],null,null,null,null,null)),(l()(),zl._21(null,["",", "," "])),(l()(),zl.V(8388608,null,null,1,null,G)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(2,["\n            "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n        "]))],function(l,n){l(n,16,0,"null"!=n.context.$implicit.middlename)},function(l,n){l(n,10,0,zl._3(1,"http://riceupfarmers.org/wp-content/system/uploads/s",n.context.$implicit.id,".jpg"));l(n,14,0,n.context.$implicit.lastname,n.context.$implicit.firstname);l(n,19,0,n.context.$implicit.email)})}function U(l){return zl._23(0,[(l()(),zl.Z(0,null,null,5,"ion-list",[],null,null,null,null,null)),zl.Y(8192,null,0,Et.a,[Ct.a,zl.j,zl.B,Bt.a,nu.l,Kn.a],null,null),(l()(),zl._21(null,["\n\n        "])),(l()(),zl.V(8388608,null,null,1,null,N)),zl.Y(401408,null,0,Jn.i,[zl.J,zl.G,zl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),zl._21(null,["\n\n    "]))],function(l,n){l(n,4,0,n.component.farmers)},null)}function F(l){return zl._23(0,[(l()(),zl.Z(0,null,null,0,"div",[["id","map"],["style","width:100%;height:100%;"]],null,null,null,null,null))],null,null)}function V(l){return zl._23(0,[(l()(),zl.Z(0,null,null,20,"ion-header",[],null,null,null,null,null)),zl.Y(8192,null,0,ne.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n    "])),(l()(),zl.Z(0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ue.b,ue.a)),zl.Y(24576,null,0,te.a,[lu.a,[2,It.a],[2,Mt.a],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==zl._13(l,8).toggle()&&t}return t},zt.b,zt.a)),zl.Y(548864,[[1,4]],0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],null,null),zl.Y(532480,null,0,ee.a,[Qn.a,[2,It.a],[2,Jt.a],[2,te.a]],{menuToggle:[0,"menuToggle"]},null),zl.Y(8192,null,1,ae.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),zl._19(301989888,1,{_buttons:1}),(l()(),zl._21(0,["\n            "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(0,["\n        "])),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,3,2,"ion-title",[],null,null,null,oe.b,oe.a)),zl.Y(24576,null,0,re.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),(l()(),zl._21(0,["Farmers"])),(l()(),zl._21(3,["\n    "])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(null,["\n\n"])),(l()(),zl.Z(0,null,null,8,"ion-content",[],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n\n    \n    "])),(l()(),zl.V(8388608,null,1,1,null,U)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(1,["\n\n"])),(l()(),zl.V(8388608,null,1,1,null,F)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(1,["\n\n"])),(l()(),zl._21(null,["\n\n"])),(l()(),zl.Z(0,null,null,24,"ion-footer",[["padding",""]],null,null,null,null,null)),zl.Y(8192,null,0,Be.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n    "])),(l()(),zl.Z(0,null,null,20,"ion-segment",[],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var t=!0;if("ngModelChange"===n){t=!1!==(l.component.viewMode=u)&&t}return t},null,null)),zl.Y(335872,null,0,Cn.m,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),zl._18(1024,null,Cn.j,null,[Cn.m]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(2105344,null,1,Ae.a,[Ct.a,zl.j,zl.B,[2,Cn.j]],null,null),zl._19(301989888,5,{_buttons:1}),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,5,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","list"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==zl._13(l,43).onClick()&&t}return t},Te.b,Te.a)),zl.Y(57344,[[5,4]],0,Se.a,[zl.B,zl.j],{value:[0,"value"]},null),(l()(),zl._21(0,["\n            "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","list"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(0,["\n        "])),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,5,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","map"]],null,[[null,"ionSelect"],[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==zl._13(l,50).onClick()&&t}if("ionSelect"===n){t=!1!==e.showMap()&&t}return t},Te.b,Te.a)),zl.Y(57344,[[5,4]],0,Se.a,[zl.B,zl.j],{value:[0,"value"]},{ionSelect:"ionSelect"}),(l()(),zl._21(0,["\n            "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","map"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(0,["\n        "])),(l()(),zl._21(null,["\n    "])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(null,["\n\n"]))],function(l,n){var u=n.component;l(n,8,0,"");l(n,13,0,"menu");l(n,26,0,"list"===u.viewMode);l(n,29,0,"map"===u.viewMode);l(n,36,0,u.viewMode);l(n,43,0,"list");l(n,46,0,"list");l(n,50,0,"map");l(n,53,0,"map")},function(l,n){l(n,3,0,zl._13(n,4)._hidden,zl._13(n,4)._sbPadding);l(n,6,0,zl._13(n,8).isHidden);l(n,12,0,zl._13(n,13)._hidden);l(n,22,0,zl._13(n,23).statusbarPadding);l(n,35,0,zl._13(n,38).ngClassUntouched,zl._13(n,38).ngClassTouched,zl._13(n,38).ngClassPristine,zl._13(n,38).ngClassDirty,zl._13(n,38).ngClassValid,zl._13(n,38).ngClassInvalid,zl._13(n,38).ngClassPending);l(n,45,0,zl._13(n,46)._hidden);l(n,52,0,zl._13(n,53)._hidden)})}function H(l){return zl._23(0,[zl._15(0,Jn.c,[zl.r]),(l()(),zl._21(null,["\n"])),(l()(),zl.Z(0,null,null,20,"ion-header",[],null,null,null,null,null)),zl.Y(8192,null,0,ne.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n\n  "])),(l()(),zl.Z(0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ue.b,ue.a)),zl.Y(24576,null,0,te.a,[lu.a,[2,It.a],[2,Mt.a],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(3,["\n      "])),(l()(),zl.Z(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==zl._13(l,10).toggle()&&t}return t},zt.b,zt.a)),zl.Y(548864,[[1,4]],0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],null,null),zl.Y(532480,null,0,ee.a,[Qn.a,[2,It.a],[2,Jt.a],[2,te.a]],{menuToggle:[0,"menuToggle"]},null),zl.Y(8192,null,1,ae.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),zl._19(301989888,1,{_buttons:1}),(l()(),zl._21(0,["\n            "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(0,["\n        "])),(l()(),zl._21(3,[" \n    "])),(l()(),zl.Z(0,null,3,2,"ion-title",[],null,null,null,oe.b,oe.a)),zl.Y(24576,null,0,re.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),(l()(),zl._21(0,["Add Product"])),(l()(),zl._21(3,["\n  "])),(l()(),zl._21(null,["\n\n"])),(l()(),zl._21(null,["\n\n\n"])),(l()(),zl.Z(0,null,null,195,"ion-content",[],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n\n "])),(l()(),zl.Z(0,null,1,190,"form",[["novalidate",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"submit"],[null,"reset"]],function(l,n,u){var t=!0;if("submit"===n){t=!1!==zl._13(l,29).onSubmit(u)&&t}if("reset"===n){t=!1!==zl._13(l,29).onReset()&&t}return t},null,null)),zl.Y(8192,null,0,Cn.q,[],null,null),zl.Y(270336,null,0,Cn.f,[[8,null],[8,null]],{form:[0,"form"]},null),zl._18(1024,null,Cn.b,null,[Cn.f]),zl.Y(8192,null,0,Cn.l,[Cn.b],null,null),(l()(),zl._21(null,["\n  \n "])),(l()(),zl.Z(0,null,null,16,"ion-toolbar",[["class","toolbar"],["color","primary"]],[[2,"statusbar-padding",null]],null,null,oa.b,oa.a)),zl.Y(24576,null,0,ie.a,[[2,It.a],Ct.a,zl.j,zl.B],{color:[0,"color"]},null),(l()(),zl._21(3,["\n    "])),(l()(),zl.Z(0,null,3,12,"ion-buttons",[],null,null,null,null,null)),zl.Y(8192,null,1,ae.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),zl._19(301989888,2,{_buttons:1}),(l()(),zl._21(null,["\n      "])),(l()(),zl.Z(0,null,null,5,"button",[["icon-left",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.presentActionSheet()&&t}return t},zt.b,zt.a)),zl.Y(548864,[[2,4]],0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(0,["\n        "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","camera"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(0,["Select Image\n      "])),(l()(),zl._21(null,["\n      "])),(l()(),zl.Z(0,null,null,0,"img",[["style","width: 100%"]],[[8,"src",4],[8,"hidden",0]],null,null,null,null)),(l()(),zl._21(null,["\n\n    "])),(l()(),zl._21(3,["\n  "])),(l()(),zl._21(null,["\n\n      "])),(l()(),zl.Z(0,null,null,153,"div",[["formGroupName","name"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,null,null)),zl.Y(106496,null,0,Cn.g,[[3,Cn.b],[8,null],[8,null]],{name:[0,"name"]},null),zl._18(1024,null,Cn.b,null,[Cn.g]),zl.Y(8192,null,0,Cn.l,[Cn.b],null,null),(l()(),zl._21(null,["\n      "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,3,{contentLabel:0}),zl._19(301989888,4,{_buttons:1}),zl._19(301989888,5,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n      "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[3,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Name:"])),(l()(),zl._21(2,["\n      "])),(l()(),zl.Z(0,null,3,4,"ion-input",[["formControlName","pname"],["placeholder",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,qt.b,qt.a)),zl.Y(335872,null,0,Cn.e,[[3,Cn.b],[8,null],[8,null],[8,null]],{name:[0,"name"]},null),zl._18(1024,null,Cn.j,null,[Cn.e]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],{placeholder:[0,"placeholder"]},null),(l()(),zl._21(2,["\n      "])),(l()(),zl._21(null,["\n      "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,6,{contentLabel:0}),zl._19(301989888,7,{_buttons:1}),zl._19(301989888,8,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n      "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[6,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Description:"])),(l()(),zl._21(2,["\n      "])),(l()(),zl.Z(0,null,3,4,"ion-textarea",[["formControlName","desc"],["placeholder",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,qt.b,qt.a)),zl.Y(335872,null,0,Cn.e,[[3,Cn.b],[8,null],[8,null],[8,null]],{name:[0,"name"]},null),zl._18(1024,null,Cn.j,null,[Cn.e]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],{placeholder:[0,"placeholder"]},null),(l()(),zl._21(2,["\n      "])),(l()(),zl._21(null,["\n      "])),(l()(),zl.Z(0,null,null,55,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,9,{contentLabel:0}),zl._19(301989888,10,{_buttons:1}),zl._19(301989888,11,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n\t    "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[9,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Unit"])),(l()(),zl._21(2,["\n\t    "])),(l()(),zl.Z(0,null,3,43,"ion-select",[["formControlName","unit"]],[[2,"select-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"click"],[null,"keyup.space"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==zl._13(l,104)._click(u)&&t}if("keyup.space"===n){t=!1!==zl._13(l,104)._keyup()&&t}return t},qe.b,qe.a)),zl.Y(614400,null,1,We.a,[lu.a,nt.a,Ct.a,zl.j,zl.B,[2,yt.a],[2,Mt.a]],null,null),zl._19(301989888,12,{options:1}),zl._18(512,null,Cn.i,function(l){return[l]},[We.a]),zl.Y(335872,null,0,Cn.e,[[3,Cn.b],[8,null],[8,null],[2,Cn.i]],{name:[0,"name"]},null),zl._18(1024,null,Cn.j,null,[Cn.e]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),(l()(),zl._21(null,["\n\t      "])),(l()(),zl.Z(0,null,null,2,"ion-option",[["value",""]],null,null,null,null,null)),zl.Y(8192,[[12,4]],0,ze.a,[zl.j],{value:[0,"value"]},null),(l()(),zl._21(null,["-Select Unit-"])),(l()(),zl._21(null,["\n\t      "])),(l()(),zl.Z(0,null,null,2,"ion-option",[["value","pcs"]],null,null,null,null,null)),zl.Y(8192,[[12,4]],0,ze.a,[zl.j],{value:[0,"value"]},null),(l()(),zl._21(null,["pcs"])),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,2,"ion-option",[["value","kg"]],null,null,null,null,null)),zl.Y(8192,[[12,4]],0,ze.a,[zl.j],{value:[0,"value"]},null),(l()(),zl._21(null,["kg"])),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,2,"ion-option",[["value","25 kg/sack"]],null,null,null,null,null)),zl.Y(8192,[[12,4]],0,ze.a,[zl.j],{value:[0,"value"]},null),(l()(),zl._21(null,["25 kg/sack"])),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,2,"ion-option",[["value","50 kg/sack"]],null,null,null,null,null)),zl.Y(8192,[[12,4]],0,ze.a,[zl.j],{value:[0,"value"]},null),(l()(),zl._21(null,["50 kg/sack"])),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,2,"ion-option",[["value","750g"]],null,null,null,null,null)),zl.Y(8192,[[12,4]],0,ze.a,[zl.j],{value:[0,"value"]},null),(l()(),zl._21(null,["750g"])),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,2,"ion-option",[["value","250g"]],null,null,null,null,null)),zl.Y(8192,[[12,4]],0,ze.a,[zl.j],{value:[0,"value"]},null),(l()(),zl._21(null,["250g"])),(l()(),zl._21(null,["  \n        "])),(l()(),zl.Z(0,null,null,2,"ion-option",[["value","500g"]],null,null,null,null,null)),zl.Y(8192,[[12,4]],0,ze.a,[zl.j],{value:[0,"value"]},null),(l()(),zl._21(null,["500g"])),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,2,"ion-option",[["value","tail"]],null,null,null,null,null)),zl.Y(8192,[[12,4]],0,ze.a,[zl.j],{value:[0,"value"]},null),(l()(),zl._21(null,["tail"])),(l()(),zl._21(null,["  \n\t    "])),(l()(),zl._21(2,["\n\t  "])),(l()(),zl._21(null,["\n      "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,13,{contentLabel:0}),zl._19(301989888,14,{_buttons:1}),zl._19(301989888,15,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n      "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[13,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Price:"])),(l()(),zl._21(2,["\n      "])),(l()(),zl.Z(0,null,3,4,"ion-input",[["formControlName","price"],["type","number"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,qt.b,qt.a)),zl.Y(335872,null,0,Cn.e,[[3,Cn.b],[8,null],[8,null],[8,null]],{name:[0,"name"]},null),zl._18(1024,null,Cn.j,null,[Cn.e]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],{type:[0,"type"]},null),(l()(),zl._21(2,["\n      "])),(l()(),zl._21(null,["\n      "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,16,{contentLabel:0}),zl._19(301989888,17,{_buttons:1}),zl._19(301989888,18,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n      "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[16,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Stocks:"])),(l()(),zl._21(2,["\n      "])),(l()(),zl.Z(0,null,3,4,"ion-input",[["formControlName","stocks"],["type","number"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,qt.b,qt.a)),zl.Y(335872,null,0,Cn.e,[[3,Cn.b],[8,null],[8,null],[8,null]],{name:[0,"name"]},null),zl._18(1024,null,Cn.j,null,[Cn.e]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],{type:[0,"type"]},null),(l()(),zl._21(2,["\n      "])),(l()(),zl._21(null,["\n      "])),(l()(),zl.Z(0,null,null,18,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,19,{contentLabel:0}),zl._19(301989888,20,{_buttons:1}),zl._19(301989888,21,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n      "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[19,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["harvest Date:"])),(l()(),zl._21(2,["\n      "])),(l()(),zl.Z(0,null,3,6,"ion-datetime",[["displayFormat","YYYY-MM-DD"],["formControlName","harvest_date"]],[[2,"datetime-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"click"],[null,"keyup.space"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==zl._13(l,197)._click(u)&&t}if("keyup.space"===n){t=!1!==zl._13(l,197)._keyup()&&t}return t},Je.b,Je.a)),zl.Y(614400,null,0,Xe.a,[nt.a,Ct.a,zl.j,zl.B,[2,yt.a],[2,it.a]],{max:[0,"max"],displayFormat:[1,"displayFormat"]},null),zl._17(2),zl._18(512,null,Cn.i,function(l){return[l]},[Xe.a]),zl.Y(335872,null,0,Cn.e,[[3,Cn.b],[8,null],[8,null],[2,Cn.i]],{name:[0,"name"]},null),zl._18(1024,null,Cn.j,null,[Cn.e]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),(l()(),zl._21(2,["\n      "])),(l()(),zl._21(null,["\n      "])),(l()(),zl._21(null,["\n\n  "])),(l()(),zl.Z(0,null,null,10,"ion-buttons",[],null,null,null,null,null)),zl.Y(8192,null,1,ae.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),zl._19(301989888,22,{_buttons:1}),(l()(),zl._21(null,["\n       "])),(l()(),zl.Z(0,null,null,5,"button",[["block",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.testform()&&t}return t},zt.b,zt.a)),zl.Y(548864,[[22,4]],0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],{block:[0,"block"]},null),(l()(),zl._21(0,["\n        "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","ion-plus-circled"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(0,["Add Product\n      "])),(l()(),zl._21(null,["\n      \n    "])),(l()(),zl._21(null,["\n    \n    "])),(l()(),zl._21(1,["\n"])),(l()(),zl._21(1,["\n    \n  \n"]))],function(l,n){var u=n.component;l(n,10,0,"");l(n,15,0,"menu");l(n,29,0,u.form);l(n,34,0,"primary");l(n,44,0,"camera");l(n,52,0,"name");l(n,68,0,"pname");l(n,71,0,"");l(n,86,0,"desc");l(n,89,0,"");l(n,107,0,"unit");l(n,112,0,"");l(n,116,0,"pcs");l(n,120,0,"kg");l(n,124,0,"25 kg/sack");l(n,128,0,"50 kg/sack");l(n,132,0,"750g");l(n,136,0,"250g");l(n,140,0,"500g");l(n,144,0,"tail");l(n,161,0,"price");l(n,164,0,"number");l(n,179,0,"stocks");l(n,182,0,"number");l(n,197,0,zl._3(1,"",zl._22(n,197,0,l(n,198,0,zl._13(n,0),u.datenow,"yyyy-MM-dd")),""),"YYYY-MM-DD");l(n,200,0,"harvest_date");l(n,211,0,"");l(n,214,0,"ion-plus-circled")},function(l,n){var u=n.component;l(n,5,0,zl._13(n,6)._hidden,zl._13(n,6)._sbPadding);l(n,8,0,zl._13(n,10).isHidden);l(n,14,0,zl._13(n,15)._hidden);l(n,24,0,zl._13(n,25).statusbarPadding);l(n,27,0,zl._13(n,31).ngClassUntouched,zl._13(n,31).ngClassTouched,zl._13(n,31).ngClassPristine,zl._13(n,31).ngClassDirty,zl._13(n,31).ngClassValid,zl._13(n,31).ngClassInvalid,zl._13(n,31).ngClassPending);l(n,33,0,zl._13(n,34)._sbPadding);l(n,43,0,zl._13(n,44)._hidden);l(n,47,0,zl._3(1,"",u.pathForImage(u.lastImage),""),null===u.lastImage);l(n,51,0,zl._13(n,54).ngClassUntouched,zl._13(n,54).ngClassTouched,zl._13(n,54).ngClassPristine,zl._13(n,54).ngClassDirty,zl._13(n,54).ngClassValid,zl._13(n,54).ngClassInvalid,zl._13(n,54).ngClassPending);l(n,67,0,zl._13(n,70).ngClassUntouched,zl._13(n,70).ngClassTouched,zl._13(n,70).ngClassPristine,zl._13(n,70).ngClassDirty,zl._13(n,70).ngClassValid,zl._13(n,70).ngClassInvalid,zl._13(n,70).ngClassPending);l(n,85,0,zl._13(n,88).ngClassUntouched,zl._13(n,88).ngClassTouched,zl._13(n,88).ngClassPristine,zl._13(n,88).ngClassDirty,zl._13(n,88).ngClassValid,zl._13(n,88).ngClassInvalid,zl._13(n,88).ngClassPending);l(n,103,0,zl._13(n,104)._disabled,zl._13(n,109).ngClassUntouched,zl._13(n,109).ngClassTouched,zl._13(n,109).ngClassPristine,zl._13(n,109).ngClassDirty,zl._13(n,109).ngClassValid,zl._13(n,109).ngClassInvalid,zl._13(n,109).ngClassPending);l(n,160,0,zl._13(n,163).ngClassUntouched,zl._13(n,163).ngClassTouched,zl._13(n,163).ngClassPristine,zl._13(n,163).ngClassDirty,zl._13(n,163).ngClassValid,zl._13(n,163).ngClassInvalid,zl._13(n,163).ngClassPending);l(n,178,0,zl._13(n,181).ngClassUntouched,zl._13(n,181).ngClassTouched,zl._13(n,181).ngClassPristine,zl._13(n,181).ngClassDirty,zl._13(n,181).ngClassValid,zl._13(n,181).ngClassInvalid,zl._13(n,181).ngClassPending);l(n,196,0,zl._13(n,197)._disabled,zl._13(n,202).ngClassUntouched,zl._13(n,202).ngClassTouched,zl._13(n,202).ngClassPristine,zl._13(n,202).ngClassDirty,zl._13(n,202).ngClassValid,zl._13(n,202).ngClassInvalid,zl._13(n,202).ngClassPending);l(n,213,0,zl._13(n,214)._hidden)})}function $(l){return zl._23(0,[(l()(),zl.Z(0,null,null,34,"ion-item-sliding",[],null,null,null,_e.b,_e.a)),zl.Y(24576,null,2,pe.c,[[2,Et.a],Bt.a,Kn.a,zl.B,zl.j,zl.v],null,null),zl._19(167772160,2,{item:0}),zl._19(301989888,3,{_itemOptions:1}),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,0,18,"button",[["class","item item-block"],["ion-item",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.openPropertyDetail(l.context.$implicit)&&t}return t},vt.b,vt.a)),zl.Y(548864,[[2,4]],3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,4,{contentLabel:0}),zl._19(301989888,5,{_buttons:1}),zl._19(301989888,6,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,4,"ion-thumbnail",[["item-left",""]],null,null,null,null,null)),zl.Y(8192,null,0,de.a,[],null,null),(l()(),zl._21(null,["\n                   "])),(l()(),zl.Z(0,null,null,0,"img",[["alt","loading..."],["onError","this.src='http://riceupfarmers.org/wp-content/system/sproduct.jpg';"]],[[8,"src",4]],null,null,null,null)),(l()(),zl._21(null,["\n                "])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n             "])),(l()(),zl.Z(0,null,1,8,"ion-item-options",[],null,null,null,null,null)),zl.Y(8192,[[3,4]],0,ua.a,[zl.j,zl.B],null,null),(l()(),zl._21(null,["\n                "])),(l()(),zl.Z(0,null,null,1,"button",[["class","green"],["danger",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.openPropertyDetail(l.context.$implicit)&&t}return t},null,null)),(l()(),zl._21(null,[" Update "])),(l()(),zl._21(null,["\n                "])),(l()(),zl.Z(0,null,null,1,"button",[["class","red"],["danger",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.delprod(l.context.$implicit.id)&&t}return t},null,null)),(l()(),zl._21(null,["Remove"])),(l()(),zl._21(null,["\n            "])),(l()(),zl._21(null,["\n        "]))],null,function(l,n){l(n,15,0,zl._3(2,"http://riceupfarmers.org/wp-content/system/uploads/s",n.context.$implicit.photo_url,".jpg?",n.component.timee,""));l(n,19,0,n.context.$implicit.product_name);l(n,22,0,n.context.$implicit.product_desc)})}function q(l){return zl._23(0,[(l()(),zl.Z(0,null,null,20,"ion-header",[],null,null,null,null,null)),zl.Y(8192,null,0,ne.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n\n    "])),(l()(),zl.Z(0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ue.b,ue.a)),zl.Y(24576,null,0,te.a,[lu.a,[2,It.a],[2,Mt.a],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==zl._13(l,8).toggle()&&t}return t},zt.b,zt.a)),zl.Y(548864,[[1,4]],0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],null,null),zl.Y(532480,null,0,ee.a,[Qn.a,[2,It.a],[2,Jt.a],[2,te.a]],{menuToggle:[0,"menuToggle"]},null),zl.Y(8192,null,1,ae.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),zl._19(301989888,1,{_buttons:1}),(l()(),zl._21(0,["\n            "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(0,["\n        "])),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,3,2,"ion-title",[],null,null,null,oe.b,oe.a)),zl.Y(24576,null,0,re.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),(l()(),zl._21(0,["My Products"])),(l()(),zl._21(3,["\n    "])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(null,["\n\n"])),(l()(),zl.Z(0,null,null,43,"ion-content",[["class","property-list"]],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n\n    "])),(l()(),zl.Z(0,null,1,27,"ion-list",[],null,null,null,null,null)),zl.Y(8192,null,0,Et.a,[Ct.a,zl.j,zl.B,Bt.a,nu.l,Kn.a],null,null),(l()(),zl._21(null,["\n\n        "])),(l()(),zl.V(8388608,null,null,1,null,$)),zl.Y(401408,null,0,Jn.i,[zl.J,zl.G,zl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,20,"ion-item-sliding",[],null,null,null,_e.b,_e.a)),zl.Y(24576,null,2,pe.c,[[2,Et.a],Bt.a,Kn.a,zl.B,zl.j,zl.v],null,null),zl._19(167772160,7,{item:0}),zl._19(301989888,8,{_itemOptions:1}),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,0,14,"button",[["class","item item-block"],["ion-item",""]],null,null,null,vt.b,vt.a)),zl.Y(548864,[[7,4]],3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,9,{contentLabel:0}),zl._19(301989888,10,{_buttons:1}),zl._19(301989888,11,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,2,"ion-thumbnail",[["item-left",""]],null,null,null,null,null)),zl.Y(8192,null,0,de.a,[],null,null),(l()(),zl._21(null,["\n                "])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,0,"h2",[],null,null,null,null,null)),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,0,"p",[],null,null,null,null,null)),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n        "])),(l()(),zl._21(null,["\n        \n    "])),(l()(),zl._21(1,["\n     "])),(l()(),zl.Z(0,null,0,10,"ion-fab",[],null,null,null,ca.b,ca.a)),zl.Y(614400,null,2,_a.a,[zl.j,Bt.a],null,null),zl._19(167772160,12,{_mainButton:0}),zl._19(301989888,13,{_fabLists:1}),(l()(),zl._21(0,["\n        "])),(l()(),zl.Z(0,null,0,4,"button",[["clase","button-f"],["ion-fab",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==zl._13(l,61).onClick()&&t}return t},pa.b,pa.a)),zl.Y(24576,[[12,4]],0,da.a,[Ct.a,zl.j,zl.B],null,null),zl.Y(8192,null,0,Xt.a,[[2,Mt.a]],{navPush:[0,"navPush"]},null),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","md-add"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(0,["\n     "])),(l()(),zl._21(1,["\n"])),(l()(),zl._21(null,["\n\n\n"])),(l()(),zl.Z(0,null,null,12,"ion-footer",[["padding",""]],null,null,null,null,null)),zl.Y(8192,null,0,Be.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n    "])),(l()(),zl.Z(0,null,null,8,"ion-segment",[],null,null,null,null,null)),zl.Y(2105344,null,1,Ae.a,[Ct.a,zl.j,zl.B,[2,Cn.j]],null,null),zl._19(301989888,14,{_buttons:1}),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,3,"p",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),zl._21(null,["Note:"])),(l()(),zl._21(null,[" Options will appear when you swipe left on the product."])),(l()(),zl._21(null,["\n    "])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(null,["\n"]))],function(l,n){var u=n.component;l(n,8,0,"");l(n,13,0,"menu");l(n,29,0,u.products);l(n,61,0,u.pushPage);l(n,63,0,"md-add")},function(l,n){l(n,3,0,zl._13(n,4)._hidden,zl._13(n,4)._sbPadding);l(n,6,0,zl._13(n,8).isHidden);l(n,12,0,zl._13(n,13)._hidden);l(n,22,0,zl._13(n,23).statusbarPadding);l(n,62,0,zl._13(n,63)._hidden)})}function W(l){return zl._23(0,[(l()(),zl.Z(0,null,null,8,"ion-card",[],null,null,null,null,null)),zl.Y(8192,null,0,me.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["\n           "])),(l()(),zl.Z(0,null,null,1,"p",[["style","padding: 10px"]],null,null,null,null,null)),(l()(),zl._21(null,[" Ship to: ",""])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,1,"p",[["style","padding: 10px"]],null,null,null,null,null)),(l()(),zl._21(null,[" Mobile No: ",""])),(l()(),zl._21(null,["\n        "]))],null,function(l,n){var u=n.component;l(n,4,0,u.address);l(n,7,0,u.mobile)})}function z(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Status: Pending "]))],null,null)}function J(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Status: Packed "]))],null,null)}function X(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Status: Delivered  "]))],null,null)}function K(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Status: Cancelled  "]))],null,null)}function Q(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Status: Received  "]))],null,null)}function ll(l){return zl._23(0,[(l()(),zl.Z(0,null,null,50,"ion-item-sliding",[],null,null,null,_e.b,_e.a)),zl.Y(24576,null,2,pe.c,[[2,Et.a],Bt.a,Kn.a,zl.B,zl.j,zl.v],null,null),zl._19(167772160,1,{item:0}),zl._19(301989888,2,{_itemOptions:1}),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,0,37,"button",[["class","item item-block"],["ion-item",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.prod(l.context.$implicit)&&t}return t},vt.b,vt.a)),zl.Y(548864,[[1,4]],3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,3,{contentLabel:0}),zl._19(301989888,4,{_buttons:1}),zl._19(301989888,5,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                    "])),(l()(),zl.Z(0,null,2,0,"img",[["onError","this.src='http://riceupfarmers.org/wp-content/system/sproduct.jpg';"],["style","float: left;margin-right: 5px;"]],[[8,"src",4]],null,null,null,null)),(l()(),zl._21(2,["\n                \n                "])),(l()(),zl.Z(0,null,2,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Price: P",""])),(l()(),zl._21(2,[" \n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Quantity: "," "])),(l()(),zl._21(2,[" \n                "])),(l()(),zl.V(8388608,null,2,1,null,z)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(2,[" \n                "])),(l()(),zl.V(8388608,null,2,1,null,J)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(2,[" \n                "])),(l()(),zl.V(8388608,null,2,1,null,X)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.V(8388608,null,2,1,null,K)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(2,[" \n                "])),(l()(),zl.V(8388608,null,2,1,null,Q)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(2,[" \n            "])),(l()(),zl.Z(0,null,4,3,"ion-note",[["item-right",""]],null,null,null,null,null)),zl.Y(8192,null,0,he.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["P",""])),zl._17(2),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n             "])),(l()(),zl.Z(0,null,1,5,"ion-item-options",[],null,null,null,null,null)),zl.Y(8192,[[2,4]],0,ua.a,[zl.j,zl.B],null,null),(l()(),zl._21(null,["\n                "])),(l()(),zl.Z(0,null,null,1,"button",[["class","red"],["danger",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.cancelprod(l.context.$implicit.id)&&t}return t},null,null)),(l()(),zl._21(null,["Cancel"])),(l()(),zl._21(null,["\n            "])),(l()(),zl._21(null,["\n\n        "]))],function(l,n){l(n,24,0,0===n.context.$implicit.current_status.product_status);l(n,27,0,1===n.context.$implicit.current_status.product_status);l(n,30,0,2===n.context.$implicit.current_status.product_status);l(n,33,0,3===n.context.$implicit.current_status.product_status);l(n,36,0,4===n.context.$implicit.current_status.product_status)},function(l,n){l(n,12,0,zl._3(1,"http://riceupfarmers.org/wp-content/system/uploads/s",n.context.$implicit.farmer_product.photo_url,".jpg"));l(n,15,0,n.context.$implicit.farmer_product.product_name);l(n,18,0,n.context.$implicit.farmer_product.price_per_unit);l(n,21,0,n.context.$implicit.quantity);l(n,40,0,zl._22(n,40,0,l(n,41,0,zl._13(n.parent,0),n.context.$implicit.farmer_product.price_per_unit*n.context.$implicit.quantity,"1.2-2")))})}function nl(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["For Pick up"]))],null,null)}function ul(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["For Shipping"]))],null,null)}function tl(l){return zl._23(0,[zl._15(0,Jn.d,[zl.r]),(l()(),zl.Z(0,null,null,10,"ion-header",[],null,null,null,null,null)),zl.Y(8192,null,0,ne.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n    "])),(l()(),zl.Z(0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ue.b,ue.a)),zl.Y(24576,null,0,te.a,[lu.a,[2,It.a],[2,Mt.a],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,3,2,"ion-title",[],null,null,null,oe.b,oe.a)),zl.Y(24576,null,0,re.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),(l()(),zl._21(0,["Order#: ",""])),(l()(),zl._21(3,["\n    "])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(null,["\n\n"])),(l()(),zl.Z(0,null,null,38,"ion-content",[],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n        "])),(l()(),zl.V(8388608,null,1,1,null,W)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(1,["\n        "])),(l()(),zl.Z(0,null,1,31,"ion-list",[],null,null,null,null,null)),zl.Y(8192,null,0,Et.a,[Ct.a,zl.j,zl.B,Bt.a,nu.l,Kn.a],null,null),(l()(),zl._21(null,["\n        "])),(l()(),zl.V(8388608,null,null,1,null,ll)),zl.Y(401408,null,0,Jn.i,[zl.J,zl.G,zl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,24,"ion-item-sliding",[],null,null,null,_e.b,_e.a)),zl.Y(24576,null,2,pe.c,[[2,Et.a],Bt.a,Kn.a,zl.B,zl.j,zl.v],null,null),zl._19(167772160,6,{item:0}),zl._19(301989888,7,{_itemOptions:1}),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,0,18,"button",[["class","item item-block"],["ion-item",""]],null,null,null,vt.b,vt.a)),zl.Y(548864,[[6,4]],3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,8,{contentLabel:0}),zl._19(301989888,9,{_buttons:1}),zl._19(301989888,10,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.V(8388608,null,2,1,null,nl)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.V(8388608,null,2,1,null,ul)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,0,"p",[],null,null,null,null,null)),(l()(),zl._21(2,["\n            "])),(l()(),zl.Z(0,null,4,2,"ion-note",[["item-right",""]],null,null,null,null,null)),zl.Y(8192,null,0,he.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n        "])),(l()(),zl._21(null,["\n    "])),(l()(),zl._21(1,["\n"])),(l()(),zl._21(null,["\n\n\n\n"])),(l()(),zl.Z(0,null,null,12,"ion-footer",[["padding",""]],null,null,null,null,null)),zl.Y(8192,null,0,Be.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n    "])),(l()(),zl.Z(0,null,null,8,"ion-segment",[],null,null,null,null,null)),zl.Y(2105344,null,1,Ae.a,[Ct.a,zl.j,zl.B,[2,Cn.j]],null,null),zl._19(301989888,11,{_buttons:1}),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,3,"p",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),zl._21(null,["Note:"])),(l()(),zl._21(null,[" Options will appear when you swipe left on the product.(for pending products only)"])),(l()(),zl._21(null,["\n    "])),(l()(),zl._21(null,["\n"]))],function(l,n){var u=n.component;l(n,17,0,1===u.s);l(n,23,0,u.orders);l(n,38,0,0===u.s);l(n,41,0,1===u.s)},function(l,n){var u=n.component;l(n,4,0,zl._13(n,5)._hidden,zl._13(n,5)._sbPadding);l(n,9,0,u.orderno);l(n,13,0,zl._13(n,14).statusbarPadding);l(n,47,0,u.gtotal)})}function el(l){return zl._23(0,[(l()(),zl._21(null,["\n"])),(l()(),zl.Z(0,null,null,19,"ion-header",[],null,null,null,null,null)),zl.Y(8192,null,0,ne.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n\n  "])),(l()(),zl.Z(0,null,null,15,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ue.b,ue.a)),zl.Y(24576,null,0,te.a,[lu.a,[2,It.a],[2,Mt.a],Ct.a,zl.j,zl.B],null,null),(l()(),zl.Z(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==zl._13(l,8).toggle()&&t}return t},zt.b,zt.a)),zl.Y(548864,[[1,4]],0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],null,null),zl.Y(532480,null,0,ee.a,[Qn.a,[2,It.a],[2,Jt.a],[2,te.a]],{menuToggle:[0,"menuToggle"]},null),zl.Y(8192,null,1,ae.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),zl._19(301989888,1,{_buttons:1}),(l()(),zl._21(0,["\n            "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(0,["\n        "])),(l()(),zl._21(3,["\n    "])),(l()(),zl.Z(0,null,3,2,"ion-title",[],null,null,null,oe.b,oe.a)),zl.Y(24576,null,0,re.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),(l()(),zl._21(0,["Privacy Policy"])),(l()(),zl._21(3,["\n  "])),(l()(),zl._21(null,["\n\n"])),(l()(),zl._21(null,["\n\n\n"])),(l()(),zl.Z(0,null,null,254,"ion-content",[["padding",""]],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n\t"])),(l()(),zl.Z(0,null,1,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Effective date: November 1, 2018"])),(l()(),zl._21(1,["\n  "])),(l()(),zl.Z(0,null,1,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,['\n\tRiceUp Farmers Inc ("us", "we", or "our") operates the RiceUp mobile application (the "Service").'])),(l()(),zl._21(1,["\n  "])),(l()(),zl.Z(0,null,1,4,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["\n  This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data. Our Privacy Policy for RiceUp Farmers Inc is managed through "])),(l()(),zl.Z(0,null,null,1,"u",[],null,null,null,null,null)),(l()(),zl._21(null,["Free Privacy Policy"])),(l()(),zl._21(null,["."])),(l()(),zl._21(1,["\n  "])),(l()(),zl.Z(0,null,1,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["\n  We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions.\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["Information Collection And Use"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["\n  We collect several different types of information for various purposes to provide and improve our Service to you.\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"h4",[],null,null,null,null,null)),(l()(),zl._21(null,["Types of Data Collected"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,3,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Personal Data"])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,['\nWhile using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you ("Personal Data"). Personally identifiable information may include, but is not limited to:'])),(l()(),zl._21(1,["\n\n"])),(l()(),zl.Z(0,null,1,22,"ul",[],null,null,null,null,null)),(l()(),zl._21(null,["\n  "])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["Email address"])),(l()(),zl._21(null,["\n  "])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["First name and last name"])),(l()(),zl._21(null,["\n  "])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["Profile picture"])),(l()(),zl._21(null,["\n  "])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["Phone number"])),(l()(),zl._21(null,["\n  "])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["Address, State, Province, ZIP/Postal code, City"])),(l()(),zl._21(null,["\n  "])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["GPS Location"])),(l()(),zl._21(null,["\n  "])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["Cookies and Usage Data"])),(l()(),zl._21(null,["\n"])),(l()(),zl.Z(0,null,1,18,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["\nUsage Data\n"])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,['\nWhen you access the Service by or through a mobile device, we may collect certain information automatically, including, but not limited to, the type of mobile device you use, your mobile device unique ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browser you use, unique device identifiers and other diagnostic data ("Usage Data").'])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,["\nTracking & Cookies Data"])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,["\nWe use cookies and similar tracking technologies to track the activity on our Service and hold certain information."])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,["\nCookies are files with small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are beacons, tags, and scripts to collect and track information and to improve and analyze our Service."])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,["\nYou can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.\n"])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,["\nExamples of Cookies we use:\n"])),(l()(),zl._21(1,["\n\n"])),(l()(),zl.Z(0,null,1,16,"ul",[],null,null,null,null,null)),(l()(),zl._21(null,["\n  "])),(l()(),zl.Z(0,null,null,3,"li",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),zl._21(null,["Session Cookies"])),(l()(),zl._21(null,[". We use Session Cookies to operate our Service."])),(l()(),zl._21(null,["\n  "])),(l()(),zl.Z(0,null,null,3,"li",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),zl._21(null,["Preference Cookies"])),(l()(),zl._21(null,[". We use Preference Cookies to remember your preferences and various settings."])),(l()(),zl._21(null,["\n  "])),(l()(),zl.Z(0,null,null,3,"li",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),zl._21(null,["Security Cookies"])),(l()(),zl._21(null,[". We use Security Cookies for security purposes."])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["\n  Use of Data\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["\n   RiceUp Farmers Inc uses the collected data for various purposes:\n   \n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,22,"ul",[],null,null,null,null,null)),(l()(),zl._21(null,["\n     "])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["To provide and maintain the Service"])),(l()(),zl._21(null,["\n     "])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["To notify you about changes to our Service\n"])),(l()(),zl._21(null,["\n     "])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["To allow you to participate in interactive features of our Service when you choose to do so\n"])),(l()(),zl._21(null,["\n     "])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["To provide customer care and support\n"])),(l()(),zl._21(null,["\n     "])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["To provide analysis or valuable information so that we can improve the Service"])),(l()(),zl._21(null,["\n     "])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["To monitor the usage of the Service"])),(l()(),zl._21(null,["\n     "])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["To detect, prevent and address technical issues"])),(l()(),zl._21(null,["\n   "])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["Transfer Of Data\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,10,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["\n  Your information, including Personal Data, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction."])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,["\nIf you are located outside the Philippines and choose to provide information to us, please note that we transfer the data, including Personal Data, to the Philippines and process it there."])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,["\nYour consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer."])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,["\nRiceUp Farmers Inc will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.\n\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["\n  Disclosure Of Data\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,4,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Legal Requirements"])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,["\nRiceUp Farmers Inc may disclose your Personal Data in the good faith belief that such action is necessary to:\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,16,"ul",[],null,null,null,null,null)),(l()(),zl._21(null,["\n  "])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["To comply with a legal obligation"])),(l()(),zl._21(null,["\n  "])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["To protect and defend the rights or property of RiceUp Farmers Inc"])),(l()(),zl._21(null,["\n  "])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["To prevent or investigate possible wrongdoing in connection with the Service"])),(l()(),zl._21(null,["\n  "])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["To protect the personal safety of users of the Service or the public"])),(l()(),zl._21(null,["\n  "])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["To protect against legal liability"])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["Security Of Data"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["\n  The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["Service Providers"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,9,"p",[],null,null,null,null,null)),(l()(),zl._21(null,['We may employ third party companies and individuals to facilitate our Service ("Service Providers"), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used.'])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,["\nThese third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose."])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,["\nAnalytics\n"])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,["We may use third-party Service Providers to monitor and analyze the use of our Service.\n\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,19,"ul",[],null,null,null,null,null)),(l()(),zl._21(null,["\n  "])),(l()(),zl.Z(0,null,null,2,"li",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),zl._21(null,["Google Analytics"])),(l()(),zl._21(null,["\n  "])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["Google Analytics is a web analytics service offered by Google that tracks and reports website traffic. Google uses the data collected to track and monitor the use of our Service. This data is shared with other Google services. Google may use the collected data to contextualize and personalize the ads of its own advertising network.\n"])),(l()(),zl._21(null,["\n  "])),(l()(),zl.Z(0,null,null,3,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["You may opt-out of certain Google Analytics features through your mobile device settings, such as your device advertising settings or by following the instructions provided by Google in their Privacy Policy: "])),(l()(),zl.Z(0,null,null,1,"a",[["href","https://policies.google.com/privacy?hl=en"]],null,null,null,null,null)),(l()(),zl._21(null,["https://policies.google.com/privacy?hl=en"])),(l()(),zl._21(null,["\n  "])),(l()(),zl.Z(0,null,null,4,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["\n    \n    For more information on the privacy practices of Google, please visit the Google Privacy & Terms web page: "])),(l()(),zl.Z(0,null,null,1,"a",[["href","https://policies.google.com/privacy?hl=en"]],null,null,null,null,null)),(l()(),zl._21(null,["https://policies.google.com/privacy?hl=en"])),(l()(),zl._21(null,["\n  "])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["Links To Other Sites"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,4,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["\n  Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit."])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,["\nWe have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.\n\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["\n  Children's Privacy\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,4,"p",[],null,null,null,null,null)),(l()(),zl._21(null,['Our Service does not address anyone under the age of 18 ("Children").'])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,["\nWe do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["Changes To This Privacy Policy"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,7,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["\n  We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page."])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,['\nWe will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective and update the "effective date" at the top of this Privacy Policy.'])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,["\nYou are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.\n\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["Contact Us\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["If you have any questions about this Privacy Policy, please contact us:"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,11,"ul",[],null,null,null,null,null)),(l()(),zl._21(null,["\n  "])),(l()(),zl.Z(0,null,null,3,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["By email: "])),(l()(),zl.Z(0,null,null,1,"a",[["href","mailto:riceupfilipino@gmail.com"]],null,null,null,null,null)),(l()(),zl._21(null,["riceupfilipino@gmail.com"])),(l()(),zl._21(null,["\n  "])),(l()(),zl.Z(0,null,null,3,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["By visiting this page on our website: "])),(l()(),zl.Z(0,null,null,1,"a",[["href","https://www.riceupfarmers.org"]],null,null,null,null,null)),(l()(),zl._21(null,["https://www.riceupfarmers.org"])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl._21(null,["\n"]))],function(l,n){l(n,8,0,"");l(n,13,0,"menu")},function(l,n){l(n,4,0,zl._13(n,5)._hidden,zl._13(n,5)._sbPadding);l(n,6,0,zl._13(n,8).isHidden);l(n,12,0,zl._13(n,13)._hidden);l(n,22,0,zl._13(n,23).statusbarPadding)})}function al(l){return zl._23(0,[(l()(),zl.Z(0,null,null,170,"ion-card",[],null,null,null,null,null)),zl.Y(8192,null,0,me.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["\n         "])),(l()(),zl.Z(0,null,null,0,"img",[["onError","this.src='http://riceupfarmers.org/wp-content/system/product.jpg';"]],[[8,"src",4]],null,null,null,null)),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,8,"ion-card-content",[],null,null,null,null,null)),zl.Y(8192,null,0,Ot.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,1,"h2",[["class","card-title"]],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(null,["\n        "])),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,94,"ion-list",[],null,null,null,null,null)),zl.Y(8192,null,0,Et.a,[Ct.a,zl.j,zl.B,Bt.a,nu.l,Kn.a],null,null),(l()(),zl._21(null,["\n\n            "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,1,{contentLabel:0}),zl._19(301989888,2,{_buttons:1}),zl._19(301989888,3,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","ios-archive"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[3,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["Stocks"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,4,2,"ion-note",[["item-right",""]],null,null,null,null,null)),zl.Y(8192,null,0,he.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,4,{contentLabel:0}),zl._19(301989888,5,{_buttons:1}),zl._19(301989888,6,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","ios-clipboard"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[6,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["Unit Type"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,4,2,"ion-note",[["item-right",""]],null,null,null,null,null)),zl.Y(8192,null,0,he.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,7,{contentLabel:0}),zl._19(301989888,8,{_buttons:1}),zl._19(301989888,9,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","pricetag"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[9,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["Price Per Unit"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,4,2,"ion-note",[["item-right",""]],null,null,null,null,null)),zl.Y(8192,null,0,he.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,10,{contentLabel:0}),zl._19(301989888,11,{_buttons:1}),zl._19(301989888,12,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","md-calendar"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[12,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["Date of Harvest"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,4,2,"ion-note",[["item-right",""]],null,null,null,null,null)),zl.Y(8192,null,0,he.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,18,"button",[["class","item item-block"],["ion-item",""]],null,[[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==e.openBrokerDetail(e.property.user)&&t}return t},vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,13,{contentLabel:0}),zl._19(301989888,14,{_buttons:1}),zl._19(301989888,15,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,4,"ion-avatar",[["item-left",""]],null,null,null,null,null)),zl.Y(8192,null,0,Le.a,[],null,null),(l()(),zl._21(null,["\n                    "])),(l()(),zl.Z(0,null,null,0,"img",[["onError","this.src='http://riceupfarmers.org/wp-content/system/sproduct.jpg';"]],[[8,"src",4]],null,null,null,null)),(l()(),zl._21(null,["\n                "])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),zl._21(null,["",", "," ",""])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n        "])),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,35,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,16,{contentLabel:0}),zl._19(301989888,17,{_buttons:1}),zl._19(301989888,18,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","cart"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[18,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"h3",[["item-left",""]],null,null,null,null,null)),(l()(),zl._21(null,["Quantity:"])),(l()(),zl._21(2,["\n                \n                "])),(l()(),zl.Z(0,null,4,21,"div",[["item-right",""]],null,null,null,null,null)),(l()(),zl._21(null,["\n                "])),(l()(),zl.Z(0,null,null,4,"button",[["ion-button",""],["style","width: 40px; height: 40px"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.subq()&&t}return t},zt.b,zt.a)),zl.Y(548864,[[17,4]],0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(0,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","md-remove"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(null,["\n\n                    "])),(l()(),zl.Z(0,null,null,6,"input",[["class","text-center"],["min","0"],["style","text-align:center;width: 60px; height: 45px;border:none"],["text-center",""],["type","number"]],[[8,"max",0],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"input"],[null,"blur"],[null,"compositionstart"],[null,"compositionend"],[null,"change"]],function(l,n,u){var t=!0,e=l.component;if("input"===n){t=!1!==zl._13(l,133)._handleInput(u.target.value)&&t}if("blur"===n){t=!1!==zl._13(l,133).onTouched()&&t}if("compositionstart"===n){t=!1!==zl._13(l,133)._compositionStart()&&t}if("compositionend"===n){t=!1!==zl._13(l,133)._compositionEnd(u.target.value)&&t}if("change"===n){t=!1!==zl._13(l,134).onChange(u.target.value)&&t}if("input"===n){t=!1!==zl._13(l,134).onChange(u.target.value)&&t}if("blur"===n){t=!1!==zl._13(l,134).onTouched()&&t}if("ngModelChange"===n){t=!1!==(e.quantity=u)&&t}return t},null,null)),zl.Y(8192,null,0,Cn.c,[zl.B,zl.j,[2,Cn.a]],null,null),zl.Y(8192,null,0,Cn.p,[zl.B,zl.j],null,null),zl._18(512,null,Cn.i,function(l,n){return[l,n]},[Cn.c,Cn.p]),zl.Y(335872,null,0,Cn.m,[[8,null],[8,null],[8,null],[2,Cn.i]],{model:[0,"model"]},{update:"ngModelChange"}),zl._18(1024,null,Cn.j,null,[Cn.m]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),(l()(),zl._21(null,["\n                    \n                "])),(l()(),zl.Z(0,null,null,4,"button",[["ion-button",""],["style","width: 40px; height: 40px"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.addq()&&t}return t},zt.b,zt.a)),zl.Y(548864,[[17,4]],0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(0,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","md-add"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(null,["\n                "])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,17,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,19,{contentLabel:0}),zl._19(301989888,20,{_buttons:1}),zl._19(301989888,21,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","cash"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[21,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["Total Price:"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,4,3,"ion-note",[["item-right",""]],null,null,null,null,null)),zl.Y(8192,null,0,he.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["P",""])),zl._17(2),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n\n        "])),(l()(),zl.Z(0,null,null,2,"button",[["block",""],["class","submit-btn"],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.updatecart()&&t}return t},zt.b,zt.a)),zl.Y(548864,null,0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],{block:[0,"block"]},null),(l()(),zl._21(0,["Update Order"])),(l()(),zl._21(null,["\n\n\n    "]))],function(l,n){var u=n.component;l(n,26,0,"ios-archive");l(n,44,0,"ios-clipboard");l(n,62,0,"pricetag");l(n,80,0,"md-calendar");l(n,119,0,"cart");l(n,130,0,"md-remove");l(n,136,0,u.quantity);l(n,144,0,"md-add");l(n,156,0,"cash");l(n,168,0,"")},function(l,n){var u=n.component;l(n,3,0,zl._3(1,"http://riceupfarmers.org/wp-content/system/uploads/",u.property.photo_url,".jpg"));l(n,9,0,u.property.product_name);l(n,12,0,u.property.product_desc);l(n,25,0,zl._13(n,26)._hidden);l(n,33,0,u.property.stocks_available);l(n,43,0,zl._13(n,44)._hidden);l(n,51,0,u.property.unit_type);l(n,61,0,zl._13(n,62)._hidden);l(n,69,0,u.property.price_per_unit);l(n,79,0,zl._13(n,80)._hidden);l(n,87,0,u.property.date_of_harvest);l(n,100,0,zl._3(1,"http://riceupfarmers.org/wp-content/system/uploads/s",u.property.photo_url,".jpg"));l(n,104,0,u.property.user.lastname,u.property.user.firstname,u.property.user.middlename);l(n,107,0,u.property.user.business_name);l(n,118,0,zl._13(n,119)._hidden);l(n,129,0,zl._13(n,130)._hidden);l(n,132,0,zl._3(1,"",u.property.stocks_available,""),zl._13(n,138).ngClassUntouched,zl._13(n,138).ngClassTouched,zl._13(n,138).ngClassPristine,zl._13(n,138).ngClassDirty,zl._13(n,138).ngClassValid,zl._13(n,138).ngClassInvalid,zl._13(n,138).ngClassPending);l(n,143,0,zl._13(n,144)._hidden);l(n,155,0,zl._13(n,156)._hidden);l(n,163,0,zl._22(n,163,0,l(n,164,0,zl._13(n.parent,0),u.quantity*u.property.price_per_unit,"1.2-2")))})}function il(l){return zl._23(0,[zl._15(0,Jn.d,[zl.r]),(l()(),zl.Z(0,null,null,10,"ion-header",[],null,null,null,null,null)),zl.Y(8192,null,0,ne.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n    "])),(l()(),zl.Z(0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ue.b,ue.a)),zl.Y(24576,null,0,te.a,[lu.a,[2,It.a],[2,Mt.a],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,3,2,"ion-title",[],null,null,null,oe.b,oe.a)),zl.Y(24576,null,0,re.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),(l()(),zl._21(0,["Update Order"])),(l()(),zl._21(3,["\n    "])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(null,["\n\n"])),(l()(),zl.Z(0,null,null,5,"ion-content",[],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n    "])),(l()(),zl.V(8388608,null,1,1,null,al)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(1,["\n"])),(l()(),zl._21(null,["\n"]))],function(l,n){l(n,17,0,n.component.property.id)},function(l,n){l(n,4,0,zl._13(n,5)._hidden,zl._13(n,5)._sbPadding);l(n,13,0,zl._13(n,14).statusbarPadding)})}function ol(l){return zl._23(0,[(l()(),zl.Z(0,null,null,10,"ion-header",[],null,null,null,null,null)),zl.Y(8192,null,0,ne.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n    "])),(l()(),zl.Z(0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ue.b,ue.a)),zl.Y(24576,null,0,te.a,[lu.a,[2,It.a],[2,Mt.a],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,3,2,"ion-title",[],null,null,null,oe.b,oe.a)),zl.Y(24576,null,0,re.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),(l()(),zl._21(0,["Farmer"])),(l()(),zl._21(3,["\n    "])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(null,["\n\n"])),(l()(),zl.Z(0,null,null,111,"ion-content",[["class","broker"]],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n\n    "])),(l()(),zl.Z(0,null,1,107,"ion-card",[],null,null,null,null,null)),zl.Y(8192,null,0,me.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["\n\n        "])),(l()(),zl.Z(0,null,null,10,"ion-card-content",[],null,null,null,null,null)),zl.Y(8192,null,0,Ot.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["\n            \n         "])),(l()(),zl.Z(0,null,null,0,"img",[["alt","loading..."],["onError","this.src='http://riceupfarmers.org/wp-content/system/user.jpg';"]],[[8,"src",4]],null,null,null,null)),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,1,"h2",[],null,null,null,null,null)),(l()(),zl._21(null,["",", "," ",""])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(null,["\n        "])),(l()(),zl._21(null,["\n\n        "])),(l()(),zl.Z(0,null,null,91,"ion-list",[],null,null,null,null,null)),zl.Y(8192,null,0,Et.a,[Ct.a,zl.j,zl.B,Bt.a,nu.l,Kn.a],null,null),(l()(),zl._21(null,["\n            \n            "])),(l()(),zl.Z(0,null,null,15,"a",[["class","item item-block"],["ion-item",""]],[[8,"href",4]],null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,1,{contentLabel:0}),zl._19(301989888,2,{_buttons:1}),zl._19(301989888,3,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","text"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[3,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Call/Text"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,15,"a",[["class","item item-block"],["ion-item",""]],[[8,"href",4]],null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,4,{contentLabel:0}),zl._19(301989888,5,{_buttons:1}),zl._19(301989888,6,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","mail"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[6,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Email"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,15,"a",[["class","item item-block"],["href","#"],["ion-item",""]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,7,{contentLabel:0}),zl._19(301989888,8,{_buttons:1}),zl._19(301989888,9,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","calendar"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[9,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Years in Business"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,15,"a",[["class","item item-block"],["href","#"],["ion-item",""]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,10,{contentLabel:0}),zl._19(301989888,11,{_buttons:1}),zl._19(301989888,12,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","calendar"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[12,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Years in Farming"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,15,"a",[["class","item item-block"],["href","#"],["ion-item",""]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,13,{contentLabel:0}),zl._19(301989888,14,{_buttons:1}),zl._19(301989888,15,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","pin"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[15,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Address"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h2",[["style","white-space: normal;"]],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n\n                "])),(l()(),zl.Z(0,null,null,2,"button",[["block",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==e.openloc(e.farmer.first_shipping_detail)&&t}return t},zt.b,zt.a)),zl.Y(548864,null,0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],{block:[0,"block"]},null),(l()(),zl._21(0,["View Location"])),(l()(),zl._21(null,["\n        "])),(l()(),zl._21(null,["\n\n    "])),(l()(),zl._21(1,["\n\n"])),(l()(),zl._21(null,["\n"]))],function(l,n){l(n,41,0,"text");l(n,58,0,"mail");l(n,75,0,"calendar");l(n,92,0,"calendar");l(n,109,0,"pin");l(n,119,0,"")},function(l,n){var u=n.component;l(n,3,0,zl._13(n,4)._hidden,zl._13(n,4)._sbPadding);l(n,12,0,zl._13(n,13).statusbarPadding);l(n,21,0,zl._3(2,"http://riceupfarmers.org/wp-content/system/uploads/",u.farmer.id,".jpg?",u.timee,""));l(n,24,0,u.farmer.lastname,u.farmer.firstname,u.farmer.middlename);l(n,27,0,u.farmer.business_name);l(n,33,0,zl._3(1,"tel:",u.farmer.mobile_no,""));l(n,40,0,zl._13(n,41)._hidden);l(n,47,0,u.farmer.first_shipping_detail.mobile_no);l(n,50,0,zl._3(1,"mailto:",u.farmer.email,""));l(n,57,0,zl._13(n,58)._hidden);l(n,64,0,u.farmer.email);l(n,74,0,zl._13(n,75)._hidden);l(n,81,0,u.farmer.years_in_business);l(n,91,0,zl._13(n,92)._hidden);l(n,98,0,u.farmer.years_in_farming);l(n,108,0,zl._13(n,109)._hidden);l(n,115,0,u.farmer.first_shipping_detail.shipping_address)})}function rl(l){return zl._23(0,[(l()(),zl._21(null,["\n"])),(l()(),zl.Z(0,null,null,19,"ion-header",[],null,null,null,null,null)),zl.Y(8192,null,0,ne.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n\n  "])),(l()(),zl.Z(0,null,null,15,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ue.b,ue.a)),zl.Y(24576,null,0,te.a,[lu.a,[2,It.a],[2,Mt.a],Ct.a,zl.j,zl.B],null,null),(l()(),zl.Z(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==zl._13(l,8).toggle()&&t}return t},zt.b,zt.a)),zl.Y(548864,[[1,4]],0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],null,null),zl.Y(532480,null,0,ee.a,[Qn.a,[2,It.a],[2,Jt.a],[2,te.a]],{menuToggle:[0,"menuToggle"]},null),zl.Y(8192,null,1,ae.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),zl._19(301989888,1,{_buttons:1}),(l()(),zl._21(0,["\n            "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(0,["\n        "])),(l()(),zl._21(3,["\n    "])),(l()(),zl.Z(0,null,3,2,"ion-title",[],null,null,null,oe.b,oe.a)),zl.Y(24576,null,0,re.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),(l()(),zl._21(0,["Terms and Agreement"])),(l()(),zl._21(3,["\n  "])),(l()(),zl._21(null,["\n\n"])),(l()(),zl._21(null,["\n\n\n"])),(l()(),zl.Z(0,null,null,231,"ion-content",[["padding",""]],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["RiceUp Farmers Inc Terms of Use"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,10,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Welcome to the RiceUp Farmers Inc Terms of Use agreement. For purposes of this agreement, “App” refers to the Company’s mobile application, RiceUp, which can be downloaded on Google Play . “Service” refers to the Company’s services accessed via the App, in which users can view and request certain products available near their location. The terms “we,” “us,” and “our” refer to the Company. “You” refers to you, as a user of our App or our Service. \n"])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,["\nThe following Terms of Use apply when you view or use the Service by accessing the Service through clicking on the application (the “App”) on your mobile device.  \n"])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,["\nPlease review the following terms carefully. By accessing or using the Service, you signify your agreement to these Terms of Use. "])),(l()(),zl.Z(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),zl._21(null,["If you do not agree to be bound by these Terms of Use in their entirety, you may not access or use the Service."])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["PRIVACY POLICY"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["The Company respects the privacy of its Service users. Please refer to the Company’s Privacy Policy (found in the App menu) which explains how we collect, use, and disclose information that pertains to your privacy. When you access or use the Service, you signify your agreement to the Privacy Policy as well as these Terms of Use."])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["\nABOUT THE SERVICE\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,4,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["The Service allows you to create an account, view, and request available products near your location. Local pick-up locations will be shown on the Service, and payments will be made in person. \n"])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,["\nThe service is only intended for users living near product pick-up locations in the Philippines. Product requests from people outside the Philippines will not be accepted.\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["REGISTRATION; RULES FOR USER CONDUCT AND USE OF THE SERVICE"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["You need to be at least 18 years to register for and use the Service.\nIf you are a user who signs up for the Service, you will create a personalized account which includes a unique username and a password to access the Service and to receive messages from the Company. You agree to notify us immediately of any unauthorized use of your password and/or account. The Company will not be responsible for any liabilities, losses, or damages arising out of the unauthorized use of your member name, password and/or account.\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["USE RESTRICTIONS"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Your permission to use the App is conditioned upon the following use, posting and conduct restrictions: "])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["You agree that you will not under any circumstances:\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,43,"ul",[],null,null,null,null,null)),(l()(),zl._21(null,["\n  "])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["access the Service for any reason other than your personal, non-commercial use solely as permitted by the normal functionality of the Service,"])),(l()(),zl._21(null,["\n  "])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["collect or harvest any personal data of any user of the Site or the Service \n"])),(l()(),zl._21(null,["\n"])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["use the App or the Service for the solicitation of business in the course of trade or in connection with a commercial enterprise;\n"])),(l()(),zl._21(null,["\n"])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["distribute any part or parts of the App or the Service without our explicit written permission \n"])),(l()(),zl._21(null,["\n"])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["use the Service for any unlawful purpose or for the promotion of illegal activities;\n"])),(l()(),zl._21(null,["\n"])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["attempt to, or harass, abuse or harm another person or group;"])),(l()(),zl._21(null,["\n"])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["use another user’s account without permission;"])),(l()(),zl._21(null,["\n"])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["intentionally allow another user to request products from your account; "])),(l()(),zl._21(null,["\n"])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["provide false or inaccurate information when registering an account;"])),(l()(),zl._21(null,["\n"])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["interfere or attempt to interfere with the proper functioning of the Service;\n"])),(l()(),zl._21(null,["\n"])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["make any automated use of the App, the Service or the related systems, or take any action that we deem to impose or to potentially impose an unreasonable or disproportionately large load on our servers or network infrastructure;\n"])),(l()(),zl._21(null,["\n"])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["bypass any robot exclusion headers or other measures we take to restrict access to the Service, or use any software, technology, or device to scrape, spider, or crawl the Service or harvest or manipulate data; \n"])),(l()(),zl._21(null,["\n"])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["circumvent, disable or otherwise interfere with any security-related features of the Service or features that prevent or restrict use or copying of content, or enforce limitations on use of the Service or the content accessible via the Service; or \n"])),(l()(),zl._21(null,["\n"])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["publish or link to malicious content of any sort, including that intended to damage or disrupt another user’s device."])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["POSTING AND CONDUCT RESTRICTIONS"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,4,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["When you create your own personalized account, you may be able to provide a profile picture, username, phone number, email, and address (“User Content”) to the Service. You are solely responsible for the User Content that you post, upload, link to or otherwise make available via the Service. \n"])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,["\nYou agree that we are only acting as a passive conduit for your online distribution and publication of your User Content. The Company, however, reserves the right to remove any User Content from the Service at its sole discretion.\nWe grant you permission to use and access the Service, subject to the following express conditions surrounding User Content. You agree that failure to adhere to any of these conditions constitutes a material breach of these Terms. \nBy transmitting and submitting any User Content while using the Service, you agree as follows:\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,19,"ul",[],null,null,null,null,null)),(l()(),zl._21(null,["\n  "])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["You are solely responsible for your account and the activity that occurs while signed in to or while using your account;\n"])),(l()(),zl._21(null,["\n  "])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["You will not post information that is malicious, libelous, false or inaccurate;"])),(l()(),zl._21(null,["\n  "])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["You will not post any information that is abusive, threatening, obscene, defamatory, libelous, or racially, sexually, religiously, or otherwise objectionable and offensive;"])),(l()(),zl._21(null,["\n  "])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["You retain all ownership rights in your User Content but you are required to grant the following rights to the App and to users of the Service as set forth more fully under the “License Grant” and “Intellectual Property” provisions below: When you upload or post User Content to the App or the Service, you grant to the App a worldwide, non-exclusive, royalty-free, transferable license to use, reproduce, distribute, and display that Content in connection with the provision of the Service; and you grant to each user of the Service, a worldwide, non-exclusive, royalty-free license to access your User Content through the Service, and to use and display such Content to the extent permitted by the Service and under these Terms of Use;"])),(l()(),zl._21(null,["\n  "])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["You will not submit content that is copyrighted or subject to third party proprietary rights, including privacy, publicity, trade secret, or others, unless you are the owner of such rights or have the appropriate permission from their rightful owner to specifically submit such content; and"])),(l()(),zl._21(null,["\n  "])),(l()(),zl.Z(0,null,null,1,"li",[],null,null,null,null,null)),(l()(),zl._21(null,["You hereby agree that we have the right to determine whether your User Content submissions are appropriate and comply with these Terms of Service, remove any and/or all of your submissions, and terminate your account with or without prior notice."])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,3,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["\n  You understand and agree that any liability, loss or damage that occurs as a result of the use of any User Content that you make available or access through your use of the Service is solely your responsibility. The App is not responsible for any public display or misuse of your User Content. \n"])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,["\nThe App does not, and cannot, pre-screen or monitor all User Content. However, at our discretion, we, or technology we employ, may monitor and/or record your interactions with the Service or with other Users.\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["ONLINE CONTENT DISCLAIMER"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,9,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Opinions, advice, statements, offers, or other information or content made available through the Service, but not directly by the App, are those of their respective authors, and should not necessarily be relied upon. Such authors are solely responsible for such content. \n"])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,["\nWe do not guarantee the accuracy, completeness, or usefulness of any information on the App or the Service nor do we adopt nor endorse, nor are we responsible for, the accuracy or reliability of any opinion, advice, or statement made by other parties. We take no responsibility and assume no liability for any User Content that you or any other user or third party posts or sends via the Service. Under no circumstances will we be responsible for any loss or damage resulting from anyone’s reliance on information or other content posted on the Service, or transmitted to users."])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,["\nThough we strive to enforce these Terms of Use, you may be exposed to User Content that is inaccurate or objectionable when you use or access the App or the Service. We reserve the right, but have no obligation, to monitor the materials posted in the public areas of the App or the Service or to limit or deny a user’s access to the Service or take other appropriate action if a user violates these Terms of Use or engages in any activity that violates the rights of any person or entity or which we deem unlawful, offensive, abusive, harmful or malicious. E-mails sent between you and other participants that are not readily accessible to the general public will be treated by us as private to the extent required by applicable law. The Company shall have the right to remove any material that in its sole opinion violates, or is alleged to violate, the law or this agreement or which might be offensive, or that might violate the rights, harm, or threaten the safety of users or others.  Unauthorized use may result in criminal and/or civil prosecution under Federal, Province, and local law. If you become aware of a misuse of our Service or violation of these Terms of Use, please contact us at "])),(l()(),zl.Z(0,null,null,1,"a",[["href","mailto:riceupfilipino@gmail.com"]],null,null,null,null,null)),(l()(),zl._21(null,["riceupfilipino@gmail.com"])),(l()(),zl._21(null,[".\n\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["LINKS TO OTHER SITES AND/OR MATERIALS"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["\n  As part of the Service, we may provide you with convenient links to third party website(s) (“Third Party Sites”) as well as content or items belonging to or originating from third parties (the “Third Party Applications, Software or Content”). These links are provided as a courtesy to Service subscribers. We have no control over Third Party Sites or Third Party Applications, Software or Content or the promotions, materials, information, goods or services available on these Third Party Sites or Third Party Applications, Software or Content. Such Third Party Sites and Third Party Applications, Software or Content are not investigated, monitored or checked for accuracy, appropriateness, or completeness, and we are not responsible for any Third Party Sites accessed through the App or any Third Party Applications, Software or Content posted on, available through or installed from the App, including the content, accuracy, offensiveness, opinions, reliability, privacy practices or other policies of or contained in the Third Party Sites or the Third Party Applications, Software or Content. Inclusion of, linking to or permitting the use or installation of any Third Party Site or any Third Party Applications, Software or Content does not imply our approval or endorsement. If you decide to leave the App and access the Third Party Sites or to use or install any Third Party Applications, Software or Content, you do so at your own risk and you should be aware that our terms and policies, including these Terms of Use, no longer govern. You should review the applicable terms and policies, including privacy and data gathering practices, of any Third Party Site to which you navigate from the Site or relating to any applications you use or install from the Third Party Site.\n\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["LICENSE GRANT"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["\n  By posting any User Content via the Service, you expressly grant, and you represent and warrant that you have a right to grant, to the Company a royalty-free, sublicensable, transferable, perpetual, irrevocable, non-exclusive, worldwide license to use, reproduce, modify, publish, list information regarding, edit, translate, distribute, and publicly display all such User Content and your name, voice, and/or likeness as contained in your User Content, if applicable, in whole or in part, and in any form, media or technology, whether now known or hereafter developed, for use in connection with the Service.\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["INTELLECTUAL PROPERTY"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["\n  You acknowledge and agree that we and our licensors retain ownership of all intellectual property rights of any kind related to the Service, including applicable copyrights, trademarks and other proprietary rights. Other product and company names that are mentioned on the Service may be trademarks of their respective owners. We reserve all rights that are not expressly granted to you under these Terms of Use.\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["\n  EMAIL MAY NOT BE USED TO PROVIDE NOTICE\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Communications made through the Service’s email and messaging system will not constitute legal notice to the App, the Service, or any of its officers, employees, agents or representatives in any situation where legal notice is required by contract or any law or regulation.\n"])),(l()(),zl._21(1,["\n\n"])),(l()(),zl.Z(0,null,1,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["\n  USER CONSENT TO RECEIVE COMMUNICATIONS IN ELECTRONIC FORM\n\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,7,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["\n  For contractual purposes, you: (a) consent to receive communications from us in an electronic form via the email address you have submitted; and (b) agree that all Terms of Use, agreements, notices, disclosures, and other communications that we provide to you electronically satisfy any legal requirement that such communications would satisfy if it were in writing. The foregoing does not affect your non-waivable rights.\n"])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,["\nWe may also use your email address to send you other messages, including information about the App or the Service and special offers. You may opt out of such email by changing your account settings, using the “Unsubscribe” link in the message, or by sending an email to riceupfilipino@gmail.com. \n"])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,["\nOpting out may prevent you from receiving messages regarding the App, the Service or special offers.\n\n\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["WARRANTY DISCLAIMER"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["\n  THE SERVICE, IS PROVIDED “AS IS,” WITHOUT WARRANTY OF ANY KIND. WITHOUT LIMITING THE FOREGOING, WE EXPRESSLY DISCLAIM ALL WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, REGARDING THE SERVICE INCLUDING WITHOUT LIMITATION ANY WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, SECURITY, ACCURACY AND NON-INFRINGEMENT. WITHOUT LIMITING THE FOREGOING, WE MAKE NO WARRANTY OR REPRESENTATION THAT ACCESS TO OR OPERATION OF THE SERVICE WILL BE UNINTERRUPTED OR ERROR FREE. YOU ASSUME FULL RESPONSIBILITY AND RISK OF LOSS RESULTING FROM YOUR DOWNLOADING AND/OR USE OF FILES, INFORMATION, CONTENT OR OTHER MATERIAL OBTAINED FROM THE SERVICE. SOME JURISDICTIONS LIMIT OR DO NOT PERMIT DISCLAIMERS OF WARRANTY, SO THIS PROVISION MAY NOT APPLY TO YOU.\n\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["LIMITATION OF DAMAGES; RELEASE"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,4,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["\n  TO THE EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE APP, THE SERVICE, ITS AFFILIATES, DIRECTORS, OR EMPLOYEES, OR ITS LICENSORS OR PARTNERS, BE LIABLE TO YOU FOR ANY LOSS OF PROFITS, USE,  OR DATA, OR FOR ANY INCIDENTAL, INDIRECT, SPECIAL, CONSEQUENTIAL OR EXEMPLARY DAMAGES, HOWEVER ARISING, THAT RESULT FROM: (A) THE USE, DISCLOSURE, OR DISPLAY OF YOUR USER CONTENT; (B) YOUR USE OR INABILITY TO USE THE SERVICE; (C) THE SERVICE GENERALLY OR THE SOFTWARE OR SYSTEMS THAT MAKE THE SERVICE AVAILABLE; OR (D) ANY OTHER INTERACTIONS WITH USE OR WITH ANY OTHER USER OF THE SERVICE, WHETHER BASED ON WARRANTY, CONTRACT, TORT (INCLUDING NEGLIGENCE) OR ANY OTHER LEGAL THEORY, AND WHETHER OR NOT WE HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGE, AND EVEN IF A REMEDY SET FORTH HEREIN IS FOUND TO HAVE FAILED OF ITS ESSENTIAL PURPOSE. SOME JURISDICTIONS LIMIT OR DO NOT PERMIT DISCLAIMERS OF LIABILITY, SO THIS PROVISION MAY NOT APPLY TO YOU.\n"])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,["\nIf you have a dispute with one or more users, a restaurant or a merchant of a product or service that you review using the Service, you release us (and our officers, directors, agents, subsidiaries, joint ventures and employees) from claims, demands and damages (actual and consequential) of every kind and nature, known and unknown, arising out of or in any way connected with such disputes. \n\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["MODIFICATION OF TERMS OF USE"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["We can amend these Terms of Use at any time and will update these Terms of Use in the event of any such amendments. It is your sole responsibility to check the App from time to time to view any such changes in this agreement. Your continued use of the App or the Service signifies your agreement to our revisions to these Terms of Use. We will endeavor to notify you of material changes to the Terms by posting a notice on our App and/or sending an email to the email address you provided to us upon registration. For this additional reason, you should keep your contact and profile information current. Any changes to these Terms (other than as set forth in this paragraph) or waiver of our rights hereunder shall not be valid or effective except in a written agreement bearing the physical signature of one of our officers. No purported waiver or modification of this agreement on our part via telephonic or email communications shall be valid.\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["GENERAL TERMS"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,10,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["\n  If any part of this Terms of Use agreement is held or found to be invalid or unenforceable, that portion of the agreement will be construed as to be consistent with applicable law while the remaining portions of the agreement will remain in full force and effect. Any failure on our part to enforce any provision of this agreement will not be considered a waiver of our right to enforce such provision. Our rights under this agreement survive any transfer or termination of this agreement.\n"])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,["\nYou agree that any cause of action related to or arising out of your relationship with the Company must commence within ONE year after the cause of action accrues. Otherwise, such cause of action is permanently barred.\n"])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,["\nWe may assign or delegate these Terms of Service and/or our Privacy Policy, in whole or in part, to any person or entity at any time with or without your consent. You may not assign or delegate any rights or obligations under the Terms of Service or Privacy Policy without our prior written consent, and any unauthorized assignment or delegation by you is void.\n"])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,["\nYOU ACKNOWLEDGE THAT YOU HAVE READ THESE TERMS OF USE, UNDERSTAND THE TERMS OF USE, AND WILL BE BOUND BY THESE TERMS AND CONDITIONS. YOU FURTHER ACKNOWLEDGE THAT THESE TERMS OF USE TOGETHER WITH THE PRIVACY POLICY REPRESENT THE COMPLETE AND EXCLUSIVE STATEMENT OF THE AGREEMENT BETWEEN US AND THAT IT SUPERSEDES ANY PROPOSAL OR PRIOR AGREEMENT ORAL OR WRITTEN, AND ANY OTHER COMMUNICATIONS BETWEEN US RELATING TO THE SUBJECT MATTER OF THIS AGREEMENT.\n\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["\n  CONTACT US\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["\n  If there are any further questions regarding these terms of use, you may contact us at:\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,10,"ul",[],null,null,null,null,null)),(l()(),zl._21(null,["\n  "])),(l()(),zl.Z(0,null,null,2,"li",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,1,"a",[["href","mailto:riceupfilipino@gmail.com"]],null,null,null,null,null)),(l()(),zl._21(null,["riceupfilipino@gmail.com"])),(l()(),zl._21(null,["\n  "])),(l()(),zl.Z(0,null,null,3,"li",[],null,null,null,null,null)),(l()(),zl._21(null,[" "])),(l()(),zl.Z(0,null,null,1,"a",[["href","https://riceupfarmers.org"]],null,null,null,null,null)),(l()(),zl._21(null,["https://riceupfarmers.org"])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(1,["\n"])),(l()(),zl._21(null,["\n"]))],function(l,n){l(n,8,0,"");l(n,13,0,"menu")},function(l,n){l(n,4,0,zl._13(n,5)._hidden,zl._13(n,5)._sbPadding);l(n,6,0,zl._13(n,8).isHidden);l(n,12,0,zl._13(n,13)._hidden);l(n,22,0,zl._13(n,23).statusbarPadding)})}function sl(l){return zl._23(0,[(l()(),zl.Z(0,null,null,12,"button",[["class","blue item item-block"],["ion-item",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.callorderinfo(l.parent.context.$implicit.id)&&t}return t},vt.b,vt.a)),zl.Y(548864,[[2,4]],3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,4,{contentLabel:0}),zl._19(301989888,5,{_buttons:1}),zl._19(301989888,6,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),zl._21(null,["Order#: ",""])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,[""," - Completed "])),(l()(),zl._21(2,["\n            "]))],null,function(l,n){l(n,8,0,n.parent.context.$implicit.order_number);l(n,11,0,n.parent.context.$implicit.order_date)})}function cl(l){return zl._23(0,[(l()(),zl.Z(0,null,null,12,"button",[["class","item item-block"],["ion-item",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.callorderinfo(l.parent.context.$implicit.id)&&t}return t},vt.b,vt.a)),zl.Y(548864,[[2,4]],3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,7,{contentLabel:0}),zl._19(301989888,8,{_buttons:1}),zl._19(301989888,9,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),zl._21(null,["Order#: ",""])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,[""," - Pending"])),(l()(),zl._21(2,["\n            "]))],null,function(l,n){l(n,8,0,n.parent.context.$implicit.order_number);l(n,11,0,n.parent.context.$implicit.order_date)})}function _l(l){return zl._23(0,[(l()(),zl.Z(0,null,null,12,"button",[["class","item item-block"],["ion-item",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.callorderinfo(l.parent.context.$implicit.id)&&t}return t},vt.b,vt.a)),zl.Y(548864,[[2,4]],3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,10,{contentLabel:0}),zl._19(301989888,11,{_buttons:1}),zl._19(301989888,12,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),zl._21(null,["Order#: ",""])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,[""," - Cancelled"])),(l()(),zl._21(2,["\n            "]))],null,function(l,n){l(n,8,0,n.parent.context.$implicit.order_number);l(n,11,0,n.parent.context.$implicit.order_date)})}function pl(l){return zl._23(0,[(l()(),zl.Z(0,null,null,13,"ion-item-sliding",[],null,null,null,_e.b,_e.a)),zl.Y(24576,null,2,pe.c,[[2,Et.a],Bt.a,Kn.a,zl.B,zl.j,zl.v],null,null),zl._19(301989888,2,{item:0}),zl._19(301989888,3,{_itemOptions:1}),(l()(),zl._21(null,["\n            "])),(l()(),zl.V(8388608,null,0,1,null,sl)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(null,["\n\n\n            "])),(l()(),zl.V(8388608,null,0,1,null,cl)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(null,["\n\n            "])),(l()(),zl.V(8388608,null,0,1,null,_l)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(null,["\n        "]))],function(l,n){l(n,6,0,2===n.context.$implicit.order_status);l(n,9,0,1===n.context.$implicit.order_status);l(n,12,0,3===n.context.$implicit.order_status)},null)}function dl(l){return zl._23(0,[(l()(),zl._21(null,["\n"])),(l()(),zl.Z(0,null,null,20,"ion-header",[],null,null,null,null,null)),zl.Y(8192,null,0,ne.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n    "])),(l()(),zl.Z(0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ue.b,ue.a)),zl.Y(24576,null,0,te.a,[lu.a,[2,It.a],[2,Mt.a],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==zl._13(l,9).toggle()&&t}return t},zt.b,zt.a)),zl.Y(548864,[[1,4]],0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],null,null),zl.Y(532480,null,0,ee.a,[Qn.a,[2,It.a],[2,Jt.a],[2,te.a]],{menuToggle:[0,"menuToggle"]},null),zl.Y(8192,null,1,ae.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),zl._19(301989888,1,{_buttons:1}),(l()(),zl._21(0,["\n            "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(0,["\n        "])),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,3,2,"ion-title",[],null,null,null,oe.b,oe.a)),zl.Y(24576,null,0,re.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),(l()(),zl._21(0,["My Orders"])),(l()(),zl._21(3,["\n    "])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(null,["\n\n"])),(l()(),zl.Z(0,null,null,9,"ion-content",[["class","property-list"]],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n    "])),(l()(),zl.Z(0,null,1,5,"ion-list",[],null,null,null,null,null)),zl.Y(8192,null,0,Et.a,[Ct.a,zl.j,zl.B,Bt.a,nu.l,Kn.a],null,null),(l()(),zl._21(null,["\n        "])),(l()(),zl.V(8388608,null,null,1,null,pl)),zl.Y(401408,null,0,Jn.i,[zl.J,zl.G,zl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),zl._21(null,["\n    "])),(l()(),zl._21(1,["\n"])),(l()(),zl._21(null,["\n"]))],function(l,n){var u=n.component;l(n,9,0,"");l(n,14,0,"menu");l(n,30,0,u.orders)},function(l,n){l(n,4,0,zl._13(n,5)._hidden,zl._13(n,5)._sbPadding);l(n,7,0,zl._13(n,9).isHidden);l(n,13,0,zl._13(n,14)._hidden);l(n,23,0,zl._13(n,24).statusbarPadding)})}function hl(l){return zl._23(0,[(l()(),zl.Z(0,null,null,45,"ion-item-sliding",[],null,null,null,_e.b,_e.a)),zl.Y(24576,null,2,pe.c,[[2,Et.a],Bt.a,Kn.a,zl.B,zl.j,zl.v],null,null),zl._19(167772160,2,{item:0}),zl._19(301989888,3,{_itemOptions:1}),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,0,29,"div",[["class","item item-block"],["ion-item",""]],null,null,null,vt.b,vt.a)),zl.Y(548864,[[2,4]],3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,4,{contentLabel:0}),zl._19(301989888,5,{_buttons:1}),zl._19(301989888,6,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                    "])),(l()(),zl.Z(0,null,2,0,"img",[["onError","this.src='http://riceupfarmers.org/wp-content/system/sproduct.jpg';"],["style","float: left;margin-right: 5px;"]],[[8,"src",4]],null,null,null,null)),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["P"," "])),(l()(),zl._21(2,["\n                \n                "])),(l()(),zl.Z(0,null,2,13,"div",[["style","text-align: right;"]],null,null,null,null,null)),(l()(),zl._21(null,["\n                "])),(l()(),zl.Z(0,null,null,4,"button",[["ion-button",""],["style","width: 40px; height: 40px"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.subq(l.context.$implicit.id,l.context.$implicit.quantity,l.context.$implicit.farmer_product.stocks_available)&&t}return t},zt.b,zt.a)),zl.Y(548864,[[5,4]],0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(0,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","md-remove"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(null,["\n\n                ","\n\n                "])),(l()(),zl.Z(0,null,null,4,"button",[["ion-button",""],["style","width: 40px; height: 40px"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.addq(l.context.$implicit.id,l.context.$implicit.quantity,l.context.$implicit.farmer_product.stocks_available)&&t}return t},zt.b,zt.a)),zl.Y(548864,[[5,4]],0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(0,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","md-add"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(null,["\n                "])),(l()(),zl._21(2,["\n\n            "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,1,8,"ion-item-options",[],null,null,null,null,null)),zl.Y(8192,[[3,4]],0,ua.a,[zl.j,zl.B],null,null),(l()(),zl._21(null,["\n                "])),(l()(),zl.Z(0,null,null,1,"button",[["class","green"],["danger",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.updatecart(l.context.$implicit)&&t}return t},null,null)),(l()(),zl._21(null,["View"])),(l()(),zl._21(null,["\n                "])),(l()(),zl.Z(0,null,null,1,"button",[["class","red"],["danger",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.delcart(l.context.$implicit.id)&&t}return t},null,null)),(l()(),zl._21(null,["Remove"])),(l()(),zl._21(null,["\n            "])),(l()(),zl._21(null,["\n        "]))],function(l,n){l(n,26,0,"md-remove");l(n,32,0,"md-add")},function(l,n){l(n,12,0,zl._3(1,"http://riceupfarmers.org/wp-content/system/uploads/s",n.context.$implicit.farmer_product.photo_url,".jpg"));l(n,15,0,n.context.$implicit.farmer_product.product_name);l(n,18,0,n.context.$implicit.farmer_product.price_per_unit);l(n,25,0,zl._13(n,26)._hidden);l(n,27,0,n.context.$implicit.quantity);l(n,31,0,zl._13(n,32)._hidden)})}function ml(l){return zl._23(0,[(l()(),zl.Z(0,null,null,20,"ion-header",[],null,null,null,null,null)),zl.Y(8192,null,0,ne.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n    "])),(l()(),zl.Z(0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ue.b,ue.a)),zl.Y(24576,null,0,te.a,[lu.a,[2,It.a],[2,Mt.a],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==zl._13(l,8).toggle()&&t}return t},zt.b,zt.a)),zl.Y(548864,[[1,4]],0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],null,null),zl.Y(532480,null,0,ee.a,[Qn.a,[2,It.a],[2,Jt.a],[2,te.a]],{menuToggle:[0,"menuToggle"]},null),zl.Y(8192,null,1,ae.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),zl._19(301989888,1,{_buttons:1}),(l()(),zl._21(0,["\n            "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(0,["\n        "])),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,3,2,"ion-title",[],null,null,null,oe.b,oe.a)),zl.Y(24576,null,0,re.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),(l()(),zl._21(0,["Cart"])),(l()(),zl._21(3,["\n    "])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(null,["\n\n"])),(l()(),zl.Z(0,null,null,37,"ion-content",[],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n        "])),(l()(),zl.Z(0,null,1,27,"ion-list",[],null,null,null,null,null)),zl.Y(8192,null,0,Et.a,[Ct.a,zl.j,zl.B,Bt.a,nu.l,Kn.a],null,null),(l()(),zl._21(null,["\n        "])),(l()(),zl.V(8388608,null,null,1,null,hl)),zl.Y(401408,null,0,Jn.i,[zl.J,zl.G,zl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,20,"ion-item-sliding",[],null,null,null,_e.b,_e.a)),zl.Y(24576,null,2,pe.c,[[2,Et.a],Bt.a,Kn.a,zl.B,zl.j,zl.v],null,null),zl._19(167772160,7,{item:0}),zl._19(301989888,8,{_itemOptions:1}),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,0,14,"button",[["class","item item-block"],["ion-item",""]],null,null,null,vt.b,vt.a)),zl.Y(548864,[[7,4]],3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,9,{contentLabel:0}),zl._19(301989888,10,{_buttons:1}),zl._19(301989888,11,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,0,"h3",[],null,null,null,null,null)),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,0,"p",[],null,null,null,null,null)),(l()(),zl._21(2,["\n            "])),(l()(),zl.Z(0,null,4,2,"ion-note",[["item-right",""]],null,null,null,null,null)),zl.Y(8192,null,0,he.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n        "])),(l()(),zl._21(null,["\n    "])),(l()(),zl._21(1,["\n\n        "])),(l()(),zl.Z(0,null,1,4,"button",[["block",""],["class","submit-btn"],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.codorship()&&t}return t},zt.b,zt.a)),zl.Y(548864,null,0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],{block:[0,"block"]},null),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","lock"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(0,["   Place order"])),(l()(),zl._21(1,["\n"])),(l()(),zl._21(null,["\n\n"])),(l()(),zl.Z(0,null,null,12,"ion-footer",[["padding",""]],null,null,null,null,null)),zl.Y(8192,null,0,Be.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n    "])),(l()(),zl.Z(0,null,null,8,"ion-segment",[],null,null,null,null,null)),zl.Y(2105344,null,1,Ae.a,[Ct.a,zl.j,zl.B,[2,Cn.j]],null,null),zl._19(301989888,12,{_buttons:1}),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,3,"p",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),zl._21(null,["Note:"])),(l()(),zl._21(null,[" Options will appear when you swipe left on the product."])),(l()(),zl._21(null,["\n    "])),(l()(),zl._21(null,["\n"]))],function(l,n){var u=n.component;l(n,8,0,"");l(n,13,0,"menu");l(n,29,0,u.orders);l(n,55,0,"");l(n,57,0,"lock")},function(l,n){var u=n.component;l(n,3,0,zl._13(n,4)._hidden,zl._13(n,4)._sbPadding);l(n,6,0,zl._13(n,8).isHidden);l(n,12,0,zl._13(n,13)._hidden);l(n,22,0,zl._13(n,23).statusbarPadding);l(n,49,0,u.gtotal);l(n,56,0,zl._13(n,57)._hidden)})}function gl(l){return zl._23(0,[(l()(),zl.Z(0,null,null,10,"ion-header",[],null,null,null,null,null)),zl.Y(8192,null,0,ne.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n\n    "])),(l()(),zl.Z(0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ue.b,ue.a)),zl.Y(24576,null,0,te.a,[lu.a,[2,It.a],[2,Mt.a],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(3,["\n       \n        "])),(l()(),zl.Z(0,null,3,2,"ion-title",[],null,null,null,oe.b,oe.a)),zl.Y(24576,null,0,re.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),(l()(),zl._21(0,["Customer Registration"])),(l()(),zl._21(3,["\n    "])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(null,["\n\n"])),(l()(),zl.Z(0,null,null,216,"ion-content",[],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n\n "])),(l()(),zl.Z(0,null,1,211,"form",[["novalidate",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"submit"],[null,"reset"]],function(l,n,u){var t=!0;if("submit"===n){t=!1!==zl._13(l,17).onSubmit(u)&&t}if("reset"===n){t=!1!==zl._13(l,17).onReset()&&t}return t},null,null)),zl.Y(8192,null,0,Cn.q,[],null,null),zl.Y(270336,null,0,Cn.f,[[8,null],[8,null]],{form:[0,"form"]},null),zl._18(1024,null,Cn.b,null,[Cn.f]),zl.Y(8192,null,0,Cn.l,[Cn.b],null,null),(l()(),zl._21(null,["\n\n      "])),(l()(),zl.Z(0,null,null,192,"div",[["formGroupName","name"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,null,null)),zl.Y(106496,null,0,Cn.g,[[3,Cn.b],[8,null],[8,null]],{name:[0,"name"]},null),zl._18(1024,null,Cn.b,null,[Cn.g]),zl.Y(8192,null,0,Cn.l,[Cn.b],null,null),(l()(),zl._21(null,["\n\n      "])),(l()(),zl.Z(0,null,null,11,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,1,{contentLabel:0}),zl._19(301989888,2,{_buttons:1}),zl._19(301989888,3,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n      "])),(l()(),zl.Z(0,null,1,3,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[1,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl.Z(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),zl._21(null,["Login Details"])),(l()(),zl._21(2,["\n      "])),(l()(),zl._21(null,["\n      "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,4,{contentLabel:0}),zl._19(301989888,5,{_buttons:1}),zl._19(301989888,6,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n      "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[4,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Username:"])),(l()(),zl._21(2,["\n      "])),(l()(),zl.Z(0,null,3,4,"ion-input",[["formControlName","username2"],["placeholder","RiceUp"],["type","text"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,qt.b,qt.a)),zl.Y(335872,null,0,Cn.e,[[3,Cn.b],[8,null],[8,null],[8,null]],{name:[0,"name"]},null),zl._18(1024,null,Cn.j,null,[Cn.e]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],{placeholder:[0,"placeholder"],type:[1,"type"]},null),(l()(),zl._21(2,["\n      "])),(l()(),zl._21(null,["\n      "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,7,{contentLabel:0}),zl._19(301989888,8,{_buttons:1}),zl._19(301989888,9,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n      "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[7,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Password:"])),(l()(),zl._21(2,["\n      "])),(l()(),zl.Z(0,null,3,4,"ion-input",[["formControlName","password2"],["type","password"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,qt.b,qt.a)),zl.Y(335872,null,0,Cn.e,[[3,Cn.b],[8,null],[8,null],[8,null]],{name:[0,"name"]},null),zl._18(1024,null,Cn.j,null,[Cn.e]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],{type:[0,"type"]},null),(l()(),zl._21(2,["\n      "])),(l()(),zl._21(null,["\n      "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,10,{contentLabel:0}),zl._19(301989888,11,{_buttons:1}),zl._19(301989888,12,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n      "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[10,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Confirm Password:"])),(l()(),zl._21(2,["\n      "])),(l()(),zl.Z(0,null,3,4,"ion-input",[["formControlName","cpassword"],["type","password"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,qt.b,qt.a)),zl.Y(335872,null,0,Cn.e,[[3,Cn.b],[8,null],[8,null],[8,null]],{name:[0,"name"]},null),zl._18(1024,null,Cn.j,null,[Cn.e]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],{type:[0,"type"]},null),(l()(),zl._21(2,["\n    "])),(l()(),zl._21(null,["\n      "])),(l()(),zl.Z(0,null,null,11,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,13,{contentLabel:0}),zl._19(301989888,14,{_buttons:1}),zl._19(301989888,15,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n      "])),(l()(),zl.Z(0,null,1,3,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[13,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl.Z(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),zl._21(null,["General Information"])),(l()(),zl._21(2,["\n      "])),(l()(),zl._21(null,["\n      "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,16,{contentLabel:0}),zl._19(301989888,17,{_buttons:1}),zl._19(301989888,18,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n      "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[16,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["First Name:"])),(l()(),zl._21(2,["\n      "])),(l()(),zl.Z(0,null,3,4,"ion-input",[["formControlName","firstname"],["placeholder","Juan"],["type","text"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,qt.b,qt.a)),zl.Y(335872,null,0,Cn.e,[[3,Cn.b],[8,null],[8,null],[8,null]],{name:[0,"name"]},null),zl._18(1024,null,Cn.j,null,[Cn.e]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],{placeholder:[0,"placeholder"],type:[1,"type"]},null),(l()(),zl._21(2,["\n      "])),(l()(),zl._21(null,["\n      "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,19,{contentLabel:0}),zl._19(301989888,20,{_buttons:1}),zl._19(301989888,21,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n      "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[19,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Middle Name:"])),(l()(),zl._21(2,["\n      "])),(l()(),zl.Z(0,null,3,4,"ion-input",[["formControlName","middlename"],["placeholder",""],["type","text"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,qt.b,qt.a)),zl.Y(335872,null,0,Cn.e,[[3,Cn.b],[8,null],[8,null],[8,null]],{name:[0,"name"]},null),zl._18(1024,null,Cn.j,null,[Cn.e]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],{placeholder:[0,"placeholder"],type:[1,"type"]},null),(l()(),zl._21(2,["\n      "])),(l()(),zl._21(null,["\n      "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,22,{contentLabel:0}),zl._19(301989888,23,{_buttons:1}),zl._19(301989888,24,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n      "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[22,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Last Name:"])),(l()(),zl._21(2,["\n      "])),(l()(),zl.Z(0,null,3,4,"ion-input",[["formControlName","lastname"],["placeholder","Dela Cruz"],["type","text"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,qt.b,qt.a)),zl.Y(335872,null,0,Cn.e,[[3,Cn.b],[8,null],[8,null],[8,null]],{name:[0,"name"]},null),zl._18(1024,null,Cn.j,null,[Cn.e]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],{placeholder:[0,"placeholder"],type:[1,"type"]},null),(l()(),zl._21(2,["\n      "])),(l()(),zl._21(null,["\n      "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,25,{contentLabel:0}),zl._19(301989888,26,{_buttons:1}),zl._19(301989888,27,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n      "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[25,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Mobile Number:"])),(l()(),zl._21(2,["\n      "])),(l()(),zl.Z(0,null,3,4,"ion-input",[["formControlName","mobilenumber"],["placeholder","09XXXXXXXXX"],["type","text"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,qt.b,qt.a)),zl.Y(335872,null,0,Cn.e,[[3,Cn.b],[8,null],[8,null],[8,null]],{name:[0,"name"]},null),zl._18(1024,null,Cn.j,null,[Cn.e]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],{placeholder:[0,"placeholder"],type:[1,"type"]},null),(l()(),zl._21(2,["\n      "])),(l()(),zl._21(null,["\n\n      "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,28,{contentLabel:0}),zl._19(301989888,29,{_buttons:1}),zl._19(301989888,30,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n      "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[28,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Email Address:"])),(l()(),zl._21(2,["\n      "])),(l()(),zl.Z(0,null,3,4,"ion-input",[["formControlName","email"],["placeholder","RiceUp@riceupfarmers.org"],["type","email"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,qt.b,qt.a)),zl.Y(335872,null,0,Cn.e,[[3,Cn.b],[8,null],[8,null],[8,null]],{name:[0,"name"]},null),zl._18(1024,null,Cn.j,null,[Cn.e]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],{placeholder:[0,"placeholder"],type:[1,"type"]},null),(l()(),zl._21(2,["\n      "])),(l()(),zl._21(null,["\n      "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,31,{contentLabel:0}),zl._19(301989888,32,{_buttons:1}),zl._19(301989888,33,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n      "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[31,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Address:"])),(l()(),zl._21(2,["\n      "])),(l()(),zl.Z(0,null,3,4,"ion-input",[["formControlName","address"],["placeholder","P sherman 42 wallaby way sydney"],["type","text"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,qt.b,qt.a)),zl.Y(335872,null,0,Cn.e,[[3,Cn.b],[8,null],[8,null],[8,null]],{name:[0,"name"]},null),zl._18(1024,null,Cn.j,null,[Cn.e]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],{placeholder:[0,"placeholder"],type:[1,"type"]},null),(l()(),zl._21(2,["\n      "])),(l()(),zl._21(null,["\n      "])),(l()(),zl._21(null,["\n\n  "])),(l()(),zl.Z(0,null,null,10,"ion-buttons",[],null,null,null,null,null)),zl.Y(8192,null,1,ae.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),zl._19(301989888,34,{_buttons:1}),(l()(),zl._21(null,["\n       "])),(l()(),zl.Z(0,null,null,5,"button",[["block",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.signup()&&t}return t},zt.b,zt.a)),zl.Y(548864,[[34,4]],0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],{block:[0,"block"]},null),(l()(),zl._21(0,["\n        "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","ion-plus-circled"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(0,["Registration\n      "])),(l()(),zl._21(null,["\n      \n    "])),(l()(),zl._21(null,["\n    \n    "])),(l()(),zl._21(1,["\n"])),(l()(),zl._21(1,["\n    \n  \n"]))],function(l,n){l(n,17,0,n.component.form);l(n,22,0,"name");l(n,51,0,"username2");l(n,54,0,"RiceUp","text");l(n,69,0,"password2");l(n,72,0,"password");l(n,87,0,"cpassword");l(n,90,0,"password");l(n,118,0,"firstname");l(n,121,0,"Juan","text");l(n,136,0,"middlename");l(n,139,0,"","text");l(n,154,0,"lastname");l(n,157,0,"Dela Cruz","text");l(n,172,0,"mobilenumber");l(n,175,0,"09XXXXXXXXX","text");l(n,190,0,"email");l(n,193,0,"RiceUp@riceupfarmers.org","email");l(n,208,0,"address");l(n,211,0,"P sherman 42 wallaby way sydney","text");l(n,220,0,"");l(n,223,0,"ion-plus-circled")},function(l,n){l(n,3,0,zl._13(n,4)._hidden,zl._13(n,4)._sbPadding);l(n,12,0,zl._13(n,13).statusbarPadding);l(n,15,0,zl._13(n,19).ngClassUntouched,zl._13(n,19).ngClassTouched,zl._13(n,19).ngClassPristine,zl._13(n,19).ngClassDirty,zl._13(n,19).ngClassValid,zl._13(n,19).ngClassInvalid,zl._13(n,19).ngClassPending);l(n,21,0,zl._13(n,24).ngClassUntouched,zl._13(n,24).ngClassTouched,zl._13(n,24).ngClassPristine,zl._13(n,24).ngClassDirty,zl._13(n,24).ngClassValid,zl._13(n,24).ngClassInvalid,zl._13(n,24).ngClassPending);l(n,50,0,zl._13(n,53).ngClassUntouched,zl._13(n,53).ngClassTouched,zl._13(n,53).ngClassPristine,zl._13(n,53).ngClassDirty,zl._13(n,53).ngClassValid,zl._13(n,53).ngClassInvalid,zl._13(n,53).ngClassPending);l(n,68,0,zl._13(n,71).ngClassUntouched,zl._13(n,71).ngClassTouched,zl._13(n,71).ngClassPristine,zl._13(n,71).ngClassDirty,zl._13(n,71).ngClassValid,zl._13(n,71).ngClassInvalid,zl._13(n,71).ngClassPending);l(n,86,0,zl._13(n,89).ngClassUntouched,zl._13(n,89).ngClassTouched,zl._13(n,89).ngClassPristine,zl._13(n,89).ngClassDirty,zl._13(n,89).ngClassValid,zl._13(n,89).ngClassInvalid,zl._13(n,89).ngClassPending);l(n,117,0,zl._13(n,120).ngClassUntouched,zl._13(n,120).ngClassTouched,zl._13(n,120).ngClassPristine,zl._13(n,120).ngClassDirty,zl._13(n,120).ngClassValid,zl._13(n,120).ngClassInvalid,zl._13(n,120).ngClassPending);l(n,135,0,zl._13(n,138).ngClassUntouched,zl._13(n,138).ngClassTouched,zl._13(n,138).ngClassPristine,zl._13(n,138).ngClassDirty,zl._13(n,138).ngClassValid,zl._13(n,138).ngClassInvalid,zl._13(n,138).ngClassPending);l(n,153,0,zl._13(n,156).ngClassUntouched,zl._13(n,156).ngClassTouched,zl._13(n,156).ngClassPristine,zl._13(n,156).ngClassDirty,zl._13(n,156).ngClassValid,zl._13(n,156).ngClassInvalid,zl._13(n,156).ngClassPending);l(n,171,0,zl._13(n,174).ngClassUntouched,zl._13(n,174).ngClassTouched,zl._13(n,174).ngClassPristine,zl._13(n,174).ngClassDirty,zl._13(n,174).ngClassValid,zl._13(n,174).ngClassInvalid,zl._13(n,174).ngClassPending);l(n,189,0,zl._13(n,192).ngClassUntouched,zl._13(n,192).ngClassTouched,zl._13(n,192).ngClassPristine,zl._13(n,192).ngClassDirty,zl._13(n,192).ngClassValid,zl._13(n,192).ngClassInvalid,zl._13(n,192).ngClassPending);l(n,207,0,zl._13(n,210).ngClassUntouched,zl._13(n,210).ngClassTouched,zl._13(n,210).ngClassPristine,zl._13(n,210).ngClassDirty,zl._13(n,210).ngClassValid,zl._13(n,210).ngClassInvalid,zl._13(n,210).ngClassPending);l(n,222,0,zl._13(n,223)._hidden)})}function fl(l){return zl._23(0,[(l()(),zl.Z(0,null,null,71,"ion-card",[],null,null,null,null,null)),zl.Y(8192,null,0,me.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["\n\n        "])),(l()(),zl.Z(0,null,null,12,"ion-card-content",[],null,null,null,null,null)),zl.Y(8192,null,0,Ot.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(null,["\n            \n         "])),(l()(),zl.Z(0,null,null,0,"img",[["alt","loading..."],["onError","this.src='http://riceupfarmers.org/wp-content/system/user.jpg';"]],[[8,"src",4]],null,null,null,null)),(l()(),zl._21(null,["\n\n            "])),(l()(),zl.Z(0,null,null,3,"h2",[],null,null,null,null,null)),(l()(),zl._21(null,["",", "," ",""])),(l()(),zl.Z(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),zl._21(null,["(",")"])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(null,["\n        "])),(l()(),zl._21(null,["\n\n        "])),(l()(),zl.Z(0,null,null,53,"ion-list",[],null,null,null,null,null)),zl.Y(8192,null,0,Et.a,[Ct.a,zl.j,zl.B,Bt.a,nu.l,Kn.a],null,null),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,15,"a",[["class","item item-block"],["ion-item",""]],[[8,"href",4]],null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,5,{contentLabel:0}),zl._19(301989888,6,{_buttons:1}),zl._19(301989888,7,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","text"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[7,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Call/Text"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,15,"a",[["class","item item-block"],["ion-item",""]],[[8,"href",4]],null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,8,{contentLabel:0}),zl._19(301989888,9,{_buttons:1}),zl._19(301989888,10,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","mail"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[10,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Email"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,15,"a",[["class","item item-block"],["href","#"],["ion-item",""]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,11,{contentLabel:0}),zl._19(301989888,12,{_buttons:1}),zl._19(301989888,13,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["item-left",""],["name","pin"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,[[13,4]],0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Address"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n        "])),(l()(),zl._21(null,["\n    "]))],function(l,n){l(n,28,0,"text");l(n,45,0,"mail");l(n,62,0,"pin")},function(l,n){var u=n.component;l(n,6,0,zl._3(2,"http://riceupfarmers.org/wp-content/system/uploads/",u.user.id,".jpg?",u.timee,""));l(n,9,0,u.user.lastname,u.user.firstname,u.user.middlename);l(n,11,0,u.user.username);l(n,14,0,u.user.business_name);l(n,20,0,zl._3(1,"tel:",u.user.mobile_number,""));l(n,27,0,zl._13(n,28)._hidden);l(n,34,0,u.user.mobile_no);l(n,37,0,zl._3(1,"mailto:",u.user.email_address,""));l(n,44,0,zl._13(n,45)._hidden);l(n,51,0,u.user.email);l(n,61,0,zl._13(n,62)._hidden);l(n,68,0,u.user.address)})}function bl(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"div",[["style","margin-top: 20px;margin-left: 10px;"]],null,null,null,null,null)),(l()(),zl._21(null,["\n                        Your farmer Info is not available.\n            "]))],null,null)}function vl(l){return zl._23(0,[(l()(),zl.Z(0,null,null,45,"div",[],null,null,null,null,null)),(l()(),zl._21(null,["\n                "])),(l()(),zl.Z(0,null,null,0,"div",[["id","map"],["style","width:100%;height:300px;"]],null,null,null,null,null)),(l()(),zl._21(null,["\n\n            "])),(l()(),zl.Z(0,null,null,12,"a",[["class","item item-block"],["href","#"],["ion-item",""]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,14,{contentLabel:0}),zl._19(301989888,15,{_buttons:1}),zl._19(301989888,16,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Business Name:"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,12,"a",[["class","item item-block"],["href","#"],["ion-item",""]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,17,{contentLabel:0}),zl._19(301989888,18,{_buttons:1}),zl._19(301989888,19,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Years in Business:"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,null,12,"a",[["class","item item-block"],["href","#"],["ion-item",""]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,20,{contentLabel:0}),zl._19(301989888,21,{_buttons:1}),zl._19(301989888,22,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Years in Farming:"])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n            "]))],null,function(l,n){var u=n.component;l(n,15,0,u.user.business_name);l(n,29,0,u.user.years_in_business);l(n,43,0,u.user.years_in_farming)})}function yl(l){return zl._23(0,[(l()(),zl.Z(0,null,null,7,"div",[],null,null,null,null,null)),(l()(),zl._21(null,["\n            "])),(l()(),zl.V(8388608,null,null,1,null,bl)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(null,["\n\n            "])),(l()(),zl.V(8388608,null,null,1,null,vl)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(null,["\n    "]))],function(l,n){var u=n.component;l(n,3,0,0===u.isfarmer);l(n,6,0,1===u.isfarmer)},null)}function Cl(l){return zl._23(0,[(l()(),zl.Z(0,null,null,20,"ion-header",[],null,null,null,null,null)),zl.Y(8192,null,0,ne.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n\n    "])),(l()(),zl.Z(0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ue.b,ue.a)),zl.Y(24576,null,0,te.a,[lu.a,[2,It.a],[2,Mt.a],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(3,["\n        \n        "])),(l()(),zl.Z(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==zl._13(l,8).toggle()&&t}return t},zt.b,zt.a)),zl.Y(548864,[[1,4]],0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],null,null),zl.Y(532480,null,0,ee.a,[Qn.a,[2,It.a],[2,Jt.a],[2,te.a]],{menuToggle:[0,"menuToggle"]},null),zl.Y(8192,null,1,ae.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),zl._19(301989888,1,{_buttons:1}),(l()(),zl._21(0,["\n            "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(0,["\n        "])),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,3,2,"ion-title",[],null,null,null,oe.b,oe.a)),zl.Y(24576,null,0,re.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),(l()(),zl._21(0,["My Account"])),(l()(),zl._21(3,["\n    "])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(null,["\n\n"])),(l()(),zl.Z(0,null,null,42,"ion-content",[["class","broker"]],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n    "])),(l()(),zl.Z(0,null,0,32,"ion-fab",[["edge",""],["right",""],["top",""]],null,null,null,ca.b,ca.a)),zl.Y(614400,null,2,_a.a,[zl.j,Bt.a],null,null),zl._19(167772160,2,{_mainButton:0}),zl._19(301989888,3,{_fabLists:1}),(l()(),zl._21(0,["\n    "])),(l()(),zl.Z(0,null,0,5,"button",[["ion-fab",""],["mini",""],["style","background-color: #f4f4f4;color:#212121;"]],null,null,null,pa.b,pa.a)),zl.Y(24576,[[2,4]],0,da.a,[Ct.a,zl.j,zl.B],null,null),(l()(),zl.Z(0,null,0,2,"ion-icon",[["name","md-settings"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(null,["\n    "])),(l()(),zl._21(0,["\n                    \n    "])),(l()(),zl._21(0,["\n                    "])),(l()(),zl.Z(0,null,0,19,"ion-select",[["style","width: 0 !important"]],[[2,"select-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"ionChange"],[null,"click"],[null,"keyup.space"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==zl._13(l,38)._click(u)&&t}if("keyup.space"===n){t=!1!==zl._13(l,38)._keyup()&&t}if("ngModelChange"===n){t=!1!==(e.option=u)&&t}if("ionChange"===n){t=!1!==e.onSelectChange(u)&&t}return t},qe.b,qe.a)),zl.Y(614400,null,1,We.a,[lu.a,nt.a,Ct.a,zl.j,zl.B,[2,yt.a],[2,Mt.a]],null,{ionChange:"ionChange"}),zl._19(301989888,4,{options:1}),zl._18(512,null,Cn.i,function(l){return[l]},[We.a]),zl.Y(335872,null,0,Cn.m,[[8,null],[8,null],[8,null],[2,Cn.i]],{model:[0,"model"]},{update:"ngModelChange"}),zl._18(1024,null,Cn.j,null,[Cn.m]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),(l()(),zl._21(null,["\n                      "])),(l()(),zl.Z(0,null,null,2,"ion-option",[["value","a1"]],null,null,null,null,null)),zl.Y(8192,[[4,4]],0,ze.a,[zl.j],{value:[0,"value"]},null),(l()(),zl._21(null,["Update Account"])),(l()(),zl._21(null,["\n                      "])),(l()(),zl.Z(0,null,null,2,"ion-option",[["value","a2"]],null,null,null,null,null)),zl.Y(8192,[[4,4]],0,ze.a,[zl.j],{value:[0,"value"]},null),(l()(),zl._21(null,["Change Picture"])),(l()(),zl._21(null,["\n                      "])),(l()(),zl.Z(0,null,null,2,"ion-option",[["value","a3"]],null,null,null,null,null)),zl.Y(8192,[[4,4]],0,ze.a,[zl.j],{value:[0,"value"]},null),(l()(),zl._21(null,["Change Password"])),(l()(),zl._21(null,["   \n                    "])),(l()(),zl._21(0,["\n  "])),(l()(),zl._21(1,["\n    "])),(l()(),zl.V(8388608,null,1,1,null,fl)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(1,["\n\n    "])),(l()(),zl.V(8388608,null,1,1,null,yl)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(1,["\n\n"])),(l()(),zl._21(null,["\n\n"])),(l()(),zl.Z(0,null,null,18,"ion-footer",[["padding",""]],null,null,null,null,null)),zl.Y(8192,null,0,Be.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n    "])),(l()(),zl.Z(0,null,null,14,"ion-segment",[],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var t=!0;if("ngModelChange"===n){t=!1!==(l.component.viewMode2=u)&&t}return t},null,null)),zl.Y(335872,null,0,Cn.m,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),zl._18(1024,null,Cn.j,null,[Cn.m]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(2105344,null,1,Ae.a,[Ct.a,zl.j,zl.B,[2,Cn.j]],null,null),zl._19(301989888,23,{_buttons:1}),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","list"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==zl._13(l,77).onClick()&&t}return t},Te.b,Te.a)),zl.Y(57344,[[23,4]],0,Se.a,[zl.B,zl.j],{value:[0,"value"]},null),(l()(),zl._21(0,["\n            General Info\n        "])),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","map"]],null,[[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==zl._13(l,81).onClick()&&t}if("click"===n){t=!1!==e.showMap()&&t}return t},Te.b,Te.a)),zl.Y(57344,[[23,4]],0,Se.a,[zl.B,zl.j],{value:[0,"value"]},null),(l()(),zl._21(0,["\n            Farmer Info\n        "])),(l()(),zl._21(null,["\n    "])),(l()(),zl._21(null,["\n"]))],function(l,n){var u=n.component;l(n,8,0,"");l(n,13,0,"menu");l(n,33,0,"md-settings");l(n,41,0,u.option);l(n,46,0,"a1");l(n,50,0,"a2");l(n,54,0,"a3");l(n,60,0,"list"===u.viewMode2);l(n,63,0,"map"===u.viewMode2);l(n,70,0,u.viewMode2);l(n,77,0,"list");l(n,81,0,"map")},function(l,n){l(n,3,0,zl._13(n,4)._hidden,zl._13(n,4)._sbPadding);l(n,6,0,zl._13(n,8).isHidden);l(n,12,0,zl._13(n,13)._hidden);l(n,22,0,zl._13(n,23).statusbarPadding);l(n,32,0,zl._13(n,33)._hidden);l(n,37,0,zl._13(n,38)._disabled,zl._13(n,43).ngClassUntouched,zl._13(n,43).ngClassTouched,zl._13(n,43).ngClassPristine,zl._13(n,43).ngClassDirty,zl._13(n,43).ngClassValid,zl._13(n,43).ngClassInvalid,zl._13(n,43).ngClassPending);l(n,69,0,zl._13(n,72).ngClassUntouched,zl._13(n,72).ngClassTouched,zl._13(n,72).ngClassPristine,zl._13(n,72).ngClassDirty,zl._13(n,72).ngClassValid,zl._13(n,72).ngClassInvalid,zl._13(n,72).ngClassPending)})}function Zl(l){return zl._23(0,[(l()(),zl._21(null,["\n"])),(l()(),zl.Z(0,null,null,10,"ion-header",[],null,null,null,null,null)),zl.Y(8192,null,0,ne.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n\n  "])),(l()(),zl.Z(0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ue.b,ue.a)),zl.Y(24576,null,0,te.a,[lu.a,[2,It.a],[2,Mt.a],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(3,["\n    "])),(l()(),zl.Z(0,null,3,2,"ion-title",[],null,null,null,oe.b,oe.a)),zl.Y(24576,null,0,re.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),(l()(),zl._21(0,["Farmer Location"])),(l()(),zl._21(3,["\n  "])),(l()(),zl._21(null,["\n\n"])),(l()(),zl._21(null,["\n\n\n"])),(l()(),zl.Z(0,null,null,4,"ion-content",[["padding",""]],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,0,"div",[["id","map"],["style","width:100%;height:100%;"]],null,null,null,null,null)),(l()(),zl._21(1,["\n"])),(l()(),zl._21(null,["\n"]))],null,function(l,n){l(n,4,0,zl._13(n,5)._hidden,zl._13(n,5)._sbPadding);l(n,13,0,zl._13(n,14).statusbarPadding)})}function Yl(l){return zl._23(0,[(l()(),zl.Z(0,null,null,28,"ion-item-sliding",[],null,null,null,_e.b,_e.a)),zl.Y(24576,null,2,pe.c,[[2,Et.a],Bt.a,Kn.a,zl.B,zl.j,zl.v],null,null),zl._19(167772160,2,{item:0}),zl._19(301989888,3,{_itemOptions:1}),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,0,12,"button",[["class","item item-block"],["ion-item",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.select(l.context.$implicit.id,l.context.$implicit.shipping_address,l.context.$implicit.mobile_no)&&t}return t},vt.b,vt.a)),zl.Y(548864,[[2,4]],3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,4,{contentLabel:0}),zl._19(301989888,5,{_buttons:1}),zl._19(301989888,6,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),zl._21(null,["Address: ",""])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Mobile no: ",""])),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n             "])),(l()(),zl.Z(0,null,1,8,"ion-item-options",[],null,null,null,null,null)),zl.Y(8192,[[3,4]],0,ua.a,[zl.j,zl.B],null,null),(l()(),zl._21(null,["\n                "])),(l()(),zl.Z(0,null,null,1,"button",[["class","green"],["danger",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.openPropertyDetail(l.context.$implicit)&&t}return t},null,null)),(l()(),zl._21(null,[" Update "])),(l()(),zl._21(null,["\n                "])),(l()(),zl.Z(0,null,null,1,"button",[["class","red"],["danger",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.delship(l.context.$implicit.id)&&t}return t},null,null)),(l()(),zl._21(null,["Remove"])),(l()(),zl._21(null,["\n            "])),(l()(),zl._21(null,["\n        "]))],null,function(l,n){l(n,13,0,n.context.$implicit.shipping_address);l(n,16,0,n.context.$implicit.mobile_no)})}function jl(l){return zl._23(0,[(l()(),zl.Z(0,null,null,20,"ion-header",[],null,null,null,null,null)),zl.Y(8192,null,0,ne.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n\n    "])),(l()(),zl.Z(0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ue.b,ue.a)),zl.Y(24576,null,0,te.a,[lu.a,[2,It.a],[2,Mt.a],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==zl._13(l,8).toggle()&&t}return t},zt.b,zt.a)),zl.Y(548864,[[1,4]],0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],null,null),zl.Y(532480,null,0,ee.a,[Qn.a,[2,It.a],[2,Jt.a],[2,te.a]],{menuToggle:[0,"menuToggle"]},null),zl.Y(8192,null,1,ae.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),zl._19(301989888,1,{_buttons:1}),(l()(),zl._21(0,["\n            "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(0,["\n        "])),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,3,2,"ion-title",[],null,null,null,oe.b,oe.a)),zl.Y(24576,null,0,re.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),(l()(),zl._21(0,["Shipping Details"])),(l()(),zl._21(3,["\n    "])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(null,["\n\n"])),(l()(),zl.Z(0,null,null,43,"ion-content",[["class","property-list"]],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n\n    "])),(l()(),zl.Z(0,null,1,27,"ion-list",[],null,null,null,null,null)),zl.Y(8192,null,0,Et.a,[Ct.a,zl.j,zl.B,Bt.a,nu.l,Kn.a],null,null),(l()(),zl._21(null,["\n\n        "])),(l()(),zl.V(8388608,null,null,1,null,Yl)),zl.Y(401408,null,0,Jn.i,[zl.J,zl.G,zl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,20,"ion-item-sliding",[],null,null,null,_e.b,_e.a)),zl.Y(24576,null,2,pe.c,[[2,Et.a],Bt.a,Kn.a,zl.B,zl.j,zl.v],null,null),zl._19(167772160,7,{item:0}),zl._19(301989888,8,{_itemOptions:1}),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,0,14,"button",[["class","item item-block"],["ion-item",""]],null,null,null,vt.b,vt.a)),zl.Y(548864,[[7,4]],3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,9,{contentLabel:0}),zl._19(301989888,10,{_buttons:1}),zl._19(301989888,11,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,0,2,"ion-thumbnail",[["item-left",""]],null,null,null,null,null)),zl.Y(8192,null,0,de.a,[],null,null),(l()(),zl._21(null,["\n                "])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,0,"h2",[],null,null,null,null,null)),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,0,"p",[],null,null,null,null,null)),(l()(),zl._21(2,["\n            "])),(l()(),zl._21(null,["\n        "])),(l()(),zl._21(null,["\n        \n    "])),(l()(),zl._21(1,["\n     "])),(l()(),zl.Z(0,null,0,10,"ion-fab",[],null,null,null,ca.b,ca.a)),zl.Y(614400,null,2,_a.a,[zl.j,Bt.a],null,null),zl._19(167772160,12,{_mainButton:0}),zl._19(301989888,13,{_fabLists:1}),(l()(),zl._21(0,["\n        "])),(l()(),zl.Z(0,null,0,4,"button",[["clase","button-f"],["ion-fab",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==zl._13(l,61).onClick()&&t}return t},pa.b,pa.a)),zl.Y(24576,[[12,4]],0,da.a,[Ct.a,zl.j,zl.B],null,null),zl.Y(8192,null,0,Xt.a,[[2,Mt.a]],{navPush:[0,"navPush"]},null),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","md-add"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(0,["\n     "])),(l()(),zl._21(1,["\n"])),(l()(),zl._21(null,["\n\n\n"])),(l()(),zl.Z(0,null,null,12,"ion-footer",[["padding",""]],null,null,null,null,null)),zl.Y(8192,null,0,Be.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n    "])),(l()(),zl.Z(0,null,null,8,"ion-segment",[],null,null,null,null,null)),zl.Y(2105344,null,1,Ae.a,[Ct.a,zl.j,zl.B,[2,Cn.j]],null,null),zl._19(301989888,14,{_buttons:1}),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,3,"p",[],null,null,null,null,null)),(l()(),zl.Z(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),zl._21(null,["Note:"])),(l()(),zl._21(null,[" Options will appear when you swipe left on the product."])),(l()(),zl._21(null,["\n    "])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(null,["\n"]))],function(l,n){var u=n.component;l(n,8,0,"");l(n,13,0,"menu");l(n,29,0,u.shipd);l(n,61,0,u.pushPage);l(n,63,0,"md-add")},function(l,n){l(n,3,0,zl._13(n,4)._hidden,zl._13(n,4)._sbPadding);l(n,6,0,zl._13(n,8).isHidden);l(n,12,0,zl._13(n,13)._hidden);l(n,22,0,zl._13(n,23).statusbarPadding);l(n,62,0,zl._13(n,63)._hidden)})}function kl(l){return zl._23(0,[(l()(),zl._21(null,["\n"])),(l()(),zl.Z(0,null,null,10,"ion-header",[],null,null,null,null,null)),zl.Y(8192,null,0,ne.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n\n  "])),(l()(),zl.Z(0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ue.b,ue.a)),zl.Y(24576,null,0,te.a,[lu.a,[2,It.a],[2,Mt.a],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(3,["\n    "])),(l()(),zl.Z(0,null,3,2,"ion-title",[],null,null,null,oe.b,oe.a)),zl.Y(24576,null,0,re.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),(l()(),zl._21(0,["Update Shipping address"])),(l()(),zl._21(3,["\n  "])),(l()(),zl._21(null,["\n\n"])),(l()(),zl._21(null,["\n\n\n"])),(l()(),zl.Z(0,null,null,46,"ion-content",[["padding",""]],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,38,"ion-list",[],null,null,null,null,null)),zl.Y(8192,null,0,Et.a,[Ct.a,zl.j,zl.B,Bt.a,nu.l,Kn.a],null,null),(l()(),zl._21(null,["\n                "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,1,{contentLabel:0}),zl._19(301989888,2,{_buttons:1}),zl._19(301989888,3,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[1,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Address"])),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,3,4,"ion-input",[["type","text"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var t=!0;if("ngModelChange"===n){t=!1!==(l.component.address.shipping_address=u)&&t}return t},qt.b,qt.a)),zl.Y(335872,null,0,Cn.m,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),zl._18(1024,null,Cn.j,null,[Cn.m]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],{type:[0,"type"]},null),(l()(),zl._21(2,["\n                  "])),(l()(),zl._21(null,["\n                    \n                  "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,4,{contentLabel:0}),zl._19(301989888,5,{_buttons:1}),zl._19(301989888,6,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[4,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Mobile No"])),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,3,4,"ion-textarea",[],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var t=!0;if("ngModelChange"===n){t=!1!==(l.component.address.mobile_no=u)&&t}return t},qt.b,qt.a)),zl.Y(335872,null,0,Cn.m,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),zl._18(1024,null,Cn.j,null,[Cn.m]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl._21(null,["\n\n        "])),(l()(),zl._21(1,["\n            "])),(l()(),zl.Z(0,null,1,2,"button",[["block",""],["class","submit-btn"],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.updateaddress()&&t}return t},zt.b,zt.a)),zl.Y(548864,null,0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],{block:[0,"block"]},null),(l()(),zl._21(0,["Update Address"])),(l()(),zl._21(1,["\n"])),(l()(),zl._21(null,["\n"]))],function(l,n){var u=n.component;l(n,31,0,u.address.shipping_address);l(n,34,0,"text");l(n,49,0,u.address.mobile_no),l(n,52,0);l(n,57,0,"")},function(l,n){l(n,4,0,zl._13(n,5)._hidden,zl._13(n,5)._sbPadding);l(n,13,0,zl._13(n,14).statusbarPadding);l(n,30,0,zl._13(n,33).ngClassUntouched,zl._13(n,33).ngClassTouched,zl._13(n,33).ngClassPristine,zl._13(n,33).ngClassDirty,zl._13(n,33).ngClassValid,zl._13(n,33).ngClassInvalid,zl._13(n,33).ngClassPending);l(n,48,0,zl._13(n,51).ngClassUntouched,zl._13(n,51).ngClassTouched,zl._13(n,51).ngClassPristine,zl._13(n,51).ngClassDirty,zl._13(n,51).ngClassValid,zl._13(n,51).ngClassInvalid,zl._13(n,51).ngClassPending)})}function Pl(l){return zl._23(0,[(l()(),zl._21(null,["\n"])),(l()(),zl.Z(0,null,null,10,"ion-header",[],null,null,null,null,null)),zl.Y(8192,null,0,ne.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n\n  "])),(l()(),zl.Z(0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ue.b,ue.a)),zl.Y(24576,null,0,te.a,[lu.a,[2,It.a],[2,Mt.a],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(3,["\n    "])),(l()(),zl.Z(0,null,3,2,"ion-title",[],null,null,null,oe.b,oe.a)),zl.Y(24576,null,0,re.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),(l()(),zl._21(0,["Add Shipping Details"])),(l()(),zl._21(3,["\n  "])),(l()(),zl._21(null,["\n\n"])),(l()(),zl._21(null,["\n\n\n"])),(l()(),zl.Z(0,null,null,46,"ion-content",[["padding",""]],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,38,"ion-list",[],null,null,null,null,null)),zl.Y(8192,null,0,Et.a,[Ct.a,zl.j,zl.B,Bt.a,nu.l,Kn.a],null,null),(l()(),zl._21(null,["\n\t\t\t      "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,1,{contentLabel:0}),zl._19(301989888,2,{_buttons:1}),zl._19(301989888,3,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[1,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Mobile Number:"])),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,3,4,"ion-input",[],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var t=!0;if("ngModelChange"===n){t=!1!==(l.component.mobile_no=u)&&t}return t},qt.b,qt.a)),zl.Y(335872,null,0,Cn.m,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),zl._18(1024,null,Cn.j,null,[Cn.m]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl._21(null,["\n\n\t\t\t             "])),(l()(),zl.Z(0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,vt.b,vt.a)),zl.Y(548864,null,3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,4,{contentLabel:0}),zl._19(301989888,5,{_buttons:1}),zl._19(301989888,6,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),zl.Y(8192,[[4,4]],0,Ye.a,[Ct.a,zl.j,zl.B,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),zl._21(null,["Address:"])),(l()(),zl._21(2,["\n                  "])),(l()(),zl.Z(0,null,3,4,"ion-input",[],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var t=!0;if("ngModelChange"===n){t=!1!==(l.component.address=u)&&t}return t},qt.b,qt.a)),zl.Y(335872,null,0,Cn.m,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),zl._18(1024,null,Cn.j,null,[Cn.m]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(1171456,null,0,Wt.a,[Ct.a,Bt.a,nt.a,lu.a,zl.j,zl.B,[2,St.a],[2,yt.a],[2,Mt.a],[2,Cn.j],Kn.a],null,null),(l()(),zl._21(2,["\n                  "])),(l()(),zl._21(null,["\n\n        "])),(l()(),zl._21(1,["\n            "])),(l()(),zl.Z(0,null,1,2,"button",[["block",""],["class","submit-btn"],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.addaddress()&&t}return t},zt.b,zt.a)),zl.Y(548864,null,0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],{block:[0,"block"]},null),(l()(),zl._21(0,["Add Address"])),(l()(),zl._21(1,["\n"])),(l()(),zl._21(null,["\n"]))],function(l,n){var u=n.component;l(n,31,0,u.mobile_no),l(n,34,0);l(n,49,0,u.address),l(n,52,0);l(n,57,0,"")},function(l,n){l(n,4,0,zl._13(n,5)._hidden,zl._13(n,5)._sbPadding);l(n,13,0,zl._13(n,14).statusbarPadding);l(n,30,0,zl._13(n,33).ngClassUntouched,zl._13(n,33).ngClassTouched,zl._13(n,33).ngClassPristine,zl._13(n,33).ngClassDirty,zl._13(n,33).ngClassValid,zl._13(n,33).ngClassInvalid,zl._13(n,33).ngClassPending);l(n,48,0,zl._13(n,51).ngClassUntouched,zl._13(n,51).ngClassTouched,zl._13(n,51).ngClassPristine,zl._13(n,51).ngClassDirty,zl._13(n,51).ngClassValid,zl._13(n,51).ngClassInvalid,zl._13(n,51).ngClassPending)})}function wl(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["For Shipping"]))],null,null)}function Bl(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["For Pick up"]))],null,null)}function Al(l){return zl._23(0,[(l()(),zl.Z(0,null,null,45,"ion-item-sliding",[],null,null,null,_e.b,_e.a)),zl.Y(24576,null,2,pe.c,[[2,Et.a],Bt.a,Kn.a,zl.B,zl.j,zl.v],null,null),zl._19(167772160,2,{item:0}),zl._19(301989888,3,{_itemOptions:1}),(l()(),zl._21(null,["\n            "])),(l()(),zl.Z(0,null,0,29,"div",[["class","item item-block"],["ion-item",""]],null,null,null,vt.b,vt.a)),zl.Y(548864,[[2,4]],3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,4,{contentLabel:0}),zl._19(301989888,5,{_buttons:1}),zl._19(301989888,6,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                    "])),(l()(),zl.Z(0,null,2,0,"img",[["onError","this.src='http://riceupfarmers.org/wp-content/system/sproduct.jpg';"],["style","float: left;margin-right: 5px;"]],[[8,"src",4]],null,null,null,null)),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Price: P"," "])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Quantity: "," "])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Stocks available: "," "])),(l()(),zl._21(2,["\n                "])),(l()(),zl.V(8388608,null,2,1,null,wl)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.V(8388608,null,2,1,null,Bl)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(2,["\n                \n                "])),(l()(),zl.Z(0,null,2,1,"div",[["style","text-align: right;"]],null,null,null,null,null)),(l()(),zl._21(null,["\n\n                Total: P","\n\n                "])),(l()(),zl._21(2,["\n\n            "])),(l()(),zl._21(null,["\n\n             "])),(l()(),zl.Z(0,null,1,8,"ion-item-options",[],null,null,null,null,null)),zl.Y(8192,[[3,4]],0,ua.a,[zl.j,zl.B],null,null),(l()(),zl._21(null,["\n                "])),(l()(),zl.Z(0,null,null,1,"button",[["class","green"],["danger",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.open(l.context.$implicit)&&t}return t},null,null)),(l()(),zl._21(null,[" View Product "])),(l()(),zl._21(null,["\n                "])),(l()(),zl.Z(0,null,null,1,"button",[["class","blue"],["danger",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.dispatch(l.context.$implicit.id)&&t}return t},null,null)),(l()(),zl._21(null,[" Dispatch"])),(l()(),zl._21(null,["\n            "])),(l()(),zl._21(null,["\n        "]))],function(l,n){l(n,27,0,0===n.context.$implicit.order.mode_of_shipping);l(n,30,0,1===n.context.$implicit.order.mode_of_shipping)},function(l,n){l(n,12,0,zl._3(1,"http://riceupfarmers.org/wp-content/system/uploads/s",n.context.$implicit.farmer_product.photo_url,".jpg"));l(n,15,0,n.context.$implicit.farmer_product.product_name);l(n,18,0,n.context.$implicit.farmer_product.price_per_unit);l(n,21,0,n.context.$implicit.quantity);l(n,24,0,n.context.$implicit.farmer_product.stocks_available);l(n,33,0,n.context.$implicit.quantity*n.context.$implicit.farmer_product.price_per_unit)})}function Tl(l){return zl._23(0,[(l()(),zl.Z(0,null,null,20,"ion-header",[],null,null,null,null,null)),zl.Y(8192,null,0,ne.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n    "])),(l()(),zl.Z(0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ue.b,ue.a)),zl.Y(24576,null,0,te.a,[lu.a,[2,It.a],[2,Mt.a],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==zl._13(l,8).toggle()&&t}return t},zt.b,zt.a)),zl.Y(548864,[[1,4]],0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],null,null),zl.Y(532480,null,0,ee.a,[Qn.a,[2,It.a],[2,Jt.a],[2,te.a]],{menuToggle:[0,"menuToggle"]},null),zl.Y(8192,null,1,ae.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),zl._19(301989888,1,{_buttons:1}),(l()(),zl._21(0,["\n            "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(0,["\n        "])),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,3,2,"ion-title",[],null,null,null,oe.b,oe.a)),zl.Y(24576,null,0,re.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),(l()(),zl._21(0,["Packed Transactions"])),(l()(),zl._21(3,["\n    "])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(null,["\n\n"])),(l()(),zl.Z(0,null,null,25,"ion-content",[],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n"])),(l()(),zl.Z(0,null,1,21,"ion-tabs",[],null,null,null,Ua.b,Ua.a)),zl.Y(2187264,null,0,Fa.a,[[2,Mt.a],[2,It.a],lu.a,Ct.a,zl.j,Bt.a,zl.B,Dt.a],null,null),zl._18(3072,null,At.a,null,[Fa.a]),(l()(),zl._21(0,["\n  "])),(l()(),zl.Z(0,null,0,10,"ion-tab",[["role","tabpanel"]],[[1,"id",0],[1,"aria-labelledby",0]],null,null,Va.b,Va.a)),zl.Y(122880,null,0,Ha.a,[Fa.a,lu.a,Ct.a,Bt.a,tt.a,zl.j,zl.v,zl.B,zl.i,zl.g,nu.l,ct.a,[2,Dt.a],Kn.a],null,null),(l()(),zl._21(null,["\n        \n        "])),(l()(),zl.Z(0,null,null,6,"ion-list",[],null,null,null,null,null)),zl.Y(8192,null,0,Et.a,[Ct.a,zl.j,zl.B,Bt.a,nu.l,Kn.a],null,null),(l()(),zl._21(null,["\n        "])),(l()(),zl.V(8388608,null,null,1,null,Al)),zl.Y(401408,null,0,Jn.i,[zl.J,zl.G,zl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),zl._21(null,["\n        "])),(l()(),zl._21(null,["\n    "])),(l()(),zl._21(null,["\n\n\n  "])),(l()(),zl._21(0,["\n  "])),(l()(),zl.Z(0,null,0,1,"ion-tab",[["role","tabpanel"]],[[1,"id",0],[1,"aria-labelledby",0]],null,null,Va.b,Va.a)),zl.Y(122880,null,0,Ha.a,[Fa.a,lu.a,Ct.a,Bt.a,tt.a,zl.j,zl.v,zl.B,zl.i,zl.g,nu.l,ct.a,[2,Dt.a],Kn.a],null,null),(l()(),zl._21(0,["\n  "])),(l()(),zl.Z(0,null,0,1,"ion-tab",[["role","tabpanel"]],[[1,"id",0],[1,"aria-labelledby",0]],null,null,Va.b,Va.a)),zl.Y(122880,null,0,Ha.a,[Fa.a,lu.a,Ct.a,Bt.a,tt.a,zl.j,zl.v,zl.B,zl.i,zl.g,nu.l,ct.a,[2,Dt.a],Kn.a],null,null),(l()(),zl._21(0,["\n"])),(l()(),zl._21(1,["\n"]))],function(l,n){var u=n.component;l(n,8,0,"");l(n,13,0,"menu"),l(n,30,0);l(n,36,0,u.orders),l(n,42,0),l(n,45,0)},function(l,n){l(n,3,0,zl._13(n,4)._hidden,zl._13(n,4)._sbPadding);l(n,6,0,zl._13(n,8).isHidden);l(n,12,0,zl._13(n,13)._hidden);l(n,22,0,zl._13(n,23).statusbarPadding);l(n,29,0,zl._13(n,30)._tabId,zl._13(n,30)._btnId);l(n,41,0,zl._13(n,42)._tabId,zl._13(n,42)._btnId);l(n,44,0,zl._13(n,45)._tabId,zl._13(n,45)._btnId)})}function Sl(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["For Shipping"]))],null,null)}function Il(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["For Pick up"]))],null,null)}function Ml(l){return zl._23(0,[(l()(),zl.Z(0,null,null,29,"div",[["class","item item-block"],["ion-item",""]],null,null,null,vt.b,vt.a)),zl.Y(548864,[[3,4]],3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,5,{contentLabel:0}),zl._19(301989888,6,{_buttons:1}),zl._19(301989888,7,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                    "])),(l()(),zl.Z(0,null,2,0,"img",[["onError","this.src='http://riceupfarmers.org/wp-content/system/sproduct.jpg';"],["style","float: left;margin-right: 5px;"]],[[8,"src",4]],null,null,null,null)),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Price: P"," "])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Quantity: "," "])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Stocks available: "," "])),(l()(),zl._21(2,["\n                "])),(l()(),zl.V(8388608,null,2,1,null,Sl)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.V(8388608,null,2,1,null,Il)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(2,["\n                \n                "])),(l()(),zl.Z(0,null,2,1,"div",[["style","text-align: right;"]],null,null,null,null,null)),(l()(),zl._21(null,["\n\n                Total: P","\n\n                "])),(l()(),zl._21(2,["\n\n            "]))],function(l,n){l(n,22,0,1===n.parent.context.$implicit.order.mode_of_shipping);l(n,25,0,0===n.parent.context.$implicit.order.mode_of_shipping)},function(l,n){l(n,7,0,zl._3(1,"http://riceupfarmers.org/wp-content/system/uploads/s",n.parent.context.$implicit.farmer_product.photo_url,".jpg"));l(n,10,0,n.parent.context.$implicit.farmer_product.product_name);l(n,13,0,n.parent.context.$implicit.farmer_product.price_per_unit);l(n,16,0,n.parent.context.$implicit.quantity);l(n,19,0,n.parent.context.$implicit.farmer_product.stocks_available);l(n,28,0,n.parent.context.$implicit.quantity*n.parent.context.$implicit.farmer_product.price_per_unit)})}function Ol(l){return zl._23(0,[(l()(),zl.Z(0,null,null,17,"ion-item-sliding",[],null,null,null,_e.b,_e.a)),zl.Y(24576,null,2,pe.c,[[2,Et.a],Bt.a,Kn.a,zl.B,zl.j,zl.v],null,null),zl._19(301989888,3,{item:0}),zl._19(301989888,4,{_itemOptions:1}),(l()(),zl._21(null,["\n            "])),(l()(),zl.V(8388608,null,0,1,null,Ml)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(null,["\n\n             "])),(l()(),zl.Z(0,null,1,8,"ion-item-options",[],null,null,null,null,null)),zl.Y(8192,[[4,4]],0,ua.a,[zl.j,zl.B],null,null),(l()(),zl._21(null,["\n                "])),(l()(),zl.Z(0,null,null,1,"button",[["class","green"],["danger",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.open(l.context.$implicit)&&t}return t},null,null)),(l()(),zl._21(null,[" View Product "])),(l()(),zl._21(null,["\n                "])),(l()(),zl.Z(0,null,null,1,"button",[["class","blue"],["danger",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.pack(l.context.$implicit.id)&&t}return t},null,null)),(l()(),zl._21(null,[" Pack"])),(l()(),zl._21(null,["\n            "])),(l()(),zl._21(null,["\n        "]))],function(l,n){l(n,6,0,0===n.context.$implicit.current_status.product_status)},null)}function El(l){return zl._23(0,[(l()(),zl.Z(0,null,null,6,"ion-list",[],null,null,null,null,null)),zl.Y(8192,null,0,Et.a,[Ct.a,zl.j,zl.B,Bt.a,nu.l,Kn.a],null,null),(l()(),zl._21(null,["\n\t\t"])),(l()(),zl.V(8388608,null,null,1,null,Ol)),zl.Y(401408,null,0,Jn.i,[zl.J,zl.G,zl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),zl._21(null,["\n        "])),(l()(),zl._21(null,["\n    "]))],function(l,n){l(n,4,0,n.component.orders)},null)}function Ll(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["For Shipping"]))],null,null)}function xl(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["For Pick up"]))],null,null)}function Rl(l){return zl._23(0,[(l()(),zl.Z(0,null,null,29,"div",[["class","item item-block"],["ion-item",""]],null,null,null,vt.b,vt.a)),zl.Y(548864,[[8,4]],3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,10,{contentLabel:0}),zl._19(301989888,11,{_buttons:1}),zl._19(301989888,12,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                    "])),(l()(),zl.Z(0,null,2,0,"img",[["onError","this.src='http://riceupfarmers.org/wp-content/system/sproduct.jpg';"],["style","float: left;margin-right: 5px;"]],[[8,"src",4]],null,null,null,null)),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Price: P"," "])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Quantity: "," "])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Stocks available: "," "])),(l()(),zl._21(2,["\n                "])),(l()(),zl.V(8388608,null,2,1,null,Ll)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.V(8388608,null,2,1,null,xl)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(2,["\n                \n                "])),(l()(),zl.Z(0,null,2,1,"div",[["style","text-align: right;"]],null,null,null,null,null)),(l()(),zl._21(null,["\n\n                Total: P","\n\n                "])),(l()(),zl._21(2,["\n\n            "]))],function(l,n){l(n,22,0,0===n.parent.context.$implicit.order.mode_of_shipping);l(n,25,0,1===n.parent.context.$implicit.order.mode_of_shipping)},function(l,n){l(n,7,0,zl._3(1,"http://riceupfarmers.org/wp-content/system/uploads/s",n.parent.context.$implicit.farmer_product.photo_url,".jpg"));l(n,10,0,n.parent.context.$implicit.farmer_product.product_name);l(n,13,0,n.parent.context.$implicit.farmer_product.price_per_unit);l(n,16,0,n.parent.context.$implicit.quantity);l(n,19,0,n.parent.context.$implicit.farmer_product.stocks_available);l(n,28,0,n.parent.context.$implicit.quantity*n.parent.context.$implicit.farmer_product.price_per_unit)})}function Dl(l){return zl._23(0,[(l()(),zl.Z(0,null,null,17,"ion-item-sliding",[],null,null,null,_e.b,_e.a)),zl.Y(24576,null,2,pe.c,[[2,Et.a],Bt.a,Kn.a,zl.B,zl.j,zl.v],null,null),zl._19(301989888,8,{item:0}),zl._19(301989888,9,{_itemOptions:1}),(l()(),zl._21(null,["\n            "])),(l()(),zl.V(8388608,null,0,1,null,Rl)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(null,["\n\n             "])),(l()(),zl.Z(0,null,1,8,"ion-item-options",[],null,null,null,null,null)),zl.Y(8192,[[9,4]],0,ua.a,[zl.j,zl.B],null,null),(l()(),zl._21(null,["\n                "])),(l()(),zl.Z(0,null,null,1,"button",[["class","green"],["danger",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.open(l.context.$implicit)&&t}return t},null,null)),(l()(),zl._21(null,[" View Product "])),(l()(),zl._21(null,["\n                "])),(l()(),zl.Z(0,null,null,1,"button",[["class","blue"],["danger",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.dispatch(l.context.$implicit.id)&&t}return t},null,null)),(l()(),zl._21(null,[" Dispatch"])),(l()(),zl._21(null,["\n            "])),(l()(),zl._21(null,["\n        "]))],function(l,n){l(n,6,0,1===n.context.$implicit.current_status.product_status)},null)}function Gl(l){return zl._23(0,[(l()(),zl.Z(0,null,null,6,"ion-list",[],null,null,null,null,null)),zl.Y(8192,null,0,Et.a,[Ct.a,zl.j,zl.B,Bt.a,nu.l,Kn.a],null,null),(l()(),zl._21(null,["\n\t\t"])),(l()(),zl.V(8388608,null,null,1,null,Dl)),zl.Y(401408,null,0,Jn.i,[zl.J,zl.G,zl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),zl._21(null,["\n        "])),(l()(),zl._21(null,["\n    "]))],function(l,n){l(n,4,0,n.component.orders1)},null)}function Nl(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["For Shipping"]))],null,null)}function Ul(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["For Pick up"]))],null,null)}function Fl(l){return zl._23(0,[(l()(),zl.Z(0,null,null,29,"div",[["class","item item-block"],["ion-item",""]],null,null,null,vt.b,vt.a)),zl.Y(548864,[[13,4]],3,yt.a,[nt.a,Ct.a,zl.j,zl.B,[2,Zt.a]],null,null),zl._19(167772160,15,{contentLabel:0}),zl._19(301989888,16,{_buttons:1}),zl._19(301989888,17,{_icons:1}),zl.Y(8192,null,0,Yt.a,[],null,null),(l()(),zl._21(2,["\n                    "])),(l()(),zl.Z(0,null,2,0,"img",[["onError","this.src='http://riceupfarmers.org/wp-content/system/sproduct.jpg';"],["style","float: left;margin-right: 5px;"]],[[8,"src",4]],null,null,null,null)),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"h3",[],null,null,null,null,null)),(l()(),zl._21(null,["",""])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Price: P"," "])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Quantity: "," "])),(l()(),zl._21(2,["\n                "])),(l()(),zl.Z(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),zl._21(null,["Stocks available: "," "])),(l()(),zl._21(2,["\n                "])),(l()(),zl.V(8388608,null,2,1,null,Nl)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(2,["\n                "])),(l()(),zl.V(8388608,null,2,1,null,Ul)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(2,["\n                \n                "])),(l()(),zl.Z(0,null,2,1,"div",[["style","text-align: right;"]],null,null,null,null,null)),(l()(),zl._21(null,["\n\n                Total: P","\n\n                "])),(l()(),zl._21(2,["\n\n            "]))],function(l,n){l(n,22,0,0===n.parent.context.$implicit.order.mode_of_shipping);l(n,25,0,1===n.parent.context.$implicit.order.mode_of_shipping)},function(l,n){l(n,7,0,zl._3(1,"http://riceupfarmers.org/wp-content/system/uploads/s",n.parent.context.$implicit.farmer_product.photo_url,".jpg"));l(n,10,0,n.parent.context.$implicit.farmer_product.product_name);l(n,13,0,n.parent.context.$implicit.farmer_product.price_per_unit);l(n,16,0,n.parent.context.$implicit.quantity);l(n,19,0,n.parent.context.$implicit.farmer_product.stocks_available);l(n,28,0,n.parent.context.$implicit.quantity*n.parent.context.$implicit.farmer_product.price_per_unit)})}function Vl(l){return zl._23(0,[(l()(),zl.Z(0,null,null,14,"ion-item-sliding",[],null,null,null,_e.b,_e.a)),zl.Y(24576,null,2,pe.c,[[2,Et.a],Bt.a,Kn.a,zl.B,zl.j,zl.v],null,null),zl._19(301989888,13,{item:0}),zl._19(301989888,14,{_itemOptions:1}),(l()(),zl._21(null,["\n            "])),(l()(),zl.V(8388608,null,0,1,null,Fl)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(null,["\n\n             "])),(l()(),zl.Z(0,null,1,5,"ion-item-options",[],null,null,null,null,null)),zl.Y(8192,[[14,4]],0,ua.a,[zl.j,zl.B],null,null),(l()(),zl._21(null,["\n                "])),(l()(),zl.Z(0,null,null,1,"button",[["class","green"],["danger",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.open(l.context.$implicit)&&t}return t},null,null)),(l()(),zl._21(null,[" View Product "])),(l()(),zl._21(null,["\n            "])),(l()(),zl._21(null,["\n        "]))],function(l,n){l(n,6,0,2===n.context.$implicit.current_status.product_status)},null)}function Hl(l){return zl._23(0,[(l()(),zl.Z(0,null,null,6,"ion-list",[],null,null,null,null,null)),zl.Y(8192,null,0,Et.a,[Ct.a,zl.j,zl.B,Bt.a,nu.l,Kn.a],null,null),(l()(),zl._21(null,["\n\t\t"])),(l()(),zl.V(8388608,null,null,1,null,Vl)),zl.Y(401408,null,0,Jn.i,[zl.J,zl.G,zl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),zl._21(null,["\n        "])),(l()(),zl._21(null,["\n    "]))],function(l,n){l(n,4,0,n.component.orders2)},null)}function $l(l){return zl._23(0,[(l()(),zl.Z(0,null,null,40,"ion-header",[],null,null,null,null,null)),zl.Y(8192,null,0,ne.a,[Ct.a,zl.j,zl.B,[2,It.a]],null,null),(l()(),zl._21(null,["\n    "])),(l()(),zl.Z(0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ue.b,ue.a)),zl.Y(24576,null,0,te.a,[lu.a,[2,It.a],[2,Mt.a],Ct.a,zl.j,zl.B],null,null),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==zl._13(l,8).toggle()&&t}return t},zt.b,zt.a)),zl.Y(548864,[[1,4]],0,Jt.a,[[8,""],Ct.a,zl.j,zl.B],null,null),zl.Y(532480,null,0,ee.a,[Qn.a,[2,It.a],[2,Jt.a],[2,te.a]],{menuToggle:[0,"menuToggle"]},null),zl.Y(8192,null,1,ae.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),zl._19(301989888,1,{_buttons:1}),(l()(),zl._21(0,["\n            "])),(l()(),zl.Z(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),zl.Y(73728,null,0,kt.a,[Ct.a,zl.j,zl.B],{name:[0,"name"]},null),(l()(),zl._21(0,["\n        "])),(l()(),zl._21(3,["\n        "])),(l()(),zl.Z(0,null,3,2,"ion-title",[],null,null,null,oe.b,oe.a)),zl.Y(24576,null,0,re.a,[Ct.a,zl.j,zl.B,[2,ie.a],[2,te.a]],null,null),(l()(),zl._21(0,["Transactions"])),(l()(),zl._21(3,["\n    "])),(l()(),zl._21(null,["\n\n    "])),(l()(),zl.Z(0,null,null,18,"ion-segment",[],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var t=!0;if("ngModelChange"===n){t=!1!==(l.component.viewMode=u)&&t}return t},null,null)),zl.Y(335872,null,0,Cn.m,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),zl._18(1024,null,Cn.j,null,[Cn.m]),zl.Y(8192,null,0,Cn.k,[Cn.j],null,null),zl.Y(2105344,null,1,Ae.a,[Ct.a,zl.j,zl.B,[2,Cn.j]],null,null),zl._19(301989888,2,{_buttons:1}),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","Pending"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==zl._13(l,29).onClick()&&t}return t},Te.b,Te.a)),zl.Y(57344,[[2,4]],0,Se.a,[zl.B,zl.j],{value:[0,"value"]},null),(l()(),zl._21(0,["Pending\n        "])),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","Packed"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==zl._13(l,33).onClick()&&t}return t},Te.b,Te.a)),zl.Y(57344,[[2,4]],0,Se.a,[zl.B,zl.j],{value:[0,"value"]},null),(l()(),zl._21(0,["Packed\n        "])),(l()(),zl._21(null,["\n        "])),(l()(),zl.Z(0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","Delivered"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==zl._13(l,37).onClick()&&t}return t},Te.b,Te.a)),zl.Y(57344,[[2,4]],0,Se.a,[zl.B,zl.j],{value:[0,"value"]},null),(l()(),zl._21(0,["Delivered\n        "])),(l()(),zl._21(null,["\n    "])),(l()(),zl._21(null,["\n"])),(l()(),zl._21(null,["\n\n"])),(l()(),zl.Z(0,null,null,11,"ion-content",[],[[2,"statusbar-padding",null]],null,null,Tt.b,Tt.a)),zl.Y(2187264,null,0,St.a,[Ct.a,Bt.a,Kn.a,zl.j,zl.B,lu.a,tt.a,zl.v,[2,It.a],[2,Mt.a]],null,null),(l()(),zl._21(1,["\n\t"])),(l()(),zl.V(8388608,null,1,1,null,El)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(1,["\n\n    "])),(l()(),zl.V(8388608,null,1,1,null,Gl)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(1,["\n\n    "])),(l()(),zl.V(8388608,null,1,1,null,Hl)),zl.Y(8192,null,0,Jn.j,[zl.J,zl.G],{ngIf:[0,"ngIf"]},null),(l()(),zl._21(1,["\n\n\n"]))],function(l,n){var u=n.component;l(n,8,0,"");l(n,13,0,"menu");l(n,22,0,u.viewMode);l(n,29,0,"Pending");l(n,33,0,"Packed");l(n,37,0,"Delivered");l(n,46,0,"Pending"===u.viewMode);l(n,49,0,"Packed"===u.viewMode);l(n,52,0,"Delivered"===u.viewMode)},function(l,n){l(n,3,0,zl._13(n,4)._hidden,zl._13(n,4)._sbPadding);l(n,6,0,zl._13(n,8).isHidden);l(n,12,0,zl._13(n,13)._hidden);l(n,21,0,zl._13(n,24).ngClassUntouched,zl._13(n,24).ngClassTouched,zl._13(n,24).ngClassPristine,zl._13(n,24).ngClassDirty,zl._13(n,24).ngClassValid,zl._13(n,24).ngClassInvalid,zl._13(n,24).ngClassPending);l(n,42,0,zl._13(n,43).statusbarPadding)})}Object.defineProperty(n,"__esModule",{value:!0});var ql,Wl=u(64),zl=u(0),Jl=(u(2),u(5)),Xl=(u(99),function(){function l(l){this.http=l,console.log("Hello AuthService Provider")}return l.prototype.postData=function(l,n){var u=this;return new Promise(function(t,e){var a=new Jl.d;u.http.post("http://riceupfarmers.org/api/"+n,JSON.stringify(l),{headers:a}).subscribe(function(l){t(l.json())},function(l){e(l)})})},l}()),Kl=u(3),Ql=u(27),ln=u(28),nn=function(){function l(l,n,u,t){var e=this;this.platform=l,this.statusBar=n,this.splashScreen=u,this.toast=t,this.counter=0,l.ready().then(function(){n.styleDefault(),u.hide(),l.registerBackButtonAction(function(){0==e.counter?(e.counter++,e.presentToast(),setTimeout(function(){e.counter=0},3e3)):l.exitApp()},0)})}return l.prototype.presentToast=function(){this.toast.create({message:"Press again to exit",duration:3e3,position:"bottom"}).present()},l}(),un=function(){function l(l){this.http=l,this.grant_type="password",this.client_id="2",this.client_secret="uzyd8xUn9UeaQaMB8hfghABzvAFJZE8Djc4JcJlu",this.username=null,this.password=null,this.scope=""}return l.prototype.getgid=function(){return this.globalid},l.prototype.setloggeduser=function(l){this.loggeduser=l},l.prototype.setloggeduser2=function(l){this.loggeduser.is_farmer=l},l.prototype.setgid=function(l){this.globalid=l},l.prototype.gettoken=function(){return this.token},l.prototype.settoken=function(l){this.token=l},l.prototype.setcredentials=function(){var l=this,n=new URLSearchParams;n.append("grant_type",this.grant_type),n.append("client_id",this.client_id),n.append("client_secret",this.client_secret),n.append("username",this.username),n.append("password",this.password),n.append("scope",this.scope);var u=n.toString(),t=new Jl.d;t.append("Content-Type","application/x-www-form-urlencoded"),t.append("Accept","application/json");var e=new Jl.g({headers:t});this.http.post("http://api.riceupfarmers.org/oauth/token",u,e).map(function(l){return l.json()}).subscribe(function(n){l.settoken(n.token_type+" "+n.access_token)},function(l){alert(l)})},l}(),tn=function(){function l(l,n){var u=this;this.GlobalvarsProvider=l,this.http=n,this.favoriteCounter=0,this.favorites=[],this.GlobalvarsProvider.setcredentials();var t=new Jl.d;t.append("Accept","application/json"),t.append("Authorization",this.GlobalvarsProvider.gettoken());var e=new Jl.g({headers:t});this.http.get("http://api.riceupfarmers.org/api/products",e).map(function(l){return l.json()}).subscribe(function(l){u.properties=l})}return l.prototype.findAll=function(){return Promise.resolve(this.properties)},l.prototype.findById=function(l){return Promise.resolve(this.properties[l-1])},l.prototype.findByName=function(l){var n=l.toUpperCase();return Promise.resolve(this.properties.filter(function(l){return(l.product_name+" "+l.product_desc).toUpperCase().indexOf(n)>-1}))},l.prototype.getFavorites=function(){return Promise.resolve(this.favorites)},l.prototype.favorite=function(l){return this.favoriteCounter=this.favoriteCounter+1,this.favorites.push({id:this.favoriteCounter,property:l}),Promise.resolve()},l.prototype.unfavorite=function(l){var n=this.favorites.indexOf(l);return n>-1&&this.favorites.splice(n,1),Promise.resolve()},l}(),en=u(125),an=u.n(en),on=function(){function l(l,n,u){this.alertCtrl=l,this.navCtrl=n,this.navParams=u,this.viewMode="map",this.farmer=this.navParams.data,console.log(this.farmer),this.showMap()}return l.prototype.showMarkers=function(){this.markersGroup&&this.map.removeLayer(this.markersGroup),this.markersGroup=an.a.layerGroup([]);var l=an.a.marker([this.farmer.address_lat,this.farmer.address_long]).on("click",function(l){return console.log("map marker")});this.markersGroup.addLayer(l),this.map.addLayer(this.markersGroup)},l.prototype.showMap=function(){var l=this;setTimeout(function(){l.map=an.a.map("map").setView([l.farmer.address_lat,l.farmer.address_long],10),an.a.tileLayer("https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png",{attribution:"&copy; techventures.ph"}).addTo(l.map),l.showMarkers(),l.map.locate({setView:!1,maxZoom:10}),l.map.on("locationfound",function(n){var u=n.accuracy/2;an.a.popup().setLatLng(n.latlng).setContent("You are currently here!").openOn(l.map),an.a.circle(n.latlng,u).addTo(l.map)}),l.map.on("locationerror",function(l){alert("Turn on your service location to see your current location!"),this.viewMode="list"})})},l}(),rn=function(){function l(l,n,u){this.http=l,this.navCtrl=n,this.navParams=u,this.timee=Math.random(),this.timee=Math.random(),this.farmer=this.navParams.data,console.log(this.farmer)}return l.prototype.openloc=function(l){this.navCtrl.push(on,l)},l}(),sn=function(){function l(l,n,u,t,e,a,i,o,r){this.loadingCtrl=l,this.alertCtrl=n,this.GlobalvarsProvider=u,this.http=t,this.actionSheetCtrl=e,this.navCtrl=a,this.navParams=i,this.propertyService=o,this.toastCtrl=r,this.quantity=1,this.timee=Math.random(),this.property=this.navParams.data,console.log(this.property)}return l.prototype.openBrokerDetail=function(l){this.navCtrl.push(rn,l)},l.prototype.addtocart=function(){var l=this;if("guest"==this.GlobalvarsProvider.username)this.presentAlert("Add to cart function is disabled for the guest account");else if(this.quantity>=0&&this.quantity<=this.property.stocks_available){this.loading=this.loadingCtrl.create({content:"Adding to Cart..."}),this.loading.present();var n=new URLSearchParams;n.append("grant_type",this.GlobalvarsProvider.grant_type);var u=n.toString(),t=new Jl.d;t.append("Accept","application/json"),t.append("Content-Type","application/x-www-form-urlencoded"),t.append("Authorization",this.GlobalvarsProvider.gettoken());var e=new Jl.g({headers:t});this.http.post("http://api.riceupfarmers.org/api/order/new",u,e).map(function(l){return l.json()}).subscribe(function(n){l.http.post("http://api.riceupfarmers.org/api/cart/add?qty="+l.quantity+"&productid="+l.property.id+"&orderid="+n.order_number[0].id,u,e).map(function(l){return l.json()}).subscribe(function(n){console.log(n),"Product successfully added to cart."==n.message&&(l.quantity=1),l.presentAlert(n.message),l.loading.dismissAll()},function(n){l.loading.dismissAll(),l.presentAlert("No Internet Connection!")})},function(n){l.loading.dismissAll(),l.presentAlert("No Internet Connection!")})}else this.presentAlert(0==this.property.stocks_available?"Product out of stock!":"Quantity must be greater than 0 and less than or equal to "+this.property.stocks_available)},l.prototype.presentAlert=function(l){this.alertCtrl.create({title:"Alert",subTitle:l,buttons:["Dismiss"]}).present()},l.prototype.addq=function(){this.quantity+=1},l.prototype.subq=function(){this.quantity>0&&(this.quantity-=1)},l}(),cn=function(){function l(l,n,u,t,e,a,i,o,r,s,c,_,p){var d=this;this.platform=l,this.statusBar=n,this.splashScreen=u,this.toast=t,this.alertCtrl=e,this.loadingCtrl=a,this.GlobalvarsProvider=i,this.navParams=o,this.http=r,this.menu=s,this.navCtrl=c,this.service=_,this.config=p,this.now=new Date,this.counter=0,this.searchKey="",this.viewMode="list",this.today=this.now.toISOString(),this.loading=this.loadingCtrl.create({content:"Loading Product..."}),this.loading.present(),this.timee=Date.now();var h=new Jl.d;h.append("Accept","application/json"),h.append("Authorization",this.GlobalvarsProvider.gettoken());var m=new Jl.g({headers:h});this.http.get("http://api.riceupfarmers.org/api/products",m).map(function(l){return l.json()}).subscribe(function(l){console.log(l),d.loading.dismissAll(),"2018-11-03"<d.today&&(void 0==l.message?d.properties=l:d.presentAlert(l.message))},function(l){d.presentAlert("Slow internet Connection!"),d.loading.dismissAll()}),this.findAll(),this.menu.enable(!0),l.ready().then(function(){n.styleDefault(),u.hide(),l.registerBackButtonAction(function(){0==d.counter?(d.counter++,d.presentToast(),setTimeout(function(){d.counter=0},3e3)):l.exitApp()},0)})}return l.prototype.presentToast=function(){this.toast.create({message:"Press again to exit",duration:3e3,position:"bottom"}).present()},l.prototype.presentAlert=function(l){this.alertCtrl.create({title:"Alert",subTitle:l,buttons:["Dismiss"]}).present()},l.prototype.openPropertyDetail=function(l){this.navCtrl.push(sn,l)},l.prototype.onInput=function(l){var n=this;this.service.findByName(this.searchKey).then(function(l){n.properties=l}).catch(function(l){return alert(JSON.stringify(l))})},l.prototype.onCancel=function(l){this.findAll()},l.prototype.findAll=function(){var l=this;this.service.findAll().then(function(n){return l.properties=n}).catch(function(l){return alert(l)})},l}(),_n=function(){function l(l){var n=this;this.http=l,this.http.get("http://localhost/riceup/riceupapi.php?action=getall").map(function(l){return l.json()}).subscribe(function(l){return n.brokers=l})}return l.prototype.findAll=function(){return Promise.resolve(this.brokers)},l.prototype.findById=function(l){return Promise.resolve(this.brokers[l-1])},l}(),pn=function(){return function(l,n,u){this.http=l,this.navCtrl=n,this.navParams=u,this.farmer=this.navParams.data,this.timee=Date.now()}}(),dn=(u(251),function(){function l(l,n,u,t,e,a,i,o,r,s){var c=this;this.platform=l,this.statusBar=n,this.splashScreen=u,this.toast=t,this.alertCtrl=e,this.loadingCtrl=a,this.GlobalvarsProvider=i,this.navCtrl=o,this.service=r,this.http=s,this.counter=0,this.viewMode="list",l.ready().then(function(){n.styleDefault(),u.hide(),l.registerBackButtonAction(function(){0==c.counter?(c.counter++,c.presentToast(),setTimeout(function(){c.counter=0},3e3)):l.exitApp()},0)}),this.loading=this.loadingCtrl.create({content:"Loading farmers..."}),this.loading.present(),this.GlobalvarsProvider.setcredentials();var _=new Jl.d;_.append("Accept","application/json"),_.append("Authorization",this.GlobalvarsProvider.gettoken());var p=new Jl.g({headers:_});this.http.get("http://api.riceupfarmers.org/api/users/farmer",p).map(function(l){return l.json()}).subscribe(function(l){console.log(l),c.farmers=l,c.loading.dismissAll()},function(l){c.presentAlert("Slow internet Connection!"),c.loading.dismissAll()})}return l.prototype.presentToast=function(){this.toast.create({message:"Press again to exit",duration:3e3,position:"bottom"}).present()},l.prototype.presentAlert=function(l){this.alertCtrl.create({title:"Alert",subTitle:l,buttons:["Dismiss"]}).present()},l.prototype.openBrokerDetail=function(l){this.navCtrl.push(rn,l)},l.prototype.openBrokerDetail2=function(l){this.navCtrl.push(pn,l)},l.prototype.showMap=function(){var l=this;setTimeout(function(){l.map=an.a.map("map").setView([17.622021,121.727625],12),an.a.tileLayer("https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png",{attribution:"&copy; techventures.ph"}).addTo(l.map),l.showMarkers(),l.map.locate({setView:!1,maxZoom:12}),l.map.on("locationfound",function(n){var u=n.accuracy/2;an.a.popup().setLatLng(n.latlng).setContent("You are currently here!").openOn(l.map),an.a.circle(n.latlng,u).addTo(l.map)}),l.map.on("locationerror",function(l){alert("Turn on your service location to see your current location!"),this.viewMode="list"})})},l.prototype.showMarkers=function(){var l=this;this.markersGroup&&this.map.removeLayer(this.markersGroup),this.markersGroup=an.a.layerGroup([]),this.farmers.forEach(function(n){if(n.address_long){var u=an.a.marker([n.address_lat,n.address_long]).on("click",function(n){return l.openBrokerDetail2(n.target.data)});u.data=n,l.markersGroup.addLayer(u)}}),this.map.addLayer(this.markersGroup)},l}()),hn=function(){function l(l,n,u,t,e,a,i,o,r){this.loadingCtrl=l,this.alertCtrl=n,this.GlobalvarsProvider=u,this.http=t,this.actionSheetCtrl=e,this.navCtrl=a,this.navParams=i,this.propertyService=o,this.toastCtrl=r,this.quantity=1,this.property=this.navParams.data.farmer_product,console.log(this.property),this.proid=this.navParams.data.id,this.quantity=this.navParams.data.quantity}return l.prototype.addq=function(){this.quantity+=1},l.prototype.subq=function(){this.quantity>0&&(this.quantity-=1)},l.prototype.openBrokerDetail=function(l){this.navCtrl.push(rn,l)},l.prototype.updatecart=function(){var l=this;if(this.quantity>0&&this.quantity<=this.property.stocks_available){this.loading=this.loadingCtrl.create({content:"Updating Order..."}),this.loading.present();var n=new URLSearchParams;n.append("grant_type",this.GlobalvarsProvider.grant_type);var u=n.toString(),t=new Jl.d;t.append("Accept","application/json"),t.append("Content-Type","application/x-www-form-urlencoded"),t.append("Authorization",this.GlobalvarsProvider.gettoken());var e=new Jl.g({headers:t});this.http.patch("http://api.riceupfarmers.org/api/cart/update/"+this.proid+"?qty="+this.quantity,u,e).map(function(l){return l.json()}).subscribe(function(n){l.quantity=1,l.loading.dismissAll(),l.presentConfirm()},function(n){l.presentAlert("No Internet Connection!"),l.loading.dismissAll()})}else this.presentAlert("Quantity must be greater than 0 and less than or equal to "+this.property.stocks_available)},l.prototype.presentAlert=function(l){this.alertCtrl.create({title:"Alert",subTitle:l,buttons:["Dismiss"]}).present()},l.prototype.presentConfirm=function(){var l=this;this.alertCtrl.create({title:"",message:"Order Updated!",buttons:[{text:"Confirm",handler:function(){l.navCtrl.setRoot(yn)}}]}).present()},l}(),mn=function(){function l(l,n,u,t,e,a,i,o,r,s,c,_){this.platform=l,this.statusBar=n,this.splashScreen=u,this.toast=t,this.alertCtrl=e,this.loadingCtrl=a,this.GlobalvarsProvider=i,this.navParams=o,this.http=r,this.menu=s,this.navCtrl=c,this.config=_,this.mobile_no="",this.address=""}return l.prototype.presentAlert=function(l){this.alertCtrl.create({title:"Alert",subTitle:l,buttons:["Dismiss"]}).present()},l.prototype.ionViewDidLoad=function(){},l.prototype.addaddress=function(){var l=this,n=new URLSearchParams;n.append("passforpost","any");n.toString();var u=new Jl.d;u.append("Accept","application/json"),u.append("Authorization",this.GlobalvarsProvider.gettoken());var t=new Jl.g({headers:u});this.http.post("http://api.riceupfarmers.org/api/shippingdetail",{address:this.address,mobile_no:this.mobile_no},t).map(function(l){return l.json()}).subscribe(function(n){l.presentAlert(n.message),l.pop()},function(n){console.log(n),l.presentAlert("No Internet Connection!")})},l.prototype.pop=function(){this.navCtrl.pop()},l}(),gn=function(){function l(l,n,u,t,e,a){this.alertCtrl=l,this.loadingCtrl=n,this.GlobalvarsProvider=u,this.http=t,this.navCtrl=e,this.navParams=a,this.address=this.navParams.data}return l.prototype.presentAlert=function(l){this.alertCtrl.create({title:"Alert",subTitle:l,buttons:["Dismiss"]}).present()},l.prototype.updateaddress=function(){var l=this,n=new URLSearchParams;n.append("passforpost","any");n.toString();var u=new Jl.d;u.append("Accept","application/json"),u.append("Authorization",this.GlobalvarsProvider.gettoken());var t=new Jl.g({headers:u});this.http.patch("http://api.riceupfarmers.org/api/shippingdetail/"+this.address.id,{address:this.address.shipping_address,mobile_no:this.address.mobile_no},t).map(function(l){return l.json()}).subscribe(function(n){l.presentAlert(n.message),l.pop()},function(n){console.log(n),l.presentAlert("No Internet Connection!")})},l.prototype.pop=function(){this.navCtrl.pop()},l.prototype.ionViewDidLoad=function(){},l}(),fn=function(){function l(l,n,u,t,e,a,i,o,r,s,c,_){this.platform=l,this.statusBar=n,this.splashScreen=u,this.toast=t,this.alertCtrl=e,this.loadingCtrl=a,this.GlobalvarsProvider=i,this.navParams=o,this.http=r,this.menu=s,this.navCtrl=c,this.config=_,this.pushPage=mn,this.GlobalvarsProvider.activeaddressid=this.navParams.get("id"),this.GlobalvarsProvider.activeaddressaddress=this.navParams.get("address"),this.GlobalvarsProvider.activeaddressmobile=this.navParams.get("mobile")}return l.prototype.select=function(l,n,u){this.GlobalvarsProvider.activeaddressid=l,this.GlobalvarsProvider.activeaddressaddress=n,this.GlobalvarsProvider.activeaddressmobile=u,this.navCtrl.pop()},l.prototype.openPropertyDetail=function(l){this.navCtrl.push(gn,l)},l.prototype.ionViewWillEnter=function(){var l=this;this.loading=this.loadingCtrl.create({content:"Loading Product..."}),this.loading.present();var n=new URLSearchParams;n.append("passforpost","any");n.toString();var u=new Jl.d;u.append("Accept","application/json"),u.append("Authorization",this.GlobalvarsProvider.gettoken());var t=new Jl.g({headers:u});this.http.get("http://api.riceupfarmers.org/api/shippingdetails/",t).map(function(l){return l.json()}).subscribe(function(n){console.log(n),l.loading.dismissAll(),l.shipd=n},function(n){console.log(n),l.presentAlert("No Internet Connection!")})},l.prototype.presentAlert=function(l){this.alertCtrl.create({title:"Alert",subTitle:l,buttons:["Dismiss"]}).present()},l.prototype.delship=function(l){var n=this;this.alertCtrl.create({title:"Confirm Remove",message:"Are you sure you want to remove you Shipping details?",buttons:[{text:"Cancel",role:"cancel",handler:function(){}},{text:"Confirm",handler:function(){var u=new Jl.d;u.append("Accept","application/json"),u.append("Authorization",n.GlobalvarsProvider.gettoken());var t=new Jl.g({headers:u});n.http.delete("http://api.riceupfarmers.org/api/shippingdetail/"+l,t).map(function(l){return l.json()}).subscribe(function(l){n.presentAlert("Product Deleted!"),n.navCtrl.setRoot(n.navCtrl.getActive().component)})}}]}).present()},l.prototype.ionViewDidLoad=function(){},l}(),bn=function(){function l(l,n,u,t,e,a,i,o,r,s){var c=this;this.platform=l,this.loadingCtrl=n,this.alertCtrl=u,this.GlobalvarsProvider=t,this.http=e,this.actionSheetCtrl=a,this.navCtrl=i,this.navParams=o,this.propertyService=r,this.toastCtrl=s,this.addresid=null,this.message=null,this.myCallbackFunction=function(l){return new Promise(function(l,n){c.address=c.GlobalvarsProvider.activeaddressaddress,c.addresid=c.GlobalvarsProvider.activeaddressid,c.mobile=c.GlobalvarsProvider.activeaddressmobile,l()})},this.address=this.GlobalvarsProvider.activeaddressaddress,this.addresid=this.GlobalvarsProvider.activeaddressid,this.mobile=this.GlobalvarsProvider.activeaddressmobile,this.cart=this.navParams.data,this.orders=this.cart.product_order,this.gtotal=this.gettotal(this.orders),this.orderid=this.cart.id,console.log(this.addresid);var _=new URLSearchParams;_.append("passforpost","any");_.toString();var p=new Jl.d;p.append("Accept","application/json"),p.append("Authorization",this.GlobalvarsProvider.gettoken());var d=new Jl.g({headers:p});this.http.get("http://api.riceupfarmers.org/api/shippingdetails/",d).map(function(l){return l.json()}).subscribe(function(l){void 0!=l.message&&c.presentAlert(l.message)},function(l){console.log(l),c.presentAlert("No Internet Connection!")})}return l.prototype.ionViewWillEnter=function(){this.address=this.GlobalvarsProvider.activeaddressaddress,this.addresid=this.GlobalvarsProvider.activeaddressid,this.mobile=this.GlobalvarsProvider.activeaddressmobile},l.prototype.shipdetails=function(){this.navCtrl.push(fn,{id:this.addresid,address:this.address,mobile:this.mobile})},l.prototype.ionViewDidLoad=function(){},l.prototype.gettotal=function(l){for(var n=0,u=0;u<l.length;u++)n+=l[u].farmer_product.price_per_unit*l[u].quantity;return n},l.prototype.checkthisout=function(){var l=this;if(null!=this.addresid){this.alertCtrl.create({title:"Confirm Checkout",message:"Are you sure you want to checkout the items in the cart?",buttons:[{text:"Cancel",role:"cancel",handler:function(){}},{text:"Confirm",handler:function(){var n=new URLSearchParams;n.append("passforpost","any");var u=n.toString(),t=new Jl.d;t.append("Accept","application/json"),t.append("Authorization",l.GlobalvarsProvider.gettoken());var e=new Jl.g({headers:t});l.http.patch("http://api.riceupfarmers.org/api/order/checkout/"+l.orderid+"?shipping_mode=1&order_status=1&remarks=&sd_id="+l.addresid,u,e).map(function(l){return l.json()}).subscribe(function(n){l.alertConfirm2(n.message)},function(n){l.presentAlert("No Internet Connection!")})}}]}).present()}else this.presentAlert(this.message)},l.prototype.alertConfirm2=function(l){var n=this;this.alertCtrl.create({title:"Checkout",message:l,buttons:[{text:"Dismiss",handler:function(){n.navCtrl.setRoot(yn)}}]}).present()},l.prototype.presentAlert=function(l){this.alertCtrl.create({title:"Alert",subTitle:l,buttons:["Dismiss"]}).present()},l}(),vn=function(){function l(l,n,u,t,e,a,i,o,r){this.loadingCtrl=l,this.alertCtrl=n,this.GlobalvarsProvider=u,this.http=t,this.actionSheetCtrl=e,this.navCtrl=a,this.navParams=i,this.propertyService=o,this.toastCtrl=r,this.cart=this.navParams.data,this.orders=this.cart.product_order,this.gtotal=this.gettotal(this.orders),this.orderid=this.cart.id}return l.prototype.ionViewDidLoad=function(){},l.prototype.gettotal=function(l){for(var n=0,u=0;u<l.length;u++)n+=l[u].farmer_product.price_per_unit*l[u].quantity;return n},l.prototype.checkthisout=function(){var l=this;this.alertCtrl.create({title:"Confirm Checkout",message:"Are you sure you want to checkout the items in the cart?",buttons:[{text:"Cancel",role:"cancel",handler:function(){}},{text:"Confirm",handler:function(){var n=new URLSearchParams;n.append("passforpost","any");var u=n.toString(),t=new Jl.d;t.append("Accept","application/json"),t.append("Authorization",l.GlobalvarsProvider.gettoken());var e=new Jl.g({headers:t});l.http.patch("http://api.riceupfarmers.org/api/order/checkout/"+l.orderid+"?shipping_mode=0&order_status=1&remarks=",u,e).map(function(l){return l.json()}).subscribe(function(n){l.alertConfirm2(n.message)},function(n){l.presentAlert("No Internet Connection!")})}}]}).present()},l.prototype.alertConfirm2=function(l){var n=this;this.alertCtrl.create({title:"Checkout",message:l,buttons:[{text:"Dismiss",handler:function(){n.navCtrl.setRoot(yn)}}]}).present()},l.prototype.presentAlert=function(l){this.alertCtrl.create({title:"Alert",subTitle:l,buttons:["Dismiss"]}).present()},l}(),yn=ql=function(){function l(l,n,u,t,e,a,i,o,r,s,c){var _=this;this.platform=l,this.statusBar=n,this.splashScreen=u,this.toast=t,this.loadingCtrl=e,this.alertCtrl=a,this.GlobalvarsProvider=i,this.menu=o,this.http=r,this.navCtrl=s,this.navParams=c,this.counter=0,this.gtotal="No Items",this.orderid=void 0,l.ready().then(function(){n.styleDefault(),u.hide(),l.registerBackButtonAction(function(){0==_.counter?(_.counter++,_.presentToast(),setTimeout(function(){_.counter=0},3e3)):l.exitApp()},0)}),this.loading=this.loadingCtrl.create({content:"Loading Cart..."}),this.loading.present()}return l.prototype.presentToast=function(){this.toast.create({message:"Press again to exit",duration:3e3,position:"bottom"}).present()},l.prototype.addq=function(l,n,u){var t=this;if((n+=1)>0&&n<=u){this.loading=this.loadingCtrl.create({content:"Updating quantity..."}),this.loading.present();var e=new URLSearchParams;e.append("grant_type",this.GlobalvarsProvider.grant_type);var a=e.toString(),i=new Jl.d;i.append("Accept","application/json"),i.append("Content-Type","application/x-www-form-urlencoded"),i.append("Authorization",this.GlobalvarsProvider.gettoken());var o=new Jl.g({headers:i});this.http.patch("http://api.riceupfarmers.org/api/cart/update/"+l+"?qty="+n,a,o).map(function(l){return l.json()}).subscribe(function(l){t.loading.dismissAll(),t.navCtrl.setRoot(ql)},function(l){t.loading.dismissAll(),t.presentAlert("No Internet Connection!")})}else this.presentAlert("Quantity must be greater than 0 and less than or equal to "+u)},l.prototype.subq=function(l,n,u){var t=this;if((n-=1)>0&&n<=u){this.loading=this.loadingCtrl.create({content:"Updating quantity..."}),this.loading.present();var e=new URLSearchParams;e.append("grant_type",this.GlobalvarsProvider.grant_type);var a=e.toString(),i=new Jl.d;i.append("Accept","application/json"),i.append("Content-Type","application/x-www-form-urlencoded"),i.append("Authorization",this.GlobalvarsProvider.gettoken());var o=new Jl.g({headers:i});this.http.patch("http://api.riceupfarmers.org/api/cart/update/"+l+"?qty="+n,a,o).map(function(l){return l.json()}).subscribe(function(l){t.loading.dismissAll(),t.navCtrl.setRoot(ql)},function(l){t.loading.dismissAll(),t.presentAlert("No Internet Connection!")})}else this.presentAlert("Quantity must be greater than 0 and less than or equal to "+u)},l.prototype.ionViewDidLoad=function(){var l=this,n=new URLSearchParams;n.append("passforpost","any");var u=n.toString(),t=new Jl.d;t.append("Accept","application/json"),t.append("Authorization",this.GlobalvarsProvider.gettoken());var e=new Jl.g({headers:t});this.http.post("http://api.riceupfarmers.org/api/order/new",u,e).map(function(l){return l.json()}).subscribe(function(n){if(void 0==n.order_number[0])l.loading.dismissAll(),l.navCtrl.setRoot(l.navCtrl.getActive().component);else{var u=n.order_number[0].id;l.orderid=u,l.http.get("http://api.riceupfarmers.org/api/order/"+u,e).map(function(l){return l.json()}).subscribe(function(n){l.orders=n.product_order,void 0!=l.orders?(console.log(n),l.rese=n,l.ord=n.id,l.gtotal=l.gettotal(l.orders),l.gtotal=0!=l.gtotal?"P"+l.gtotal:"No Items"):l.presentAlert("No items in cart!"),l.loading.dismissAll()},function(n){console.log(n),l.loading.dismissAll(),l.presentAlert("No Internet Connection!")})}},function(n){l.loading.dismissAll(),l.presentAlert("No Internet Connection!")})},l.prototype.updatecart=function(l){this.navCtrl.push(hn,l)},l.prototype.gettotal=function(l){for(var n=0,u=0;u<l.length;u++)n+=l[u].farmer_product.price_per_unit*l[u].quantity;return n},l.prototype.presentAlert=function(l){this.alertCtrl.create({title:"Alert",subTitle:l,buttons:["Dismiss"]}).present()},l.prototype.delcart=function(l){var n=this;this.alertCtrl.create({title:"Confirm Remove",message:"Are you sure you want to remove the item in the cart?",buttons:[{text:"Cancel",role:"cancel",handler:function(){}},{text:"Confirm",handler:function(){var u=new Jl.d;u.append("Accept","application/json"),u.append("Authorization",n.GlobalvarsProvider.gettoken());var t=new Jl.g({headers:u});n.http.delete("http://api.riceupfarmers.org/api/cart/remove/"+l,t).map(function(l){return l.json()}).subscribe(function(l){n.navCtrl.setRoot(n.navCtrl.getActive().component)})}}]}).present()},l.prototype.checkthisout=function(){var l=this;if("No Items"!=this.gtotal){this.alertCtrl.create({title:"Confirm Checkout",message:"Are you sure you want to checkout the items in the cart?",buttons:[{text:"Cancel",role:"cancel",handler:function(){}},{text:"Confirm",handler:function(){var n=new URLSearchParams;n.append("passforpost","any");var u=n.toString(),t=new Jl.d;t.append("Accept","application/json"),t.append("Authorization",l.GlobalvarsProvider.gettoken());var e=new Jl.g({headers:t});l.http.patch("http://api.riceupfarmers.org/api/order/checkout/"+l.orderid+"?shipping_mode=0&order_status=1&remarks=",u,e).map(function(l){return l.json()}).subscribe(function(n){l.alertConfirm2(n.message)},function(n){l.presentAlert("Something went wrong!")})}}]}).present()}else this.presentAlert("No items in cart!")},l.prototype.codorship=function(){var l=this;if("No Items"!=this.gtotal){this.alertCtrl.create({title:"Select",message:"Type of acquiring the product",inputs:[{type:"radio",label:"Pick up",value:"pick"},{type:"radio",label:"Shipping",value:"ship"}],buttons:[{text:"Cancel",handler:function(l){}},{text:"Ok",handler:function(n){"pick"==n&&l.navCtrl.push(vn,l.rese),"ship"==n&&l.navCtrl.push(bn,l.rese)}}]}).present()}else this.presentAlert("Cart is Empty")},l.prototype.alertConfirm2=function(l){var n=this;this.alertCtrl.create({title:"Checkout",message:l,buttons:[{text:"Dismiss",handler:function(){n.navCtrl.setRoot(n.navCtrl.getActive().component)}}]}).present()},l}(),Cn=u(14),Zn=function(){function l(l,n,u,t,e,a,i){this.loadingCtrl=l,this.navCtrl=n,this.authService=u,this.GlobalvarsProvider=t,this.http=e,this.alertCtrl=a,this.lastImage=null,this.long="",this.lat="",this.username="",this.buttonDisabled=!0,this.form=i.group({name:i.group({username2:"",password2:"",cpassword:"",firstname:"",middlename:"",lastname:"",email:"",mobilenumber:"",address:""})})}return l.prototype.signup=function(){var l=this;if(""!=this.form.value.name.username2&&""!=this.form.value.name.password2&&""!=this.form.value.name.cpassword&&""!=this.form.value.name.firstname&&""!=this.form.value.name.lastname&&""!=this.form.value.name.email&&""!=this.form.value.name.address&&""!=this.form.value.name.mobilenumber)if(this.form.value.name.password2==this.form.value.name.cpassword){this.loading=this.loadingCtrl.create({content:"Signing Up..."}),this.loading.present();var n=new URLSearchParams;n.append("grant_type",this.GlobalvarsProvider.grant_type);var u=n.toString(),t=new Jl.d;t.append("Content-Type","application/x-www-form-urlencoded");var e=new Jl.g({headers:t});this.http.post("http://api.riceupfarmers.org/api/user/register?username="+this.form.value.name.username2+"&password="+this.form.value.name.password2+"&middlename="+this.form.value.name.middlename+"&firstname="+this.form.value.name.firstname+"&lastname="+this.form.value.name.lastname+"&address="+this.form.value.name.address+"&mobile_no="+this.form.value.name.mobilenumber+"&email="+this.form.value.name.email+"&is_farmer=0&history=",u,e).map(function(l){return l.json()}).subscribe(function(n){l.loading.dismissAll(),void 0!=n.message?(l.presentAlert(n.message),l.navCtrl.setRoot(jn)):l.presentAlert(n[0])},function(n){l.loading.dismissAll(),l.presentAlert("Something went wrong!")})}else this.presentAlert("confirm password does not match with the password!");else this.presentAlert("Please Fill in all the fields!")},l.prototype.login=function(){this.navCtrl.push(jn)},l.prototype.presentAlert=function(l){this.alertCtrl.create({title:"Alert",subTitle:l,buttons:["Dismiss"]}).present()},l}(),Yn=u(97),jn=function(){function l(l,n,u,t,e,a,i,o,r,s,c,_,p){var d=this;this.storage=l,this.statusBar=n,this.splashScreen=u,this.toast=t,this.loadingCtrl=e,this.alertCtrl=a,this.menu=i,this.events=o,this.GlobalvarsProvider=r,this.platform=c,this.navCtrl=_,this.http=p,this.counter=0,this.data={},l.get("username").then(function(n){d.form.value.name.uname=n,l.get("password").then(function(l){d.form.value.name.pw=l,null!=l&&void 0!=l&&""!=l&&d.calltologin()})}),c.ready().then(function(){n.styleDefault(),u.hide(),c.registerBackButtonAction(function(){0==d.counter?(d.counter++,d.presentToast(),setTimeout(function(){d.counter=0},3e3)):c.exitApp()},0)}),this.pushPage=nn,this.login=Zn,this.form=s.group({name:s.group({uname:"",pw:""})}),this.menu.enable(!1)}return l.prototype.presentToast=function(){this.toast.create({message:"Press again to exit",duration:3e3,position:"bottom"}).present()},l.prototype.calltologin=function(){var l=this;if(""!=this.form.value.name.uname&&""!=this.form.value.name.pw){this.loading=this.loadingCtrl.create({content:"Logging in..."}),this.loading.present(),this.GlobalvarsProvider.username=this.form.value.name.uname,this.GlobalvarsProvider.password=this.form.value.name.pw;var n=new URLSearchParams;n.append("grant_type",this.GlobalvarsProvider.grant_type),n.append("client_id",this.GlobalvarsProvider.client_id),n.append("client_secret",this.GlobalvarsProvider.client_secret),n.append("username",this.GlobalvarsProvider.username),n.append("password",this.GlobalvarsProvider.password),n.append("scope",this.GlobalvarsProvider.scope);var u=n.toString(),t=new Jl.d;t.append("Content-Type","application/x-www-form-urlencoded");var e=new Jl.g({headers:t});this.http.post("http://api.riceupfarmers.org/oauth/token",u,e).map(function(l){return l.json()}).subscribe(function(n){if(void 0!=n.token_type){l.GlobalvarsProvider.settoken(n.token_type+" "+n.access_token);(e=new Jl.d).append("Accept","application/json"),e.append("Content-Type","application/x-www-form-urlencoded"),e.append("Authorization",l.GlobalvarsProvider.gettoken());var u=new Jl.g({headers:e});l.http.get("http://api.riceupfarmers.org/api/user",u).map(function(l){return l.json()}).subscribe(function(n){l.createUser(n)},function(n){l.presentAlert("Slow internet Connection!"),l.loading.dismissAll()}),l.loading.dismissAll(),l.storage.set("username",l.form.value.name.uname),l.storage.set("password",l.form.value.name.pw);var t=new URLSearchParams;t.append("passforpost","any");var e;t.toString();(e=new Jl.d).append("Accept","application/json"),e.append("Authorization",l.GlobalvarsProvider.gettoken());var a=new Jl.g({headers:e});l.http.get("http://api.riceupfarmers.org/api/shippingdetails/",a).map(function(l){return l.json()}).subscribe(function(n){l.GlobalvarsProvider.activeaddressid=n[0].id,l.GlobalvarsProvider.activeaddressaddress=n[0].shipping_address,l.GlobalvarsProvider.activeaddressmobile=n[0].mobile_no,l.GlobalvarsProvider.activeaddressid2=n[0].id,l.GlobalvarsProvider.activeaddressaddress2=n[0].shipping_address,l.GlobalvarsProvider.activeaddressmobile2=n[0].mobile_no},function(n){console.log(n),l.presentAlert("No Internet Connection!")}),l.navCtrl.setRoot(cn)}else l.presentAlert("Invalid Username or password")},function(n){console.log(n),l.presentAlert("Failed to login. Make sure you have valid user credentials or you are connected to the internet."),l.loading.dismissAll()})}else this.presentAlert("Input username or password!")},l.prototype.guestlogin=function(){var l=this;if(this.form.value.name.uname="guest",this.form.value.name.pw="guest123",""!=this.form.value.name.uname&&""!=this.form.value.name.pw){this.loading=this.loadingCtrl.create({content:"Logging in..."}),this.loading.present(),this.GlobalvarsProvider.username=this.form.value.name.uname,this.GlobalvarsProvider.password=this.form.value.name.pw;var n=new URLSearchParams;n.append("grant_type",this.GlobalvarsProvider.grant_type),n.append("client_id",this.GlobalvarsProvider.client_id),n.append("client_secret",this.GlobalvarsProvider.client_secret),n.append("username",this.GlobalvarsProvider.username),n.append("password",this.GlobalvarsProvider.password),n.append("scope",this.GlobalvarsProvider.scope);var u=n.toString(),t=new Jl.d;t.append("Content-Type","application/x-www-form-urlencoded");var e=new Jl.g({headers:t});this.http.post("http://api.riceupfarmers.org/oauth/token",u,e).map(function(l){return l.json()}).subscribe(function(n){if(void 0!=n.token_type){l.GlobalvarsProvider.settoken(n.token_type+" "+n.access_token);var u=new Jl.d;u.append("Accept","application/json"),u.append("Content-Type","application/x-www-form-urlencoded"),u.append("Authorization",l.GlobalvarsProvider.gettoken());var t=new Jl.g({headers:u});l.http.get("http://api.riceupfarmers.org/api/user",t).map(function(l){return l.json()}).subscribe(function(n){l.createUser(n)},function(n){l.presentAlert("Slow internet Connection!"),l.loading.dismissAll()}),l.loading.dismissAll(),l.storage.set("username",l.form.value.name.uname),l.storage.set("password",l.form.value.name.pw),l.navCtrl.setRoot(cn)}else l.presentAlert("Invalid Username or password")},function(n){console.log(n),l.presentAlert("Failed to login. Make sure you have valid user credentials or you are connected to the internet."),l.loading.dismissAll()})}else this.presentAlert("Input username or password!")},l.prototype.createUser=function(l){this.events.publish("user:created",l,this.GlobalvarsProvider.getgid())},l.prototype.presentAlert=function(l){this.alertCtrl.create({title:"Alert",subTitle:l,buttons:["Dismiss"]}).present()},l}(),kn=function(){function l(l,n,u,t,e){var a=this;this.navCtrl=l,this.platform=n,this.statusBar=u,this.splashScreen=t,this.toast=e,this.counter=0,n.ready().then(function(){u.styleDefault(),t.hide(),n.registerBackButtonAction(function(){0==a.counter?(a.counter++,a.presentToast(),setTimeout(function(){a.counter=0},3e3)):n.exitApp()},0)})}return l.prototype.presentToast=function(){this.toast.create({message:"Press again to exit",duration:3e3,position:"bottom"}).present()},l}(),Pn=function(){function l(l,n,u,t){this.http=l,this.actionSheetCtrl=n,this.navCtrl=u,this.navParams=t,this.quantity=1,this.property=this.navParams.data.farmer_product,console.log(this.property),this.proid=this.navParams.data.id,this.quantity=this.navParams.data.quantity}return l.prototype.openBrokerDetail=function(l){this.navCtrl.push(rn,l)},l}(),wn=function(){function l(l,n,u,t,e,a,i,o,r){this.alertCtrl=l,this.loadingCtrl=n,this.GlobalvarsProvider=u,this.http=t,this.actionSheetCtrl=e,this.navCtrl=a,this.navParams=i,this.propertyService=o,this.toastCtrl=r,this.orders=null,this.address=null,this.mobile=null,this.order=this.navParams.data,this.loadorders()}return l.prototype.loadorders=function(){var l=this;this.loading=this.loadingCtrl.create({content:"Loading Orders..."}),this.loading.present();var n=new Jl.d;n.append("Accept","application/json"),n.append("Authorization",this.GlobalvarsProvider.gettoken());var u=new Jl.g({headers:n});this.http.get("http://api.riceupfarmers.org/api/order/"+this.order,u).map(function(l){return l.json()}).subscribe(function(n){if(console.log(n),l.orderno=n.order_number,l.sdid=n.sd_id,l.s=n.mode_of_shipping,l.orders=n.product_order,l.gtotal=l.gettotal(l.orders),l.gtotal="P"+l.gtotal,1==l.s){var u=new Jl.d;u.append("Accept","application/json"),u.append("Authorization",l.GlobalvarsProvider.gettoken());var t=new Jl.g({headers:u});l.http.get("http://api.riceupfarmers.org/api/shippingdetail/"+l.sdid,t).map(function(l){return l.json()}).subscribe(function(n){console.log(n),l.address=n[0].shipping_address,l.mobile=n[0].mobile_no,l.loading.dismissAll()},function(n){l.loading.dismissAll()})}},function(n){l.loading.dismissAll()})},l.prototype.gettotal=function(l){for(var n=0,u=0;u<l.length;u++)n+=l[u].farmer_product.price_per_unit*l[u].quantity;return n},l.prototype.prod=function(l){this.navCtrl.push(Pn,l)},l.prototype.cancelprod=function(l){var n=this;this.alertCtrl.create({title:"Confirm Remove",message:"Are you sure you want to cancel this ordered product?",buttons:[{text:"Cancel",role:"cancel",handler:function(){}},{text:"Confirm",handler:function(){n.loading=n.loadingCtrl.create({content:"Canceling..."}),n.loading.present();var u=new URLSearchParams;u.append("grant_type",n.GlobalvarsProvider.grant_type);var t=u.toString(),e=new Jl.d;e.append("Accept","application/json"),e.append("Content-Type","application/x-www-form-urlencoded"),e.append("Authorization",n.GlobalvarsProvider.gettoken());var a=new Jl.g({headers:e});n.http.patch("http://api.riceupfarmers.org/api/product/cancel/"+l,t,a).map(function(l){return l.json()}).subscribe(function(l){void 0!=l.message?(n.presentAlert(l.message),n.loadorders()):n.presentAlert("Something went wrong!"),n.loading.dismissAll()},function(l){n.presentAlert("No Internet Connection!"),n.loading.dismissAll()})}}]}).present()},l.prototype.presentAlert=function(l){this.alertCtrl.create({title:"Alert",subTitle:l,buttons:["Dismiss"]}).present()},l}(),Bn=function(){function l(l,n,u,t,e,a,i,o,r,s,c){var _=this;this.platform=l,this.statusBar=n,this.splashScreen=u,this.toast=t,this.alertCtrl=e,this.loadingCtrl=a,this.GlobalvarsProvider=i,this.menu=o,this.http=r,this.navCtrl=s,this.navParams=c,this.counter=0,l.ready().then(function(){n.styleDefault(),u.hide(),l.registerBackButtonAction(function(){0==_.counter?(_.counter++,_.presentToast(),setTimeout(function(){_.counter=0},3e3)):l.exitApp()},0)}),this.loading=this.loadingCtrl.create({content:"Loading Orders..."}),this.loading.present();var p=new Jl.d;p.append("Accept","application/json"),p.append("Authorization",this.GlobalvarsProvider.gettoken());var d=new Jl.g({headers:p});this.http.get("http://api.riceupfarmers.org/api/orders",d).map(function(l){return l.json()}).subscribe(function(l){void 0==l.message?(_.orders=l,console.log(_.orders)):_.presentAlert(l.message),_.loading.dismissAll()},function(l){_.presentAlert("No Internet Connection!"),_.loading.dismissAll()})}return l.prototype.presentToast=function(){this.toast.create({message:"Press again to exit",duration:3e3,position:"bottom"}).present()},l.prototype.presentAlert=function(l){this.alertCtrl.create({title:"Alert",subTitle:l,buttons:["Dismiss"]}).present()},l.prototype.callorderinfo=function(l){this.navCtrl.push(wn,l)},l}(),An=u(71),Tn=u(72),Sn=u(73),In=u(74),Mn=function(){function l(l,n,u,t,e,a,i,o,r,s,c,_,p){this.GlobalvarsProvider=l,this.http=n,this.alertCtrl=u,this.navCtrl=e,this.camera=a,this.transfer=i,this.file=o,this.filePath=r,this.actionSheetCtrl=s,this.toastCtrl=c,this.platform=_,this.loadingCtrl=p,this.lastImage=null,this.long="",this.lat="",this.username="",this.buttonDisabled=!0,this.datenow=Date.now(),this.form=t.group({name:t.group({pname:"",desc:"",unit:"",price:"",stocks:"",harvest_date:""})})}return l.prototype.testform=function(){this.uploadImage()},l.prototype.presentActionSheet=function(){var l=this;this.actionSheetCtrl.create({title:"Select Image Source",buttons:[{text:"Load from Library",handler:function(){l.takePicture(l.camera.PictureSourceType.PHOTOLIBRARY)}},{text:"Use Camera",handler:function(){l.takePicture(l.camera.PictureSourceType.CAMERA)}},{text:"Cancel",role:"cancel"}]}).present()},l.prototype.takePicture=function(l){var n=this;this.camera.getPicture({quality:100,sourceType:l,saveToPhotoAlbum:!1,correctOrientation:!0}).then(function(u){if(n.platform.is("android")&&l===n.camera.PictureSourceType.PHOTOLIBRARY)n.filePath.resolveNativePath(u).then(function(l){var t=l.substr(0,l.lastIndexOf("/")+1),e=u.substring(u.lastIndexOf("/")+1,u.lastIndexOf("?"));n.copyFileToLocalDir(t,e,n.createFileName())});else{var t=u.substr(u.lastIndexOf("/")+1),e=u.substr(0,u.lastIndexOf("/")+1);n.copyFileToLocalDir(e,t,n.createFileName())}},function(l){n.presentToast("Error while selecting image.")})},l.prototype.createFileName=function(){return(new Date).getTime()+".jpg"},l.prototype.copyFileToLocalDir=function(l,n,u){var t=this;this.file.copyFile(l,n,cordova.file.dataDirectory,u).then(function(l){t.lastImage=u},function(l){t.presentToast("Error while storing file.")})},l.prototype.presentToast=function(l){this.toastCtrl.create({message:l,duration:3e3,position:"top"}).present()},l.prototype.pathForImage=function(l){return null===l?"":cordova.file.dataDirectory+l},l.prototype.uploadImage=function(){var l=this;if(""!=this.form.value.name.pname&&""!=this.form.value.name.desc&&""!=this.form.value.name.unit&&""!=this.form.value.name.price&&""!=this.form.value.name.stocks&&""!=this.form.value.name.harvest_date)if(null==this.lastImage)this.presentAlert("Image selection is required!");else{var n=Date.now(),u="http://riceupfarmers.org/wp-content/system/apiup.php?get="+this.form.value.name.pname+n,t=this.pathForImage(this.lastImage),e=this.lastImage,a={fileKey:"file",fileName:e,chunkedMode:!1,mimeType:"multipart/form-data",params:{fileName:e}},i=this.transfer.create();this.loading=this.loadingCtrl.create({content:"Adding your Product..."}),this.loading.present(),i.upload(t,u,a).then(function(u){l.loading.dismissAll(),l.presentToast("product Added...");var t=new URLSearchParams;t.append("grant_type",l.GlobalvarsProvider.grant_type);var e=t.toString(),a=new Jl.d;a.append("Accept","application/json"),a.append("Content-Type","application/x-www-form-urlencoded"),a.append("Authorization",l.GlobalvarsProvider.gettoken());var i=new Jl.g({headers:a});l.http.post("http://api.riceupfarmers.org/api/product/add?photo_url="+l.form.value.name.pname+n+"&name="+l.form.value.name.pname+"&desc="+l.form.value.name.desc+"&unit="+l.form.value.name.unit+"&price="+l.form.value.name.price+"&stocks="+l.form.value.name.stocks+"&harvest_date="+l.form.value.name.harvest_date,e,i).map(function(l){return l.json()}).subscribe(function(n){l.presentAlert(n.message),l.navCtrl.setRoot(Ln)}),l.form.reset()},function(n){l.loading.dismissAll(),l.presentToast("Error while uploading file.")}),this.lastImage=null}else this.presentAlert("Fill all the required Fields!")},l.prototype.presentAlert=function(l){this.alertCtrl.create({title:"Alert",subTitle:l,buttons:["Dismiss"]}).present()},l}(),On=function(){function l(l,n,u,t,e,a,i,o,r,s,c,_,p,d){this.navParams=l,this.GlobalvarsProvider=n,this.http=u,this.alertCtrl=t,this.navCtrl=a,this.camera=i,this.transfer=o,this.file=r,this.filePath=s,this.actionSheetCtrl=c,this.toastCtrl=_,this.platform=p,this.loadingCtrl=d,this.lastImage=null,this.url=this.navParams.data}return l.prototype.presentActionSheet=function(){var l=this;this.actionSheetCtrl.create({title:"Select Image Source",buttons:[{text:"Load from Library",handler:function(){l.takePicture(l.camera.PictureSourceType.PHOTOLIBRARY)}},{text:"Use Camera",handler:function(){l.takePicture(l.camera.PictureSourceType.CAMERA)}},{text:"Cancel",role:"cancel"}]}).present()},l.prototype.takePicture=function(l){var n=this;this.camera.getPicture({quality:100,sourceType:l,saveToPhotoAlbum:!1,correctOrientation:!0}).then(function(u){if(n.platform.is("android")&&l===n.camera.PictureSourceType.PHOTOLIBRARY)n.filePath.resolveNativePath(u).then(function(l){var t=l.substr(0,l.lastIndexOf("/")+1),e=u.substring(u.lastIndexOf("/")+1,u.lastIndexOf("?"));n.copyFileToLocalDir(t,e,n.createFileName())});else{var t=u.substr(u.lastIndexOf("/")+1),e=u.substr(0,u.lastIndexOf("/")+1);n.copyFileToLocalDir(e,t,n.createFileName())}},function(l){n.presentToast("Error while selecting image.")})},l.prototype.createFileName=function(){return(new Date).getTime()+".jpg"},l.prototype.copyFileToLocalDir=function(l,n,u){var t=this;this.file.copyFile(l,n,cordova.file.dataDirectory,u).then(function(l){t.lastImage=u},function(l){t.presentToast("Error while storing file.")})},l.prototype.presentToast=function(l){this.toastCtrl.create({message:l,duration:3e3,position:"top"}).present()},l.prototype.pathForImage=function(l){return null===l?"":cordova.file.dataDirectory+l},l.prototype.presentAlert=function(l){this.alertCtrl.create({title:"Alert",subTitle:l,buttons:["Dismiss"]}).present()},l.prototype.testform=function(){var l=this;if(null==this.lastImage)this.presentAlert("Image selection is required!");else{var n="http://i-tugue.com/system/uploadpro.php?get="+this.url,u=this.pathForImage(this.lastImage),t=this.lastImage,e={fileKey:"file",fileName:t,chunkedMode:!1,mimeType:"multipart/form-data",params:{fileName:t}},a=this.transfer.create();this.loading=this.loadingCtrl.create({content:"Uploading Image..."}),this.loading.present(),a.upload(u,n,e).then(function(n){l.loading.dismissAll(),l.presentToast("Image Uploaded..."),l.navCtrl.setRoot(Ln)},function(n){l.loading.dismissAll(),l.presentToast("Error while uploading file.")}),this.lastImage=null}},l}(),En=function(){function l(l,n,u,t,e,a){this.alertCtrl=l,this.loadingCtrl=n,this.GlobalvarsProvider=u,this.http=t,this.navCtrl=e,this.navParams=a,this.datenow=Date.now(),this.timee=Date.now(),this.property=this.navParams.data,this.stocks_available=this.property.stocks_available,this.product_name=this.property.product_name,this.product_desc=this.property.product_desc,this.unit_type=this.property.unit_type,this.price_per_unit=this.property.price_per_unit,this.date_of_harvest=this.property.date_of_harvest}return l.prototype.update=function(){var l=this;if(""!=this.stocks_available||""!=this.product_name||""!=this.product_desc||""!=this.unit_type||""!=this.price_per_unit||""!=this.date_of_harvest){this.loading=this.loadingCtrl.create({content:"Updating Product..."}),this.loading.present();var n=new URLSearchParams;n.append("grant_type",this.GlobalvarsProvider.grant_type);var u=n.toString(),t=new Jl.d;t.append("Accept","application/json"),t.append("Content-Type","application/x-www-form-urlencoded"),t.append("Authorization",this.GlobalvarsProvider.gettoken());var e=new Jl.g({headers:t});this.http.patch("http://api.riceupfarmers.org/api/product/update/"+this.property.id+"?name="+this.product_name+"&desc="+this.product_desc+"&photo_url="+this.property.photo_url+"&unit="+this.unit_type+"&price="+this.price_per_unit+"&stocks="+this.stocks_available+"&harvest_date="+this.date_of_harvest,u,e).map(function(l){return l.json()}).subscribe(function(n){l.loading.dismissAll(),l.presentConfirm("Product Updated!!")})}else this.presentAlert("All Fields are required!")},l.prototype.presentAlert=function(l){this.alertCtrl.create({title:"Alert",subTitle:l,buttons:["Dismiss"]}).present()},l.prototype.presentConfirm=function(l){var n=this;this.alertCtrl.create({title:"",message:l,buttons:[{text:"Dismiss",handler:function(){n.navCtrl.setRoot(Ln)}}]}).present()},l.prototype.changepic=function(l){this.navCtrl.push(On,l)},l}(),Ln=function(){function l(l,n,u,t,e,a,i,o,r,s,c,_){var p=this;this.platform=l,this.statusBar=n,this.splashScreen=u,this.toast=t,this.alertCtrl=e,this.loadingCtrl=a,this.GlobalvarsProvider=i,this.navParams=o,this.http=r,this.menu=s,this.navCtrl=c,this.config=_,this.counter=0,l.ready().then(function(){n.styleDefault(),u.hide(),l.registerBackButtonAction(function(){0==p.counter?(p.counter++,p.presentToast(),setTimeout(function(){p.counter=0},3e3)):l.exitApp()},0)}),this.timee=Date.now(),this.pushPage=Mn,this.loading=this.loadingCtrl.create({content:"Loading Product..."}),this.loading.present(),this.GlobalvarsProvider.setcredentials();var d=new Jl.d;d.append("Accept","application/json"),d.append("Authorization",this.GlobalvarsProvider.gettoken());var h=new Jl.g({headers:d});this.http.get("http://api.riceupfarmers.org/api/products/"+this.GlobalvarsProvider.loggeduser.id,h).map(function(l){return l.json()}).subscribe(function(l){void 0==l.message?p.products=l:p.presentAlert(l.message),p.loading.dismissAll()})}return l.prototype.presentToast=function(){this.toast.create({message:"Press again to exit",duration:3e3,position:"bottom"}).present()},l.prototype.openPropertyDetail=function(l){this.navCtrl.push(En,l)},l.prototype.delprod=function(l){var n=this;this.alertCtrl.create({title:"Confirm Remove",message:"Are you sure you want to remove your Product?",buttons:[{text:"Cancel",role:"cancel",handler:function(){}},{text:"Confirm",handler:function(){var u=new Jl.d;u.append("Accept","application/json"),u.append("Authorization",n.GlobalvarsProvider.gettoken());var t=new Jl.g({headers:u});n.http.delete("http://api.riceupfarmers.org/api/product/remove/"+l,t).map(function(l){return l.json()}).subscribe(function(l){n.presentAlert("Product Deleted!"),n.navCtrl.setRoot(n.navCtrl.getActive().component)})}}]}).present()},l.prototype.presentAlert=function(l){this.alertCtrl.create({title:"Alert",subTitle:l,buttons:["Dismiss"]}).present()},l}(),xn=function(){function l(l,n,u,t,e,a,i,o,r,s,c,_,p,d,h){this.events=l,this.navParams=n,this.GlobalvarsProvider=u,this.http=t,this.alertCtrl=e,this.navCtrl=i,this.camera=o,this.transfer=r,this.file=s,this.filePath=c,this.actionSheetCtrl=_,this.toastCtrl=p,this.platform=d,this.loadingCtrl=h,this.lastImage=null,this.url=this.GlobalvarsProvider.loggeduser.id,console.log(this.url)}return l.prototype.presentActionSheet=function(){var l=this;this.actionSheetCtrl.create({title:"Select Image Source",buttons:[{text:"Load from Library",handler:function(){l.takePicture(l.camera.PictureSourceType.PHOTOLIBRARY)}},{text:"Use Camera",handler:function(){l.takePicture(l.camera.PictureSourceType.CAMERA)}},{text:"Cancel",role:"cancel"}]}).present()},l.prototype.editpic=function(l){this.events.publish("user:pic","none")},l.prototype.takePicture=function(l){var n=this;this.camera.getPicture({quality:100,sourceType:l,saveToPhotoAlbum:!1,correctOrientation:!0}).then(function(u){if(n.platform.is("android")&&l===n.camera.PictureSourceType.PHOTOLIBRARY)n.filePath.resolveNativePath(u).then(function(l){var t=l.substr(0,l.lastIndexOf("/")+1),e=u.substring(u.lastIndexOf("/")+1,u.lastIndexOf("?"));n.copyFileToLocalDir(t,e,n.createFileName())});else{var t=u.substr(u.lastIndexOf("/")+1),e=u.substr(0,u.lastIndexOf("/")+1);n.copyFileToLocalDir(e,t,n.createFileName())}},function(l){n.presentToast("Error while selecting image.")})},l.prototype.createFileName=function(){return(new Date).getTime()+".jpg"},l.prototype.copyFileToLocalDir=function(l,n,u){var t=this;this.file.copyFile(l,n,cordova.file.dataDirectory,u).then(function(l){t.lastImage=u},function(l){t.presentToast("Error while storing file.")})},l.prototype.presentToast=function(l){this.toastCtrl.create({message:l,duration:3e3,position:"top"}).present()},l.prototype.pathForImage=function(l){return null===l?"":cordova.file.dataDirectory+l},l.prototype.presentAlert=function(l){this.alertCtrl.create({title:"Alert",subTitle:l,buttons:["Dismiss"]}).present()},l.prototype.testform=function(){var l=this;if(null==this.lastImage)this.presentAlert("Image selection is required!");else{var n="http://riceupfarmers.org/wp-content/system/uploadpro.php?get="+this.url,u=this.pathForImage(this.lastImage),t=this.lastImage,e={fileKey:"file",fileName:t,chunkedMode:!1,mimeType:"multipart/form-data",params:{fileName:t}},a=this.transfer.create();this.loading=this.loadingCtrl.create({content:"Uploading Image..."}),this.loading.present(),a.upload(u,n,e).then(function(n){l.loading.dismissAll(),l.presentToast("Image Uploaded..."),l.editpic("none"),l.navCtrl.setRoot(Gn)},function(n){l.loading.dismissAll(),l.presentToast("Error while uploading file.")}),this.lastImage=null}},l}(),Rn=function(){function l(l,n,u,t,e,a,i,o){this.storage=l,this.loadingCtrl=n,this.alertCtrl=u,this.navCtrl=t,this.navParams=a,this.http=i,this.GlobalvarsProvider=o,this.temp="",this.form=e.group({name:e.group({oldpw:"",newpw:"",rnewpw:""})})}return l.prototype.calltoChange=function(){var l=this;if(""==this.form.value.name.rnewpw||""==this.form.value.name.newpw||""==this.form.value.name.oldpw)this.alertConfirm2("please fill all the inputs");else if(this.form.value.name.rnewpw!=this.form.value.name.newpw)this.alertConfirm2("New Password and ConfirmPassword does not Match!");else{this.loading=this.loadingCtrl.create({content:"Changing password..."}),this.loading.present();var n=new URLSearchParams;n.append("grant_type",this.GlobalvarsProvider.grant_type);var u=n.toString(),t=new Jl.d;t.append("Accept","application/json"),t.append("Content-Type","application/x-www-form-urlencoded"),t.append("Authorization",this.GlobalvarsProvider.gettoken());var e=new Jl.g({headers:t});this.http.patch("http://api.riceupfarmers.org/api/user/changepass?oldpassword="+this.form.value.name.oldpw+"&newpassword="+this.form.value.name.newpw,u,e).map(function(l){return l.json()}).subscribe(function(n){l.temp=l.form.value.name.rnewpw,l.form.value.name.rnewpw="",l.form.value.name.newpw="",l.form.value.name.oldpw="",l.form.reset(),l.loading.dismissAll(),l.alertConfirm2(n.message)})}},l.prototype.alertConfirm2=function(l){var n=this;this.alertCtrl.create({title:"Alert",message:l,buttons:[{text:"Dismiss",handler:function(){"Your password was updated successfully."==l&&(n.GlobalvarsProvider.password=n.temp,n.navCtrl.setRoot(Gn),n.storage.set("password",n.temp)),n.form.reset(),n.form.value.name.rnewpw="",n.form.value.name.newpw="",n.form.value.name.oldpw=""}}]}).present()},l}(),Dn=function(){function l(l,n,u,t,e,a,i){this.events=l,this.http=n,this.loadingCtrl=u,this.alertCtrl=t,this.navCtrl=e,this.navParams=a,this.GlobalvarsProvider=i,this.viewMode="map",this.viewMode2="list",this.user=this.GlobalvarsProvider.loggeduser,this.isfarmer=this.user.is_farmer,this.test=this.user.is_farmer,this.tempuser=this.user,this.user.address=this.GlobalvarsProvider.activeaddressaddress2,this.user.mobile_no=this.GlobalvarsProvider.activeaddressmobile2}return l.prototype.shipdetails=function(){this.navCtrl.push(fn,{id:"ss",address:"ss",mobile:"ss"})},l.prototype.showMarkers=function(){if(null!=this.user.address_lat){this.markersGroup&&this.map.removeLayer(this.markersGroup),this.markersGroup=an.a.layerGroup([]);var l=an.a.marker([this.user.address_lat,this.user.address_long]).on("click",function(l){return console.log("map marker")});this.markersGroup.addLayer(l),this.map.addLayer(this.markersGroup)}},l.prototype.showMap=function(){var l=this;1==this.isfarmer&&setTimeout(function(){null!=l.user.address_lat?(l.map=an.a.map("map2").setView([l.user.address_lat,l.user.address_long],10),an.a.tileLayer("https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png",{attribution:"&copy; techventures.ph"}).addTo(l.map)):(l.map=an.a.map("map2").setView([15.060377,120.674492],10),an.a.tileLayer("https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png",{attribution:"&copy; techventures.ph"}).addTo(l.map)),l.showMarkers(),l.map.locate({setView:!1,maxZoom:10}),l.map.on("locationfound",function(n){var u=n.accuracy/2;an.a.popup().setLatLng(n.latlng).setContent("You are currently here!").openOn(l.map),an.a.circle(n.latlng,u).addTo(l.map)});var n=an.a.popup();l.map.on("click",function(u){n.setLatLng(u.latlng).setContent("<b>Selected Location</b><br>Coordinates: <br>lat: "+u.latlng.lat.toString()+"<br>lng: "+u.latlng.lng.toString()).openOn(l.map),l.user.address_long=u.latlng.lng,l.user.address_lat=u.latlng.lat})})},l.prototype.createUser=function(l){this.events.publish("isfarm:created",l,this.GlobalvarsProvider.getgid())},l.prototype.update2=function(){var l=this;if(""!=this.user.firstname&&""!=this.user.lastname&&""!=this.user.address&&""!=this.user.mobile_no&&""!=this.user.email){this.loading=this.loadingCtrl.create({content:"Updating Account Info..."}),this.loading.present();var n=new URLSearchParams;n.append("grant_type",this.GlobalvarsProvider.grant_type);var u=n.toString(),t=new Jl.d;t.append("Accept","application/json"),t.append("Content-Type","application/x-www-form-urlencoded"),t.append("Authorization",this.GlobalvarsProvider.gettoken()),this.user.is_farmer=this.isfarmer;var e=new Jl.g({headers:t});this.http.patch("http://api.riceupfarmers.org/api/user/update?firstname="+this.user.firstname+"&middlename="+this.user.middlename+"&lastname="+this.user.lastname+"&address="+this.user.address+"&address_lat="+this.user.address_lat+"&address_long="+this.user.address_long+"&bus_name="+this.user.business_name+"&mobile_no="+this.user.mobile_no+"&email="+this.user.email+"&years_bus="+this.user.years_in_business+"&is_farmer="+this.isfarmer+"&history="+this.user.history+"&years_farm="+this.user.years_in_farming,u,e).map(function(l){return l.json()}).subscribe(function(n){l.loading.dismissAll(),l.updateaddress(),l.GlobalvarsProvider.loggeduser=l.user,l.presentConfirm(n.message),l.createUser(l.isfarmer)},function(n){console.log(n),l.presentAlert("No Internet Connection!"),l.loading.dismissAll()})}else this.user=this.tempuser,console.log(this.tempuser),this.presentAlert("Please Fill the Required Fields!")},l.prototype.updateaddress=function(){var l=this,n=new URLSearchParams;n.append("passforpost","any");n.toString();var u=new Jl.d;u.append("Accept","application/json"),u.append("Authorization",this.GlobalvarsProvider.gettoken());var t=new Jl.g({headers:u});this.http.patch("http://api.riceupfarmers.org/api/shippingdetail/"+this.GlobalvarsProvider.activeaddressid2,{address:this.user.address,address_lat:this.user.address_lat,address_long:this.user.address_long,mobile_no:this.user.mobile_no},t).map(function(l){return l.json()}).subscribe(function(n){l.GlobalvarsProvider.activeaddressaddress2=l.user.address,l.GlobalvarsProvider.activeaddressmobile2=l.user.mobile_no},function(n){console.log(n),l.presentAlert("No Internet Connection!")})},l.prototype.g=function(){1==this.test?(this.isfarmer=1,this.showMap()):this.isfarmer=0},l.prototype.presentAlert=function(l){this.alertCtrl.create({title:"Alert",subTitle:l,buttons:["Dismiss"]}).present()},l.prototype.presentConfirm=function(l){var n=this;this.alertCtrl.create({title:"",message:l,buttons:[{text:"Dismiss",handler:function(){n.navCtrl.setRoot(Gn)}}]}).present()},l}(),Gn=function(){function l(l,n,u,t,e,a,i,o){var r=this;this.alertCtrl=l,this.navCtrl=n,this.navParams=u,this.GlobalvarsProvider=t,this.platform=e,this.statusBar=a,this.splashScreen=i,this.toast=o,this.counter=0,this.option="",this.viewMode="map",this.viewMode2="list",this.timee=Math.random(),e.ready().then(function(){a.styleDefault(),i.hide(),e.registerBackButtonAction(function(){0==r.counter?(r.counter++,r.presentToast(),setTimeout(function(){r.counter=0},3e3)):e.exitApp()},0)}),this.user=this.GlobalvarsProvider.loggeduser,this.user.address=this.GlobalvarsProvider.activeaddressaddress2,this.user.mobile_no=this.GlobalvarsProvider.activeaddressmobile2,this.timee=Math.random(),this.isfarmer=this.user.is_farmer,console.log(this.user)}return l.prototype.onSelectChange=function(l,n){"guest"==this.GlobalvarsProvider.username?this.presentAlert("Account Setting function is disabled for the guest account"):("a1"==l&&this.navCtrl.push(Dn),"a2"==l&&this.navCtrl.push(xn),"a3"==l&&this.navCtrl.push(Rn))},l.prototype.presentAlert=function(l){this.alertCtrl.create({title:"Alert",subTitle:l,buttons:["Dismiss"]}).present()},l.prototype.presentToast=function(){this.toast.create({message:"Press again to exit",duration:3e3,position:"bottom"}).present()},l.prototype.showMarkers=function(){this.markersGroup&&this.map.removeLayer(this.markersGroup),this.markersGroup=an.a.layerGroup([]);var l=an.a.marker([this.user.address_lat,this.user.address_long]).on("click",function(l){return console.log("map marker")});this.markersGroup.addLayer(l),this.map.addLayer(this.markersGroup)},l.prototype.showMap=function(){var l=this;this.map=null,1==this.isfarmer&&setTimeout(function(){l.map=an.a.map("map").setView([l.user.address_lat,l.user.address_long],10),an.a.tileLayer("https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png",{attribution:"&copy; techventures.ph"}).addTo(l.map),l.showMarkers(),l.map.locate({setView:!1,maxZoom:10}),l.map.on("locationfound",function(n){var u=n.accuracy/2;an.a.popup().setLatLng(n.latlng).setContent("You are currently here!").openOn(l.map),an.a.circle(n.latlng,u).addTo(l.map)})})},l}(),Nn=function(){function l(l,n,u,t,e,a){var i=this;this.platform=l,this.statusBar=n,this.splashScreen=u,this.toast=t,this.navCtrl=e,this.navParams=a,this.counter=0,l.ready().then(function(){n.styleDefault(),u.hide(),l.registerBackButtonAction(function(){0==i.counter?(i.counter++,i.presentToast(),setTimeout(function(){i.counter=0},3e3)):l.exitApp()},0)})}return l.prototype.presentToast=function(){this.toast.create({message:"Press again to exit",duration:3e3,position:"bottom"}).present()},l}(),Un=u(126),Fn=u(127),Vn=function(){function l(l,n,u,t,e,a){this.alertCtrl=l,this.http=n,this.loadingCtrl=u,this.GlobalvarsProvider=t,this.navCtrl=e,this.navParams=a,this.timee=Math.random(),this.dis=this.navParams.data,this.shipadd="forpickup",this.contact="forpickup",console.log(this.dis),1==this.dis.order.mode_of_shipping&&(this.shipadd=this.dis.order.shipping_detail.shipping_address,this.contact=this.dis.order.shipping_detail.mobile_no)}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad DispatchPage")},l.prototype.dispatch=function(l){var n=this;this.loading=this.loadingCtrl.create({content:"Dispatching Product..."}),this.loading.present();var u=new URLSearchParams;u.append("grant_type",this.GlobalvarsProvider.grant_type);var t=u.toString(),e=new Jl.d;e.append("Accept","application/json"),e.append("Content-Type","application/x-www-form-urlencoded"),e.append("Authorization",this.GlobalvarsProvider.gettoken());var a=new Jl.g({headers:e});this.http.patch("http://api.riceupfarmers.org/api/product/dispatch/"+l,t,a).map(function(l){return l.json()}).subscribe(function(l){n.presentAlert(void 0!=l.message?l.message:"Something went wrong!"),n.loading.dismissAll(),n.navCtrl.setRoot(Hn)},function(l){n.presentAlert("No Internet Connection!"),n.loading.dismissAll()})},l.prototype.pack=function(l){var n=this;this.loading=this.loadingCtrl.create({content:"Changing Status..."}),this.loading.present();var u=new URLSearchParams;u.append("grant_type",this.GlobalvarsProvider.grant_type);var t=u.toString(),e=new Jl.d;e.append("Accept","application/json"),e.append("Content-Type","application/x-www-form-urlencoded"),e.append("Authorization",this.GlobalvarsProvider.gettoken());var a=new Jl.g({headers:e});this.http.patch("http://api.riceupfarmers.org/api/product/dispatch/"+l,t,a).map(function(l){return l.json()}).subscribe(function(l){n.presentAlert(void 0!=l.message?l.message:"Something went wrong!"),n.loading.dismissAll(),n.navCtrl.setRoot(Hn)},function(l){n.presentAlert("No Internet Connection!"),n.loading.dismissAll()})},l.prototype.presentAlert=function(l){this.alertCtrl.create({title:"Alert",subTitle:l,buttons:["Dismiss"]}).present()},l}(),Hn=function(){function l(l,n,u,t,e,a,i,o,r,s,c,_){var p=this;this.platform=l,this.statusBar=n,this.splashScreen=u,this.toast=t,this.alertCtrl=e,this.loadingCtrl=a,this.GlobalvarsProvider=i,this.navParams=o,this.http=r,this.menu=s,this.navCtrl=c,this.config=_,this.viewMode="Pending",this.counter=0,l.ready().then(function(){n.styleDefault(),u.hide(),l.registerBackButtonAction(function(){0==p.counter?(p.counter++,p.presentToast(),setTimeout(function(){p.counter=0},3e3)):l.exitApp()},0)}),this.loading=this.loadingCtrl.create({content:"Loading Product..."}),this.loading.present(),this.GlobalvarsProvider.setcredentials();var d=new Jl.d;d.append("Accept","application/json"),d.append("Authorization",this.GlobalvarsProvider.gettoken());var h=new Jl.g({headers:d});this.http.get("http://api.riceupfarmers.org/api/ordersperfarmer/",h).map(function(l){return l.json()}).subscribe(function(l){void 0==l.message?(console.log(l),p.orders=l,p.orders1=l,p.orders2=l,console.log(l)):p.presentAlert(l.message),p.loading.dismissAll()},function(l){p.loading.dismissAll(),p.presentAlert("No Internet Connection!")})}return l.prototype.presentToast=function(){this.toast.create({message:"Press again to exit",duration:3e3,position:"bottom"}).present()},l.prototype.ionViewDidLoad=function(){},l.prototype.presentAlert=function(l){this.alertCtrl.create({title:"Alert",subTitle:l,buttons:["Dismiss"]}).present()},l.prototype.open=function(l){this.navCtrl.push(Vn,l)},l.prototype.dispatch=function(l){var n=this;this.loading=this.loadingCtrl.create({content:"Dispatching Product..."}),this.loading.present();var u=new URLSearchParams;u.append("grant_type",this.GlobalvarsProvider.grant_type);var t=u.toString(),e=new Jl.d;e.append("Accept","application/json"),e.append("Content-Type","application/x-www-form-urlencoded"),e.append("Authorization",this.GlobalvarsProvider.gettoken());var a=new Jl.g({headers:e});this.http.patch("http://api.riceupfarmers.org/api/product/dispatch/"+l,t,a).map(function(l){return l.json()}).subscribe(function(l){n.presentAlert(void 0!=l.message?l.message:"Something went wrong!"),n.loading.dismissAll(),n.navCtrl.setRoot(n.navCtrl.getActive().component)},function(l){n.presentAlert("No Internet Connection!"),n.loading.dismissAll()})},l.prototype.pack=function(l){var n=this;this.loading=this.loadingCtrl.create({content:"Changing status..."}),this.loading.present();var u=new URLSearchParams;u.append("grant_type",this.GlobalvarsProvider.grant_type);var t=u.toString(),e=new Jl.d;e.append("Accept","application/json"),e.append("Content-Type","application/x-www-form-urlencoded"),e.append("Authorization",this.GlobalvarsProvider.gettoken());var a=new Jl.g({headers:e});this.http.patch("http://api.riceupfarmers.org/api/product/pack/"+l,t,a).map(function(l){return l.json()}).subscribe(function(l){n.presentAlert(void 0!=l.message?l.message:"Something went wrong!"),n.loading.dismissAll(),n.navCtrl.setRoot(n.navCtrl.getActive().component)},function(l){n.presentAlert("No Internet Connection!"),n.loading.dismissAll()})},l}(),$n=function(){function l(l,n,u,t,e,a,i,o,r,s,c){var _=this;this.storage=l,this.backgroundMode=n,this.network=u,this.toast=t,this.alertCtrl=e,this.http=a,this.events=i,this.platform=o,this.statusBar=r,this.splashScreen=s,this.GlobalvarsProvider=c,this.counter=0,this.rootPage=jn,this.name=null,this.group=null,this.timee=Math.random(),this.backgroundMode.enable(),this.initializeApp(),this.farmer=[{id:1,firstname:"Elton Bagne",lastname:"Gwapo",middlename:"617-244-3672",business_name:"617-244-3672"}],i.subscribe("user:created",function(l,n){_.farmer=l,_.GlobalvarsProvider.setloggeduser(l),_.accountMenuItems=1==l.is_farmer?[{title:"My Account",component:Gn,icon:"ios-contact"},{title:"My Products",component:Ln,icon:"archive"},{title:"Transactions",component:Hn,icon:"md-done-all"}]:[{title:"My Account",component:Gn,icon:"ios-contact"}]}),i.subscribe("isfarm:created",function(l,n){_.GlobalvarsProvider.setloggeduser2(l),_.accountMenuItems=1==l?[{title:"My Account",component:Gn,icon:"ios-contact"},{title:"My Products",component:Ln,icon:"archive"},{title:"Transactions",component:Hn,icon:"md-done-all"}]:[{title:"My Account",component:Gn,icon:"ios-contact"}]}),i.subscribe("user:pic",function(l,n){_.timee=Math.random()}),this.appMenuItems=[{title:"Products",component:cn,icon:"home"},{title:"Farmers",component:dn,icon:"people"},{title:"Cart",component:yn,icon:"md-cart"},{title:"My Orders",component:Bn,icon:"checkmark-circle"}],this.helpMenuItems=[{title:"Terms and Conditions",component:nn,icon:"bookmark"},{title:"Privacy Policy",component:Nn,icon:"ios-information-outline"},{title:"About",component:kn,icon:"information-circle"}]}return l.prototype.presentToast=function(){this.toast.create({message:"Press again to exit",duration:3e3,position:"middle"}).present()},l.prototype.displayNetworkUpdate=function(l){this.toast.create({message:"You are now "+l+" via "+this.network.type,duration:3e3}).present()},l.prototype.ionViewDidEnter=function(){var l=this;this.network.onConnect().subscribe(function(n){console.log(n),l.displayNetworkUpdate(n.type)},function(l){return console.error(l)}),this.network.onDisconnect().subscribe(function(n){console.log(n),l.displayNetworkUpdate(n.type)},function(l){return console.error(l)})},l.prototype.initializeApp=function(){var l=this;this.platform.ready().then(function(){l.statusBar.styleLightContent(),l.splashScreen.hide()})},l.prototype.openPage=function(l){this.GlobalvarsProvider.setcredentials(),console.log(l.title),this.nav.setRoot(l.component)},l.prototype.alertConfirm=function(){var l=this;this.alertCtrl.create({title:"Confirm Logout",message:"are you sure you want to Logout?",buttons:[{text:"Cancel",role:"cancel",handler:function(){}},{text:"Yes",handler:function(){l.nav.setRoot(jn),l.storage.clear()}}]}).present()},l}(),qn=function(){function l(l,n,u,t,e,a,i,o,r,s,c,_){var p=this;this.platform=l,this.statusBar=n,this.splashScreen=u,this.toast=t,this.alertCtrl=e,this.loadingCtrl=a,this.GlobalvarsProvider=i,this.navParams=o,this.http=r,this.menu=s,this.navCtrl=c,this.config=_,this.counter=0,l.ready().then(function(){n.styleDefault(),u.hide(),l.registerBackButtonAction(function(){0==p.counter?(p.counter++,p.presentToast(),setTimeout(function(){p.counter=0},3e3)):l.exitApp()},0)}),this.loading=this.loadingCtrl.create({content:"Loading Product..."}),this.loading.present(),this.GlobalvarsProvider.setcredentials();var d=new Jl.d;d.append("Accept","application/json"),d.append("Authorization",this.GlobalvarsProvider.gettoken());var h=new Jl.g({headers:d});this.http.get("http://api.riceupfarmers.org/api/ordersperfarmer/",h).map(function(l){return l.json()}).subscribe(function(l){void 0==l.message?(p.orders=l,console.log(l)):p.presentAlert(l.message),p.loading.dismissAll()},function(l){p.loading.dismissAll(),p.presentAlert("No Internet Connection!")})}return l.prototype.presentToast=function(){this.toast.create({message:"Press again to exit",duration:3e3,position:"bottom"}).present()},l.prototype.ionViewDidLoad=function(){},l.prototype.presentAlert=function(l){this.alertCtrl.create({title:"Alert",subTitle:l,buttons:["Dismiss"]}).present()},l.prototype.open=function(l){this.navCtrl.push(Vn,l)},l.prototype.dispatch=function(l){var n=this;this.loading=this.loadingCtrl.create({content:"Dispatching Product..."}),this.loading.present();var u=new URLSearchParams;u.append("grant_type",this.GlobalvarsProvider.grant_type);var t=u.toString(),e=new Jl.d;e.append("Accept","application/json"),e.append("Content-Type","application/x-www-form-urlencoded"),e.append("Authorization",this.GlobalvarsProvider.gettoken());var a=new Jl.g({headers:e});this.http.patch("http://api.riceupfarmers.org/api/product/dispatch/"+l,t,a).map(function(l){return l.json()}).subscribe(function(l){n.presentAlert(void 0!=l.message?l.message:"Something went wrong!"),n.loading.dismissAll(),n.navCtrl.setRoot(n.navCtrl.getActive().component)},function(l){n.presentAlert("No Internet Connection!"),n.loading.dismissAll()})},l}(),Wn=function(){function l(l,n,u,t,e,a,i,o,r,s,c,_){var p=this;this.platform=l,this.statusBar=n,this.splashScreen=u,this.toast=t,this.alertCtrl=e,this.loadingCtrl=a,this.GlobalvarsProvider=i,this.navParams=o,this.http=r,this.menu=s,this.navCtrl=c,this.config=_,this.counter=0,l.ready().then(function(){n.styleDefault(),u.hide(),l.registerBackButtonAction(function(){0==p.counter?(p.counter++,p.presentToast(),setTimeout(function(){p.counter=0},3e3)):l.exitApp()},0)}),this.loading=this.loadingCtrl.create({content:"Loading Product..."}),this.loading.present(),this.GlobalvarsProvider.setcredentials();var d=new Jl.d;d.append("Accept","application/json"),d.append("Authorization",this.GlobalvarsProvider.gettoken());var h=new Jl.g({headers:d});this.http.get("http://api.riceupfarmers.org/api/ordersperfarmer/",h).map(function(l){return l.json()}).subscribe(function(l){void 0==l.message?(p.orders=l,console.log(l)):p.presentAlert(l.message),p.loading.dismissAll()},function(l){p.loading.dismissAll(),p.presentAlert("No Internet Connection!")})}return l.prototype.presentToast=function(){this.toast.create({message:"Press again to exit",duration:3e3,position:"bottom"}).present()},l.prototype.ionViewDidLoad=function(){},l.prototype.presentAlert=function(l){this.alertCtrl.create({title:"Alert",subTitle:l,buttons:["Dismiss"]}).present()},l.prototype.open=function(l){this.navCtrl.push(Vn,l)},l.prototype.dispatch=function(l){var n=this;this.loading=this.loadingCtrl.create({content:"Dispatching Product..."}),this.loading.present();var u=new URLSearchParams;u.append("grant_type",this.GlobalvarsProvider.grant_type);var t=u.toString(),e=new Jl.d;e.append("Accept","application/json"),e.append("Content-Type","application/x-www-form-urlencoded"),e.append("Authorization",this.GlobalvarsProvider.gettoken());var a=new Jl.g({headers:e});this.http.patch("http://api.riceupfarmers.org/api/product/dispatch/"+l,t,a).map(function(l){return l.json()}).subscribe(function(l){n.presentAlert(void 0!=l.message?l.message:"Something went wrong!"),n.loading.dismissAll(),n.navCtrl.setRoot(n.navCtrl.getActive().component)},function(l){n.presentAlert("No Internet Connection!"),n.loading.dismissAll()})},l}(),zn=function(){return function(){}}(),Jn=u(11),Xn=u(250),Kn=u(8),Qn=u(36),lu=u(9),nu=u(10),uu=u(141),tu=u(50),eu=u(61),au=u(56),iu=u(147),ou=u(148),ru=u(110),su=u(149),cu=u(152),_u=u(111),pu=u(154),du=u(155),hu=u(156),mu=u(157),gu=u(158),fu=u(159),bu=u(160),vu=u(162),yu=u(165),Cu=u(86),Zu=u(166),Yu=u(168),ju=u(117),ku=u(169),Pu=u(170),wu=u(171),Bu=u(172),Au=u(175),Tu=u(176),Su=u(177),Iu=u(178),Mu=u(179),Ou=u(180),Eu=u(181),Lu=u(183),xu=u(184),Ru=u(186),Du=u(187),Gu=u(188),Nu=u(189),Uu=u(190),Fu=u(192),Vu=u(194),Hu=u(195),$u=u(196),qu=u(197),Wu=u(198),zu=u(199),Ju=u(200),Xu=u(201),Ku=u(48),Qu=u(32),lt=u(77),nt=u(16),ut=u(54),tt=u(13),et=u(37),at=u(140),it=u(78),ot=u(143),rt=u(144),st=u(39),ct=u(53),_t=u(281),pt=u(282),dt=u(283),ht=u(284),mt=u(285),gt=u(286),ft=u(287),bt=u(288),vt=u(38),yt=u(18),Ct=u(1),Zt=u(30),Yt=u(34),jt=u(173),kt=u(23),Pt=u(289),wt=u(119),Bt=u(4),At=u(57),Tt=u(29),St=u(15),It=u(6),Mt=u(12),Ot=u(62),Et=u(35),Lt=u(118),xt=u(290),Rt=u(95),Dt=u(42),Gt=u(98),Nt=zl.X({encapsulation:2,styles:[],data:{}}),Ut=zl.W("ng-component",$n,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"ng-component",[],null,null,null,i,Nt)),zl.Y(24576,null,0,$n,[Gt.a,Fn.a,Un.a,st.a,Qu.a,Jl.e,lt.a,Bt.a,Ql.a,ln.a,un],null,null)],null,null)},{},{},[]),Ft=u(291),Vt=u(112),Ht=u(163),$t=u(164),qt=u(75),Wt=u(52),zt=u(24),Jt=u(19),Xt=u(83),Kt=u(151),Qt=zl.X({encapsulation:2,styles:[],data:{}}),le=zl.W("page-welcome",jn,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-welcome",[],null,null,null,o,Qt)),zl.Y(24576,null,0,jn,[Gt.a,Ql.a,ln.a,st.a,et.a,Qu.a,Qn.a,lt.a,un,Cn.d,Bt.a,Mt.a,Jl.e],null,null)],null,null)},{},{},[]),ne=u(25),ue=u(31),te=u(21),ee=u(43),ae=u(40),ie=u(22),oe=u(33),re=u(26),se=zl.X({encapsulation:2,styles:[],data:{}}),ce=zl.W("page-about",kn,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-about",[],null,null,null,r,se)),zl.Y(24576,null,0,kn,[Mt.a,Bt.a,Ql.a,ln.a,st.a],null,null)],null,null)},{},{},[]),_e=u(49),pe=u(45),de=u(90),he=u(59),me=u(46),ge=u(17),fe=zl.X({encapsulation:2,styles:[],data:{}}),be=zl.W("page-dispatch",Vn,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-dispatch",[],null,null,null,h,fe)),zl.Y(24576,null,0,Vn,[Qu.a,Jl.e,et.a,un,Mt.a,ge.a],null,null)],null,null)},{},{},[]),ve=u(292),ye=u(120),Ce=zl.X({encapsulation:2,styles:[],data:{}}),Ze=zl.W("page-property-list",cn,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-property-list",[],null,null,null,g,Ce)),zl.Y(24576,null,0,cn,[Bt.a,Ql.a,ln.a,st.a,Qu.a,et.a,un,ge.a,Jl.e,Qn.a,Mt.a,tn,Ct.a],null,null)],null,null)},{},{},[]),Ye=u(51),je=zl.X({encapsulation:2,styles:[],data:{}}),ke=zl.W("page-changepass",Rn,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-changepass",[],null,null,null,f,je)),zl.Y(24576,null,0,Rn,[Gt.a,et.a,Qu.a,Mt.a,Cn.d,ge.a,Jl.e,un],null,null)],null,null)},{},{},[]),Pe=u(293),we=u(124),Be=u(63),Ae=u(60),Te=u(128),Se=u(69),Ie=zl.X({encapsulation:2,styles:[],data:{}}),Me=zl.W("page-updateaccount",Dn,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-updateaccount",[],null,null,null,Z,Ie)),zl.Y(24576,null,0,Dn,[lt.a,Jl.e,et.a,Qu.a,Mt.a,ge.a,un],null,null)],null,null)},{},{},[]),Oe=zl.X({encapsulation:2,styles:[],data:{}}),Ee=zl.W("page-pickup",vn,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-pickup",[],null,null,null,j,Oe)),zl.Y(24576,null,0,vn,[et.a,Qu.a,un,Jl.e,Ku.a,Mt.a,ge.a,tn,st.a],null,null)],null,null)},{},{},[]),Le=u(84),xe=zl.X({encapsulation:2,styles:[],data:{}}),Re=zl.W("page-productonly",Pn,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-productonly",[],null,null,null,P,xe)),zl.Y(24576,null,0,Pn,[Jl.e,Ku.a,Mt.a,ge.a],null,null)],null,null)},{},{},[]),De=zl.X({encapsulation:2,styles:[],data:{}}),Ge=zl.W("page-shipping",bn,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-shipping",[],null,null,null,B,De)),zl.Y(24576,null,0,bn,[Bt.a,et.a,Qu.a,un,Jl.e,Ku.a,Mt.a,ge.a,tn,st.a],null,null)],null,null)},{},{},[]),Ne=zl.X({encapsulation:2,styles:[],data:{}}),Ue=zl.W("page-property-detail",sn,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-property-detail",[],null,null,null,T,Ne)),zl.Y(24576,null,0,sn,[et.a,Qu.a,un,Jl.e,Ku.a,Mt.a,ge.a,tn,st.a],null,null)],null,null)},{},{},[]),Fe=zl.X({encapsulation:2,styles:[],data:{}}),Ve=zl.W("page-changepic",On,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-changepic",[],null,null,null,S,Fe)),zl.Y(24576,null,0,On,[ge.a,un,Jl.e,Qu.a,Cn.d,Mt.a,In.a,Tn.a,An.a,Sn.a,Ku.a,st.a,Bt.a,et.a],null,null)],null,null)},{},{},[]),He=zl.X({encapsulation:2,styles:[],data:{}}),$e=zl.W("page-prouduct-detail",pn,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-prouduct-detail",[],null,null,null,I,He)),zl.Y(24576,null,0,pn,[Jl.e,Mt.a,ge.a],null,null)],null,null)},{},{},[]),qe=u(202),We=u(88),ze=u(87),Je=u(252),Xe=u(96),Ke=zl.X({encapsulation:2,styles:[],data:{}}),Qe=zl.W("page-updateproduct",En,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-updateproduct",[],null,null,null,O,Ke)),zl.Y(24576,null,0,En,[Qu.a,et.a,un,Jl.e,Mt.a,ge.a],null,null)],null,null)},{},{},[]),la=zl.X({encapsulation:2,styles:[],data:{}}),na=zl.W("page-profpic",xn,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-profpic",[],null,null,null,E,la)),zl.Y(24576,null,0,xn,[lt.a,ge.a,un,Jl.e,Qu.a,Cn.d,Mt.a,In.a,Tn.a,An.a,Sn.a,Ku.a,st.a,Bt.a,et.a],null,null)],null,null)},{},{},[]),ua=u(58),ta=zl.X({encapsulation:2,styles:[],data:{}}),ea=zl.W("page-transac",Wn,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-transac",[],null,null,null,D,ta)),zl.Y(24576,null,0,Wn,[Bt.a,Ql.a,ln.a,st.a,Qu.a,et.a,un,ge.a,Jl.e,Qn.a,Mt.a,Ct.a],null,null)],null,null)},{},{},[]),aa=zl.X({encapsulation:2,styles:[],data:{}}),ia=zl.W("page-broker-list",dn,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-broker-list",[],null,null,null,V,aa)),zl.Y(24576,null,0,dn,[Bt.a,Ql.a,ln.a,st.a,Qu.a,et.a,un,Mt.a,_n,Jl.e],null,null)],null,null)},{},{},[]),oa=u(294),ra=zl.X({encapsulation:2,styles:[],data:{}}),sa=zl.W("page-addproduct",Mn,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-addproduct",[],null,null,null,H,ra)),zl.Y(24576,null,0,Mn,[un,Jl.e,Qu.a,Cn.d,Mt.a,In.a,Tn.a,An.a,Sn.a,Ku.a,st.a,Bt.a,et.a],null,null)],null,null)},{},{},[]),ca=u(203),_a=u(85),pa=u(204),da=u(68),ha=zl.X({encapsulation:2,styles:[],data:{}}),ma=zl.W("page-userproduct",Ln,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-userproduct",[],null,null,null,q,ha)),zl.Y(24576,null,0,Ln,[Bt.a,Ql.a,ln.a,st.a,Qu.a,et.a,un,ge.a,Jl.e,Qn.a,Mt.a,Ct.a],null,null)],null,null)},{},{},[]),ga=zl.X({encapsulation:2,styles:[],data:{}}),fa=zl.W("page-orderinfo",wn,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-orderinfo",[],null,null,null,tl,ga)),zl.Y(24576,null,0,wn,[Qu.a,et.a,un,Jl.e,Ku.a,Mt.a,ge.a,tn,st.a],null,null)],null,null)},{},{},[]),ba=zl.X({encapsulation:2,styles:[],data:{}}),va=zl.W("page-privacy-policy",Nn,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-privacy-policy",[],null,null,null,el,ba)),zl.Y(24576,null,0,Nn,[Bt.a,Ql.a,ln.a,st.a,Mt.a,ge.a],null,null)],null,null)},{},{},[]),ya=zl.X({encapsulation:2,styles:[],data:{}}),Ca=zl.W("page-cartupdate",hn,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-cartupdate",[],null,null,null,il,ya)),zl.Y(24576,null,0,hn,[et.a,Qu.a,un,Jl.e,Ku.a,Mt.a,ge.a,tn,st.a],null,null)],null,null)},{},{},[]),Za=zl.X({encapsulation:2,styles:[],data:{}}),Ya=zl.W("page-broker-detail",rn,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-broker-detail",[],null,null,null,ol,Za)),zl.Y(24576,null,0,rn,[Jl.e,Mt.a,ge.a],null,null)],null,null)},{},{},[]),ja=zl.X({encapsulation:2,styles:[],data:{}}),ka=zl.W("page-termsandagreement",nn,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-termsandagreement",[],null,null,null,rl,ja)),zl.Y(24576,null,0,nn,[Bt.a,Ql.a,ln.a,st.a],null,null)],null,null)},{},{},[]),Pa=zl.X({encapsulation:2,styles:[],data:{}}),wa=zl.W("page-order-list",Bn,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-order-list",[],null,null,null,dl,Pa)),zl.Y(24576,null,0,Bn,[Bt.a,Ql.a,ln.a,st.a,Qu.a,et.a,un,Qn.a,Jl.e,Mt.a,ge.a],null,null)],null,null)},{},{},[]),Ba=zl.X({encapsulation:2,styles:[],data:{}}),Aa=zl.W("page-cart",yn,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-cart",[],null,null,null,ml,Ba)),zl.Y(24576,null,0,yn,[Bt.a,Ql.a,ln.a,st.a,et.a,Qu.a,un,Qn.a,Jl.e,Mt.a,ge.a],null,null)],null,null)},{},{},[]),Ta=zl.X({encapsulation:2,styles:[],data:{}}),Sa=zl.W("page-signup",Zn,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-signup",[],null,null,null,gl,Ta)),zl.Y(24576,null,0,Zn,[et.a,Mt.a,Xl,un,Jl.e,Qu.a,Cn.d],null,null)],null,null)},{},{},[]),Ia=zl.X({encapsulation:2,styles:[],data:{}}),Ma=zl.W("page-account",Gn,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-account",[],null,null,null,Cl,Ia)),zl.Y(24576,null,0,Gn,[Qu.a,Mt.a,ge.a,un,Bt.a,Ql.a,ln.a,st.a],null,null)],null,null)},{},{},[]),Oa=zl.X({encapsulation:2,styles:[],data:{}}),Ea=zl.W("page-farmer-location",on,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-farmer-location",[],null,null,null,Zl,Oa)),zl.Y(24576,null,0,on,[Qu.a,Mt.a,ge.a],null,null)],null,null)},{},{},[]),La=zl.X({encapsulation:2,styles:[],data:{}}),xa=zl.W("page-shipping-details",fn,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-shipping-details",[],null,null,null,jl,La)),zl.Y(24576,null,0,fn,[Bt.a,Ql.a,ln.a,st.a,Qu.a,et.a,un,ge.a,Jl.e,Qn.a,Mt.a,Ct.a],null,null)],null,null)},{},{},[]),Ra=zl.X({encapsulation:2,styles:[],data:{}}),Da=zl.W("page-shipping-details-update",gn,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-shipping-details-update",[],null,null,null,kl,Ra)),zl.Y(24576,null,0,gn,[Qu.a,et.a,un,Jl.e,Mt.a,ge.a],null,null)],null,null)},{},{},[]),Ga=zl.X({encapsulation:2,styles:[],data:{}}),Na=zl.W("page-shipping-details-add",mn,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-shipping-details-add",[],null,null,null,Pl,Ga)),zl.Y(24576,null,0,mn,[Bt.a,Ql.a,ln.a,st.a,Qu.a,et.a,un,ge.a,Jl.e,Qn.a,Mt.a,Ct.a],null,null)],null,null)},{},{},[]),Ua=u(295),Fa=u(89),Va=u(296),Ha=u(121),$a=zl.X({encapsulation:2,styles:[],data:{}}),qa=zl.W("page-transact-packed",qn,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-transact-packed",[],null,null,null,Tl,$a)),zl.Y(24576,null,0,qn,[Bt.a,Ql.a,ln.a,st.a,Qu.a,et.a,un,ge.a,Jl.e,Qn.a,Mt.a,Ct.a],null,null)],null,null)},{},{},[]),Wa=zl.X({encapsulation:2,styles:[],data:{}}),za=zl.W("page-transactions",Hn,function(l){return zl._23(0,[(l()(),zl.Z(0,null,null,1,"page-transactions",[],null,null,null,$l,Wa)),zl.Y(24576,null,0,Hn,[Bt.a,Ql.a,ln.a,st.a,Qu.a,et.a,un,ge.a,Jl.e,Qn.a,Mt.a,Ct.a],null,null)],null,null)},{},{},[]),Ja=u(146),Xa=u(142),Ka=u(82),Qa=u(145),li=u(93),ni=this&&this.__extends||function(){var l=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(l,n){l.__proto__=n}||function(l,n){for(var u in n)n.hasOwnProperty(u)&&(l[u]=n[u])};return function(n,u){function t(){this.constructor=n}l(n,u),n.prototype=null===u?Object.create(u):(t.prototype=u.prototype,new t)}}(),ui=new zl.s(function(l){function n(n){return l.call(this,n,[_t.a,pt.a,dt.a,ht.a,mt.a,gt.a,ft.a,bt.a,Ut,le,ce,be,Ze,ke,Me,Ee,Re,Ge,Ue,Ve,$e,Qe,na,ea,ia,sa,ma,fa,va,Ca,Ya,ka,wa,Aa,Sa,Ma,Ea,xa,Da,Na,qa,za],[dt.a])||this}return ni(n,l),Object.defineProperty(n.prototype,"_LOCALE_ID_76",{get:function(){return null==this.__LOCALE_ID_76&&(this.__LOCALE_ID_76=zl._11(this.parent.get(zl.r,null))),this.__LOCALE_ID_76},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_NgLocalization_77",{get:function(){return null==this.__NgLocalization_77&&(this.__NgLocalization_77=new Jn.k(this._LOCALE_ID_76)),this.__NgLocalization_77},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_APP_ID_78",{get:function(){return null==this.__APP_ID_78&&(this.__APP_ID_78=zl._1()),this.__APP_ID_78},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_IterableDiffers_79",{get:function(){return null==this.__IterableDiffers_79&&(this.__IterableDiffers_79=zl._7()),this.__IterableDiffers_79},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_KeyValueDiffers_80",{get:function(){return null==this.__KeyValueDiffers_80&&(this.__KeyValueDiffers_80=zl._9()),this.__KeyValueDiffers_80},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_DomSanitizer_81",{get:function(){return null==this.__DomSanitizer_81&&(this.__DomSanitizer_81=new Wl.s(this.parent.get(Wl.b))),this.__DomSanitizer_81},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Sanitizer_82",{get:function(){return null==this.__Sanitizer_82&&(this.__Sanitizer_82=this._DomSanitizer_81),this.__Sanitizer_82},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_HAMMER_GESTURE_CONFIG_83",{get:function(){return null==this.__HAMMER_GESTURE_CONFIG_83&&(this.__HAMMER_GESTURE_CONFIG_83=new Wl.g),this.__HAMMER_GESTURE_CONFIG_83},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_EVENT_MANAGER_PLUGINS_84",{get:function(){return null==this.__EVENT_MANAGER_PLUGINS_84&&(this.__EVENT_MANAGER_PLUGINS_84=[new Wl.l(this.parent.get(Wl.b)),new Wl.p(this.parent.get(Wl.b)),new Wl.o(this.parent.get(Wl.b),this._HAMMER_GESTURE_CONFIG_83)]),this.__EVENT_MANAGER_PLUGINS_84},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_EventManager_85",{get:function(){return null==this.__EventManager_85&&(this.__EventManager_85=new Wl.e(this._EVENT_MANAGER_PLUGINS_84,this.parent.get(zl.v))),this.__EventManager_85},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ɵDomSharedStylesHost_86",{get:function(){return null==this.__ɵDomSharedStylesHost_86&&(this.__ɵDomSharedStylesHost_86=new Wl.n(this.parent.get(Wl.b))),this.__ɵDomSharedStylesHost_86},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ɵDomRendererFactory2_87",{get:function(){return null==this.__ɵDomRendererFactory2_87&&(this.__ɵDomRendererFactory2_87=new Wl.m(this._EventManager_85,this._ɵDomSharedStylesHost_86)),this.__ɵDomRendererFactory2_87},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_RendererFactory2_88",{get:function(){return null==this.__RendererFactory2_88&&(this.__RendererFactory2_88=this._ɵDomRendererFactory2_87),this.__RendererFactory2_88},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ɵSharedStylesHost_89",{get:function(){return null==this.__ɵSharedStylesHost_89&&(this.__ɵSharedStylesHost_89=this._ɵDomSharedStylesHost_86),this.__ɵSharedStylesHost_89},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Testability_90",{get:function(){return null==this.__Testability_90&&(this.__Testability_90=new zl.H(this.parent.get(zl.v))),this.__Testability_90},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Meta_91",{get:function(){return null==this.__Meta_91&&(this.__Meta_91=new Wl.h(this.parent.get(Wl.b))),this.__Meta_91},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Title_92",{get:function(){return null==this.__Title_92&&(this.__Title_92=new Wl.j(this.parent.get(Wl.b))),this.__Title_92},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_BrowserXhr_93",{get:function(){return null==this.__BrowserXhr_93&&(this.__BrowserXhr_93=new Jl.c),this.__BrowserXhr_93},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ResponseOptions_94",{get:function(){return null==this.__ResponseOptions_94&&(this.__ResponseOptions_94=new Jl.b),this.__ResponseOptions_94},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_XSRFStrategy_95",{get:function(){return null==this.__XSRFStrategy_95&&(this.__XSRFStrategy_95=Jl.k()),this.__XSRFStrategy_95},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_XHRBackend_96",{get:function(){return null==this.__XHRBackend_96&&(this.__XHRBackend_96=new Jl.i(this._BrowserXhr_93,this._ResponseOptions_94,this._XSRFStrategy_95)),this.__XHRBackend_96},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_RequestOptions_97",{get:function(){return null==this.__RequestOptions_97&&(this.__RequestOptions_97=new Jl.a),this.__RequestOptions_97},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Http_98",{get:function(){return null==this.__Http_98&&(this.__Http_98=Jl.l(this._XHRBackend_96,this._RequestOptions_97)),this.__Http_98},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ɵi_99",{get:function(){return null==this.__ɵi_99&&(this.__ɵi_99=new Cn.r),this.__ɵi_99},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_FormBuilder_100",{get:function(){return null==this.__FormBuilder_100&&(this.__FormBuilder_100=new Cn.d),this.__FormBuilder_100},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ActionSheetController_103",{get:function(){return null==this.__ActionSheetController_103&&(this.__ActionSheetController_103=new Ku.a(this._App_8,this._Config_5)),this.__ActionSheetController_103},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_AlertController_104",{get:function(){return null==this.__AlertController_104&&(this.__AlertController_104=new Qu.a(this._App_8,this._Config_5)),this.__AlertController_104},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Events_105",{get:function(){return null==this.__Events_105&&(this.__Events_105=new lt.a),this.__Events_105},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Form_106",{get:function(){return null==this.__Form_106&&(this.__Form_106=new nt.a),this.__Form_106},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Haptic_107",{get:function(){return null==this.__Haptic_107&&(this.__Haptic_107=new ut.a(this._Platform_4)),this.__Haptic_107},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Keyboard_108",{get:function(){return null==this.__Keyboard_108&&(this.__Keyboard_108=new tt.a(this._Config_5,this._Platform_4,this.parent.get(zl.v),this._DomController_6)),this.__Keyboard_108},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_LoadingController_109",{get:function(){return null==this.__LoadingController_109&&(this.__LoadingController_109=new et.a(this._App_8,this._Config_5)),this.__LoadingController_109},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_LocationStrategy_110",{get:function(){return null==this.__LocationStrategy_110&&(this.__LocationStrategy_110=Kl.b(this.parent.get(Jn.r),this._APP_BASE_HREF_102,this._Config_5)),this.__LocationStrategy_110},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Location_111",{get:function(){return null==this.__Location_111&&(this.__Location_111=new Jn.f(this._LocationStrategy_110)),this.__Location_111},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_UrlSerializer_112",{get:function(){return null==this.__UrlSerializer_112&&(this.__UrlSerializer_112=Ja.c(this._DeepLinkConfigToken_10)),this.__UrlSerializer_112},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_DeepLinker_113",{get:function(){return null==this.__DeepLinker_113&&(this.__DeepLinker_113=Dt.b(this._App_8,this._UrlSerializer_112,this._Location_111,this._ModuleLoader_13,this.componentFactoryResolver)),this.__DeepLinker_113},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ModalController_114",{get:function(){return null==this.__ModalController_114&&(this.__ModalController_114=new at.a(this._App_8,this._Config_5,this._DeepLinker_113)),this.__ModalController_114},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_PickerController_115",{get:function(){return null==this.__PickerController_115&&(this.__PickerController_115=new it.a(this._App_8,this._Config_5)),this.__PickerController_115},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_PopoverController_116",{get:function(){return null==this.__PopoverController_116&&(this.__PopoverController_116=new ot.a(this._App_8,this._Config_5,this._DeepLinker_113)),this.__PopoverController_116},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_TapClick_117",{get:function(){return null==this.__TapClick_117&&(this.__TapClick_117=new rt.a(this._Config_5,this._Platform_4,this._DomController_6,this._App_8,this.parent.get(zl.v),this._GestureController_9)),this.__TapClick_117},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ToastController_118",{get:function(){return null==this.__ToastController_118&&(this.__ToastController_118=new st.a(this._App_8,this._Config_5)),this.__ToastController_118},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_TransitionController_119",{get:function(){return null==this.__TransitionController_119&&(this.__TransitionController_119=new ct.a(this._Platform_4,this._Config_5)),this.__TransitionController_119},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Storage_121",{get:function(){return null==this.__Storage_121&&(this.__Storage_121=Gt.c(this._StorageConfigToken_120)),this.__Storage_121},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Transfer_122",{get:function(){return null==this.__Transfer_122&&(this.__Transfer_122=new Tn.a),this.__Transfer_122},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_File_123",{get:function(){return null==this.__File_123&&(this.__File_123=new An.a),this.__File_123},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Camera_124",{get:function(){return null==this.__Camera_124&&(this.__Camera_124=new In.a),this.__Camera_124},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_FilePath_125",{get:function(){return null==this.__FilePath_125&&(this.__FilePath_125=new Sn.a),this.__FilePath_125},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_StatusBar_126",{get:function(){return null==this.__StatusBar_126&&(this.__StatusBar_126=new Ql.a),this.__StatusBar_126},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_SplashScreen_127",{get:function(){return null==this.__SplashScreen_127&&(this.__SplashScreen_127=new ln.a),this.__SplashScreen_127},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_AuthService_128",{get:function(){return null==this.__AuthService_128&&(this.__AuthService_128=new Xl(this._Http_98)),this.__AuthService_128},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_GlobalvarsProvider_129",{get:function(){return null==this.__GlobalvarsProvider_129&&(this.__GlobalvarsProvider_129=new un(this._Http_98)),this.__GlobalvarsProvider_129},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_PropertyService_130",{get:function(){return null==this.__PropertyService_130&&(this.__PropertyService_130=new tn(this._GlobalvarsProvider_129,this._Http_98)),this.__PropertyService_130},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_BrokerService_131",{get:function(){return null==this.__BrokerService_131&&(this.__BrokerService_131=new _n(this._Http_98)),this.__BrokerService_131},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Network_132",{get:function(){return null==this.__Network_132&&(this.__Network_132=new Un.a),this.__Network_132},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_BackgroundMode_133",{get:function(){return null==this.__BackgroundMode_133&&(this.__BackgroundMode_133=new Fn.a),this.__BackgroundMode_133},enumerable:!0,configurable:!0}),n.prototype.createInternal=function(){return this._CommonModule_0=new Jn.b,this._ErrorHandler_1=new Xn.a,this._ConfigToken_2={},this._PlatformConfigToken_3=Xa.b(),this._Platform_4=Bt.b(this.parent.get(Wl.b),this._PlatformConfigToken_3,this.parent.get(zl.v)),this._Config_5=Ct.c(this._ConfigToken_2,this._Platform_4),this._DomController_6=new Kn.a(this._Platform_4),this._MenuController_7=new Qn.a,this._App_8=new lu.a(this._Config_5,this._Platform_4,this._MenuController_7),this._GestureController_9=new nu.l(this._App_8),this._DeepLinkConfigToken_10={links:[]},this._Compiler_11=new zl.h,this._NgModuleLoader_12=new uu.a(this._Compiler_11),this._ModuleLoader_13=Ka.c(this._NgModuleLoader_12,this),this._APP_INITIALIZER_14=[zl._14,Wl.r(this.parent.get(Wl.i,null),this.parent.get(zl.u,null)),Qa.a(this._Config_5),lt.b(this._Platform_4,this._DomController_6),rt.b(this._Config_5,this._Platform_4,this._DomController_6,this._App_8,this.parent.get(zl.v),this._GestureController_9),Ka.d(this._Config_5,this._DeepLinkConfigToken_10,this._ModuleLoader_13,this.parent.get(zl.v))],this._ApplicationInitStatus_15=new zl.d(this._APP_INITIALIZER_14),this._ɵf_16=new zl._0(this.parent.get(zl.v),this.parent.get(zl.T),this,this._ErrorHandler_1,this.componentFactoryResolver,this._ApplicationInitStatus_15),this._ApplicationRef_17=this._ɵf_16,this._ApplicationModule_18=new zl.e(this._ApplicationRef_17),this._BrowserModule_19=new Wl.a(this.parent.get(Wl.a,null)),this._HttpModule_20=new Jl.f,this._ɵba_21=new Cn.o,this._FormsModule_22=new Cn.h,this._ReactiveFormsModule_23=new Cn.n,this._BackdropModule_24=new tu.a,this._ButtonModule_25=new eu.a,this._IconModule_26=new au.a,this._ActionSheetModule_27=new iu.a,this._AlertModule_28=new ou.a,this._NavModule_29=new ru.a,this._AppModule_30=new su.a,this._AvatarModule_31=new cu.a,this._BadgeModule_32=new _u.a,this._CardModule_33=new pu.a,this._CheckboxModule_34=new du.a,this._ChipModule_35=new hu.a,this._ClickBlockModule_36=new mu.a,this._ContentModule_37=new gu.a,this._DateTimeModule_38=new fu.a,this._FabModule_39=new bu.a,this._GridModule_40=new vu.a,this._ImgModule_41=new yu.a,this._SpinnerModule_42=new Cu.a,this._InfiniteScrollModule_43=new Zu.a,this._InputModule_44=new Yu.a,this._LabelModule_45=new ju.a,this._ItemModule_46=new ku.a,this._ListModule_47=new Pu.a,this._LoadingModule_48=new wu.a,this._MenuModule_49=new Bu.a,this._ModalModule_50=new Au.a,this._NavbarModule_51=new Tu.a,this._NoteModule_52=new Su.a,this._OptionModule_53=new Iu.a,this._PickerModule_54=new Mu.a,this._PopoverModule_55=new Ou.a,this._RadioModule_56=new Eu.a,this._RangeModule_57=new Lu.a,this._RefresherModule_58=new xu.a,this._ScrollModule_59=new Ru.a,this._SearchbarModule_60=new Du.a,this._SegmentModule_61=new Gu.a,this._SelectModule_62=new Nu.a,this._ShowHideWhenModule_63=new Uu.a,this._SlidesModule_64=new Fu.a,this._SplitPaneModule_65=new Vu.a,this._TabsModule_66=new Hu.a,this._ThumbnailModule_67=new $u.a,this._ToastModule_68=new qu.a,this._ToggleModule_69=new Wu.a,this._ToolbarModule_70=new zu.a,this._TypographyModule_71=new Ju.a,this._VirtualScrollModule_72=new Xu.a,this._IonicModule_73=new Kl.a,this._IonicStorageModule_74=new Yn.a,this._AppModule_75=new zn,this._AppRootToken_101=$n,this._APP_BASE_HREF_102="/",this._StorageConfigToken_120=null,this._AppModule_75},n.prototype.getInternal=function(l,n){return l===Jn.b?this._CommonModule_0:l===zl.k?this._ErrorHandler_1:l===Ct.b?this._ConfigToken_2:l===Xa.a?this._PlatformConfigToken_3:l===Bt.a?this._Platform_4:l===Ct.a?this._Config_5:l===Kn.a?this._DomController_6:l===Qn.a?this._MenuController_7:l===lu.a?this._App_8:l===nu.l?this._GestureController_9:l===Ja.a?this._DeepLinkConfigToken_10:l===zl.h?this._Compiler_11:l===uu.a?this._NgModuleLoader_12:l===Ka.b?this._ModuleLoader_13:l===zl.c?this._APP_INITIALIZER_14:l===zl.d?this._ApplicationInitStatus_15:l===zl._0?this._ɵf_16:l===zl.f?this._ApplicationRef_17:l===zl.e?this._ApplicationModule_18:l===Wl.a?this._BrowserModule_19:l===Jl.f?this._HttpModule_20:l===Cn.o?this._ɵba_21:l===Cn.h?this._FormsModule_22:l===Cn.n?this._ReactiveFormsModule_23:l===tu.a?this._BackdropModule_24:l===eu.a?this._ButtonModule_25:l===au.a?this._IconModule_26:l===iu.a?this._ActionSheetModule_27:l===ou.a?this._AlertModule_28:l===ru.a?this._NavModule_29:l===su.a?this._AppModule_30:l===cu.a?this._AvatarModule_31:l===_u.a?this._BadgeModule_32:l===pu.a?this._CardModule_33:l===du.a?this._CheckboxModule_34:l===hu.a?this._ChipModule_35:l===mu.a?this._ClickBlockModule_36:l===gu.a?this._ContentModule_37:l===fu.a?this._DateTimeModule_38:l===bu.a?this._FabModule_39:l===vu.a?this._GridModule_40:l===yu.a?this._ImgModule_41:l===Cu.a?this._SpinnerModule_42:l===Zu.a?this._InfiniteScrollModule_43:l===Yu.a?this._InputModule_44:l===ju.a?this._LabelModule_45:l===ku.a?this._ItemModule_46:l===Pu.a?this._ListModule_47:l===wu.a?this._LoadingModule_48:l===Bu.a?this._MenuModule_49:l===Au.a?this._ModalModule_50:l===Tu.a?this._NavbarModule_51:l===Su.a?this._NoteModule_52:l===Iu.a?this._OptionModule_53:l===Mu.a?this._PickerModule_54:l===Ou.a?this._PopoverModule_55:l===Eu.a?this._RadioModule_56:l===Lu.a?this._RangeModule_57:l===xu.a?this._RefresherModule_58:l===Ru.a?this._ScrollModule_59:l===Du.a?this._SearchbarModule_60:l===Gu.a?this._SegmentModule_61:l===Nu.a?this._SelectModule_62:l===Uu.a?this._ShowHideWhenModule_63:l===Fu.a?this._SlidesModule_64:l===Vu.a?this._SplitPaneModule_65:l===Hu.a?this._TabsModule_66:l===$u.a?this._ThumbnailModule_67:l===qu.a?this._ToastModule_68:l===Wu.a?this._ToggleModule_69:l===zu.a?this._ToolbarModule_70:l===Ju.a?this._TypographyModule_71:l===Xu.a?this._VirtualScrollModule_72:l===Kl.a?this._IonicModule_73:l===Yn.a?this._IonicStorageModule_74:l===zn?this._AppModule_75:l===zl.r?this._LOCALE_ID_76:l===Jn.l?this._NgLocalization_77:l===zl.b?this._APP_ID_78:l===zl.p?this._IterableDiffers_79:l===zl.q?this._KeyValueDiffers_80:l===Wl.c?this._DomSanitizer_81:l===zl.E?this._Sanitizer_82:l===Wl.f?this._HAMMER_GESTURE_CONFIG_83:l===Wl.d?this._EVENT_MANAGER_PLUGINS_84:l===Wl.e?this._EventManager_85:l===Wl.n?this._ɵDomSharedStylesHost_86:l===Wl.m?this._ɵDomRendererFactory2_87:l===zl.C?this._RendererFactory2_88:l===Wl.q?this._ɵSharedStylesHost_89:l===zl.H?this._Testability_90:l===Wl.h?this._Meta_91:l===Wl.j?this._Title_92:l===Jl.c?this._BrowserXhr_93:l===Jl.h?this._ResponseOptions_94:l===Jl.j?this._XSRFStrategy_95:l===Jl.i?this._XHRBackend_96:l===Jl.g?this._RequestOptions_97:l===Jl.e?this._Http_98:l===Cn.r?this._ɵi_99:l===Cn.d?this._FormBuilder_100:l===li.a?this._AppRootToken_101:l===Jn.a?this._APP_BASE_HREF_102:l===Ku.a?this._ActionSheetController_103:l===Qu.a?this._AlertController_104:l===lt.a?this._Events_105:l===nt.a?this._Form_106:l===ut.a?this._Haptic_107:l===tt.a?this._Keyboard_108:l===et.a?this._LoadingController_109:l===Jn.g?this._LocationStrategy_110:l===Jn.f?this._Location_111:l===Ja.b?this._UrlSerializer_112:l===Dt.a?this._DeepLinker_113:l===at.a?this._ModalController_114:l===it.a?this._PickerController_115:l===ot.a?this._PopoverController_116:l===rt.a?this._TapClick_117:l===st.a?this._ToastController_118:l===ct.a?this._TransitionController_119:l===Gt.b?this._StorageConfigToken_120:l===Gt.a?this._Storage_121:l===Tn.a?this._Transfer_122:l===An.a?this._File_123:l===In.a?this._Camera_124:l===Sn.a?this._FilePath_125:l===Ql.a?this._StatusBar_126:l===ln.a?this._SplashScreen_127:l===Xl?this._AuthService_128:l===un?this._GlobalvarsProvider_129:l===tn?this._PropertyService_130:l===_n?this._BrokerService_131:l===Un.a?this._Network_132:l===Fn.a?this._BackgroundMode_133:n},n.prototype.destroyInternal=function(){this._ɵf_16.ngOnDestroy(),this.__ɵDomSharedStylesHost_86&&this._ɵDomSharedStylesHost_86.ngOnDestroy()},n}(zl.U),zn);Object(zl.N)(),Object(Wl.k)().bootstrapModuleFactory(ui)}},[253]);
+webpackJsonp([0],{
+
+/***/ 123:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TermsandagreementPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(16);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+/**
+ * Generated class for the TermsandagreementPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var TermsandagreementPage = (function () {
+    function TermsandagreementPage(platform, statusBar, splashScreen, toast) {
+        var _this = this;
+        this.platform = platform;
+        this.statusBar = statusBar;
+        this.splashScreen = splashScreen;
+        this.toast = toast;
+        this.counter = 0;
+        platform.ready().then(function () {
+            statusBar.styleDefault();
+            splashScreen.hide();
+            platform.registerBackButtonAction(function () {
+                if (_this.counter == 0) {
+                    _this.counter++;
+                    _this.presentToast();
+                    setTimeout(function () { _this.counter = 0; }, 3000);
+                }
+                else {
+                    // console.log("exitapp");
+                    platform.exitApp();
+                }
+            }, 0);
+        });
+    }
+    TermsandagreementPage.prototype.presentToast = function () {
+        var toast = this.toast.create({
+            message: "Press again to exit",
+            duration: 3000,
+            position: "bottom"
+        });
+        toast.present();
+    };
+    return TermsandagreementPage;
+}());
+TermsandagreementPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        selector: 'page-termsandagreement',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\termsandagreement\termsandagreement.html"*/'<!--\n\n  Generated template for the TermsandagreementPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar><button ion-button menuToggle>\n\n            <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n    <ion-title>Terms and Agreement</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n<h3>RiceUp Farmers Inc Terms of Use</h3>\n\n<p>Welcome to the RiceUp Farmers Inc Terms of Use agreement. For purposes of this agreement, “App” refers to the Company’s mobile application, RiceUp, which can be downloaded on Google Play . “Service” refers to the Company’s services accessed via the App, in which users can view and request certain products available near their location. The terms “we,” “us,” and “our” refer to the Company. “You” refers to you, as a user of our App or our Service. \n\n<br><br>\n\nThe following Terms of Use apply when you view or use the Service by accessing the Service through clicking on the application (the “App”) on your mobile device.  \n\n<br><br>\n\nPlease review the following terms carefully. By accessing or using the Service, you signify your agreement to these Terms of Use. <b>If you do not agree to be bound by these Terms of Use in their entirety, you may not access or use the Service.</b>\n\n</p>\n\n<h3>PRIVACY POLICY</h3>\n\n<p>The Company respects the privacy of its Service users. Please refer to the Company’s Privacy Policy (found in the App menu) which explains how we collect, use, and disclose information that pertains to your privacy. When you access or use the Service, you signify your agreement to the Privacy Policy as well as these Terms of Use.</p>\n\n<h3>\n\nABOUT THE SERVICE\n\n</h3>\n\n<p>The Service allows you to create an account, view, and request available products near your location. Local pick-up locations will be shown on the Service, and payments will be made in person. \n\n<br><br>\n\nThe service is only intended for users living near product pick-up locations in the Philippines. Product requests from people outside the Philippines will not be accepted.\n\n</p>\n\n<h3>REGISTRATION; RULES FOR USER CONDUCT AND USE OF THE SERVICE</h3>\n\n<p>You need to be at least 18 years to register for and use the Service.\n\nIf you are a user who signs up for the Service, you will create a personalized account which includes a unique username and a password to access the Service and to receive messages from the Company. You agree to notify us immediately of any unauthorized use of your password and/or account. The Company will not be responsible for any liabilities, losses, or damages arising out of the unauthorized use of your member name, password and/or account.\n\n</p>\n\n<h3>USE RESTRICTIONS</h3>\n\n<p>Your permission to use the App is conditioned upon the following use, posting and conduct restrictions: </p>\n\n<p>You agree that you will not under any circumstances:\n\n</p>\n\n<ul>\n\n  <li>access the Service for any reason other than your personal, non-commercial use solely as permitted by the normal functionality of the Service,</li>\n\n  <li>collect or harvest any personal data of any user of the Site or the Service \n\n</li>\n\n<li>use the App or the Service for the solicitation of business in the course of trade or in connection with a commercial enterprise;\n\n</li>\n\n<li>distribute any part or parts of the App or the Service without our explicit written permission \n\n</li>\n\n<li>use the Service for any unlawful purpose or for the promotion of illegal activities;\n\n</li>\n\n<li>attempt to, or harass, abuse or harm another person or group;</li>\n\n<li>use another user’s account without permission;</li>\n\n<li>intentionally allow another user to request products from your account; </li>\n\n<li>provide false or inaccurate information when registering an account;</li>\n\n<li>interfere or attempt to interfere with the proper functioning of the Service;\n\n</li>\n\n<li>make any automated use of the App, the Service or the related systems, or take any action that we deem to impose or to potentially impose an unreasonable or disproportionately large load on our servers or network infrastructure;\n\n</li>\n\n<li>bypass any robot exclusion headers or other measures we take to restrict access to the Service, or use any software, technology, or device to scrape, spider, or crawl the Service or harvest or manipulate data; \n\n</li>\n\n<li>circumvent, disable or otherwise interfere with any security-related features of the Service or features that prevent or restrict use or copying of content, or enforce limitations on use of the Service or the content accessible via the Service; or \n\n</li>\n\n<li>publish or link to malicious content of any sort, including that intended to damage or disrupt another user’s device.</li>\n\n</ul>\n\n<h3>POSTING AND CONDUCT RESTRICTIONS</h3>\n\n<p>When you create your own personalized account, you may be able to provide a profile picture, username, phone number, email, and address (“User Content”) to the Service. You are solely responsible for the User Content that you post, upload, link to or otherwise make available via the Service. \n\n<br><br>\n\nYou agree that we are only acting as a passive conduit for your online distribution and publication of your User Content. The Company, however, reserves the right to remove any User Content from the Service at its sole discretion.\n\nWe grant you permission to use and access the Service, subject to the following express conditions surrounding User Content. You agree that failure to adhere to any of these conditions constitutes a material breach of these Terms. \n\nBy transmitting and submitting any User Content while using the Service, you agree as follows:\n\n</p>\n\n<ul>\n\n  <li>You are solely responsible for your account and the activity that occurs while signed in to or while using your account;\n\n</li>\n\n  <li>You will not post information that is malicious, libelous, false or inaccurate;</li>\n\n  <li>You will not post any information that is abusive, threatening, obscene, defamatory, libelous, or racially, sexually, religiously, or otherwise objectionable and offensive;</li>\n\n  <li>You retain all ownership rights in your User Content but you are required to grant the following rights to the App and to users of the Service as set forth more fully under the “License Grant” and “Intellectual Property” provisions below: When you upload or post User Content to the App or the Service, you grant to the App a worldwide, non-exclusive, royalty-free, transferable license to use, reproduce, distribute, and display that Content in connection with the provision of the Service; and you grant to each user of the Service, a worldwide, non-exclusive, royalty-free license to access your User Content through the Service, and to use and display such Content to the extent permitted by the Service and under these Terms of Use;</li>\n\n  <li>You will not submit content that is copyrighted or subject to third party proprietary rights, including privacy, publicity, trade secret, or others, unless you are the owner of such rights or have the appropriate permission from their rightful owner to specifically submit such content; and</li>\n\n  <li>You hereby agree that we have the right to determine whether your User Content submissions are appropriate and comply with these Terms of Service, remove any and/or all of your submissions, and terminate your account with or without prior notice.</li>\n\n</ul>\n\n<p>\n\n  You understand and agree that any liability, loss or damage that occurs as a result of the use of any User Content that you make available or access through your use of the Service is solely your responsibility. The App is not responsible for any public display or misuse of your User Content. \n\n<br>\n\nThe App does not, and cannot, pre-screen or monitor all User Content. However, at our discretion, we, or technology we employ, may monitor and/or record your interactions with the Service or with other Users.\n\n</p>\n\n<h3>ONLINE CONTENT DISCLAIMER</h3>\n\n<p>Opinions, advice, statements, offers, or other information or content made available through the Service, but not directly by the App, are those of their respective authors, and should not necessarily be relied upon. Such authors are solely responsible for such content. \n\n<br><br>\n\nWe do not guarantee the accuracy, completeness, or usefulness of any information on the App or the Service nor do we adopt nor endorse, nor are we responsible for, the accuracy or reliability of any opinion, advice, or statement made by other parties. We take no responsibility and assume no liability for any User Content that you or any other user or third party posts or sends via the Service. Under no circumstances will we be responsible for any loss or damage resulting from anyone’s reliance on information or other content posted on the Service, or transmitted to users.<br>\n\nThough we strive to enforce these Terms of Use, you may be exposed to User Content that is inaccurate or objectionable when you use or access the App or the Service. We reserve the right, but have no obligation, to monitor the materials posted in the public areas of the App or the Service or to limit or deny a user’s access to the Service or take other appropriate action if a user violates these Terms of Use or engages in any activity that violates the rights of any person or entity or which we deem unlawful, offensive, abusive, harmful or malicious. E-mails sent between you and other participants that are not readily accessible to the general public will be treated by us as private to the extent required by applicable law. The Company shall have the right to remove any material that in its sole opinion violates, or is alleged to violate, the law or this agreement or which might be offensive, or that might violate the rights, harm, or threaten the safety of users or others.  Unauthorized use may result in criminal and/or civil prosecution under Federal, Province, and local law. If you become aware of a misuse of our Service or violation of these Terms of Use, please contact us at <a href="mailto:riceupfilipino@gmail.com">riceupfilipino@gmail.com</a>.\n\n\n\n</p>\n\n<h3>LINKS TO OTHER SITES AND/OR MATERIALS</h3>\n\n<p>\n\n  As part of the Service, we may provide you with convenient links to third party website(s) (“Third Party Sites”) as well as content or items belonging to or originating from third parties (the “Third Party Applications, Software or Content”). These links are provided as a courtesy to Service subscribers. We have no control over Third Party Sites or Third Party Applications, Software or Content or the promotions, materials, information, goods or services available on these Third Party Sites or Third Party Applications, Software or Content. Such Third Party Sites and Third Party Applications, Software or Content are not investigated, monitored or checked for accuracy, appropriateness, or completeness, and we are not responsible for any Third Party Sites accessed through the App or any Third Party Applications, Software or Content posted on, available through or installed from the App, including the content, accuracy, offensiveness, opinions, reliability, privacy practices or other policies of or contained in the Third Party Sites or the Third Party Applications, Software or Content. Inclusion of, linking to or permitting the use or installation of any Third Party Site or any Third Party Applications, Software or Content does not imply our approval or endorsement. If you decide to leave the App and access the Third Party Sites or to use or install any Third Party Applications, Software or Content, you do so at your own risk and you should be aware that our terms and policies, including these Terms of Use, no longer govern. You should review the applicable terms and policies, including privacy and data gathering practices, of any Third Party Site to which you navigate from the Site or relating to any applications you use or install from the Third Party Site.\n\n\n\n</p>\n\n<h3>LICENSE GRANT</h3>\n\n<p>\n\n  By posting any User Content via the Service, you expressly grant, and you represent and warrant that you have a right to grant, to the Company a royalty-free, sublicensable, transferable, perpetual, irrevocable, non-exclusive, worldwide license to use, reproduce, modify, publish, list information regarding, edit, translate, distribute, and publicly display all such User Content and your name, voice, and/or likeness as contained in your User Content, if applicable, in whole or in part, and in any form, media or technology, whether now known or hereafter developed, for use in connection with the Service.\n\n</p>\n\n<h3>INTELLECTUAL PROPERTY</h3>\n\n<p>\n\n  You acknowledge and agree that we and our licensors retain ownership of all intellectual property rights of any kind related to the Service, including applicable copyrights, trademarks and other proprietary rights. Other product and company names that are mentioned on the Service may be trademarks of their respective owners. We reserve all rights that are not expressly granted to you under these Terms of Use.\n\n</p>\n\n<h3>\n\n  EMAIL MAY NOT BE USED TO PROVIDE NOTICE\n\n</h3>\n\n<p>Communications made through the Service’s email and messaging system will not constitute legal notice to the App, the Service, or any of its officers, employees, agents or representatives in any situation where legal notice is required by contract or any law or regulation.\n\n</p>\n\n\n\n<h3>\n\n  USER CONSENT TO RECEIVE COMMUNICATIONS IN ELECTRONIC FORM\n\n\n\n</h3>\n\n<p>\n\n  For contractual purposes, you: (a) consent to receive communications from us in an electronic form via the email address you have submitted; and (b) agree that all Terms of Use, agreements, notices, disclosures, and other communications that we provide to you electronically satisfy any legal requirement that such communications would satisfy if it were in writing. The foregoing does not affect your non-waivable rights.\n\n<br><br>\n\nWe may also use your email address to send you other messages, including information about the App or the Service and special offers. You may opt out of such email by changing your account settings, using the “Unsubscribe” link in the message, or by sending an email to riceupfilipino@gmail.com. \n\n<br><br>\n\nOpting out may prevent you from receiving messages regarding the App, the Service or special offers.\n\n\n\n\n\n</p>\n\n<h3>WARRANTY DISCLAIMER</h3>\n\n<p>\n\n  THE SERVICE, IS PROVIDED “AS IS,” WITHOUT WARRANTY OF ANY KIND. WITHOUT LIMITING THE FOREGOING, WE EXPRESSLY DISCLAIM ALL WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, REGARDING THE SERVICE INCLUDING WITHOUT LIMITATION ANY WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, SECURITY, ACCURACY AND NON-INFRINGEMENT. WITHOUT LIMITING THE FOREGOING, WE MAKE NO WARRANTY OR REPRESENTATION THAT ACCESS TO OR OPERATION OF THE SERVICE WILL BE UNINTERRUPTED OR ERROR FREE. YOU ASSUME FULL RESPONSIBILITY AND RISK OF LOSS RESULTING FROM YOUR DOWNLOADING AND/OR USE OF FILES, INFORMATION, CONTENT OR OTHER MATERIAL OBTAINED FROM THE SERVICE. SOME JURISDICTIONS LIMIT OR DO NOT PERMIT DISCLAIMERS OF WARRANTY, SO THIS PROVISION MAY NOT APPLY TO YOU.\n\n\n\n</p>\n\n<h3>LIMITATION OF DAMAGES; RELEASE</h3>\n\n<p>\n\n  TO THE EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE APP, THE SERVICE, ITS AFFILIATES, DIRECTORS, OR EMPLOYEES, OR ITS LICENSORS OR PARTNERS, BE LIABLE TO YOU FOR ANY LOSS OF PROFITS, USE,  OR DATA, OR FOR ANY INCIDENTAL, INDIRECT, SPECIAL, CONSEQUENTIAL OR EXEMPLARY DAMAGES, HOWEVER ARISING, THAT RESULT FROM: (A) THE USE, DISCLOSURE, OR DISPLAY OF YOUR USER CONTENT; (B) YOUR USE OR INABILITY TO USE THE SERVICE; (C) THE SERVICE GENERALLY OR THE SOFTWARE OR SYSTEMS THAT MAKE THE SERVICE AVAILABLE; OR (D) ANY OTHER INTERACTIONS WITH USE OR WITH ANY OTHER USER OF THE SERVICE, WHETHER BASED ON WARRANTY, CONTRACT, TORT (INCLUDING NEGLIGENCE) OR ANY OTHER LEGAL THEORY, AND WHETHER OR NOT WE HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGE, AND EVEN IF A REMEDY SET FORTH HEREIN IS FOUND TO HAVE FAILED OF ITS ESSENTIAL PURPOSE. SOME JURISDICTIONS LIMIT OR DO NOT PERMIT DISCLAIMERS OF LIABILITY, SO THIS PROVISION MAY NOT APPLY TO YOU.\n\n<br><br>\n\nIf you have a dispute with one or more users, a restaurant or a merchant of a product or service that you review using the Service, you release us (and our officers, directors, agents, subsidiaries, joint ventures and employees) from claims, demands and damages (actual and consequential) of every kind and nature, known and unknown, arising out of or in any way connected with such disputes. \n\n\n\n</p>\n\n<h3>MODIFICATION OF TERMS OF USE</h3>\n\n<p>We can amend these Terms of Use at any time and will update these Terms of Use in the event of any such amendments. It is your sole responsibility to check the App from time to time to view any such changes in this agreement. Your continued use of the App or the Service signifies your agreement to our revisions to these Terms of Use. We will endeavor to notify you of material changes to the Terms by posting a notice on our App and/or sending an email to the email address you provided to us upon registration. For this additional reason, you should keep your contact and profile information current. Any changes to these Terms (other than as set forth in this paragraph) or waiver of our rights hereunder shall not be valid or effective except in a written agreement bearing the physical signature of one of our officers. No purported waiver or modification of this agreement on our part via telephonic or email communications shall be valid.\n\n</p>\n\n<h3>GENERAL TERMS</h3>\n\n<p>\n\n  If any part of this Terms of Use agreement is held or found to be invalid or unenforceable, that portion of the agreement will be construed as to be consistent with applicable law while the remaining portions of the agreement will remain in full force and effect. Any failure on our part to enforce any provision of this agreement will not be considered a waiver of our right to enforce such provision. Our rights under this agreement survive any transfer or termination of this agreement.\n\n<br><br>\n\nYou agree that any cause of action related to or arising out of your relationship with the Company must commence within ONE year after the cause of action accrues. Otherwise, such cause of action is permanently barred.\n\n<br><br>\n\nWe may assign or delegate these Terms of Service and/or our Privacy Policy, in whole or in part, to any person or entity at any time with or without your consent. You may not assign or delegate any rights or obligations under the Terms of Service or Privacy Policy without our prior written consent, and any unauthorized assignment or delegation by you is void.\n\n<br><br>\n\nYOU ACKNOWLEDGE THAT YOU HAVE READ THESE TERMS OF USE, UNDERSTAND THE TERMS OF USE, AND WILL BE BOUND BY THESE TERMS AND CONDITIONS. YOU FURTHER ACKNOWLEDGE THAT THESE TERMS OF USE TOGETHER WITH THE PRIVACY POLICY REPRESENT THE COMPLETE AND EXCLUSIVE STATEMENT OF THE AGREEMENT BETWEEN US AND THAT IT SUPERSEDES ANY PROPOSAL OR PRIOR AGREEMENT ORAL OR WRITTEN, AND ANY OTHER COMMUNICATIONS BETWEEN US RELATING TO THE SUBJECT MATTER OF THIS AGREEMENT.\n\n\n\n</p>\n\n<h3>\n\n  CONTACT US\n\n</h3>\n\n<p>\n\n  If there are any further questions regarding these terms of use, you may contact us at:\n\n</p>\n\n<ul>\n\n  <li><a href="mailto:riceupfilipino@gmail.com">riceupfilipino@gmail.com</a></li>\n\n  <li> <a href="https://riceupfarmers.org">https://riceupfarmers.org</a></li>\n\n</ul>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\termsandagreement\termsandagreement.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ToastController */]])
+], TermsandagreementPage);
+
+//# sourceMappingURL=termsandagreement.js.map
+
+/***/ }),
+
+/***/ 124:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PropertyListPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_property_service_mock__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__property_detail_property_detail__ = __webpack_require__(262);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_http__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_globalvars_globalvars__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_status_bar__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_splash_screen__ = __webpack_require__(16);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+var PropertyListPage = (function () {
+    function PropertyListPage(platform, statusBar, splashScreen, toast, alertCtrl, loadingCtrl, GlobalvarsProvider, navParams, http, menu, navCtrl, service, config) {
+        var _this = this;
+        this.platform = platform;
+        this.statusBar = statusBar;
+        this.splashScreen = splashScreen;
+        this.toast = toast;
+        this.alertCtrl = alertCtrl;
+        this.loadingCtrl = loadingCtrl;
+        this.GlobalvarsProvider = GlobalvarsProvider;
+        this.navParams = navParams;
+        this.http = http;
+        this.menu = menu;
+        this.navCtrl = navCtrl;
+        this.service = service;
+        this.config = config;
+        this.now = new Date;
+        this.counter = 0;
+        this.searchKey = "";
+        this.viewMode = "list";
+        this.today = this.now.toISOString();
+        this.loading = this.loadingCtrl.create({
+            content: 'Loading Product...',
+        });
+        this.loading.present();
+        this.timee = Date.now();
+        var header = new __WEBPACK_IMPORTED_MODULE_4__angular_http__["a" /* Headers */]();
+        header.append("Accept", "application/json");
+        header.append("Authorization", this.GlobalvarsProvider.gettoken());
+        var option = new __WEBPACK_IMPORTED_MODULE_4__angular_http__["d" /* RequestOptions */]({ headers: header });
+        this.http.get('http://api.riceupfarmers.org/api/products', option)
+            .map(function (response) { return response.json(); })
+            .subscribe(function (res) {
+            console.log(res);
+            _this.loading.dismissAll();
+            if ('2018-11-03' < _this.today) {
+                if (res.message == undefined) {
+                    _this.properties = res;
+                }
+                else {
+                    _this.presentAlert(res.message);
+                }
+            }
+        }, function (error) {
+            _this.presentAlert("Slow internet Connection!");
+            _this.loading.dismissAll();
+        });
+        this.findAll();
+        this.menu.enable(true);
+        platform.ready().then(function () {
+            statusBar.styleDefault();
+            splashScreen.hide();
+            platform.registerBackButtonAction(function () {
+                if (_this.counter == 0) {
+                    _this.counter++;
+                    _this.presentToast();
+                    setTimeout(function () { _this.counter = 0; }, 3000);
+                }
+                else {
+                    // console.log("exitapp");
+                    platform.exitApp();
+                }
+            }, 0);
+        });
+    }
+    PropertyListPage.prototype.presentToast = function () {
+        var toast = this.toast.create({
+            message: "Press again to exit",
+            duration: 3000,
+            position: "bottom"
+        });
+        toast.present();
+    };
+    PropertyListPage.prototype.presentAlert = function (val) {
+        var alert = this.alertCtrl.create({
+            title: 'Alert',
+            subTitle: val,
+            buttons: ['Dismiss']
+        });
+        alert.present();
+    };
+    PropertyListPage.prototype.openPropertyDetail = function (property) {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__property_detail_property_detail__["a" /* PropertyDetailPage */], property);
+    };
+    PropertyListPage.prototype.onInput = function (event) {
+        var _this = this;
+        this.service.findByName(this.searchKey)
+            .then(function (data) {
+            _this.properties = data;
+        })
+            .catch(function (error) { return alert(JSON.stringify(error)); });
+    };
+    PropertyListPage.prototype.onCancel = function (event) {
+        this.findAll();
+    };
+    PropertyListPage.prototype.findAll = function () {
+        var _this = this;
+        this.service.findAll()
+            .then(function (data) { return _this.properties = data; })
+            .catch(function (error) { return alert(error); });
+    };
+    return PropertyListPage;
+}());
+PropertyListPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        selector: 'page-property-list',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\property-list\property-list.html"*/'<ion-header>\n\n\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n            <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n        <ion-searchbar [(ngModel)]="searchKey" (ionInput)="onInput($event)"\n\n                       (ionCancel)="onCancel($event)"></ion-searchbar>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="property-list">\n\n\n\n    <ion-list>\n\n\n\n        <ion-item-sliding *ngFor="let property of properties" >\n\n            <button ion-item (click)="openPropertyDetail(property)">\n\n                <ion-thumbnail item-left>\n\n                    <img src="http://riceupfarmers.org/wp-content/system/uploads/s{{ property.photo_url }}.jpg?{{timee}}" alt="loading..."   onError="this.src=\'http://riceupfarmers.org/wp-content/system/sproduct.jpg\';" />\n\n                </ion-thumbnail>\n\n                <h2>{{property.product_name}}</h2>\n\n                <p>{{property.product_desc }}</p>\n\n            </button>\n\n        </ion-item-sliding>\n\n    </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\property-list\property-list.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Platform */], __WEBPACK_IMPORTED_MODULE_6__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_7__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ToastController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_5__providers_globalvars_globalvars__["a" /* GlobalvarsProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */], __WEBPACK_IMPORTED_MODULE_4__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* MenuController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__providers_property_service_mock__["a" /* PropertyService */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Config */]])
+], PropertyListPage);
+
+//# sourceMappingURL=property-list.js.map
+
+/***/ }),
+
+/***/ 125:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ShippingDetailsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_globalvars_globalvars__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_splash_screen__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__shipping_details_add_shipping_details_add__ = __webpack_require__(270);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__shipping_details_update_shipping_details_update__ = __webpack_require__(271);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Generated class for the ShippingDetailsPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var ShippingDetailsPage = (function () {
+    function ShippingDetailsPage(platform, statusBar, splashScreen, toast, alertCtrl, loadingCtrl, GlobalvarsProvider, navParams, http, menu, navCtrl, config) {
+        this.platform = platform;
+        this.statusBar = statusBar;
+        this.splashScreen = splashScreen;
+        this.toast = toast;
+        this.alertCtrl = alertCtrl;
+        this.loadingCtrl = loadingCtrl;
+        this.GlobalvarsProvider = GlobalvarsProvider;
+        this.navParams = navParams;
+        this.http = http;
+        this.menu = menu;
+        this.navCtrl = navCtrl;
+        this.config = config;
+        this.pushPage = __WEBPACK_IMPORTED_MODULE_6__shipping_details_add_shipping_details_add__["a" /* ShippingDetailsAddPage */];
+        this.GlobalvarsProvider.activeaddressid = this.navParams.get("id");
+        this.GlobalvarsProvider.activeaddressaddress = this.navParams.get("address");
+        this.GlobalvarsProvider.activeaddressmobile = this.navParams.get("mobile");
+    }
+    ShippingDetailsPage.prototype.select = function (id, address, mobile) {
+        this.GlobalvarsProvider.activeaddressid = id;
+        this.GlobalvarsProvider.activeaddressaddress = address;
+        this.GlobalvarsProvider.activeaddressmobile = mobile;
+        this.navCtrl.pop();
+    };
+    ShippingDetailsPage.prototype.openPropertyDetail = function (property) {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_7__shipping_details_update_shipping_details_update__["a" /* ShippingDetailsUpdatePage */], property);
+    };
+    ShippingDetailsPage.prototype.ionViewWillEnter = function () {
+        var _this = this;
+        this.loading = this.loadingCtrl.create({
+            content: 'Loading Product...',
+        });
+        this.loading.present();
+        var urlSearchParams = new URLSearchParams();
+        urlSearchParams.append("passforpost", 'any');
+        var body = urlSearchParams.toString();
+        var header = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Headers */]();
+        header.append("Accept", "application/json");
+        header.append("Authorization", this.GlobalvarsProvider.gettoken());
+        var option = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["d" /* RequestOptions */]({ headers: header });
+        this.http.get('http://api.riceupfarmers.org/api/shippingdetails/', option)
+            .map(function (response) { return response.json(); })
+            .subscribe(function (res) {
+            console.log(res);
+            _this.loading.dismissAll();
+            _this.shipd = res;
+        }, function (Error) {
+            console.log(Error);
+            _this.presentAlert("No Internet Connection!");
+        });
+    };
+    ShippingDetailsPage.prototype.presentAlert = function (val) {
+        var alert = this.alertCtrl.create({
+            title: 'Alert',
+            subTitle: val,
+            buttons: ['Dismiss']
+        });
+        alert.present();
+    };
+    ShippingDetailsPage.prototype.delship = function (ids) {
+        var _this = this;
+        var alert = this.alertCtrl.create({
+            title: 'Confirm Remove',
+            message: 'Are you sure you want to remove you Shipping details?',
+            buttons: [
+                {
+                    text: 'Cancel',
+                    role: 'cancel',
+                    handler: function () {
+                    }
+                },
+                {
+                    text: 'Confirm',
+                    handler: function () {
+                        var header = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Headers */]();
+                        header.append("Accept", "application/json");
+                        header.append("Authorization", _this.GlobalvarsProvider.gettoken());
+                        var option = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["d" /* RequestOptions */]({ headers: header });
+                        _this.http.delete('http://api.riceupfarmers.org/api/shippingdetail/' + ids, option)
+                            .map(function (response) { return response.json(); })
+                            .subscribe(function (res) {
+                            _this.presentAlert('Product Deleted!');
+                            _this.navCtrl.setRoot(_this.navCtrl.getActive().component);
+                        });
+                    }
+                }
+            ]
+        });
+        alert.present();
+    };
+    ShippingDetailsPage.prototype.ionViewDidLoad = function () {
+    };
+    return ShippingDetailsPage;
+}());
+ShippingDetailsPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        selector: 'page-shipping-details',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\shipping-details\shipping-details.html"*/'<ion-header>\n\n\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n            <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n        <ion-title>Shipping Details</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="property-list">\n\n\n\n    <ion-list>\n\n\n\n        <ion-item-sliding *ngFor="let address of shipd">\n\n            <button ion-item (click)="select(address.id,address.shipping_address,address.mobile_no)">\n\n                <h2>Address: {{address.shipping_address}}</h2>\n\n                <p>Mobile no: {{address.mobile_no}}</p>\n\n            </button>\n\n             <ion-item-options>\n\n                <button danger (click)="openPropertyDetail(address)" class="green"> Update </button>\n\n                <button danger (click)="delship(address.id)" class="red">Remove</button>\n\n            </ion-item-options>\n\n        </ion-item-sliding>\n\n        <ion-item-sliding>\n\n            <button ion-item >\n\n                <ion-thumbnail item-left>\n\n                </ion-thumbnail>\n\n                <h2></h2>\n\n                <p></p>\n\n            </button>\n\n        </ion-item-sliding>\n\n        \n\n    </ion-list>\n\n     <ion-fab>\n\n        <button ion-fab  [navPush]="pushPage" clase="button-f"><ion-icon name="md-add"></ion-icon></button>\n\n     </ion-fab>\n\n</ion-content>\n\n\n\n\n\n<ion-footer padding>\n\n    <ion-segment>\n\n        <p><b>Note:</b> Options will appear when you swipe left on the product.</p>\n\n    </ion-segment>\n\n</ion-footer>\n\n'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\shipping-details\shipping-details.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Platform */], __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_5__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ToastController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_3__providers_globalvars_globalvars__["a" /* GlobalvarsProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* MenuController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Config */]])
+], ShippingDetailsPage);
+
+//# sourceMappingURL=shipping-details.js.map
+
+/***/ }),
+
+/***/ 126:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return WelcomePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__termsandagreement_termsandagreement__ = __webpack_require__(123);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__property_list_property_list__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__signup_signup__ = __webpack_require__(273);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_http__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_catch__ = __webpack_require__(267);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_catch__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_globalvars_globalvars__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_status_bar__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_splash_screen__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ionic_storage__ = __webpack_require__(62);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+//https://www.youtube.com/watch?v=fE09dHu6sP0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var WelcomePage = (function () {
+    function WelcomePage(storage, statusBar, splashScreen, toast, loadingCtrl, alertCtrl, menu, events, GlobalvarsProvider, fb, platform, navCtrl, http) {
+        var _this = this;
+        this.storage = storage;
+        this.statusBar = statusBar;
+        this.splashScreen = splashScreen;
+        this.toast = toast;
+        this.loadingCtrl = loadingCtrl;
+        this.alertCtrl = alertCtrl;
+        this.menu = menu;
+        this.events = events;
+        this.GlobalvarsProvider = GlobalvarsProvider;
+        this.platform = platform;
+        this.navCtrl = navCtrl;
+        this.http = http;
+        this.counter = 0;
+        this.data = {};
+        storage.get('username').then(function (val) {
+            _this.form.value.name.uname = val;
+            storage.get('password').then(function (val2) {
+                _this.form.value.name.pw = val2;
+                if (val2 != null && val2 != undefined && val2 != '') {
+                    _this.calltologin();
+                }
+            });
+        });
+        platform.ready().then(function () {
+            statusBar.styleDefault();
+            splashScreen.hide();
+            platform.registerBackButtonAction(function () {
+                if (_this.counter == 0) {
+                    _this.counter++;
+                    _this.presentToast();
+                    setTimeout(function () { _this.counter = 0; }, 3000);
+                }
+                else {
+                    // console.log("exitapp");
+                    platform.exitApp();
+                }
+            }, 0);
+        });
+        this.pushPage = __WEBPACK_IMPORTED_MODULE_1__termsandagreement_termsandagreement__["a" /* TermsandagreementPage */];
+        this.login = __WEBPACK_IMPORTED_MODULE_5__signup_signup__["a" /* SignupPage */];
+        this.form = fb.group({
+            name: fb.group({
+                uname: '',
+                pw: '',
+            }),
+        });
+        this.menu.enable(false);
+    }
+    WelcomePage.prototype.presentToast = function () {
+        var toast = this.toast.create({
+            message: "Press again to exit",
+            duration: 3000,
+            position: "bottom"
+        });
+        toast.present();
+    };
+    WelcomePage.prototype.calltologin = function () {
+        var _this = this;
+        if (this.form.value.name.uname != '' && this.form.value.name.pw != '') {
+            this.loading = this.loadingCtrl.create({
+                content: 'Logging in...',
+            });
+            this.loading.present();
+            this.GlobalvarsProvider.username = this.form.value.name.uname;
+            this.GlobalvarsProvider.password = this.form.value.name.pw;
+            var urlSearchParams = new URLSearchParams();
+            urlSearchParams.append("grant_type", this.GlobalvarsProvider.grant_type);
+            urlSearchParams.append("client_id", this.GlobalvarsProvider.client_id);
+            urlSearchParams.append("client_secret", this.GlobalvarsProvider.client_secret);
+            urlSearchParams.append("username", this.GlobalvarsProvider.username);
+            urlSearchParams.append("password", this.GlobalvarsProvider.password);
+            urlSearchParams.append("scope", this.GlobalvarsProvider.scope);
+            var body = urlSearchParams.toString();
+            var header = new __WEBPACK_IMPORTED_MODULE_6__angular_http__["a" /* Headers */]();
+            header.append("Content-Type", "application/x-www-form-urlencoded");
+            var option = new __WEBPACK_IMPORTED_MODULE_6__angular_http__["d" /* RequestOptions */]({ headers: header });
+            this.http.post('http://api.riceupfarmers.org/oauth/token', body, option)
+                .map(function (response) { return response.json(); })
+                .subscribe(function (data) {
+                if (data.token_type != undefined) {
+                    _this.GlobalvarsProvider.settoken(data.token_type + " " + data.access_token);
+                    //wwew start
+                    var header = new __WEBPACK_IMPORTED_MODULE_6__angular_http__["a" /* Headers */]();
+                    header.append("Accept", "application/json");
+                    header.append("Content-Type", "application/x-www-form-urlencoded");
+                    header.append("Authorization", _this.GlobalvarsProvider.gettoken());
+                    var option_1 = new __WEBPACK_IMPORTED_MODULE_6__angular_http__["d" /* RequestOptions */]({ headers: header });
+                    _this.http.get('http://api.riceupfarmers.org/api/user', option_1)
+                        .map(function (response) { return response.json(); })
+                        .subscribe(function (data) {
+                        _this.createUser(data);
+                    }, function (error) {
+                        _this.presentAlert("Slow internet Connection!");
+                        _this.loading.dismissAll();
+                    });
+                    //wew end
+                    _this.loading.dismissAll();
+                    _this.storage.set('username', _this.form.value.name.uname);
+                    _this.storage.set('password', _this.form.value.name.pw);
+                    var urlSearchParams_1 = new URLSearchParams();
+                    urlSearchParams_1.append("passforpost", 'any');
+                    var body_1 = urlSearchParams_1.toString();
+                    var header = new __WEBPACK_IMPORTED_MODULE_6__angular_http__["a" /* Headers */]();
+                    header.append("Accept", "application/json");
+                    header.append("Authorization", _this.GlobalvarsProvider.gettoken());
+                    var option2 = new __WEBPACK_IMPORTED_MODULE_6__angular_http__["d" /* RequestOptions */]({ headers: header });
+                    _this.http.get('http://api.riceupfarmers.org/api/shippingdetails/', option2)
+                        .map(function (response) { return response.json(); })
+                        .subscribe(function (res) {
+                        _this.GlobalvarsProvider.activeaddressid = res[0].id;
+                        _this.GlobalvarsProvider.activeaddressaddress = res[0].shipping_address;
+                        _this.GlobalvarsProvider.activeaddressmobile = res[0].mobile_no;
+                        _this.GlobalvarsProvider.activeaddressid2 = res[0].id;
+                        _this.GlobalvarsProvider.activeaddressaddress2 = res[0].shipping_address;
+                        _this.GlobalvarsProvider.activeaddressmobile2 = res[0].mobile_no;
+                    }, function (Error) {
+                        console.log(Error);
+                        _this.presentAlert("No Internet Connection!");
+                    });
+                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__property_list_property_list__["a" /* PropertyListPage */]);
+                }
+                else
+                    _this.presentAlert("Invalid Username or password");
+            }, function (error) {
+                console.log(error);
+                _this.presentAlert("Failed to login. Make sure you have valid user credentials or you are connected to the internet.");
+                _this.loading.dismissAll();
+            });
+        }
+        else {
+            this.presentAlert("Input username or password!");
+        }
+    };
+    WelcomePage.prototype.guestlogin = function () {
+        var _this = this;
+        this.form.value.name.uname = 'guest';
+        this.form.value.name.pw = 'guest123';
+        if (this.form.value.name.uname != '' && this.form.value.name.pw != '') {
+            this.loading = this.loadingCtrl.create({
+                content: 'Logging in...',
+            });
+            this.loading.present();
+            this.GlobalvarsProvider.username = this.form.value.name.uname;
+            this.GlobalvarsProvider.password = this.form.value.name.pw;
+            var urlSearchParams = new URLSearchParams();
+            urlSearchParams.append("grant_type", this.GlobalvarsProvider.grant_type);
+            urlSearchParams.append("client_id", this.GlobalvarsProvider.client_id);
+            urlSearchParams.append("client_secret", this.GlobalvarsProvider.client_secret);
+            urlSearchParams.append("username", this.GlobalvarsProvider.username);
+            urlSearchParams.append("password", this.GlobalvarsProvider.password);
+            urlSearchParams.append("scope", this.GlobalvarsProvider.scope);
+            var body = urlSearchParams.toString();
+            var header = new __WEBPACK_IMPORTED_MODULE_6__angular_http__["a" /* Headers */]();
+            header.append("Content-Type", "application/x-www-form-urlencoded");
+            var option = new __WEBPACK_IMPORTED_MODULE_6__angular_http__["d" /* RequestOptions */]({ headers: header });
+            this.http.post('http://api.riceupfarmers.org/oauth/token', body, option)
+                .map(function (response) { return response.json(); })
+                .subscribe(function (data) {
+                if (data.token_type != undefined) {
+                    _this.GlobalvarsProvider.settoken(data.token_type + " " + data.access_token);
+                    //wwew start
+                    var header = new __WEBPACK_IMPORTED_MODULE_6__angular_http__["a" /* Headers */]();
+                    header.append("Accept", "application/json");
+                    header.append("Content-Type", "application/x-www-form-urlencoded");
+                    header.append("Authorization", _this.GlobalvarsProvider.gettoken());
+                    var option_2 = new __WEBPACK_IMPORTED_MODULE_6__angular_http__["d" /* RequestOptions */]({ headers: header });
+                    _this.http.get('http://api.riceupfarmers.org/api/user', option_2)
+                        .map(function (response) { return response.json(); })
+                        .subscribe(function (data) {
+                        _this.createUser(data);
+                    }, function (error) {
+                        _this.presentAlert("Slow internet Connection!");
+                        _this.loading.dismissAll();
+                    });
+                    //wew end
+                    _this.loading.dismissAll();
+                    _this.storage.set('username', _this.form.value.name.uname);
+                    _this.storage.set('password', _this.form.value.name.pw);
+                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__property_list_property_list__["a" /* PropertyListPage */]);
+                }
+                else
+                    _this.presentAlert("Invalid Username or password");
+            }, function (error) {
+                console.log(error);
+                _this.presentAlert("Failed to login. Make sure you have valid user credentials or you are connected to the internet.");
+                _this.loading.dismissAll();
+            });
+        }
+        else {
+            this.presentAlert("Input username or password!");
+        }
+    };
+    WelcomePage.prototype.createUser = function (user) {
+        this.events.publish('user:created', user, this.GlobalvarsProvider.getgid());
+    };
+    WelcomePage.prototype.presentAlert = function (val) {
+        var alert = this.alertCtrl.create({
+            title: 'Alert',
+            subTitle: val,
+            buttons: ['Dismiss']
+        });
+        alert.present();
+    };
+    return WelcomePage;
+}());
+WelcomePage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        selector: 'page-welcome',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\welcome\welcome.html"*/'\n\n\n\n<ion-content class="login-content" padding>\n\n     <div text-center>\n\n     <ion-img width="180" height="180" src="assets/img/logo.png"></ion-img>  \n\n     </div>\n\n  <div class="login-box">\n\n     <form [formGroup]="form">\n\n\n\n      <div formGroupName="name">\n\n      <ion-row>\n\n        <ion-col>\n\n          <ion-list inset>\n\n            \n\n            <ion-item>\n\n              <ion-input type="text" placeholder="Username" name="uname" formControlName="uname"></ion-input>\n\n            </ion-item>\n\n            \n\n            <ion-item>\n\n              <ion-input type="password" placeholder="Password" name="password" formControlName="pw"></ion-input>\n\n            </ion-item>\n\n            \n\n          </ion-list>\n\n        </ion-col>\n\n      </ion-row>\n\n      </div>\n\n      <ion-row>\n\n        <ion-col class="signup-col">\n\n          <button ion-button class="submit-btn" block (click)="calltologin()">Login</button>\n\n          <div text-center>By clicking the login button, you agree to <br>the <a [navPush]="pushPage">terms and agreement</a></div>\n\n          <ion-list>\n\n\n\n    </ion-list>\n\n          <button ion-button class="register-btn" block clear [navPush]="login">Sign Up Here</button>\n\n          <button ion-button class="register-btn" block clear (click)="guestlogin()">Log In As Guest</button>\n\n        </ion-col>\n\n      </ion-row>\n\n      \n\n    </form>\n\n  </div>\n\n</ion-content>'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\welcome\welcome.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_12__ionic_storage__["b" /* Storage */], __WEBPACK_IMPORTED_MODULE_10__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_11__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["n" /* ToastController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["h" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["i" /* MenuController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* Events */], __WEBPACK_IMPORTED_MODULE_9__providers_globalvars_globalvars__["a" /* GlobalvarsProvider */], __WEBPACK_IMPORTED_MODULE_3__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["m" /* Platform */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_6__angular_http__["b" /* Http */]])
+], WelcomePage);
+
+/*
+        if (this.form.value.name.uname!=''&&this.form.value.name.pw!='') {
+          
+         var link = 'http://riceupfarmers.org/oauth/token';
+         var myData = JSON.stringify({grant_type:'password',client_id:'2',client_secret:'uzyd8xUn9UeaQaMB8hfghABzvAFJZE8Djc4JcJlu',usernamei:this.form.value.name.uname,passwowrd:this.form.value.name.pw,username:'windellevega',password:'pass123',scope:''});
+      
+        let headers = new Headers(
+        {
+          'Content-Type' : 'application/x-www-form-urlencoded'
+        });
+        let options = new RequestOptions({ headers: headers });
+
+
+         this.http.post(link, myData, options)
+         .map(response => response.json())
+         .subscribe(data => {
+           console.log(data);
+             this.GlobalvarsProvider.setgid(data[0]);
+             this.createUser(data[0]);
+            this.navCtrl.setRoot(PropertyListPage);
+             console.log(data[0]);
+         }
+         , error => {
+         alert(error);
+         });
+       } code...
+      else{
+        alert("Please input username or password");
+      }*/ 
+//# sourceMappingURL=welcome.js.map
+
+/***/ }),
+
+/***/ 127:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TransactionsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_globalvars_globalvars__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__dispatch_dispatch__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_status_bar__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_splash_screen__ = __webpack_require__(16);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Generated class for the TransactionsPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var TransactionsPage = (function () {
+    function TransactionsPage(platform, statusBar, splashScreen, toast, alertCtrl, loadingCtrl, GlobalvarsProvider, navParams, http, menu, navCtrl, config) {
+        var _this = this;
+        this.platform = platform;
+        this.statusBar = statusBar;
+        this.splashScreen = splashScreen;
+        this.toast = toast;
+        this.alertCtrl = alertCtrl;
+        this.loadingCtrl = loadingCtrl;
+        this.GlobalvarsProvider = GlobalvarsProvider;
+        this.navParams = navParams;
+        this.http = http;
+        this.menu = menu;
+        this.navCtrl = navCtrl;
+        this.config = config;
+        this.viewMode = "Pending";
+        this.counter = 0;
+        platform.ready().then(function () {
+            statusBar.styleDefault();
+            splashScreen.hide();
+            platform.registerBackButtonAction(function () {
+                if (_this.counter == 0) {
+                    _this.counter++;
+                    _this.presentToast();
+                    setTimeout(function () { _this.counter = 0; }, 3000);
+                }
+                else {
+                    // console.log("exitapp");
+                    platform.exitApp();
+                }
+            }, 0);
+        });
+        this.loading = this.loadingCtrl.create({
+            content: 'Loading Product...',
+        });
+        this.loading.present();
+        this.GlobalvarsProvider.setcredentials();
+        var header = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Headers */]();
+        header.append("Accept", "application/json");
+        header.append("Authorization", this.GlobalvarsProvider.gettoken());
+        var option = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["d" /* RequestOptions */]({ headers: header });
+        this.http.get('http://api.riceupfarmers.org/api/ordersperfarmer/', option)
+            .map(function (response) { return response.json(); })
+            .subscribe(function (res) {
+            if (res.message == undefined) {
+                console.log(res);
+                _this.orders = res;
+                _this.orders1 = res;
+                _this.orders2 = res;
+                console.log(res);
+            }
+            else {
+                _this.presentAlert(res.message);
+            }
+            _this.loading.dismissAll();
+        }, function (error) {
+            _this.loading.dismissAll();
+            _this.presentAlert("No Internet Connection!");
+        });
+    }
+    TransactionsPage.prototype.presentToast = function () {
+        var toast = this.toast.create({
+            message: "Press again to exit",
+            duration: 3000,
+            position: "bottom"
+        });
+        toast.present();
+    };
+    TransactionsPage.prototype.ionViewDidLoad = function () {
+    };
+    TransactionsPage.prototype.presentAlert = function (val) {
+        var alert = this.alertCtrl.create({
+            title: 'Alert',
+            subTitle: val,
+            buttons: ['Dismiss']
+        });
+        alert.present();
+    };
+    TransactionsPage.prototype.open = function (list) {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__dispatch_dispatch__["a" /* DispatchPage */], list);
+    };
+    TransactionsPage.prototype.dispatch = function (id) {
+        var _this = this;
+        this.loading = this.loadingCtrl.create({
+            content: 'Dispatching Product...',
+        });
+        this.loading.present();
+        var urlSearchParams = new URLSearchParams();
+        urlSearchParams.append("grant_type", this.GlobalvarsProvider.grant_type);
+        var body = urlSearchParams.toString();
+        var header = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Headers */]();
+        header.append("Accept", "application/json");
+        header.append("Content-Type", "application/x-www-form-urlencoded");
+        header.append("Authorization", this.GlobalvarsProvider.gettoken());
+        var option = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["d" /* RequestOptions */]({ headers: header });
+        this.http.patch('http://api.riceupfarmers.org/api/product/dispatch/' + id, body, option)
+            .map(function (response) { return response.json(); })
+            .subscribe(function (data) {
+            if (data.message != undefined) {
+                _this.presentAlert(data.message);
+            }
+            else {
+                _this.presentAlert("Something went wrong!");
+            }
+            _this.loading.dismissAll();
+            _this.navCtrl.setRoot(_this.navCtrl.getActive().component);
+        }, function (Error) {
+            _this.presentAlert("No Internet Connection!");
+            _this.loading.dismissAll();
+        });
+    };
+    TransactionsPage.prototype.pack = function (id) {
+        var _this = this;
+        this.loading = this.loadingCtrl.create({
+            content: 'Changing status...',
+        });
+        this.loading.present();
+        var urlSearchParams = new URLSearchParams();
+        urlSearchParams.append("grant_type", this.GlobalvarsProvider.grant_type);
+        var body = urlSearchParams.toString();
+        var header = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Headers */]();
+        header.append("Accept", "application/json");
+        header.append("Content-Type", "application/x-www-form-urlencoded");
+        header.append("Authorization", this.GlobalvarsProvider.gettoken());
+        var option = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["d" /* RequestOptions */]({ headers: header });
+        this.http.patch('http://api.riceupfarmers.org/api/product/pack/' + id, body, option)
+            .map(function (response) { return response.json(); })
+            .subscribe(function (data) {
+            if (data.message != undefined) {
+                _this.presentAlert(data.message);
+            }
+            else {
+                _this.presentAlert("Something went wrong!");
+            }
+            _this.loading.dismissAll();
+            _this.navCtrl.setRoot(_this.navCtrl.getActive().component);
+        }, function (Error) {
+            _this.presentAlert("No Internet Connection!");
+            _this.loading.dismissAll();
+        });
+    };
+    return TransactionsPage;
+}());
+TransactionsPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        selector: 'page-transactions',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\transactions\transactions.html"*/'<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n            <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n        <ion-title>Transactions</ion-title>\n\n    </ion-navbar>\n\n\n\n    <ion-segment [(ngModel)]="viewMode">\n\n        <ion-segment-button value="Pending">Pending\n\n        </ion-segment-button>\n\n        <ion-segment-button value="Packed">Packed\n\n        </ion-segment-button>\n\n        <ion-segment-button value="Delivered">Delivered\n\n        </ion-segment-button>\n\n    </ion-segment>\n\n</ion-header>\n\n\n\n<ion-content>\n\n	<ion-list *ngIf="viewMode===\'Pending\'">\n\n		<ion-item-sliding *ngFor="let list of orders">\n\n            <div ion-item *ngIf="list.current_status.product_status===0">\n\n                    <img src="http://riceupfarmers.org/wp-content/system/uploads/s{{ list.farmer_product.photo_url }}.jpg"  onError="this.src=\'http://riceupfarmers.org/wp-content/system/sproduct.jpg\';" style="width: 20px" style="float: left;margin-right: 5px;" />\n\n                <h3>{{list.farmer_product.product_name}}</h3>\n\n                <p>Price: P{{list.farmer_product.price_per_unit}} </p>\n\n                <p>Quantity: {{list.quantity}} </p>\n\n                <p>Stocks available: {{list.farmer_product.stocks_available}} </p>\n\n                <p  *ngIf="list.order.mode_of_shipping===1;">For Shipping</p>\n\n                <p  *ngIf="list.order.mode_of_shipping===0;">For Pick up</p>\n\n                \n\n                <div style="text-align: right;">\n\n\n\n                Total: P{{list.quantity * list.farmer_product.price_per_unit}}\n\n\n\n                </div>\n\n\n\n            </div>\n\n\n\n             <ion-item-options>\n\n                <button danger (click)="open(list)" class="green"> View Product </button>\n\n                <button danger (click)="pack(list.id)" class="blue"> Pack</button>\n\n            </ion-item-options>\n\n        </ion-item-sliding>\n\n        <!-- <ion-item-sliding>\n\n            <button ion-item>\n\n                <h3></h3>\n\n                <p></p>\n\n            <ion-note item-right>Total: P{{gtotal}}</ion-note>\n\n            </button>\n\n        </ion-item-sliding> -->\n\n    </ion-list>\n\n\n\n    <ion-list *ngIf="viewMode===\'Packed\'">\n\n		<ion-item-sliding *ngFor="let list of orders1">\n\n            <div ion-item *ngIf="list.current_status.product_status===1">\n\n                    <img src="http://riceupfarmers.org/wp-content/system/uploads/s{{ list.farmer_product.photo_url }}.jpg"  onError="this.src=\'http://riceupfarmers.org/wp-content/system/sproduct.jpg\';" style="width: 20px" style="float: left;margin-right: 5px;" />\n\n                <h3>{{list.farmer_product.product_name}}</h3>\n\n                <p>Price: P{{list.farmer_product.price_per_unit}} </p>\n\n                <p>Quantity: {{list.quantity}} </p>\n\n                <p>Stocks available: {{list.farmer_product.stocks_available}} </p>\n\n                <p  *ngIf="list.order.mode_of_shipping===0;">For Shipping</p>\n\n                <p  *ngIf="list.order.mode_of_shipping===1;">For Pick up</p>\n\n                \n\n                <div style="text-align: right;">\n\n\n\n                Total: P{{list.quantity * list.farmer_product.price_per_unit}}\n\n\n\n                </div>\n\n\n\n            </div>\n\n\n\n             <ion-item-options>\n\n                <button danger (click)="open(list)" class="green"> View Product </button>\n\n                <button danger (click)="dispatch(list.id)" class="blue"> Dispatch</button>\n\n            </ion-item-options>\n\n        </ion-item-sliding>\n\n        <!-- <ion-item-sliding>\n\n            <button ion-item>\n\n                <h3></h3>\n\n                <p></p>\n\n            <ion-note item-right>Total: P{{gtotal}}</ion-note>\n\n            </button>\n\n        </ion-item-sliding> -->\n\n    </ion-list>\n\n\n\n    <ion-list *ngIf="viewMode===\'Delivered\'">\n\n		<ion-item-sliding *ngFor="let list of orders2">\n\n            <div ion-item *ngIf="list.current_status.product_status===2">\n\n                    <img src="http://riceupfarmers.org/wp-content/system/uploads/s{{ list.farmer_product.photo_url }}.jpg"  onError="this.src=\'http://riceupfarmers.org/wp-content/system/sproduct.jpg\';" style="width: 20px" style="float: left;margin-right: 5px;" />\n\n                <h3>{{list.farmer_product.product_name}}</h3>\n\n                <p>Price: P{{list.farmer_product.price_per_unit}} </p>\n\n                <p>Quantity: {{list.quantity}} </p>\n\n                <p>Stocks available: {{list.farmer_product.stocks_available}} </p>\n\n                <p  *ngIf="list.order.mode_of_shipping===0;">For Shipping</p>\n\n                <p  *ngIf="list.order.mode_of_shipping===1;">For Pick up</p>\n\n                \n\n                <div style="text-align: right;">\n\n\n\n                Total: P{{list.quantity * list.farmer_product.price_per_unit}}\n\n\n\n                </div>\n\n\n\n            </div>\n\n\n\n             <ion-item-options>\n\n                <button danger (click)="open(list)" class="green"> View Product </button>\n\n            </ion-item-options>\n\n        </ion-item-sliding>\n\n        <!-- <ion-item-sliding>\n\n            <button ion-item>\n\n                <h3></h3>\n\n                <p></p>\n\n            <ion-note item-right>Total: P{{gtotal}}</ion-note>\n\n            </button>\n\n        </ion-item-sliding> -->\n\n    </ion-list>\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\transactions\transactions.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Platform */], __WEBPACK_IMPORTED_MODULE_5__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_6__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ToastController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_3__providers_globalvars_globalvars__["a" /* GlobalvarsProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* MenuController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Config */]])
+], TransactionsPage);
+
+//# sourceMappingURL=transactions.js.map
+
+/***/ }),
+
+/***/ 135:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 135;
+
+/***/ }),
+
+/***/ 136:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AuthService; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var apiUrl = 'http://riceupfarmers.org/api/';
+var AuthService = (function () {
+    function AuthService(http) {
+        this.http = http;
+        console.log('Hello AuthService Provider');
+    }
+    AuthService.prototype.postData = function (credentials, type) {
+        var _this = this;
+        return new Promise(function (resolve, reject) {
+            var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]();
+            _this.http.post(apiUrl + type, JSON.stringify(credentials), { headers: headers })
+                .subscribe(function (res) {
+                resolve(res.json());
+            }, function (err) {
+                reject(err);
+            });
+        });
+    };
+    return AuthService;
+}());
+AuthService = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */]])
+], AuthService);
+
+//# sourceMappingURL=auth-service.js.map
+
+/***/ }),
+
+/***/ 150:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 150;
+
+/***/ }),
+
+/***/ 262:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PropertyDetailPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__broker_detail_broker_detail__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_property_service_mock__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_http__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_globalvars_globalvars__ = __webpack_require__(8);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+var PropertyDetailPage = (function () {
+    function PropertyDetailPage(loadingCtrl, alertCtrl, GlobalvarsProvider, http, actionSheetCtrl, navCtrl, navParams, propertyService, toastCtrl) {
+        this.loadingCtrl = loadingCtrl;
+        this.alertCtrl = alertCtrl;
+        this.GlobalvarsProvider = GlobalvarsProvider;
+        this.http = http;
+        this.actionSheetCtrl = actionSheetCtrl;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.propertyService = propertyService;
+        this.toastCtrl = toastCtrl;
+        this.quantity = 1;
+        this.timee = Math.random();
+        this.property = this.navParams.data;
+        console.log(this.property);
+    }
+    PropertyDetailPage.prototype.openBrokerDetail = function (broker) {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__broker_detail_broker_detail__["a" /* BrokerDetailPage */], broker);
+    };
+    PropertyDetailPage.prototype.addtocart = function () {
+        var _this = this;
+        if (this.GlobalvarsProvider.username == 'guest') {
+            this.presentAlert("Add to cart function is disabled for the guest account");
+        }
+        else {
+            if (this.quantity >= 0 && this.quantity <= this.property.stocks_available) {
+                this.loading = this.loadingCtrl.create({
+                    content: 'Adding to Cart...',
+                });
+                this.loading.present();
+                var urlSearchParams = new URLSearchParams();
+                urlSearchParams.append("grant_type", this.GlobalvarsProvider.grant_type);
+                var body_1 = urlSearchParams.toString();
+                var header = new __WEBPACK_IMPORTED_MODULE_4__angular_http__["a" /* Headers */]();
+                header.append("Accept", "application/json");
+                header.append("Content-Type", "application/x-www-form-urlencoded");
+                header.append("Authorization", this.GlobalvarsProvider.gettoken());
+                var option_1 = new __WEBPACK_IMPORTED_MODULE_4__angular_http__["d" /* RequestOptions */]({ headers: header });
+                this.http.post('http://api.riceupfarmers.org/api/order/new', body_1, option_1)
+                    .map(function (response) { return response.json(); })
+                    .subscribe(function (res) {
+                    var g = res.order_number[0].id;
+                    _this.http.post('http://api.riceupfarmers.org/api/cart/add?qty=' + _this.quantity + '&productid=' + _this.property.id + '&orderid=' + g, body_1, option_1)
+                        .map(function (response) { return response.json(); })
+                        .subscribe(function (data) {
+                        console.log(data);
+                        if (data.message == "Product successfully added to cart.") {
+                            _this.quantity = 1;
+                        }
+                        _this.presentAlert(data.message);
+                        _this.loading.dismissAll();
+                    }, function (error) {
+                        _this.loading.dismissAll();
+                        _this.presentAlert("No Internet Connection!");
+                    });
+                }, function (error) {
+                    _this.loading.dismissAll();
+                    _this.presentAlert("No Internet Connection!");
+                });
+            }
+            else {
+                if (this.property.stocks_available == 0) {
+                    this.presentAlert("Product out of stock!");
+                }
+                else {
+                    this.presentAlert("Quantity must be greater than 0 and less than or equal to " + this.property.stocks_available);
+                }
+            }
+        }
+    };
+    PropertyDetailPage.prototype.presentAlert = function (val) {
+        var alert = this.alertCtrl.create({
+            title: 'Alert',
+            subTitle: val,
+            buttons: ['Dismiss']
+        });
+        alert.present();
+    };
+    PropertyDetailPage.prototype.addq = function () {
+        this.quantity += 1;
+    };
+    PropertyDetailPage.prototype.subq = function () {
+        if (this.quantity > 0) {
+            this.quantity -= 1;
+        }
+    };
+    return PropertyDetailPage;
+}());
+PropertyDetailPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        selector: 'page-property-detail',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\property-detail\property-detail.html"*/'<ion-header>\n\n    <ion-navbar>\n\n        <ion-title>Product</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n    <ion-card *ngIf="property.id">\n\n         <img src="http://riceupfarmers.org/wp-content/system/uploads/{{ property.photo_url }}.jpg?{{timee}}" alt="loading..."    onError="this.src=\'http://riceupfarmers.org/wp-content/system/product.jpg\';" />\n\n        <ion-card-content>\n\n            <h2 class="card-title">{{property.product_name}}</h2>\n\n            <p style="white-space: pre-line">{{property.product_desc}}</p>\n\n        </ion-card-content>\n\n        <ion-list>\n\n\n\n            <ion-item>\n\n                <ion-icon item-left name="ios-archive"></ion-icon>\n\n                <h3>Stocks</h3>\n\n                <ion-note item-right>{{property.stocks_available}}</ion-note>\n\n            </ion-item>\n\n\n\n            <ion-item>\n\n                <ion-icon item-left name="ios-archive"></ion-icon>\n\n                <h3>Reserved</h3>\n\n                <ion-note item-right>{{property.reserved}}</ion-note>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-icon item-left name="ios-clipboard"></ion-icon>\n\n                <h3>Unit Type</h3>\n\n                <ion-note item-right>{{property.unit_type}}</ion-note>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-icon item-left name="pricetag"></ion-icon>\n\n                <h3>Price Per Unit</h3>\n\n                <ion-note item-right>{{property.price_per_unit}}</ion-note>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-icon item-left name="md-calendar"></ion-icon>\n\n                <h3>Date of Harvest</h3>\n\n                <ion-note item-right>{{property.date_of_harvest}}</ion-note>\n\n            </ion-item>\n\n            <button ion-item (click)="openBrokerDetail(property.user)">\n\n                <ion-avatar item-left>\n\n                    <img src="http://riceupfarmers.org/wp-content/system/uploads/s{{ property.user.id }}.jpg?{{timee}}"  alt="loading..."   onError="this.src=\'http://riceupfarmers.org/wp-content/system/suser.jpg\';" />\n\n                </ion-avatar>\n\n                <h2>{{property.user.lastname }}, {{ property.user.firstname }} {{ property.user.middlename }}</h2>\n\n                <p>{{ property.user.business_name }}</p>\n\n            </button>\n\n        </ion-list>\n\n        <ion-item>\n\n                <ion-icon name="cart" item-left ></ion-icon>\n\n                <h3 item-left >Quantity:</h3>\n\n                \n\n                <div item-right>\n\n                <button ion-button style="width: 40px; height: 40px" (click)="subq()">\n\n                <ion-icon name="md-remove"></ion-icon></button>\n\n\n\n                    <input text-center style="text-align:center;width: 60px; height: 45px;border:none" class="text-center" type="number"  [(ngModel)]="quantity"  min="0"  max="{{property.stocks_available}}">\n\n                    \n\n                <button ion-button  style="width: 40px; height: 40px" (click)="addq()">\n\n                <ion-icon name="md-add"></ion-icon></button>\n\n                </div>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-icon item-left name="cash"></ion-icon>\n\n                <h3>Total Price:</h3>\n\n                <ion-note item-right>P{{ ((quantity) * (property.price_per_unit)) | number:\'1.2-2\'}}</ion-note>\n\n            </ion-item>\n\n\n\n        <button ion-button class="submit-btn" block  (click)="addtocart()">Add to Cart</button>\n\n\n\n\n\n    </ion-card>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\property-detail\property-detail.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_5__providers_globalvars_globalvars__["a" /* GlobalvarsProvider */], __WEBPACK_IMPORTED_MODULE_4__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__providers_property_service_mock__["a" /* PropertyService */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ToastController */]])
+], PropertyDetailPage);
+
+//# sourceMappingURL=property-detail.js.map
+
+/***/ }),
+
+/***/ 263:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FarmerLocationPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_leaflet__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_leaflet___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_leaflet__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+/**
+ * Generated class for the FarmerLocationPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var FarmerLocationPage = (function () {
+    function FarmerLocationPage(alertCtrl, navCtrl, navParams) {
+        this.alertCtrl = alertCtrl;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.viewMode = "map";
+        this.farmer = this.navParams.data;
+        console.log(this.farmer);
+        this.showMap();
+    }
+    FarmerLocationPage.prototype.showMarkers = function () {
+        if (this.markersGroup) {
+            this.map.removeLayer(this.markersGroup);
+        }
+        this.markersGroup = __WEBPACK_IMPORTED_MODULE_2_leaflet___default.a.layerGroup([]);
+        var marker = __WEBPACK_IMPORTED_MODULE_2_leaflet___default.a.marker([this.farmer.address_lat, this.farmer.address_long]).on('click', function (event) { return console.log("map marker"); });
+        this.markersGroup.addLayer(marker);
+        this.map.addLayer(this.markersGroup);
+    };
+    FarmerLocationPage.prototype.showMap = function () {
+        var _this = this;
+        setTimeout(function () {
+            _this.map = __WEBPACK_IMPORTED_MODULE_2_leaflet___default.a.map("map").setView([_this.farmer.address_lat, _this.farmer.address_long], 10);
+            __WEBPACK_IMPORTED_MODULE_2_leaflet___default.a.tileLayer('https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png', {
+                attribution: '&copy; techventures.ph'
+            }).addTo(_this.map);
+            _this.showMarkers();
+            _this.map.locate({ setView: false, maxZoom: 10 });
+            _this.map.on('locationfound', function (e) {
+                var radius = e.accuracy / 2;
+                var popup = __WEBPACK_IMPORTED_MODULE_2_leaflet___default.a.popup();
+                popup
+                    .setLatLng(e.latlng)
+                    .setContent("You are currently here!")
+                    .openOn(_this.map);
+                __WEBPACK_IMPORTED_MODULE_2_leaflet___default.a.circle(e.latlng, radius).addTo(_this.map);
+            });
+            function onLocationError(e) {
+                alert("Turn on your service location to see your current location!");
+                this.viewMode = "list";
+            }
+            _this.map.on('locationerror', onLocationError);
+        });
+    };
+    return FarmerLocationPage;
+}());
+FarmerLocationPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        selector: 'page-farmer-location',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\farmer-location\farmer-location.html"*/'<!--\n\n  Generated template for the FarmerLocationPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Farmer Location</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n<div style="width:100%;height:100%;" id="map"></div>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\farmer-location\farmer-location.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */]])
+], FarmerLocationPage);
+
+//# sourceMappingURL=farmer-location.js.map
+
+/***/ }),
+
+/***/ 264:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BrokerListPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_broker_service_mock__ = __webpack_require__(265);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__broker_detail_broker_detail__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__prouduct_detail_prouduct_detail__ = __webpack_require__(266);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_globalvars_globalvars__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_leaflet__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_leaflet___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_leaflet__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__angular_http__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_map__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_map__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_add_operator_catch__ = __webpack_require__(267);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_rxjs_add_operator_catch__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_status_bar__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_splash_screen__ = __webpack_require__(16);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var BrokerListPage = (function () {
+    function BrokerListPage(platform, statusBar, splashScreen, toast, alertCtrl, loadingCtrl, GlobalvarsProvider, navCtrl, service, http) {
+        var _this = this;
+        this.platform = platform;
+        this.statusBar = statusBar;
+        this.splashScreen = splashScreen;
+        this.toast = toast;
+        this.alertCtrl = alertCtrl;
+        this.loadingCtrl = loadingCtrl;
+        this.GlobalvarsProvider = GlobalvarsProvider;
+        this.navCtrl = navCtrl;
+        this.service = service;
+        this.http = http;
+        this.counter = 0;
+        this.viewMode = "list";
+        platform.ready().then(function () {
+            statusBar.styleDefault();
+            splashScreen.hide();
+            platform.registerBackButtonAction(function () {
+                if (_this.counter == 0) {
+                    _this.counter++;
+                    _this.presentToast();
+                    setTimeout(function () { _this.counter = 0; }, 3000);
+                }
+                else {
+                    // console.log("exitapp");
+                    platform.exitApp();
+                }
+            }, 0);
+        });
+        this.loading = this.loadingCtrl.create({
+            content: 'Loading farmers...',
+        });
+        this.loading.present();
+        this.GlobalvarsProvider.setcredentials();
+        var header = new __WEBPACK_IMPORTED_MODULE_7__angular_http__["a" /* Headers */]();
+        header.append("Accept", "application/json");
+        header.append("Authorization", this.GlobalvarsProvider.gettoken());
+        var option = new __WEBPACK_IMPORTED_MODULE_7__angular_http__["d" /* RequestOptions */]({ headers: header });
+        this.http.get('http://api.riceupfarmers.org/api/users/farmer', option)
+            .map(function (response) { return response.json(); })
+            .subscribe(function (res) {
+            console.log(res);
+            _this.farmers = res;
+            _this.loading.dismissAll();
+        }, function (error) {
+            _this.presentAlert("Slow internet Connection!");
+            _this.loading.dismissAll();
+        });
+    }
+    BrokerListPage.prototype.presentToast = function () {
+        var toast = this.toast.create({
+            message: "Press again to exit",
+            duration: 3000,
+            position: "bottom"
+        });
+        toast.present();
+    };
+    BrokerListPage.prototype.presentAlert = function (val) {
+        var alert = this.alertCtrl.create({
+            title: 'Alert',
+            subTitle: val,
+            buttons: ['Dismiss']
+        });
+        alert.present();
+    };
+    BrokerListPage.prototype.openBrokerDetail = function (farmer) {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__broker_detail_broker_detail__["a" /* BrokerDetailPage */], farmer);
+    };
+    BrokerListPage.prototype.openBrokerDetail2 = function (farmer) {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__prouduct_detail_prouduct_detail__["a" /* ProuductDetailPage */], farmer);
+    };
+    BrokerListPage.prototype.showMap = function () {
+        var _this = this;
+        setTimeout(function () {
+            _this.map = __WEBPACK_IMPORTED_MODULE_6_leaflet___default.a.map("map").setView([17.622021, 121.727625], 12);
+            __WEBPACK_IMPORTED_MODULE_6_leaflet___default.a.tileLayer('https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png', {
+                attribution: '&copy; techventures.ph'
+            }).addTo(_this.map);
+            _this.showMarkers();
+            _this.map.locate({ setView: false, maxZoom: 12 });
+            _this.map.on('locationfound', function (e) {
+                var radius = e.accuracy / 2;
+                var popup = __WEBPACK_IMPORTED_MODULE_6_leaflet___default.a.popup();
+                popup
+                    .setLatLng(e.latlng)
+                    .setContent("You are currently here!")
+                    .openOn(_this.map);
+                __WEBPACK_IMPORTED_MODULE_6_leaflet___default.a.circle(e.latlng, radius).addTo(_this.map);
+            });
+            function onLocationError(e) {
+                alert("Turn on your service location to see your current location!");
+                this.viewMode = "list";
+            }
+            _this.map.on('locationerror', onLocationError);
+        });
+    };
+    BrokerListPage.prototype.showMarkers = function () {
+        var _this = this;
+        if (this.markersGroup) {
+            this.map.removeLayer(this.markersGroup);
+        }
+        this.markersGroup = __WEBPACK_IMPORTED_MODULE_6_leaflet___default.a.layerGroup([]);
+        this.farmers.forEach(function (property) {
+            if (property.address_lat, property.address_long) {
+                var marker = __WEBPACK_IMPORTED_MODULE_6_leaflet___default.a.marker([property.address_lat, property.address_long]).on('click', function (event) { return _this.openBrokerDetail2(event.target.data); });
+                marker.data = property;
+                _this.markersGroup.addLayer(marker);
+            }
+        });
+        this.map.addLayer(this.markersGroup);
+    };
+    return BrokerListPage;
+}());
+BrokerListPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        selector: 'page-broker-list',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\broker-list\broker-list.html"*/'<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n            <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n        <ion-title>Farmers</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n    \n\n    <ion-list *ngIf="viewMode===\'list\'">\n\n\n\n        <button ion-item *ngFor="let farmer of farmers" (click)="openBrokerDetail(farmer)">\n\n            <ion-avatar item-left>\n\n                <img src="http://riceupfarmers.org/wp-content/system/uploads/s{{ farmer.id }}.jpg" alt="loading..."    onError="this.src=\'http://riceupfarmers.org/wp-content/system/suser.jpg\';" />\n\n            </ion-avatar>\n\n            <h2>{{farmer.lastname}}, {{farmer.firstname}} <span *ngIf="farmer.middlename != \'null\'">{{farmer.middlename}}</span></h2>\n\n            <p>{{farmer.email}}</p>\n\n        </button>\n\n\n\n    </ion-list>\n\n\n\n<div *ngIf="viewMode===\'map\'" style="width:100%;height:100%;" id="map"></div>\n\n\n\n</ion-content>\n\n\n\n<ion-footer padding>\n\n    <ion-segment [(ngModel)]="viewMode">\n\n        <ion-segment-button value="list">\n\n            <ion-icon name="list"></ion-icon>\n\n        </ion-segment-button>\n\n        <ion-segment-button value="map" (ionSelect)="showMap()">\n\n            <ion-icon name="map"></ion-icon>\n\n        </ion-segment-button>\n\n    </ion-segment>\n\n</ion-footer>\n\n\n\n'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\broker-list\broker-list.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Platform */], __WEBPACK_IMPORTED_MODULE_10__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_11__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ToastController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_5__providers_globalvars_globalvars__["a" /* GlobalvarsProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__providers_broker_service_mock__["a" /* BrokerService */], __WEBPACK_IMPORTED_MODULE_7__angular_http__["b" /* Http */]])
+], BrokerListPage);
+
+//# sourceMappingURL=broker-list.js.map
+
+/***/ }),
+
+/***/ 265:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BrokerService; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(4);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var BrokerService = (function () {
+    function BrokerService(http) {
+        var _this = this;
+        this.http = http;
+        this.http.get('http://localhost/riceup/riceupapi.php?action=getall')
+            .map(function (response) { return response.json(); })
+            .subscribe(function (res) { return _this.brokers = res; });
+    }
+    BrokerService.prototype.findAll = function () {
+        return Promise.resolve(this.brokers);
+    };
+    BrokerService.prototype.findById = function (id) {
+        return Promise.resolve(this.brokers[id - 1]);
+    };
+    return BrokerService;
+}());
+BrokerService = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */]])
+], BrokerService);
+
+//# sourceMappingURL=broker-service-mock.js.map
+
+/***/ }),
+
+/***/ 266:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProuductDetailPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(4);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the ProuductDetailPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var ProuductDetailPage = (function () {
+    function ProuductDetailPage(http, navCtrl, navParams) {
+        this.http = http;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.farmer = this.navParams.data;
+        this.timee = Date.now();
+    }
+    return ProuductDetailPage;
+}());
+ProuductDetailPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        selector: 'page-prouduct-detail',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\prouduct-detail\prouduct-detail.html"*/'<ion-header>\n\n    <ion-navbar>\n\n        <ion-title>Farmer</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="broker">\n\n\n\n    <ion-card>\n\n\n\n        <ion-card-content>\n\n            \n\n         <img src="http://riceupfarmers.org/wp-content/system/uploads/{{ farmer.id }}.jpg?{{timee}}"  onError="this.src=\'http://riceupfarmers.org/wp-content/system/user.jpg\';" />\n\n            <h2>{{farmer.lastname}}, {{farmer.firstname}} {{farmer.middlename}}</h2>\n\n            <h3>{{farmer.business_name}}</h3>\n\n        </ion-card-content>\n\n\n\n        <ion-list>\n\n            \n\n            <a href="tel:{{farmer.mobile_number}}" ion-item>\n\n                <ion-icon name="text" item-left></ion-icon>\n\n                <p>Call/Text</p>\n\n                <h2>{{farmer.mobile_no}}</h2>\n\n            </a>\n\n            <a href="mailto:{{farmer.email_address}}" ion-item>\n\n                <ion-icon name="mail" item-left></ion-icon>\n\n                <p>Email</p>\n\n                <h2>{{farmer.email}}</h2>\n\n            </a>\n\n            <a href="#" ion-item>\n\n                <ion-icon name="calendar" item-left></ion-icon>\n\n                <p>Years in Business</p>\n\n                <h2>{{farmer.years_in_business}}</h2>\n\n            </a>\n\n            <a href="#" ion-item>\n\n                <ion-icon name="calendar" item-left></ion-icon>\n\n                <p>Years in Farming</p>\n\n                <h2>{{farmer.years_in_farming}}</h2>\n\n            </a>\n\n            <a href="#" ion-item>\n\n                <ion-icon name="pin" item-left></ion-icon>\n\n                <p>Address</p>\n\n                <h2>{{farmer.address}}</h2>\n\n            </a>\n\n        </ion-list>\n\n\n\n    </ion-card>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\prouduct-detail\prouduct-detail.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */]])
+], ProuductDetailPage);
+
+//# sourceMappingURL=prouduct-detail.js.map
+
+/***/ }),
+
+/***/ 268:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CartupdatePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__broker_detail_broker_detail__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__cart_cart__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_property_service_mock__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_globalvars_globalvars__ = __webpack_require__(8);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+/**
+ * Generated class for the CartupdatePage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var CartupdatePage = (function () {
+    function CartupdatePage(loadingCtrl, alertCtrl, GlobalvarsProvider, http, actionSheetCtrl, navCtrl, navParams, propertyService, toastCtrl) {
+        this.loadingCtrl = loadingCtrl;
+        this.alertCtrl = alertCtrl;
+        this.GlobalvarsProvider = GlobalvarsProvider;
+        this.http = http;
+        this.actionSheetCtrl = actionSheetCtrl;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.propertyService = propertyService;
+        this.toastCtrl = toastCtrl;
+        this.quantity = 1;
+        this.property = this.navParams.data.farmer_product;
+        console.log(this.property);
+        this.proid = this.navParams.data.id;
+        this.quantity = this.navParams.data.quantity;
+    }
+    CartupdatePage.prototype.addq = function () {
+        this.quantity += 1;
+    };
+    CartupdatePage.prototype.subq = function () {
+        if (this.quantity > 0) {
+            this.quantity -= 1;
+        }
+    };
+    CartupdatePage.prototype.openBrokerDetail = function (broker) {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__broker_detail_broker_detail__["a" /* BrokerDetailPage */], broker);
+    };
+    CartupdatePage.prototype.updatecart = function () {
+        var _this = this;
+        if (this.quantity > 0 && this.quantity <= this.property.stocks_available) {
+            this.loading = this.loadingCtrl.create({
+                content: 'Updating Order...',
+            });
+            this.loading.present();
+            var urlSearchParams = new URLSearchParams();
+            urlSearchParams.append("grant_type", this.GlobalvarsProvider.grant_type);
+            var body = urlSearchParams.toString();
+            var header = new __WEBPACK_IMPORTED_MODULE_5__angular_http__["a" /* Headers */]();
+            header.append("Accept", "application/json");
+            header.append("Content-Type", "application/x-www-form-urlencoded");
+            header.append("Authorization", this.GlobalvarsProvider.gettoken());
+            var option = new __WEBPACK_IMPORTED_MODULE_5__angular_http__["d" /* RequestOptions */]({ headers: header });
+            this.http.patch('http://api.riceupfarmers.org/api/cart/update/' + this.proid + '?qty=' + this.quantity, body, option)
+                .map(function (response) { return response.json(); })
+                .subscribe(function (data) {
+                _this.quantity = 1;
+                _this.loading.dismissAll();
+                _this.presentConfirm();
+            }, function (Error) {
+                _this.presentAlert("No Internet Connection!");
+                _this.loading.dismissAll();
+            });
+        }
+        else {
+            this.presentAlert("Quantity must be greater than 0 and less than or equal to " + this.property.stocks_available);
+        }
+    };
+    CartupdatePage.prototype.presentAlert = function (val) {
+        var alert = this.alertCtrl.create({
+            title: 'Alert',
+            subTitle: val,
+            buttons: ['Dismiss']
+        });
+        alert.present();
+    };
+    CartupdatePage.prototype.presentConfirm = function () {
+        var _this = this;
+        var alert = this.alertCtrl.create({
+            title: '',
+            message: 'Order Updated!',
+            buttons: [
+                {
+                    text: 'Confirm',
+                    handler: function () {
+                        _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__cart_cart__["a" /* CartPage */]);
+                    }
+                }
+            ]
+        });
+        alert.present();
+    };
+    return CartupdatePage;
+}());
+CartupdatePage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        selector: 'page-cartupdate',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\cartupdate\cartupdate.html"*/'<ion-header>\n\n    <ion-navbar>\n\n        <ion-title>Update Order</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n    <ion-card *ngIf="property.id">\n\n         <img src="http://riceupfarmers.org/wp-content/system/uploads/{{ property.photo_url }}.jpg"  onError="this.src=\'http://riceupfarmers.org/wp-content/system/product.jpg\';" />\n\n        <ion-card-content>\n\n            <h2 class="card-title">{{property.product_name}}</h2>\n\n            <p>{{property.product_desc}}</p>\n\n        </ion-card-content>\n\n        <ion-list>\n\n\n\n            <ion-item>\n\n                <ion-icon item-left name="ios-archive"></ion-icon>\n\n                <h3>Stocks</h3>\n\n                <ion-note item-right>{{property.stocks_available}}</ion-note>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-icon item-left name="ios-clipboard"></ion-icon>\n\n                <h3>Unit Type</h3>\n\n                <ion-note item-right>{{property.unit_type}}</ion-note>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-icon item-left name="pricetag"></ion-icon>\n\n                <h3>Price Per Unit</h3>\n\n                <ion-note item-right>{{property.price_per_unit}}</ion-note>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-icon item-left name="md-calendar"></ion-icon>\n\n                <h3>Date of Harvest</h3>\n\n                <ion-note item-right>{{property.date_of_harvest}}</ion-note>\n\n            </ion-item>\n\n            <button ion-item (click)="openBrokerDetail(property.user)">\n\n                <ion-avatar item-left>\n\n                    <img src="http://riceupfarmers.org/wp-content/system/uploads/s{{ property.photo_url }}.jpg"  onError="this.src=\'http://riceupfarmers.org/wp-content/system/sproduct.jpg\';" />\n\n                </ion-avatar>\n\n                <h2>{{property.user.lastname }}, {{ property.user.firstname }} {{ property.user.middlename }}</h2>\n\n                <p>{{ property.user.business_name }}</p>\n\n            </button>\n\n        </ion-list>\n\n        <ion-item>\n\n                <ion-icon name="cart" item-left ></ion-icon>\n\n                <h3 item-left >Quantity:</h3>\n\n                \n\n                <div item-right>\n\n                <button ion-button style="width: 40px; height: 40px" (click)="subq()">\n\n                <ion-icon name="md-remove"></ion-icon></button>\n\n\n\n                    <input text-center style="text-align:center;width: 60px; height: 45px;border:none" class="text-center" type="number"  [(ngModel)]="quantity"  min="0"  max="{{property.stocks_available}}">\n\n                    \n\n                <button ion-button  style="width: 40px; height: 40px" (click)="addq()">\n\n                <ion-icon name="md-add"></ion-icon></button>\n\n                </div>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-icon item-left name="cash"></ion-icon>\n\n                <h3>Total Price:</h3>\n\n                <ion-note item-right>P{{ ((quantity) * (property.price_per_unit)) | number:\'1.2-2\'}}</ion-note>\n\n            </ion-item>\n\n\n\n        <button ion-button class="submit-btn" block  (click)="updatecart()">Update Order</button>\n\n\n\n\n\n    </ion-card>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\cartupdate\cartupdate.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_6__providers_globalvars_globalvars__["a" /* GlobalvarsProvider */], __WEBPACK_IMPORTED_MODULE_5__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */], __WEBPACK_IMPORTED_MODULE_4__providers_property_service_mock__["a" /* PropertyService */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ToastController */]])
+], CartupdatePage);
+
+//# sourceMappingURL=cartupdate.js.map
+
+/***/ }),
+
+/***/ 269:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ShippingPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__cart_cart__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_property_service_mock__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_http__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_globalvars_globalvars__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__shipping_details_shipping_details__ = __webpack_require__(125);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+/**
+ * Generated class for the ShippingPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var ShippingPage = (function () {
+    function ShippingPage(platform, loadingCtrl, alertCtrl, GlobalvarsProvider, http, actionSheetCtrl, navCtrl, navParams, propertyService, toastCtrl) {
+        var _this = this;
+        this.platform = platform;
+        this.loadingCtrl = loadingCtrl;
+        this.alertCtrl = alertCtrl;
+        this.GlobalvarsProvider = GlobalvarsProvider;
+        this.http = http;
+        this.actionSheetCtrl = actionSheetCtrl;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.propertyService = propertyService;
+        this.toastCtrl = toastCtrl;
+        this.addresid = null;
+        this.message = null;
+        this.myCallbackFunction = function (_params) {
+            return new Promise(function (resolve, reject) {
+                _this.address = _this.GlobalvarsProvider.activeaddressaddress;
+                _this.addresid = _this.GlobalvarsProvider.activeaddressid;
+                _this.mobile = _this.GlobalvarsProvider.activeaddressmobile;
+                resolve();
+            });
+        };
+        this.address = this.GlobalvarsProvider.activeaddressaddress;
+        this.addresid = this.GlobalvarsProvider.activeaddressid;
+        this.mobile = this.GlobalvarsProvider.activeaddressmobile;
+        this.cart = this.navParams.data;
+        this.orders = this.cart.product_order;
+        this.gtotal = this.gettotal(this.orders);
+        this.orderid = this.cart.id;
+        console.log(this.addresid);
+        var urlSearchParams = new URLSearchParams();
+        urlSearchParams.append("passforpost", 'any');
+        var body = urlSearchParams.toString();
+        var header = new __WEBPACK_IMPORTED_MODULE_4__angular_http__["a" /* Headers */]();
+        header.append("Accept", "application/json");
+        header.append("Authorization", this.GlobalvarsProvider.gettoken());
+        var option = new __WEBPACK_IMPORTED_MODULE_4__angular_http__["d" /* RequestOptions */]({ headers: header });
+        this.http.get('http://api.riceupfarmers.org/api/shippingdetails/', option)
+            .map(function (response) { return response.json(); })
+            .subscribe(function (res) {
+            if (res.message != undefined) {
+                _this.presentAlert(res.message);
+            }
+        }, function (Error) {
+            console.log(Error);
+            _this.presentAlert("No Internet Connection!");
+        });
+    }
+    ShippingPage.prototype.ionViewWillEnter = function () {
+        this.address = this.GlobalvarsProvider.activeaddressaddress;
+        this.addresid = this.GlobalvarsProvider.activeaddressid;
+        this.mobile = this.GlobalvarsProvider.activeaddressmobile;
+    };
+    ShippingPage.prototype.shipdetails = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_6__shipping_details_shipping_details__["a" /* ShippingDetailsPage */], {
+            id: this.addresid, address: this.address, mobile: this.mobile
+        });
+    };
+    ShippingPage.prototype.ionViewDidLoad = function () {
+    };
+    ShippingPage.prototype.gettotal = function (gett) {
+        var total = 0;
+        for (var i = 0; i < gett.length; i++) {
+            total += (gett[i].farmer_product.price_per_unit * gett[i].quantity);
+        }
+        return total;
+    };
+    ShippingPage.prototype.checkthisout = function () {
+        var _this = this;
+        if (this.addresid != null) {
+            // code...
+            var alert_1 = this.alertCtrl.create({
+                title: 'Confirm Checkout',
+                message: "Are you sure you want to checkout the items in the cart?",
+                buttons: [
+                    {
+                        text: 'Cancel',
+                        role: 'cancel',
+                        handler: function () {
+                        }
+                    },
+                    {
+                        text: 'Confirm',
+                        handler: function () {
+                            var urlSearchParams = new URLSearchParams();
+                            urlSearchParams.append("passforpost", 'any');
+                            var body = urlSearchParams.toString();
+                            var header = new __WEBPACK_IMPORTED_MODULE_4__angular_http__["a" /* Headers */]();
+                            header.append("Accept", "application/json");
+                            header.append("Authorization", _this.GlobalvarsProvider.gettoken());
+                            var option = new __WEBPACK_IMPORTED_MODULE_4__angular_http__["d" /* RequestOptions */]({ headers: header });
+                            _this.http.patch('http://api.riceupfarmers.org/api/order/checkout/' + _this.orderid + '?shipping_mode=1&order_status=1&remarks=&sd_id=' + _this.addresid, body, option)
+                                .map(function (response) { return response.json(); })
+                                .subscribe(function (res) {
+                                // this.alertConfirm2(res.message);
+                                _this.alertConfirm2(res.message);
+                            }, function (Error) {
+                                _this.presentAlert("No Internet Connection!");
+                            });
+                        }
+                    }
+                ]
+            });
+            alert_1.present();
+        }
+        else
+            this.presentAlert(this.message);
+    };
+    ShippingPage.prototype.alertConfirm2 = function (var2) {
+        var _this = this;
+        var alert = this.alertCtrl.create({
+            title: 'Checkout',
+            message: var2,
+            buttons: [
+                {
+                    text: 'Dismiss',
+                    handler: function () {
+                        _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__cart_cart__["a" /* CartPage */]);
+                    }
+                }
+            ]
+        });
+        alert.present();
+    };
+    ShippingPage.prototype.presentAlert = function (val) {
+        var alert = this.alertCtrl.create({
+            title: 'Alert',
+            subTitle: val,
+            buttons: ['Dismiss']
+        });
+        alert.present();
+    };
+    return ShippingPage;
+}());
+ShippingPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        selector: 'page-shipping',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\shipping\shipping.html"*/'<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n            <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n        <ion-title>Shipping Summary</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n		<ion-card>\n\n            <p style="padding: 10px">&nbsp;Ship to: {{address}}</p>\n\n            <p style="padding: 10px">&nbsp;Mobile No: {{mobile}}</p>\n\n            \n\n          <button ion-button class="submit-btn" block (click)="shipdetails()">Manage Shipping Details</button>\n\n		</ion-card>\n\n        <ion-list>\n\n        <ion-item-sliding *ngFor="let list of orders">\n\n            <div ion-item>\n\n                    <img src="http://riceupfarmers.org/wp-content/system/uploads/s{{ list.farmer_product.photo_url }}.jpg"  onError="this.src=\'http://riceupfarmers.org/wp-content/system/sproduct.jpg\';" style="width: 20px" style="float: left;margin-right: 5px;" />\n\n                <h3>{{list.farmer_product.product_name}}</h3>\n\n                <p>Price: P{{list.farmer_product.price_per_unit}} </p>\n\n                <p>Quantity: {{list.quantity}} </p>\n\n                \n\n                <div style="text-align: right;">\n\n\n\n                P{{list.quantity * list.farmer_product.price_per_unit}}\n\n\n\n                </div>\n\n\n\n            </div>\n\n        </ion-item-sliding>\n\n        <ion-item-sliding>\n\n            <button ion-item>\n\n                <h3></h3>\n\n                <p></p>\n\n            <ion-note item-right>Total: P{{gtotal}}</ion-note>\n\n            </button>\n\n        </ion-item-sliding>\n\n    </ion-list>\n\n\n\n        <button ion-button class="submit-btn" block (click)="checkthisout()" >Checkout</button>\n\n</ion-content>'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\shipping\shipping.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Platform */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_5__providers_globalvars_globalvars__["a" /* GlobalvarsProvider */], __WEBPACK_IMPORTED_MODULE_4__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__providers_property_service_mock__["a" /* PropertyService */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ToastController */]])
+], ShippingPage);
+
+//# sourceMappingURL=shipping.js.map
+
+/***/ }),
+
+/***/ 270:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ShippingDetailsAddPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_globalvars_globalvars__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_splash_screen__ = __webpack_require__(16);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Generated class for the ShippingDetailsAddPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var ShippingDetailsAddPage = (function () {
+    function ShippingDetailsAddPage(platform, statusBar, splashScreen, toast, alertCtrl, loadingCtrl, GlobalvarsProvider, navParams, http, menu, navCtrl, config) {
+        this.platform = platform;
+        this.statusBar = statusBar;
+        this.splashScreen = splashScreen;
+        this.toast = toast;
+        this.alertCtrl = alertCtrl;
+        this.loadingCtrl = loadingCtrl;
+        this.GlobalvarsProvider = GlobalvarsProvider;
+        this.navParams = navParams;
+        this.http = http;
+        this.menu = menu;
+        this.navCtrl = navCtrl;
+        this.config = config;
+        this.mobile_no = "";
+        this.address = "";
+    }
+    ShippingDetailsAddPage.prototype.presentAlert = function (val) {
+        var alert = this.alertCtrl.create({
+            title: 'Alert',
+            subTitle: val,
+            buttons: ['Dismiss']
+        });
+        alert.present();
+    };
+    ShippingDetailsAddPage.prototype.ionViewDidLoad = function () {
+    };
+    ShippingDetailsAddPage.prototype.addaddress = function () {
+        var _this = this;
+        var urlSearchParams = new URLSearchParams();
+        urlSearchParams.append("passforpost", 'any');
+        var body = urlSearchParams.toString();
+        var header = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Headers */]();
+        header.append("Accept", "application/json");
+        header.append("Authorization", this.GlobalvarsProvider.gettoken());
+        var option = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["d" /* RequestOptions */]({ headers: header });
+        this.http.post('http://api.riceupfarmers.org/api/shippingdetail', { 'address': this.address, 'mobile_no': this.mobile_no }, option)
+            .map(function (response) { return response.json(); })
+            .subscribe(function (res) {
+            _this.presentAlert(res.message);
+            _this.pop();
+            // this.alertConfirm2(res.message);
+        }, function (Error) {
+            console.log(Error);
+            _this.presentAlert("No Internet Connection!");
+        });
+    };
+    ShippingDetailsAddPage.prototype.pop = function () {
+        this.navCtrl.pop();
+    };
+    return ShippingDetailsAddPage;
+}());
+ShippingDetailsAddPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        selector: 'page-shipping-details-add',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\shipping-details-add\shipping-details-add.html"*/'<!--\n\n  Generated template for the ShippingDetailsAddPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Add Shipping Details</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n<ion-list>\n\n			      <ion-item>\n\n                  <ion-label  stacked>Mobile Number:</ion-label>\n\n                  <ion-input [(ngModel)]="mobile_no" ></ion-input>\n\n                  </ion-item>\n\n\n\n			             <ion-item>\n\n                  <ion-label  stacked>Address:</ion-label>\n\n                  <ion-input [(ngModel)]="address" ></ion-input>\n\n                  </ion-item>\n\n\n\n        </ion-list>\n\n            <button ion-button class="submit-btn" block  (click)="addaddress()">Add Address</button>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\shipping-details-add\shipping-details-add.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Platform */], __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_5__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ToastController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_3__providers_globalvars_globalvars__["a" /* GlobalvarsProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* MenuController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Config */]])
+], ShippingDetailsAddPage);
+
+//# sourceMappingURL=shipping-details-add.js.map
+
+/***/ }),
+
+/***/ 271:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ShippingDetailsUpdatePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_globalvars_globalvars__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(4);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+/**
+ * Generated class for the ShippingDetailsUpdatePage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var ShippingDetailsUpdatePage = (function () {
+    function ShippingDetailsUpdatePage(alertCtrl, loadingCtrl, GlobalvarsProvider, http, navCtrl, navParams) {
+        this.alertCtrl = alertCtrl;
+        this.loadingCtrl = loadingCtrl;
+        this.GlobalvarsProvider = GlobalvarsProvider;
+        this.http = http;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.address = this.navParams.data;
+    }
+    ShippingDetailsUpdatePage.prototype.presentAlert = function (val) {
+        var alert = this.alertCtrl.create({
+            title: 'Alert',
+            subTitle: val,
+            buttons: ['Dismiss']
+        });
+        alert.present();
+    };
+    ShippingDetailsUpdatePage.prototype.updateaddress = function () {
+        var _this = this;
+        var urlSearchParams = new URLSearchParams();
+        urlSearchParams.append("passforpost", 'any');
+        var body = urlSearchParams.toString();
+        var header = new __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Headers */]();
+        header.append("Accept", "application/json");
+        header.append("Authorization", this.GlobalvarsProvider.gettoken());
+        var option = new __WEBPACK_IMPORTED_MODULE_3__angular_http__["d" /* RequestOptions */]({ headers: header });
+        this.http.patch('http://api.riceupfarmers.org/api/shippingdetail/' + this.address.id, { 'address': this.address.shipping_address, 'mobile_no': this.address.mobile_no }, option)
+            .map(function (response) { return response.json(); })
+            .subscribe(function (res) {
+            _this.presentAlert(res.message);
+            _this.pop();
+            // this.alertConfirm2(res.message);
+        }, function (Error) {
+            console.log(Error);
+            _this.presentAlert("No Internet Connection!");
+        });
+    };
+    ShippingDetailsUpdatePage.prototype.pop = function () {
+        this.navCtrl.pop();
+    };
+    ShippingDetailsUpdatePage.prototype.ionViewDidLoad = function () {
+    };
+    return ShippingDetailsUpdatePage;
+}());
+ShippingDetailsUpdatePage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        selector: 'page-shipping-details-update',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\shipping-details-update\shipping-details-update.html"*/'<!--\n\n  Generated template for the ShippingDetailsUpdatePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Update Shipping address</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n<ion-list>\n\n                <ion-item>\n\n                  <ion-label  stacked>Address</ion-label>\n\n                  <ion-input [(ngModel)]="address.shipping_address" type="text"></ion-input>\n\n                  </ion-item>\n\n                    \n\n                  <ion-item>\n\n                  <ion-label  stacked>Mobile No</ion-label>\n\n                  <ion-textarea [(ngModel)]="address.mobile_no" ></ion-textarea>\n\n                  </ion-item>\n\n\n\n        </ion-list>\n\n            <button ion-button class="submit-btn" block  (click)="updateaddress()">Update Address</button>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\shipping-details-update\shipping-details-update.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_2__providers_globalvars_globalvars__["a" /* GlobalvarsProvider */], __WEBPACK_IMPORTED_MODULE_3__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */]])
+], ShippingDetailsUpdatePage);
+
+//# sourceMappingURL=shipping-details-update.js.map
+
+/***/ }),
+
+/***/ 272:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PickupPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__cart_cart__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_property_service_mock__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_http__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_globalvars_globalvars__ = __webpack_require__(8);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+/**
+ * Generated class for the PickupPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var PickupPage = (function () {
+    function PickupPage(loadingCtrl, alertCtrl, GlobalvarsProvider, http, actionSheetCtrl, navCtrl, navParams, propertyService, toastCtrl) {
+        this.loadingCtrl = loadingCtrl;
+        this.alertCtrl = alertCtrl;
+        this.GlobalvarsProvider = GlobalvarsProvider;
+        this.http = http;
+        this.actionSheetCtrl = actionSheetCtrl;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.propertyService = propertyService;
+        this.toastCtrl = toastCtrl;
+        this.cart = this.navParams.data;
+        this.orders = this.cart.product_order;
+        this.gtotal = this.gettotal(this.orders);
+        this.orderid = this.cart.id;
+    }
+    PickupPage.prototype.ionViewDidLoad = function () {
+    };
+    PickupPage.prototype.gettotal = function (gett) {
+        var total = 0;
+        for (var i = 0; i < gett.length; i++) {
+            total += (gett[i].farmer_product.price_per_unit * gett[i].quantity);
+        }
+        return total;
+    };
+    PickupPage.prototype.checkthisout = function () {
+        var _this = this;
+        var alert = this.alertCtrl.create({
+            title: 'Confirm Checkout',
+            message: "Are you sure you want to checkout the items in the cart?",
+            buttons: [
+                {
+                    text: 'Cancel',
+                    role: 'cancel',
+                    handler: function () {
+                    }
+                },
+                {
+                    text: 'Confirm',
+                    handler: function () {
+                        var urlSearchParams = new URLSearchParams();
+                        urlSearchParams.append("passforpost", 'any');
+                        var body = urlSearchParams.toString();
+                        var header = new __WEBPACK_IMPORTED_MODULE_4__angular_http__["a" /* Headers */]();
+                        header.append("Accept", "application/json");
+                        header.append("Authorization", _this.GlobalvarsProvider.gettoken());
+                        var option = new __WEBPACK_IMPORTED_MODULE_4__angular_http__["d" /* RequestOptions */]({ headers: header });
+                        _this.http.patch('http://api.riceupfarmers.org/api/order/checkout/' + _this.orderid + '?shipping_mode=0&order_status=1&remarks=', body, option)
+                            .map(function (response) { return response.json(); })
+                            .subscribe(function (res) {
+                            // this.alertConfirm2(res.message);
+                            _this.alertConfirm2(res.message);
+                        }, function (Error) {
+                            _this.presentAlert("No Internet Connection!");
+                        });
+                    }
+                }
+            ]
+        });
+        alert.present();
+    };
+    PickupPage.prototype.alertConfirm2 = function (var2) {
+        var _this = this;
+        var alert = this.alertCtrl.create({
+            title: 'Checkout',
+            message: var2,
+            buttons: [
+                {
+                    text: 'Dismiss',
+                    handler: function () {
+                        _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__cart_cart__["a" /* CartPage */]);
+                    }
+                }
+            ]
+        });
+        alert.present();
+    };
+    PickupPage.prototype.presentAlert = function (val) {
+        var alert = this.alertCtrl.create({
+            title: 'Alert',
+            subTitle: val,
+            buttons: ['Dismiss']
+        });
+        alert.present();
+    };
+    return PickupPage;
+}());
+PickupPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        selector: 'page-pickup',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\pickup\pickup.html"*/'<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n            <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n        <ion-title>Pick Up Summary</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n        <ion-list>\n\n        <ion-item-sliding *ngFor="let list of orders">\n\n            <div ion-item>\n\n                    <img src="http://riceupfarmers.org/wp-content/system/uploads/s{{ list.farmer_product.photo_url }}.jpg"  onError="this.src=\'http://riceupfarmers.org/wp-content/system/sproduct.jpg\';" style="width: 20px" style="float: left;margin-right: 5px;" />\n\n                <h3>{{list.farmer_product.product_name}}</h3>\n\n                <p>Price: P{{list.farmer_product.price_per_unit}} </p>\n\n                <p>Quantity: {{list.quantity}} </p>\n\n                \n\n                <div style="text-align: right;">\n\n\n\n                P{{list.quantity * list.farmer_product.price_per_unit}}\n\n\n\n                </div>\n\n\n\n            </div>\n\n        </ion-item-sliding>\n\n        <ion-item-sliding>\n\n            <button ion-item>\n\n                <h3></h3>\n\n                <p></p>\n\n            <ion-note item-right>Total: P{{gtotal}}</ion-note>\n\n            </button>\n\n        </ion-item-sliding>\n\n    </ion-list>\n\n\n\n        <button ion-button class="submit-btn" block (click)="checkthisout()" >Checkout</button>\n\n</ion-content>'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\pickup\pickup.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_5__providers_globalvars_globalvars__["a" /* GlobalvarsProvider */], __WEBPACK_IMPORTED_MODULE_4__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__providers_property_service_mock__["a" /* PropertyService */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ToastController */]])
+], PickupPage);
+
+//# sourceMappingURL=pickup.js.map
+
+/***/ }),
+
+/***/ 273:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SignupPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__welcome_welcome__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__providers_auth_service_auth_service__ = __webpack_require__(136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_http__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_globalvars_globalvars__ = __webpack_require__(8);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+var SignupPage = (function () {
+    function SignupPage(loadingCtrl, navCtrl, authService, GlobalvarsProvider, http, alertCtrl, fb) {
+        this.loadingCtrl = loadingCtrl;
+        this.navCtrl = navCtrl;
+        this.authService = authService;
+        this.GlobalvarsProvider = GlobalvarsProvider;
+        this.http = http;
+        this.alertCtrl = alertCtrl;
+        this.lastImage = null;
+        this.long = '';
+        this.lat = '';
+        this.username = '';
+        this.buttonDisabled = true;
+        this.form = fb.group({
+            name: fb.group({
+                username2: '',
+                password2: '',
+                cpassword: '',
+                firstname: '', middlename: '',
+                lastname: '',
+                email: '',
+                mobilenumber: '',
+                address: '',
+            }),
+        });
+    }
+    SignupPage.prototype.signup = function () {
+        var _this = this;
+        if (this.form.value.name.username2 != "" && this.form.value.name.password2 != "" && this.form.value.name.cpassword != "" && this.form.value.name.firstname != "" && this.form.value.name.lastname != "" && this.form.value.name.email != "" && this.form.value.name.address != "" && this.form.value.name.mobilenumber != "") {
+            if (this.form.value.name.password2 == this.form.value.name.cpassword) {
+                this.loading = this.loadingCtrl.create({
+                    content: 'Signing Up...',
+                });
+                this.loading.present();
+                var urlSearchParams = new URLSearchParams();
+                urlSearchParams.append("grant_type", this.GlobalvarsProvider.grant_type);
+                var body = urlSearchParams.toString();
+                var header = new __WEBPACK_IMPORTED_MODULE_4__angular_http__["a" /* Headers */]();
+                header.append("Content-Type", "application/x-www-form-urlencoded");
+                var option = new __WEBPACK_IMPORTED_MODULE_4__angular_http__["d" /* RequestOptions */]({ headers: header });
+                this.http.post('http://api.riceupfarmers.org/api/user/register?username=' + this.form.value.name.username2 + "&password=" + this.form.value.name.password2 + "&middlename=" + this.form.value.name.middlename + "&firstname=" + this.form.value.name.firstname + "&lastname=" + this.form.value.name.lastname + "&address=" + this.form.value.name.address + "&mobile_no=" + this.form.value.name.mobilenumber + "&email=" + this.form.value.name.email + "&is_farmer=0" + "&history=", body, option)
+                    .map(function (response) { return response.json(); })
+                    .subscribe(function (res) {
+                    _this.loading.dismissAll();
+                    if (res.message != undefined) {
+                        _this.presentAlert(res.message);
+                        _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_0__welcome_welcome__["a" /* WelcomePage */]);
+                    }
+                    else {
+                        _this.presentAlert(res[0]);
+                    }
+                }, function (error) {
+                    _this.loading.dismissAll();
+                    _this.presentAlert("Something went wrong!");
+                });
+            }
+            else {
+                this.presentAlert("confirm password does not match with the password!");
+            }
+        }
+        else {
+            this.presentAlert("Please Fill in all the fields!");
+        }
+    };
+    SignupPage.prototype.login = function () {
+        //Login page link
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_0__welcome_welcome__["a" /* WelcomePage */]);
+    };
+    SignupPage.prototype.presentAlert = function (val) {
+        var alert = this.alertCtrl.create({
+            title: 'Alert',
+            subTitle: val,
+            buttons: ['Dismiss']
+        });
+        alert.present();
+    };
+    return SignupPage;
+}());
+SignupPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_2__angular_core__["m" /* Component */])({
+        selector: 'page-signup',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\signup\signup.html"*/'<ion-header>\n\n\n\n    <ion-navbar>\n\n       \n\n        <ion-title>Customer Registration</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n <form [formGroup]="form">\n\n\n\n      <div formGroupName="name">\n\n\n\n      <ion-item>\n\n      <ion-label  stacked><b>Login Details</b></ion-label>\n\n      </ion-item>\n\n      <ion-item>\n\n      <ion-label  stacked>Username:</ion-label>\n\n      <ion-input  formControlName="username2" placeholder="RiceUp" type="text"></ion-input>\n\n      </ion-item>\n\n      <ion-item>\n\n      <ion-label  stacked>Password:</ion-label>\n\n      <ion-input  formControlName="password2" type="password"></ion-input>\n\n      </ion-item>\n\n      <ion-item>\n\n      <ion-label   stacked>Confirm Password:</ion-label>\n\n      <ion-input  formControlName="cpassword" type="password"></ion-input>\n\n    </ion-item>\n\n      <ion-item>\n\n      <ion-label  stacked><b>General Information</b></ion-label>\n\n      </ion-item>\n\n      <ion-item>\n\n      <ion-label  stacked>First Name:</ion-label>\n\n      <ion-input  formControlName="firstname" type="text" placeholder="Juan"></ion-input>\n\n      </ion-item>\n\n      <ion-item>\n\n      <ion-label  stacked>Middle Name:</ion-label>\n\n      <ion-input  formControlName="middlename" type="text" placeholder=""></ion-input>\n\n      </ion-item>\n\n      <ion-item>\n\n      <ion-label  stacked>Last Name:</ion-label>\n\n      <ion-input  formControlName="lastname" type="text"  placeholder="Dela Cruz"></ion-input>\n\n      </ion-item>\n\n      <ion-item>\n\n      <ion-label  stacked>Mobile Number:</ion-label>\n\n      <ion-input  formControlName="mobilenumber" type="text" placeholder="09XXXXXXXXX"></ion-input>\n\n      </ion-item>\n\n\n\n      <ion-item>\n\n      <ion-label  stacked>Email Address:</ion-label>\n\n      <ion-input  formControlName="email" type="email"  placeholder="RiceUp@riceupfarmers.org"></ion-input>\n\n      </ion-item>\n\n      <ion-item>\n\n      <ion-label  stacked>Address:</ion-label>\n\n      <ion-input  formControlName="address" type="text" placeholder="P sherman 42 wallaby way sydney"></ion-input>\n\n      </ion-item>\n\n      </div>\n\n\n\n  <ion-buttons>\n\n       <button ion-button block (click)="signup()">\n\n        <ion-icon name="ion-plus-circled"></ion-icon>Registration\n\n      </button>\n\n      \n\n    </ion-buttons>\n\n    \n\n    </form>\n\n<!--<form (ngSubmit)="logForm()">\n\n      <ion-item>\n\n        <ion-label>Title</ion-label>\n\n        <ion-input type="text" [(ngModel)]="todo.title" formControlName="title"></ion-input>\n\n      </ion-item>\n\n      <ion-item>\n\n        <ion-label>Address</ion-label>\n\n        <ion-textarea [(ngModel)]="todo.address" formControlName="address"></ion-textarea>\n\n      </ion-item>\n\n      <ion-item>\n\n        <ion-label>Contact</ion-label>\n\n        <ion-input type="text" [(ngModel)]="todo.contact" formControlName="contact"></ion-input>\n\n      </ion-item>\n\n      <ion-item>\n\n        <ion-label>Price</ion-label>\n\n        <ion-input type="text" [(ngModel)]="todo.price" formControlName="price"></ion-input>\n\n      </ion-item>\n\n  <ion-item>\n\n        <ion-label>\n\n          Type\n\n        </ion-label>\n\n\n\n        <ion-select formControlName="option" [(ngModel)]="todo.type">\n\n          <ion-option value="1">Option 1</ion-option>\n\n          <ion-option value="2">Option 2</ion-option>\n\n          <ion-option value="3">Option 3</ion-option>\n\n          <ion-option value="4">Option 4</ion-option>\n\n        </ion-select>\n\n      </ion-item>\n\n        <button ion-button type="submit" block>Add Todo</button>\n\n    </form>\n\n    </div>-->\n\n    \n\n  \n\n</ion-content>'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\signup\signup.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_5_ionic_angular__["h" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_5_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1__providers_auth_service_auth_service__["a" /* AuthService */], __WEBPACK_IMPORTED_MODULE_6__providers_globalvars_globalvars__["a" /* GlobalvarsProvider */], __WEBPACK_IMPORTED_MODULE_4__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_5_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_3__angular_forms__["a" /* FormBuilder */]])
+], SignupPage);
+
+//# sourceMappingURL=signup.js.map
+
+/***/ }),
+
+/***/ 274:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(16);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+var AboutPage = (function () {
+    function AboutPage(navCtrl, platform, statusBar, splashScreen, toast) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.platform = platform;
+        this.statusBar = statusBar;
+        this.splashScreen = splashScreen;
+        this.toast = toast;
+        this.counter = 0;
+        platform.ready().then(function () {
+            statusBar.styleDefault();
+            splashScreen.hide();
+            platform.registerBackButtonAction(function () {
+                if (_this.counter == 0) {
+                    _this.counter++;
+                    _this.presentToast();
+                    setTimeout(function () { _this.counter = 0; }, 3000);
+                }
+                else {
+                    // console.log("exitapp");
+                    platform.exitApp();
+                }
+            }, 0);
+        });
+    }
+    AboutPage.prototype.presentToast = function () {
+        var toast = this.toast.create({
+            message: "Press again to exit",
+            duration: 3000,
+            position: "bottom"
+        });
+        toast.present();
+    };
+    return AboutPage;
+}());
+AboutPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        selector: 'page-about',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\about\about.html"*/'<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n            <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n        <ion-title>About</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n    <div class="about-header">\n\n        \n\n     <img src="assets/img/logo.png" />\n\n    </div>\n\n\n\n    <div padding class="about-info">\n\n\n\n        <h4>Rice Up Application</h4>\n\n\n\n        <p>\n\n           <b>Mission</b>\n\nRiceUp was created in our desire to uplift the lives of our dear farmers through opening channels of learning opportunities and to create a fair competition in the agricultural enterprise among farmers, both rich and poor. <br><br>\n\n\n\nWe are harnessing technology to sustain and broaden the market and demand of local agricultural products. In line with that, we are also aiming to lessen the influence and intervention of abusive middlemen and intermediaries in the market. Through trainings and on-the-spot workshops or demo farms, farmers will learn how to successfully develop themselves and the sector which give them their livelihood.\n\n        </p>\n\n\n\n    </div>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\about\about.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ToastController */]])
+], AboutPage);
+
+//# sourceMappingURL=about.js.map
+
+/***/ }),
+
+/***/ 275:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return OrderListPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_globalvars_globalvars__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__orderinfo_orderinfo__ = __webpack_require__(276);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_status_bar__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_splash_screen__ = __webpack_require__(16);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Generated class for the OrderListPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var OrderListPage = (function () {
+    function OrderListPage(platform, statusBar, splashScreen, toast, alertCtrl, loadingCtrl, GlobalvarsProvider, menu, http, navCtrl, navParams) {
+        var _this = this;
+        this.platform = platform;
+        this.statusBar = statusBar;
+        this.splashScreen = splashScreen;
+        this.toast = toast;
+        this.alertCtrl = alertCtrl;
+        this.loadingCtrl = loadingCtrl;
+        this.GlobalvarsProvider = GlobalvarsProvider;
+        this.menu = menu;
+        this.http = http;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.counter = 0;
+        platform.ready().then(function () {
+            statusBar.styleDefault();
+            splashScreen.hide();
+            platform.registerBackButtonAction(function () {
+                if (_this.counter == 0) {
+                    _this.counter++;
+                    _this.presentToast();
+                    setTimeout(function () { _this.counter = 0; }, 3000);
+                }
+                else {
+                    // console.log("exitapp");
+                    platform.exitApp();
+                }
+            }, 0);
+        });
+        this.loading = this.loadingCtrl.create({
+            content: 'Loading Orders...',
+        });
+        this.loading.present();
+        var header = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Headers */]();
+        header.append("Accept", "application/json");
+        header.append("Authorization", this.GlobalvarsProvider.gettoken());
+        var option = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["d" /* RequestOptions */]({ headers: header });
+        this.http.get('http://api.riceupfarmers.org/api/orders', option)
+            .map(function (response) { return response.json(); })
+            .subscribe(function (res) {
+            if (res.message == undefined) {
+                _this.orders = res;
+                console.log(_this.orders);
+            }
+            else {
+                _this.presentAlert(res.message);
+            }
+            _this.loading.dismissAll();
+        }, function (error) {
+            _this.presentAlert("No Internet Connection!");
+            _this.loading.dismissAll();
+        });
+    }
+    OrderListPage.prototype.presentToast = function () {
+        var toast = this.toast.create({
+            message: "Press again to exit",
+            duration: 3000,
+            position: "bottom"
+        });
+        toast.present();
+    };
+    OrderListPage.prototype.presentAlert = function (val) {
+        var alert = this.alertCtrl.create({
+            title: 'Alert',
+            subTitle: val,
+            buttons: ['Dismiss']
+        });
+        alert.present();
+    };
+    OrderListPage.prototype.callorderinfo = function (val) {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__orderinfo_orderinfo__["a" /* OrderinfoPage */], val);
+    };
+    return OrderListPage;
+}());
+OrderListPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        selector: 'page-order-list',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\order-list\order-list.html"*/'<!--\n\n  Generated template for the OrderListPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n            <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n        <ion-title>My Orders</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="property-list">\n\n    <ion-list>\n\n        <ion-item-sliding *ngFor="let orderlist of orders">\n\n            <button ion-item  (click)="callorderinfo(orderlist.id)" class="blue" *ngIf="orderlist.order_status===2;">\n\n                <h2>Order#: {{orderlist.order_number}}</h2>\n\n                <p>{{orderlist.order_date}} - Completed </p>\n\n            </button>\n\n\n\n\n\n            <button ion-item  (click)="callorderinfo(orderlist.id)" *ngIf="orderlist.order_status===1;">\n\n                <h2>Order#: {{orderlist.order_number}}</h2>\n\n                <p>{{orderlist.order_date}} - Pending</p>\n\n            </button>\n\n\n\n            <button ion-item  (click)="callorderinfo(orderlist.id)" *ngIf="orderlist.order_status===3;">\n\n                <h2>Order#: {{orderlist.order_number}}</h2>\n\n                <p>{{orderlist.order_date}} - Cancelled</p>\n\n            </button>\n\n        </ion-item-sliding>\n\n    </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\order-list\order-list.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Platform */], __WEBPACK_IMPORTED_MODULE_5__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_6__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ToastController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_3__providers_globalvars_globalvars__["a" /* GlobalvarsProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* MenuController */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */]])
+], OrderListPage);
+
+//# sourceMappingURL=order-list.js.map
+
+/***/ }),
+
+/***/ 276:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return OrderinfoPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_property_service_mock__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_globalvars_globalvars__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__productonly_productonly__ = __webpack_require__(277);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+/**
+ * Generated class for the OrderinfoPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var OrderinfoPage = (function () {
+    function OrderinfoPage(alertCtrl, loadingCtrl, GlobalvarsProvider, http, actionSheetCtrl, navCtrl, navParams, propertyService, toastCtrl) {
+        this.alertCtrl = alertCtrl;
+        this.loadingCtrl = loadingCtrl;
+        this.GlobalvarsProvider = GlobalvarsProvider;
+        this.http = http;
+        this.actionSheetCtrl = actionSheetCtrl;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.propertyService = propertyService;
+        this.toastCtrl = toastCtrl;
+        this.orders = null;
+        this.address = null;
+        this.mobile = null;
+        this.order = this.navParams.data;
+        this.loadorders();
+    }
+    OrderinfoPage.prototype.loadorders = function () {
+        var _this = this;
+        this.loading = this.loadingCtrl.create({
+            content: 'Loading Orders...',
+        });
+        this.loading.present();
+        var header = new __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Headers */]();
+        header.append("Accept", "application/json");
+        header.append("Authorization", this.GlobalvarsProvider.gettoken());
+        var option = new __WEBPACK_IMPORTED_MODULE_3__angular_http__["d" /* RequestOptions */]({ headers: header });
+        this.http.get('http://api.riceupfarmers.org/api/order/' + this.order, option)
+            .map(function (response) { return response.json(); })
+            .subscribe(function (rese) {
+            console.log(rese);
+            _this.orderno = rese.order_number;
+            _this.sdid = rese.sd_id;
+            _this.s = rese.mode_of_shipping;
+            _this.orders = rese.product_order;
+            _this.gtotal = _this.gettotal(_this.orders);
+            _this.gtotal = "P" + _this.gtotal;
+            if (_this.s == 1) {
+                var header = new __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Headers */]();
+                header.append("Accept", "application/json");
+                header.append("Authorization", _this.GlobalvarsProvider.gettoken());
+                var option2 = new __WEBPACK_IMPORTED_MODULE_3__angular_http__["d" /* RequestOptions */]({ headers: header });
+                _this.http.get('http://api.riceupfarmers.org/api/shippingdetail/' + _this.sdid, option2)
+                    .map(function (response) { return response.json(); })
+                    .subscribe(function (rese) {
+                    console.log(rese);
+                    _this.address = rese[0].shipping_address;
+                    _this.mobile = rese[0].mobile_no;
+                    _this.loading.dismissAll();
+                }, function (error) {
+                    _this.loading.dismissAll();
+                });
+                // code...
+            }
+        }, function (error) {
+            _this.loading.dismissAll();
+        });
+    };
+    OrderinfoPage.prototype.gettotal = function (gett) {
+        var total = 0;
+        for (var i = 0; i < gett.length; i++) {
+            total += (gett[i].farmer_product.price_per_unit * gett[i].quantity);
+        }
+        return total;
+    };
+    OrderinfoPage.prototype.prod = function (property) {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__productonly_productonly__["a" /* ProductonlyPage */], property);
+    };
+    OrderinfoPage.prototype.cancelprod = function (ids) {
+        var _this = this;
+        var alert = this.alertCtrl.create({
+            title: 'Confirm Remove',
+            message: 'Are you sure you want to cancel this ordered product?',
+            buttons: [
+                {
+                    text: 'Cancel',
+                    role: 'cancel',
+                    handler: function () {
+                    }
+                },
+                {
+                    text: 'Confirm',
+                    handler: function () {
+                        _this.loading = _this.loadingCtrl.create({
+                            content: 'Canceling...',
+                        });
+                        _this.loading.present();
+                        var urlSearchParams = new URLSearchParams();
+                        urlSearchParams.append("grant_type", _this.GlobalvarsProvider.grant_type);
+                        var body = urlSearchParams.toString();
+                        var header = new __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Headers */]();
+                        header.append("Accept", "application/json");
+                        header.append("Content-Type", "application/x-www-form-urlencoded");
+                        header.append("Authorization", _this.GlobalvarsProvider.gettoken());
+                        var option = new __WEBPACK_IMPORTED_MODULE_3__angular_http__["d" /* RequestOptions */]({ headers: header });
+                        _this.http.patch('http://api.riceupfarmers.org/api/product/cancel/' + ids, body, option)
+                            .map(function (response) { return response.json(); })
+                            .subscribe(function (data) {
+                            if (data.message != undefined) {
+                                _this.presentAlert(data.message);
+                                _this.loadorders();
+                            }
+                            else {
+                                _this.presentAlert("Something went wrong!");
+                            }
+                            _this.loading.dismissAll();
+                        }, function (Error) {
+                            _this.presentAlert("No Internet Connection!");
+                            _this.loading.dismissAll();
+                        });
+                    }
+                }
+            ]
+        });
+        alert.present();
+    };
+    OrderinfoPage.prototype.presentAlert = function (val) {
+        var alert = this.alertCtrl.create({
+            title: 'Alert',
+            subTitle: val,
+            buttons: ['Dismiss']
+        });
+        alert.present();
+    };
+    return OrderinfoPage;
+}());
+OrderinfoPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        selector: 'page-orderinfo',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\orderinfo\orderinfo.html"*/'<ion-header>\n\n    <ion-navbar>\n\n        <ion-title>Order#: {{orderno}}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n        <ion-card *ngIf="s===1;">\n\n           <p style="padding: 10px">&nbsp;Ship to: {{address}}</p>\n\n            <p style="padding: 10px">&nbsp;Mobile No: {{mobile}}</p>\n\n        </ion-card>\n\n        <ion-list>\n\n        <ion-item-sliding *ngFor="let list of orders">\n\n            <button ion-item (click)="prod(list)">\n\n                    <img src="http://riceupfarmers.org/wp-content/system/uploads/s{{ list.farmer_product.photo_url }}.jpg"  onError="this.src=\'http://riceupfarmers.org/wp-content/system/sproduct.jpg\';"  style="width: 20px" style="float: left;margin-right: 5px;"  />\n\n                \n\n                <h3>{{list.farmer_product.product_name}}</h3>\n\n                <p>Price: P{{list.farmer_product.price_per_unit}}</p> \n\n                <p>Quantity: {{list.quantity}} </p> \n\n                <p *ngIf="list.current_status.product_status===0;">Status: Pending </p> \n\n                <p *ngIf="list.current_status.product_status===1;">Status: Packed </p> \n\n                <p *ngIf="list.current_status.product_status===2;">Status: Delivered  </p>\n\n                <p *ngIf="list.current_status.product_status===3;">Status: Cancelled  </p> \n\n                <p *ngIf="list.current_status.product_status===4;">Status: Received  </p> \n\n            <ion-note item-right>P{{(list.farmer_product.price_per_unit)*(list.quantity) | number:\'1.2-2\'}}</ion-note>\n\n            </button>\n\n             <ion-item-options>\n\n                <button danger (click)="cancelprod(list.id)" class="red">Cancel</button>\n\n            </ion-item-options>\n\n\n\n        </ion-item-sliding>\n\n        <ion-item-sliding>\n\n            <button ion-item>\n\n                <h3 *ngIf="s===0;" >For Pick up</h3>\n\n                <h3 *ngIf="s===1;">For Shipping</h3>\n\n                <p></p>\n\n            <ion-note item-right>{{gtotal}}</ion-note>\n\n            </button>\n\n        </ion-item-sliding>\n\n    </ion-list>\n\n</ion-content>\n\n\n\n\n\n\n\n<ion-footer padding>\n\n    <ion-segment>\n\n        <p><b>Note:</b> Options will appear when you swipe left on the product.(for pending products only)</p>\n\n    </ion-segment>\n\n</ion-footer>'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\orderinfo\orderinfo.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_4__providers_globalvars_globalvars__["a" /* GlobalvarsProvider */], __WEBPACK_IMPORTED_MODULE_3__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_property_service_mock__["a" /* PropertyService */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ToastController */]])
+], OrderinfoPage);
+
+//# sourceMappingURL=orderinfo.js.map
+
+/***/ }),
+
+/***/ 277:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProductonlyPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__broker_detail_broker_detail__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(4);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+/**
+ * Generated class for the ProductonlyPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var ProductonlyPage = (function () {
+    function ProductonlyPage(http, actionSheetCtrl, navCtrl, navParams) {
+        this.http = http;
+        this.actionSheetCtrl = actionSheetCtrl;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.quantity = 1;
+        this.property = this.navParams.data.farmer_product;
+        console.log(this.property);
+        this.proid = this.navParams.data.id;
+        this.quantity = this.navParams.data.quantity;
+    }
+    ProductonlyPage.prototype.openBrokerDetail = function (broker) {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__broker_detail_broker_detail__["a" /* BrokerDetailPage */], broker);
+    };
+    return ProductonlyPage;
+}());
+ProductonlyPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        selector: 'page-productonly',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\productonly\productonly.html"*/'<ion-header>\n\n    <ion-navbar>\n\n        <ion-title>Product Order</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n    <ion-card *ngIf="property.id">\n\n         <img src="http://riceupfarmers.org/wp-content/system/uploads/{{ property.photo_url }}.jpg"  onError="this.src=\'http://riceupfarmers.org/wp-content/system/product.jpg\';" />\n\n        <ion-card-content>\n\n            <h2 class="card-title">{{property.product_name}}</h2>\n\n            <p>{{property.product_desc}}</p>\n\n        </ion-card-content>\n\n        <ion-list>\n\n            <ion-item>\n\n                <ion-icon item-left name="ios-clipboard"></ion-icon>\n\n                <h3>Unit Type</h3>\n\n                <ion-note item-right>{{property.unit_type}}</ion-note>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-icon item-left name="pricetag"></ion-icon>\n\n                <h3>Price Per Unit</h3>\n\n                <ion-note item-right>{{property.price_per_unit}}</ion-note>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-icon item-left name="md-calendar"></ion-icon>\n\n                <h3>Date of Harvest</h3>\n\n                <ion-note item-right>{{property.date_of_harvest}}</ion-note>\n\n            </ion-item>\n\n            <button ion-item (click)="openBrokerDetail(property.user)">\n\n                <ion-avatar item-left>\n\n                    <img src="http://riceupfarmers.org/wp-content/system/uploads/s{{ property.photo_url }}.jpg"  onError="this.src=\'http://riceupfarmers.org/wp-content/system/sproduct.jpg\';" />\n\n                </ion-avatar>\n\n                <h2>{{property.user.lastname }}, {{ property.user.firstname }} {{ property.user.middlename }}</h2>\n\n                <p>{{ property.user.business_name }}</p>\n\n            </button>\n\n        </ion-list>\n\n        <ion-item>\n\n                <ion-icon name="cart" item-left ></ion-icon>\n\n                <h3 item-left >Quantity:</h3>\n\n                \n\n                <ion-note item-right>{{quantity}}</ion-note>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-icon item-left name="cash"></ion-icon>\n\n                <h3>Total Price:</h3>\n\n                <ion-note item-right>P{{ ((quantity) * (property.price_per_unit)) | number:\'1.2-2\'}}</ion-note>\n\n            </ion-item>\n\n    </ion-card>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\productonly\productonly.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */]])
+], ProductonlyPage);
+
+//# sourceMappingURL=productonly.js.map
+
+/***/ }),
+
+/***/ 278:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddproductPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_file__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_transfer__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_file_path__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_camera__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_globalvars_globalvars__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__userproduct_userproduct__ = __webpack_require__(50);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Generated class for the AddproductPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var AddproductPage = (function () {
+    function AddproductPage(GlobalvarsProvider, http, alertCtrl, fb, navCtrl, camera, transfer, file, filePath, actionSheetCtrl, toastCtrl, platform, loadingCtrl) {
+        this.GlobalvarsProvider = GlobalvarsProvider;
+        this.http = http;
+        this.alertCtrl = alertCtrl;
+        this.navCtrl = navCtrl;
+        this.camera = camera;
+        this.transfer = transfer;
+        this.file = file;
+        this.filePath = filePath;
+        this.actionSheetCtrl = actionSheetCtrl;
+        this.toastCtrl = toastCtrl;
+        this.platform = platform;
+        this.loadingCtrl = loadingCtrl;
+        this.lastImage = null;
+        this.long = '';
+        this.lat = '';
+        this.username = '';
+        this.buttonDisabled = true;
+        this.datenow = Date.now();
+        this.form = fb.group({
+            name: fb.group({
+                pname: '',
+                desc: '',
+                unit: '',
+                price: '',
+                stocks: '',
+                harvest_date: '',
+            }),
+        });
+    }
+    AddproductPage.prototype.testform = function () {
+        this.uploadImage();
+    };
+    AddproductPage.prototype.presentActionSheet = function () {
+        var _this = this;
+        var actionSheet = this.actionSheetCtrl.create({
+            title: 'Select Image Source',
+            buttons: [
+                {
+                    text: 'Load from Library',
+                    handler: function () {
+                        _this.takePicture(_this.camera.PictureSourceType.PHOTOLIBRARY);
+                    }
+                },
+                {
+                    text: 'Use Camera',
+                    handler: function () {
+                        _this.takePicture(_this.camera.PictureSourceType.CAMERA);
+                    }
+                },
+                {
+                    text: 'Cancel',
+                    role: 'cancel'
+                }
+            ]
+        });
+        actionSheet.present();
+    };
+    AddproductPage.prototype.takePicture = function (sourceType) {
+        var _this = this;
+        // Create options for the Camera Dialog
+        var options = {
+            quality: 100,
+            sourceType: sourceType,
+            saveToPhotoAlbum: false,
+            correctOrientation: true
+        };
+        // Get the data of an image
+        this.camera.getPicture(options).then(function (imagePath) {
+            // Special handling for Android library
+            if (_this.platform.is('android') && sourceType === _this.camera.PictureSourceType.PHOTOLIBRARY) {
+                _this.filePath.resolveNativePath(imagePath)
+                    .then(function (filePath) {
+                    var correctPath = filePath.substr(0, filePath.lastIndexOf('/') + 1);
+                    var currentName = imagePath.substring(imagePath.lastIndexOf('/') + 1, imagePath.lastIndexOf('?'));
+                    _this.copyFileToLocalDir(correctPath, currentName, _this.createFileName());
+                });
+            }
+            else {
+                var currentName = imagePath.substr(imagePath.lastIndexOf('/') + 1);
+                var correctPath = imagePath.substr(0, imagePath.lastIndexOf('/') + 1);
+                _this.copyFileToLocalDir(correctPath, currentName, _this.createFileName());
+            }
+        }, function (error) {
+            _this.presentToast('Error while selecting image.');
+        });
+    };
+    AddproductPage.prototype.createFileName = function () {
+        var d = new Date(), n = d.getTime(), newFileName = n + ".jpg";
+        return newFileName;
+    };
+    // Copy the image to a local folder
+    AddproductPage.prototype.copyFileToLocalDir = function (namePath, currentName, newFileName) {
+        var _this = this;
+        this.file.copyFile(namePath, currentName, cordova.file.dataDirectory, newFileName).then(function (success) {
+            _this.lastImage = newFileName;
+        }, function (error) {
+            _this.presentToast('Error while storing file.');
+        });
+    };
+    AddproductPage.prototype.presentToast = function (text) {
+        var toast = this.toastCtrl.create({
+            message: text,
+            duration: 3000,
+            position: 'top'
+        });
+        toast.present();
+    };
+    // Always get the accurate path to your apps folder
+    AddproductPage.prototype.pathForImage = function (img) {
+        if (img === null) {
+            return '';
+        }
+        else {
+            return cordova.file.dataDirectory + img;
+        }
+    };
+    AddproductPage.prototype.uploadImage = function () {
+        //wwew start
+        var _this = this;
+        if (this.form.value.name.pname != "" && this.form.value.name.desc != "" && this.form.value.name.unit != "" && this.form.value.name.price != "" && this.form.value.name.stocks != "" && this.form.value.name.harvest_date != "") {
+            // Destination URL
+            if (this.lastImage == null) {
+                this.presentAlert("Image selection is required!");
+            }
+            else {
+                var timeInMs = Date.now();
+                var url = 'http://riceupfarmers.org/wp-content/system/apiup.php?get=' + this.form.value.name.pname + timeInMs;
+                //'http://api.riceupfarmers.org/api/product/add?name='+this.form.value.name.pname+'&desc='+this.form.value.name.desc+'&unit='+this.form.value.name.unit+'&price='+this.form.value.name.price+'&stocks='+this.form.value.name.stocks+'&harvest_date='+this.form.value.name.harvest_date;
+                // File for Upload
+                var targetPath = this.pathForImage(this.lastImage);
+                // File name only
+                var filename = this.lastImage;
+                var options = {
+                    fileKey: "file",
+                    fileName: filename,
+                    chunkedMode: false,
+                    mimeType: "multipart/form-data",
+                    params: { 'fileName': filename }
+                };
+                var fileTransfer = this.transfer.create();
+                this.loading = this.loadingCtrl.create({
+                    content: 'Adding your Product...',
+                });
+                this.loading.present();
+                // Use the FileTransfer to upload the image
+                fileTransfer.upload(targetPath, url, options).then(function (data) {
+                    _this.loading.dismissAll();
+                    _this.presentToast('product Added...');
+                    //start
+                    var urlSearchParams = new URLSearchParams();
+                    urlSearchParams.append("grant_type", _this.GlobalvarsProvider.grant_type);
+                    var body = urlSearchParams.toString();
+                    var header = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Headers */]();
+                    header.append("Accept", "application/json");
+                    header.append("Content-Type", "application/x-www-form-urlencoded");
+                    header.append("Authorization", _this.GlobalvarsProvider.gettoken());
+                    var option = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["d" /* RequestOptions */]({ headers: header });
+                    _this.http.post('http://api.riceupfarmers.org/api/product/add?photo_url=' + _this.form.value.name.pname + timeInMs + '&name=' + _this.form.value.name.pname + '&desc=' + _this.form.value.name.desc + '&unit=' + _this.form.value.name.unit + '&price=' + _this.form.value.name.price + '&stocks=' + _this.form.value.name.stocks + '&harvest_date=' + _this.form.value.name.harvest_date, body, option)
+                        .map(function (response) { return response.json(); })
+                        .subscribe(function (data) {
+                        _this.presentAlert(data.message);
+                        _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_9__userproduct_userproduct__["a" /* UserproductPage */]);
+                    });
+                    //end
+                    _this.form.reset();
+                }, function (error) {
+                    _this.loading.dismissAll();
+                    _this.presentToast('Error while uploading file.');
+                });
+                this.lastImage = null;
+            }
+        }
+        else {
+            this.presentAlert("Fill all the required Fields!");
+        }
+    };
+    AddproductPage.prototype.presentAlert = function (val) {
+        var alert = this.alertCtrl.create({
+            title: 'Alert',
+            subTitle: val,
+            buttons: ['Dismiss']
+        });
+        alert.present();
+    };
+    return AddproductPage;
+}());
+AddproductPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        selector: 'page-addproduct',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\addproduct\addproduct.html"*/'<!--\n\n  Generated template for the AddstayinnPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n      <button ion-button menuToggle>\n\n            <ion-icon name="menu"></ion-icon>\n\n        </button> \n\n    <ion-title>Add Product</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content>\n\n\n\n <form [formGroup]="form">\n\n  \n\n <ion-toolbar color="primary">\n\n    <ion-buttons>\n\n      <button ion-button icon-left (click)="presentActionSheet()">\n\n        <ion-icon name="camera"></ion-icon>Select Image\n\n      </button>\n\n      <img src="{{pathForImage(lastImage)}}" style="width: 100%" [hidden]="lastImage === null">\n\n\n\n    </ion-buttons>\n\n  </ion-toolbar>\n\n\n\n      <div formGroupName="name">\n\n      <ion-item>\n\n      <ion-label  stacked>Name:</ion-label>\n\n      <ion-input  formControlName="pname" placeholder=""></ion-input>\n\n      </ion-item>\n\n      <ion-item>\n\n      <ion-label  stacked>Description:</ion-label>\n\n      <ion-textarea formControlName="desc" placeholder=""></ion-textarea>\n\n      </ion-item>\n\n      <ion-item>\n\n	    <ion-label   stacked>Unit</ion-label>\n\n	    <ion-select formControlName="unit" >\n\n	      <ion-option value="">-Select Unit-</ion-option>\n\n	      <ion-option value="pcs">pcs</ion-option>\n\n        <ion-option value="kg">kg</ion-option>\n\n        <ion-option value="25 kg/sack">25 kg/sack</ion-option>\n\n        <ion-option value="50 kg/sack">50 kg/sack</ion-option>\n\n        <ion-option value="750g">750g</ion-option>\n\n        <ion-option value="250g">250g</ion-option>  \n\n        <ion-option value="500g">500g</ion-option>\n\n        <ion-option value="tail">tail</ion-option>  \n\n	    </ion-select>\n\n	  </ion-item>\n\n      <ion-item>\n\n      <ion-label  stacked>Price:</ion-label>\n\n      <ion-input  formControlName="price" type="number"></ion-input>\n\n      </ion-item>\n\n      <ion-item>\n\n      <ion-label  stacked>Stocks:</ion-label>\n\n      <ion-input  formControlName="stocks" type="number"></ion-input>\n\n      </ion-item>\n\n      <ion-item>\n\n      <ion-label  stacked>harvest Date:</ion-label>\n\n      <ion-datetime displayFormat="YYYY-MM-DD" formControlName="harvest_date"  max="{{datenow | date: \'yyyy-MM-dd\'}}" ></ion-datetime>\n\n      </ion-item>\n\n      </div>\n\n\n\n  <ion-buttons>\n\n       <button ion-button block (click)="testform()">\n\n        <ion-icon name="ion-plus-circled"></ion-icon>Add Product\n\n      </button>\n\n      \n\n    </ion-buttons>\n\n    \n\n    </form>\n\n<!--<form (ngSubmit)="logForm()">\n\n      <ion-item>\n\n        <ion-label>Title</ion-label>\n\n        <ion-input type="text" [(ngModel)]="todo.title" formControlName="title"></ion-input>\n\n      </ion-item>\n\n      <ion-item>\n\n        <ion-label>Address</ion-label>\n\n        <ion-textarea [(ngModel)]="todo.address" formControlName="address"></ion-textarea>\n\n      </ion-item>\n\n      <ion-item>\n\n        <ion-label>Contact</ion-label>\n\n        <ion-input type="text" [(ngModel)]="todo.contact" formControlName="contact"></ion-input>\n\n      </ion-item>\n\n      <ion-item>\n\n        <ion-label>Price</ion-label>\n\n        <ion-input type="text" [(ngModel)]="todo.price" formControlName="price"></ion-input>\n\n      </ion-item>\n\n  <ion-item>\n\n        <ion-label>\n\n          Type\n\n        </ion-label>\n\n\n\n        <ion-select formControlName="option" [(ngModel)]="todo.type">\n\n          <ion-option value="1">Option 1</ion-option>\n\n          <ion-option value="2">Option 2</ion-option>\n\n          <ion-option value="3">Option 3</ion-option>\n\n          <ion-option value="4">Option 4</ion-option>\n\n        </ion-select>\n\n      </ion-item>\n\n        <button ion-button type="submit" block>Add Todo</button>\n\n    </form>\n\n    </div>-->\n\n    \n\n  \n\n</ion-content>'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\addproduct\addproduct.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_8__providers_globalvars_globalvars__["a" /* GlobalvarsProvider */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_7__ionic_native_camera__["a" /* Camera */], __WEBPACK_IMPORTED_MODULE_5__ionic_native_transfer__["a" /* Transfer */], __WEBPACK_IMPORTED_MODULE_4__ionic_native_file__["a" /* File */], __WEBPACK_IMPORTED_MODULE_6__ionic_native_file_path__["a" /* FilePath */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["a" /* ActionSheetController */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["n" /* ToastController */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["m" /* Platform */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["h" /* LoadingController */]])
+], AddproductPage);
+
+//# sourceMappingURL=addproduct.js.map
+
+/***/ }),
+
+/***/ 279:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UpdateproductPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_globalvars_globalvars__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__userproduct_userproduct__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__changepic_changepic__ = __webpack_require__(280);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+/**
+ * Generated class for the UpdateproductPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var UpdateproductPage = (function () {
+    function UpdateproductPage(alertCtrl, loadingCtrl, GlobalvarsProvider, http, navCtrl, navParams) {
+        this.alertCtrl = alertCtrl;
+        this.loadingCtrl = loadingCtrl;
+        this.GlobalvarsProvider = GlobalvarsProvider;
+        this.http = http;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.datenow = Date.now();
+        this.timee = Date.now();
+        this.property = this.navParams.data;
+        this.stocks_available = this.property.stocks_available;
+        this.product_name = this.property.product_name;
+        this.product_desc = this.property.product_desc;
+        this.unit_type = this.property.unit_type;
+        this.price_per_unit = this.property.price_per_unit;
+        this.date_of_harvest = this.property.date_of_harvest;
+    }
+    UpdateproductPage.prototype.update = function () {
+        var _this = this;
+        if (this.stocks_available != '' || this.product_name != '' || this.product_desc != '' || this.unit_type != '' || this.price_per_unit != '' || this.date_of_harvest != '') {
+            this.loading = this.loadingCtrl.create({
+                content: 'Updating Product...',
+            });
+            this.loading.present();
+            var urlSearchParams = new URLSearchParams();
+            urlSearchParams.append("grant_type", this.GlobalvarsProvider.grant_type);
+            var body = urlSearchParams.toString();
+            var header = new __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Headers */]();
+            header.append("Accept", "application/json");
+            header.append("Content-Type", "application/x-www-form-urlencoded");
+            header.append("Authorization", this.GlobalvarsProvider.gettoken());
+            var option = new __WEBPACK_IMPORTED_MODULE_3__angular_http__["d" /* RequestOptions */]({ headers: header });
+            this.http.patch('http://api.riceupfarmers.org/api/product/update/' + this.property.id + '?name=' + this.product_name + '&desc=' + this.product_desc + '&photo_url=' + this.property.photo_url + '&unit=' + this.unit_type + '&price=' + this.price_per_unit + '&stocks=' + this.stocks_available + '&harvest_date=' + this.date_of_harvest, body, option)
+                .map(function (response) { return response.json(); })
+                .subscribe(function (data) {
+                _this.loading.dismissAll();
+                _this.presentConfirm("Product Updated!!");
+            });
+        }
+        else {
+            this.presentAlert("All Fields are required!");
+        }
+    };
+    UpdateproductPage.prototype.presentAlert = function (val) {
+        var alert = this.alertCtrl.create({
+            title: 'Alert',
+            subTitle: val,
+            buttons: ['Dismiss']
+        });
+        alert.present();
+    };
+    UpdateproductPage.prototype.presentConfirm = function (val) {
+        var _this = this;
+        var alert = this.alertCtrl.create({
+            title: '',
+            message: val,
+            buttons: [
+                {
+                    text: 'Dismiss',
+                    handler: function () {
+                        _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__userproduct_userproduct__["a" /* UserproductPage */]);
+                    }
+                }
+            ]
+        });
+        alert.present();
+    };
+    UpdateproductPage.prototype.changepic = function (var2) {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__changepic_changepic__["a" /* ChangepicPage */], var2);
+    };
+    return UpdateproductPage;
+}());
+UpdateproductPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        selector: 'page-updateproduct',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\updateproduct\updateproduct.html"*/'<ion-header>\n\n    <ion-navbar>\n\n        <ion-title>Update Product</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n    <ion-card *ngIf="property.id">\n\n         <img src="http://riceupfarmers.org/wp-content/system/uploads/{{ property.photo_url }}.jpg?{{timee}}"  alt="loading..."   onError="this.src=\'http://riceupfarmers.org/wp-content/system/product.jpg\';"  (click)="changepic(property.photo_url)"/>\n\n        <p> Tap the image to update picture.</p>\n\n        <ion-list>\n\n                <ion-item>\n\n                  <ion-icon item-left name="md-bookmarks"></ion-icon>\n\n                  <ion-label  stacked>Product Name</ion-label>\n\n                  <ion-input [(ngModel)]="product_name" type="text"></ion-input>\n\n                  </ion-item>\n\n                    \n\n                  <ion-item>\n\n                  <ion-icon item-left name="md-list"></ion-icon>\n\n                  <ion-label  stacked>Description</ion-label>\n\n                  <ion-textarea [(ngModel)]="product_desc" ></ion-textarea>\n\n                  </ion-item>\n\n\n\n			      <ion-item>\n\n                  <ion-icon item-left name="ios-archive"></ion-icon>\n\n                  <ion-label  stacked>Stocks</ion-label>\n\n                  <ion-input [(ngModel)]="stocks_available" type="number"></ion-input>\n\n                  </ion-item>\n\n\n\n                  <ion-item>\n\n                  <ion-icon item-left name="ios-clipboard"></ion-icon>\n\n                  <ion-label  stacked>Unit Type</ion-label>\n\n                  <ion-select [(ngModel)]="unit_type">\n\n                    <ion-option value="pcs">pcs</ion-option>\n\n                    <ion-option value="kg">kg</ion-option>\n\n                    <ion-option value="25 kg/sack">25 kg/sack</ion-option>\n\n                    <ion-option value="50 kg/sack">50 kg/sack</ion-option>\n\n                    <ion-option value="750g">750g</ion-option>\n\n                    <ion-option value="250g">250g</ion-option>  \n\n                    <ion-option value="500g">500g</ion-option>\n\n                    <ion-option value="tail">tail</ion-option>   \n\n                    </ion-select>\n\n                  </ion-item>\n\n\n\n                  <ion-item>\n\n                  <ion-icon item-left name="pricetag"></ion-icon>\n\n                  <ion-label  stacked>Price Per Unit</ion-label>\n\n                  <ion-input [(ngModel)]="price_per_unit"  type="number"></ion-input>\n\n                  </ion-item>\n\n\n\n                  <ion-item>\n\n                   <ion-icon item-left name="md-calendar"></ion-icon>\n\n                  <ion-label  stacked>Date of Harvest</ion-label>\n\n                  <ion-datetime displayFormat="YYYY-MM-DD" [(ngModel)]="date_of_harvest" max="{{datenow | date: \'yyyy-MM-dd\'}}"></ion-datetime>\n\n                  </ion-item>\n\n            \n\n        </ion-list>\n\n\n\n        <button ion-button class="submit-btn" block  (click)="update()">Update Product</button>\n\n\n\n\n\n    </ion-card>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\updateproduct\updateproduct.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_2__providers_globalvars_globalvars__["a" /* GlobalvarsProvider */], __WEBPACK_IMPORTED_MODULE_3__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */]])
+], UpdateproductPage);
+
+//# sourceMappingURL=updateproduct.js.map
+
+/***/ }),
+
+/***/ 280:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ChangepicPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_file__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_transfer__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_file_path__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_camera__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_globalvars_globalvars__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__userproduct_userproduct__ = __webpack_require__(50);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Generated class for the ChangepicPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var ChangepicPage = (function () {
+    function ChangepicPage(navParams, GlobalvarsProvider, http, alertCtrl, fb, navCtrl, camera, transfer, file, filePath, actionSheetCtrl, toastCtrl, platform, loadingCtrl) {
+        this.navParams = navParams;
+        this.GlobalvarsProvider = GlobalvarsProvider;
+        this.http = http;
+        this.alertCtrl = alertCtrl;
+        this.navCtrl = navCtrl;
+        this.camera = camera;
+        this.transfer = transfer;
+        this.file = file;
+        this.filePath = filePath;
+        this.actionSheetCtrl = actionSheetCtrl;
+        this.toastCtrl = toastCtrl;
+        this.platform = platform;
+        this.loadingCtrl = loadingCtrl;
+        this.lastImage = null;
+        this.url = this.navParams.data;
+    }
+    ChangepicPage.prototype.presentActionSheet = function () {
+        var _this = this;
+        var actionSheet = this.actionSheetCtrl.create({
+            title: 'Select Image Source',
+            buttons: [
+                {
+                    text: 'Load from Library',
+                    handler: function () {
+                        _this.takePicture(_this.camera.PictureSourceType.PHOTOLIBRARY);
+                    }
+                },
+                {
+                    text: 'Use Camera',
+                    handler: function () {
+                        _this.takePicture(_this.camera.PictureSourceType.CAMERA);
+                    }
+                },
+                {
+                    text: 'Cancel',
+                    role: 'cancel'
+                }
+            ]
+        });
+        actionSheet.present();
+    };
+    ChangepicPage.prototype.takePicture = function (sourceType) {
+        var _this = this;
+        // Create options for the Camera Dialog
+        var options = {
+            quality: 100,
+            sourceType: sourceType,
+            saveToPhotoAlbum: false,
+            correctOrientation: true
+        };
+        // Get the data of an image
+        this.camera.getPicture(options).then(function (imagePath) {
+            // Special handling for Android library
+            if (_this.platform.is('android') && sourceType === _this.camera.PictureSourceType.PHOTOLIBRARY) {
+                _this.filePath.resolveNativePath(imagePath)
+                    .then(function (filePath) {
+                    var correctPath = filePath.substr(0, filePath.lastIndexOf('/') + 1);
+                    var currentName = imagePath.substring(imagePath.lastIndexOf('/') + 1, imagePath.lastIndexOf('?'));
+                    _this.copyFileToLocalDir(correctPath, currentName, _this.createFileName());
+                });
+            }
+            else {
+                var currentName = imagePath.substr(imagePath.lastIndexOf('/') + 1);
+                var correctPath = imagePath.substr(0, imagePath.lastIndexOf('/') + 1);
+                _this.copyFileToLocalDir(correctPath, currentName, _this.createFileName());
+            }
+        }, function (err) {
+            _this.presentToast('Error while selecting image.');
+        });
+    };
+    ChangepicPage.prototype.createFileName = function () {
+        var d = new Date(), n = d.getTime(), newFileName = n + ".jpg";
+        return newFileName;
+    };
+    // Copy the image to a local folder
+    ChangepicPage.prototype.copyFileToLocalDir = function (namePath, currentName, newFileName) {
+        var _this = this;
+        this.file.copyFile(namePath, currentName, cordova.file.dataDirectory, newFileName).then(function (success) {
+            _this.lastImage = newFileName;
+        }, function (error) {
+            _this.presentToast('Error while storing file.');
+        });
+    };
+    ChangepicPage.prototype.presentToast = function (text) {
+        var toast = this.toastCtrl.create({
+            message: text,
+            duration: 3000,
+            position: 'top'
+        });
+        toast.present();
+    };
+    // Always get the accurate path to your apps folder
+    ChangepicPage.prototype.pathForImage = function (img) {
+        if (img === null) {
+            return '';
+        }
+        else {
+            return cordova.file.dataDirectory + img;
+        }
+    };
+    ChangepicPage.prototype.presentAlert = function (val) {
+        var alert = this.alertCtrl.create({
+            title: 'Alert',
+            subTitle: val,
+            buttons: ['Dismiss']
+        });
+        alert.present();
+    };
+    ChangepicPage.prototype.testform = function () {
+        var _this = this;
+        //wwew start
+        if (this.lastImage == null) {
+            this.presentAlert("Image selection is required!");
+        }
+        else {
+            var url = 'http://i-tugue.com/system/uploadpro.php?get=' + this.url;
+            //'http://api.riceupfarmers.org/api/product/add?name='+this.form.value.name.pname+'&desc='+this.form.value.name.desc+'&unit='+this.form.value.name.unit+'&price='+this.form.value.name.price+'&stocks='+this.form.value.name.stocks+'&harvest_date='+this.form.value.name.harvest_date;
+            // File for Upload
+            var targetPath = this.pathForImage(this.lastImage);
+            // File name only
+            var filename = this.lastImage;
+            var options = {
+                fileKey: "file",
+                fileName: filename,
+                chunkedMode: false,
+                mimeType: "multipart/form-data",
+                params: { 'fileName': filename }
+            };
+            var fileTransfer = this.transfer.create();
+            this.loading = this.loadingCtrl.create({
+                content: 'Uploading Image...',
+            });
+            this.loading.present();
+            // Use the FileTransfer to upload the image
+            fileTransfer.upload(targetPath, url, options).then(function (data) {
+                _this.loading.dismissAll();
+                _this.presentToast('Image Uploaded...');
+                _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_9__userproduct_userproduct__["a" /* UserproductPage */]);
+            }, function (err) {
+                _this.loading.dismissAll();
+                _this.presentToast('Error while uploading file.');
+            });
+            this.lastImage = null;
+        }
+    };
+    return ChangepicPage;
+}());
+ChangepicPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        selector: 'page-changepic',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\changepic\changepic.html"*/'<!--\n\n  Generated template for the ChangepicPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Change Product Picture</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n	<ion-card>\n\n	<ion-buttons>\n\n      <button ion-button icon-left (click)="presentActionSheet()">\n\n        <ion-icon name="camera"></ion-icon>Select Image\n\n      </button>\n\n      <img src="{{pathForImage(lastImage)}}" style="width: 100%" [hidden]="lastImage === null">\n\n\n\n    </ion-buttons>\n\n	</ion-card>\n\n  <ion-buttons>\n\n       <button ion-button block (click)="testform()">\n\n        <ion-icon name="ion-plus-circled"></ion-icon>Change Product Picture\n\n      </button>\n\n      \n\n    </ion-buttons>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\changepic\changepic.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3_ionic_angular__["l" /* NavParams */], __WEBPACK_IMPORTED_MODULE_8__providers_globalvars_globalvars__["a" /* GlobalvarsProvider */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_7__ionic_native_camera__["a" /* Camera */], __WEBPACK_IMPORTED_MODULE_5__ionic_native_transfer__["a" /* Transfer */], __WEBPACK_IMPORTED_MODULE_4__ionic_native_file__["a" /* File */], __WEBPACK_IMPORTED_MODULE_6__ionic_native_file_path__["a" /* FilePath */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["a" /* ActionSheetController */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["n" /* ToastController */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["m" /* Platform */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["h" /* LoadingController */]])
+], ChangepicPage);
+
+//# sourceMappingURL=changepic.js.map
+
+/***/ }),
+
+/***/ 281:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProfpicPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_file__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_transfer__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_file_path__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_camera__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_globalvars_globalvars__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__account_account__ = __webpack_require__(51);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Generated class for the ProfpicPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var ProfpicPage = (function () {
+    function ProfpicPage(events, navParams, GlobalvarsProvider, http, alertCtrl, fb, navCtrl, camera, transfer, file, filePath, actionSheetCtrl, toastCtrl, platform, loadingCtrl) {
+        this.events = events;
+        this.navParams = navParams;
+        this.GlobalvarsProvider = GlobalvarsProvider;
+        this.http = http;
+        this.alertCtrl = alertCtrl;
+        this.navCtrl = navCtrl;
+        this.camera = camera;
+        this.transfer = transfer;
+        this.file = file;
+        this.filePath = filePath;
+        this.actionSheetCtrl = actionSheetCtrl;
+        this.toastCtrl = toastCtrl;
+        this.platform = platform;
+        this.loadingCtrl = loadingCtrl;
+        this.lastImage = null;
+        this.url = this.GlobalvarsProvider.loggeduser.id;
+        console.log(this.url);
+    }
+    ProfpicPage.prototype.presentActionSheet = function () {
+        var _this = this;
+        var actionSheet = this.actionSheetCtrl.create({
+            title: 'Select Image Source',
+            buttons: [
+                {
+                    text: 'Load from Library',
+                    handler: function () {
+                        _this.takePicture(_this.camera.PictureSourceType.PHOTOLIBRARY);
+                    }
+                },
+                {
+                    text: 'Use Camera',
+                    handler: function () {
+                        _this.takePicture(_this.camera.PictureSourceType.CAMERA);
+                    }
+                },
+                {
+                    text: 'Cancel',
+                    role: 'cancel'
+                }
+            ]
+        });
+        actionSheet.present();
+    };
+    ProfpicPage.prototype.editpic = function (user) {
+        user = 'none';
+        this.events.publish('user:pic', user);
+    };
+    ProfpicPage.prototype.takePicture = function (sourceType) {
+        var _this = this;
+        // Create options for the Camera Dialog
+        var options = {
+            quality: 100,
+            sourceType: sourceType,
+            saveToPhotoAlbum: false,
+            correctOrientation: true
+        };
+        // Get the data of an image
+        this.camera.getPicture(options).then(function (imagePath) {
+            // Special handling for Android library
+            if (_this.platform.is('android') && sourceType === _this.camera.PictureSourceType.PHOTOLIBRARY) {
+                _this.filePath.resolveNativePath(imagePath)
+                    .then(function (filePath) {
+                    var correctPath = filePath.substr(0, filePath.lastIndexOf('/') + 1);
+                    var currentName = imagePath.substring(imagePath.lastIndexOf('/') + 1, imagePath.lastIndexOf('?'));
+                    _this.copyFileToLocalDir(correctPath, currentName, _this.createFileName());
+                });
+            }
+            else {
+                var currentName = imagePath.substr(imagePath.lastIndexOf('/') + 1);
+                var correctPath = imagePath.substr(0, imagePath.lastIndexOf('/') + 1);
+                _this.copyFileToLocalDir(correctPath, currentName, _this.createFileName());
+            }
+        }, function (error) {
+            _this.presentToast('Error while selecting image.');
+        });
+    };
+    ProfpicPage.prototype.createFileName = function () {
+        var d = new Date(), n = d.getTime(), newFileName = n + ".jpg";
+        return newFileName;
+    };
+    // Copy the image to a local folder
+    ProfpicPage.prototype.copyFileToLocalDir = function (namePath, currentName, newFileName) {
+        var _this = this;
+        this.file.copyFile(namePath, currentName, cordova.file.dataDirectory, newFileName).then(function (success) {
+            _this.lastImage = newFileName;
+        }, function (error) {
+            _this.presentToast('Error while storing file.');
+        });
+    };
+    ProfpicPage.prototype.presentToast = function (text) {
+        var toast = this.toastCtrl.create({
+            message: text,
+            duration: 3000,
+            position: 'top'
+        });
+        toast.present();
+    };
+    // Always get the accurate path to your apps folder
+    ProfpicPage.prototype.pathForImage = function (img) {
+        if (img === null) {
+            return '';
+        }
+        else {
+            return cordova.file.dataDirectory + img;
+        }
+    };
+    ProfpicPage.prototype.presentAlert = function (val) {
+        var alert = this.alertCtrl.create({
+            title: 'Alert',
+            subTitle: val,
+            buttons: ['Dismiss']
+        });
+        alert.present();
+    };
+    ProfpicPage.prototype.testform = function () {
+        var _this = this;
+        //wwew start
+        if (this.lastImage == null) {
+            this.presentAlert("Image selection is required!");
+        }
+        else {
+            var url = 'http://riceupfarmers.org/wp-content/system/uploadpro.php?get=' + this.url;
+            //'http://api.riceupfarmers.org/api/product/add?name='+this.form.value.name.pname+'&desc='+this.form.value.name.desc+'&unit='+this.form.value.name.unit+'&price='+this.form.value.name.price+'&stocks='+this.form.value.name.stocks+'&harvest_date='+this.form.value.name.harvest_date;
+            // File for Upload
+            var targetPath = this.pathForImage(this.lastImage);
+            // File name only
+            var filename = this.lastImage;
+            var options = {
+                fileKey: "file",
+                fileName: filename,
+                chunkedMode: false,
+                mimeType: "multipart/form-data",
+                params: { 'fileName': filename }
+            };
+            var fileTransfer = this.transfer.create();
+            this.loading = this.loadingCtrl.create({
+                content: 'Uploading Image...',
+            });
+            this.loading.present();
+            // Use the FileTransfer to upload the image
+            fileTransfer.upload(targetPath, url, options).then(function (data) {
+                _this.loading.dismissAll();
+                _this.presentToast('Image Uploaded...');
+                _this.editpic('none');
+                _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_9__account_account__["a" /* AccountPage */]);
+            }, function (err) {
+                _this.loading.dismissAll();
+                _this.presentToast('Error while uploading file.');
+            });
+            this.lastImage = null;
+        }
+    };
+    return ProfpicPage;
+}());
+ProfpicPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        selector: 'page-profpic',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\profpic\profpic.html"*/'<!--\n\n  Generated template for the ChangepicPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Change Profile Picture</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n	<ion-card>\n\n	<ion-buttons>\n\n      <button ion-button icon-left (click)="presentActionSheet()">\n\n        <ion-icon name="camera"></ion-icon>Select Image\n\n      </button>\n\n      <img src="{{pathForImage(lastImage)}}" style="width: 100%" [hidden]="lastImage === null">\n\n\n\n    </ion-buttons>\n\n	</ion-card>\n\n  <ion-buttons>\n\n       <button ion-button block (click)="testform()">\n\n        <ion-icon name="ion-plus-circled"></ion-icon>Change Profile Picture\n\n      </button>\n\n      \n\n    </ion-buttons>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\profpic\profpic.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3_ionic_angular__["d" /* Events */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["l" /* NavParams */], __WEBPACK_IMPORTED_MODULE_8__providers_globalvars_globalvars__["a" /* GlobalvarsProvider */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_7__ionic_native_camera__["a" /* Camera */], __WEBPACK_IMPORTED_MODULE_5__ionic_native_transfer__["a" /* Transfer */], __WEBPACK_IMPORTED_MODULE_4__ionic_native_file__["a" /* File */], __WEBPACK_IMPORTED_MODULE_6__ionic_native_file_path__["a" /* FilePath */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["a" /* ActionSheetController */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["n" /* ToastController */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["m" /* Platform */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["h" /* LoadingController */]])
+], ProfpicPage);
+
+//# sourceMappingURL=profpic.js.map
+
+/***/ }),
+
+/***/ 282:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ChangepassPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_globalvars_globalvars__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_forms__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__account_account__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_storage__ = __webpack_require__(62);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+/**
+ * Generated class for the ChangepassPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var ChangepassPage = (function () {
+    function ChangepassPage(storage, loadingCtrl, alertCtrl, navCtrl, fb, navParams, http, GlobalvarsProvider) {
+        this.storage = storage;
+        this.loadingCtrl = loadingCtrl;
+        this.alertCtrl = alertCtrl;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.http = http;
+        this.GlobalvarsProvider = GlobalvarsProvider;
+        this.temp = '';
+        this.form = fb.group({
+            name: fb.group({
+                oldpw: '',
+                newpw: '',
+                rnewpw: '',
+            }),
+        });
+    }
+    ChangepassPage.prototype.calltoChange = function () {
+        var _this = this;
+        if (this.form.value.name.rnewpw == '' || this.form.value.name.newpw == '' || this.form.value.name.oldpw == '') {
+            this.alertConfirm2("please fill all the inputs");
+        }
+        else if (this.form.value.name.rnewpw != this.form.value.name.newpw) {
+            this.alertConfirm2("New Password and ConfirmPassword does not Match!");
+        }
+        else {
+            this.loading = this.loadingCtrl.create({
+                content: 'Changing password...',
+            });
+            this.loading.present();
+            var urlSearchParams = new URLSearchParams();
+            urlSearchParams.append("grant_type", this.GlobalvarsProvider.grant_type);
+            var body = urlSearchParams.toString();
+            var header = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Headers */]();
+            header.append("Accept", "application/json");
+            header.append("Content-Type", "application/x-www-form-urlencoded");
+            header.append("Authorization", this.GlobalvarsProvider.gettoken());
+            var option = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["d" /* RequestOptions */]({ headers: header });
+            this.http.patch('http://api.riceupfarmers.org/api/user/changepass?oldpassword=' + this.form.value.name.oldpw + '&newpassword=' + this.form.value.name.newpw, body, option)
+                .map(function (response) { return response.json(); })
+                .subscribe(function (res) {
+                _this.temp = _this.form.value.name.rnewpw;
+                _this.form.value.name.rnewpw = '';
+                _this.form.value.name.newpw = '';
+                _this.form.value.name.oldpw = '';
+                _this.form.reset();
+                _this.loading.dismissAll();
+                _this.alertConfirm2(res.message);
+            });
+        }
+    };
+    ChangepassPage.prototype.alertConfirm2 = function (var2) {
+        var _this = this;
+        var alert = this.alertCtrl.create({
+            title: 'Alert',
+            message: var2,
+            buttons: [
+                {
+                    text: 'Dismiss',
+                    handler: function () {
+                        if (var2 == "Your password was updated successfully.") {
+                            _this.GlobalvarsProvider.password = _this.temp;
+                            _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_5__account_account__["a" /* AccountPage */]);
+                            _this.storage.set('password', _this.temp);
+                        }
+                        _this.form.reset();
+                        _this.form.value.name.rnewpw = '';
+                        _this.form.value.name.newpw = '';
+                        _this.form.value.name.oldpw = '';
+                    }
+                }
+            ]
+        });
+        alert.present();
+    };
+    return ChangepassPage;
+}());
+ChangepassPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        selector: 'page-changepass',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\changepass\changepass.html"*/'<!--\n\n  Generated template for the CpasswordPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n    <ion-navbar>\n\n        <ion-title>Change Password</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n   <form [formGroup]="form">\n\n    \n\n  <div formGroupName="name">\n\n      <ion-list>\n\n\n\n        <ion-item>\n\n          <ion-label  floating>Old Password</ion-label>\n\n          <ion-input type="password"  formControlName="oldpw"></ion-input>\n\n        </ion-item>\n\n\n\n\n\n\n\n        <ion-item>\n\n          <ion-label  floating>New Password</ion-label>\n\n          <ion-input type="password" formControlName="newpw"></ion-input>\n\n        </ion-item>\n\n\n\n        <ion-item>\n\n          <ion-label  floating>Confirm New Password</ion-label>\n\n          <ion-input type="password" formControlName="rnewpw"></ion-input>\n\n        </ion-item>\n\n\n\n      </ion-list>\n\n    </div>\n\n      <div padding>\n\n          <button ion-button block  (click)="calltoChange()">Change</button>\n\n      </div>\n\n  </form>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\changepass\changepass.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_6__ionic_storage__["b" /* Storage */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_4__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_3__providers_globalvars_globalvars__["a" /* GlobalvarsProvider */]])
+], ChangepassPage);
+
+//# sourceMappingURL=changepass.js.map
+
+/***/ }),
+
+/***/ 283:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UpdateaccountPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_globalvars_globalvars__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_leaflet__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_leaflet___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_leaflet__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__account_account__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__shipping_details_shipping_details__ = __webpack_require__(125);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+/**
+ * Generated class for the UpdateaccountPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var UpdateaccountPage = (function () {
+    function UpdateaccountPage(events, http, loadingCtrl, alertCtrl, navCtrl, navParams, GlobalvarsProvider) {
+        this.events = events;
+        this.http = http;
+        this.loadingCtrl = loadingCtrl;
+        this.alertCtrl = alertCtrl;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.GlobalvarsProvider = GlobalvarsProvider;
+        this.viewMode = "map";
+        this.viewMode2 = "list";
+        this.user = this.GlobalvarsProvider.loggeduser;
+        this.isfarmer = this.user.is_farmer;
+        this.test = this.user.is_farmer;
+        this.tempuser = this.user;
+        this.user.address = this.GlobalvarsProvider.activeaddressaddress2;
+        this.user.mobile_no = this.GlobalvarsProvider.activeaddressmobile2;
+    }
+    UpdateaccountPage.prototype.shipdetails = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_6__shipping_details_shipping_details__["a" /* ShippingDetailsPage */], {
+            id: 'ss', address: 'ss', mobile: 'ss'
+        });
+    };
+    UpdateaccountPage.prototype.showMarkers = function () {
+        if (this.user.address_lat != null) {
+            if (this.markersGroup) {
+                this.map.removeLayer(this.markersGroup);
+            }
+            this.markersGroup = __WEBPACK_IMPORTED_MODULE_3_leaflet___default.a.layerGroup([]);
+            var marker = __WEBPACK_IMPORTED_MODULE_3_leaflet___default.a.marker([this.user.address_lat, this.user.address_long]).on('click', function (event) { return console.log("map marker"); });
+            this.markersGroup.addLayer(marker);
+            this.map.addLayer(this.markersGroup);
+        }
+    };
+    UpdateaccountPage.prototype.showMap = function () {
+        var _this = this;
+        if (this.isfarmer == 1) {
+            setTimeout(function () {
+                if (_this.user.address_lat != null) {
+                    _this.map = __WEBPACK_IMPORTED_MODULE_3_leaflet___default.a.map("map2").setView([_this.user.address_lat, _this.user.address_long], 10);
+                    __WEBPACK_IMPORTED_MODULE_3_leaflet___default.a.tileLayer('https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png', {
+                        attribution: '&copy; techventures.ph'
+                    }).addTo(_this.map);
+                }
+                else {
+                    _this.map = __WEBPACK_IMPORTED_MODULE_3_leaflet___default.a.map("map2").setView([15.060377, 120.674492], 10);
+                    __WEBPACK_IMPORTED_MODULE_3_leaflet___default.a.tileLayer('https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png', {
+                        attribution: '&copy; techventures.ph'
+                    }).addTo(_this.map);
+                }
+                _this.showMarkers();
+                _this.map.locate({ setView: false, maxZoom: 10 });
+                _this.map.on('locationfound', function (e) {
+                    var radius = e.accuracy / 2;
+                    var popup = __WEBPACK_IMPORTED_MODULE_3_leaflet___default.a.popup();
+                    popup
+                        .setLatLng(e.latlng)
+                        .setContent("You are currently here!")
+                        .openOn(_this.map);
+                    __WEBPACK_IMPORTED_MODULE_3_leaflet___default.a.circle(e.latlng, radius).addTo(_this.map);
+                });
+                var popup = __WEBPACK_IMPORTED_MODULE_3_leaflet___default.a.popup();
+                _this.map.on('click', function (e) {
+                    popup
+                        .setLatLng(e.latlng)
+                        .setContent("<b>Selected Location</b><br>Coordinates: <br>lat: " + e.latlng.lat.toString() + "<br>lng: " + e.latlng.lng.toString())
+                        .openOn(_this.map);
+                    _this.user.address_long = e.latlng.lng;
+                    _this.user.address_lat = e.latlng.lat;
+                    //console.log(this.form.value.name.title);
+                });
+            });
+        }
+    };
+    UpdateaccountPage.prototype.createUser = function (user) {
+        this.events.publish('isfarm:created', user, this.GlobalvarsProvider.getgid());
+    };
+    UpdateaccountPage.prototype.update2 = function () {
+        var _this = this;
+        if (this.user.firstname != '' && this.user.lastname != '' && this.user.address != '' && this.user.mobile_no != '' && this.user.email != '') {
+            this.loading = this.loadingCtrl.create({
+                content: 'Updating Account Info...',
+            });
+            this.loading.present();
+            var urlSearchParams = new URLSearchParams();
+            urlSearchParams.append("grant_type", this.GlobalvarsProvider.grant_type);
+            var body = urlSearchParams.toString();
+            var header = new __WEBPACK_IMPORTED_MODULE_5__angular_http__["a" /* Headers */]();
+            header.append("Accept", "application/json");
+            header.append("Content-Type", "application/x-www-form-urlencoded");
+            header.append("Authorization", this.GlobalvarsProvider.gettoken());
+            this.user.is_farmer = this.isfarmer;
+            var option = new __WEBPACK_IMPORTED_MODULE_5__angular_http__["d" /* RequestOptions */]({ headers: header });
+            this.http.patch('http://api.riceupfarmers.org/api/user/update?firstname=' + this.user.firstname + '&middlename=' + this.user.middlename + '&lastname=' + this.user.lastname + '&address=' + this.user.address + '&address_lat=' + this.user.address_lat + '&address_long=' + this.user.address_long + '&bus_name=' + this.user.business_name + '&mobile_no=' + this.user.mobile_no + '&email=' + this.user.email + '&years_bus=' + this.user.years_in_business + '&is_farmer=' + this.isfarmer + '&history=' + this.user.history + '&years_farm=' + this.user.years_in_farming, body, option)
+                .map(function (response) { return response.json(); })
+                .subscribe(function (data) {
+                _this.loading.dismissAll();
+                _this.updateaddress();
+                _this.GlobalvarsProvider.loggeduser = _this.user;
+                _this.presentConfirm(data.message);
+                _this.createUser(_this.isfarmer);
+            }, function (error) {
+                console.log(error);
+                _this.presentAlert("No Internet Connection!");
+                _this.loading.dismissAll();
+            });
+        }
+        else {
+            this.user = this.tempuser;
+            console.log(this.tempuser);
+            this.presentAlert("Please Fill the Required Fields!");
+        }
+    };
+    UpdateaccountPage.prototype.updateaddress = function () {
+        var _this = this;
+        var urlSearchParams = new URLSearchParams();
+        urlSearchParams.append("passforpost", 'any');
+        var body = urlSearchParams.toString();
+        var header = new __WEBPACK_IMPORTED_MODULE_5__angular_http__["a" /* Headers */]();
+        header.append("Accept", "application/json");
+        header.append("Authorization", this.GlobalvarsProvider.gettoken());
+        var option = new __WEBPACK_IMPORTED_MODULE_5__angular_http__["d" /* RequestOptions */]({ headers: header });
+        this.http.patch('http://api.riceupfarmers.org/api/shippingdetail/' + this.GlobalvarsProvider.activeaddressid2, {
+            'address': this.user.address,
+            'address_lat': this.user.address_lat,
+            'address_long': this.user.address_long,
+            'mobile_no': this.user.mobile_no
+        }, option)
+            .map(function (response) { return response.json(); })
+            .subscribe(function (res) {
+            _this.GlobalvarsProvider.activeaddressaddress2 = _this.user.address;
+            _this.GlobalvarsProvider.activeaddressmobile2 = _this.user.mobile_no;
+            // this.alertConfirm2(res.message);
+        }, function (Error) {
+            console.log(Error);
+            _this.presentAlert("No Internet Connection!");
+        });
+    };
+    UpdateaccountPage.prototype.g = function () {
+        if (this.test == true) {
+            this.isfarmer = 1;
+            this.showMap();
+        }
+        else {
+            this.isfarmer = 0;
+        }
+    };
+    UpdateaccountPage.prototype.presentAlert = function (val) {
+        var alert = this.alertCtrl.create({
+            title: 'Alert',
+            subTitle: val,
+            buttons: ['Dismiss']
+        });
+        alert.present();
+    };
+    UpdateaccountPage.prototype.presentConfirm = function (val) {
+        var _this = this;
+        var alert = this.alertCtrl.create({
+            title: '',
+            message: val,
+            buttons: [
+                {
+                    text: 'Dismiss',
+                    handler: function () {
+                        _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__account_account__["a" /* AccountPage */]);
+                    }
+                }
+            ]
+        });
+        alert.present();
+    };
+    return UpdateaccountPage;
+}());
+UpdateaccountPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        selector: 'page-updateaccount',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\updateaccount\updateaccount.html"*/'<ion-header>\n\n    <ion-navbar>\n\n        <ion-title>Update Account</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n    <ion-card *ngIf="viewMode2===\'list\'">\n\n        <ion-list>\n\n                <ion-item>\n\n                  <ion-label  stacked>Username: (Cannot be edited)</ion-label>\n\n                  <ion-input [(ngModel)]="user.username" disabled="true"></ion-input>\n\n                  \n\n                  </ion-item>\n\n                    \n\n                  <ion-item>\n\n                  <ion-label  stacked>First Name:</ion-label>\n\n                  <ion-input [(ngModel)]="user.firstname" ></ion-input>\n\n                  </ion-item>\n\n\n\n			           <ion-item>\n\n                  <ion-label  stacked>Middle Name:</ion-label>\n\n                  <ion-input [(ngModel)]="user.middlename" ></ion-input>\n\n                  </ion-item>\n\n\n\n			           <ion-item>\n\n                  <ion-label  stacked>Last Name:</ion-label>\n\n                  <ion-input [(ngModel)]="user.lastname" ></ion-input>\n\n                  </ion-item>\n\n\n\n			            <ion-item>\n\n                  <ion-label  stacked>Address:</ion-label>\n\n                  <ion-input [(ngModel)]="user.address" ></ion-input>\n\n                  </ion-item>               \n\n\n\n			           <ion-item>\n\n                  <ion-label  stacked>Mobile Number:</ion-label>\n\n                  <ion-input [(ngModel)]="user.mobile_no" ></ion-input>\n\n                  </ion-item>\n\n\n\n                  <ion-item>\n\n                    <button ion-button class="submit-btn" block (click)="shipdetails()" style="height: 50px">Manage Shipping Details</button>\n\n                  </ion-item>  \n\n			             <ion-item>\n\n                  <ion-label  stacked>Email:</ion-label>\n\n                  <ion-input [(ngModel)]="user.email" ></ion-input>\n\n                  </ion-item>\n\n\n\n        </ion-list>\n\n\n\n        <button ion-button class="submit-btn" block  (click)="update2()">Update General Info</button>\n\n    </ion-card>\n\n    <div  *ngIf="viewMode2===\'map\'">\n\n           <ion-list>\n\n            <ion-item>\n\n              <ion-label>Activate/Deactivate being a farmer</ion-label>\n\n              <ion-toggle [(ngModel)]="test" (ionChange)="g();"></ion-toggle>\n\n            </ion-item>\n\n          </ion-list>\n\n            <div *ngIf="isfarmer===0" style="margin-top: 20px;margin-left: 10px;">\n\n                        Your farmer Info is not available.\n\n            </div>\n\n\n\n            <div  *ngIf="isfarmer===1">\n\n                <div style="width:100%;height:300px;" id="map2"></div>\n\n\n\n           <ion-item>\n\n                  <ion-label  stacked>Business Name:</ion-label>\n\n                <ion-input [(ngModel)]="user.business_name" ></ion-input>\n\n                  </ion-item>\n\n            <ion-item>\n\n                  <ion-label  stacked>Years in Business:</ion-label>\n\n                <ion-input [(ngModel)]="user.years_in_business" ></ion-input>\n\n                  </ion-item>\n\n            <ion-item>\n\n                  <ion-label  stacked>Years in Farming:</ion-label>\n\n                <ion-input [(ngModel)]="user.years_in_farming" ></ion-input>\n\n                  </ion-item>\n\n\n\n            </div>\n\n\n\n            <button ion-button class="submit-btn" block  (click)="update2()">Update Farmer Info</button>\n\n    </div>\n\n</ion-content>\n\n\n\n<ion-footer padding>\n\n    <ion-segment [(ngModel)]="viewMode2">\n\n        <ion-segment-button value="list">\n\n            General Info\n\n        </ion-segment-button>\n\n        <ion-segment-button value="map">\n\n            Farmer Info\n\n        </ion-segment-button>\n\n    </ion-segment>\n\n</ion-footer>'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\updateaccount\updateaccount.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* Events */], __WEBPACK_IMPORTED_MODULE_5__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_globalvars_globalvars__["a" /* GlobalvarsProvider */]])
+], UpdateaccountPage);
+
+//# sourceMappingURL=updateaccount.js.map
+
+/***/ }),
+
+/***/ 284:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PrivacyPolicyPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(16);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+/**
+ * Generated class for the PrivacyPolicyPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var PrivacyPolicyPage = (function () {
+    function PrivacyPolicyPage(platform, statusBar, splashScreen, toast, navCtrl, navParams) {
+        var _this = this;
+        this.platform = platform;
+        this.statusBar = statusBar;
+        this.splashScreen = splashScreen;
+        this.toast = toast;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.counter = 0;
+        platform.ready().then(function () {
+            statusBar.styleDefault();
+            splashScreen.hide();
+            platform.registerBackButtonAction(function () {
+                if (_this.counter == 0) {
+                    _this.counter++;
+                    _this.presentToast();
+                    setTimeout(function () { _this.counter = 0; }, 3000);
+                }
+                else {
+                    // console.log("exitapp");
+                    platform.exitApp();
+                }
+            }, 0);
+        });
+    }
+    PrivacyPolicyPage.prototype.presentToast = function () {
+        var toast = this.toast.create({
+            message: "Press again to exit",
+            duration: 3000,
+            position: "bottom"
+        });
+        toast.present();
+    };
+    return PrivacyPolicyPage;
+}());
+PrivacyPolicyPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        selector: 'page-privacy-policy',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\privacy-policy\privacy-policy.html"*/'<!--\n\n  Generated template for the TermsandagreementPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar><button ion-button menuToggle>\n\n            <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n    <ion-title>Privacy Policy</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n	<p>Effective date: November 1, 2018</p>\n\n  <p>\n\n	RiceUp Farmers Inc ("us", "we", or "our") operates the RiceUp mobile application (the "Service").</p>\n\n  <p>\n\n  This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data. Our Privacy Policy for RiceUp Farmers Inc is managed through <u>Free Privacy Policy</u>.</p>\n\n  <p>\n\n  We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions.\n\n</p>\n\n<h3>Information Collection And Use</h3>\n\n<p>\n\n  We collect several different types of information for various purposes to provide and improve our Service to you.\n\n</p>\n\n<h4>Types of Data Collected</h4>\n\n<p>Personal Data<br>\n\nWhile using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you ("Personal Data"). Personally identifiable information may include, but is not limited to:</p>\n\n\n\n<ul>\n\n  <li>Email address</li>\n\n  <li>First name and last name</li>\n\n  <li>Profile picture</li>\n\n  <li>Phone number</li>\n\n  <li>Address, State, Province, ZIP/Postal code, City</li>\n\n  <li>GPS Location</li>\n\n  <li>Cookies and Usage Data</li>\n\n</ul><p>\n\nUsage Data\n\n<br><br>\n\nWhen you access the Service by or through a mobile device, we may collect certain information automatically, including, but not limited to, the type of mobile device you use, your mobile device unique ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browser you use, unique device identifiers and other diagnostic data ("Usage Data").<br><br>\n\nTracking & Cookies Data<br><br>\n\nWe use cookies and similar tracking technologies to track the activity on our Service and hold certain information.<br>\n\nCookies are files with small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are beacons, tags, and scripts to collect and track information and to improve and analyze our Service.<br><br>\n\nYou can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.\n\n<br><br>\n\nExamples of Cookies we use:\n\n</p>\n\n\n\n<ul>\n\n  <li><b>Session Cookies</b>. We use Session Cookies to operate our Service.</li>\n\n  <li><b>Preference Cookies</b>. We use Preference Cookies to remember your preferences and various settings.</li>\n\n  <li><b>Security Cookies</b>. We use Security Cookies for security purposes.</li>\n\n</ul>\n\n<h3>\n\n  Use of Data\n\n</h3>\n\n<p>\n\n   RiceUp Farmers Inc uses the collected data for various purposes:\n\n   \n\n</p>\n\n<ul>\n\n     <li>To provide and maintain the Service</li>\n\n     <li>To notify you about changes to our Service\n\n</li>\n\n     <li>To allow you to participate in interactive features of our Service when you choose to do so\n\n</li>\n\n     <li>To provide customer care and support\n\n</li>\n\n     <li>To provide analysis or valuable information so that we can improve the Service</li>\n\n     <li>To monitor the usage of the Service</li>\n\n     <li>To detect, prevent and address technical issues</li>\n\n   </ul>\n\n<h3>Transfer Of Data\n\n</h3>\n\n<p>\n\n  Your information, including Personal Data, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.<br><br>\n\nIf you are located outside the Philippines and choose to provide information to us, please note that we transfer the data, including Personal Data, to the Philippines and process it there.<br><br>\n\nYour consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.<br><br>\n\nRiceUp Farmers Inc will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.\n\n\n\n</p>\n\n<h3>\n\n  Disclosure Of Data\n\n</h3>\n\n<p>Legal Requirements<br><br>\n\nRiceUp Farmers Inc may disclose your Personal Data in the good faith belief that such action is necessary to:\n\n</p>\n\n<ul>\n\n  <li>To comply with a legal obligation</li>\n\n  <li>To protect and defend the rights or property of RiceUp Farmers Inc</li>\n\n  <li>To prevent or investigate possible wrongdoing in connection with the Service</li>\n\n  <li>To protect the personal safety of users of the Service or the public</li>\n\n  <li>To protect against legal liability</li>\n\n</ul>\n\n<h3>Security Of Data</h3>\n\n<p>\n\n  The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.\n\n</p>\n\n<h3>Service Providers</h3>\n\n<p>We may employ third party companies and individuals to facilitate our Service ("Service Providers"), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used.<br>\n\nThese third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.<br><br>\n\nAnalytics\n\n<br><br>We may use third-party Service Providers to monitor and analyze the use of our Service.\n\n\n\n</p>\n\n<ul>\n\n  <li><b>Google Analytics</b></li>\n\n  <li>Google Analytics is a web analytics service offered by Google that tracks and reports website traffic. Google uses the data collected to track and monitor the use of our Service. This data is shared with other Google services. Google may use the collected data to contextualize and personalize the ads of its own advertising network.\n\n</li>\n\n  <li>You may opt-out of certain Google Analytics features through your mobile device settings, such as your device advertising settings or by following the instructions provided by Google in their Privacy Policy: <a href="https://policies.google.com/privacy?hl=en">https://policies.google.com/privacy?hl=en</a></li>\n\n  <li>\n\n    \n\n    For more information on the privacy practices of Google, please visit the Google Privacy & Terms web page: <a href="https://policies.google.com/privacy?hl=en">https://policies.google.com/privacy?hl=en</a>\n\n  </li>\n\n</ul>\n\n<h3>Links To Other Sites</h3>\n\n<p>\n\n  Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party\'s site. We strongly advise you to review the Privacy Policy of every site you visit.<br><br>\n\nWe have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.\n\n\n\n</p>\n\n<h3>\n\n  Children\'s Privacy\n\n</h3>\n\n<p>Our Service does not address anyone under the age of 18 ("Children").<br><br>\n\nWe do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.\n\n</p>\n\n<h3>Changes To This Privacy Policy</h3>\n\n<p>\n\n  We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.<br><br>\n\nWe will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective and update the "effective date" at the top of this Privacy Policy.<br><br>\n\nYou are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.\n\n\n\n</p>\n\n<h3>Contact Us\n\n</h3>\n\n<p>If you have any questions about this Privacy Policy, please contact us:</p>\n\n<ul>\n\n  <li>By email: <a href="mailto:riceupfilipino@gmail.com">riceupfilipino@gmail.com</a></li>\n\n  <li>By visiting this page on our website: <a href="https://www.riceupfarmers.org">https://www.riceupfarmers.org</a></li>\n\n</ul>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\privacy-policy\privacy-policy.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ToastController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */]])
+], PrivacyPolicyPage);
+
+//# sourceMappingURL=privacy-policy.js.map
+
+/***/ }),
+
+/***/ 287:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(288);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(304);
+
+
+Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 304:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__providers_auth_service_auth_service__ = __webpack_require__(136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(342);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_welcome_welcome__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_property_list_property_list__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_property_detail_property_detail__ = __webpack_require__(262);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_broker_list_broker_list__ = __webpack_require__(264);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_broker_detail_broker_detail__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_about_about__ = __webpack_require__(274);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_property_service_mock__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__providers_broker_service_mock__ = __webpack_require__(265);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ionic_native_status_bar__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__ionic_native_splash_screen__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_termsandagreement_termsandagreement__ = __webpack_require__(123);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_order_list_order_list__ = __webpack_require__(275);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_cart_cart__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__providers_globalvars_globalvars__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__ionic_native_camera__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__ionic_native_transfer__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__ionic_native_file__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__ionic_native_file_path__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_signup_signup__ = __webpack_require__(273);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_orderinfo_orderinfo__ = __webpack_require__(276);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_addproduct_addproduct__ = __webpack_require__(278);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_userproduct_userproduct__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_privacy_policy_privacy_policy__ = __webpack_require__(284);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pages_account_account__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pages_cartupdate_cartupdate__ = __webpack_require__(268);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pages_farmer_location_farmer_location__ = __webpack_require__(263);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pages_prouduct_detail_prouduct_detail__ = __webpack_require__(266);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__pages_updateproduct_updateproduct__ = __webpack_require__(279);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__pages_changepic_changepic__ = __webpack_require__(280);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__pages_profpic_profpic__ = __webpack_require__(281);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__pages_changepass_changepass__ = __webpack_require__(282);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__pages_updateaccount_updateaccount__ = __webpack_require__(283);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__pages_pickup_pickup__ = __webpack_require__(272);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__pages_productonly_productonly__ = __webpack_require__(277);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__pages_shipping_shipping__ = __webpack_require__(269);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__pages_shipping_details_shipping_details__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__pages_shipping_details_update_shipping_details_update__ = __webpack_require__(271);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__pages_shipping_details_add_shipping_details_add__ = __webpack_require__(270);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__pages_transact_packed_transact_packed__ = __webpack_require__(356);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__pages_transac_transac__ = __webpack_require__(357);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__pages_transactions_transactions__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__pages_dispatch_dispatch__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__ionic_native_network__ = __webpack_require__(285);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__ionic_native_background_mode__ = __webpack_require__(286);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__ionic_storage__ = __webpack_require__(62);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var AppModule = (function () {
+    function AppModule() {
+    }
+    return AppModule;
+}());
+AppModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_3__angular_core__["K" /* NgModule */])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */],
+            __WEBPACK_IMPORTED_MODULE_6__pages_welcome_welcome__["a" /* WelcomePage */],
+            __WEBPACK_IMPORTED_MODULE_11__pages_about_about__["a" /* AboutPage */],
+            __WEBPACK_IMPORTED_MODULE_7__pages_property_list_property_list__["a" /* PropertyListPage */], __WEBPACK_IMPORTED_MODULE_47__pages_dispatch_dispatch__["a" /* DispatchPage */],
+            __WEBPACK_IMPORTED_MODULE_8__pages_property_detail_property_detail__["a" /* PropertyDetailPage */], __WEBPACK_IMPORTED_MODULE_36__pages_changepass_changepass__["a" /* ChangepassPage */], __WEBPACK_IMPORTED_MODULE_37__pages_updateaccount_updateaccount__["a" /* UpdateaccountPage */], __WEBPACK_IMPORTED_MODULE_38__pages_pickup_pickup__["a" /* PickupPage */], __WEBPACK_IMPORTED_MODULE_40__pages_shipping_shipping__["a" /* ShippingPage */], __WEBPACK_IMPORTED_MODULE_45__pages_transac_transac__["a" /* TransacPage */],
+            __WEBPACK_IMPORTED_MODULE_9__pages_broker_list_broker_list__["a" /* BrokerListPage */], __WEBPACK_IMPORTED_MODULE_32__pages_prouduct_detail_prouduct_detail__["a" /* ProuductDetailPage */], __WEBPACK_IMPORTED_MODULE_34__pages_changepic_changepic__["a" /* ChangepicPage */], __WEBPACK_IMPORTED_MODULE_35__pages_profpic_profpic__["a" /* ProfpicPage */], __WEBPACK_IMPORTED_MODULE_39__pages_productonly_productonly__["a" /* ProductonlyPage */],
+            __WEBPACK_IMPORTED_MODULE_10__pages_broker_detail_broker_detail__["a" /* BrokerDetailPage */], __WEBPACK_IMPORTED_MODULE_26__pages_addproduct_addproduct__["a" /* AddproductPage */], __WEBPACK_IMPORTED_MODULE_27__pages_userproduct_userproduct__["a" /* UserproductPage */], __WEBPACK_IMPORTED_MODULE_25__pages_orderinfo_orderinfo__["a" /* OrderinfoPage */], __WEBPACK_IMPORTED_MODULE_28__pages_privacy_policy_privacy_policy__["a" /* PrivacyPolicyPage */], __WEBPACK_IMPORTED_MODULE_30__pages_cartupdate_cartupdate__["a" /* CartupdatePage */],
+            __WEBPACK_IMPORTED_MODULE_16__pages_termsandagreement_termsandagreement__["a" /* TermsandagreementPage */], __WEBPACK_IMPORTED_MODULE_17__pages_order_list_order_list__["a" /* OrderListPage */], __WEBPACK_IMPORTED_MODULE_18__pages_cart_cart__["a" /* CartPage */], __WEBPACK_IMPORTED_MODULE_24__pages_signup_signup__["a" /* SignupPage */], __WEBPACK_IMPORTED_MODULE_29__pages_account_account__["a" /* AccountPage */], __WEBPACK_IMPORTED_MODULE_31__pages_farmer_location_farmer_location__["a" /* FarmerLocationPage */], __WEBPACK_IMPORTED_MODULE_33__pages_updateproduct_updateproduct__["a" /* UpdateproductPage */],
+            __WEBPACK_IMPORTED_MODULE_41__pages_shipping_details_shipping_details__["a" /* ShippingDetailsPage */], __WEBPACK_IMPORTED_MODULE_42__pages_shipping_details_update_shipping_details_update__["a" /* ShippingDetailsUpdatePage */], __WEBPACK_IMPORTED_MODULE_43__pages_shipping_details_add_shipping_details_add__["a" /* ShippingDetailsAddPage */], __WEBPACK_IMPORTED_MODULE_44__pages_transact_packed_transact_packed__["a" /* TransactPackedPage */], __WEBPACK_IMPORTED_MODULE_46__pages_transactions_transactions__["a" /* TransactionsPage */]
+        ],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["a" /* BrowserModule */],
+            __WEBPACK_IMPORTED_MODULE_2__angular_http__["c" /* HttpModule */],
+            __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["g" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */], {}, {
+                links: []
+            }),
+            __WEBPACK_IMPORTED_MODULE_50__ionic_storage__["a" /* IonicStorageModule */].forRoot()
+        ],
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_4_ionic_angular__["e" /* IonicApp */]],
+        entryComponents: [
+            __WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */],
+            __WEBPACK_IMPORTED_MODULE_6__pages_welcome_welcome__["a" /* WelcomePage */],
+            __WEBPACK_IMPORTED_MODULE_11__pages_about_about__["a" /* AboutPage */], __WEBPACK_IMPORTED_MODULE_47__pages_dispatch_dispatch__["a" /* DispatchPage */],
+            __WEBPACK_IMPORTED_MODULE_7__pages_property_list_property_list__["a" /* PropertyListPage */], __WEBPACK_IMPORTED_MODULE_36__pages_changepass_changepass__["a" /* ChangepassPage */], __WEBPACK_IMPORTED_MODULE_37__pages_updateaccount_updateaccount__["a" /* UpdateaccountPage */], __WEBPACK_IMPORTED_MODULE_38__pages_pickup_pickup__["a" /* PickupPage */], __WEBPACK_IMPORTED_MODULE_39__pages_productonly_productonly__["a" /* ProductonlyPage */], __WEBPACK_IMPORTED_MODULE_40__pages_shipping_shipping__["a" /* ShippingPage */],
+            __WEBPACK_IMPORTED_MODULE_8__pages_property_detail_property_detail__["a" /* PropertyDetailPage */], __WEBPACK_IMPORTED_MODULE_34__pages_changepic_changepic__["a" /* ChangepicPage */], __WEBPACK_IMPORTED_MODULE_32__pages_prouduct_detail_prouduct_detail__["a" /* ProuductDetailPage */], __WEBPACK_IMPORTED_MODULE_33__pages_updateproduct_updateproduct__["a" /* UpdateproductPage */], __WEBPACK_IMPORTED_MODULE_35__pages_profpic_profpic__["a" /* ProfpicPage */], __WEBPACK_IMPORTED_MODULE_45__pages_transac_transac__["a" /* TransacPage */],
+            __WEBPACK_IMPORTED_MODULE_9__pages_broker_list_broker_list__["a" /* BrokerListPage */], __WEBPACK_IMPORTED_MODULE_26__pages_addproduct_addproduct__["a" /* AddproductPage */], __WEBPACK_IMPORTED_MODULE_27__pages_userproduct_userproduct__["a" /* UserproductPage */], __WEBPACK_IMPORTED_MODULE_25__pages_orderinfo_orderinfo__["a" /* OrderinfoPage */], __WEBPACK_IMPORTED_MODULE_28__pages_privacy_policy_privacy_policy__["a" /* PrivacyPolicyPage */], __WEBPACK_IMPORTED_MODULE_30__pages_cartupdate_cartupdate__["a" /* CartupdatePage */],
+            __WEBPACK_IMPORTED_MODULE_10__pages_broker_detail_broker_detail__["a" /* BrokerDetailPage */], __WEBPACK_IMPORTED_MODULE_16__pages_termsandagreement_termsandagreement__["a" /* TermsandagreementPage */], __WEBPACK_IMPORTED_MODULE_17__pages_order_list_order_list__["a" /* OrderListPage */], __WEBPACK_IMPORTED_MODULE_18__pages_cart_cart__["a" /* CartPage */], __WEBPACK_IMPORTED_MODULE_24__pages_signup_signup__["a" /* SignupPage */], __WEBPACK_IMPORTED_MODULE_29__pages_account_account__["a" /* AccountPage */], __WEBPACK_IMPORTED_MODULE_31__pages_farmer_location_farmer_location__["a" /* FarmerLocationPage */],
+            __WEBPACK_IMPORTED_MODULE_41__pages_shipping_details_shipping_details__["a" /* ShippingDetailsPage */], __WEBPACK_IMPORTED_MODULE_42__pages_shipping_details_update_shipping_details_update__["a" /* ShippingDetailsUpdatePage */], __WEBPACK_IMPORTED_MODULE_43__pages_shipping_details_add_shipping_details_add__["a" /* ShippingDetailsAddPage */], __WEBPACK_IMPORTED_MODULE_44__pages_transact_packed_transact_packed__["a" /* TransactPackedPage */], __WEBPACK_IMPORTED_MODULE_46__pages_transactions_transactions__["a" /* TransactionsPage */]
+        ],
+        providers: [
+            __WEBPACK_IMPORTED_MODULE_21__ionic_native_transfer__["a" /* Transfer */],
+            __WEBPACK_IMPORTED_MODULE_22__ionic_native_file__["a" /* File */],
+            __WEBPACK_IMPORTED_MODULE_20__ionic_native_camera__["a" /* Camera */],
+            __WEBPACK_IMPORTED_MODULE_23__ionic_native_file_path__["a" /* FilePath */],
+            __WEBPACK_IMPORTED_MODULE_14__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_15__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_0__providers_auth_service_auth_service__["a" /* AuthService */],
+            __WEBPACK_IMPORTED_MODULE_12__providers_property_service_mock__["a" /* PropertyService */],
+            __WEBPACK_IMPORTED_MODULE_13__providers_broker_service_mock__["a" /* BrokerService */], __WEBPACK_IMPORTED_MODULE_19__providers_globalvars_globalvars__["a" /* GlobalvarsProvider */], __WEBPACK_IMPORTED_MODULE_48__ionic_native_network__["a" /* Network */], __WEBPACK_IMPORTED_MODULE_49__ionic_native_background_mode__["a" /* BackgroundMode */],
+            { provide: __WEBPACK_IMPORTED_MODULE_3__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["f" /* IonicErrorHandler */] }
+        ]
+    })
+], AppModule);
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 342:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_termsandagreement_termsandagreement__ = __webpack_require__(123);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_property_list_property_list__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_broker_list_broker_list__ = __webpack_require__(264);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_cart_cart__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_welcome_welcome__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_about_about__ = __webpack_require__(274);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_order_list_order_list__ = __webpack_require__(275);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_globalvars_globalvars__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_userproduct_userproduct__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__angular_http__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_account_account__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_privacy_policy_privacy_policy__ = __webpack_require__(284);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ionic_native_network__ = __webpack_require__(285);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ionic_native_background_mode__ = __webpack_require__(286);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__ionic_storage__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_transactions_transactions__ = __webpack_require__(127);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var MyApp = (function () {
+    function MyApp(storage, backgroundMode, network, toast, alertCtrl, http, events, platform, statusBar, splashScreen, GlobalvarsProvider) {
+        var _this = this;
+        this.storage = storage;
+        this.backgroundMode = backgroundMode;
+        this.network = network;
+        this.toast = toast;
+        this.alertCtrl = alertCtrl;
+        this.http = http;
+        this.events = events;
+        this.platform = platform;
+        this.statusBar = statusBar;
+        this.splashScreen = splashScreen;
+        this.GlobalvarsProvider = GlobalvarsProvider;
+        this.counter = 0;
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_8__pages_welcome_welcome__["a" /* WelcomePage */];
+        this.name = null;
+        this.group = null;
+        this.timee = Math.random();
+        this.backgroundMode.enable();
+        this.initializeApp();
+        this.farmer = [
+            {
+                id: 1,
+                firstname: "Elton Bagne",
+                lastname: "Gwapo",
+                middlename: "617-244-3672",
+                business_name: "617-244-3672"
+            }
+        ];
+        events.subscribe('user:created', function (user, time) {
+            // user and time are the same arguments passed in `events.publish(user, time)`4
+            _this.farmer = user;
+            _this.GlobalvarsProvider.setloggeduser(user);
+            if (user.is_farmer == 1) {
+                _this.accountMenuItems = [
+                    { title: 'My Account', component: __WEBPACK_IMPORTED_MODULE_14__pages_account_account__["a" /* AccountPage */], icon: 'ios-contact' },
+                    { title: 'My Products', component: __WEBPACK_IMPORTED_MODULE_12__pages_userproduct_userproduct__["a" /* UserproductPage */], icon: 'archive' },
+                    { title: 'Transactions', component: __WEBPACK_IMPORTED_MODULE_19__pages_transactions_transactions__["a" /* TransactionsPage */], icon: 'md-done-all' },
+                ];
+            }
+            else {
+                _this.accountMenuItems = [
+                    { title: 'My Account', component: __WEBPACK_IMPORTED_MODULE_14__pages_account_account__["a" /* AccountPage */], icon: 'ios-contact' },
+                ];
+            }
+        });
+        events.subscribe('isfarm:created', function (user, time) {
+            // user and time are the same arguments passed in `events.publish(user, time)`4
+            _this.GlobalvarsProvider.setloggeduser2(user);
+            if (user == 1) {
+                _this.accountMenuItems = [
+                    { title: 'My Account', component: __WEBPACK_IMPORTED_MODULE_14__pages_account_account__["a" /* AccountPage */], icon: 'ios-contact' },
+                    { title: 'My Products', component: __WEBPACK_IMPORTED_MODULE_12__pages_userproduct_userproduct__["a" /* UserproductPage */], icon: 'archive' },
+                    { title: 'Transactions', component: __WEBPACK_IMPORTED_MODULE_19__pages_transactions_transactions__["a" /* TransactionsPage */], icon: 'md-done-all' },
+                ];
+            }
+            else {
+                _this.accountMenuItems = [
+                    { title: 'My Account', component: __WEBPACK_IMPORTED_MODULE_14__pages_account_account__["a" /* AccountPage */], icon: 'ios-contact' },
+                ];
+            }
+        });
+        events.subscribe('user:pic', function (user, time) {
+            _this.timee = Math.random();
+        });
+        this.appMenuItems = [
+            { title: 'Products', component: __WEBPACK_IMPORTED_MODULE_5__pages_property_list_property_list__["a" /* PropertyListPage */], icon: 'home' },
+            { title: 'Farmers', component: __WEBPACK_IMPORTED_MODULE_6__pages_broker_list_broker_list__["a" /* BrokerListPage */], icon: 'people' },
+            { title: 'Cart', component: __WEBPACK_IMPORTED_MODULE_7__pages_cart_cart__["a" /* CartPage */], icon: 'md-cart' },
+            { title: 'My Orders', component: __WEBPACK_IMPORTED_MODULE_10__pages_order_list_order_list__["a" /* OrderListPage */], icon: 'checkmark-circle' },
+        ];
+        this.helpMenuItems = [
+            { title: 'Terms and Conditions', component: __WEBPACK_IMPORTED_MODULE_4__pages_termsandagreement_termsandagreement__["a" /* TermsandagreementPage */], icon: 'bookmark' },
+            { title: 'Privacy Policy', component: __WEBPACK_IMPORTED_MODULE_15__pages_privacy_policy_privacy_policy__["a" /* PrivacyPolicyPage */], icon: 'ios-information-outline' },
+            { title: 'About', component: __WEBPACK_IMPORTED_MODULE_9__pages_about_about__["a" /* AboutPage */], icon: 'information-circle' },
+        ];
+    }
+    MyApp.prototype.presentToast = function () {
+        var toast = this.toast.create({
+            message: "Press again to exit",
+            duration: 3000,
+            position: "middle"
+        });
+        toast.present();
+    };
+    MyApp.prototype.displayNetworkUpdate = function (connectionState) {
+        var networkType = this.network.type;
+        this.toast.create({
+            message: "You are now " + connectionState + " via " + networkType,
+            duration: 3000
+        }).present();
+    };
+    MyApp.prototype.ionViewDidEnter = function () {
+        var _this = this;
+        this.network.onConnect().subscribe(function (data) {
+            console.log(data);
+            _this.displayNetworkUpdate(data.type);
+        }, function (error) { return console.error(error); });
+        this.network.onDisconnect().subscribe(function (data) {
+            console.log(data);
+            _this.displayNetworkUpdate(data.type);
+        }, function (error) { return console.error(error); });
+    };
+    MyApp.prototype.initializeApp = function () {
+        var _this = this;
+        this.platform.ready().then(function () {
+            // Okay, so the platform is ready and our plugins are available.
+            // Here you can do any higher level native things you might need.
+            _this.statusBar.styleLightContent();
+            _this.splashScreen.hide();
+        });
+    };
+    MyApp.prototype.openPage = function (page) {
+        // Reset the content nav to have just this page
+        // we wouldn't want the back button to show in this scenario
+        this.GlobalvarsProvider.setcredentials();
+        console.log(page.title);
+        this.nav.setRoot(page.component);
+    };
+    MyApp.prototype.alertConfirm = function () {
+        var _this = this;
+        var alert = this.alertCtrl.create({
+            title: 'Confirm Logout',
+            message: 'are you sure you want to Logout?',
+            buttons: [
+                {
+                    text: 'Cancel',
+                    role: 'cancel',
+                    handler: function () {
+                    }
+                },
+                {
+                    text: 'Yes',
+                    handler: function () {
+                        _this.nav.setRoot(__WEBPACK_IMPORTED_MODULE_8__pages_welcome_welcome__["a" /* WelcomePage */]);
+                        _this.storage.clear();
+                    }
+                }
+            ]
+        });
+        alert.present();
+    };
+    return MyApp;
+}());
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Nav */]),
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Nav */])
+], MyApp.prototype, "nav", void 0);
+MyApp = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\app\app.html"*/'<ion-menu [content]="content">\n\n\n\n  <ion-content>\n\n\n\n        <ion-card-content class="mainfarmer">            \n\n         <img src="http://riceupfarmers.org/wp-content/system/uploads/{{ farmer.id }}.jpg?{{timee}}"  onError="this.src=\'http://riceupfarmers.org/wp-content/system/user.jpg\';" />\n\n            <h2>{{farmer.lastname}}, {{farmer.firstname}} {{farmer.middlename}}</h2>\n\n            <h3>{{farmer.business_name}}</h3>\n\n        </ion-card-content>\n\n   \n\n    <ion-list>\n\n      <button menuClose ion-item *ngFor="let menuItem of appMenuItems" (click)="openPage(menuItem)">\n\n        <ion-icon item-left [name]="menuItem.icon"></ion-icon>\n\n        {{menuItem.title}}\n\n      </button>\n\n    </ion-list>\n\n\n\n    <ion-list>\n\n      <ion-list-header>\n\n        Help\n\n      </ion-list-header>\n\n      <button menuClose ion-item *ngFor="let menuItem of helpMenuItems" (click)="openPage(menuItem)">\n\n        <ion-icon item-left [name]="menuItem.icon"></ion-icon>\n\n        {{menuItem.title}}\n\n      </button>\n\n    </ion-list>\n\n\n\n    <ion-list>\n\n      <ion-list-header>\n\n        Account\n\n      </ion-list-header>\n\n      <button menuClose ion-item *ngFor="let menuItem of accountMenuItems" (click)="openPage(menuItem)">\n\n        <ion-icon item-left [name]="menuItem.icon"></ion-icon>\n\n        {{menuItem.title}}\n\n      </button>\n\n      <button menuClose ion-item (click)="alertConfirm()">\n\n        <ion-icon item-left  name="log-out"></ion-icon>\n\n        Logout\n\n      </button>\n\n    </ion-list>\n\n\n\n  </ion-content>\n\n\n\n</ion-menu>\n\n\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>\n\n'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\app\app.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_18__ionic_storage__["b" /* Storage */], __WEBPACK_IMPORTED_MODULE_17__ionic_native_background_mode__["a" /* BackgroundMode */], __WEBPACK_IMPORTED_MODULE_16__ionic_native_network__["a" /* Network */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ToastController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_13__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* Events */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_11__providers_globalvars_globalvars__["a" /* GlobalvarsProvider */]])
+], MyApp);
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 356:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TransactPackedPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_globalvars_globalvars__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__dispatch_dispatch__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_status_bar__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_splash_screen__ = __webpack_require__(16);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Generated class for the TransactPackedPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var TransactPackedPage = (function () {
+    function TransactPackedPage(platform, statusBar, splashScreen, toast, alertCtrl, loadingCtrl, GlobalvarsProvider, navParams, http, menu, navCtrl, config) {
+        var _this = this;
+        this.platform = platform;
+        this.statusBar = statusBar;
+        this.splashScreen = splashScreen;
+        this.toast = toast;
+        this.alertCtrl = alertCtrl;
+        this.loadingCtrl = loadingCtrl;
+        this.GlobalvarsProvider = GlobalvarsProvider;
+        this.navParams = navParams;
+        this.http = http;
+        this.menu = menu;
+        this.navCtrl = navCtrl;
+        this.config = config;
+        this.counter = 0;
+        platform.ready().then(function () {
+            statusBar.styleDefault();
+            splashScreen.hide();
+            platform.registerBackButtonAction(function () {
+                if (_this.counter == 0) {
+                    _this.counter++;
+                    _this.presentToast();
+                    setTimeout(function () { _this.counter = 0; }, 3000);
+                }
+                else {
+                    // console.log("exitapp");
+                    platform.exitApp();
+                }
+            }, 0);
+        });
+        this.loading = this.loadingCtrl.create({
+            content: 'Loading Product...',
+        });
+        this.loading.present();
+        this.GlobalvarsProvider.setcredentials();
+        var header = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Headers */]();
+        header.append("Accept", "application/json");
+        header.append("Authorization", this.GlobalvarsProvider.gettoken());
+        var option = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["d" /* RequestOptions */]({ headers: header });
+        this.http.get('http://api.riceupfarmers.org/api/ordersperfarmer/', option)
+            .map(function (response) { return response.json(); })
+            .subscribe(function (res) {
+            if (res.message == undefined) {
+                _this.orders = res;
+                console.log(res);
+            }
+            else {
+                _this.presentAlert(res.message);
+            }
+            _this.loading.dismissAll();
+        }, function (error) {
+            _this.loading.dismissAll();
+            _this.presentAlert("No Internet Connection!");
+        });
+    }
+    TransactPackedPage.prototype.presentToast = function () {
+        var toast = this.toast.create({
+            message: "Press again to exit",
+            duration: 3000,
+            position: "bottom"
+        });
+        toast.present();
+    };
+    TransactPackedPage.prototype.ionViewDidLoad = function () {
+    };
+    TransactPackedPage.prototype.presentAlert = function (val) {
+        var alert = this.alertCtrl.create({
+            title: 'Alert',
+            subTitle: val,
+            buttons: ['Dismiss']
+        });
+        alert.present();
+    };
+    TransactPackedPage.prototype.open = function (list) {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__dispatch_dispatch__["a" /* DispatchPage */], list);
+    };
+    TransactPackedPage.prototype.dispatch = function (id) {
+        var _this = this;
+        this.loading = this.loadingCtrl.create({
+            content: 'Dispatching Product...',
+        });
+        this.loading.present();
+        var urlSearchParams = new URLSearchParams();
+        urlSearchParams.append("grant_type", this.GlobalvarsProvider.grant_type);
+        var body = urlSearchParams.toString();
+        var header = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Headers */]();
+        header.append("Accept", "application/json");
+        header.append("Content-Type", "application/x-www-form-urlencoded");
+        header.append("Authorization", this.GlobalvarsProvider.gettoken());
+        var option = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["d" /* RequestOptions */]({ headers: header });
+        this.http.patch('http://api.riceupfarmers.org/api/product/dispatch/' + id, body, option)
+            .map(function (response) { return response.json(); })
+            .subscribe(function (data) {
+            if (data.message != undefined) {
+                _this.presentAlert(data.message);
+            }
+            else {
+                _this.presentAlert("Something went wrong!");
+            }
+            _this.loading.dismissAll();
+            _this.navCtrl.setRoot(_this.navCtrl.getActive().component);
+        }, function (Error) {
+            _this.presentAlert("No Internet Connection!");
+            _this.loading.dismissAll();
+        });
+    };
+    return TransactPackedPage;
+}());
+TransactPackedPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        selector: 'page-transact-packed',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\transact-packed\transact-packed.html"*/'<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n            <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n        <ion-title>Packed Transactions</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n<ion-tabs>\n\n  <ion-tab >\n\n        \n\n        <ion-list>\n\n        <ion-item-sliding *ngFor="let list of orders">\n\n            <div ion-item >\n\n                    <img src="http://riceupfarmers.org/wp-content/system/uploads/s{{ list.farmer_product.photo_url }}.jpg"  onError="this.src=\'http://riceupfarmers.org/wp-content/system/sproduct.jpg\';" style="width: 20px" style="float: left;margin-right: 5px;" />\n\n                <h3>{{list.farmer_product.product_name}}</h3>\n\n                <p>Price: P{{list.farmer_product.price_per_unit}} </p>\n\n                <p>Quantity: {{list.quantity}} </p>\n\n                <p>Stocks available: {{list.farmer_product.stocks_available}} </p>\n\n                <p  *ngIf="list.order.mode_of_shipping===0;">For Shipping</p>\n\n                <p  *ngIf="list.order.mode_of_shipping===1;">For Pick up</p>\n\n                \n\n                <div style="text-align: right;">\n\n\n\n                Total: P{{list.quantity * list.farmer_product.price_per_unit}}\n\n\n\n                </div>\n\n\n\n            </div>\n\n\n\n             <ion-item-options>\n\n                <button danger (click)="open(list)" class="green"> View Product </button>\n\n                <button danger (click)="dispatch(list.id)" class="blue"> Dispatch</button>\n\n            </ion-item-options>\n\n        </ion-item-sliding>\n\n        <!-- <ion-item-sliding>\n\n            <button ion-item>\n\n                <h3></h3>\n\n                <p></p>\n\n            <ion-note item-right>Total: P{{gtotal}}</ion-note>\n\n            </button>\n\n        </ion-item-sliding> -->\n\n    </ion-list>\n\n\n\n\n\n  </ion-tab>\n\n  <ion-tab ></ion-tab>\n\n  <ion-tab ></ion-tab>\n\n</ion-tabs>\n\n</ion-content>'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\transact-packed\transact-packed.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Platform */], __WEBPACK_IMPORTED_MODULE_5__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_6__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ToastController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_3__providers_globalvars_globalvars__["a" /* GlobalvarsProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* MenuController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Config */]])
+], TransactPackedPage);
+
+//# sourceMappingURL=transact-packed.js.map
+
+/***/ }),
+
+/***/ 357:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TransacPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_globalvars_globalvars__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__dispatch_dispatch__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_status_bar__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_splash_screen__ = __webpack_require__(16);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Generated class for the TransacPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var TransacPage = (function () {
+    function TransacPage(platform, statusBar, splashScreen, toast, alertCtrl, loadingCtrl, GlobalvarsProvider, navParams, http, menu, navCtrl, config) {
+        var _this = this;
+        this.platform = platform;
+        this.statusBar = statusBar;
+        this.splashScreen = splashScreen;
+        this.toast = toast;
+        this.alertCtrl = alertCtrl;
+        this.loadingCtrl = loadingCtrl;
+        this.GlobalvarsProvider = GlobalvarsProvider;
+        this.navParams = navParams;
+        this.http = http;
+        this.menu = menu;
+        this.navCtrl = navCtrl;
+        this.config = config;
+        this.counter = 0;
+        platform.ready().then(function () {
+            statusBar.styleDefault();
+            splashScreen.hide();
+            platform.registerBackButtonAction(function () {
+                if (_this.counter == 0) {
+                    _this.counter++;
+                    _this.presentToast();
+                    setTimeout(function () { _this.counter = 0; }, 3000);
+                }
+                else {
+                    // console.log("exitapp");
+                    platform.exitApp();
+                }
+            }, 0);
+        });
+        this.loading = this.loadingCtrl.create({
+            content: 'Loading Product...',
+        });
+        this.loading.present();
+        this.GlobalvarsProvider.setcredentials();
+        var header = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Headers */]();
+        header.append("Accept", "application/json");
+        header.append("Authorization", this.GlobalvarsProvider.gettoken());
+        var option = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["d" /* RequestOptions */]({ headers: header });
+        this.http.get('http://api.riceupfarmers.org/api/ordersperfarmer/', option)
+            .map(function (response) { return response.json(); })
+            .subscribe(function (res) {
+            if (res.message == undefined) {
+                _this.orders = res;
+                console.log(res);
+            }
+            else {
+                _this.presentAlert(res.message);
+            }
+            _this.loading.dismissAll();
+        }, function (error) {
+            _this.loading.dismissAll();
+            _this.presentAlert("No Internet Connection!");
+        });
+    }
+    TransacPage.prototype.presentToast = function () {
+        var toast = this.toast.create({
+            message: "Press again to exit",
+            duration: 3000,
+            position: "bottom"
+        });
+        toast.present();
+    };
+    TransacPage.prototype.ionViewDidLoad = function () {
+    };
+    TransacPage.prototype.presentAlert = function (val) {
+        var alert = this.alertCtrl.create({
+            title: 'Alert',
+            subTitle: val,
+            buttons: ['Dismiss']
+        });
+        alert.present();
+    };
+    TransacPage.prototype.open = function (list) {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__dispatch_dispatch__["a" /* DispatchPage */], list);
+    };
+    TransacPage.prototype.dispatch = function (id) {
+        var _this = this;
+        this.loading = this.loadingCtrl.create({
+            content: 'Dispatching Product...',
+        });
+        this.loading.present();
+        var urlSearchParams = new URLSearchParams();
+        urlSearchParams.append("grant_type", this.GlobalvarsProvider.grant_type);
+        var body = urlSearchParams.toString();
+        var header = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Headers */]();
+        header.append("Accept", "application/json");
+        header.append("Content-Type", "application/x-www-form-urlencoded");
+        header.append("Authorization", this.GlobalvarsProvider.gettoken());
+        var option = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["d" /* RequestOptions */]({ headers: header });
+        this.http.patch('http://api.riceupfarmers.org/api/product/dispatch/' + id, body, option)
+            .map(function (response) { return response.json(); })
+            .subscribe(function (data) {
+            if (data.message != undefined) {
+                _this.presentAlert(data.message);
+            }
+            else {
+                _this.presentAlert("Something went wrong!");
+            }
+            _this.loading.dismissAll();
+            _this.navCtrl.setRoot(_this.navCtrl.getActive().component);
+        }, function (Error) {
+            _this.presentAlert("No Internet Connection!");
+            _this.loading.dismissAll();
+        });
+    };
+    return TransacPage;
+}());
+TransacPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        selector: 'page-transac',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\transac\transac.html"*/'<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n            <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n        <ion-title>Pending Transactions</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n        <ion-list>\n\n        <ion-item-sliding *ngFor="let list of orders">\n\n            <div ion-item >\n\n                    <img src="http://riceupfarmers.org/wp-content/system/uploads/s{{ list.farmer_product.photo_url }}.jpg"  onError="this.src=\'http://riceupfarmers.org/wp-content/system/sproduct.jpg\';" style="width: 20px" style="float: left;margin-right: 5px;" />\n\n                <h3>{{list.farmer_product.product_name}}</h3>\n\n                <p>Price: P{{list.farmer_product.price_per_unit}} </p>\n\n                <p>Quantity: {{list.quantity}} </p>\n\n                <p>Stocks available: {{list.farmer_product.stocks_available}} </p>\n\n                <p  *ngIf="list.order.mode_of_shipping===0;">For Shipping</p>\n\n                <p  *ngIf="list.order.mode_of_shipping===1;">For Pick up</p>\n\n                \n\n                <div style="text-align: right;">\n\n\n\n                Total: P{{list.quantity * list.farmer_product.price_per_unit}}\n\n\n\n                </div>\n\n\n\n            </div>\n\n\n\n             <ion-item-options>\n\n                <button danger (click)="open(list)" class="green"> View Product </button>\n\n                <button danger (click)="dispatch(list.id)" class="blue"> Dispatch</button>\n\n            </ion-item-options>\n\n        </ion-item-sliding>\n\n        <!-- <ion-item-sliding>\n\n            <button ion-item>\n\n                <h3></h3>\n\n                <p></p>\n\n            <ion-note item-right>Total: P{{gtotal}}</ion-note>\n\n            </button>\n\n        </ion-item-sliding> -->\n\n    </ion-list>\n\n</ion-content>'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\transac\transac.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Platform */], __WEBPACK_IMPORTED_MODULE_5__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_6__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ToastController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_3__providers_globalvars_globalvars__["a" /* GlobalvarsProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* MenuController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Config */]])
+], TransacPage);
+
+//# sourceMappingURL=transac.js.map
+
+/***/ }),
+
+/***/ 37:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PropertyService; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_globalvars_globalvars__ = __webpack_require__(8);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var PropertyService = (function () {
+    function PropertyService(GlobalvarsProvider, http) {
+        var _this = this;
+        this.GlobalvarsProvider = GlobalvarsProvider;
+        this.http = http;
+        this.favoriteCounter = 0;
+        this.favorites = [];
+        this.GlobalvarsProvider.setcredentials();
+        var header = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]();
+        header.append("Accept", "application/json");
+        header.append("Authorization", this.GlobalvarsProvider.gettoken());
+        var option = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */]({ headers: header });
+        this.http.get('http://api.riceupfarmers.org/api/products', option)
+            .map(function (response) { return response.json(); })
+            .subscribe(function (res) {
+            _this.properties = res;
+        });
+    }
+    PropertyService.prototype.findAll = function () {
+        return Promise.resolve(this.properties);
+    };
+    PropertyService.prototype.findById = function (id) {
+        return Promise.resolve(this.properties[id - 1]);
+    };
+    PropertyService.prototype.findByName = function (searchKey) {
+        var key = searchKey.toUpperCase();
+        return Promise.resolve(this.properties.filter(function (property) {
+            return (property.product_name + ' ' + property.product_desc).toUpperCase().indexOf(key) > -1;
+        }));
+    };
+    PropertyService.prototype.getFavorites = function () {
+        return Promise.resolve(this.favorites);
+    };
+    PropertyService.prototype.favorite = function (property) {
+        this.favoriteCounter = this.favoriteCounter + 1;
+        this.favorites.push({ id: this.favoriteCounter, property: property });
+        return Promise.resolve();
+    };
+    PropertyService.prototype.unfavorite = function (favorite) {
+        var index = this.favorites.indexOf(favorite);
+        if (index > -1) {
+            this.favorites.splice(index, 1);
+        }
+        return Promise.resolve();
+    };
+    return PropertyService;
+}());
+PropertyService = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__providers_globalvars_globalvars__["a" /* GlobalvarsProvider */], __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */]])
+], PropertyService);
+
+//# sourceMappingURL=property-service-mock.js.map
+
+/***/ }),
+
+/***/ 48:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BrokerDetailPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__farmer_location_farmer_location__ = __webpack_require__(263);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(4);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var BrokerDetailPage = (function () {
+    function BrokerDetailPage(http, navCtrl, navParams) {
+        this.http = http;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.timee = Math.random();
+        this.timee = Math.random();
+        this.farmer = this.navParams.data;
+        console.log(this.farmer);
+    }
+    BrokerDetailPage.prototype.openloc = function (farmer) {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__farmer_location_farmer_location__["a" /* FarmerLocationPage */], farmer);
+    };
+    return BrokerDetailPage;
+}());
+BrokerDetailPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        selector: 'page-broker-detail',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\broker-detail\broker-detail.html"*/'<ion-header>\n\n    <ion-navbar>\n\n        <ion-title>Farmer</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="broker">\n\n\n\n    <ion-card>\n\n\n\n        <ion-card-content>\n\n            \n\n         <img src="http://riceupfarmers.org/wp-content/system/uploads/{{ farmer.id }}.jpg?{{timee}}"  alt="loading..."   onError="this.src=\'http://riceupfarmers.org/wp-content/system/user.jpg\';" />\n\n            <h2>{{farmer.lastname}}, {{farmer.firstname}} {{farmer.middlename}}</h2>\n\n            <h3>{{farmer.business_name}}</h3>\n\n        </ion-card-content>\n\n\n\n        <ion-list>\n\n            \n\n            <a href="tel:{{farmer.mobile_no}}" ion-item>\n\n                <ion-icon name="text" item-left></ion-icon>\n\n                <p>Call/Text</p>\n\n                <h2>{{farmer.first_shipping_detail.mobile_no}}</h2>\n\n            </a>\n\n            <a href="mailto:{{farmer.email}}" ion-item>\n\n                <ion-icon name="mail" item-left></ion-icon>\n\n                <p>Email</p>\n\n                <h2>{{farmer.email}}</h2>\n\n            </a>\n\n            <a href="#" ion-item>\n\n                <ion-icon name="calendar" item-left></ion-icon>\n\n                <p>Years in Business</p>\n\n                <h2>{{farmer.years_in_business}}</h2>\n\n            </a>\n\n            <a href="#" ion-item>\n\n                <ion-icon name="calendar" item-left></ion-icon>\n\n                <p>Years in Farming</p>\n\n                <h2>{{farmer.years_in_farming}}</h2>\n\n            </a>\n\n            <a href="#" ion-item>\n\n                <ion-icon name="pin" item-left></ion-icon>\n\n                <p>Address</p>\n\n                <h2 style="white-space: normal;">{{farmer.first_shipping_detail.shipping_address}}</h2>\n\n            </a>\n\n\n\n                <button ion-button block (click)="openloc(farmer.first_shipping_detail)">View Location</button>\n\n        </ion-list>\n\n\n\n    </ion-card>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\broker-detail\broker-detail.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */]])
+], BrokerDetailPage);
+
+//# sourceMappingURL=broker-detail.js.map
+
+/***/ }),
+
+/***/ 49:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CartPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_globalvars_globalvars__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__cartupdate_cartupdate__ = __webpack_require__(268);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__shipping_shipping__ = __webpack_require__(269);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pickup_pickup__ = __webpack_require__(272);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_status_bar__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_splash_screen__ = __webpack_require__(16);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Generated class for the CartPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var CartPage = CartPage_1 = (function () {
+    function CartPage(platform, statusBar, splashScreen, toast, loadingCtrl, alertCtrl, GlobalvarsProvider, menu, http, navCtrl, navParams) {
+        var _this = this;
+        this.platform = platform;
+        this.statusBar = statusBar;
+        this.splashScreen = splashScreen;
+        this.toast = toast;
+        this.loadingCtrl = loadingCtrl;
+        this.alertCtrl = alertCtrl;
+        this.GlobalvarsProvider = GlobalvarsProvider;
+        this.menu = menu;
+        this.http = http;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.counter = 0;
+        this.gtotal = 'No Items';
+        this.orderid = undefined;
+        platform.ready().then(function () {
+            statusBar.styleDefault();
+            splashScreen.hide();
+            platform.registerBackButtonAction(function () {
+                if (_this.counter == 0) {
+                    _this.counter++;
+                    _this.presentToast();
+                    setTimeout(function () { _this.counter = 0; }, 3000);
+                }
+                else {
+                    // console.log("exitapp");
+                    platform.exitApp();
+                }
+            }, 0);
+        });
+        this.loading = this.loadingCtrl.create({
+            content: 'Loading Cart...',
+        });
+        this.loading.present();
+    }
+    CartPage.prototype.presentToast = function () {
+        var toast = this.toast.create({
+            message: "Press again to exit",
+            duration: 3000,
+            position: "bottom"
+        });
+        toast.present();
+    };
+    CartPage.prototype.addq = function (pid, q, sa) {
+        var _this = this;
+        q += 1;
+        if (q > 0 && q <= sa) {
+            this.loading = this.loadingCtrl.create({
+                content: 'Updating quantity...',
+            });
+            this.loading.present();
+            var urlSearchParams = new URLSearchParams();
+            urlSearchParams.append("grant_type", this.GlobalvarsProvider.grant_type);
+            var body = urlSearchParams.toString();
+            var header = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Headers */]();
+            header.append("Accept", "application/json");
+            header.append("Content-Type", "application/x-www-form-urlencoded");
+            header.append("Authorization", this.GlobalvarsProvider.gettoken());
+            var option = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["d" /* RequestOptions */]({ headers: header });
+            this.http.patch('http://api.riceupfarmers.org/api/cart/update/' + pid + '?qty=' + q, body, option)
+                .map(function (response) { return response.json(); })
+                .subscribe(function (data) {
+                _this.loading.dismissAll();
+                _this.navCtrl.setRoot(CartPage_1);
+            }, function (Error) {
+                _this.loading.dismissAll();
+                _this.presentAlert("No Internet Connection!");
+            });
+        }
+        else {
+            this.presentAlert("Quantity must be greater than 0 and less than or equal to " + sa);
+        }
+    };
+    CartPage.prototype.subq = function (pid, q, sa) {
+        var _this = this;
+        q -= 1;
+        if (q > 0 && q <= sa) {
+            this.loading = this.loadingCtrl.create({
+                content: 'Updating quantity...',
+            });
+            this.loading.present();
+            var urlSearchParams = new URLSearchParams();
+            urlSearchParams.append("grant_type", this.GlobalvarsProvider.grant_type);
+            var body = urlSearchParams.toString();
+            var header = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Headers */]();
+            header.append("Accept", "application/json");
+            header.append("Content-Type", "application/x-www-form-urlencoded");
+            header.append("Authorization", this.GlobalvarsProvider.gettoken());
+            var option = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["d" /* RequestOptions */]({ headers: header });
+            this.http.patch('http://api.riceupfarmers.org/api/cart/update/' + pid + '?qty=' + q, body, option)
+                .map(function (response) { return response.json(); })
+                .subscribe(function (data) {
+                _this.loading.dismissAll();
+                _this.navCtrl.setRoot(CartPage_1);
+            }, function (Error) {
+                _this.loading.dismissAll();
+                _this.presentAlert("No Internet Connection!");
+            });
+        }
+        else {
+            this.presentAlert("Quantity must be greater than 0 and less than or equal to " + sa);
+        }
+    };
+    CartPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        var urlSearchParams = new URLSearchParams();
+        urlSearchParams.append("passforpost", 'any');
+        var body = urlSearchParams.toString();
+        var header = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Headers */]();
+        header.append("Accept", "application/json");
+        header.append("Authorization", this.GlobalvarsProvider.gettoken());
+        var option = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["d" /* RequestOptions */]({ headers: header });
+        this.http.post('http://api.riceupfarmers.org/api/order/new', body, option)
+            .map(function (response) { return response.json(); })
+            .subscribe(function (res) {
+            if (res.order_number[0] == undefined) {
+                _this.loading.dismissAll();
+                _this.navCtrl.setRoot(_this.navCtrl.getActive().component);
+            }
+            else {
+                var g = res.order_number[0].id;
+                _this.orderid = g;
+                _this.http.get('http://api.riceupfarmers.org/api/order/' + g, option)
+                    .map(function (response) { return response.json(); })
+                    .subscribe(function (rese) {
+                    _this.orders = rese.product_order;
+                    if (_this.orders != undefined) {
+                        console.log(rese);
+                        _this.rese = rese;
+                        _this.ord = rese.id;
+                        _this.gtotal = _this.gettotal(_this.orders);
+                        if (_this.gtotal != 0)
+                            _this.gtotal = "P" + _this.gtotal;
+                        else
+                            _this.gtotal = 'No Items';
+                    }
+                    else
+                        _this.presentAlert("No items in cart!");
+                    _this.loading.dismissAll();
+                }, function (error) {
+                    console.log(error);
+                    _this.loading.dismissAll();
+                    _this.presentAlert("No Internet Connection!");
+                });
+            }
+        }, function (error) {
+            _this.loading.dismissAll();
+            _this.presentAlert("No Internet Connection!");
+        });
+    };
+    CartPage.prototype.updatecart = function (property) {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__cartupdate_cartupdate__["a" /* CartupdatePage */], property);
+    };
+    CartPage.prototype.gettotal = function (gett) {
+        var total = 0;
+        for (var i = 0; i < gett.length; i++) {
+            total += (gett[i].farmer_product.price_per_unit * gett[i].quantity);
+        }
+        return total;
+    };
+    CartPage.prototype.presentAlert = function (val) {
+        var alert = this.alertCtrl.create({
+            title: 'Alert',
+            subTitle: val,
+            buttons: ['Dismiss']
+        });
+        alert.present();
+    };
+    CartPage.prototype.delcart = function (ids) {
+        var _this = this;
+        var alert = this.alertCtrl.create({
+            title: 'Confirm Remove',
+            message: 'Are you sure you want to remove the item in the cart?',
+            buttons: [
+                {
+                    text: 'Cancel',
+                    role: 'cancel',
+                    handler: function () {
+                    }
+                },
+                {
+                    text: 'Confirm',
+                    handler: function () {
+                        var header = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Headers */]();
+                        header.append("Accept", "application/json");
+                        header.append("Authorization", _this.GlobalvarsProvider.gettoken());
+                        var option = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["d" /* RequestOptions */]({ headers: header });
+                        _this.http.delete('http://api.riceupfarmers.org/api/cart/remove/' + ids, option)
+                            .map(function (response) { return response.json(); })
+                            .subscribe(function (res) {
+                            _this.navCtrl.setRoot(_this.navCtrl.getActive().component);
+                        });
+                    }
+                }
+            ]
+        });
+        alert.present();
+    };
+    CartPage.prototype.checkthisout = function () {
+        var _this = this;
+        if (this.gtotal != 'No Items') {
+            var alert_1 = this.alertCtrl.create({
+                title: 'Confirm Checkout',
+                message: "Are you sure you want to checkout the items in the cart?",
+                buttons: [
+                    {
+                        text: 'Cancel',
+                        role: 'cancel',
+                        handler: function () {
+                        }
+                    },
+                    {
+                        text: 'Confirm',
+                        handler: function () {
+                            var urlSearchParams = new URLSearchParams();
+                            urlSearchParams.append("passforpost", 'any');
+                            var body = urlSearchParams.toString();
+                            var header = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Headers */]();
+                            header.append("Accept", "application/json");
+                            header.append("Authorization", _this.GlobalvarsProvider.gettoken());
+                            var option = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["d" /* RequestOptions */]({ headers: header });
+                            _this.http.patch('http://api.riceupfarmers.org/api/order/checkout/' + _this.orderid + '?shipping_mode=0&order_status=1&remarks=', body, option)
+                                .map(function (response) { return response.json(); })
+                                .subscribe(function (res) {
+                                // this.alertConfirm2(res.message);
+                                _this.alertConfirm2(res.message);
+                            }, function (Error) {
+                                _this.presentAlert("Something went wrong!");
+                            });
+                        }
+                    }
+                ]
+            });
+            alert_1.present();
+        }
+        else {
+            this.presentAlert("No items in cart!");
+        }
+    };
+    CartPage.prototype.codorship = function () {
+        var _this = this;
+        if (this.gtotal != 'No Items') {
+            var prompt_1 = this.alertCtrl.create({
+                title: 'Select',
+                message: 'Type of acquiring the product',
+                inputs: [
+                    {
+                        type: 'radio',
+                        label: 'Pick up',
+                        value: 'pick'
+                    },
+                    {
+                        type: 'radio',
+                        label: 'Shipping',
+                        value: 'ship'
+                    }
+                ],
+                buttons: [
+                    {
+                        text: "Cancel",
+                        handler: function (data) {
+                        }
+                    },
+                    {
+                        text: "Ok",
+                        handler: function (data) {
+                            if (data == 'pick') {
+                                _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_6__pickup_pickup__["a" /* PickupPage */], _this.rese);
+                            }
+                            if (data == 'ship') {
+                                _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__shipping_shipping__["a" /* ShippingPage */], _this.rese);
+                            }
+                        }
+                    }
+                ]
+            });
+            prompt_1.present();
+        }
+        else {
+            this.presentAlert("Cart is Empty");
+        }
+    };
+    CartPage.prototype.alertConfirm2 = function (var2) {
+        var _this = this;
+        var alert = this.alertCtrl.create({
+            title: 'Checkout',
+            message: var2,
+            buttons: [
+                {
+                    text: 'Dismiss',
+                    handler: function () {
+                        _this.navCtrl.setRoot(_this.navCtrl.getActive().component);
+                    }
+                }
+            ]
+        });
+        alert.present();
+    };
+    return CartPage;
+}());
+CartPage = CartPage_1 = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        selector: 'page-cart',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\cart\cart.html"*/'<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n            <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n        <ion-title>Cart</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n        <ion-list>\n\n        <ion-item-sliding *ngFor="let list of orders">\n\n            <div ion-item>\n\n                    <img src="http://riceupfarmers.org/wp-content/system/uploads/s{{ list.farmer_product.photo_url }}.jpg"  onError="this.src=\'http://riceupfarmers.org/wp-content/system/sproduct.jpg\';" style="width: 30px" style="float: left;margin-right: 5px;" />\n\n                <h3>{{list.farmer_product.product_name}}</h3>\n\n                <p>P{{list.farmer_product.price_per_unit}} </p>\n\n                \n\n                <div style="text-align: right;">\n\n                <button ion-button style="width: 40px; height: 40px" (click)="subq(list.id,list.quantity,list.farmer_product.stocks_available)">\n\n                <ion-icon name="md-remove"></ion-icon></button>\n\n\n\n                {{list.quantity}}\n\n\n\n                <button ion-button style="width: 40px; height: 40px" (click)="addq(list.id,list.quantity,list.farmer_product.stocks_available)">\n\n                <ion-icon name="md-add"></ion-icon></button>\n\n                </div>\n\n\n\n            </div>\n\n            <ion-item-options>\n\n                <button danger (click)="updatecart(list)" class="green">View</button>\n\n                <button danger (click)="delcart(list.id)" class="red">Remove</button>\n\n            </ion-item-options>\n\n        </ion-item-sliding>\n\n        <ion-item-sliding>\n\n            <button ion-item>\n\n                <h3></h3>\n\n                <p></p>\n\n            <ion-note item-right>{{gtotal}}</ion-note>\n\n            </button>\n\n        </ion-item-sliding>\n\n    </ion-list>\n\n\n\n        <button ion-button class="submit-btn" block  (click)="codorship()"><ion-icon name="lock"></ion-icon> &nbsp;&nbsp;Place order</button>\n\n</ion-content>\n\n\n\n<ion-footer padding>\n\n    <ion-segment>\n\n        <p><b>Note:</b> Options will appear when you swipe left on the product.</p>\n\n    </ion-segment>\n\n</ion-footer>'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\cart\cart.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Platform */], __WEBPACK_IMPORTED_MODULE_7__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_8__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ToastController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_3__providers_globalvars_globalvars__["a" /* GlobalvarsProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* MenuController */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */]])
+], CartPage);
+
+var CartPage_1;
+//# sourceMappingURL=cart.js.map
+
+/***/ }),
+
+/***/ 50:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UserproductPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_globalvars_globalvars__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__addproduct_addproduct__ = __webpack_require__(278);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__updateproduct_updateproduct__ = __webpack_require__(279);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_status_bar__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_splash_screen__ = __webpack_require__(16);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Generated class for the UserproductPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var UserproductPage = (function () {
+    function UserproductPage(platform, statusBar, splashScreen, toast, alertCtrl, loadingCtrl, GlobalvarsProvider, navParams, http, menu, navCtrl, config) {
+        var _this = this;
+        this.platform = platform;
+        this.statusBar = statusBar;
+        this.splashScreen = splashScreen;
+        this.toast = toast;
+        this.alertCtrl = alertCtrl;
+        this.loadingCtrl = loadingCtrl;
+        this.GlobalvarsProvider = GlobalvarsProvider;
+        this.navParams = navParams;
+        this.http = http;
+        this.menu = menu;
+        this.navCtrl = navCtrl;
+        this.config = config;
+        this.counter = 0;
+        platform.ready().then(function () {
+            statusBar.styleDefault();
+            splashScreen.hide();
+            platform.registerBackButtonAction(function () {
+                if (_this.counter == 0) {
+                    _this.counter++;
+                    _this.presentToast();
+                    setTimeout(function () { _this.counter = 0; }, 3000);
+                }
+                else {
+                    // console.log("exitapp");
+                    platform.exitApp();
+                }
+            }, 0);
+        });
+        this.timee = Date.now();
+        this.pushPage = __WEBPACK_IMPORTED_MODULE_4__addproduct_addproduct__["a" /* AddproductPage */];
+        this.loading = this.loadingCtrl.create({
+            content: 'Loading Product...',
+        });
+        this.loading.present();
+        this.GlobalvarsProvider.setcredentials();
+        var header = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Headers */]();
+        header.append("Accept", "application/json");
+        header.append("Authorization", this.GlobalvarsProvider.gettoken());
+        var option = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["d" /* RequestOptions */]({ headers: header });
+        this.http.get('http://api.riceupfarmers.org/api/products/' + this.GlobalvarsProvider.loggeduser.id, option)
+            .map(function (response) { return response.json(); })
+            .subscribe(function (res) {
+            if (res.message == undefined) {
+                _this.products = res;
+            }
+            else {
+                _this.presentAlert(res.message);
+            }
+            _this.loading.dismissAll();
+        });
+    }
+    UserproductPage.prototype.presentToast = function () {
+        var toast = this.toast.create({
+            message: "Press again to exit",
+            duration: 3000,
+            position: "bottom"
+        });
+        toast.present();
+    };
+    UserproductPage.prototype.openPropertyDetail = function (property) {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__updateproduct_updateproduct__["a" /* UpdateproductPage */], property);
+    };
+    UserproductPage.prototype.delprod = function (ids) {
+        var _this = this;
+        var alert = this.alertCtrl.create({
+            title: 'Confirm Remove',
+            message: 'Are you sure you want to remove your Product?',
+            buttons: [
+                {
+                    text: 'Cancel',
+                    role: 'cancel',
+                    handler: function () {
+                    }
+                },
+                {
+                    text: 'Confirm',
+                    handler: function () {
+                        var header = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Headers */]();
+                        header.append("Accept", "application/json");
+                        header.append("Authorization", _this.GlobalvarsProvider.gettoken());
+                        var option = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["d" /* RequestOptions */]({ headers: header });
+                        _this.http.delete('http://api.riceupfarmers.org/api/product/remove/' + ids, option)
+                            .map(function (response) { return response.json(); })
+                            .subscribe(function (res) {
+                            _this.presentAlert('Product Deleted!');
+                            _this.navCtrl.setRoot(_this.navCtrl.getActive().component);
+                        });
+                    }
+                }
+            ]
+        });
+        alert.present();
+    };
+    UserproductPage.prototype.presentAlert = function (val) {
+        var alert = this.alertCtrl.create({
+            title: 'Alert',
+            subTitle: val,
+            buttons: ['Dismiss']
+        });
+        alert.present();
+    };
+    return UserproductPage;
+}());
+UserproductPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        selector: 'page-userproduct',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\userproduct\userproduct.html"*/'<ion-header>\n\n\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n            <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n        <ion-title>My Products</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="property-list">\n\n\n\n    <ion-list>\n\n\n\n        <ion-item-sliding *ngFor="let property of products">\n\n            <button ion-item (click)="openPropertyDetail(property)">\n\n                <ion-thumbnail item-left>\n\n                   <img src="http://riceupfarmers.org/wp-content/system/uploads/s{{ property.photo_url }}.jpg?{{timee}}" alt="loading..."   onError="this.src=\'http://riceupfarmers.org/wp-content/system/sproduct.jpg\';" />\n\n                </ion-thumbnail>\n\n                <h2>{{property.product_name}}</h2>\n\n                <p>{{property.product_desc }}</p>\n\n            </button>\n\n             <ion-item-options>\n\n                <button danger (click)="openPropertyDetail(property)" class="green"> Update </button>\n\n                <button danger (click)="delprod(property.id)" class="red">Remove</button>\n\n            </ion-item-options>\n\n        </ion-item-sliding>\n\n        <ion-item-sliding>\n\n            <button ion-item >\n\n                <ion-thumbnail item-left>\n\n                </ion-thumbnail>\n\n                <h2></h2>\n\n                <p></p>\n\n            </button>\n\n        </ion-item-sliding>\n\n        \n\n    </ion-list>\n\n     <ion-fab>\n\n        <button ion-fab  [navPush]="pushPage" clase="button-f"><ion-icon name="md-add"></ion-icon></button>\n\n     </ion-fab>\n\n</ion-content>\n\n\n\n\n\n<ion-footer padding>\n\n    <ion-segment>\n\n        <p><b>Note:</b> Options will appear when you swipe left on the product.</p>\n\n    </ion-segment>\n\n</ion-footer>\n\n'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\userproduct\userproduct.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Platform */], __WEBPACK_IMPORTED_MODULE_6__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_7__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ToastController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_3__providers_globalvars_globalvars__["a" /* GlobalvarsProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* MenuController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Config */]])
+], UserproductPage);
+
+//# sourceMappingURL=userproduct.js.map
+
+/***/ }),
+
+/***/ 51:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AccountPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__profpic_profpic__ = __webpack_require__(281);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_globalvars_globalvars__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__changepass_changepass__ = __webpack_require__(282);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__updateaccount_updateaccount__ = __webpack_require__(283);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_leaflet__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_leaflet___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_leaflet__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_status_bar__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_splash_screen__ = __webpack_require__(16);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Generated class for the AccountPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var AccountPage = (function () {
+    function AccountPage(alertCtrl, navCtrl, navParams, GlobalvarsProvider, platform, statusBar, splashScreen, toast) {
+        var _this = this;
+        this.alertCtrl = alertCtrl;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.GlobalvarsProvider = GlobalvarsProvider;
+        this.platform = platform;
+        this.statusBar = statusBar;
+        this.splashScreen = splashScreen;
+        this.toast = toast;
+        this.counter = 0;
+        this.option = '';
+        this.viewMode = "map";
+        this.viewMode2 = "list";
+        this.timee = Math.random();
+        platform.ready().then(function () {
+            statusBar.styleDefault();
+            splashScreen.hide();
+            platform.registerBackButtonAction(function () {
+                if (_this.counter == 0) {
+                    _this.counter++;
+                    _this.presentToast();
+                    setTimeout(function () { _this.counter = 0; }, 3000);
+                }
+                else {
+                    // console.log("exitapp");
+                    platform.exitApp();
+                }
+            }, 0);
+        });
+        this.user = this.GlobalvarsProvider.loggeduser;
+        this.user.address = this.GlobalvarsProvider.activeaddressaddress2;
+        this.user.mobile_no = this.GlobalvarsProvider.activeaddressmobile2;
+        this.timee = Math.random();
+        this.isfarmer = this.user.is_farmer;
+        console.log(this.user);
+    }
+    AccountPage.prototype.onSelectChange = function (selectedValue, id) {
+        if (this.GlobalvarsProvider.username == 'guest') {
+            this.presentAlert("Account Setting function is disabled for the guest account");
+        }
+        else {
+            if (selectedValue == 'a1') {
+                this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__updateaccount_updateaccount__["a" /* UpdateaccountPage */]);
+            }
+            if (selectedValue == 'a2') {
+                this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__profpic_profpic__["a" /* ProfpicPage */]);
+            }
+            if (selectedValue == 'a3') {
+                this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__changepass_changepass__["a" /* ChangepassPage */]);
+            }
+        }
+    };
+    AccountPage.prototype.presentAlert = function (val) {
+        var alert = this.alertCtrl.create({
+            title: 'Alert',
+            subTitle: val,
+            buttons: ['Dismiss']
+        });
+        alert.present();
+    };
+    AccountPage.prototype.presentToast = function () {
+        var toast = this.toast.create({
+            message: "Press again to exit",
+            duration: 3000,
+            position: "bottom"
+        });
+        toast.present();
+    };
+    AccountPage.prototype.showMarkers = function () {
+        if (this.markersGroup) {
+            this.map.removeLayer(this.markersGroup);
+        }
+        this.markersGroup = __WEBPACK_IMPORTED_MODULE_6_leaflet___default.a.layerGroup([]);
+        var marker = __WEBPACK_IMPORTED_MODULE_6_leaflet___default.a.marker([this.user.address_lat, this.user.address_long]).on('click', function (event) { return console.log("map marker"); });
+        this.markersGroup.addLayer(marker);
+        this.map.addLayer(this.markersGroup);
+    };
+    AccountPage.prototype.showMap = function () {
+        var _this = this;
+        this.map = null;
+        if (this.isfarmer == 1) {
+            setTimeout(function () {
+                _this.map = __WEBPACK_IMPORTED_MODULE_6_leaflet___default.a.map("map").setView([_this.user.address_lat, _this.user.address_long], 10);
+                __WEBPACK_IMPORTED_MODULE_6_leaflet___default.a.tileLayer('https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png', {
+                    attribution: '&copy; techventures.ph'
+                }).addTo(_this.map);
+                _this.showMarkers();
+                _this.map.locate({ setView: false, maxZoom: 10 });
+                _this.map.on('locationfound', function (e) {
+                    var radius = e.accuracy / 2;
+                    var popup = __WEBPACK_IMPORTED_MODULE_6_leaflet___default.a.popup();
+                    popup
+                        .setLatLng(e.latlng)
+                        .setContent("You are currently here!")
+                        .openOn(_this.map);
+                    __WEBPACK_IMPORTED_MODULE_6_leaflet___default.a.circle(e.latlng, radius).addTo(_this.map);
+                });
+            });
+        }
+    };
+    return AccountPage;
+}());
+AccountPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        selector: 'page-account',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\account\account.html"*/'<ion-header>\n\n\n\n    <ion-navbar>\n\n        \n\n        <button ion-button menuToggle>\n\n            <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n        <ion-title>My Account</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="broker">\n\n    <ion-fab top right edge>\n\n    <button ion-fab mini  style="background-color: #f4f4f4;color:#212121;"><ion-icon name="md-settings" >\n\n    </ion-icon>\n\n                    \n\n    </button>\n\n                    <ion-select  [(ngModel)]="option"  (ionChange)="onSelectChange($event)" style="width: 0 !important">\n\n                      <ion-option value="a1">Update Account</ion-option>\n\n                      <ion-option value="a2">Change Picture</ion-option>\n\n                      <ion-option value="a3">Change Password</ion-option>   \n\n                    </ion-select>\n\n  </ion-fab>\n\n    <ion-card  *ngIf="viewMode2===\'list\'">\n\n\n\n        <ion-card-content>\n\n            \n\n         <img src="http://riceupfarmers.org/wp-content/system/uploads/{{ user.id }}.jpg?{{timee}}" alt="loading..."  onError="this.src=\'http://riceupfarmers.org/wp-content/system/user.jpg\';" />\n\n\n\n            <h2>{{user.lastname}}, {{user.firstname}} {{user.middlename}}<br>({{user.username}})</h2>\n\n            <h3>{{user.business_name}}</h3>\n\n        </ion-card-content>\n\n\n\n        <ion-list>\n\n            <a href="tel:{{user.mobile_number}}" ion-item>\n\n                <ion-icon name="text" item-left></ion-icon>\n\n                <p>Call/Text</p>\n\n                <h2>{{user.mobile_no}}</h2>\n\n            </a>\n\n            <a href="mailto:{{user.email_address}}" ion-item>\n\n                <ion-icon name="mail" item-left></ion-icon>\n\n                <p>Email</p>\n\n                <h2>{{user.email}}</h2>\n\n            </a>\n\n            <a href="#" ion-item>\n\n                <ion-icon name="pin" item-left></ion-icon>\n\n                <p>Address</p>\n\n                <h2>{{user.address}}</h2>\n\n            </a>\n\n        </ion-list>\n\n    </ion-card>\n\n\n\n    <div  *ngIf="viewMode2===\'map\'">\n\n            <div *ngIf="isfarmer===0" style="margin-top: 20px;margin-left: 10px;">\n\n                        Your farmer Info is not available.\n\n            </div>\n\n\n\n            <div  *ngIf="isfarmer===1">\n\n                <div style="width:100%;height:300px;" id="map"></div>\n\n\n\n            <a href="#" ion-item>\n\n                <p>Business Name:</p>\n\n                <h2>{{user.business_name}}</h2>\n\n            </a>\n\n            <a href="#" ion-item>\n\n                <p>Years in Business:</p>\n\n                <h2>{{user.years_in_business}}</h2>\n\n            </a>\n\n            <a href="#" ion-item>\n\n                <p>Years in Farming:</p>\n\n                <h2>{{user.years_in_farming}}</h2>\n\n            </a>\n\n            </div>\n\n    </div>\n\n\n\n</ion-content>\n\n\n\n<ion-footer padding>\n\n    <ion-segment [(ngModel)]="viewMode2">\n\n        <ion-segment-button value="list">\n\n            General Info\n\n        </ion-segment-button>\n\n        <ion-segment-button value="map" (click)="showMap()">\n\n            Farmer Info\n\n        </ion-segment-button>\n\n    </ion-segment>\n\n</ion-footer>'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\account\account.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__providers_globalvars_globalvars__["a" /* GlobalvarsProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Platform */], __WEBPACK_IMPORTED_MODULE_7__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_8__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ToastController */]])
+], AccountPage);
+
+//# sourceMappingURL=account.js.map
+
+/***/ }),
+
+/***/ 67:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DispatchPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__transactions_transactions__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_globalvars_globalvars__ = __webpack_require__(8);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+/**
+ * Generated class for the DispatchPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var DispatchPage = (function () {
+    function DispatchPage(alertCtrl, http, loadingCtrl, GlobalvarsProvider, navCtrl, navParams) {
+        this.alertCtrl = alertCtrl;
+        this.http = http;
+        this.loadingCtrl = loadingCtrl;
+        this.GlobalvarsProvider = GlobalvarsProvider;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.timee = Math.random();
+        this.dis = this.navParams.data;
+        this.shipadd = 'forpickup';
+        this.contact = 'forpickup';
+        console.log(this.dis);
+        if (this.dis.order.mode_of_shipping == 1) {
+            this.shipadd = this.dis.order.shipping_detail.shipping_address;
+            this.contact = this.dis.order.shipping_detail.mobile_no;
+        }
+    }
+    DispatchPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad DispatchPage');
+    };
+    DispatchPage.prototype.dispatch = function (id) {
+        var _this = this;
+        this.loading = this.loadingCtrl.create({
+            content: 'Dispatching Product...',
+        });
+        this.loading.present();
+        var urlSearchParams = new URLSearchParams();
+        urlSearchParams.append("grant_type", this.GlobalvarsProvider.grant_type);
+        var body = urlSearchParams.toString();
+        var header = new __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Headers */]();
+        header.append("Accept", "application/json");
+        header.append("Content-Type", "application/x-www-form-urlencoded");
+        header.append("Authorization", this.GlobalvarsProvider.gettoken());
+        var option = new __WEBPACK_IMPORTED_MODULE_3__angular_http__["d" /* RequestOptions */]({ headers: header });
+        this.http.patch('http://api.riceupfarmers.org/api/product/dispatch/' + id, body, option)
+            .map(function (response) { return response.json(); })
+            .subscribe(function (data) {
+            if (data.message != undefined) {
+                _this.presentAlert(data.message);
+            }
+            else {
+                _this.presentAlert("Something went wrong!");
+            }
+            _this.loading.dismissAll();
+            _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__transactions_transactions__["a" /* TransactionsPage */]);
+        }, function (Error) {
+            _this.presentAlert("No Internet Connection!");
+            _this.loading.dismissAll();
+        });
+    };
+    DispatchPage.prototype.pack = function (id) {
+        var _this = this;
+        this.loading = this.loadingCtrl.create({
+            content: 'Changing Status...',
+        });
+        this.loading.present();
+        var urlSearchParams = new URLSearchParams();
+        urlSearchParams.append("grant_type", this.GlobalvarsProvider.grant_type);
+        var body = urlSearchParams.toString();
+        var header = new __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Headers */]();
+        header.append("Accept", "application/json");
+        header.append("Content-Type", "application/x-www-form-urlencoded");
+        header.append("Authorization", this.GlobalvarsProvider.gettoken());
+        var option = new __WEBPACK_IMPORTED_MODULE_3__angular_http__["d" /* RequestOptions */]({ headers: header });
+        this.http.patch('http://api.riceupfarmers.org/api/product/dispatch/' + id, body, option)
+            .map(function (response) { return response.json(); })
+            .subscribe(function (data) {
+            if (data.message != undefined) {
+                _this.presentAlert(data.message);
+            }
+            else {
+                _this.presentAlert("Something went wrong!");
+            }
+            _this.loading.dismissAll();
+            _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__transactions_transactions__["a" /* TransactionsPage */]);
+        }, function (Error) {
+            _this.presentAlert("No Internet Connection!");
+            _this.loading.dismissAll();
+        });
+    };
+    DispatchPage.prototype.presentAlert = function (val) {
+        var alert = this.alertCtrl.create({
+            title: 'Alert',
+            subTitle: val,
+            buttons: ['Dismiss']
+        });
+        alert.present();
+    };
+    return DispatchPage;
+}());
+DispatchPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        selector: 'page-dispatch',template:/*ion-inline-start:"C:\Users\user\Desktop\projects\riceup\src\pages\dispatch\dispatch.html"*/'<!--\n\n  Generated template for the DispatchPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Ordered Product</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n<ion-list>\n\n\n\n        <ion-item-sliding>\n\n            <button ion-item>\n\n                <ion-thumbnail item-left>\n\n                    <img src="http://riceupfarmers.org/wp-content/system/uploads/s{{ dis.farmer_product.photo_url }}.jpg?{{timee}}" alt="loading..."   onError="this.src=\'http://riceupfarmers.org/wp-content/system/product.jpg\';" />\n\n                </ion-thumbnail>\n\n                <h2>{{dis.farmer_product.product_name}}</h2>\n\n                <p text-wrap>{{dis.farmer_product.product_desc}}</p>\n\n            </button>\n\n        </ion-item-sliding>\n\n\n\n            <ion-item>\n\n                <ion-icon item-left name="ios-archive"></ion-icon>\n\n                <h3>Stocks</h3>\n\n                <ion-note item-right>{{dis.farmer_product.stocks_available}}</ion-note>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-icon item-left name="ios-clipboard"></ion-icon>\n\n                <h3>Unit Type</h3>\n\n                <ion-note item-right>{{dis.farmer_product.unit_type}}</ion-note>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-icon item-left name="pricetag"></ion-icon>\n\n                <h3>Price Per Unit</h3>\n\n                <ion-note item-right>{{dis.farmer_product.price_per_unit}}</ion-note>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-icon item-left name="md-calendar"></ion-icon>\n\n                <h3>Date of Harvest</h3>\n\n                <ion-note item-right>{{dis.farmer_product.date_of_harvest}}</ion-note>\n\n            </ion-item>\n\n\n\n    </ion-list>\n\n    <ion-card>\n\n    	<ion-item-sliding>\n\n            <button ion-item>\n\n                <ion-thumbnail item-left>\n\n                    <img src="http://riceupfarmers.org/wp-content/system/uploads/{{ dis.order.user.id }}.jpg?{{timee}}" alt="loading..."  onError="this.src=\'http://riceupfarmers.org/wp-content/system/user.jpg\';"  />\n\n                </ion-thumbnail>\n\n                <h2 text-wrap>Ordered By: <b>{{dis.order.user.firstname}} {{dis.order.user.middlename}} {{dis.order.user.lastname}}</b></h2>\n\n            </button>\n\n        </ion-item-sliding>\n\n                <p>&nbsp;&nbsp;Order #: {{dis.order.order_number}}</p>\n\n                <p>&nbsp;&nbsp;Price: P{{dis.farmer_product.price_per_unit}} </p>\n\n                <p>&nbsp;&nbsp;Quantity: {{dis.quantity}} </p>\n\n                <p>&nbsp;&nbsp;Stocks available: {{dis.farmer_product.stocks_available}} </p>\n\n    	<h3 *ngIf="dis.order.mode_of_shipping===0;" >&nbsp;&nbsp;<b>For Pick up</b></h3>\n\n        <h3 *ngIf="dis.order.mode_of_shipping===1;">&nbsp;&nbsp;<b>For Shipping</b></h3>\n\n            <div *ngIf="dis.order.mode_of_shipping===1;">\n\n                <p>&nbsp;&nbsp;Address: {{dis.order.shipping_detail.shipping_address}}</p>\n\n                <p>&nbsp;&nbsp;Contact #: {{dis.order.shipping_detail.mobile_no}}</p>\n\n            </div>\n\n        <div style="text-align: right;">\n\n\n\n                Total: P{{dis.quantity * dis.farmer_product.price_per_unit}}&nbsp;&nbsp;\n\n\n\n                </div><br>\n\n    </ion-card>\n\n\n\n        <button ion-button class="submit-btn" block  (click)="pack(dis.id)"  *ngIf="dis.current_status.product_status===0">Pack</button>\n\n        <button ion-button class="submit-btn" block  (click)="dispatch(dis.id)"  *ngIf="dis.current_status.product_status===1">Dispatch</button>\n\n</ion-content>'/*ion-inline-end:"C:\Users\user\Desktop\projects\riceup\src\pages\dispatch\dispatch.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_3__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_4__providers_globalvars_globalvars__["a" /* GlobalvarsProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */]])
+], DispatchPage);
+
+//# sourceMappingURL=dispatch.js.map
+
+/***/ }),
+
+/***/ 8:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GlobalvarsProvider; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+/*
+  Generated class for the GlobalvarsProvider provider.
+
+  See https://angular.io/docs/ts/latest/guide/dependency-injection.html
+  for more info on providers and Angular 2 DI.
+*/
+var GlobalvarsProvider = (function () {
+    function GlobalvarsProvider(http) {
+        this.http = http;
+        this.grant_type = 'password';
+        this.client_id = '2';
+        this.client_secret = 'uzyd8xUn9UeaQaMB8hfghABzvAFJZE8Djc4JcJlu';
+        this.username = null;
+        this.password = null;
+        this.scope = '';
+    }
+    GlobalvarsProvider.prototype.getgid = function () {
+        return this.globalid;
+    };
+    GlobalvarsProvider.prototype.setloggeduser = function (user) {
+        this.loggeduser = user;
+    };
+    GlobalvarsProvider.prototype.setloggeduser2 = function (user) {
+        this.loggeduser.is_farmer = user;
+    };
+    GlobalvarsProvider.prototype.setgid = function (gid) {
+        this.globalid = gid;
+    };
+    GlobalvarsProvider.prototype.gettoken = function () {
+        return this.token;
+    };
+    GlobalvarsProvider.prototype.settoken = function (token) {
+        this.token = token;
+    };
+    GlobalvarsProvider.prototype.setcredentials = function () {
+        var _this = this;
+        var urlSearchParams = new URLSearchParams();
+        urlSearchParams.append("grant_type", this.grant_type);
+        urlSearchParams.append("client_id", this.client_id);
+        urlSearchParams.append("client_secret", this.client_secret);
+        urlSearchParams.append("username", this.username);
+        urlSearchParams.append("password", this.password);
+        urlSearchParams.append("scope", this.scope);
+        var body = urlSearchParams.toString();
+        var header = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]();
+        header.append("Content-Type", "application/x-www-form-urlencoded");
+        header.append("Accept", "application/json");
+        var option = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */]({ headers: header });
+        this.http.post('http://api.riceupfarmers.org/oauth/token', body, option)
+            .map(function (response) { return response.json(); })
+            .subscribe(function (data) {
+            _this.settoken(data.token_type + " " + data.access_token);
+        }, function (error) {
+            alert(error);
+        });
+    };
+    return GlobalvarsProvider;
+}());
+GlobalvarsProvider = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */]])
+], GlobalvarsProvider);
+
+//# sourceMappingURL=globalvars.js.map
+
+/***/ })
+
+},[287]);
+//# sourceMappingURL=main.js.map
